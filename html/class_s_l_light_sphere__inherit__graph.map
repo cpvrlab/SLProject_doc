@@ -1,0 +1,6 @@
+<map id="SLLightSphere" name="SLLightSphere">
+<area shape="rect" id="node2" href="$class_s_l_node.html" title="SLNode represents a node in a hierarchical scene graph. " alt="" coords="70,80,140,107"/>
+<area shape="rect" id="node3" href="$class_s_l_object.html" title="Base class for all other classes. " alt="" coords="5,5,83,32"/>
+<area shape="rect" id="node4" href="$class_s_l_event_handler.html" title="Virtual Eventhandler class. " alt="" coords="107,5,225,32"/>
+<area shape="rect" id="node5" href="$class_s_l_light.html" title="Abstract Light class for OpenGL light sources. " alt="" coords="165,80,232,107"/>
+</map>
