@@ -50,5 +50,6 @@ var class_s_l_quat4 =
     [ "_w", "class_s_l_quat4.html#a482d0e36f19bb21dfcf304ff5678d4f7", null ],
     [ "_x", "class_s_l_quat4.html#abe760a5e7a46c0464325e8ce31754dd4", null ],
     [ "_y", "class_s_l_quat4.html#af18a61d75d73bd8aa7deeaf0d9643883", null ],
-    [ "_z", "class_s_l_quat4.html#a9e123d6659a603bdd2d10b7efab7e86f", null ]
+    [ "_z", "class_s_l_quat4.html#a9e123d6659a603bdd2d10b7efab7e86f", null ],
+    [ "IDENTITY", "class_s_l_quat4.html#aa4c3d735d552fcc32e396e7644e3bf7b", null ]
 ];

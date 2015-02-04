@@ -5,9 +5,9 @@
 <area shape="rect" id="node9" href="$class_s_l_image.html" title="Small image class for loading JPG, PNG, BMP, TGA and saving PNG files. " alt="" coords="146,157,222,184"/>
 <area shape="rect" id="node10" href="$class_s_l_material.html" title="Defines a standard CG material with textures and a shader program. " alt="" coords="141,208,227,235"/>
 <area shape="rect" id="node11" href="$class_s_l_mesh.html" title="An SLMesh object is a triangulated mesh that is drawn with one draw call. " alt="" coords="149,259,219,285"/>
-<area shape="rect" id="node22" href="$class_s_l_node.html" title="SLNode represents a node in a hierarchical scene graph. " alt="" coords="149,461,219,488"/>
-<area shape="rect" id="node29" href="$class_s_l_scene.html" title="The SLScene class represents the top level instance holding the scene structure. " alt="" coords="146,512,222,539"/>
-<area shape="rect" id="node30" href="$class_s_l_scene_view.html" title="SceneView class represents a dynamic real time 3D view onto the scene. " alt="" coords="131,563,237,589"/>
+<area shape="rect" id="node22" href="$class_s_l_node.html" title="SLNode represents a node in a hierarchical scene graph. " alt="" coords="149,487,219,513"/>
+<area shape="rect" id="node30" href="$class_s_l_scene.html" title="The SLScene class represents the top level instance holding the scene structure. " alt="" coords="146,537,222,564"/>
+<area shape="rect" id="node31" href="$class_s_l_scene_view.html" title="SceneView class represents a dynamic real time 3D view onto the scene. " alt="" coords="131,588,237,615"/>
 <area shape="rect" id="node3" href="$class_s_l_g_l_generic_program.html" title="Generic Shader Program class inherited from SLGLProgram. " alt="" coords="286,5,439,32"/>
 <area shape="rect" id="node6" href="$class_s_l_raytracer.html" title="SLRaytracer hold all the methods for Whitted style Ray Tracing. " alt="" coords="315,56,411,83"/>
 <area shape="rect" id="node8" href="$class_s_l_tex_font.html" title="Texture Font class inherits SLGLTexture for alpha blended font rendering. " alt="" coords="319,107,406,133"/>
@@ -27,5 +27,6 @@
 <area shape="rect" id="node25" href="$class_s_l_joint.html" title="Specialized SLNode that represents a single joint (or bone) in a skeleton. " alt="" coords="329,512,396,539"/>
 <area shape="rect" id="node26" href="$class_s_l_light_rect.html" title="Light node class for a rectangular light source. " alt="" coords="315,563,410,589"/>
 <area shape="rect" id="node27" href="$class_s_l_light_sphere.html" title="SLLightSphere class for a spherical light source. " alt="" coords="307,613,418,640"/>
-<area shape="rect" id="node28" href="$class_s_l_text.html" title="SLText creates a mesh using a textured font from SLTexFont. " alt="" coords="331,664,395,691"/>
+<area shape="rect" id="node28" href="$class_s_l_scene_node.html" title="SLSceneNode represents a node in the scene graph and is a specialization of SLNode. " alt="" coords="309,664,417,691"/>
+<area shape="rect" id="node29" href="$class_s_l_text.html" title="SLText creates a mesh using a textured font from SLTexFont. " alt="" coords="331,715,395,741"/>
 </map>

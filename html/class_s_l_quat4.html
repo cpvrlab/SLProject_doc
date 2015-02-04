@@ -71,6 +71,7 @@ $(document).ready(function(){initNavTree('class_s_l_quat4.html','');});
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_s_l_quat4-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -187,6 +188,11 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:abe2acec807a4b8f7e044b22ff7aa1ad8"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_s_l_quat4.html">SLQuat4</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_quat4.html#abe2acec807a4b8f7e044b22ff7aa1ad8">fromLookRotation</a> (const <a class="el" href="class_s_l_vec3.html">SLVec3</a>&lt; T &gt; &amp;forward, const <a class="el" href="class_s_l_vec3.html">SLVec3</a>&lt; T &gt; &amp;up)</td></tr>
 <tr class="separator:abe2acec807a4b8f7e044b22ff7aa1ad8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:aa4c3d735d552fcc32e396e7644e3bf7b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_s_l_quat4.html">SLQuat4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_quat4.html#aa4c3d735d552fcc32e396e7644e3bf7b">IDENTITY</a> = <a class="el" href="class_s_l_quat4.html">SLQuat4</a>&lt;T&gt;(0.0f, 0.0f, 0.0f, 1.0f)</td></tr>
+<tr class="separator:aa4c3d735d552fcc32e396e7644e3bf7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:abe760a5e7a46c0464325e8ce31754dd4"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_quat4.html#abe760a5e7a46c0464325e8ce31754dd4">_x</a></td></tr>
@@ -203,7 +209,7 @@ Private Attributes</h2></td></tr>
 class SLQuat4&lt; T &gt;</h3>
 
 <p>Quaternion class for angle-axis rotation representation. </p>
-<p>Quaternion class for angle-axis rotation representation. For rotations quaternions must have unit length. See <a href="http://en.wikipedia.org/wiki/Quaternion">http://en.wikipedia.org/wiki/Quaternion</a> Quaternions can be interpolated at low cost with the method lerp or slerp. </p><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000016">Todo:</a></b></dt><dd>Add more doxygen documentation. </dd></dl>
+<p>Quaternion class for angle-axis rotation representation. For rotations quaternions must have unit length. See <a href="http://en.wikipedia.org/wiki/Quaternion">http://en.wikipedia.org/wiki/Quaternion</a> Quaternions can be interpolated at low cost with the method lerp or slerp. </p><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000011">Todo:</a></b></dt><dd>Add more doxygen documentation. </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="aba1617e433df5ec9f7864bd1067c287a"></a>
 <div class="memitem">
@@ -1204,7 +1210,7 @@ template&lt;class T&gt; </div>
 </div><div class="memdoc">
 
 <p>Spherical linear interpolation. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000017">Todo:</a></b></dt><dd>clean up the code below and find a working algorithm (or check the original shoemake implementation for errors) </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000012">Todo:</a></b></dt><dd>clean up the code below and find a working algorithm (or check the original shoemake implementation for errors) </dd></dl>
 
 </div>
 </div>
@@ -1528,6 +1534,28 @@ template&lt;class T&gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="aa4c3d735d552fcc32e396e7644e3bf7b"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_s_l_quat4.html">SLQuat4</a>&lt; T &gt; <a class="el" href="class_s_l_quat4.html">SLQuat4</a>&lt; T &gt;::IDENTITY = <a class="el" href="class_s_l_quat4.html">SLQuat4</a>&lt;T&gt;(0.0f, 0.0f, 0.0f, 1.0f)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="_s_l_quat4_8h.html">SLQuat4.h</a></li>
 </ul>
@@ -1537,7 +1565,7 @@ template&lt;class T&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_s_l_quat4.html">SLQuat4</a></li>
-    <li class="footer">Generated on Tue Feb 3 2015 13:05:17 for SLProject by
+    <li class="footer">Generated on Wed Feb 4 2015 13:57:17 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

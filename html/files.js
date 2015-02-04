@@ -209,6 +209,7 @@ var files =
     [ "SLScene.cpp", "_s_l_scene_8cpp.html", null ],
     [ "SLScene.h", "_s_l_scene_8h.html", "_s_l_scene_8h" ],
     [ "SLScene_onLoad.cpp", "_s_l_scene__on_load_8cpp.html", "_s_l_scene__on_load_8cpp" ],
+    [ "SLSceneNode.h", "_s_l_scene_node_8h.html", "_s_l_scene_node_8h" ],
     [ "SLSceneView.cpp", "_s_l_scene_view_8cpp.html", "_s_l_scene_view_8cpp" ],
     [ "SLSceneView.h", "_s_l_scene_view_8h.html", "_s_l_scene_view_8h" ],
     [ "SLSkeleton.cpp", "_s_l_skeleton_8cpp.html", null ],

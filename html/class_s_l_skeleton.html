@@ -288,7 +288,6 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000018">Todo:</a></b></dt><dd>remove the _minMaxOutOfDate again, the _changed flag should suffice, however while implementing the leap motion I noticed an error the update cycle should go like this: process input, do animations, update data (mesh data, aabb's etc), render. The _minMaxOutOfDate was only set when animations were applied, that is wrong, it should be applied when a bone changes its transform The problem now, and why minmaxoutofdate is still here is that we can't yet guarantee the above update cycle. </dd></dl>
 
 </div>
 </div>
@@ -824,7 +823,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_s_l_skeleton.html">SLSkeleton</a></li>
-    <li class="footer">Generated on Tue Feb 3 2015 13:05:17 for SLProject by
+    <li class="footer">Generated on Wed Feb 4 2015 13:57:18 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>
