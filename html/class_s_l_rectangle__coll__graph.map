@@ -1,0 +1,26 @@
+<map id="SLRectangle" name="SLRectangle">
+<area shape="rect" id="node2" href="$class_s_l_mesh.html" title="An SLMesh object is a triangulated mesh that is drawn with one draw call. " alt="" coords="614,3277,844,3619"/>
+<area shape="rect" id="node22" href="$class_s_l_accel_struct.html" title="SLAccelStruct is an abstract base class for acceleration structures. " alt="" coords="779,3697,912,3906"/>
+<area shape="rect" id="node3" href="$class_s_l_object.html" title="Base class for all other classes. " alt="" coords="205,1469,309,1590"/>
+<area shape="rect" id="node15" href="$class_s_l_node.html" title="SLNode represents a node in a hierarchical scene graph. " alt="" coords="987,1955,1136,2282"/>
+<area shape="rect" id="node23" href="$class_s_l_material.html" title="Defines a standard CG material with textures and a shader program. " alt="" coords="155,2494,289,2850"/>
+<area shape="rect" id="node24" href="$class_s_l_g_l_program.html" title="Encapsulation of an OpenGL shader program object. " alt="" coords="260,1970,396,2267"/>
+<area shape="rect" id="node4" href="$class_s_l_mat4.html" title="4x4 matrix template class " alt="" coords="358,86,465,325"/>
+<area shape="rect" id="node8" href="$class_s_l_stack.html" title="{SLStack\&lt; SLMat4f \&gt;\n|&#45; _size\l&#45; _top\l|+ SLStack()\l+ ~SLStack()\l+ push_back()\l+ pop_back()\l+ init()\l+ clear()\l+ empty()\l+ full()\l+ size()\l+ top()\l}" alt="" coords="421,704,565,928"/>
+<area shape="rect" id="node5" href="$class_s_l_g_l_state.html" title="Singleton class holding all OpenGL states. " alt="" coords="534,1227,703,1832"/>
+<area shape="rect" id="node6" href="$class_s_l_mat3.html" title="{SLMat3\&lt; SLfloat \&gt;\n|+ _m\l|+ SLMat3()\l+ SLMat3()\l+ SLMat3()\l+ SLMat3()\l+ SLMat3()\l+ SLMat3()\l+ SLMat3()\l+ SLMat3()\l+ setMatrix()\l+ setMatrix()\land 32 more...\l+ swap()\l}" alt="" coords="650,697,781,935"/>
+<area shape="rect" id="node7" href="$class_s_l_mat4.html" title="{SLMat4\&lt; SLfloat \&gt;\n|&#45; _m\l|+ SLMat4()\l+ SLMat4()\l+ SLMat4()\l+ SLMat4()\l+ SLMat4()\l+ SLMat4()\l+ SLMat4()\l+ SLMat4()\l+ setMatrix()\l+ setMatrix()\land 68 more...\l+ swap()\l}" alt="" coords="865,697,996,935"/>
+<area shape="rect" id="node14" href="$class_s_l_joint.html" title="Specialized SLNode that represents a single joint (or bone) in a skeleton. " alt="" coords="884,2553,1017,2791"/>
+<area shape="rect" id="node9" href="$class_s_l_vec3.html" title="{SLVec3\&lt; SLfloat \&gt;\n|+ x\l+ y\l+ z\l+ r\l+ g\l+ b\l+ comp\l+ @8\l+ WHITE\l+ YELLOW\l+ ORANGE\l+ AXISY\l+ AXISZ\l|+ SLVec3()\l+ SLVec3()\l+ SLVec3()\l+ SLVec3()\l+ SLVec3()\l+ SLVec3()\l+ set()\l+ set()\l+ set()\l+ set()\land 49 more...\l}" alt="" coords="1839,616,1972,1016"/>
+<area shape="rect" id="node13" href="$class_s_l_skeleton.html" title="SLSkeleton keeps track of a skeletons joints and animations. " alt="" coords="869,2915,1043,3213"/>
+<area shape="rect" id="node17" href="$class_s_l_a_a_b_box.html" title="Defines an axis aligned bounding box. " alt="" coords="1701,1388,1816,1671"/>
+<area shape="rect" id="node10" href="$class_s_l_vec3.html" title="3D vector template class for standard 3D vector algebra. " alt="" coords="2023,5,2131,405"/>
+<area shape="rect" id="node11" href="$class_s_l_vec4.html" title="{SLVec4\&lt; SLfloat \&gt;\n|+ x\l+ y\l+ z\l+ w\l+ r\l+ g\l+ b\l+ a\l+ comp\l+ @16\l|+ SLVec4()\l+ SLVec4()\l+ SLVec4()\l+ SLVec4()\l+ SLVec4()\l+ SLVec4()\l+ SLVec4()\l+ set()\l+ set()\l+ set()\land 43 more...\l}" alt="" coords="107,638,240,994"/>
+<area shape="rect" id="node12" href="$class_s_l_vec4.html" title="4D vector template class for standard 4D vector algebra. " alt="" coords="5,27,112,383"/>
+<area shape="rect" id="node16" href="$class_s_l_event_handler.html" title="Virtual Eventhandler class. " alt="" coords="1156,1403,1303,1656"/>
+<area shape="rect" id="node18" href="$class_s_l_g_l_buffer.html" title="Encapsulation of an OpenGL buffer object. " alt="" coords="1073,631,1276,1001"/>
+<area shape="rect" id="node19" href="$class_s_l_animation.html" title="SLAnimation is the base container for all animation data. " alt="" coords="1327,1395,1531,1663"/>
+<area shape="rect" id="node20" href="$class_s_l_draw_bits.html" title="Drawing states stored in the bits of an unsigned int. " alt="" coords="1556,1432,1676,1627"/>
+<area shape="rect" id="node21" href="$class_s_l_vec2.html" title="2D vector template class for standard 2D vector algebra. " alt="" coords="1994,2930,2101,3198"/>
+<area shape="rect" id="node25" href="$class_s_l_vec2.html" title="{SLVec2\&lt; SLfloat \&gt;\n|+ x\l+ y\l+ comp\l+ @2\l|+ SLVec2()\l+ SLVec2()\l+ SLVec2()\l+ SLVec2()\l+ set()\l+ set()\l+ set()\l+ operator==()\l+ operator!=()\l+ operator\&lt;=()\land 28 more...\l}" alt="" coords="1993,3314,2127,3582"/>
+</map>
