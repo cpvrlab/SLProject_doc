@@ -1,5 +1,5 @@
 <map id="SLVolume" name="SLVolume">
-<area shape="rect" id="node2" href="$class_s_l_revolver.html" title="SLRevolver is an SLMesh object built out of revolving points. " alt="" coords="5,155,96,181"/>
-<area shape="rect" id="node3" href="$class_s_l_mesh.html" title="An SLMesh object is a triangulated mesh that is drawn with one draw call. " alt="" coords="15,80,85,107"/>
-<area shape="rect" id="node4" href="$class_s_l_object.html" title="Base class for all other classes. " alt="" coords="12,5,89,32"/>
+<area shape="rect" id="node2" href="$class_s_l_revolver.html" title="SLRevolver is an SLMesh object built out of revolving points. " alt="" coords="5,155,91,181"/>
+<area shape="rect" id="node3" href="$class_s_l_mesh.html" title="An SLMesh object is a triangulated mesh that is drawn with one draw call. " alt="" coords="15,80,81,107"/>
+<area shape="rect" id="node4" href="$class_s_l_object.html" title="Base class for all other classes. " alt="" coords="11,5,85,32"/>
 </map>

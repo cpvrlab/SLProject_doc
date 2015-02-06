@@ -1,3 +1,79 @@
+var NAVTREE =
+[
+  [ "SLProject", "index.html", [
+    [ "Introduction", "md__introduction.html", [
+      [ "Class Diagram", "md__introduction.html#diagram", null ],
+      [ "Application code", "md__introduction.html#app", null ],
+      [ "Central Classes", "md__introduction.html#central", null ],
+      [ "Scenegraph Classes", "md__introduction.html#node", null ],
+      [ "Mesh Classes", "md__introduction.html#mesh", null ],
+      [ "Material Classes", "md__introduction.html#material", null ],
+      [ "Animation Classes", "md__introduction.html#animation", null ]
+    ] ],
+    [ "How one frame gets painted", "md_on_paint.html", null ],
+    [ "Blender to SLProject export", "md_blender_to_sl.html", [
+      [ "Introduction", "md_blender_to_sl.html#intro", null ],
+      [ "Units (optional)", "md_blender_to_sl.html#units", null ],
+      [ "Working with Y up inside Blender (optional)", "md_blender_to_sl.html#yup", null ],
+      [ "Animations", "md_blender_to_sl.html#anims", [
+        [ "Animation duration", "md_blender_to_sl.html#s1", null ],
+        [ "Multiple animations for one model", "md_blender_to_sl.html#s2", null ]
+      ] ],
+      [ "Exporting", "md_blender_to_sl.html#export", null ]
+    ] ],
+    [ "Todo List", "todo.html", null ],
+    [ "Classes", null, [
+      [ "Class List", "annotated.html", "annotated" ],
+      [ "Class Index", "classes.html", null ],
+      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
+      [ "Class Members", "functions.html", [
+        [ "All", "functions.html", "functions_dup" ],
+        [ "Functions", "functions_func.html", "functions_func" ],
+        [ "Variables", "functions_vars.html", "functions_vars" ],
+        [ "Typedefs", "functions_type.html", null ],
+        [ "Enumerations", "functions_enum.html", null ],
+        [ "Enumerator", "functions_eval.html", null ],
+        [ "Related Functions", "functions_rela.html", null ]
+      ] ]
+    ] ],
+    [ "Files", null, [
+      [ "File List", "files.html", "files" ],
+      [ "File Members", "globals.html", [
+        [ "All", "globals.html", "globals_dup" ],
+        [ "Functions", "globals_func.html", null ],
+        [ "Variables", "globals_vars.html", "globals_vars" ],
+        [ "Typedefs", "globals_type.html", null ],
+        [ "Enumerations", "globals_enum.html", null ],
+        [ "Enumerator", "globals_eval.html", "globals_eval" ],
+        [ "Macros", "globals_defs.html", null ]
+      ] ]
+    ] ]
+  ] ]
+];
+
+var NAVTREEINDEX =
+[
+"_a_d_s_8frag.html",
+"_error_tex_8frag.html",
+"_per_vrt_blinn_tex_skinned_8vert.html#ab4c4168b4e6858d8abd2e775fed68fb6",
+"_s_l_enums_8h.html#a7ca46a91994698e5acfdf6b093a3149a",
+"_s_l_g_l_texture_8h.html#a55de1d799c928977f78a88a85186b1fd",
+"_s_l_sphere_8h.html",
+"_triangle_box_intersect_8h.html#aeeb62c674c1162172fc346d03a0723a4",
+"class_s_l_average.html#a3e12fa143e07a6e9314136878e591558",
+"class_s_l_g_l_buffer.html",
+"class_s_l_g_l_state.html#aedb758f6b7e24343ab99d8fd0e2411fb",
+"class_s_l_light.html#a970583f82eb60a4354038e94afaad5f4",
+"class_s_l_mesh.html#a2debbafb068330025ad47dee241d8d2d",
+"class_s_l_quat4.html#afaf736c705dc2d3dc75723c74493ad84",
+"class_s_l_scene.html#a9ab5464a4987800e179a2e0318af4c1d",
+"class_s_l_tex_font.html#a822b605ec07a93452a1e7eef48443c26",
+"class_s_l_vec4.html#a6c32a114f16d588509af597ca19fd0d8",
+"struct_s_l_g_l_occulus_distortion_vertex.html"
+];
+
+var SYNCONMSG = 'click to disable panel synchronisation';
+var SYNCOFFMSG = 'click to enable panel synchronisation';
 var navTreeSubIndices = new Array();
 
 function getData(varName)
@@ -105,7 +181,7 @@ function createIndent(o,domNode,node,level)
     node.expandToggle.onclick = function() {
       if (node.expanded) {
         $(node.getChildrenUL()).slideUp("fast");
-        node.plus_img.src = node.relpath+"arrowright.png";
+        node.plus_img.src = node.relpath+"ftv2pnode.png";
         node.expanded = false;
       } else {
         expandNode(o, node, false, false);
@@ -113,7 +189,7 @@ function createIndent(o,domNode,node,level)
     }
     node.expandToggle.appendChild(imgNode);
     domNode.appendChild(node.expandToggle);
-    imgNode.src = node.relpath+"arrowright.png";
+    imgNode.src = node.relpath+"ftv2pnode.png";
   } else {
     var span = document.createElement("span");
     span.style.display = 'inline-block';
@@ -269,9 +345,9 @@ function expandNode(o, node, imm, showRoot)
         $(node.getChildrenUL()).slideDown("fast");
       }
       if (node.isLast) {
-        node.plus_img.src = node.relpath+"arrowdown.png";
+        node.plus_img.src = node.relpath+"ftv2mlastnode.png";
       } else {
-        node.plus_img.src = node.relpath+"arrowdown.png";
+        node.plus_img.src = node.relpath+"ftv2mnode.png";
       }
       node.expanded = true;
     }
@@ -341,7 +417,11 @@ function showNode(o, node, index, hash)
         getNode(o, node);
       }
       $(node.getChildrenUL()).css({'display':'block'});
-      node.plus_img.src = node.relpath+"arrowdown.png";
+      if (node.isLast) {
+        node.plus_img.src = node.relpath+"ftv2mlastnode.png";
+      } else {
+        node.plus_img.src = node.relpath+"ftv2mnode.png";
+      }
       node.expanded = true;
       var n = node.children[o.breadcrumbs[index]];
       if (index+1<o.breadcrumbs.length) {
@@ -479,7 +559,7 @@ function initNavTree(toroot,relpath)
   o.node.expanded = false;
   o.node.isLast = true;
   o.node.plus_img = document.createElement("img");
-  o.node.plus_img.src = relpath+"arrowright.png";
+  o.node.plus_img.src = relpath+"ftv2pnode.png";
   o.node.plus_img.width = 16;
   o.node.plus_img.height = 22;
 

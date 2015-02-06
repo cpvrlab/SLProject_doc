@@ -1,0 +1,25 @@
+var _a_d_s_tex___loesung_8vert =
+[
+    [ "main", "_a_d_s_tex___loesung_8vert.html#acdef7a1fd863a6d3770c1268cb06add3", null ],
+    [ "a_normal", "_a_d_s_tex___loesung_8vert.html#afc73b221e744a8a2f9d628dad0de0054", null ],
+    [ "a_position", "_a_d_s_tex___loesung_8vert.html#aa2fa6eb68153a7dd3e3f1eefdfb46a34", null ],
+    [ "a_texCoord", "_a_d_s_tex___loesung_8vert.html#ab4c4168b4e6858d8abd2e775fed68fb6", null ],
+    [ "u_globalAmbi", "_a_d_s_tex___loesung_8vert.html#a86c984d8d39032a5dacd3872e0cb5d4d", null ],
+    [ "u_lightAmbi", "_a_d_s_tex___loesung_8vert.html#acaacac7bbc2a6d5f46e159e3938ce850", null ],
+    [ "u_lightAtt", "_a_d_s_tex___loesung_8vert.html#ac9b14b48de625538fdd4f3e76d50647a", null ],
+    [ "u_lightDiff", "_a_d_s_tex___loesung_8vert.html#ac10d345081113522ee79d5a877e03a7a", null ],
+    [ "u_lightDirVS", "_a_d_s_tex___loesung_8vert.html#aec4c354c565945dd896861a4301fc878", null ],
+    [ "u_lightPosVS", "_a_d_s_tex___loesung_8vert.html#a8819afbc1d41927eb32011adb5af4379", null ],
+    [ "u_lightSpec", "_a_d_s_tex___loesung_8vert.html#af984a76a5474f4dc9a6d72c1c7c98a46", null ],
+    [ "u_matAmbi", "_a_d_s_tex___loesung_8vert.html#a99c6b6bc17ad6f45e4a83d6725921234", null ],
+    [ "u_matDiff", "_a_d_s_tex___loesung_8vert.html#a5fe8d773aea6c8ae78a8802b4a416a97", null ],
+    [ "u_matEmis", "_a_d_s_tex___loesung_8vert.html#af3415107f7f738ea2156d494313d0c26", null ],
+    [ "u_matShine", "_a_d_s_tex___loesung_8vert.html#a6162ab0578a92857f43ce2aa1bc6fdc3", null ],
+    [ "u_matSpec", "_a_d_s_tex___loesung_8vert.html#acb7a71d9a65c2388f48578148253ec65", null ],
+    [ "u_mvMatrix", "_a_d_s_tex___loesung_8vert.html#a66f7a1382a2cc2b7c18daa697a45b7b0", null ],
+    [ "u_mvpMatrix", "_a_d_s_tex___loesung_8vert.html#a7b7658ffd4119349a4ea19860f7b1936", null ],
+    [ "u_nMatrix", "_a_d_s_tex___loesung_8vert.html#a0a867dc33af8164c04f20102fda6300d", null ],
+    [ "v_color", "_a_d_s_tex___loesung_8vert.html#a1c451a908a1def7455f3a2605d62235e", null ],
+    [ "v_specColor", "_a_d_s_tex___loesung_8vert.html#a897a599a0c3c7f94437ec05bd9096cfe", null ],
+    [ "v_texCoord", "_a_d_s_tex___loesung_8vert.html#aea68fa92c83cc31839b8e3fcb8c0c965", null ]
+];

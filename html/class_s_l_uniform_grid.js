@@ -3,6 +3,7 @@ var class_s_l_uniform_grid =
     [ "SLUniformGrid", "class_s_l_uniform_grid.html#a577ca5f109c1722e072183181524e331", null ],
     [ "~SLUniformGrid", "class_s_l_uniform_grid.html#a3c13b2c808da98db8c94208854f48232", null ],
     [ "build", "class_s_l_uniform_grid.html#adbcfe6e517b2414ad62641374940a3b6", null ],
+    [ "deleteAll", "class_s_l_uniform_grid.html#aeae7109cab328b89239a649cfb4f3366", null ],
     [ "disposeBuffers", "class_s_l_uniform_grid.html#a387fa38dde12f620f911afbfd17b0f07", null ],
     [ "draw", "class_s_l_uniform_grid.html#a62a82e005a1aa04517ba48efb3b0f467", null ],
     [ "intersect", "class_s_l_uniform_grid.html#a03120c9e2844cf275f762d086e136db5", null ],
