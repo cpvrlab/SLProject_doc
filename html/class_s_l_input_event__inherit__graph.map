@@ -1,9 +1,9 @@
 <map id="SLInputEvent" name="SLInputEvent">
-<area shape="rect" id="node2" href="$class_s_l_char_input_event.html" title="Specialized SLInput class for unicode character input. " alt="" coords="151,5,273,32"/>
-<area shape="rect" id="node3" href="$class_s_l_command_event.html" title="Specialized SLInput class for specialized SLCmd input event&#39;s. " alt="" coords="149,56,275,83"/>
-<area shape="rect" id="node4" href="$class_s_l_key_event.html" title="Specialized SLInput class for all keypress related input events. " alt="" coords="169,107,255,133"/>
-<area shape="rect" id="node5" href="$class_s_l_mouse_event.html" title="Specialized SLInput class for all mouse related input events. " alt="" coords="160,157,264,184"/>
-<area shape="rect" id="node6" href="$class_s_l_resize_event.html" title="Specialized SLInput class for window resize events. " alt="" coords="160,208,264,235"/>
-<area shape="rect" id="node7" href="$class_s_l_rotation_event.html" title="Specialized SLInput class for all device rotation related input events. " alt="" coords="155,259,269,285"/>
-<area shape="rect" id="node8" href="$class_s_l_touch_event.html" title="Specialized SLInput class for touch related input events. " alt="" coords="161,309,263,336"/>
+<area shape="rect" id="node3" href="$class_s_l_char_input_event.html" title="Specialized SLInput class for unicode character input." alt="" coords="163,5,299,32"/>
+<area shape="rect" id="node5" href="$class_s_l_command_event.html" title="Specialized SLInput class for specialized SLCmd input event&#39;s." alt="" coords="160,56,301,83"/>
+<area shape="rect" id="node7" href="$class_s_l_key_event.html" title="Specialized SLInput class for all keypress related input events." alt="" coords="182,107,279,133"/>
+<area shape="rect" id="node9" href="$class_s_l_mouse_event.html" title="Specialized SLInput class for all mouse related input events." alt="" coords="173,157,289,184"/>
+<area shape="rect" id="node11" href="$class_s_l_resize_event.html" title="Specialized SLInput class for window resize events." alt="" coords="173,208,288,235"/>
+<area shape="rect" id="node13" href="$class_s_l_rotation_event.html" title="Specialized SLInput class for all device rotation related input events." alt="" coords="167,259,294,285"/>
+<area shape="rect" id="node15" href="$class_s_l_touch_event.html" title="Specialized SLInput class for touch related input events." alt="" coords="175,309,287,336"/>
 </map>

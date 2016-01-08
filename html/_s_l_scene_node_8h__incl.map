@@ -1,9 +1,10 @@
 <map id="SLSceneNode.h" name="SLSceneNode.h">
-<area shape="rect" id="node3" href="$_s_l_node_8h.html" title="SLNode.h" alt="" coords="289,80,365,107"/>
-<area shape="rect" id="node4" href="$_s_l_enums_8h.html" title="SLEnums.h" alt="" coords="259,229,344,256"/>
-<area shape="rect" id="node5" href="$_s_l_mesh_8h.html" title="SLMesh.h" alt="" coords="163,155,240,181"/>
-<area shape="rect" id="node8" href="$_s_l_draw_bits_8h.html" title="SLDrawBits.h" alt="" coords="419,304,517,331"/>
-<area shape="rect" id="node9" href="$_s_l_event_handler_8h.html" title="SLEventHandler.h" alt="" coords="315,155,437,181"/>
-<area shape="rect" id="node6" href="$_s_l_a_a_b_box_8h.html" title="SLAABBox.h" alt="" coords="93,229,184,256"/>
-<area shape="rect" id="node7" href="$_s_l_g_l_buffer_8h.html" title="SLGLBuffer.h" alt="" coords="174,304,269,331"/>
+<area shape="rect" id="node5" href="$_s_l_node_8h.html" title="SLNode.h" alt="" coords="361,80,444,107"/>
+<area shape="rect" id="node8" href="$_s_l_enums_8h.html" title="SLEnums.h" alt="" coords="330,229,424,256"/>
+<area shape="rect" id="node11" href="$_s_l_mesh_8h.html" title="SLMesh.h" alt="" coords="229,155,312,181"/>
+<area shape="rect" id="node26" href="$_s_l_draw_bits_8h.html" title="SLDrawBits.h" alt="" coords="500,304,607,331"/>
+<area shape="rect" id="node29" href="$_s_l_event_handler_8h.html" title="SLEventHandler.h" alt="" coords="388,155,524,181"/>
+<area shape="rect" id="node14" href="$_s_l_a_a_b_box_8h.html" title="SLAABBox.h" alt="" coords="153,229,255,256"/>
+<area shape="rect" id="node20" href="$_s_l_g_l_vertex_array_8h.html" title="SLGLVertexArray.h" alt="" coords="62,379,204,405"/>
+<area shape="rect" id="node17" href="$_s_l_g_l_vertex_array_ext_8h.html" title="SLGLVertexArrayExt.h" alt="" coords="93,304,256,331"/>
 </map>

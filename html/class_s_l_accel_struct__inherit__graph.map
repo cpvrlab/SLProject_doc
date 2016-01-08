@@ -1,3 +1,4 @@
 <map id="SLAccelStruct" name="SLAccelStruct">
-<area shape="rect" id="node2" href="$class_s_l_uniform_grid.html" title="SLUniformGrid is an acceleration structure the uniformly subdivides space. " alt="" coords="5,80,109,107"/>
+<area shape="rect" id="node3" href="$class_s_l_compact_grid.html" title="Class for compact uniform grid acceleration structure." alt="" coords="5,80,128,107"/>
+<area shape="rect" id="node5" href="$class_s_l_uniform_grid.html" title="SLUniformGrid is an acceleration structure the uniformly subdivides space." alt="" coords="152,80,267,107"/>
 </map>

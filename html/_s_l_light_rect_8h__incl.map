@@ -1,10 +1,11 @@
 <map id="SLLightRect.h" name="SLLightRect.h">
-<area shape="rect" id="node3" href="$_s_l_node_8h.html" title="SLNode.h" alt="" coords="275,80,351,107"/>
-<area shape="rect" id="node10" href="$_s_l_light_8h.html" title="SLLight.h" alt="" coords="484,80,558,107"/>
-<area shape="rect" id="node4" href="$_s_l_enums_8h.html" title="SLEnums.h" alt="" coords="433,229,518,256"/>
-<area shape="rect" id="node5" href="$_s_l_mesh_8h.html" title="SLMesh.h" alt="" coords="274,155,352,181"/>
-<area shape="rect" id="node8" href="$_s_l_draw_bits_8h.html" title="SLDrawBits.h" alt="" coords="44,304,142,331"/>
-<area shape="rect" id="node9" href="$_s_l_event_handler_8h.html" title="SLEventHandler.h" alt="" coords="426,155,549,181"/>
-<area shape="rect" id="node6" href="$_s_l_a_a_b_box_8h.html" title="SLAABBox.h" alt="" coords="268,229,358,256"/>
-<area shape="rect" id="node7" href="$_s_l_g_l_buffer_8h.html" title="SLGLBuffer.h" alt="" coords="218,304,312,331"/>
+<area shape="rect" id="node5" href="$_s_l_node_8h.html" title="SLNode.h" alt="" coords="433,80,516,107"/>
+<area shape="rect" id="node33" href="$_s_l_light_8h.html" title="SLLight.h" alt="" coords="734,379,815,405"/>
+<area shape="rect" id="node8" href="$_s_l_enums_8h.html" title="SLEnums.h" alt="" coords="563,229,657,256"/>
+<area shape="rect" id="node11" href="$_s_l_mesh_8h.html" title="SLMesh.h" alt="" coords="433,155,516,181"/>
+<area shape="rect" id="node26" href="$_s_l_draw_bits_8h.html" title="SLDrawBits.h" alt="" coords="43,304,149,331"/>
+<area shape="rect" id="node29" href="$_s_l_event_handler_8h.html" title="SLEventHandler.h" alt="" coords="592,155,728,181"/>
+<area shape="rect" id="node14" href="$_s_l_a_a_b_box_8h.html" title="SLAABBox.h" alt="" coords="305,229,407,256"/>
+<area shape="rect" id="node20" href="$_s_l_g_l_vertex_array_8h.html" title="SLGLVertexArray.h" alt="" coords="345,379,487,405"/>
+<area shape="rect" id="node17" href="$_s_l_g_l_vertex_array_ext_8h.html" title="SLGLVertexArrayExt.h" alt="" coords="275,304,437,331"/>
 </map>

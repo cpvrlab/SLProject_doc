@@ -1,6 +1,7 @@
 var NAVTREE =
 [
   [ "SLProject", "index.html", [
+    [ "SLProject", "index.html", null ],
     [ "Introduction", "md__introduction.html", [
       [ "Class Diagram", "md__introduction.html#diagram", null ],
       [ "Application code", "md__introduction.html#app", null ],
@@ -41,7 +42,7 @@ var NAVTREE =
       [ "File Members", "globals.html", [
         [ "All", "globals.html", "globals_dup" ],
         [ "Functions", "globals_func.html", null ],
-        [ "Variables", "globals_vars.html", "globals_vars" ],
+        [ "Variables", "globals_vars.html", null ],
         [ "Typedefs", "globals_type.html", null ],
         [ "Enumerations", "globals_enum.html", null ],
         [ "Enumerator", "globals_eval.html", "globals_eval" ],
@@ -53,23 +54,20 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_a_d_s_8frag.html",
-"_error_tex_8frag.html",
-"_per_vrt_blinn_tex_skinned_8vert.html#ab4c4168b4e6858d8abd2e775fed68fb6",
-"_s_l_enums_8h.html#a7ca46a91994698e5acfdf6b093a3149a",
-"_s_l_g_l_texture_8h.html#a55de1d799c928977f78a88a85186b1fd",
-"_s_l_sphere_8h.html",
-"_triangle_box_intersect_8h.html#aeeb62c674c1162172fc346d03a0723a4",
-"class_s_l_average.html#a3e12fa143e07a6e9314136878e591558",
-"class_s_l_g_l_buffer.html",
-"class_s_l_g_l_state.html#aedb758f6b7e24343ab99d8fd0e2411fb",
-"class_s_l_light.html#a970583f82eb60a4354038e94afaad5f4",
-"class_s_l_mesh.html#a2debbafb068330025ad47dee241d8d2d",
-"class_s_l_quat4.html#afaf736c705dc2d3dc75723c74493ad84",
-"class_s_l_scene.html#a9ab5464a4987800e179a2e0318af4c1d",
-"class_s_l_tex_font.html#a822b605ec07a93452a1e7eef48443c26",
-"class_s_l_vec4.html#a6c32a114f16d588509af597ca19fd0d8",
-"struct_s_l_g_l_occulus_distortion_vertex.html"
+"_quaternion_test_8cpp.html",
+"_s_l_enums_8h.html#ab4c1aeca76a61c325c496cd91d34939ea5ac953a729ac77163127350f51c1e962",
+"_s_l_importer_8h.html#a9abe3eba225d8d79a9bb75b08614b26ca4688c52b2ba2df0c642c67897595961b",
+"_s_l_tex_font_8cpp.html#adaf376c000cbcfbf62b105d3de45e774",
+"class_s_l_assimp_importer.html#ae4482730a84c633c500e5e96e8220f81",
+"class_s_l_curve_bezier.html#a727c8f2a461945ce999781fbc1ef172c",
+"class_s_l_g_l_state.html#a6d88e21d774aab540980a0262f29c63f",
+"class_s_l_importer.html#ae10dab69d2130fd631ce8edfa1b4bb3c",
+"class_s_l_mat4.html#a63e0a0bc6313b1ac45a25b16fb518d77",
+"class_s_l_node.html#abc6027a7ff7cd0c7e83c2481d3f6d816",
+"class_s_l_raytracer.html#aafd0d8a57fb1c2897367519e8ba62df5",
+"class_s_l_scene_view.html#a8f1b71c3f2b33bc8004251440d61de3a",
+"class_s_l_vec2.html#ac703d4f26a0e4547a110dfdbda44f231",
+"functions_func_0x6d.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
@@ -96,21 +94,6 @@ function stripPath2(uri)
   return m ? uri.substring(i-6) : s;
 }
 
-function hashValue()
-{
-  return $(location).attr('hash').substring(1).replace(/[^\w\-]/g,'');
-}
-
-function hashUrl()
-{
-  return '#'+hashValue();
-}
-
-function pathName()
-{
-  return $(location).attr('pathname').replace(/[^-A-Za-z0-9+&@#/%?=~_|!:,.;\(\)]/g, '');
-}
-
 function localStorageSupported()
 {
   try {
@@ -133,7 +116,7 @@ function deleteLink()
 {
   if (localStorageSupported()) {
     window.localStorage.setItem('navpath','');
-  }
+  } 
 }
 
 function cachedLink()
@@ -154,7 +137,7 @@ function getScript(scriptName,func,show)
   script.onload = func; 
   script.src = scriptName+'.js'; 
   if ($.browser.msie && $.browser.version<=8) { 
-    // script.onload does not work with older versions of IE
+    // script.onload does work with older versions of IE
     script.onreadystatechange = function() {
       if (script.readyState=='complete' || script.readyState=='loaded') { 
         func(); if (show) showRoot(); 
@@ -166,22 +149,24 @@ function getScript(scriptName,func,show)
 
 function createIndent(o,domNode,node,level)
 {
-  var level=-1;
-  var n = node;
-  while (n.parentNode) { level++; n=n.parentNode; }
-  if (node.childrenData) {
-    var imgNode = document.createElement("img");
-    imgNode.style.paddingLeft=(16*level).toString()+'px';
-    imgNode.width  = 16;
-    imgNode.height = 22;
-    imgNode.border = 0;
+  if (node.parentNode && node.parentNode.parentNode) {
+    createIndent(o,domNode,node.parentNode,level+1);
+  }
+  var imgNode = document.createElement("img");
+  imgNode.width = 16;
+  imgNode.height = 22;
+  if (level==0 && node.childrenData) {
     node.plus_img = imgNode;
     node.expandToggle = document.createElement("a");
     node.expandToggle.href = "javascript:void(0)";
     node.expandToggle.onclick = function() {
       if (node.expanded) {
         $(node.getChildrenUL()).slideUp("fast");
-        node.plus_img.src = node.relpath+"ftv2pnode.png";
+        if (node.isLast) {
+          node.plus_img.src = node.relpath+"ftv2plastnode.png";
+        } else {
+          node.plus_img.src = node.relpath+"ftv2pnode.png";
+        }
         node.expanded = false;
       } else {
         expandNode(o, node, false, false);
@@ -189,45 +174,33 @@ function createIndent(o,domNode,node,level)
     }
     node.expandToggle.appendChild(imgNode);
     domNode.appendChild(node.expandToggle);
-    imgNode.src = node.relpath+"ftv2pnode.png";
   } else {
-    var span = document.createElement("span");
-    span.style.display = 'inline-block';
-    span.style.width   = 16*(level+1)+'px';
-    span.style.height  = '22px';
-    span.innerHTML = '&#160;';
-    domNode.appendChild(span);
-  } 
-}
-
-var animationInProgress = false;
-
-function gotoAnchor(anchor,aname,updateLocation)
-{
-  var pos, docContent = $('#doc-content');
-  var ancParent = $(anchor.parent());
-  if (ancParent.hasClass('memItemLeft') ||
-      ancParent.hasClass('fieldname') ||
-      ancParent.hasClass('fieldtype') ||
-      ancParent.is(':header'))
-  {
-    pos = ancParent.position().top;
-  } else if (anchor.position()) {
-    pos = anchor.position().top;
+    domNode.appendChild(imgNode);
   }
-  if (pos) {
-    var dist = Math.abs(Math.min(
-               pos-docContent.offset().top,
-               docContent[0].scrollHeight-
-               docContent.height()-docContent.scrollTop()));
-    animationInProgress=true;
-    docContent.animate({
-      scrollTop: pos + docContent.scrollTop() - docContent.offset().top
-    },Math.max(50,Math.min(500,dist)),function(){
-      if (updateLocation) window.location.href=aname;
-      animationInProgress=false;
-    });
+  if (level==0) {
+    if (node.isLast) {
+      if (node.childrenData) {
+        imgNode.src = node.relpath+"ftv2plastnode.png";
+      } else {
+        imgNode.src = node.relpath+"ftv2lastnode.png";
+        domNode.appendChild(imgNode);
+      }
+    } else {
+      if (node.childrenData) {
+        imgNode.src = node.relpath+"ftv2pnode.png";
+      } else {
+        imgNode.src = node.relpath+"ftv2node.png";
+        domNode.appendChild(imgNode);
+      }
+    }
+  } else {
+    if (node.isLast) {
+      imgNode.src = node.relpath+"ftv2blank.png";
+    } else {
+      imgNode.src = node.relpath+"ftv2vertline.png";
+    }
   }
+  imgNode.border = "0";
 }
 
 function newNode(o, po, text, link, childrenData, lastNode)
@@ -269,9 +242,9 @@ function newNode(o, po, text, link, childrenData, lastNode)
     a.className = stripPath(link.replace('#',':'));
     if (link.indexOf('#')!=-1) {
       var aname = '#'+link.split('#')[1];
-      var srcPage = stripPath(pathName());
+      var srcPage = stripPath($(location).attr('pathname'));
       var targetPage = stripPath(link.split('#')[0]);
-      a.href = srcPage!=targetPage ? url : "javascript:void(0)"; 
+      a.href = srcPage!=targetPage ? url : '#';
       a.onclick = function(){
         storeLink(link);
         if (!$(a).parent().parent().hasClass('selected'))
@@ -281,8 +254,23 @@ function newNode(o, po, text, link, childrenData, lastNode)
           $(a).parent().parent().addClass('selected');
           $(a).parent().parent().attr('id','selected');
         }
-        var anchor = $(aname);
-        gotoAnchor(anchor,aname,true);
+        var pos, anchor = $(aname), docContent = $('#doc-content');
+        if (anchor.parent().attr('class')=='memItemLeft') {
+          pos = anchor.parent().position().top;
+        } else if (anchor.position()) {
+          pos = anchor.position().top;
+        }
+        if (pos) {
+          var dist = Math.abs(Math.min(
+                     pos-docContent.offset().top,
+                     docContent[0].scrollHeight-
+                     docContent.height()-docContent.scrollTop()));
+          docContent.animate({
+            scrollTop: pos + docContent.scrollTop() - docContent.offset().top
+          },Math.max(50,Math.min(500,dist)),function(){
+            window.location.replace(aname);
+          });
+        }
       };
     } else {
       a.href = url;
@@ -363,13 +351,13 @@ function glowEffect(n,duration)
 
 function highlightAnchor()
 {
-  var aname = hashUrl();
-  var anchor = $(aname);
+  var anchor = $($(location).attr('hash'));
   if (anchor.parent().attr('class')=='memItemLeft'){
-    var rows = $('.memberdecls tr[class$="'+hashValue()+'"]');
+    var rows = $('.memberdecls tr[class$="'+
+               window.location.hash.substring(1)+'"]');
     glowEffect(rows.children(),300); // member without details
-  } else if (anchor.parent().attr('class')=='fieldname'){
-    glowEffect(anchor.parent().parent(),1000); // enum value
+  } else if (anchor.parents().slice(2).prop('tagName')=='TR') {
+    glowEffect(anchor.parents('div.memitem'),1000); // enum value
   } else if (anchor.parent().attr('class')=='fieldtype'){
     glowEffect(anchor.parent().parent(),1000); // struct field
   } else if (anchor.parent().is(":header")) {
@@ -377,14 +365,13 @@ function highlightAnchor()
   } else {
     glowEffect(anchor.next(),1000); // normal member
   }
-  gotoAnchor(anchor,aname,false);
 }
 
 function selectAndHighlight(hash,n)
 {
   var a;
   if (hash) {
-    var link=stripPath(pathName())+':'+hash.substring(1);
+    var link=stripPath($(location).attr('pathname'))+':'+hash.substring(1);
     a=$('.item a[class$="'+link+'"]');
   }
   if (a && a.length) {
@@ -394,11 +381,6 @@ function selectAndHighlight(hash,n)
   } else if (n) {
     $(n.itemDiv).addClass('selected');
     $(n.itemDiv).attr('id','selected');
-  }
-  if ($('#nav-tree-contents .item:first').hasClass('selected')) {
-    $('#nav-sync').css('top','30px');
-  } else {
-    $('#nav-sync').css('top','5px');
   }
   showRoot();
 }
@@ -416,7 +398,7 @@ function showNode(o, node, index, hash)
       if (!node.childrenVisited) {
         getNode(o, node);
       }
-      $(node.getChildrenUL()).css({'display':'block'});
+      $(node.getChildrenUL()).show();
       if (node.isLast) {
         node.plus_img.src = node.relpath+"ftv2mlastnode.png";
       } else {
@@ -436,7 +418,7 @@ function showNode(o, node, index, hash)
           },true);
         } else {
           var rootBase = stripPath(o.toroot.replace(/\..+$/, ''));
-          if (rootBase=="index" || rootBase=="pages" || rootBase=="search") {
+          if (rootBase=="index" || rootBase=="pages") {
             expandNode(o, n, true, true);
           }
           selectAndHighlight(hash,n);
@@ -448,22 +430,8 @@ function showNode(o, node, index, hash)
   }
 }
 
-function removeToInsertLater(element) {
-  var parentNode = element.parentNode;
-  var nextSibling = element.nextSibling;
-  parentNode.removeChild(element);
-  return function() {
-    if (nextSibling) {
-      parentNode.insertBefore(element, nextSibling);
-    } else {
-      parentNode.appendChild(element);
-    }
-  };
-}
-
 function getNode(o, po)
 {
-  var insertFunction = removeToInsertLater(po.li);
   po.childrenVisited = true;
   var l = po.childrenData.length-1;
   for (var i in po.childrenData) {
@@ -471,7 +439,6 @@ function getNode(o, po)
     po.children[i] = newNode(o, po, nodeData[0], nodeData[1], nodeData[2],
       i==l);
   }
-  insertFunction();
 }
 
 function gotoNode(o,subIndex,root,hash,relpath)
@@ -495,18 +462,23 @@ function navTo(o,root,hash,relpath)
   if (link) {
     var parts = link.split('#');
     root = parts[0];
-    if (parts.length>1) hash = '#'+parts[1].replace(/[^\w\-]/g,'');
+    if (parts.length>1) hash = '#'+parts[1];
     else hash='';
+  }
+  if (root==NAVTREE[0][1]) {
+    $('#nav-sync').css('top','30px');
+  } else {
+    $('#nav-sync').css('top','5px');
   }
   if (hash.match(/^#l\d+$/)) {
     var anchor=$('a[name='+hash.substring(1)+']');
     glowEffect(anchor.parent(),1000); // line number
     hash=''; // strip line number anchors
+    //root=root.replace(/_source\./,'.'); // source link to doc link
   }
   var url=root+hash;
   var i=-1;
   while (NAVTREEINDEX[i+1]<=url) i++;
-  if (i==-1) { i=0; root=NAVTREE[0][1]; } // fallback: show index
   if (navTreeSubIndices[i]) {
     gotoNode(o,i,root,hash,relpath)
   } else {
@@ -526,7 +498,7 @@ function showSyncOff(n,relpath)
 
 function showSyncOn(n,relpath)
 {
-    n.html('<img src="'+relpath+'sync_on.png" title="'+SYNCONMSG+'"/>');
+    n.html('<img src="'+relpath+'sync_on.png"/ title="'+SYNCONMSG+'">');
 }
 
 function toggleSyncButton(relpath)
@@ -535,7 +507,7 @@ function toggleSyncButton(relpath)
   if (navSync.hasClass('sync')) {
     navSync.removeClass('sync');
     showSyncOff(navSync,relpath);
-    storeLink(stripPath2(pathName())+hashUrl());
+    storeLink(stripPath2($(location).attr('pathname'))+$(location).attr('hash'));
   } else {
     navSync.addClass('sync');
     showSyncOn(navSync,relpath);
@@ -574,30 +546,25 @@ function initNavTree(toroot,relpath)
     navSync.click(function(){ toggleSyncButton(relpath); });
   }
 
-  $(window).load(function(){
-    navTo(o,toroot,hashUrl(),relpath);
-    showRoot();
-  });
+  navTo(o,toroot,window.location.hash,relpath);
 
   $(window).bind('hashchange', function(){
      if (window.location.hash && window.location.hash.length>1){
        var a;
        if ($(location).attr('hash')){
-         var clslink=stripPath(pathName())+':'+hashValue();
-         a=$('.item a[class$="'+clslink.replace(/</g,'\\3c ')+'"]');
+         var clslink=stripPath($(location).attr('pathname'))+':'+
+                               $(location).attr('hash').substring(1);
+         a=$('.item a[class$="'+clslink+'"]');
        }
        if (a==null || !$(a).parent().parent().hasClass('selected')){
          $('.item').removeClass('selected');
          $('.item').removeAttr('id');
        }
-       var link=stripPath2(pathName());
-       navTo(o,link,hashUrl(),relpath);
-     } else if (!animationInProgress) {
-       $('#doc-content').scrollTop(0);
-       $('.item').removeClass('selected');
-       $('.item').removeAttr('id');
-       navTo(o,toroot,hashUrl(),relpath);
+       var link=stripPath2($(location).attr('pathname'));
+       navTo(o,link,$(location).attr('hash'),relpath);
      }
   })
+
+  $(window).load(showRoot);
 }
 

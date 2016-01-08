@@ -1,12 +1,12 @@
 <map id="SLMaterial.h" name="SLMaterial.h">
-<area shape="rect" id="node3" href="$_s_l_draw_bits_8h.html" title="SLDrawBits.h" alt="" coords="47,229,145,256"/>
-<area shape="rect" id="node4" href="$_s_l_g_l_texture_8h.html" title="SLGLTexture.h" alt="" coords="133,304,238,331"/>
-<area shape="rect" id="node7" href="$_s_l_g_l_program_8h.html" title="SLGLProgram.h" alt="" coords="329,155,439,181"/>
-<area shape="rect" id="node11" href="$_s_l_g_l_generic_program_8h.html" title="SLGLGenericProgram.h" alt="" coords="307,80,461,107"/>
-<area shape="rect" id="node5" href="$_s_l_image_8h.html" title="SLImage.h" alt="" coords="144,379,227,405"/>
-<area shape="rect" id="node6" href="$_s_l_g_l_buffer_8h.html" title="SLGLBuffer.h" alt="" coords="251,379,346,405"/>
-<area shape="rect" id="node8" href="$_s_l_g_l_uniform_8h.html" title="SLGLUniform.h" alt="" coords="421,229,528,256"/>
-<area shape="rect" id="node9" href="$_s_l_event_handler_8h.html" title="SLEventHandler.h" alt="" coords="472,304,595,331"/>
-<area shape="rect" id="node10" href="$_s_l_enums_8h.html" title="SLEnums.h" alt="" coords="523,379,608,405"/>
-<area shape="rect" id="node12" href="$_s_l_object_8h.html" title="SLObject.h" alt="" coords="533,155,617,181"/>
+<area shape="rect" id="node5" href="$_s_l_draw_bits_8h.html" title="SLDrawBits.h" alt="" coords="44,229,151,256"/>
+<area shape="rect" id="node8" href="$_s_l_g_l_texture_8h.html" title="SLGLTexture.h" alt="" coords="132,304,247,331"/>
+<area shape="rect" id="node17" href="$_s_l_g_l_program_8h.html" title="SLGLProgram.h" alt="" coords="379,155,501,181"/>
+<area shape="rect" id="node29" href="$_s_l_g_l_generic_program_8h.html" title="SLGLGenericProgram.h" alt="" coords="355,80,525,107"/>
+<area shape="rect" id="node11" href="$_s_l_image_8h.html" title="SLImage.h" alt="" coords="144,379,235,405"/>
+<area shape="rect" id="node14" href="$_s_l_g_l_vertex_array_8h.html" title="SLGLVertexArray.h" alt="" coords="259,379,401,405"/>
+<area shape="rect" id="node20" href="$_s_l_g_l_uniform_8h.html" title="SLGLUniform.h" alt="" coords="478,229,596,256"/>
+<area shape="rect" id="node23" href="$_s_l_event_handler_8h.html" title="SLEventHandler.h" alt="" coords="528,304,664,331"/>
+<area shape="rect" id="node26" href="$_s_l_enums_8h.html" title="SLEnums.h" alt="" coords="579,379,673,405"/>
+<area shape="rect" id="node31" href="$_s_l_object_8h.html" title="SLObject.h" alt="" coords="596,155,687,181"/>
 </map>

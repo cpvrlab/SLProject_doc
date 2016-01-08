@@ -1,5 +1,7 @@
 <map id="SLAccelStruct.h" name="SLAccelStruct.h">
-<area shape="rect" id="node2" href="$_s_l_uniform_grid_8h.html" title="SLUniformGrid.h" alt="" coords="60,80,175,107"/>
-<area shape="rect" id="node3" href="$_s_l_mesh_8cpp.html" title="SLMesh.cpp" alt="" coords="5,155,96,181"/>
-<area shape="rect" id="node4" href="$_s_l_uniform_grid_8cpp.html" title="SLUniformGrid.cpp" alt="" coords="120,155,248,181"/>
+<area shape="rect" id="node3" href="$_s_l_compact_grid_8h.html" title="SLCompactGrid.h" alt="" coords="155,80,289,107"/>
+<area shape="rect" id="node9" href="$_s_l_uniform_grid_8h.html" title="SLUniformGrid.h" alt="" coords="314,80,440,107"/>
+<area shape="rect" id="node5" href="$_s_l_compact_grid_8cpp.html" title="SLCompactGrid.cpp" alt="" coords="5,155,155,181"/>
+<area shape="rect" id="node7" href="$_s_l_mesh_8cpp.html" title="SLMesh.cpp" alt="" coords="179,155,277,181"/>
+<area shape="rect" id="node11" href="$_s_l_uniform_grid_8cpp.html" title="SLUniformGrid.cpp" alt="" coords="306,155,448,181"/>
 </map>

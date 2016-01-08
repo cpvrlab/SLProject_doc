@@ -3,6 +3,7 @@ var hierarchy =
     [ "SL", "class_s_l.html", null ],
     [ "SLAABBox", "class_s_l_a_a_b_box.html", null ],
     [ "SLAccelStruct", "class_s_l_accel_struct.html", [
+      [ "SLCompactGrid", "class_s_l_compact_grid.html", null ],
       [ "SLUniformGrid", "class_s_l_uniform_grid.html", null ]
     ] ],
     [ "SLAnimation", "class_s_l_animation.html", null ],
@@ -33,11 +34,13 @@ var hierarchy =
       ] ]
     ] ],
     [ "SLFileSystem", "class_s_l_file_system.html", null ],
-    [ "SLGLBuffer", "class_s_l_g_l_buffer.html", null ],
     [ "SLGLOcculusDistortionVertex", "struct_s_l_g_l_occulus_distortion_vertex.html", null ],
     [ "SLGLOculus", "class_s_l_g_l_oculus.html", null ],
     [ "SLGLOculusFB", "class_s_l_g_l_oculus_f_b.html", null ],
     [ "SLGLState", "class_s_l_g_l_state.html", null ],
+    [ "SLGLVertexArray", "class_s_l_g_l_vertex_array.html", [
+      [ "SLGLVertexArrayExt", "class_s_l_g_l_vertex_array_ext.html", null ]
+    ] ],
     [ "SLImage_JPEG_error", "struct_s_l_image___j_p_e_g__error.html", null ],
     [ "SLImporter", "class_s_l_importer.html", [
       [ "SLAssimpImporter", "class_s_l_assimp_importer.html", null ]
@@ -67,6 +70,7 @@ var hierarchy =
     [ "SLMat4< SLfloat >", "class_s_l_mat4.html", null ],
     [ "SLNodeStats", "struct_s_l_node_stats.html", null ],
     [ "SLObject", "class_s_l_object.html", [
+      [ "SLBackground", "class_s_l_background.html", null ],
       [ "SLGLProgram", "class_s_l_g_l_program.html", [
         [ "SLGLGenericProgram", "class_s_l_g_l_generic_program.html", null ]
       ] ],
@@ -85,10 +89,12 @@ var hierarchy =
         [ "SLRevolver", "class_s_l_revolver.html", [
           [ "SLCone", "class_s_l_cone.html", null ],
           [ "SLCylinder", "class_s_l_cylinder.html", null ],
+          [ "SLDisk", "class_s_l_disk.html", null ],
           [ "SLLens", "class_s_l_lens.html", null ],
           [ "SLSphere", "class_s_l_sphere.html", null ],
           [ "SLVolume", "class_s_l_volume.html", null ]
-        ] ]
+        ] ],
+        [ "SLTriangle", "class_s_l_triangle.html", null ]
       ] ],
       [ "SLNode", "class_s_l_node.html", null ],
       [ "SLScene", "class_s_l_scene.html", null ],
@@ -112,9 +118,12 @@ var hierarchy =
     [ "SLVec2< SLint >", "class_s_l_vec2.html", null ],
     [ "SLVec3< T >", "class_s_l_vec3.html", null ],
     [ "SLVec3< SLfloat >", "class_s_l_vec3.html", null ],
+    [ "SLVec3< SLint >", "class_s_l_vec3.html", null ],
     [ "SLVec4< T >", "class_s_l_vec4.html", null ],
     [ "SLVec4< SLfloat >", "class_s_l_vec4.html", null ],
+    [ "SLVec4< SLint >", "class_s_l_vec4.html", null ],
     [ "SLVector< T, U >", "class_s_l_vector.html", null ],
+    [ "SLVertexAttrib", "struct_s_l_vertex_attrib.html", null ],
     [ "sTGA", "structs_t_g_a.html", null ],
     [ "sTGAHeader", "structs_t_g_a_header.html", null ],
     [ "tagBMP_FILEHEADER", "structtag_b_m_p___f_i_l_e_h_e_a_d_e_r.html", null ],

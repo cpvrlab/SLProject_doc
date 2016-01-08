@@ -10,6 +10,7 @@ var class_s_l_node_anim_track =
     [ "calcInterpolatedKeyframe", "class_s_l_node_anim_track.html#a3372b4c88561cb3c6dc34982dfbd72a6", null ],
     [ "createKeyframeImpl", "class_s_l_node_anim_track.html#a4b5e885c3e9326c707b0bfc0f0e54892", null ],
     [ "createNodeKeyframe", "class_s_l_node_anim_track.html#a5bfd01ed46d4f5f7127187750b02b56f", null ],
+    [ "drawVisuals", "class_s_l_node_anim_track.html#a1f5eaf53647e2d8533b714ff153273cb", null ],
     [ "interpolationCurve", "class_s_l_node_anim_track.html#a39ffee10dfa054b330f87920ddc0e98c", null ],
     [ "translationInterpolation", "class_s_l_node_anim_track.html#a965972db3dfdc87145019444db5b40c5", null ],
     [ "_animatedNode", "class_s_l_node_anim_track.html#a6c209a39a76c85a28ce2116739f3efff", null ],

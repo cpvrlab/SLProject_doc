@@ -10,5 +10,6 @@ var _s_l_image_8h =
     [ "sBMP_FILEHEADER", "_s_l_image_8h.html#ae5c1950429d6b61b9020fecac758c14c", null ],
     [ "sBMP_INFO", "_s_l_image_8h.html#aae8ad409ad461fabb7fca757e9f22968", null ],
     [ "sBMP_INFOHEADER", "_s_l_image_8h.html#a812d7c23d1ef93c0fdff293ef2fabf1c", null ],
+    [ "SLVImage", "_s_l_image_8h.html#a6bab7f279959c688ca975dc7564368dc", null ],
     [ "sRGBQUAD", "_s_l_image_8h.html#a6985208ba854ca8c8d407336f4c6fbc5", null ]
 ];

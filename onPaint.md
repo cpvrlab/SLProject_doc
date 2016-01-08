@@ -48,12 +48,11 @@ timer involved.
                         * 2b) Pass the modelview and modelview-projection matrix to the shader.
                         * 2c) If needed build and pass the inverse modelview and the normal matrix.
                         * 2d) If the mesh has a skeleton and HW skinning is applied pass the joint matrices.
-                     * 3) Build VBOs once
-                     * 4) Bind and enable attribute pointers
-                     * <span style="color:red"><strong>5) Finally do the draw call</strong></span>
-                     * 6) Disable attribute pointers
-                     * 7) Draw optional normals & tangents
-                     * 8) Draw optional acceleration structure
+                     * 3) Build the vertex attribute object once
+                     * <span style="color:red"><strong>4) Finally do the draw call</strong></span>
+                     * 5) Draw optional normals & tangents
+                     * 6) Draw optional acceleration structure
+                     * 7) Draw optional the selected node
                * SLSceneView::draw3DGLLines: for every node in the _opaqueNodes vector:
                  * The view matrix is applied to the modelview matrix
                  * If the drawbit for viewing the AABBs is set SLAABBox::drawWS draws it.

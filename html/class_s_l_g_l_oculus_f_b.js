@@ -17,6 +17,6 @@ var class_s_l_g_l_oculus_f_b =
     [ "_halfWidth", "class_s_l_g_l_oculus_f_b.html#af28f7c6a457490468cb0459c1eb9b01e", null ],
     [ "_height", "class_s_l_g_l_oculus_f_b.html#a725b517612c24cfdf8218844578ce687", null ],
     [ "_texID", "class_s_l_g_l_oculus_f_b.html#afdcb2342b3dc0422d05cb6ee4982638c", null ],
-    [ "_vbo", "class_s_l_g_l_oculus_f_b.html#a3b774aa32622c9bd28b3d7284aa176c8", null ],
+    [ "_vao", "class_s_l_g_l_oculus_f_b.html#aba4221b6066c79c58fe3d0272e02538c", null ],
     [ "_width", "class_s_l_g_l_oculus_f_b.html#a0f17a8d10271731f235a09c38972d146", null ]
 ];

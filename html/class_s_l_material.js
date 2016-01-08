@@ -15,6 +15,7 @@ var class_s_l_material =
     [ "diffuse", "class_s_l_material.html#a429fac2d57c58b4db1e49183b4052ded", null ],
     [ "emission", "class_s_l_material.html#a05d9b7bbed1d29553ad94bf9c98b1019", null ],
     [ "emission", "class_s_l_material.html#a29ffb3d64a10fea83e82e76ff9643b50", null ],
+    [ "has3DTexture", "class_s_l_material.html#a4e1d0dfae590e97793f7630860981eac", null ],
     [ "hasAlpha", "class_s_l_material.html#a950870a76c5b6290d570572766e59dcd", null ],
     [ "kn", "class_s_l_material.html#acc627d885cecee37d36fcce795076f26", null ],
     [ "kn", "class_s_l_material.html#ae8fc5558598c14d2251de28f148e3fbe", null ],

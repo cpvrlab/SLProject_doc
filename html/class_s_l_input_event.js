@@ -1,12 +1,13 @@
 var class_s_l_input_event =
 [
     [ "Type", "class_s_l_input_event.html#aa88b00108ecb4633bc34c3b8525d2854", [
-      [ "SLCommand", "class_s_l_input_event.html#aa88b00108ecb4633bc34c3b8525d2854aa7306dff62a1e72e2c36b9858dbebe9c", null ],
+      [ "Command", "class_s_l_input_event.html#aa88b00108ecb4633bc34c3b8525d2854af012856e8ad0a14a8f3dd69195b0b703", null ],
       [ "MouseMove", "class_s_l_input_event.html#aa88b00108ecb4633bc34c3b8525d2854ad9fce5df50f80558d587c0afbd084f8b", null ],
       [ "MouseDown", "class_s_l_input_event.html#aa88b00108ecb4633bc34c3b8525d2854a5ef698ea696f7ef2800d3a4b6262ef56", null ],
       [ "MouseUp", "class_s_l_input_event.html#aa88b00108ecb4633bc34c3b8525d2854aa0e52ad688ea039d8b7c5adab35ac4d8", null ],
       [ "MouseDoubleClick", "class_s_l_input_event.html#aa88b00108ecb4633bc34c3b8525d2854abad09eac693e981f7970f8be83385e24", null ],
       [ "MouseWheel", "class_s_l_input_event.html#aa88b00108ecb4633bc34c3b8525d2854acc04866ba0723dae70fb2ec34e4037dc", null ],
+      [ "LongTouch", "class_s_l_input_event.html#aa88b00108ecb4633bc34c3b8525d2854acf9cb6ac1487e27109cfee323c16a874", null ],
       [ "Touch2Move", "class_s_l_input_event.html#aa88b00108ecb4633bc34c3b8525d2854a042e8496f556ae6a8089726ef03a5cb9", null ],
       [ "Touch2Down", "class_s_l_input_event.html#aa88b00108ecb4633bc34c3b8525d2854a071ab6c30077ef04f9135d16f0d7236c", null ],
       [ "Touch2Up", "class_s_l_input_event.html#aa88b00108ecb4633bc34c3b8525d2854a75373f4573de7e5e489b77ab4cf76f94", null ],

@@ -3,7 +3,7 @@ var class_s_l_tex_font =
     [ "SLTexFontChar", "struct_s_l_tex_font_1_1_s_l_tex_font_char.html", "struct_s_l_tex_font_1_1_s_l_tex_font_char" ],
     [ "SLTexFont", "class_s_l_tex_font.html#a3b235b38a7f6ace9db7bb2e86c354cf7", null ],
     [ "~SLTexFont", "class_s_l_tex_font.html#a32428547a38423a0d21371e8d4156b29", null ],
-    [ "buildTextBuffers", "class_s_l_tex_font.html#a822b605ec07a93452a1e7eef48443c26", null ],
+    [ "buildTextBuffers", "class_s_l_tex_font.html#a4ca009ef8ca288f0439e1af0fbfd3178", null ],
     [ "calcTextSize", "class_s_l_tex_font.html#a750d6859e6a2001f891386a0aea8bb3d", null ],
     [ "create", "class_s_l_tex_font.html#ad9ce0ac63e9881629cd02dfd34a7f1f2", null ],
     [ "deleteFonts", "class_s_l_tex_font.html#adab934ccbabaa4f842bbbcbce195f520", null ],

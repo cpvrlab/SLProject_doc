@@ -2,12 +2,15 @@ var _s_l_interface_8cpp =
 [
     [ "slCharInput", "_s_l_interface_8cpp.html#a60aab8336041f8f497bcee8bbbf2125f", null ],
     [ "slCommand", "_s_l_interface_8cpp.html#a39513af62838f48ca84f64c71cc6d833", null ],
+    [ "slCopyVideoImage", "_s_l_interface_8cpp.html#a41d56723595104f5322de1d20203fcec", null ],
     [ "slCreateScene", "_s_l_interface_8cpp.html#aee0ad79791e21e990fa36f930704777a", null ],
     [ "slCreateSceneView", "_s_l_interface_8cpp.html#a250a418652f74f111a7290d6f08099ce", null ],
     [ "slDoubleClick", "_s_l_interface_8cpp.html#a66c12e2b41406f2989531b09cb81ccbd", null ],
     [ "slGetWindowTitle", "_s_l_interface_8cpp.html#a97c16367cd629b766ba19a5a825b80cc", null ],
+    [ "slGrabCopyVideoImage", "_s_l_interface_8cpp.html#ad253908b378f5e387ab9bb99c64e4fe0", null ],
     [ "slKeyPress", "_s_l_interface_8cpp.html#aa7514fb207b6708ae10e8d54e79bc62c", null ],
     [ "slKeyRelease", "_s_l_interface_8cpp.html#a4afca69303e1c6bf33597580d06e4821", null ],
+    [ "slLongTouch", "_s_l_interface_8cpp.html#a0396fcab386df6d89b344fffb4baae57", null ],
     [ "slMouseDown", "_s_l_interface_8cpp.html#a1b5773e788038d5769b025564c310e56", null ],
     [ "slMouseMove", "_s_l_interface_8cpp.html#a2387cd657b918c493c758ad38df650a9", null ],
     [ "slMouseUp", "_s_l_interface_8cpp.html#a51eba6d09396d3612cd8b1602566dbd0", null ],
@@ -23,5 +26,7 @@ var _s_l_interface_8cpp =
     [ "slTouch2Move", "_s_l_interface_8cpp.html#a0f085aba65fe6482f0fc2f843ed11369", null ],
     [ "slTouch2Up", "_s_l_interface_8cpp.html#a65dfd1128b53ac71ee9ec2b2337a9cdd", null ],
     [ "slUpdateAndPaint", "_s_l_interface_8cpp.html#a4c6b2e40dd33d43bed8772ca573054fa", null ],
+    [ "slUsesRotation", "_s_l_interface_8cpp.html#a979f67ebdd3951d47adcc8c949e74ba1", null ],
+    [ "slUsesVideoImage", "_s_l_interface_8cpp.html#ae3790fc364c9dab06fe0a3de8979fd0d", null ],
     [ "gShouldClose", "_s_l_interface_8cpp.html#adb16a9f63410e383d7088631e29482ef", null ]
 ];

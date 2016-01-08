@@ -1,49 +1,6 @@
 var files =
 [
-    [ "ADS.frag", "_a_d_s_8frag.html", "_a_d_s_8frag" ],
-    [ "ADS.vert", "_a_d_s_8vert.html", "_a_d_s_8vert" ],
-    [ "ADS_Loesung.vert", "_a_d_s___loesung_8vert.html", "_a_d_s___loesung_8vert" ],
-    [ "ADSTex.frag", "_a_d_s_tex_8frag.html", "_a_d_s_tex_8frag" ],
-    [ "ADSTex.vert", "_a_d_s_tex_8vert.html", "_a_d_s_tex_8vert" ],
-    [ "ADSTex_Loesung.frag", "_a_d_s_tex___loesung_8frag.html", "_a_d_s_tex___loesung_8frag" ],
-    [ "ADSTex_Loesung.vert", "_a_d_s_tex___loesung_8vert.html", "_a_d_s_tex___loesung_8vert" ],
-    [ "BumpNormal.frag", "_bump_normal_8frag.html", "_bump_normal_8frag" ],
-    [ "BumpNormal.vert", "_bump_normal_8vert.html", "_bump_normal_8vert" ],
-    [ "BumpNormalEarth.frag", "_bump_normal_earth_8frag.html", "_bump_normal_earth_8frag" ],
-    [ "BumpNormalParallax.frag", "_bump_normal_parallax_8frag.html", "_bump_normal_parallax_8frag" ],
-    [ "Color.frag", "_color_8frag.html", "_color_8frag" ],
-    [ "ColorAttribute.vert", "_color_attribute_8vert.html", "_color_attribute_8vert" ],
-    [ "ColorUniform.vert", "_color_uniform_8vert.html", "_color_uniform_8vert" ],
-    [ "Diffuse.frag", "_diffuse_8frag.html", "_diffuse_8frag" ],
-    [ "Diffuse.vert", "_diffuse_8vert.html", "_diffuse_8vert" ],
-    [ "Earth.frag", "_earth_8frag.html", "_earth_8frag" ],
-    [ "ErrorTex.frag", "_error_tex_8frag.html", "_error_tex_8frag" ],
-    [ "ErrorTex.vert", "_error_tex_8vert.html", "_error_tex_8vert" ],
-    [ "FontTex.frag", "_font_tex_8frag.html", "_font_tex_8frag" ],
-    [ "FontTex.vert", "_font_tex_8vert.html", "_font_tex_8vert" ],
-    [ "PerPixBlinn.frag", "_per_pix_blinn_8frag.html", "_per_pix_blinn_8frag" ],
-    [ "PerPixBlinn.vert", "_per_pix_blinn_8vert.html", "_per_pix_blinn_8vert" ],
-    [ "PerPixBlinnSkinned.vert", "_per_pix_blinn_skinned_8vert.html", "_per_pix_blinn_skinned_8vert" ],
-    [ "PerPixBlinnTex.frag", "_per_pix_blinn_tex_8frag.html", "_per_pix_blinn_tex_8frag" ],
-    [ "PerPixBlinnTex.vert", "_per_pix_blinn_tex_8vert.html", "_per_pix_blinn_tex_8vert" ],
-    [ "PerPixBlinnTexSkinned.vert", "_per_pix_blinn_tex_skinned_8vert.html", "_per_pix_blinn_tex_skinned_8vert" ],
-    [ "PerVrtBlinn.frag", "_per_vrt_blinn_8frag.html", "_per_vrt_blinn_8frag" ],
-    [ "PerVrtBlinn.vert", "_per_vrt_blinn_8vert.html", "_per_vrt_blinn_8vert" ],
-    [ "PerVrtBlinnSkinned.vert", "_per_vrt_blinn_skinned_8vert.html", "_per_vrt_blinn_skinned_8vert" ],
-    [ "PerVrtBlinnTex.frag", "_per_vrt_blinn_tex_8frag.html", "_per_vrt_blinn_tex_8frag" ],
-    [ "PerVrtBlinnTex.vert", "_per_vrt_blinn_tex_8vert.html", "_per_vrt_blinn_tex_8vert" ],
-    [ "PerVrtBlinnTexSkinned.vert", "_per_vrt_blinn_tex_skinned_8vert.html", "_per_vrt_blinn_tex_skinned_8vert" ],
     [ "QuaternionTest.cpp", "_quaternion_test_8cpp.html", "_quaternion_test_8cpp" ],
-    [ "Reflect.frag", "_reflect_8frag.html", "_reflect_8frag" ],
-    [ "Reflect.vert", "_reflect_8vert.html", "_reflect_8vert" ],
-    [ "RefractReflect.frag", "_refract_reflect_8frag.html", "_refract_reflect_8frag" ],
-    [ "RefractReflect.vert", "_refract_reflect_8vert.html", "_refract_reflect_8vert" ],
-    [ "RefractReflectDisp.frag", "_refract_reflect_disp_8frag.html", "_refract_reflect_disp_8frag" ],
-    [ "RefractReflectDisp.vert", "_refract_reflect_disp_8vert.html", "_refract_reflect_disp_8vert" ],
-    [ "SceneOculus.frag", "_scene_oculus_8frag.html", "_scene_oculus_8frag" ],
-    [ "SceneOculus.vert", "_scene_oculus_8vert.html", "_scene_oculus_8vert" ],
-    [ "ShadowMapping.frag", "_shadow_mapping_8frag.html", "_shadow_mapping_8frag" ],
-    [ "ShadowMapping.vert", "_shadow_mapping_8vert.html", "_shadow_mapping_8vert" ],
     [ "SL.cpp", "_s_l_8cpp.html", null ],
     [ "SL.h", "_s_l_8h.html", "_s_l_8h" ],
     [ "SLAABBox.cpp", "_s_l_a_a_b_box_8cpp.html", "_s_l_a_a_b_box_8cpp" ],
@@ -66,6 +23,10 @@ var files =
     [ "SLAssimpImporter.cpp", "_s_l_assimp_importer_8cpp.html", "_s_l_assimp_importer_8cpp" ],
     [ "SLAssimpImporter.h", "_s_l_assimp_importer_8h.html", "_s_l_assimp_importer_8h" ],
     [ "SLAverage.h", "_s_l_average_8h.html", "_s_l_average_8h" ],
+    [ "SLBackground.cpp", "_s_l_background_8cpp.html", null ],
+    [ "SLBackground.h", "_s_l_background_8h.html", [
+      [ "SLBackground", "class_s_l_background.html", "class_s_l_background" ]
+    ] ],
     [ "SLBox.cpp", "_s_l_box_8cpp.html", null ],
     [ "SLBox.h", "_s_l_box_8h.html", [
       [ "SLBox", "class_s_l_box.html", "class_s_l_box" ]
@@ -78,6 +39,8 @@ var files =
     [ "SLCamera.h", "_s_l_camera_8h.html", [
       [ "SLCamera", "class_s_l_camera.html", "class_s_l_camera" ]
     ] ],
+    [ "SLCompactGrid.cpp", "_s_l_compact_grid_8cpp.html", null ],
+    [ "SLCompactGrid.h", "_s_l_compact_grid_8h.html", "_s_l_compact_grid_8h" ],
     [ "SLCone.cpp", "_s_l_cone_8cpp.html", null ],
     [ "SLCone.h", "_s_l_cone_8h.html", [
       [ "SLCone", "class_s_l_cone.html", "class_s_l_cone" ]
@@ -93,6 +56,10 @@ var files =
     [ "SLCylinder.h", "_s_l_cylinder_8h.html", [
       [ "SLCylinder", "class_s_l_cylinder.html", "class_s_l_cylinder" ]
     ] ],
+    [ "SLDisk.cpp", "_s_l_disk_8cpp.html", null ],
+    [ "SLDisk.h", "_s_l_disk_8h.html", [
+      [ "SLDisk", "class_s_l_disk.html", "class_s_l_disk" ]
+    ] ],
     [ "SLDrawBits.h", "_s_l_draw_bits_8h.html", "_s_l_draw_bits_8h" ],
     [ "SLEnums.h", "_s_l_enums_8h.html", "_s_l_enums_8h" ],
     [ "SLEventHandler.h", "_s_l_event_handler_8h.html", "_s_l_event_handler_8h" ],
@@ -100,8 +67,6 @@ var files =
     [ "SLFileSystem.h", "_s_l_file_system_8h.html", [
       [ "SLFileSystem", "class_s_l_file_system.html", "class_s_l_file_system" ]
     ] ],
-    [ "SLGLBuffer.cpp", "_s_l_g_l_buffer_8cpp.html", null ],
-    [ "SLGLBuffer.h", "_s_l_g_l_buffer_8h.html", "_s_l_g_l_buffer_8h" ],
     [ "SLGLGenericProgram.h", "_s_l_g_l_generic_program_8h.html", [
       [ "SLGLGenericProgram", "class_s_l_g_l_generic_program.html", "class_s_l_g_l_generic_program" ]
     ] ],
@@ -125,6 +90,12 @@ var files =
     [ "SLGLTexture.cpp", "_s_l_g_l_texture_8cpp.html", null ],
     [ "SLGLTexture.h", "_s_l_g_l_texture_8h.html", "_s_l_g_l_texture_8h" ],
     [ "SLGLUniform.h", "_s_l_g_l_uniform_8h.html", "_s_l_g_l_uniform_8h" ],
+    [ "SLGLVertexArray.cpp", "_s_l_g_l_vertex_array_8cpp.html", null ],
+    [ "SLGLVertexArray.h", "_s_l_g_l_vertex_array_8h.html", "_s_l_g_l_vertex_array_8h" ],
+    [ "SLGLVertexArrayExt.cpp", "_s_l_g_l_vertex_array_ext_8cpp.html", null ],
+    [ "SLGLVertexArrayExt.h", "_s_l_g_l_vertex_array_ext_8h.html", [
+      [ "SLGLVertexArrayExt", "class_s_l_g_l_vertex_array_ext.html", "class_s_l_g_l_vertex_array_ext" ]
+    ] ],
     [ "SLGrid.cpp", "_s_l_grid_8cpp.html", null ],
     [ "SLGrid.h", "_s_l_grid_8h.html", [
       [ "SLGrid", "class_s_l_grid.html", "class_s_l_grid" ]
@@ -144,7 +115,6 @@ var files =
     [ "SLInterface.h", "_s_l_interface_8h.html", "_s_l_interface_8h" ],
     [ "SLJoint.cpp", "_s_l_joint_8cpp.html", null ],
     [ "SLJoint.h", "_s_l_joint_8h.html", "_s_l_joint_8h" ],
-    [ "SLKDTree.cpp", "_s_l_k_d_tree_8cpp.html", "_s_l_k_d_tree_8cpp" ],
     [ "SLKeyframe.cpp", "_s_l_keyframe_8cpp.html", null ],
     [ "SLKeyframe.h", "_s_l_keyframe_8h.html", "_s_l_keyframe_8h" ],
     [ "SLLens.cpp", "_s_l_lens_8cpp.html", null ],
@@ -177,8 +147,6 @@ var files =
     [ "SLPathtracer.h", "_s_l_pathtracer_8h.html", [
       [ "SLPathtracer", "class_s_l_pathtracer.html", "class_s_l_pathtracer" ]
     ] ],
-    [ "SLPhotonMap.cpp", "_s_l_photon_map_8cpp.html", "_s_l_photon_map_8cpp" ],
-    [ "SLPhotonMapper.cpp", "_s_l_photon_mapper_8cpp.html", null ],
     [ "SLPlane.cpp", "_s_l_plane_8cpp.html", null ],
     [ "SLPlane.h", "_s_l_plane_8h.html", [
       [ "SLPlane", "class_s_l_plane.html", "class_s_l_plane" ]
@@ -210,7 +178,7 @@ var files =
     [ "SLScene.h", "_s_l_scene_8h.html", "_s_l_scene_8h" ],
     [ "SLScene_onLoad.cpp", "_s_l_scene__on_load_8cpp.html", "_s_l_scene__on_load_8cpp" ],
     [ "SLSceneNode.h", "_s_l_scene_node_8h.html", "_s_l_scene_node_8h" ],
-    [ "SLSceneView.cpp", "_s_l_scene_view_8cpp.html", "_s_l_scene_view_8cpp" ],
+    [ "SLSceneView.cpp", "_s_l_scene_view_8cpp.html", null ],
     [ "SLSceneView.h", "_s_l_scene_view_8h.html", "_s_l_scene_view_8h" ],
     [ "SLSkeleton.cpp", "_s_l_skeleton_8cpp.html", null ],
     [ "SLSkeleton.h", "_s_l_skeleton_8h.html", "_s_l_skeleton_8h" ],
@@ -229,8 +197,10 @@ var files =
       [ "SLText", "class_s_l_text.html", "class_s_l_text" ]
     ] ],
     [ "SLTimer.cpp", "_s_l_timer_8cpp.html", null ],
-    [ "SLTimer.h", "_s_l_timer_8h.html", [
-      [ "SLTimer", "class_s_l_timer.html", "class_s_l_timer" ]
+    [ "SLTimer.h", "_s_l_timer_8h.html", "_s_l_timer_8h" ],
+    [ "SLTriangle.cpp", "_s_l_triangle_8cpp.html", null ],
+    [ "SLTriangle.h", "_s_l_triangle_8h.html", [
+      [ "SLTriangle", "class_s_l_triangle.html", "class_s_l_triangle" ]
     ] ],
     [ "SLUniformGrid.cpp", "_s_l_uniform_grid_8cpp.html", null ],
     [ "SLUniformGrid.h", "_s_l_uniform_grid_8h.html", "_s_l_uniform_grid_8h" ],
@@ -244,19 +214,5 @@ var files =
     [ "SLVolume.h", "_s_l_volume_8h.html", [
       [ "SLVolume", "class_s_l_volume.html", "class_s_l_volume" ]
     ] ],
-    [ "stdafx.cpp", "stdafx_8cpp.html", null ],
-    [ "StereoOculus.frag", "_stereo_oculus_8frag.html", "_stereo_oculus_8frag" ],
-    [ "StereoOculus.vert", "_stereo_oculus_8vert.html", "_stereo_oculus_8vert" ],
-    [ "StereoOculusDistortionMesh.frag", "_stereo_oculus_distortion_mesh_8frag.html", "_stereo_oculus_distortion_mesh_8frag" ],
-    [ "StereoOculusDistortionMesh.vert", "_stereo_oculus_distortion_mesh_8vert.html", "_stereo_oculus_distortion_mesh_8vert" ],
-    [ "Terrain.frag", "_terrain_8frag.html", "_terrain_8frag" ],
-    [ "Terrain.vert", "_terrain_8vert.html", "_terrain_8vert" ],
-    [ "Terrain_Loesung.frag", "_terrain___loesung_8frag.html", "_terrain___loesung_8frag" ],
-    [ "Terrain_Loesung.vert", "_terrain___loesung_8vert.html", "_terrain___loesung_8vert" ],
-    [ "TextureOnly.frag", "_texture_only_8frag.html", "_texture_only_8frag" ],
-    [ "TextureOnly.vert", "_texture_only_8vert.html", "_texture_only_8vert" ],
-    [ "TriangleBoxIntersect.h", "_triangle_box_intersect_8h.html", "_triangle_box_intersect_8h" ],
-    [ "Wave.frag", "_wave_8frag.html", "_wave_8frag" ],
-    [ "Wave.vert", "_wave_8vert.html", "_wave_8vert" ],
-    [ "WaveRefractReflect.vert", "_wave_refract_reflect_8vert.html", "_wave_refract_reflect_8vert" ]
+    [ "TriangleBoxIntersect.h", "_triangle_box_intersect_8h.html", "_triangle_box_intersect_8h" ]
 ];

@@ -1,7 +1,7 @@
 <map id="SLInputEvent.h" name="SLInputEvent.h">
-<area shape="rect" id="node2" href="$_s_l_input_manager_8h.html" title="SLInputManager.h" alt="" coords="219,80,345,107"/>
-<area shape="rect" id="node3" href="$_s_l_interface_8cpp.html" title="SLProject C&#45;functions interface implementation. " alt="" coords="5,155,116,181"/>
-<area shape="rect" id="node4" href="$_s_l_input_device_8cpp.html" title="SLInputDevice.cpp" alt="" coords="140,155,267,181"/>
-<area shape="rect" id="node5" href="$_s_l_input_manager_8cpp.html" title="SLInputManager.cpp" alt="" coords="291,155,430,181"/>
-<area shape="rect" id="node6" href="$_s_l_scene_8cpp.html" title="SLScene.cpp" alt="" coords="455,155,549,181"/>
+<area shape="rect" id="node3" href="$_s_l_input_manager_8h.html" title="SLInputManager.h" alt="" coords="236,80,375,107"/>
+<area shape="rect" id="node5" href="$_s_l_interface_8cpp.html" title="SLProject C&#45;functions interface implementation." alt="" coords="5,155,125,181"/>
+<area shape="rect" id="node7" href="$_s_l_input_device_8cpp.html" title="SLInputDevice.cpp" alt="" coords="150,155,289,181"/>
+<area shape="rect" id="node9" href="$_s_l_input_manager_8cpp.html" title="SLInputManager.cpp" alt="" coords="314,155,467,181"/>
+<area shape="rect" id="node11" href="$_s_l_scene_8cpp.html" title="SLScene.cpp" alt="" coords="491,155,596,181"/>
 </map>

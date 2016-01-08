@@ -13,6 +13,7 @@ var class_s_l_animation =
     [ "createSimpleRotationNodeTrack", "class_s_l_animation.html#ab19ef0beb0c8dbc16160da56bbbbe828", null ],
     [ "createSimpleScalingNodeTrack", "class_s_l_animation.html#af55fbdbb7e61564b7a57f062eae68056", null ],
     [ "createSimpleTranslationNodeTrack", "class_s_l_animation.html#a050a5770258fb822807b0a32badc25c7", null ],
+    [ "drawNodeVisuals", "class_s_l_animation.html#a08d892fee4771d6174ccfcff0cb99e80", null ],
     [ "lengthSec", "class_s_l_animation.html#afef75eb03040f6ae5417466470e58643", null ],
     [ "lengthSec", "class_s_l_animation.html#ad853dca24d42845dfc6a1e141766f056", null ],
     [ "name", "class_s_l_animation.html#aa39f33bfc313cb04e493cc76b2fea3ae", null ],

@@ -1,4 +1,4 @@
 <map id="SLLight" name="SLLight">
-<area shape="rect" id="node2" href="$class_s_l_light_rect.html" title="Light node class for a rectangular light source. " alt="" coords="5,80,93,107"/>
-<area shape="rect" id="node3" href="$class_s_l_light_sphere.html" title="SLLightSphere class for a spherical light source. " alt="" coords="117,80,221,107"/>
+<area shape="rect" id="node3" href="$class_s_l_light_rect.html" title="Light node class for a rectangular light source." alt="" coords="5,80,101,107"/>
+<area shape="rect" id="node5" href="$class_s_l_light_sphere.html" title="SLLightSphere class for a spherical light source." alt="" coords="127,80,241,107"/>
 </map>

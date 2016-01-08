@@ -1,9 +1,10 @@
 <map id="SLRevolver" name="SLRevolver">
-<area shape="rect" id="node4" href="$class_s_l_cone.html" title="SLCone creates a cone mesh based on SLRevolver. " alt="" coords="5,229,71,256"/>
-<area shape="rect" id="node5" href="$class_s_l_cylinder.html" title="SLCylinder is creates sphere mesh based on its SLRevolver methods. " alt="" coords="95,229,178,256"/>
-<area shape="rect" id="node6" href="$class_s_l_lens.html" title="SLLens creates a lens mesh based on SLRevolver. " alt="" coords="203,229,265,256"/>
-<area shape="rect" id="node7" href="$class_s_l_sphere.html" title="SLSphere creates a sphere mesh based on SLRevolver. " alt="" coords="290,229,367,256"/>
-<area shape="rect" id="node8" href="$class_s_l_volume.html" title="SLSphere creates a sphere mesh based on SLRevolver. " alt="" coords="392,229,471,256"/>
-<area shape="rect" id="node2" href="$class_s_l_mesh.html" title="An SLMesh object is a triangulated mesh that is drawn with one draw call. " alt="" coords="201,80,267,107"/>
-<area shape="rect" id="node3" href="$class_s_l_object.html" title="Base class for all other classes. " alt="" coords="197,5,271,32"/>
+<area shape="rect" id="node7" href="$class_s_l_cone.html" title="SLCone creates a cone mesh based on SLRevolver." alt="" coords="5,229,75,256"/>
+<area shape="rect" id="node9" href="$class_s_l_cylinder.html" title="SLCylinder is creates sphere mesh based on its SLRevolver methods." alt="" coords="99,229,188,256"/>
+<area shape="rect" id="node11" href="$class_s_l_disk.html" title="SLDisk creates a disk mesh based on SLRevolver." alt="" coords="213,229,277,256"/>
+<area shape="rect" id="node13" href="$class_s_l_lens.html" title="SLLens creates a lens mesh based on SLRevolver." alt="" coords="302,229,369,256"/>
+<area shape="rect" id="node15" href="$class_s_l_sphere.html" title="SLSphere creates a sphere mesh based on SLRevolver." alt="" coords="394,229,477,256"/>
+<area shape="rect" id="node17" href="$class_s_l_volume.html" title="SLSphere creates a sphere mesh based on SLRevolver." alt="" coords="502,229,588,256"/>
+<area shape="rect" id="node2" href="$class_s_l_mesh.html" title="An SLMesh object is a triangulated mesh that is drawn with one draw call." alt="" coords="255,80,327,107"/>
+<area shape="rect" id="node4" href="$class_s_l_object.html" title="Base class for all other classes." alt="" coords="251,5,329,32"/>
 </map>

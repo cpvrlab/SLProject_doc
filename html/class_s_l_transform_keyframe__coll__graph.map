@@ -1,9 +1,0 @@
-<map id="SLTransformKeyframe" name="SLTransformKeyframe">
-<area shape="rect" id="node2" href="$class_s_l_keyframe.html" title="Base class for all keyframes. " alt="" coords="69,1074,184,1225"/>
-<area shape="rect" id="node3" href="$class_s_l_anim_track.html" title="Abstract base class for SLAnimationTracks providing time and keyframe functions. " alt="" coords="10,441,203,636"/>
-<area shape="rect" id="node4" href="$class_s_l_animation.html" title="SLAnimation is the base container for all animation data. " alt="" coords="5,6,208,274"/>
-<area shape="rect" id="node5" href="$class_s_l_quat4.html" title="{SLQuat4\&lt; SLfloat \&gt;\n|&#45; _x\l&#45; _y\l&#45; _z\l&#45; _w\l|+ SLQuat4()\l+ SLQuat4()\l+ SLQuat4()\l+ SLQuat4()\l+ SLQuat4()\l+ SLQuat4()\l+ x()\l+ y()\l+ z()\l+ w()\land 36 more...\l+ fromLookRotation()\l}" alt="" coords="227,1008,375,1291"/>
-<area shape="rect" id="node6" href="$class_s_l_quat4.html" title="Quaternion class for angle&#45;axis rotation representation. " alt="" coords="227,397,375,680"/>
-<area shape="rect" id="node7" href="$class_s_l_vec3.html" title="{SLVec3\&lt; SLfloat \&gt;\n|+ x\l+ y\l+ z\l+ r\l+ g\l+ b\l+ comp\l+ @8\l+ WHITE\l+ YELLOW\l+ ORANGE\l+ AXISY\l+ AXISZ\l|+ SLVec3()\l+ SLVec3()\l+ SLVec3()\l+ SLVec3()\l+ SLVec3()\l+ SLVec3()\l+ set()\l+ set()\l+ set()\l+ set()\land 49 more...\l}" alt="" coords="441,949,575,1349"/>
-<area shape="rect" id="node8" href="$class_s_l_vec3.html" title="3D vector template class for standard 3D vector algebra. " alt="" coords="497,339,604,739"/>
-</map>

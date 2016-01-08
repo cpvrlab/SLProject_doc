@@ -1,9 +1,9 @@
 <map id="SLLightRect.h" name="SLLightRect.h">
-<area shape="rect" id="node2" href="$_s_l_light_rect_8cpp.html" title="SLLightRect.cpp" alt="" coords="5,80,117,107"/>
-<area shape="rect" id="node3" href="$_s_l_mesh_8cpp.html" title="SLMesh.cpp" alt="" coords="141,80,232,107"/>
-<area shape="rect" id="node4" href="$_s_l_pathtracer_8cpp.html" title="SLPathtracer.cpp" alt="" coords="257,80,375,107"/>
-<area shape="rect" id="node5" href="$_s_l_photon_mapper_8cpp.html" title="SLPhotonMapper.cpp" alt="" coords="399,80,542,107"/>
-<area shape="rect" id="node6" href="$_s_l_raytracer_8cpp.html" title="SLRaytracer.cpp" alt="" coords="567,80,681,107"/>
-<area shape="rect" id="node7" href="$_s_l_scene__on_load_8cpp.html" title="SLScene_onLoad.cpp" alt="" coords="706,80,849,107"/>
-<area shape="rect" id="node8" href="$_s_l_scene_view_8cpp.html" title="SLSceneView.cpp" alt="" coords="873,80,996,107"/>
+<area shape="rect" id="node3" href="$_s_l_light_rect_8cpp.html" title="SLLightRect.cpp" alt="" coords="5,80,128,107"/>
+<area shape="rect" id="node5" href="$_s_l_mesh_8cpp.html" title="SLMesh.cpp" alt="" coords="153,80,252,107"/>
+<area shape="rect" id="node7" href="$_s_l_node_8cpp.html" title="SLNode.cpp" alt="" coords="276,80,375,107"/>
+<area shape="rect" id="node9" href="$_s_l_pathtracer_8cpp.html" title="SLPathtracer.cpp" alt="" coords="399,80,531,107"/>
+<area shape="rect" id="node11" href="$_s_l_raytracer_8cpp.html" title="SLRaytracer.cpp" alt="" coords="555,80,681,107"/>
+<area shape="rect" id="node13" href="$_s_l_scene__on_load_8cpp.html" title="SLScene_onLoad.cpp" alt="" coords="706,80,864,107"/>
+<area shape="rect" id="node15" href="$_s_l_scene_view_8cpp.html" title="SLSceneView.cpp" alt="" coords="889,80,1023,107"/>
 </map>

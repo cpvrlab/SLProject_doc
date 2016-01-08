@@ -10,8 +10,8 @@ var class_s_l_accel_struct =
     [ "_m", "class_s_l_accel_struct.html#a7831ccd29913ef54e5dd74e32224b2e6", null ],
     [ "_maxV", "class_s_l_accel_struct.html#a8799558cc2d00491e3b2a8da5ba6289a", null ],
     [ "_minV", "class_s_l_accel_struct.html#aed4e18861002187efc08a3df21961968", null ],
-    [ "_voxAvgTria", "class_s_l_accel_struct.html#af024a79ae3569c04808151e58bf484a3", null ],
-    [ "_voxCnt", "class_s_l_accel_struct.html#acf02b9fcbe0b6eeca4465f7a2d64d374", null ],
-    [ "_voxCntEmpty", "class_s_l_accel_struct.html#a81ff5d8838478dff54ab5642c2c449e1", null ],
-    [ "_voxMaxTria", "class_s_l_accel_struct.html#a37722b2acab2c93d5781d8dadff62928", null ]
+    [ "_voxelAvgTria", "class_s_l_accel_struct.html#a8df49adfaef558b13b9fd0b4bd1ace45", null ],
+    [ "_voxelCnt", "class_s_l_accel_struct.html#ac65bdbed87ba4f961c588ddb16f0d2d6", null ],
+    [ "_voxelCntEmpty", "class_s_l_accel_struct.html#a24e8725f9349066867db4f8fd53e25ab", null ],
+    [ "_voxelMaxTria", "class_s_l_accel_struct.html#ae03a75b0083b922a763b3fc9e4a36f4c", null ]
 ];
