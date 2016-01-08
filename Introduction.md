@@ -130,7 +130,7 @@ in the OpenGL shading language (GLSL).
     </li>
     <li>
         All OpenGL ES 2.0 code is restricted to the classes beginning with SLGL.
-        (SLGLState, SLGLTexture, SLVertexAttribute, SLGLShader and SLGLProgram)
+        (SLGLState, SLGLTexture, SLGLVertexAttribute, SLGLShader and SLGLProgram)
      </li>
     <li>
         The linear algebra math is implemented in the classes SLMat3, SLMat4, SLVec3, SLVec4 and SLQuat4.
