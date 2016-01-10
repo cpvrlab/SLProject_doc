@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>SLProject: SLKDTree.cpp File Reference</title>
+<title>SLProject: glUtils.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -59,43 +59,48 @@
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('_s_l_k_d_tree_8cpp.html','');});
+$(document).ready(function(){initNavTree('gl_utils_8h.html','');});
 </script>
 <div id="doc-content">
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#define-members">Macros</a>  </div>
   <div class="headertitle">
-<div class="title">SLKDTree.cpp File Reference</div>  </div>
+<div class="title">glUtils.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;stdafx.h&gt;</code><br/>
-<code>#include &lt;SLGroup.h&gt;</code><br/>
-<code>#include &lt;<a class="el" href="_s_l_mesh_8h.html">SLMesh.h</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="_s_l_ray_8h.html">SLRay.h</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="_s_l_raytracer_8h.html">SLRaytracer.h</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="_s_l_scene_view_8h.html">SLSceneView.h</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="_s_l_camera_8h.html">SLCamera.h</a>&gt;</code><br/>
-<code>#include &lt;SLKDNode.h&gt;</code><br/>
-<code>#include &lt;SLKDTree.h&gt;</code><br/>
+<code>#include &lt;array&gt;</code><br/>
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for SLKDTree.cpp:</div>
+Include dependency graph for glUtils.h:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="_s_l_k_d_tree_8cpp__incl.svg" width="3286" height="934"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="gl_utils_8h__incl.svg" width="162" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div><div class="textblock"><div class="dynheader">
+This graph shows which files directly or indirectly include this file:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="gl_utils_8h__dep__incl.svg" width="99" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgl_utils.html">glUtils</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">OpenGL utility class with functions for simple OpenGL demo apps.  <a href="classgl_utils.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a6b6639cde39021408fba4535077b53be"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_k_d_tree_8cpp.html#a6b6639cde39021408fba4535077b53be">MIN_FACES_FOR_ACCELERATION</a>&#160;&#160;&#160;3</td></tr>
-<tr class="separator:a6b6639cde39021408fba4535077b53be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76e5474736398835a5ca74dd66271d09"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gl_utils_8h.html#a76e5474736398835a5ca74dd66271d09">GETGLERROR</a>&#160;&#160;&#160;<a class="el" href="classgl_utils.html#a766082db654901571873d012ed47d647">glUtils::getGLError</a>((<a class="el" href="_s_l_8h.html#a6094e9d54f65cb82db93b25377cacd75">SLchar</a>*)__FILE__, __LINE__, false)</td></tr>
+<tr class="separator:a76e5474736398835a5ca74dd66271d09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a class="anchor" id="a6b6639cde39021408fba4535077b53be"></a>
+<a class="anchor" id="a76e5474736398835a5ca74dd66271d09"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define MIN_FACES_FOR_ACCELERATION&#160;&#160;&#160;3</td>
+          <td class="memname">#define GETGLERROR&#160;&#160;&#160;<a class="el" href="classgl_utils.html#a766082db654901571873d012ed47d647">glUtils::getGLError</a>((<a class="el" href="_s_l_8h.html#a6094e9d54f65cb82db93b25377cacd75">SLchar</a>*)__FILE__, __LINE__, false)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -107,8 +112,8 @@ Macros</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_d0048d0e1a364fc830c4a6aa45e5e78d.html">lib-SLProject</a></li><li class="navelem"><a class="el" href="dir_d2ed81c8199e634bafcc499a18319507.html">source</a></li><li class="navelem"><a class="el" href="_s_l_k_d_tree_8cpp.html">SLKDTree.cpp</a></li>
-    <li class="footer">Generated on Fri Jan 8 2016 13:25:13 for SLProject by
+    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="gl_utils_8h.html">glUtils.h</a></li>
+    <li class="footer">Generated on Sun Jan 10 2016 09:37:21 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
   </ul>

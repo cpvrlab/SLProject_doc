@@ -328,7 +328,8 @@ Protected Attributes</h2></td></tr>
 <img src="boxVertices.png" alt="boxVertices.png"/>
 </div>
 <p> <br/>
- For all arrays a corresponding vertex buffer object (VBO) is created on the graphic card. All arrays remain in the main memory for ray tracing. A mesh uses normally only one material referenced by the <a class="el" href="class_s_l_mesh.html#a423fc203b739f92a7b65080467b85aa4" title="Pointer to the inside material.">SLMesh::mat</a> pointer. <br/>
+ All vertex attributes are added to the vertex array object _vao (SLVertexArray).<br/>
+ All arrays remain in the main memory for ray tracing. A mesh uses normally only one material referenced by the <a class="el" href="class_s_l_mesh.html#a423fc203b739f92a7b65080467b85aa4" title="Pointer to the inside material.">SLMesh::mat</a> pointer. <br/>
  <br/>
  If a mesh is associated with a skeleton all its vertices and normals are transformed every frame by the joint weights. Every vertex of a mesh has weights for four joints by which it can be influenced. This transform is called skinning and can be done in CPU in the method transformSkin or by a vertex shader. If the skinning is done on CPU two additional arrays (_finalP and _finalN) for the transformed vertices and normals are needed. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -620,12 +621,11 @@ Protected Attributes</h2></td></tr>
  2b) Pass the modelview and modelview-projection matrix to the shader.<br/>
  2c) If needed build and pass the inverse modelview and the normal matrix.<br/>
  2d) If the mesh has a skeleton and HW skinning is applied pass the joint matrices.<br/>
- 3) Build VBOs once<br/>
- 4) Bind and enable attribute pointers<br/>
- 5) Finally do the draw call<br/>
- 6) Disable attribute pointers<br/>
- 7) Draw optional normals &amp; tangents<br/>
- 8) Draw optional acceleration structure<br/>
+ 3) Generate Vertex Array Object once<br/>
+ 4) Finally do the draw call<br/>
+ 5) Draw optional normals &amp; tangents<br/>
+ 6) Draw optional acceleration structure<br/>
+ 7) Draw selected mesh with points<br/>
  </p>
 <p>Please view also the full process of rendering <a href="md_on_paint.html"><b>one frame</b></a> </p>
 
@@ -1513,7 +1513,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_s_l_mesh.html">SLMesh</a></li>
-    <li class="footer">Generated on Fri Jan 8 2016 13:35:45 for SLProject by
+    <li class="footer">Generated on Sun Jan 10 2016 09:37:25 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
   </ul>

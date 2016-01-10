@@ -1,5 +1,6 @@
 var hierarchy =
 [
+    [ "glUtils", "classgl_utils.html", null ],
     [ "SL", "class_s_l.html", null ],
     [ "SLAABBox", "class_s_l_a_a_b_box.html", null ],
     [ "SLAccelStruct", "class_s_l_accel_struct.html", [

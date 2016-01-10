@@ -11,9 +11,9 @@
 <polygon fill="white" stroke="white" points="-4,5 -4,-24 85,-24 85,5 -4,5"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<a xlink:href="struct_s_l_node_stats.html" target="_top" xlink:title="Struct for scene graph statistics.">
+<a xlink:href="class_s_l_mat4.html" target="_top" xlink:title="4x4 matrix template class">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-19.5 80,-19.5 80,-0.5 0,-0.5"/>
-<text text-anchor="middle" x="40" y="-7.5" font-family="Arial.ttf" font-size="10.00">SLNodeStats</text>
+<text text-anchor="middle" x="40" y="-7.5" font-family="Arial.ttf" font-size="10.00">SLMat4&lt; T &gt;</text>
 </a>
 </g>
 </g>

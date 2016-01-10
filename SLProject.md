@@ -71,6 +71,6 @@ The framework uses beside OpenGL the following exteral libraries that are also i
 
 <p>
 Authors: marcus.hudritsch@bfh.ch, marc.wacker@bfh.ch<br>
-Date: September 2014<br>
-Copyright (c): 2002-2014 Marcus Hudritsch, Kirchrain 18, 2572 Sutz, Switzerland
+Date: September 2016<br>
+Copyright (c): 2002-2016 Marcus Hudritsch, Kirchrain 18, 2572 Sutz, Switzerland
 </p>
