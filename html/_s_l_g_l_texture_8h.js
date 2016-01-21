@@ -10,12 +10,12 @@ var _s_l_g_l_texture_8h =
     [ "SL_ANISOTROPY_8", "_s_l_g_l_texture_8h.html#a55de1d799c928977f78a88a85186b1fd", null ],
     [ "SL_ANISOTROPY_MAX", "_s_l_g_l_texture_8h.html#abf48e93149e505f26733c63a0d6ba4f2", null ],
     [ "SLVGLTexture", "_s_l_g_l_texture_8h.html#a3e15097f675a930d68ad368abac3d2e3", null ],
-    [ "SLTexType", "_s_l_g_l_texture_8h.html#a5d5f01556540c67bb7391bc44b738a3e", [
-      [ "UnknownMap", "_s_l_g_l_texture_8h.html#a5d5f01556540c67bb7391bc44b738a3ea273d02e50cf52008796d0c967a763856", null ],
-      [ "ColorMap", "_s_l_g_l_texture_8h.html#a5d5f01556540c67bb7391bc44b738a3ea3c505a3221ed4ff1321504cf9c626c5f", null ],
-      [ "NormalMap", "_s_l_g_l_texture_8h.html#a5d5f01556540c67bb7391bc44b738a3ea3f362f07b99bd626a65bb28d98ad516a", null ],
-      [ "HeightMap", "_s_l_g_l_texture_8h.html#a5d5f01556540c67bb7391bc44b738a3ea6cbb705d43fa0b5ce6ffb64dad9f5370", null ],
-      [ "GlossMap", "_s_l_g_l_texture_8h.html#a5d5f01556540c67bb7391bc44b738a3ea9e10e0cc2ed6781dc4bba9f74859f6e0", null ],
-      [ "FontMap", "_s_l_g_l_texture_8h.html#a5d5f01556540c67bb7391bc44b738a3eab8da9f79bf8afb19e1d4c6721ed338ab", null ]
+    [ "SLTextureType", "_s_l_g_l_texture_8h.html#a0a528bf535c89d9227e20b41e9135bcc", [
+      [ "TT_unknown", "_s_l_g_l_texture_8h.html#a0a528bf535c89d9227e20b41e9135bcca38fc508aa56015f34e8f60188a2e98e2", null ],
+      [ "TT_color", "_s_l_g_l_texture_8h.html#a0a528bf535c89d9227e20b41e9135bcca44651d89ea15477b8416108942323752", null ],
+      [ "TT_normal", "_s_l_g_l_texture_8h.html#a0a528bf535c89d9227e20b41e9135bcca98778527b6a8bbe38811d0d5346cac80", null ],
+      [ "TT_height", "_s_l_g_l_texture_8h.html#a0a528bf535c89d9227e20b41e9135bcca247a81e56ae7acb5cf0bb9cabd69dce8", null ],
+      [ "TT_gloss", "_s_l_g_l_texture_8h.html#a0a528bf535c89d9227e20b41e9135bcca11a072171843e91946637f1c23066768", null ],
+      [ "TT_font", "_s_l_g_l_texture_8h.html#a0a528bf535c89d9227e20b41e9135bccafda2a0dbf519f7d2b7b21939c51495ca", null ]
     ] ]
 ];

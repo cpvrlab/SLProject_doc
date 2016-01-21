@@ -69,6 +69,7 @@ var files =
     [ "SLFileSystem.h", "_s_l_file_system_8h.html", [
       [ "SLFileSystem", "class_s_l_file_system.html", "class_s_l_file_system" ]
     ] ],
+    [ "SLGLEnums.h", "_s_l_g_l_enums_8h.html", "_s_l_g_l_enums_8h" ],
     [ "SLGLGenericProgram.h", "_s_l_g_l_generic_program_8h.html", [
       [ "SLGLGenericProgram", "class_s_l_g_l_generic_program.html", "class_s_l_g_l_generic_program" ]
     ] ],
@@ -93,11 +94,15 @@ var files =
     [ "SLGLTexture.h", "_s_l_g_l_texture_8h.html", "_s_l_g_l_texture_8h" ],
     [ "SLGLUniform.h", "_s_l_g_l_uniform_8h.html", "_s_l_g_l_uniform_8h" ],
     [ "SLGLVertexArray.cpp", "_s_l_g_l_vertex_array_8cpp.html", null ],
-    [ "SLGLVertexArray.h", "_s_l_g_l_vertex_array_8h.html", "_s_l_g_l_vertex_array_8h" ],
+    [ "SLGLVertexArray.h", "_s_l_g_l_vertex_array_8h.html", [
+      [ "SLGLVertexArray", "class_s_l_g_l_vertex_array.html", "class_s_l_g_l_vertex_array" ]
+    ] ],
     [ "SLGLVertexArrayExt.cpp", "_s_l_g_l_vertex_array_ext_8cpp.html", null ],
     [ "SLGLVertexArrayExt.h", "_s_l_g_l_vertex_array_ext_8h.html", [
       [ "SLGLVertexArrayExt", "class_s_l_g_l_vertex_array_ext.html", "class_s_l_g_l_vertex_array_ext" ]
     ] ],
+    [ "SLGLVertexBuffer.cpp", "_s_l_g_l_vertex_buffer_8cpp.html", null ],
+    [ "SLGLVertexBuffer.h", "_s_l_g_l_vertex_buffer_8h.html", "_s_l_g_l_vertex_buffer_8h" ],
     [ "SLGrid.cpp", "_s_l_grid_8cpp.html", null ],
     [ "SLGrid.h", "_s_l_grid_8h.html", [
       [ "SLGrid", "class_s_l_grid.html", "class_s_l_grid" ]

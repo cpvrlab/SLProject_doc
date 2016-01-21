@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">1.30</span>
+   &#160;<span id="projectnumber">1.31</span>
    </div>
   </td>
  </tr>
@@ -170,11 +170,14 @@ $(document).ready(function(){initNavTree('functions_0x62.html','');});
 <li>bindActive()
 : <a class="el" href="class_s_l_g_l_texture.html#a80d153fcac24c535d1af7ad179bdb071">SLGLTexture</a>
 </li>
-<li>bindAndEnableTexture()
-: <a class="el" href="class_s_l_g_l_state.html#a9a291500a8ea1cc8783a426df51ea45e">SLGLState</a>
+<li>bindAndEnableAttrib()
+: <a class="el" href="class_s_l_g_l_vertex_buffer.html#a50e9c92db2512301f3bf607f295d8f0f">SLGLVertexBuffer</a>
 </li>
 <li>bindFramebuffer()
 : <a class="el" href="class_s_l_g_l_oculus_f_b.html#a76d0caf48a647c5bc96ce13da6b27648">SLGLOculusFB</a>
+</li>
+<li>bindTexture()
+: <a class="el" href="class_s_l_g_l_state.html#aa84f4fa94f8ed7a1533c36b4981882f2">SLGLState</a>
 </li>
 <li>biPlanes
 : <a class="el" href="structtag_b_m_p___i_n_f_o_h_e_a_d_e_r.html#a74507bdabd3f8c07ef8db5be04c8ee8e">tagBMP_INFOHEADER</a>
@@ -198,8 +201,8 @@ $(document).ready(function(){initNavTree('functions_0x62.html','');});
 : <a class="el" href="structtag_b_m_p___i_n_f_o_h_e_a_d_e_r.html#a799fe120e053affac24699a56b61239b">tagBMP_INFOHEADER</a>
 </li>
 <li>BLACK
-: <a class="el" href="class_s_l_vec4.html#a03f1d7901b9bb0a4a0738b4e00f7a2fc">SLVec4&lt; T &gt;</a>
-, <a class="el" href="class_s_l_vec3.html#a079faecf9e6ba05ca15619ced5ed163f">SLVec3&lt; T &gt;</a>
+: <a class="el" href="class_s_l_vec3.html#a079faecf9e6ba05ca15619ced5ed163f">SLVec3&lt; T &gt;</a>
+, <a class="el" href="class_s_l_vec4.html#a03f1d7901b9bb0a4a0738b4e00f7a2fc">SLVec4&lt; T &gt;</a>
 </li>
 <li>blend()
 : <a class="el" href="class_s_l_g_l_state.html#a74148ca9c6f414272a5a89bbdf18d8a4">SLGLState</a>
@@ -223,14 +226,23 @@ $(document).ready(function(){initNavTree('functions_0x62.html','');});
 <li>brakeAccel()
 : <a class="el" href="class_s_l_camera.html#a6b61e99407d670270139d81c469bb184">SLCamera</a>
 </li>
+<li>btnAbout()
+: <a class="el" href="class_s_l_scene.html#a5d7c898c079537319aa5f0c95488930b">SLScene</a>
+</li>
+<li>btnCredits()
+: <a class="el" href="class_s_l_scene.html#a10c4dd18cb5a7389525b9fc6e992989b">SLScene</a>
+</li>
 <li>btnH()
 : <a class="el" href="class_s_l_button.html#adab55420d6d9c3854dcb866875e04f23">SLButton</a>
+</li>
+<li>btnHelp()
+: <a class="el" href="class_s_l_scene.html#ae350a916041856d4bf7929984e726221">SLScene</a>
 </li>
 <li>btnW()
 : <a class="el" href="class_s_l_button.html#ad3ac4d1dd25d3ccf59f96765bc347eb7">SLButton</a>
 </li>
 <li>bufferSizeBytes
-: <a class="el" href="struct_s_l_vertex_attrib.html#ab064a30936aa25342c5007134dac6e6d">SLVertexAttrib</a>
+: <a class="el" href="struct_s_l_g_l_attribute.html#ac0d4f0c38dc8b3b9605836a1b9cac8d9">SLGLAttribute</a>
 </li>
 <li>build()
 : <a class="el" href="class_s_l_accel_struct.html#a9da62cb8bb70b6a8b6dabed07bbbb879">SLAccelStruct</a>
@@ -275,12 +287,12 @@ $(document).ready(function(){initNavTree('functions_0x62.html','');});
 : <a class="el" href="class_s_l_g_l_state.html#ae7aa29af334600142587823abdc96707">SLGLState</a>
 </li>
 <li>buildMesh()
-: <a class="el" href="class_s_l_polygon.html#a5af183d84db313c40a13a8a0b7154de8">SLPolygon</a>
-, <a class="el" href="class_s_l_box.html#a5e2f423da0b835587dd44e2d6d780aab">SLBox</a>
+: <a class="el" href="class_s_l_rectangle.html#a3f743a273fa7e122476494fefa47a927">SLRectangle</a>
 , <a class="el" href="class_s_l_grid.html#a11907c8fc10ce00c50d75f50b38e64e3">SLGrid</a>
-, <a class="el" href="class_s_l_revolver.html#ab84aa04edac1ac4069cf025fa4c043d3">SLRevolver</a>
 , <a class="el" href="class_s_l_triangle.html#a65e7920bbb44ec314caef4b189a7ac77">SLTriangle</a>
-, <a class="el" href="class_s_l_rectangle.html#a3f743a273fa7e122476494fefa47a927">SLRectangle</a>
+, <a class="el" href="class_s_l_revolver.html#ab84aa04edac1ac4069cf025fa4c043d3">SLRevolver</a>
+, <a class="el" href="class_s_l_box.html#a5e2f423da0b835587dd44e2d6d780aab">SLBox</a>
+, <a class="el" href="class_s_l_polygon.html#a5af183d84db313c40a13a8a0b7154de8">SLPolygon</a>
 </li>
 <li>buildNormalMatrix()
 : <a class="el" href="class_s_l_g_l_state.html#a9f692f562202b979f4d2c7eef9579d8c">SLGLState</a>
@@ -297,11 +309,14 @@ $(document).ready(function(){initNavTree('functions_0x62.html','');});
 <li>buildTexture()
 : <a class="el" href="classgl_utils.html#a37e5418c5b45dff7e8e938f6faa6829e">glUtils</a>
 </li>
+<li>buildVAO()
+: <a class="el" href="classgl_utils.html#a0367836ff42b99fa648c77510aa0ec2f">glUtils</a>
+</li>
 <li>buildVBO()
-: <a class="el" href="classgl_utils.html#a4d18c25bbad3817180eb05a0f3a7b34f">glUtils</a>
+: <a class="el" href="classgl_utils.html#a4e9210275cdb0a69b96c1fdca24f3fff">glUtils</a>
 </li>
 <li>bumpScale()
-: <a class="el" href="class_s_l_g_l_texture.html#ad5e0709b0168e567327b53ef3d142b64">SLGLTexture</a>
+: <a class="el" href="class_s_l_g_l_texture.html#a931e3d4885b446ab3a11c35a6d867d96">SLGLTexture</a>
 </li>
 <li>button
 : <a class="el" href="class_s_l_mouse_event.html#a958125355c57c475f0448ae1be999f44">SLMouseEvent</a>
@@ -316,11 +331,12 @@ $(document).ready(function(){initNavTree('functions_0x62.html','');});
 : <a class="el" href="class_s_l_image.html#a9af62027f06eafed4c009d73076ccf2d">SLImage</a>
 </li>
 <li>bytesPerLine()
-: <a class="el" href="class_s_l_image.html#a6dab49be504e80768c05e64ff01860f7">SLImage</a>
+: <a class="el" href="class_s_l_image.html#abdf848ea266a676a1d2695f9e714b46b">SLImage</a>
 </li>
 <li>bytesPerPixel()
 : <a class="el" href="class_s_l_image.html#abde0dcc4951fcf9723a866ce15a097ca">SLImage</a>
 , <a class="el" href="structs_t_g_a.html#a45e9b7646bf974c79444e29cc4b58937">sTGA</a>
+, <a class="el" href="class_s_l_image.html#ad3096f25b51da5d6aae03fa72c734ffd">SLImage</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -328,7 +344,7 @@ $(document).ready(function(){initNavTree('functions_0x62.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Jan 10 2016 09:37:26 for SLProject by
+    <li class="footer">Generated on Thu Jan 21 2016 09:08:40 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
   </ul>

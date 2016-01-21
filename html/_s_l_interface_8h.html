@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">1.30</span>
+   &#160;<span id="projectnumber">1.31</span>
    </div>
   </td>
  </tr>
@@ -74,10 +74,11 @@ $(document).ready(function(){initNavTree('_s_l_interface_8h.html','');});
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;stdafx.h&gt;</code><br/>
 <code>#include &lt;<a class="el" href="_s_l_enums_8h.html">SLEnums.h</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="_s_l_g_l_enums_8h.html">SLGLEnums.h</a>&gt;</code><br/>
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for SLInterface.h:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="_s_l_interface_8h__incl.svg" width="154" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="_s_l_interface_8h__incl.svg" width="256" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
@@ -87,10 +88,10 @@ This graph shows which files directly or indirectly include this file:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aee0ad79791e21e990fa36f930704777a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_interface_8h.html#aee0ad79791e21e990fa36f930704777a">slCreateScene</a> (<a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a> shaderPath, <a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a> modelPath, <a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a> texturePath)</td></tr>
-<tr class="separator:aee0ad79791e21e990fa36f930704777a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae44e65693ee75af8f0940cd0672837c5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_interface_8h.html#ae44e65693ee75af8f0940cd0672837c5">slCreateSceneView</a> (int screenWidth, int screenHeight, int dotsPerInch, <a class="el" href="_s_l_enums_8h.html#ab4c1aeca76a61c325c496cd91d34939e">SLCmd</a> initScene, <a class="el" href="_s_l_8h.html#aca126708dd7d8ef3cb2356e9c99b2712">SLVstring</a> &amp;cmdLineArgs, void *onWndUpdateCallback, void *onSelectNodeMeshCallback=0, void *onNewSceneViewCallback=0, void *onShowSystemCursorCallback=0)</td></tr>
-<tr class="separator:ae44e65693ee75af8f0940cd0672837c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a578a008d272c28c91aeeff708785ffef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_interface_8h.html#a578a008d272c28c91aeeff708785ffef">slCreateScene</a> (<a class="el" href="_s_l_8h.html#aca126708dd7d8ef3cb2356e9c99b2712">SLVstring</a> &amp;cmdLineArgs, <a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a> shaderPath, <a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a> modelPath, <a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a> texturePath)</td></tr>
+<tr class="separator:a578a008d272c28c91aeeff708785ffef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a193045d5ca309444d3cbb1da08fe3d79"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_interface_8h.html#a193045d5ca309444d3cbb1da08fe3d79">slCreateSceneView</a> (int screenWidth, int screenHeight, int dotsPerInch, <a class="el" href="_s_l_enums_8h.html#ac9bd7e0647bd8fd6d7dbf2e085449e1f">SLCommand</a> initScene, void *onWndUpdateCallback, void *onSelectNodeMeshCallback=0, void *onNewSceneViewCallback=0, void *onShowSystemCursorCallback=0)</td></tr>
+<tr class="separator:a193045d5ca309444d3cbb1da08fe3d79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21d0d9038259a1f4b77f040dfccdce3f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_interface_8h.html#a21d0d9038259a1f4b77f040dfccdce3f">slNewSceneView</a> ()</td></tr>
 <tr class="separator:a21d0d9038259a1f4b77f040dfccdce3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe61179548715401a9c670d470b1a889"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_interface_8h.html#afe61179548715401a9c670d470b1a889">slShouldClose</a> ()</td></tr>
@@ -127,8 +128,8 @@ Functions</h2></td></tr>
 <tr class="separator:a4afca69303e1c6bf33597580d06e4821"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60aab8336041f8f497bcee8bbbf2125f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_interface_8h.html#a60aab8336041f8f497bcee8bbbf2125f">slCharInput</a> (int sceneViewIndex, unsigned int character)</td></tr>
 <tr class="separator:a60aab8336041f8f497bcee8bbbf2125f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39513af62838f48ca84f64c71cc6d833"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_interface_8h.html#a39513af62838f48ca84f64c71cc6d833">slCommand</a> (int sceneViewIndex, <a class="el" href="_s_l_enums_8h.html#ab4c1aeca76a61c325c496cd91d34939e">SLCmd</a> command)</td></tr>
-<tr class="separator:a39513af62838f48ca84f64c71cc6d833"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56c555196878a7e7a6f4ea6cd3342523"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_interface_8h.html#a56c555196878a7e7a6f4ea6cd3342523">slCommand</a> (int sceneViewIndex, <a class="el" href="_s_l_enums_8h.html#ac9bd7e0647bd8fd6d7dbf2e085449e1f">SLCommand</a> command)</td></tr>
+<tr class="separator:a56c555196878a7e7a6f4ea6cd3342523"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a979f67ebdd3951d47adcc8c949e74ba1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_interface_8h.html#a979f67ebdd3951d47adcc8c949e74ba1">slUsesRotation</a> (int sceneViewIndex)</td></tr>
 <tr class="separator:a979f67ebdd3951d47adcc8c949e74ba1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34046b5d40b8ce994919c13795835dc4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_interface_8h.html#a34046b5d40b8ce994919c13795835dc4">slRotationPYR</a> (int sceneViewIndex, float pitchRAD, float yawRAD, float rollRAD)</td></tr>
@@ -175,7 +176,7 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a39513af62838f48ca84f64c71cc6d833"></a>
+<a class="anchor" id="a56c555196878a7e7a6f4ea6cd3342523"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -188,7 +189,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="_s_l_enums_8h.html#ab4c1aeca76a61c325c496cd91d34939e">SLCmd</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="_s_l_enums_8h.html#ac9bd7e0647bd8fd6d7dbf2e085449e1f">SLCommand</a>&#160;</td>
           <td class="paramname"><em>command</em>&#160;</td>
         </tr>
         <tr>
@@ -247,13 +248,19 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aee0ad79791e21e990fa36f930704777a"></a>
+<a class="anchor" id="a578a008d272c28c91aeeff708785ffef"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void slCreateScene </td>
           <td>(</td>
+          <td class="paramtype"><a class="el" href="_s_l_8h.html#aca126708dd7d8ef3cb2356e9c99b2712">SLVstring</a> &amp;&#160;</td>
+          <td class="paramname"><em>cmdLineArgs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype"><a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a>&#160;</td>
           <td class="paramname"><em>shaderPath</em>, </td>
         </tr>
@@ -285,13 +292,13 @@ Functions</h2></td></tr>
 <li>app-Demo-GLFW: glfwMain.cpp in function <a class="el" href="_quaternion_test_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main()</a></li>
 <li>app-Demo-Qt: qtGLWidget::initializeGL()</li>
 <li>app-Viewer-Qt: qtGLWidget::initializeGL()</li>
-<li>app-Demo-Android: Java_ch_fhnw_comgr_GLES2Lib_onInit()</li>
+<li>app-Demo-Android: Java_ch_fhnw_comgRT_glES2Lib_onInit()</li>
 <li>app-Demo-iOS: ViewController.m in method viewDidLoad() </li>
 </ul>
 
 </div>
 </div>
-<a class="anchor" id="ae44e65693ee75af8f0940cd0672837c5"></a>
+<a class="anchor" id="a193045d5ca309444d3cbb1da08fe3d79"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -316,14 +323,8 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="_s_l_enums_8h.html#ab4c1aeca76a61c325c496cd91d34939e">SLCmd</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="_s_l_enums_8h.html#ac9bd7e0647bd8fd6d7dbf2e085449e1f">SLCommand</a>&#160;</td>
           <td class="paramname"><em>initScene</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="_s_l_8h.html#aca126708dd7d8ef3cb2356e9c99b2712">SLVstring</a> &amp;&#160;</td>
-          <td class="paramname"><em>cmdLineArgs</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -363,7 +364,7 @@ Functions</h2></td></tr>
 <li>app-Demo-GLFW: glfwMain.cpp in function <a class="el" href="_quaternion_test_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main()</a></li>
 <li>app-Demo-Qt: qtGLWidget::initializeGL()</li>
 <li>app-Viewer-Qt: qtGLWidget::initializeGL()</li>
-<li>app-Demo-Android: Java_ch_fhnw_comgr_GLES2Lib_onInit()</li>
+<li>app-Demo-Android: Java_ch_fhnw_comgRT_glES2Lib_onInit()</li>
 <li>app-Demo-iOS: ViewController.m in method viewDidLoad() </li>
 </ul>
 
@@ -1074,7 +1075,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="_s_l_interface_8h.html">SLInterface.h</a></li>
-    <li class="footer">Generated on Sun Jan 10 2016 09:37:22 for SLProject by
+    <li class="footer">Generated on Thu Jan 21 2016 09:08:36 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
   </ul>

@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">1.30</span>
+   &#160;<span id="projectnumber">1.31</span>
    </div>
   </td>
  </tr>
@@ -91,9 +91,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a3b273399dc03007a761523a2b7b2f142"><td class="memItemLeft" align="right" valign="top">static GLuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgl_utils.html#a3b273399dc03007a761523a2b7b2f142">buildProgram</a> (GLuint vertShaderID, GLuint fragShaderID)</td></tr>
 <tr class="memdesc:a3b273399dc03007a761523a2b7b2f142"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds an GLSL-Shader program and returns the program id.  <a href="#a3b273399dc03007a761523a2b7b2f142"></a><br/></td></tr>
 <tr class="separator:a3b273399dc03007a761523a2b7b2f142"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d18c25bbad3817180eb05a0f3a7b34f"><td class="memItemLeft" align="right" valign="top">static GLuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgl_utils.html#a4d18c25bbad3817180eb05a0f3a7b34f">buildVBO</a> (void *dataPointer, GLint numElements, GLint elementSize, GLuint typeSize, GLuint targetTypeGL=GL_ARRAY_BUFFER, GLuint usageTypeGL=GL_STATIC_DRAW)</td></tr>
-<tr class="memdesc:a4d18c25bbad3817180eb05a0f3a7b34f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds a vertex buffer object and returns the vbo id.  <a href="#a4d18c25bbad3817180eb05a0f3a7b34f"></a><br/></td></tr>
-<tr class="separator:a4d18c25bbad3817180eb05a0f3a7b34f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e9210275cdb0a69b96c1fdca24f3fff"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgl_utils.html#a4e9210275cdb0a69b96c1fdca24f3fff">buildVBO</a> (GLuint &amp;vboID, void *dataPointer, GLint numElements, GLint elementSizeBytes, GLuint targetTypeGL=GL_ARRAY_BUFFER, GLuint usageTypeGL=GL_STATIC_DRAW)</td></tr>
+<tr class="memdesc:a4e9210275cdb0a69b96c1fdca24f3fff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds an OpenGL Vertex Buffer Object.  <a href="#a4e9210275cdb0a69b96c1fdca24f3fff"></a><br/></td></tr>
+<tr class="separator:a4e9210275cdb0a69b96c1fdca24f3fff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0367836ff42b99fa648c77510aa0ec2f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgl_utils.html#a0367836ff42b99fa648c77510aa0ec2f">buildVAO</a> (GLuint &amp;vaoID, GLuint &amp;vboIDVertices, GLuint &amp;vboIDIndices, void *dataPointerVertices, GLint numVertices, GLint sizeVertexBytes, void *dataPointerIndices, GLint numIndices, GLuint sizeIndexBytes, GLint shaderProgramID, GLint attributePositionLoc, GLint attributeNormalLoc, GLint attributeTexCoordLoc=-1)</td></tr>
+<tr class="memdesc:a0367836ff42b99fa648c77510aa0ec2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds an OpenGL Vertex Array Object.  <a href="#a0367836ff42b99fa648c77510aa0ec2f"></a><br/></td></tr>
+<tr class="separator:a0367836ff42b99fa648c77510aa0ec2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37e5418c5b45dff7e8e938f6faa6829e"><td class="memItemLeft" align="right" valign="top">static GLuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgl_utils.html#a37e5418c5b45dff7e8e938f6faa6829e">buildTexture</a> (string textureFile, GLint min_filter=GL_LINEAR_MIPMAP_LINEAR, GLint mag_filter=GL_LINEAR, GLint wrapS=GL_REPEAT, GLint wrapT=GL_REPEAT)</td></tr>
 <tr class="memdesc:a37e5418c5b45dff7e8e938f6faa6829e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds an OpenGL texture and returns the texture id.  <a href="#a37e5418c5b45dff7e8e938f6faa6829e"></a><br/></td></tr>
 <tr class="separator:a37e5418c5b45dff7e8e938f6faa6829e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -105,6 +108,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a29103e0eef8d85007d37aed5d401dc06"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_s_l_8h.html#aca126708dd7d8ef3cb2356e9c99b2712">SLVstring</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgl_utils.html#a29103e0eef8d85007d37aed5d401dc06">getFileNamesInDir</a> (<a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a> dirName)</td></tr>
 <tr class="memdesc:a29103e0eef8d85007d37aed5d401dc06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a vector of sorted file names within a directory.  <a href="#a29103e0eef8d85007d37aed5d401dc06"></a><br/></td></tr>
 <tr class="separator:a29103e0eef8d85007d37aed5d401dc06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f5c79b541924f3f35fbba12a89f3391"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgl_utils.html#a2f5c79b541924f3f35fbba12a89f3391">glSLVersionNO</a> ()</td></tr>
+<tr class="memdesc:a2f5c79b541924f3f35fbba12a89f3391"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the GLSL version string.  <a href="#a2f5c79b541924f3f35fbba12a89f3391"></a><br/></td></tr>
+<tr class="separator:a2f5c79b541924f3f35fbba12a89f3391"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>OpenGL utility class with functions for simple OpenGL demo apps. </p>
@@ -174,7 +180,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::array&lt; GLfloat, 4 &gt; &amp;&#160;</td>
-          <td class="paramname"><em>borderColor</em> = <code>{&#160;0.0f,&#160;0.0f,&#160;0.0f,&#160;0.0f&#160;}</code>&#160;</td>
+          <td class="paramname"><em>borderColor</em> = <code>{0.0f,&#160;0.0f,&#160;0.0f,&#160;0.0f}</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -261,7 +267,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Builds an GLSL-Shader object and returns the shader id. </p>
-<p>buildShader load the shader file, creates an OpenGL shader object, compiles the source code and returns the handle to the internal shader object. If the compilation fails the compiler log is sent to the stdout before the app exits with code 1. </p>
+<p>buildShader load the shader file, creates an OpenGL shader object, compiles the source code and returns the handle to the internal shader object. If the compilation fails the compiler log is sent to the stdout before the app exits with code 1. All shaders are written with the initial GLSL version 110 without version number in the code and are therefore backwards compatible with the compatibility profile from OpenGL 2.1 and OpenGL ES 2 that runs on most mobile devices. To be upwards compatible some modification have to be done. </p>
 
 </div>
 </div>
@@ -320,7 +326,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a4d18c25bbad3817180eb05a0f3a7b34f"></a>
+<a class="anchor" id="a0367836ff42b99fa648c77510aa0ec2f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -328,8 +334,116 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">GLuint glUtils::buildVBO </td>
+          <td class="memname">void glUtils::buildVAO </td>
           <td>(</td>
+          <td class="paramtype">GLuint &amp;&#160;</td>
+          <td class="paramname"><em>vaoID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLuint &amp;&#160;</td>
+          <td class="paramname"><em>vboIDVertices</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLuint &amp;&#160;</td>
+          <td class="paramname"><em>vboIDIndices</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>dataPointerVertices</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLint&#160;</td>
+          <td class="paramname"><em>numVertices</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLint&#160;</td>
+          <td class="paramname"><em>sizeVertexBytes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>dataPointerIndices</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLint&#160;</td>
+          <td class="paramname"><em>numIndices</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLuint&#160;</td>
+          <td class="paramname"><em>sizeIndexBytes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLint&#160;</td>
+          <td class="paramname"><em>shaderProgramID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLint&#160;</td>
+          <td class="paramname"><em>attributePositionLoc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLint&#160;</td>
+          <td class="paramname"><em>attributeNormalLoc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLint&#160;</td>
+          <td class="paramname"><em>attributeTexCoordLoc</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Builds an OpenGL Vertex Array Object. </p>
+
+</div>
+</div>
+<a class="anchor" id="a4e9210275cdb0a69b96c1fdca24f3fff"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void glUtils::buildVBO </td>
+          <td>(</td>
+          <td class="paramtype">GLuint &amp;&#160;</td>
+          <td class="paramname"><em>vboID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">void *&#160;</td>
           <td class="paramname"><em>dataPointer</em>, </td>
         </tr>
@@ -343,13 +457,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">GLint&#160;</td>
-          <td class="paramname"><em>elementSize</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">GLuint&#160;</td>
-          <td class="paramname"><em>typeSize</em>, </td>
+          <td class="paramname"><em>elementSizeBytes</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -376,8 +484,8 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Builds a vertex buffer object and returns the vbo id. </p>
-<p>buildVBO generates a Vertex Buffer Object (VBO) and copies the data into the buffer on the GPU and returns the id of the buffer, The size of the buffer is calculated as numElements * elementSize * typeSize which means e.g.(NO. of vertices) * (3 for x,y&amp; z) * (4 for float). The targetTypeGL distincts between GL_ARRAY_BUFFER for attribute data and GL_ELEMENT_ARRAY_BUFFER for index data. The usageTypeGL distincts between GL_STREAM_DRAW, GL_STATIC_DRAW and GL_DYNAMIC_DRAW. </p>
+<p>Builds an OpenGL Vertex Buffer Object. </p>
+<p>buildVBO generates a Vertex Buffer Object (VBO) and copies the data into the buffer on the GPU. The targetTypeGL distincts between GL_ARRAY_BUFFER for attribute data and GL_ELEMENT_ARRAY_BUFFER for index data. The usageTypeGL distincts between GL_STREAM_DRAW, GL_STATIC_DRAW and GL_DYNAMIC_DRAW. </p>
 
 </div>
 </div>
@@ -450,6 +558,33 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a2f5c79b541924f3f35fbba12a89f3391"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string glUtils::glSLVersionNO </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the GLSL version string. </p>
+<p>Returns the OpenGL Shading Language version number as a string.</p>
+<p>The string returned by glGetString can contain additional vendor information such as the build number and the brand name. For the shading language string "Nvidia GLSL 4.5" the function returns "450" </p>
+
+</div>
+</div>
 <a class="anchor" id="a8d825500831497eea2ab3dcc75ae6744"></a>
 <div class="memitem">
 <div class="memproto">
@@ -510,7 +645,7 @@ Static Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="classgl_utils.html">glUtils</a></li>
-    <li class="footer">Generated on Sun Jan 10 2016 09:37:23 for SLProject by
+    <li class="footer">Generated on Thu Jan 21 2016 09:08:37 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
   </ul>

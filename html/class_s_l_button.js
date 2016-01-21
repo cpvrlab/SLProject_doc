@@ -1,6 +1,6 @@
 var class_s_l_button =
 [
-    [ "SLButton", "class_s_l_button.html#a083bb860e44419c5ff4bbe9bb5a8d830", null ],
+    [ "SLButton", "class_s_l_button.html#a7d997eaae345b91b4aad557a7b39781e", null ],
     [ "~SLButton", "class_s_l_button.html#a4add737bfdab32861977975d17d264db", null ],
     [ "btnH", "class_s_l_button.html#adab55420d6d9c3854dcb866875e04f23", null ],
     [ "btnH", "class_s_l_button.html#aa8970b491df13521bf325dff4fdca7ea", null ],
@@ -9,7 +9,7 @@ var class_s_l_button =
     [ "buildBuffers", "class_s_l_button.html#ad6a27e9fba04d005aea5cf6dd0d781b4", null ],
     [ "checkRadioRec", "class_s_l_button.html#acdeea22f7dae66406d929b5290bffd4e", null ],
     [ "closeAll", "class_s_l_button.html#a7864a6a3c4c03685e51b91b9025616f1", null ],
-    [ "command", "class_s_l_button.html#a22143360dda6ec473f347e55ebd162d3", null ],
+    [ "command", "class_s_l_button.html#a0afa93b97610ecba947d2a7f1b2b344b", null ],
     [ "drawRec", "class_s_l_button.html#a40877e1a1207c78a184f848bf58e172d", null ],
     [ "hideAndReleaseRec", "class_s_l_button.html#a6d792dd61e48764f93cda60b032a9383", null ],
     [ "hitRec", "class_s_l_button.html#a8d91d2ac4c400eca81f3a4d30505695e", null ],
@@ -33,7 +33,7 @@ var class_s_l_button =
     [ "_btnH", "class_s_l_button.html#ae481abe2648922b45c2c4eafe2b25079", null ],
     [ "_btnW", "class_s_l_button.html#a3b6d10a03c79a73dfba1e951cb7e386c", null ],
     [ "_closeOnClick", "class_s_l_button.html#aad61cc0cd4c107d67b85affd677be349", null ],
-    [ "_command", "class_s_l_button.html#a898d35c951530abf9d99c1f6c83fa0dc", null ],
+    [ "_command", "class_s_l_button.html#a048e85b076e90f51bf5b3f4fbf9e1b18", null ],
     [ "_isCheckable", "class_s_l_button.html#a0902fcde230ae9a0b58994f451dd5fab", null ],
     [ "_isChecked", "class_s_l_button.html#a971105c3a1f0f1faf3fd0ad0d3cb1193", null ],
     [ "_isDown", "class_s_l_button.html#a1d11dc64d0c4959a0ebe9f858995ba8f", null ],

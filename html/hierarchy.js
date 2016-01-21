@@ -35,6 +35,7 @@ var hierarchy =
       ] ]
     ] ],
     [ "SLFileSystem", "class_s_l_file_system.html", null ],
+    [ "SLGLAttribute", "struct_s_l_g_l_attribute.html", null ],
     [ "SLGLOcculusDistortionVertex", "struct_s_l_g_l_occulus_distortion_vertex.html", null ],
     [ "SLGLOculus", "class_s_l_g_l_oculus.html", null ],
     [ "SLGLOculusFB", "class_s_l_g_l_oculus_f_b.html", null ],
@@ -42,6 +43,7 @@ var hierarchy =
     [ "SLGLVertexArray", "class_s_l_g_l_vertex_array.html", [
       [ "SLGLVertexArrayExt", "class_s_l_g_l_vertex_array_ext.html", null ]
     ] ],
+    [ "SLGLVertexBuffer", "class_s_l_g_l_vertex_buffer.html", null ],
     [ "SLImage_JPEG_error", "struct_s_l_image___j_p_e_g__error.html", null ],
     [ "SLImporter", "class_s_l_importer.html", [
       [ "SLAssimpImporter", "class_s_l_assimp_importer.html", null ]
@@ -124,7 +126,6 @@ var hierarchy =
     [ "SLVec4< SLfloat >", "class_s_l_vec4.html", null ],
     [ "SLVec4< SLint >", "class_s_l_vec4.html", null ],
     [ "SLVector< T, U >", "class_s_l_vector.html", null ],
-    [ "SLVertexAttrib", "struct_s_l_vertex_attrib.html", null ],
     [ "sTGA", "structs_t_g_a.html", null ],
     [ "sTGAHeader", "structs_t_g_a_header.html", null ],
     [ "tagBMP_FILEHEADER", "structtag_b_m_p___f_i_l_e_h_e_a_d_e_r.html", null ],

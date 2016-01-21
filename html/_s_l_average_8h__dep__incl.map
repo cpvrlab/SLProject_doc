@@ -1,5 +1,5 @@
 <map id="SLAverage.h" name="SLAverage.h">
-<area shape="rect" id="node3" href="$_s_l_scene_8h.html" title="SLScene.h" alt="" coords="1327,80,1417,107"/>
+<area shape="rect" id="node3" href="$_s_l_scene_8h.html" title="SLScene.h" alt="" coords="1397,80,1488,107"/>
 <area shape="rect" id="node5" href="$_s_l_curve_bezier_8cpp.html" title="SLCurveBezier.cpp" alt="" coords="389,155,531,181"/>
 <area shape="rect" id="node7" href="$_s_l_assimp_importer_8cpp.html" title="SLAssimpImporter.cpp" alt="" coords="555,155,721,181"/>
 <area shape="rect" id="node9" href="$_s_l_interface_8cpp.html" title="SLProject C&#45;functions interface implementation." alt="" coords="5,229,125,256"/>
@@ -14,23 +14,24 @@
 <area shape="rect" id="node27" href="$_s_l_g_l_texture_8cpp.html" title="SLGLTexture.cpp" alt="" coords="2501,155,2632,181"/>
 <area shape="rect" id="node29" href="$_s_l_g_l_vertex_array_8cpp.html" title="SLGLVertexArray.cpp" alt="" coords="2657,155,2815,181"/>
 <area shape="rect" id="node31" href="$_s_l_g_l_vertex_array_ext_8cpp.html" title="SLGLVertexArrayExt.cpp" alt="" coords="2840,155,3019,181"/>
-<area shape="rect" id="node33" href="$_s_l_input_manager_8cpp.html" title="SLInputManager.cpp" alt="" coords="150,229,303,256"/>
-<area shape="rect" id="node35" href="$_s_l_light_rect_8cpp.html" title="SLLightRect.cpp" alt="" coords="327,229,451,256"/>
-<area shape="rect" id="node37" href="$_s_l_light_sphere_8cpp.html" title="SLLightSphere.cpp" alt="" coords="475,229,617,256"/>
-<area shape="rect" id="node39" href="$_s_l_scene_8cpp.html" title="SLScene.cpp" alt="" coords="2206,304,2311,331"/>
-<area shape="rect" id="node41" href="$_s_l_scene__on_load_8cpp.html" title="SLScene_onLoad.cpp" alt="" coords="642,229,800,256"/>
-<area shape="rect" id="node43" href="$_s_l_skeleton_8cpp.html" title="SLSkeleton.cpp" alt="" coords="825,229,945,256"/>
-<area shape="rect" id="node45" href="$_s_l_text_8cpp.html" title="SLText.cpp" alt="" coords="3043,155,3135,181"/>
-<area shape="rect" id="node47" href="$_s_l_scene_view_8h.html" title="SLSceneView.h" alt="" coords="1051,155,1169,181"/>
-<area shape="rect" id="node50" href="$_s_l_anim_track_8cpp.html" title="SLAnimTrack.cpp" alt="" coords="970,229,1101,256"/>
-<area shape="rect" id="node52" href="$_s_l_camera_8cpp.html" title="SLCamera.cpp" alt="" coords="1126,229,1241,256"/>
-<area shape="rect" id="node57" href="$_s_l_material_8cpp.html" title="SLMaterial.cpp" alt="" coords="1385,229,1500,256"/>
-<area shape="rect" id="node59" href="$_s_l_mesh_8cpp.html" title="SLMesh.cpp" alt="" coords="1525,229,1624,256"/>
-<area shape="rect" id="node61" href="$_s_l_node_8cpp.html" title="SLNode.cpp" alt="" coords="1648,229,1747,256"/>
-<area shape="rect" id="node63" href="$_s_l_pathtracer_8cpp.html" title="SLPathtracer.cpp" alt="" coords="1771,229,1903,256"/>
-<area shape="rect" id="node65" href="$_s_l_raytracer_8cpp.html" title="SLRaytracer.cpp" alt="" coords="1927,229,2053,256"/>
-<area shape="rect" id="node70" href="$_s_l_uniform_grid_8cpp.html" title="SLUniformGrid.cpp" alt="" coords="2078,229,2220,256"/>
-<area shape="rect" id="node72" href="$_s_l_button_8h.html" title="SLButton.h" alt="" coords="1267,229,1360,256"/>
-<area shape="rect" id="node74" href="$_s_l_button_8cpp.html" title="SLButton.cpp" alt="" coords="1186,304,1293,331"/>
-<area shape="rect" id="node77" href="$_s_l_scene_view_8cpp.html" title="SLSceneView.cpp" alt="" coords="1318,304,1452,331"/>
+<area shape="rect" id="node33" href="$_s_l_g_l_vertex_buffer_8cpp.html" title="SLGLVertexBuffer.cpp" alt="" coords="3043,155,3205,181"/>
+<area shape="rect" id="node35" href="$_s_l_input_manager_8cpp.html" title="SLInputManager.cpp" alt="" coords="150,229,303,256"/>
+<area shape="rect" id="node37" href="$_s_l_light_rect_8cpp.html" title="SLLightRect.cpp" alt="" coords="327,229,451,256"/>
+<area shape="rect" id="node39" href="$_s_l_light_sphere_8cpp.html" title="SLLightSphere.cpp" alt="" coords="475,229,617,256"/>
+<area shape="rect" id="node41" href="$_s_l_scene_8cpp.html" title="SLScene.cpp" alt="" coords="2206,304,2311,331"/>
+<area shape="rect" id="node43" href="$_s_l_scene__on_load_8cpp.html" title="SLScene_onLoad.cpp" alt="" coords="642,229,800,256"/>
+<area shape="rect" id="node45" href="$_s_l_skeleton_8cpp.html" title="SLSkeleton.cpp" alt="" coords="825,229,945,256"/>
+<area shape="rect" id="node47" href="$_s_l_text_8cpp.html" title="SLText.cpp" alt="" coords="3230,155,3321,181"/>
+<area shape="rect" id="node49" href="$_s_l_scene_view_8h.html" title="SLSceneView.h" alt="" coords="1051,155,1169,181"/>
+<area shape="rect" id="node52" href="$_s_l_anim_track_8cpp.html" title="SLAnimTrack.cpp" alt="" coords="970,229,1101,256"/>
+<area shape="rect" id="node54" href="$_s_l_camera_8cpp.html" title="SLCamera.cpp" alt="" coords="1126,229,1241,256"/>
+<area shape="rect" id="node59" href="$_s_l_material_8cpp.html" title="SLMaterial.cpp" alt="" coords="1385,229,1500,256"/>
+<area shape="rect" id="node61" href="$_s_l_mesh_8cpp.html" title="SLMesh.cpp" alt="" coords="1525,229,1624,256"/>
+<area shape="rect" id="node63" href="$_s_l_node_8cpp.html" title="SLNode.cpp" alt="" coords="1648,229,1747,256"/>
+<area shape="rect" id="node65" href="$_s_l_pathtracer_8cpp.html" title="SLPathtracer.cpp" alt="" coords="1771,229,1903,256"/>
+<area shape="rect" id="node67" href="$_s_l_raytracer_8cpp.html" title="SLRaytracer.cpp" alt="" coords="1927,229,2053,256"/>
+<area shape="rect" id="node72" href="$_s_l_uniform_grid_8cpp.html" title="SLUniformGrid.cpp" alt="" coords="2078,229,2220,256"/>
+<area shape="rect" id="node74" href="$_s_l_button_8h.html" title="SLButton.h" alt="" coords="1267,229,1360,256"/>
+<area shape="rect" id="node76" href="$_s_l_button_8cpp.html" title="SLButton.cpp" alt="" coords="1186,304,1293,331"/>
+<area shape="rect" id="node79" href="$_s_l_scene_view_8cpp.html" title="SLSceneView.cpp" alt="" coords="1318,304,1452,331"/>
 </map>

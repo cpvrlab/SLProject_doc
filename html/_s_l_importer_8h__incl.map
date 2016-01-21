@@ -1,18 +1,20 @@
 <map id="SLImporter.h" name="SLImporter.h">
-<area shape="rect" id="node5" href="$_s_l_node_8h.html" title="SLNode.h" alt="" coords="503,304,587,331"/>
-<area shape="rect" id="node33" href="$_s_l_g_l_texture_8h.html" title="SLGLTexture.h" alt="" coords="1075,528,1189,555"/>
-<area shape="rect" id="node40" href="$_s_l_skeleton_8h.html" title="SLSkeleton.h" alt="" coords="583,80,689,107"/>
-<area shape="rect" id="node8" href="$_s_l_enums_8h.html" title="SLEnums.h" alt="" coords="625,453,719,480"/>
-<area shape="rect" id="node11" href="$_s_l_mesh_8h.html" title="SLMesh.h" alt="" coords="374,379,457,405"/>
-<area shape="rect" id="node26" href="$_s_l_draw_bits_8h.html" title="SLDrawBits.h" alt="" coords="93,453,200,480"/>
-<area shape="rect" id="node29" href="$_s_l_event_handler_8h.html" title="SLEventHandler.h" alt="" coords="483,379,619,405"/>
-<area shape="rect" id="node14" href="$_s_l_a_a_b_box_8h.html" title="SLAABBox.h" alt="" coords="365,453,467,480"/>
-<area shape="rect" id="node20" href="$_s_l_g_l_vertex_array_8h.html" title="SLGLVertexArray.h" alt="" coords="435,603,577,629"/>
-<area shape="rect" id="node17" href="$_s_l_g_l_vertex_array_ext_8h.html" title="SLGLVertexArrayExt.h" alt="" coords="365,528,528,555"/>
-<area shape="rect" id="node36" href="$_s_l_image_8h.html" title="SLImage.h" alt="" coords="1043,603,1133,629"/>
-<area shape="rect" id="node43" href="$_s_l_joint_8h.html" title="SLJoint.h" alt="" coords="592,229,669,256"/>
-<area shape="rect" id="node47" href="$_s_l_animation_8h.html" title="SLAnimation.h" alt="" coords="668,155,783,181"/>
-<area shape="rect" id="node59" href="$_s_l_anim_playback_8h.html" title="SLAnimPlayback.h" alt="" coords="987,379,1125,405"/>
-<area shape="rect" id="node50" href="$_s_l_anim_track_8h.html" title="SLAnimTrack.h" alt="" coords="795,379,912,405"/>
-<area shape="rect" id="node54" href="$_s_l_keyframe_8h.html" title="SLKeyframe.h" alt="" coords="755,528,865,555"/>
+<area shape="rect" id="node5" href="$_s_l_node_8h.html" title="SLNode.h" alt="" coords="449,304,532,331"/>
+<area shape="rect" id="node39" href="$_s_l_g_l_texture_8h.html" title="SLGLTexture.h" alt="" coords="69,528,184,555"/>
+<area shape="rect" id="node46" href="$_s_l_skeleton_8h.html" title="SLSkeleton.h" alt="" coords="724,80,831,107"/>
+<area shape="rect" id="node8" href="$_s_l_enums_8h.html" title="SLEnums.h" alt="" coords="815,453,909,480"/>
+<area shape="rect" id="node10" href="$_s_l_mesh_8h.html" title="SLMesh.h" alt="" coords="597,379,680,405"/>
+<area shape="rect" id="node32" href="$_s_l_draw_bits_8h.html" title="SLDrawBits.h" alt="" coords="259,752,365,779"/>
+<area shape="rect" id="node35" href="$_s_l_event_handler_8h.html" title="SLEventHandler.h" alt="" coords="423,379,559,405"/>
+<area shape="rect" id="node13" href="$_s_l_a_a_b_box_8h.html" title="SLAABBox.h" alt="" coords="588,453,689,480"/>
+<area shape="rect" id="node19" href="$_s_l_g_l_vertex_array_8h.html" title="SLGLVertexArray.h" alt="" coords="522,603,664,629"/>
+<area shape="rect" id="node16" href="$_s_l_g_l_vertex_array_ext_8h.html" title="SLGLVertexArrayExt.h" alt="" coords="588,528,751,555"/>
+<area shape="rect" id="node22" href="$_s_l_g_l_enums_8h.html" title="SLGLEnums.h" alt="" coords="542,752,652,779"/>
+<area shape="rect" id="node25" href="$_s_l_g_l_vertex_buffer_8h.html" title="SLGLVertexBuffer.h" alt="" coords="456,677,603,704"/>
+<area shape="rect" id="node42" href="$_s_l_image_8h.html" title="SLImage.h" alt="" coords="43,677,133,704"/>
+<area shape="rect" id="node49" href="$_s_l_joint_8h.html" title="SLJoint.h" alt="" coords="739,229,816,256"/>
+<area shape="rect" id="node53" href="$_s_l_animation_8h.html" title="SLAnimation.h" alt="" coords="821,155,936,181"/>
+<area shape="rect" id="node65" href="$_s_l_anim_playback_8h.html" title="SLAnimPlayback.h" alt="" coords="1112,379,1251,405"/>
+<area shape="rect" id="node56" href="$_s_l_anim_track_8h.html" title="SLAnimTrack.h" alt="" coords="971,379,1088,405"/>
+<area shape="rect" id="node60" href="$_s_l_keyframe_8h.html" title="SLKeyframe.h" alt="" coords="1037,603,1147,629"/>
 </map>

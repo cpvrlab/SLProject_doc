@@ -2,13 +2,6 @@ var _s_l_importer_8h =
 [
     [ "SLImporter", "class_s_l_importer.html", "class_s_l_importer" ],
     [ "SLMeshMap", "_s_l_importer_8h.html#ac64c4ae24c5a50c2dce594c420acc6d2", null ],
-    [ "SLLogVerbosity", "_s_l_importer_8h.html#a1f3982f7d925669a9159b8d01effd992", [
-      [ "LV_Quiet", "_s_l_importer_8h.html#a1f3982f7d925669a9159b8d01effd992afae184ba4c54fb79ed4c5d93eac96301", null ],
-      [ "LV_Minimal", "_s_l_importer_8h.html#a1f3982f7d925669a9159b8d01effd992a7436f6b0337e66deb6c9bf742702b32d", null ],
-      [ "LV_Normal", "_s_l_importer_8h.html#a1f3982f7d925669a9159b8d01effd992ab30308085e204e67c8538ac0be606384", null ],
-      [ "LV_Detailed", "_s_l_importer_8h.html#a1f3982f7d925669a9159b8d01effd992a8355a07b7cc0456dcae6b8175926af8c", null ],
-      [ "LV_Diagnostic", "_s_l_importer_8h.html#a1f3982f7d925669a9159b8d01effd992a832a5a62681873a55d9454d265c7942c", null ]
-    ] ],
     [ "SLPostProcessSteps", "_s_l_importer_8h.html#a9abe3eba225d8d79a9bb75b08614b26c", [
       [ "SLProcess_CalcTangentSpace", "_s_l_importer_8h.html#a9abe3eba225d8d79a9bb75b08614b26caf6296dc1567e19d7f4c3521a29c7a737", null ],
       [ "SLProcess_JoinIdenticalVertices", "_s_l_importer_8h.html#a9abe3eba225d8d79a9bb75b08614b26cae0ded7ed34c2637c3756c32383e08836", null ],

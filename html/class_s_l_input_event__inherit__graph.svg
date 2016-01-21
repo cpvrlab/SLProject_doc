@@ -28,7 +28,7 @@
 </g>
 <!-- Node3 -->
 <g id="node5" class="node"><title>Node3</title>
-<a xlink:href="class_s_l_command_event.html" target="_top" xlink:title="Specialized SLInput class for specialized SLCmd input event&#39;s.">
+<a xlink:href="class_s_l_command_event.html" target="_top" xlink:title="Specialized SLInput class for specialized SLCommand input event&#39;s.">
 <polygon fill="white" stroke="black" points="116,-190.5 116,-209.5 222,-209.5 222,-190.5 116,-190.5"/>
 <text text-anchor="middle" x="169" y="-197.5" font-family="Arial.ttf" font-size="10.00">SLCommandEvent</text>
 </a>

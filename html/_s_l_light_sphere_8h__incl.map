@@ -1,12 +1,14 @@
 <map id="SLLightSphere.h" name="SLLightSphere.h">
-<area shape="rect" id="node5" href="$_s_l_node_8h.html" title="SLNode.h" alt="" coords="302,80,385,107"/>
-<area shape="rect" id="node33" href="$_s_l_light_8h.html" title="SLLight.h" alt="" coords="658,379,739,405"/>
-<area shape="rect" id="node36" href="$_s_l_samples2_d_8h.html" title="SLSamples2D.h" alt="" coords="715,80,839,107"/>
-<area shape="rect" id="node8" href="$_s_l_enums_8h.html" title="SLEnums.h" alt="" coords="282,229,376,256"/>
-<area shape="rect" id="node11" href="$_s_l_mesh_8h.html" title="SLMesh.h" alt="" coords="435,155,519,181"/>
-<area shape="rect" id="node26" href="$_s_l_draw_bits_8h.html" title="SLDrawBits.h" alt="" coords="43,304,149,331"/>
-<area shape="rect" id="node29" href="$_s_l_event_handler_8h.html" title="SLEventHandler.h" alt="" coords="224,155,360,181"/>
-<area shape="rect" id="node14" href="$_s_l_a_a_b_box_8h.html" title="SLAABBox.h" alt="" coords="407,229,508,256"/>
-<area shape="rect" id="node20" href="$_s_l_g_l_vertex_array_8h.html" title="SLGLVertexArray.h" alt="" coords="427,379,569,405"/>
-<area shape="rect" id="node17" href="$_s_l_g_l_vertex_array_ext_8h.html" title="SLGLVertexArrayExt.h" alt="" coords="376,304,539,331"/>
+<area shape="rect" id="node5" href="$_s_l_node_8h.html" title="SLNode.h" alt="" coords="418,80,501,107"/>
+<area shape="rect" id="node39" href="$_s_l_light_8h.html" title="SLLight.h" alt="" coords="699,379,780,405"/>
+<area shape="rect" id="node42" href="$_s_l_samples2_d_8h.html" title="SLSamples2D.h" alt="" coords="754,453,877,480"/>
+<area shape="rect" id="node8" href="$_s_l_enums_8h.html" title="SLEnums.h" alt="" coords="529,229,623,256"/>
+<area shape="rect" id="node10" href="$_s_l_mesh_8h.html" title="SLMesh.h" alt="" coords="378,155,461,181"/>
+<area shape="rect" id="node32" href="$_s_l_draw_bits_8h.html" title="SLDrawBits.h" alt="" coords="43,304,149,331"/>
+<area shape="rect" id="node35" href="$_s_l_event_handler_8h.html" title="SLEventHandler.h" alt="" coords="537,155,673,181"/>
+<area shape="rect" id="node13" href="$_s_l_a_a_b_box_8h.html" title="SLAABBox.h" alt="" coords="403,229,504,256"/>
+<area shape="rect" id="node19" href="$_s_l_g_l_vertex_array_8h.html" title="SLGLVertexArray.h" alt="" coords="379,379,521,405"/>
+<area shape="rect" id="node16" href="$_s_l_g_l_vertex_array_ext_8h.html" title="SLGLVertexArrayExt.h" alt="" coords="403,304,565,331"/>
+<area shape="rect" id="node22" href="$_s_l_g_l_enums_8h.html" title="SLGLEnums.h" alt="" coords="361,528,471,555"/>
+<area shape="rect" id="node25" href="$_s_l_g_l_vertex_buffer_8h.html" title="SLGLVertexBuffer.h" alt="" coords="275,453,421,480"/>
 </map>

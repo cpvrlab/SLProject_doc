@@ -101,6 +101,10 @@ SLMesh is the base class for triangulated or wireframed meshes (pink classes). A
 mesh is rendered with a material defined in SLMaterial.
 A mesh has all the vertex attributes such as position, normals, texture coordinates.
 The triangles are defined by indexes into the vertex attribute arrays.
+A mesh has an instance of SLGLVertexArray that does all the OpenGL drawing.
+This vertex array object (VAO) stores all attributes in either a float or half float
+vertex attribute buffer (SLGLVertexBuffer) that is generated in the memory of the GPU.
+The attribute data on the client side is not deleted because it is used for ray tracing.
 <ul>
     <li>
         SLRevolver, SLSphere, SLCylinder, SLCone, SLBox, SLPolygon and SLRectangle are all
@@ -115,8 +119,8 @@ The triangles are defined by indexes into the vertex attribute arrays.
 
 \section material Material Classes
 <p>
-SLMaterial is the core of the yello classes that define the appearance of a mesh.
-A material can have one or more texture images and is rendered with a specific shader programm written
+SLMaterial is the core of the yellow classes that define the appearance of a mesh.
+A material can have one or more texture images and is rendered with a specific shader program written
 in the OpenGL shading language (GLSL).
 <ul>
     <li>
@@ -129,8 +133,8 @@ in the OpenGL shading language (GLSL).
         SLGLShader defines a vertex or fragment shader where the source code is read from a file.
     </li>
     <li>
-        All OpenGL ES 2.0 code is restricted to the classes beginning with SLGL.
-        (SLGLState, SLGLTexture, SLGLVertexAttribute, SLGLShader and SLGLProgram)
+        All OpenGL code is restricted to the classes beginning with SLGL.
+        (SLGLState, SLGLTexture, SLGLShader, SLGLProgram, SLGLVertexArray and SLGLVertexBuffer.)
      </li>
     <li>
         The linear algebra math is implemented in the classes SLMat3, SLMat4, SLVec3, SLVec4 and SLQuat4.

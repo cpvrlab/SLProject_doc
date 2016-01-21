@@ -1,4 +1,6 @@
 <map id="SLAABBox.h" name="SLAABBox.h">
-<area shape="rect" id="node5" href="$_s_l_g_l_vertex_array_ext_8h.html" title="SLGLVertexArrayExt.h" alt="" coords="35,80,197,107"/>
-<area shape="rect" id="node8" href="$_s_l_g_l_vertex_array_8h.html" title="SLGLVertexArray.h" alt="" coords="86,155,228,181"/>
+<area shape="rect" id="node5" href="$_s_l_g_l_vertex_array_ext_8h.html" title="SLGLVertexArrayExt.h" alt="" coords="43,80,205,107"/>
+<area shape="rect" id="node8" href="$_s_l_g_l_vertex_array_8h.html" title="SLGLVertexArray.h" alt="" coords="94,155,236,181"/>
+<area shape="rect" id="node11" href="$_s_l_g_l_enums_8h.html" title="SLGLEnums.h" alt="" coords="145,304,255,331"/>
+<area shape="rect" id="node14" href="$_s_l_g_l_vertex_buffer_8h.html" title="SLGLVertexBuffer.h" alt="" coords="203,229,349,256"/>
 </map>

@@ -15,6 +15,7 @@ var _s_l_8h =
     [ "SLchar", "_s_l_8h.html#a6094e9d54f65cb82db93b25377cacd75", null ],
     [ "SLenum", "_s_l_8h.html#a2ac6666963fa79ead67d1635baba8b5b", null ],
     [ "SLfloat", "_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e", null ],
+    [ "SLhalf", "_s_l_8h.html#a44b011290359e5a0a5511ef28859b5c4", null ],
     [ "SLint", "_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d", null ],
     [ "SLint64", "_s_l_8h.html#a5d85dd6e4efcba0a020be528a5179a43", null ],
     [ "SLlong", "_s_l_8h.html#aa95512f72f92b235cbd23ed8879b43c8", null ],

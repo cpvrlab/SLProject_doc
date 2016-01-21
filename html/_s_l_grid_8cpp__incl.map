@@ -2,7 +2,9 @@
 <area shape="rect" id="node5" href="$_s_l_grid_8h.html" title="SLGrid.h" alt="" coords="51,80,127,107"/>
 <area shape="rect" id="node8" href="$_s_l_mesh_8h.html" title="SLMesh.h" alt="" coords="201,155,284,181"/>
 <area shape="rect" id="node11" href="$_s_l_a_a_b_box_8h.html" title="SLAABBox.h" alt="" coords="192,229,293,256"/>
-<area shape="rect" id="node17" href="$_s_l_g_l_vertex_array_8h.html" title="SLGLVertexArray.h" alt="" coords="254,379,396,405"/>
-<area shape="rect" id="node21" href="$_s_l_enums_8h.html" title="SLEnums.h" alt="" coords="441,304,535,331"/>
+<area shape="rect" id="node17" href="$_s_l_g_l_vertex_array_8h.html" title="SLGLVertexArray.h" alt="" coords="262,379,404,405"/>
+<area shape="rect" id="node28" href="$_s_l_enums_8h.html" title="SLEnums.h" alt="" coords="441,229,535,256"/>
 <area shape="rect" id="node14" href="$_s_l_g_l_vertex_array_ext_8h.html" title="SLGLVertexArrayExt.h" alt="" coords="203,304,365,331"/>
+<area shape="rect" id="node20" href="$_s_l_g_l_enums_8h.html" title="SLGLEnums.h" alt="" coords="305,528,415,555"/>
+<area shape="rect" id="node23" href="$_s_l_g_l_vertex_buffer_8h.html" title="SLGLVertexBuffer.h" alt="" coords="371,453,517,480"/>
 </map>

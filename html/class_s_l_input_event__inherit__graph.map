@@ -1,6 +1,6 @@
 <map id="SLInputEvent" name="SLInputEvent">
 <area shape="rect" id="node3" href="$class_s_l_char_input_event.html" title="Specialized SLInput class for unicode character input." alt="" coords="163,5,299,32"/>
-<area shape="rect" id="node5" href="$class_s_l_command_event.html" title="Specialized SLInput class for specialized SLCmd input event&#39;s." alt="" coords="160,56,301,83"/>
+<area shape="rect" id="node5" href="$class_s_l_command_event.html" title="Specialized SLInput class for specialized SLCommand input event&#39;s." alt="" coords="160,56,301,83"/>
 <area shape="rect" id="node7" href="$class_s_l_key_event.html" title="Specialized SLInput class for all keypress related input events." alt="" coords="182,107,279,133"/>
 <area shape="rect" id="node9" href="$class_s_l_mouse_event.html" title="Specialized SLInput class for all mouse related input events." alt="" coords="173,157,289,184"/>
 <area shape="rect" id="node11" href="$class_s_l_resize_event.html" title="Specialized SLInput class for window resize events." alt="" coords="173,208,288,235"/>

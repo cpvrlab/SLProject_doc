@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">1.30</span>
+   &#160;<span id="projectnumber">1.31</span>
    </div>
   </td>
  </tr>
@@ -115,7 +115,7 @@ Central Classes</h1>
 <li>
 <a class="el" href="class_s_l_input_manager.html" title="SLInputManager. manages system input and custom input devices.">SLInputManager</a> collects all user events from the mouse and keyboard as well as from additional input devices such as a LeapMotion or Kinect sensor.  </li>
 <li>
-<a class="el" href="class_s_l_scene.html" title="The SLScene class represents the top level instance holding the scene structure.">SLScene</a> is the toplevel class of the framework that represents the scene with its properties. The scene content is created in <a class="el" href="class_s_l_scene.html#ae652686611df0bb9a60a25ea6d869534" title="SLScene::onLoad(int sceneName) builds a scene from source code.">SLScene::onLoad</a>. It also holds one or more pointers to <a class="el" href="class_s_l_scene_view.html" title="SceneView class represents a dynamic real time 3D view onto the scene.">SLSceneView</a> instancies.  </li>
+<a class="el" href="class_s_l_scene.html" title="The SLScene class represents the top level instance holding the scene structure.">SLScene</a> is the toplevel class of the framework that represents the scene with its properties. The scene content is created in <a class="el" href="class_s_l_scene.html#ada7194df99deb706cdc761db56cf5390" title="SLScene::onLoad(int _currentID) builds a scene from source code.">SLScene::onLoad</a>. It also holds one or more pointers to <a class="el" href="class_s_l_scene_view.html" title="SceneView class represents a dynamic real time 3D view onto the scene.">SLSceneView</a> instancies.  </li>
 <li>
 <a class="el" href="class_s_l_scene_view.html" title="SceneView class represents a dynamic real time 3D view onto the scene.">SLSceneView</a> represents a dynamic real time 3D view onto the scene. A scene can be shown in multiple sceneviews as demonstrated in the app-Viewer-Qt application. A sceneview receives all events (keyboard, mouse etc.) from the GUI via the <a class="el" href="class_s_l_input_manager.html" title="SLInputManager. manages system input and custom input devices.">SLInputManager</a>.  </li>
 </ul>
@@ -130,7 +130,7 @@ Scenegraph Classes</h1>
 </ul>
 <h1><a class="anchor" id="mesh"></a>
 Mesh Classes</h1>
-<p><a class="el" href="class_s_l_mesh.html" title="An SLMesh object is a triangulated mesh that is drawn with one draw call.">SLMesh</a> is the base class for triangulated or wireframed meshes (pink classes). A mesh is rendered with a material defined in <a class="el" href="class_s_l_material.html" title="Defines a standard CG material with textures and a shader program.">SLMaterial</a>. A mesh has all the vertex attributes such as position, normals, texture coordinates. The triangles are defined by indexes into the vertex attribute arrays. </p>
+<p><a class="el" href="class_s_l_mesh.html" title="An SLMesh object is a triangulated mesh that is drawn with one draw call.">SLMesh</a> is the base class for triangulated or wireframed meshes (pink classes). A mesh is rendered with a material defined in <a class="el" href="class_s_l_material.html" title="Defines a standard CG material with textures and a shader program.">SLMaterial</a>. A mesh has all the vertex attributes such as position, normals, texture coordinates. The triangles are defined by indexes into the vertex attribute arrays. A mesh has an instance of <a class="el" href="class_s_l_g_l_vertex_array.html" title="SLGLVertexArray encapsulates the core OpenGL drawing.">SLGLVertexArray</a> that does all the OpenGL drawing. This vertex array object (VAO) stores all attributes in either a float or half float vertex attribute buffer (<a class="el" href="class_s_l_g_l_vertex_buffer.html" title="SLGLVertexBuffer encapsulates an OpenGL buffer for vertex attributes.">SLGLVertexBuffer</a>) that is generated in the memory of the GPU. The attribute data on the client side is not deleted because it is used for ray tracing. </p>
 <ul>
 <li>
 <a class="el" href="class_s_l_revolver.html" title="SLRevolver is an SLMesh object built out of revolving points.">SLRevolver</a>, <a class="el" href="class_s_l_sphere.html" title="SLSphere creates a sphere mesh based on SLRevolver.">SLSphere</a>, <a class="el" href="class_s_l_cylinder.html" title="SLCylinder is creates sphere mesh based on its SLRevolver methods.">SLCylinder</a>, <a class="el" href="class_s_l_cone.html" title="SLCone creates a cone mesh based on SLRevolver.">SLCone</a>, <a class="el" href="class_s_l_box.html" title="Axis aligned box mesh.">SLBox</a>, <a class="el" href="class_s_l_polygon.html" title="SLPolygon creates a convex polyon mesh.">SLPolygon</a> and <a class="el" href="class_s_l_rectangle.html" title="SLRectangle creates a rectangular mesh with a certain resolution.">SLRectangle</a> are all inheritants from <a class="el" href="class_s_l_mesh.html" title="An SLMesh object is a triangulated mesh that is drawn with one draw call.">SLMesh</a> and represent the according platonic shapes.  </li>
@@ -139,7 +139,7 @@ Mesh Classes</h1>
 </ul>
 <h1><a class="anchor" id="material"></a>
 Material Classes</h1>
-<p><a class="el" href="class_s_l_material.html" title="Defines a standard CG material with textures and a shader program.">SLMaterial</a> is the core of the yello classes that define the appearance of a mesh. A material can have one or more texture images and is rendered with a specific shader programm written in the OpenGL shading language (GLSL). </p>
+<p><a class="el" href="class_s_l_material.html" title="Defines a standard CG material with textures and a shader program.">SLMaterial</a> is the core of the yellow classes that define the appearance of a mesh. A material can have one or more texture images and is rendered with a specific shader program written in the OpenGL shading language (GLSL). </p>
 <ul>
 <li>
 <a class="el" href="class_s_l_g_l_texture.html" title="Texture object for OpenGL texturing.">SLGLTexture</a> defines a texture image with filtering parameters.  </li>
@@ -148,7 +148,7 @@ Material Classes</h1>
 <li>
 <a class="el" href="class_s_l_g_l_shader.html" title="Encapsulation of an OpenGL shader object.">SLGLShader</a> defines a vertex or fragment shader where the source code is read from a file.  </li>
 <li>
-All OpenGL ES 2.0 code is restricted to the classes beginning with SLGL. (<a class="el" href="class_s_l_g_l_state.html" title="Singleton class holding all OpenGL states.">SLGLState</a>, <a class="el" href="class_s_l_g_l_texture.html" title="Texture object for OpenGL texturing.">SLGLTexture</a>, SLGLVertexAttribute, <a class="el" href="class_s_l_g_l_shader.html" title="Encapsulation of an OpenGL shader object.">SLGLShader</a> and <a class="el" href="class_s_l_g_l_program.html" title="Encapsulation of an OpenGL shader program object.">SLGLProgram</a>)  </li>
+All OpenGL code is restricted to the classes beginning with SLGL. (<a class="el" href="class_s_l_g_l_state.html" title="Singleton class holding all OpenGL states.">SLGLState</a>, <a class="el" href="class_s_l_g_l_texture.html" title="Texture object for OpenGL texturing.">SLGLTexture</a>, <a class="el" href="class_s_l_g_l_shader.html" title="Encapsulation of an OpenGL shader object.">SLGLShader</a>, <a class="el" href="class_s_l_g_l_program.html" title="Encapsulation of an OpenGL shader program object.">SLGLProgram</a>, <a class="el" href="class_s_l_g_l_vertex_array.html" title="SLGLVertexArray encapsulates the core OpenGL drawing.">SLGLVertexArray</a> and <a class="el" href="class_s_l_g_l_vertex_buffer.html" title="SLGLVertexBuffer encapsulates an OpenGL buffer for vertex attributes.">SLGLVertexBuffer</a>.)  </li>
 <li>
 The linear algebra math is implemented in the classes <a class="el" href="class_s_l_mat3.html" title="3x3 matrix template class">SLMat3</a>, <a class="el" href="class_s_l_mat4.html" title="4x4 matrix template class">SLMat4</a>, <a class="el" href="class_s_l_vec3.html" title="3D vector template class for standard 3D vector algebra.">SLVec3</a>, <a class="el" href="class_s_l_vec4.html" title="4D vector template class for standard 4D vector algebra.">SLVec4</a> and <a class="el" href="class_s_l_quat4.html" title="Quaternion class for angle-axis rotation representation.">SLQuat4</a>.  </li>
 </ul>
@@ -179,7 +179,7 @@ Animation Classes</h1>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Jan 10 2016 09:37:23 for SLProject by
+    <li class="footer">Generated on Thu Jan 21 2016 09:08:37 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
   </ul>

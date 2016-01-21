@@ -3,7 +3,7 @@ var class_s_l_g_l_state =
     [ "SLGLState", "class_s_l_g_l_state.html#a3dc586033ca5537b429deefad10ccf12", null ],
     [ "~SLGLState", "class_s_l_g_l_state.html#a384082b755b28675dd0ae4602de9c451", null ],
     [ "activeTexture", "class_s_l_g_l_state.html#a1692a95845f102e095a7164b16e17238", null ],
-    [ "bindAndEnableTexture", "class_s_l_g_l_state.html#a9a291500a8ea1cc8783a426df51ea45e", null ],
+    [ "bindTexture", "class_s_l_g_l_state.html#aa84f4fa94f8ed7a1533c36b4981882f2", null ],
     [ "blend", "class_s_l_g_l_state.html#a74148ca9c6f414272a5a89bbdf18d8a4", null ],
     [ "blend", "class_s_l_g_l_state.html#a292a84fc73eb72ba376d5144ee1cfd17", null ],
     [ "buildInverseAndNormalMatrix", "class_s_l_g_l_state.html#a5007848a43c1daf61b27cbd712e5991c", null ],

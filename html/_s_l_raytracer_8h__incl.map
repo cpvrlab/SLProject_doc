@@ -1,7 +1,9 @@
 <map id="SLRaytracer.h" name="SLRaytracer.h">
-<area shape="rect" id="node5" href="$_s_l_g_l_texture_8h.html" title="SLGLTexture.h" alt="" coords="27,80,142,107"/>
-<area shape="rect" id="node14" href="$_s_l_event_handler_8h.html" title="SLEventHandler.h" alt="" coords="267,80,403,107"/>
-<area shape="rect" id="node8" href="$_s_l_image_8h.html" title="SLImage.h" alt="" coords="39,155,130,181"/>
-<area shape="rect" id="node11" href="$_s_l_g_l_vertex_array_8h.html" title="SLGLVertexArray.h" alt="" coords="154,155,296,181"/>
-<area shape="rect" id="node17" href="$_s_l_enums_8h.html" title="SLEnums.h" alt="" coords="373,155,467,181"/>
+<area shape="rect" id="node5" href="$_s_l_g_l_texture_8h.html" title="SLGLTexture.h" alt="" coords="81,80,196,107"/>
+<area shape="rect" id="node21" href="$_s_l_event_handler_8h.html" title="SLEventHandler.h" alt="" coords="425,80,561,107"/>
+<area shape="rect" id="node8" href="$_s_l_image_8h.html" title="SLImage.h" alt="" coords="93,229,184,256"/>
+<area shape="rect" id="node11" href="$_s_l_g_l_vertex_array_8h.html" title="SLGLVertexArray.h" alt="" coords="189,155,331,181"/>
+<area shape="rect" id="node14" href="$_s_l_g_l_enums_8h.html" title="SLGLEnums.h" alt="" coords="259,304,369,331"/>
+<area shape="rect" id="node17" href="$_s_l_g_l_vertex_buffer_8h.html" title="SLGLVertexBuffer.h" alt="" coords="309,229,456,256"/>
+<area shape="rect" id="node24" href="$_s_l_enums_8h.html" title="SLEnums.h" alt="" coords="531,155,625,181"/>
 </map>

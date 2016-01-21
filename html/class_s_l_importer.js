@@ -2,7 +2,7 @@ var class_s_l_importer =
 [
     [ "SLImporter", "class_s_l_importer.html#aab20129db0d7def5e1951dec8e412e4b", null ],
     [ "SLImporter", "class_s_l_importer.html#a71cdea34c952dff98cd5cab31efb942a", null ],
-    [ "SLImporter", "class_s_l_importer.html#a8f751f19e760b0a8100079985c6f41f4", null ],
+    [ "SLImporter", "class_s_l_importer.html#a4ff48c993fa40fe5fbfc7e2181073d38", null ],
     [ "~SLImporter", "class_s_l_importer.html#ae10dab69d2130fd631ce8edfa1b4bb3c", null ],
     [ "load", "class_s_l_importer.html#ac14a76aa8c8fbb6eeaf597b0c2083a3f", null ],
     [ "logConsoleVerbosity", "class_s_l_importer.html#a11f624c335d31ca093257da3cf6243f0", null ],
