@@ -14,7 +14,7 @@ The following class diagram gives you an overview of the major classes with of i
 <img src="../images/SLProject_UML_min.svg" width="100%">
 </p>
 
-\section app Application code
+\section app Application Code
 <p>
 The applications starting code (gray boxes in the class diagram below) depends on the operating system 
 In all cases we have the most outer shell of the application that handles the window and the
@@ -30,7 +30,7 @@ The following OS' are supported and applications are provided for demonstration:
     <li>
         Windows, Linux and Max OSX applications can also use the <a href="http://qt-project.org/">Qt</a>
         C++-library for the window and context creation. Qt has to be downloaded and installed additionally.
-        See the app-Demo-Qt for demonstation.
+        See the app-Demo-Qt for demonstration.
     </li>
     <li>
         The Android application starts in JAVA and passes the events with JNI (Java
@@ -68,9 +68,9 @@ The blue classes form the center of the SLProject framework:
         additional input devices such as a LeapMotion or Kinect sensor.
     </li>
     <li>
-        SLScene is the toplevel class of the framework that represents the scene with
+        SLScene is the top-level class of the framework that represents the scene with
         its properties. The scene content is created in SLScene::onLoad.
-        It also holds one or more pointers to SLSceneView instancies.
+        It also holds one or more pointers to SLSceneView instances.
     </li>
     <li>
         SLSceneView represents a dynamic real time 3D view onto the scene.
@@ -118,9 +118,7 @@ The attribute data on the client side is not deleted because it is used for ray 
 </ul>
 </p>
 
-
-
-\section vao Vertex Array Classes
+\section vao VertexArray Classes
 <p>
 SLGLVertexArray and SLGLVertexBuffer encapsulate all OpenGL buffer stuff and provides the core
 drawing functionality with OpenGL.
