@@ -8,6 +8,7 @@ The following class diagram gives you an overview of the major classes with of i
     <li>The <b>yellow classes</b> define the materials that are responsible for the visual appearances of the mesh objects.</li>
     <li>The <b>green classes</b> build the scenegraph that defines the spacial structure of the visible objects.</li>
     <li>The <b>pink classes</b> define a single triangulated mesh object.</li>
+    <li>The <b>violet classes</b> encapsulate all OpenGL vertex array object and buffer objects</li>
     <li>The <b>red classes</b> build the animation framework</li>
 </ul>
 <img src="../images/SLProject_UML_min.svg" width="100%">
@@ -97,7 +98,7 @@ A node can be transformed (translated, rotated and scaled) in 3D-space.
 
 \section mesh Mesh Classes
 <p>
-SLMesh is the base class for triangulated or wireframed meshes (pink classes). A
+SLMesh is the base class for triangulated or wire framed meshes (pink classes). A
 mesh is rendered with a material defined in SLMaterial.
 A mesh has all the vertex attributes such as position, normals, texture coordinates.
 The triangles are defined by indexes into the vertex attribute arrays.
@@ -115,6 +116,14 @@ The attribute data on the client side is not deleted because it is used for ray 
         Every SLNode has an axis aligned AABB that is used for fast frustum culling and ray shooting.
     </li>
 </ul>
+</p>
+
+
+
+\section vao Vertex Array Classes
+<p>
+SLGLVertexArray and SLGLVertexBuffer encapsulate all OpenGL buffer stuff and provides the core
+drawing functionality with OpenGL.
 </p>
 
 \section material Material Classes
