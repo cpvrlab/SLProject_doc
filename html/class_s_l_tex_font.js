@@ -1,11 +1,11 @@
 var class_s_l_tex_font =
 [
     [ "SLTexFontChar", "struct_s_l_tex_font_1_1_s_l_tex_font_char.html", "struct_s_l_tex_font_1_1_s_l_tex_font_char" ],
-    [ "SLTexFont", "class_s_l_tex_font.html#a3b235b38a7f6ace9db7bb2e86c354cf7", null ],
+    [ "SLTexFont", "class_s_l_tex_font.html#a3a6d52a30784b44191ce9d4a2943593d", null ],
     [ "~SLTexFont", "class_s_l_tex_font.html#a32428547a38423a0d21371e8d4156b29", null ],
     [ "buildTextBuffers", "class_s_l_tex_font.html#a4ca009ef8ca288f0439e1af0fbfd3178", null ],
     [ "calcTextSize", "class_s_l_tex_font.html#a750d6859e6a2001f891386a0aea8bb3d", null ],
-    [ "create", "class_s_l_tex_font.html#ad9ce0ac63e9881629cd02dfd34a7f1f2", null ],
+    [ "create", "class_s_l_tex_font.html#a5b5a01d83bc7aeafe0ba4ecb2e18fdac", null ],
     [ "deleteFonts", "class_s_l_tex_font.html#adab934ccbabaa4f842bbbcbce195f520", null ],
     [ "generateFonts", "class_s_l_tex_font.html#a31afb7c5c03b925f017be511f3cd532d", null ],
     [ "getFont", "class_s_l_tex_font.html#ac482bcd6cb6a3081169de134204350b8", null ],
@@ -21,5 +21,6 @@ var class_s_l_tex_font =
     [ "font16", "class_s_l_tex_font.html#a3dc178d388bbc0c4fef6ee24e501a125", null ],
     [ "font18", "class_s_l_tex_font.html#a88c01b97c6733b0af56cb295e34aaaa0", null ],
     [ "font20", "class_s_l_tex_font.html#a7bc203c365272bb7bde1cadd9c237936", null ],
-    [ "font22", "class_s_l_tex_font.html#a25c5e4d44422891cc02fc9c804881272", null ]
+    [ "font22", "class_s_l_tex_font.html#a25c5e4d44422891cc02fc9c804881272", null ],
+    [ "font24", "class_s_l_tex_font.html#a6df2900b65301a0a351b8db3b7f4d792", null ]
 ];

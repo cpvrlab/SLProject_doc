@@ -2,10 +2,11 @@
 <area shape="rect" id="node7" href="$class_s_l_button.html" title="Defines a 2D&#45;GUI button with optional submenus as children of the group." alt="" coords="5,155,85,181"/>
 <area shape="rect" id="node9" href="$class_s_l_camera.html" title="Active or visible camera node class." alt="" coords="110,155,199,181"/>
 <area shape="rect" id="node11" href="$class_s_l_joint.html" title="Specialized SLNode that represents a single joint (or bone) in a skeleton." alt="" coords="223,155,288,181"/>
-<area shape="rect" id="node13" href="$class_s_l_light_rect.html" title="Light node class for a rectangular light source." alt="" coords="313,155,409,181"/>
-<area shape="rect" id="node15" href="$class_s_l_light_sphere.html" title="SLLightSphere class for a spherical light source." alt="" coords="435,155,549,181"/>
-<area shape="rect" id="node17" href="$class_s_l_scene_node.html" title="SLSceneNode represents a node in the scene graph and is a specialization of SLNode." alt="" coords="573,155,685,181"/>
-<area shape="rect" id="node19" href="$class_s_l_text.html" title="SLText creates a mesh using a textured font from SLTexFont." alt="" coords="710,155,775,181"/>
-<area shape="rect" id="node2" href="$class_s_l_object.html" title="Base class for all other classes." alt="" coords="259,5,337,32"/>
-<area shape="rect" id="node4" href="$class_s_l_event_handler.html" title="Virtual Eventhandler class." alt="" coords="362,5,485,32"/>
+<area shape="rect" id="node13" href="$class_s_l_light_direct.html" title="SLLightDirect class for a directional light source." alt="" coords="313,155,420,181"/>
+<area shape="rect" id="node15" href="$class_s_l_light_rect.html" title="Light node class for a rectangular light source." alt="" coords="445,155,541,181"/>
+<area shape="rect" id="node17" href="$class_s_l_light_spot.html" title="SLLightSpot class for a spot light source." alt="" coords="567,155,665,181"/>
+<area shape="rect" id="node19" href="$class_s_l_scene_node.html" title="SLSceneNode represents a node in the scene graph and is a specialization of SLNode." alt="" coords="689,155,801,181"/>
+<area shape="rect" id="node21" href="$class_s_l_text.html" title="SLText creates a mesh using a textured font from SLTexFont." alt="" coords="826,155,891,181"/>
+<area shape="rect" id="node2" href="$class_s_l_object.html" title="Base class for all other classes." alt="" coords="327,5,405,32"/>
+<area shape="rect" id="node4" href="$class_s_l_event_handler.html" title="Virtual Eventhandler class." alt="" coords="430,5,553,32"/>
 </map>

@@ -27,6 +27,7 @@ var class_s_l_a_a_b_box =
     [ "minWS", "class_s_l_a_a_b_box.html#a039a79a0416580044085fda484a58f95", null ],
     [ "radiusOS", "class_s_l_a_a_b_box.html#acaf8352f82aa5b56f0b3e62225c0555f", null ],
     [ "radiusWS", "class_s_l_a_a_b_box.html#a990ad0f36cc0ad085e54ae0a833b5098", null ],
+    [ "reset", "class_s_l_a_a_b_box.html#a2ee9055bd36073375b23d41cbeea7edf", null ],
     [ "setCenterAndRadius", "class_s_l_a_a_b_box.html#a9645c8bb5372ae174891ac332a753fca", null ],
     [ "sqrViewDist", "class_s_l_a_a_b_box.html#ab43507ff43fd9d6a206fcd116c466740", null ],
     [ "sqrViewDist", "class_s_l_a_a_b_box.html#a193778e937571ca69b8d59bedaa86fad", null ],

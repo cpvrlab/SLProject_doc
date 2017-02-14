@@ -20,7 +20,6 @@ var _s_l_g_l_enums_8h =
       [ "AT_custom9", "_s_l_g_l_enums_8h.html#a1c4ce10c8a033bc987d78c4405ec1072a66920f85334253a7940c4b6c86ad6d7b", null ]
     ] ],
     [ "SLGLBufferType", "_s_l_g_l_enums_8h.html#af2a4734548d7c452a449938c9770d0d9", [
-      [ "BT_half", "_s_l_g_l_enums_8h.html#af2a4734548d7c452a449938c9770d0d9a2a8d0a2939af88f94dad1d520ff8df81", null ],
       [ "BT_float", "_s_l_g_l_enums_8h.html#af2a4734548d7c452a449938c9770d0d9a8cfe99b751f1ad59cd77a6aa863d2f1a", null ],
       [ "BT_ubyte", "_s_l_g_l_enums_8h.html#af2a4734548d7c452a449938c9770d0d9a72b5ab51c451c86a91d3e57eac5b4f72", null ],
       [ "BT_ushort", "_s_l_g_l_enums_8h.html#af2a4734548d7c452a449938c9770d0d9a7335e8443847e44fc55cb8c4a506d663", null ],

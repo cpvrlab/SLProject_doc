@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">1.31</span>
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -61,13 +61,13 @@ $(document).ready(function(){initNavTree('index.html','');});
 <div class="title">SLProject </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>Welcome to the SLProject. <a class="el" href="class_s_l.html" title="Class SL with some global static functions.">SL</a> stands for Scene Library. It is developed at the <a href="http://www.bfh.ch/en/studies/bachelor/engineering_and_information_technology/information_technology.html">Berne University of Applied Sciences (BFH)</a> and is used for student projects in the <a href="https://www.cpvrlab.ti.bfh.ch/">cpvrLab</a>. The various applications show what you can learn in one semester about 3D computer graphics in real time rendering and ray tracing. The framework is built in C++ and OpenGL ES 2.0 and runs without changes on Windows, Linux, Mac OSX, Android and Apple iOS. The framework can render alternatively with Ray Tracing and Path Tracing which provides in addition high quality transparencies, reflections and soft shadows. You can find the demo app also on the <a href="https://play.google.com/store/apps/details?id=ch.fhnw.comgr&amp;amp;feature=search_result#?t=W251bGwsMSwyLDEsImNoLmZobncuY29tZ3IiXQ">Android Market</a>. </p>
+<div class="textblock"><p>Welcome to the SLProject. <a class="el" href="class_s_l.html" title="Class SL with some global static functions.">SL</a> stands for Scene Library. It is developed at the <a href="http://www.bfh.ch/en/studies/bachelor/engineering_and_information_technology/information_technology.html">Berne University of Applied Sciences (BFH)</a> and is used for student projects in the <a href="https://www.cpvrlab.ti.bfh.ch/">cpvrLab</a>. The various applications show what you can learn in one semester about 3D computer graphics in real time rendering and ray tracing. The framework is built in C++ and OpenGL ES and runs without changes on Windows, Linux, Mac OSX, Android and Apple iOS. The framework can render alternatively with Ray Tracing and Path Tracing which provides in addition high quality transparencies, reflections and soft shadows. You can find the demo app also on the <a href="https://play.google.com/store/apps/details?id=ch.fhnw.comgr&amp;amp;feature=search_result#?t=W251bGwsMSwyLDEsImNoLmZobncuY29tZ3IiXQ">Android Market</a>. </p>
 <p>The SLProject is hosted online on <a href="https://github.com/cpvrlab/SLProject">GitHub</a>. </p>
 <p>The source code is provided under the <a href="http://www.gnu.org/licenses/gpl.html">GNU General Puplic License (GPL)</a>. The code is provided without any warranties whether expressed or implied. </p>
 <h3>Read the following wiki page for more information:</h3>
 <ul>
 <li>
-<a href="http://cpvrlab.github.io/SLProject_doc/">SLProject Homepage</a> </li>
+<a href="https://github.com/cpvrlab/SLProject/wiki/How-to-get-SLProject/">How to get SLProject</a> </li>
 <li>
 <a href="https://github.com/cpvrlab/SLProject/wiki/SLProject-Features">SLProject Features</a> </li>
 <li>
@@ -75,7 +75,7 @@ $(document).ready(function(){initNavTree('index.html','');});
 <li>
 <a href="https://github.com/cpvrlab/SLProject/wiki/Build-with-QtCreator">Build instructions with QtCreator under Windows, OSX or Linux.</a> </li>
 <li>
-<a href="https://github.com/cpvrlab/SLProject/wiki/Build-for-Android">Build instructions for the Android build with Visual Studio</a> </li>
+<a href="https://github.com/cpvrlab/SLProject/wiki/Build-for-Android">Build instructions for the Android build with Android Studio.</a> </li>
 <li>
 <a href="https://github.com/cpvrlab/SLProject/wiki/Build-for-Apple-iOS">Build instructions for the iOS build with Apple XCode</a> </li>
 <li>
@@ -95,14 +95,12 @@ $(document).ready(function(){initNavTree('index.html','');});
 <p>Read the <a href="md__introduction.html"><b>Introduction Page</b></a> for an overview of the framework.<br/>
  Read the <a href="md_on_paint.html"><b>onPaint Page</b></a> for an overview how on frame gets rendered. </p>
 <h3>Framework Dependencies:</h3>
-<p>The framework uses beside OpenGL the following exteral libraries that are also included in the SLProject repository: </p>
+<p>The framework uses beside OpenGL the following external libraries that are also included in the SLProject repository: </p>
 <ul>
 <li>
-<a href="http://www.ijg.org/">JPEG</a> for JPEG image type loading. </li>
+<a href="http://www.opengl.org/">OpenGL</a> platform independent realtime rendering. </li>
 <li>
-<a href="http://www.libpng.org/pub/png/libpng.html">PNG image type loading.</a> </li>
-<li>
-<a href="http://zlib.net/">ZLIB</a> for compression of PNG images. </li>
+<a href="http://www.opencv.org/">OpenCV</a> for image processing. </li>
 <li>
 <a href="http://nvwa.sourceforge.net/">nvwa</a> for memory management. </li>
 <li>
@@ -115,21 +113,21 @@ $(document).ready(function(){initNavTree('index.html','');});
 <li>
 The code is provided without any warranties whether expressed or implied. </li>
 <li>
-No support can be provided on installation, compiler or build issues. The framework was tested on several machines using MS Visual Studio 2013 as well as on Mac OSX using XCode with GCC or LLVM compiler.  </li>
+No support can be provided on installation, compiler or build issues. The framework was tested on several machines using MS Visual Studio 2015 as well as on Mac OSX using XCode with GCC or LLVM compiler.  </li>
 <li>
 The code is provided under <a href="http://opensource.org/licenses/GPL-3.0">GNU General Puplic License (GPL)</a>. This means in general, that you must provide your code as well under GPL if you use this code.  </li>
 <li>
 Feedback always welcome. </li>
 </ul>
-<p>Authors: <a href="#" onclick="location.href='mai'+'lto:'+'mar'+'cu'+'s.h'+'ud'+'rit'+'sc'+'h@b'+'fh'+'.ch'; return false;">marcu<span style="display: none;">.nosp@m.</span>s.hu<span style="display: none;">.nosp@m.</span>drits<span style="display: none;">.nosp@m.</span>ch@b<span style="display: none;">.nosp@m.</span>fh.ch</a>, <a href="#" onclick="location.href='mai'+'lto:'+'mar'+'c.'+'wac'+'ke'+'r@b'+'fh'+'.ch'; return false;">marc.<span style="display: none;">.nosp@m.</span>wack<span style="display: none;">.nosp@m.</span>er@bf<span style="display: none;">.nosp@m.</span>h.ch</a><br/>
- Date: September 2016<br/>
- Copyright (c): 2002-2016 Marcus Hudritsch, Kirchrain 18, 2572 Sutz, Switzerland </p>
+<p>Authors: <a href="#" onclick="location.href='mai'+'lto:'+'mar'+'cu'+'s.h'+'ud'+'rit'+'sc'+'h@b'+'fh'+'.ch'; return false;">marcu<span style="display: none;">.nosp@m.</span>s.hu<span style="display: none;">.nosp@m.</span>drits<span style="display: none;">.nosp@m.</span>ch@b<span style="display: none;">.nosp@m.</span>fh.ch</a><br/>
+ Date: February 2017<br/>
+ Copyright (c): 2002-2017 Marcus Hudritsch, Kirchrain 18, 2572 Sutz, Switzerland </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Jan 21 2016 09:08:40 for SLProject by
+    <li class="footer">Generated on Tue Feb 14 2017 16:58:45 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
   </ul>

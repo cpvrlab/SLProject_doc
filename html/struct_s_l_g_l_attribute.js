@@ -1,7 +1,6 @@
 var struct_s_l_g_l_attribute =
 [
     [ "bufferSizeBytes", "struct_s_l_g_l_attribute.html#ac0d4f0c38dc8b3b9605836a1b9cac8d9", null ],
-    [ "convertToHalf", "struct_s_l_g_l_attribute.html#adda4d938c96750f10ad8292d9565eeba", null ],
     [ "dataPointer", "struct_s_l_g_l_attribute.html#acfa090370c7ed17d3335952d267ba1a9", null ],
     [ "elementSize", "struct_s_l_g_l_attribute.html#a5dfadc6814637c4fd79df501d84b283a", null ],
     [ "location", "struct_s_l_g_l_attribute.html#a20275dd0f958113b65eec57c559e9c2f", null ],

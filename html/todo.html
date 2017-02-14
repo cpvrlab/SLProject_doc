@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">1.31</span>
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -70,12 +70,12 @@ $(document).ready(function(){initNavTree('todo.html','');});
 <dd>[high priority!] Address the problem of some bones not containing an animation channel when importing. Current workaround is to set their reset position to their bind pose. This will however fail if we have multiple animations affecting a single model and fading some of them out or in. This will require us to provide animations that have a channel for all bones even if they're just positional.  </dd>
 <dt><a class="anchor" id="_todo000003"></a>Member <a class="el" href="class_s_l_importer.html#aeb7253457e7d1676bb4615a957ec9795">SLImporter::logMessage</a>  (SLLogVerbosity verbosity, const char *msg,...)</dt>
 <dd>Build a dedicated log class that can be instantiated (so the importer can have its own) Let this log class write to file etc. Don't use printf anymore, its c. (c++11 has to_str, else we have to work with ss (ugh...)) I only used printf here because it allows me to combine a string with different variables in only one line and I don't have an easy way to do this in c++0x. Again c++11 would be easy.  </dd>
-<dt><a class="anchor" id="_todo000005"></a>Member <a class="el" href="class_s_l_light_rect.html#adca8e50684798383dedb3211f2337600">SLLightRect::init</a>  ()</dt>
+<dt><a class="anchor" id="_todo000005"></a>Member <a class="el" href="class_s_l_light_direct.html#a2765afa090b1766667b01b1edbab907a">SLLightDirect::init</a>  ()</dt>
 <dd>properly remove this function and find a clean way to init lights in a scene  </dd>
-<dt><a class="anchor" id="_todo000006"></a>Member <a class="el" href="class_s_l_light_sphere.html#a9c08cf99fb462dca530c84c63398febe">SLLightSphere::init</a>  ()</dt>
+<dt><a class="anchor" id="_todo000006"></a>Member <a class="el" href="class_s_l_light_rect.html#adca8e50684798383dedb3211f2337600">SLLightRect::init</a>  ()</dt>
 <dd>properly remove this function and find a clean way to init lights in a scene  </dd>
-<dt><a class="anchor" id="_todo000007"></a>Member <a class="el" href="class_s_l_mesh.html#ac3d6809fc242f46fe860e39e0933c44b">SLMesh::skinMethod</a>  (SLSkinMethod method)</dt>
-<dd>This function is still kind of hackish, we manually change the material in the mesh. The skinning shouldn't rely on a material however, the shader should know if it needs skinning variables and transformations and apply them to the current used shader.  </dd>
+<dt><a class="anchor" id="_todo000007"></a>Member <a class="el" href="class_s_l_light_spot.html#a36c6c66079b889eca34e63ef37f8a34e">SLLightSpot::init</a>  ()</dt>
+<dd>properly remove this function and find a clean way to init lights in a scene  </dd>
 <dt><a class="anchor" id="_todo000009"></a>Member <a class="el" href="class_s_l_node.html#a6ff001f040229047c812a52948f8e7e1">SLNode::findChild</a>  (const SLstring &amp;name="", SLbool findRecursive=true)</dt>
 <dd>Add regex functionality to the name search  </dd>
 <dt><a class="anchor" id="_todo000010"></a>Member <a class="el" href="class_s_l_node.html#a45c17bf34da61aaeff7587385dca6d4f">SLNode::findChildren</a>  (const SLstring &amp;name="", SLbool findRecursive=true)</dt>
@@ -96,7 +96,7 @@ $(document).ready(function(){initNavTree('todo.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Jan 21 2016 09:08:37 for SLProject by
+    <li class="footer">Generated on Tue Feb 14 2017 16:58:27 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
   </ul>

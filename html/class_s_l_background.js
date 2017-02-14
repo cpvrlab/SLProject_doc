@@ -10,6 +10,7 @@ var class_s_l_background =
     [ "isUniform", "class_s_l_background.html#a6e9d9856e3ab22319fb29967bb526281", null ],
     [ "render", "class_s_l_background.html#a7a4da1e8e82cfe7aa0089f0deafc974c", null ],
     [ "texture", "class_s_l_background.html#af81268e72ff6cd1736151eafddc79584", null ],
+    [ "texture", "class_s_l_background.html#a781c96578e3ccafae73ab3863f97bd1b", null ],
     [ "_colors", "class_s_l_background.html#a2a3e9c70eb4f3708511e099c551c9ea5", null ],
     [ "_isUniform", "class_s_l_background.html#ae105783a3eb52d9c45a4f54248120e12", null ],
     [ "_resX", "class_s_l_background.html#ae5eb1603bfd36232c3a6624fa331279e", null ],

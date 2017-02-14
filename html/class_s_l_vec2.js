@@ -10,6 +10,7 @@ var class_s_l_vec2 =
     [ "diff", "class_s_l_vec2.html#a8166d3e92bf5df1942bd1f6919c5e49b", null ],
     [ "dot", "class_s_l_vec2.html#a1f26380012c73678a1983bcc7b40628d", null ],
     [ "fromPolar", "class_s_l_vec2.html#ae01c2d93fce9d483c6c839705fb1e678", null ],
+    [ "isZero", "class_s_l_vec2.html#a67c4f795423d1997787cb5daddb7a670", null ],
     [ "length", "class_s_l_vec2.html#a92f1212763d0f44cecf0d71289628f15", null ],
     [ "lengthSqr", "class_s_l_vec2.html#a79e52f5bf3f9584d9af2e816c30a67f1", null ],
     [ "normalize", "class_s_l_vec2.html#a10e958393fc84fdd423a218dd88d1e2f", null ],

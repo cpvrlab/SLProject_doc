@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">1.31</span>
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -111,18 +111,19 @@ $(document).ready(function(){initNavTree('functions_0x72.html','');});
 <div class="textblock">Here is a list of all class members with links to the classes they belong to:</div>
 
 <h3><a class="anchor" id="index_r"></a>- r -</h3><ul>
-<li>R
-: <a class="el" href="class_s_l_camera.html#a3e2b0fadf953bfb57a10b9ace354fdc8a1b8f4f485382a9bc19affa7860156822">SLCamera</a>
-</li>
 <li>r
 : <a class="el" href="class_s_l_vec3.html#a91da2ad6bfc6b8b843009b81f7b4646b">SLVec3&lt; T &gt;</a>
 , <a class="el" href="class_s_l_vec4.html#ad1ec392e4e8dcf8a0f4dac57b97d50d4">SLVec4&lt; T &gt;</a>
 </li>
+<li>R
+: <a class="el" href="class_s_l_camera.html#a3e2b0fadf953bfb57a10b9ace354fdc8a1b8f4f485382a9bc19affa7860156822">SLCamera</a>
+</li>
 <li>radius()
 : <a class="el" href="class_s_l_cone.html#a5dfa11b53b53a73e5fe42edfebd30769">SLCone</a>
-, <a class="el" href="class_s_l_light_sphere.html#ab3af06eeeca7bd845ec1c6b57005c4bb">SLLightSphere</a>
-, <a class="el" href="class_s_l_sphere.html#a64e6e3e1923739e31e340d8fab1fe6d9">SLSphere</a>
+, <a class="el" href="class_s_l_light_direct.html#a3cc6c305c7ef5cb4f63765b35272d79d">SLLightDirect</a>
+, <a class="el" href="class_s_l_light_spot.html#a2561cff7b6d028c0f6691328827f6d41">SLLightSpot</a>
 , <a class="el" href="class_s_l_cylinder.html#af6ba48277d8c175b40295cf65b672475">SLCylinder</a>
+, <a class="el" href="class_s_l_spheric.html#a1a53466d5d928181aaad6c4f0706495e">SLSpheric</a>
 , <a class="el" href="class_s_l_volume.html#a94fb878536b4cee34bd95f8022eb71af">SLVolume</a>
 , <a class="el" href="class_s_l_disk.html#a6b358e807a7413b64c5f47332ffb7583">SLDisk</a>
 , <a class="el" href="class_s_l_joint.html#a57a815f68edc223b76c3a8865610e38b">SLJoint</a>
@@ -170,11 +171,17 @@ $(document).ready(function(){initNavTree('functions_0x72.html','');});
 <li>refractMC()
 : <a class="el" href="class_s_l_ray.html#a3c1e6f83f2825f9ccacd831be73d1a79">SLRay</a>
 </li>
+<li>release()
+: <a class="el" href="class_s_l_c_v_capture.html#a1af94e4e1f77ec5c01281fbb33cd9222">SLCVCapture</a>
+</li>
 <li>removeComments()
 : <a class="el" href="class_s_l_g_l_shader.html#aeda51d4581634e0419c5b4886517827d">SLGLShader</a>
 </li>
+<li>removeLastDigit()
+: <a class="el" href="class_s_l_c_v_feature_mapper2_d.html#a5e18793895f4e69975ca3e9e56a08d92">SLCVFeatureMapper2D</a>
+</li>
 <li>removeMesh()
-: <a class="el" href="class_s_l_node.html#a0a36d8ef6f03558301dcba2831e1eb45">SLNode</a>
+: <a class="el" href="class_s_l_node.html#a26580f5b9ae428c00882103d47098a98">SLNode</a>
 </li>
 <li>removeMeshes()
 : <a class="el" href="class_s_l_node.html#a955f6774f4ab94243d89d7debcc5c71f">SLNode</a>
@@ -214,11 +221,15 @@ $(document).ready(function(){initNavTree('functions_0x72.html','');});
 <li>replaceString()
 : <a class="el" href="class_s_l_utils.html#aafc181db8da96f362d3a1b415db988dd">SLUtils</a>
 </li>
+<li>reprojectionError()
+: <a class="el" href="class_s_l_c_v_calibration.html#a9e330daf57e0c5a445da0b49610a853d">SLCVCalibration</a>
+</li>
 <li>reserve()
 : <a class="el" href="class_s_l_vector.html#a78fede89f793b091975cc169a2ed5c72">SLVector&lt; T, U &gt;</a>
 </li>
 <li>reset()
-: <a class="el" href="class_s_l_skeleton.html#ab72dad6001a50dbfaa170032e6263045">SLSkeleton</a>
+: <a class="el" href="class_s_l_a_a_b_box.html#a2ee9055bd36073375b23d41cbeea7edf">SLAABBox</a>
+, <a class="el" href="class_s_l_skeleton.html#ab72dad6001a50dbfaa170032e6263045">SLSkeleton</a>
 </li>
 <li>resetNodes()
 : <a class="el" href="class_s_l_animation.html#aa7821716a0fc28a7cab2b3c44303c48a">SLAnimation</a>
@@ -227,8 +238,9 @@ $(document).ready(function(){initNavTree('functions_0x72.html','');});
 : <a class="el" href="class_s_l_node.html#a0b4d26c6017e6a575c033ba21ea3f79b">SLNode</a>
 </li>
 <li>resize()
-: <a class="el" href="class_s_l_image.html#ac1c65e4ae4a2d7a5a634d34420bbb2a3">SLImage</a>
-, <a class="el" href="class_s_l_vector.html#a2f7a2d63bd118bf7ca678e7c58c68b76">SLVector&lt; T, U &gt;</a>
+: <a class="el" href="class_s_l_vector.html#a2f7a2d63bd118bf7ca678e7c58c68b76">SLVector&lt; T, U &gt;</a>
+, <a class="el" href="class_s_l_c_v_image.html#a3f758525e9e01e1ff977f4fcbe3d75f5">SLCVImage</a>
+, <a class="el" href="class_s_l_image.html#ac1c65e4ae4a2d7a5a634d34420bbb2a3">SLImage</a>
 </li>
 <li>Resize
 : <a class="el" href="class_s_l_input_event.html#aa88b00108ecb4633bc34c3b8525d2854a2a4734e72c241d9d63a05f5ff0ddf9d9">SLInputEvent</a>
@@ -251,25 +263,28 @@ $(document).ready(function(){initNavTree('functions_0x72.html','');});
 <li>rgbReserved
 : <a class="el" href="structtag_b_m_p___r_g_b_q_u_a_d.html#af638a8908b6dfde5aa7933185c3daa48">tagBMP_RGBQUAD</a>
 </li>
-<li>right()
-: <a class="el" href="class_s_l_node.html#a65ced44580b390e1d1e5f4e69766b701">SLNode</a>
+<li>rightOS()
+: <a class="el" href="class_s_l_node.html#a38e46f9f8b841ac724d046bb315685bf">SLNode</a>
+</li>
+<li>rightWS()
+: <a class="el" href="class_s_l_node.html#ab65bec6f2a9b6f4c87cf1d8e03c5c637">SLNode</a>
 </li>
 <li>root()
-: <a class="el" href="class_s_l_skeleton.html#af183e7d707f51c0bb51743ba2ec98ad9">SLSkeleton</a>
+: <a class="el" href="class_s_l_skeleton.html#a886fa5b7dad08ddf033401b59e6f723f">SLSkeleton</a>
 </li>
 <li>root3D()
-: <a class="el" href="class_s_l_scene.html#abc36aae377774f93d97b2f4656cd5baf">SLScene</a>
+: <a class="el" href="class_s_l_scene.html#a2734e60048b58be982ead7a68902823e">SLScene</a>
 </li>
 <li>rootNode()
 : <a class="el" href="class_s_l_importer.html#a01a1a48a8115379207ae32608867b4cd">SLImporter</a>
 </li>
 <li>rotate()
-: <a class="el" href="class_s_l_mat4.html#a0d337fca4aaf6b365b15ef146bc0c7b5">SLMat4&lt; T &gt;</a>
-, <a class="el" href="class_s_l_node.html#a636c2c8c196fc3ca878fa41516e0618b">SLNode</a>
-, <a class="el" href="class_s_l_quat4.html#a1790584d5d0c1db5866a8321ec81a21b">SLQuat4&lt; T &gt;</a>
+: <a class="el" href="class_s_l_quat4.html#a1790584d5d0c1db5866a8321ec81a21b">SLQuat4&lt; T &gt;</a>
 , <a class="el" href="class_s_l_mat4.html#aaa4ecd70665900712791f995b62c3a2d">SLMat4&lt; T &gt;</a>
 , <a class="el" href="class_s_l_node.html#a3fcd0b4150c7352177890f26e42aa87e">SLNode</a>
 , <a class="el" href="class_s_l_quat4.html#a9cfbc7ce83356c0d01012092e12419f3">SLQuat4&lt; T &gt;</a>
+, <a class="el" href="class_s_l_node.html#a636c2c8c196fc3ca878fa41516e0618b">SLNode</a>
+, <a class="el" href="class_s_l_mat4.html#aec4a25c44b89373e52e74e171a79d041">SLMat4&lt; T &gt;</a>
 </li>
 <li>rotateAround()
 : <a class="el" href="class_s_l_node.html#afee4e2825c538c8cb5ac23399fc910f0">SLNode</a>
@@ -278,20 +293,21 @@ $(document).ready(function(){initNavTree('functions_0x72.html','');});
 : <a class="el" href="class_s_l_quat4.html#a3259951c7706fe07f7d2b969c25359c6">SLQuat4&lt; T &gt;</a>
 </li>
 <li>rotation()
-: <a class="el" href="class_s_l_node.html#a0f1e1bc4363bf29f8e4475ba234a099b">SLNode</a>
+: <a class="el" href="class_s_l_mat4.html#a9cf64e32383e997a7977e0d08d3e6188">SLMat4&lt; T &gt;</a>
+, <a class="el" href="class_s_l_node.html#ae172479661d01172e81146803142ac64">SLNode</a>
 , <a class="el" href="class_s_l_mat3.html#a369fe3587e91f6818abc52b9f7be492b">SLMat3&lt; T &gt;</a>
 , <a class="el" href="class_s_l_transform_keyframe.html#a6bc681320b206b567aca9c25d600e8af">SLTransformKeyframe</a>
-, <a class="el" href="class_s_l_mat4.html#ac5ea0775695d31850183125e89451a33">SLMat4&lt; T &gt;</a>
 , <a class="el" href="class_s_l_mat3.html#a3ae170c00e7e7f3847d838c5ff42f713">SLMat3&lt; T &gt;</a>
-, <a class="el" href="class_s_l_node.html#ae172479661d01172e81146803142ac64">SLNode</a>
+, <a class="el" href="class_s_l_mat4.html#ac5ea0775695d31850183125e89451a33">SLMat4&lt; T &gt;</a>
+, <a class="el" href="class_s_l_node.html#a0f1e1bc4363bf29f8e4475ba234a099b">SLNode</a>
 , <a class="el" href="struct_s_l_import_keyframe.html#a952d63143774c3bc8b01b3bc19756be6">SLImportKeyframe</a>
-, <a class="el" href="class_s_l_mat3.html#a1d494a17f66bbb4b32aada42747601de">SLMat3&lt; T &gt;</a>
 , <a class="el" href="class_s_l_mat4.html#ae9308e9c44a696daa59709dbcfd2af8a">SLMat4&lt; T &gt;</a>
-, <a class="el" href="class_s_l_transform_keyframe.html#a119466d6f8a31e4a03a9e65366c18f97">SLTransformKeyframe</a>
-, <a class="el" href="class_s_l_mat4.html#a9cf64e32383e997a7977e0d08d3e6188">SLMat4&lt; T &gt;</a>
 </li>
 <li>rotFactor()
-: <a class="el" href="class_s_l_event_handler.html#a26db0b63764f77f79068b7feec701d9c">SLEventHandler</a>
+: <a class="el" href="class_s_l_event_handler.html#ab3b8b933d424d55d11bbaba6ebf93d9a">SLEventHandler</a>
+</li>
+<li>rVec
+: <a class="el" href="class_s_l_c_v_feature_map2_d.html#aae18d9f3e84843b7b3643eed58c5be4f">SLCVFeatureMap2D</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -299,7 +315,7 @@ $(document).ready(function(){initNavTree('functions_0x72.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Jan 21 2016 09:08:40 for SLProject by
+    <li class="footer">Generated on Tue Feb 14 2017 16:58:57 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
   </ul>

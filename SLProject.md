@@ -8,7 +8,7 @@ Berne University of Applied Sciences (BFH)</a> and is used for student projects 
 <a href="https://www.cpvrlab.ti.bfh.ch/">cpvrLab</a>. 
 The various applications show what you can learn in one semester about 3D computer 
 graphics in real time rendering and ray tracing. The framework is built in C++ and 
-OpenGL ES 2.0 and runs without changes on Windows, Linux, Mac OSX, Android and Apple iOS. 
+OpenGL ES and runs without changes on Windows, Linux, Mac OSX, Android and Apple iOS. 
 The framework can render alternatively with Ray Tracing and Path Tracing which provides 
 in addition high quality transparencies, reflections and soft shadows. You can find the 
 demo app also on the <a href="https://play.google.com/store/apps/details?id=ch.fhnw.comgr&amp;feature=search_result#?t=W251bGwsMSwyLDEsImNoLmZobncuY29tZ3IiXQ">Android Market</a>.
@@ -28,7 +28,7 @@ The code is provided without any warranties whether expressed or implied.
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/SLProject-Features">SLProject Features</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/Build-with-VisualStudio">Build instructions with MS Visual Studio</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/Build-with-QtCreator">Build instructions with QtCreator under Windows, OSX or Linux.</a></li>
-<li><a href="https://github.com/cpvrlab/SLProject/wiki/Build-for-Android">Build instructions for the Android build with Visual Studio</a></li>
+<li><a href="https://github.com/cpvrlab/SLProject/wiki/Build-for-Android">Build instructions for the Android build with Android Studio.</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/Build-for-Apple-iOS">Build instructions for the iOS build with Apple XCode</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/Build-minimal-OpenGL-apps">Minimal OpenGL Applications in C++, C#, Java and WebGL</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/Folder-Structure">Repository folder structure</a></li>
@@ -45,21 +45,19 @@ Read the <a href="md_on_paint.html"><b>onPaint Page</b></a> for an overview how 
 </p>
 
 <h3>Framework Dependencies:</h3>
-The framework uses beside OpenGL the following exteral libraries that are also included in the SLProject repository:
+The framework uses beside OpenGL the following external libraries that are also included in the SLProject repository:
 <ul>
-    <li><a href="http://www.ijg.org/">JPEG</a> for JPEG image type loading.</li>
-    <li><a href="http://www.libpng.org/pub/png/libpng.html">PNG image type loading.</a></li>
-    <li><a href="http://zlib.net/">ZLIB</a> for compression of PNG images.</li>
+    <li><a href="http://www.opengl.org/">OpenGL</a> platform independent realtime rendering.</li>
+    <li><a href="http://www.opencv.org/">OpenCV</a> for image processing.</li>
     <li><a href="http://nvwa.sourceforge.net/">nvwa</a> for memory management.</li>
     <li><a href="http://assimp.sourceforge.net/">assimp</a> for 3D file formats loading.</li>
-    <li><a href="https://developer.oculusvr.com/">libovr</a> for Oculus Rift control.</li>
 </ul>
 
 <h3>Support:</h3>
 <ul>
    <li>The code is provided without any warranties whether expressed or implied.</li>
    <li>No support can be provided on installation, compiler or build issues. The
-      framework was tested on several machines using MS Visual Studio 2013 as
+      framework was tested on several machines using MS Visual Studio 2015 as
       well as on Mac OSX using XCode with GCC or LLVM compiler.
    </li>
    <li>The code is provided under <a href="http://opensource.org/licenses/GPL-3.0">GNU General Puplic License (GPL)</a>. 
@@ -70,7 +68,7 @@ The framework uses beside OpenGL the following exteral libraries that are also i
 </ul>
 
 <p>
-Authors: marcus.hudritsch@bfh.ch, marc.wacker@bfh.ch<br>
-Date: September 2016<br>
-Copyright (c): 2002-2016 Marcus Hudritsch, Kirchrain 18, 2572 Sutz, Switzerland
+Authors: marcus.hudritsch@bfh.ch<br>
+Date: February 2017<br>
+Copyright (c): 2002-2017 Marcus Hudritsch, Kirchrain 18, 2572 Sutz, Switzerland
 </p>

@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">1.31</span>
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -80,12 +80,49 @@ $(document).ready(function(){initNavTree('class_s_l_file_system.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a547ad4c39747b99339cde543bea7c716"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_file_system.html#a547ad4c39747b99339cde543bea7c716">dirExists</a> (<a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a> &amp;path)</td></tr>
+<tr class="memdesc:a547ad4c39747b99339cde543bea7c716"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if a directory exists.  <a href="#a547ad4c39747b99339cde543bea7c716"></a><br/></td></tr>
+<tr class="separator:a547ad4c39747b99339cde543bea7c716"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0db8582bf4af130cc0aa918e0b9c0073"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_file_system.html#a0db8582bf4af130cc0aa918e0b9c0073">fileExists</a> (<a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a> &amp;pathfilename)</td></tr>
+<tr class="memdesc:a0db8582bf4af130cc0aa918e0b9c0073"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if a file exists.  <a href="#a0db8582bf4af130cc0aa918e0b9c0073"></a><br/></td></tr>
 <tr class="separator:a0db8582bf4af130cc0aa918e0b9c0073"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed51837b2d6116dbbb3d089b851a9f87"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_file_system.html#aed51837b2d6116dbbb3d089b851a9f87">getAppsWritableDir</a> ()</td></tr>
+<tr class="memdesc:aed51837b2d6116dbbb3d089b851a9f87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the writable configuration directory.  <a href="#aed51837b2d6116dbbb3d089b851a9f87"></a><br/></td></tr>
+<tr class="separator:aed51837b2d6116dbbb3d089b851a9f87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21f7b4d8aefe6f50d44cdac419632abe"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_file_system.html#a21f7b4d8aefe6f50d44cdac419632abe">getCurrentWorkingDir</a> ()</td></tr>
+<tr class="memdesc:a21f7b4d8aefe6f50d44cdac419632abe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the working directory.  <a href="#a21f7b4d8aefe6f50d44cdac419632abe"></a><br/></td></tr>
+<tr class="separator:a21f7b4d8aefe6f50d44cdac419632abe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="class_s_l_file_system.html" title="SLFileSystem provides basic filesystem functions.">SLFileSystem</a> provides basic filesystem functions. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a547ad4c39747b99339cde543bea7c716"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> SLFileSystem::dirExists </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a> &amp;&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if a directory exists. </p>
+<p>Returns true if the directory exists. Be aware that on some OS file and paths are treated case sensitive. </p>
+
+</div>
+</div>
 <a class="anchor" id="a0db8582bf4af130cc0aa918e0b9c0073"></a>
 <div class="memitem">
 <div class="memproto">
@@ -107,8 +144,59 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>fileExists returns true if a file exists.</p>
-<p><a class="el" href="class_s_l_file_system.html#a0db8582bf4af130cc0aa918e0b9c0073">SLFileSystem::fileExists</a> returns true if the file exists. This code works only on windows because the file check is done case insensitive. </p>
+
+<p>Returns true if a file exists. </p>
+<p>Returns true if the file exists.Be aware that on some OS file and paths are treated case sensitive. </p>
+
+</div>
+</div>
+<a class="anchor" id="aed51837b2d6116dbbb3d089b851a9f87"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a> SLFileSystem::getAppsWritableDir </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the writable configuration directory. </p>
+
+</div>
+</div>
+<a class="anchor" id="a21f7b4d8aefe6f50d44cdac419632abe"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a> SLFileSystem::getCurrentWorkingDir </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the working directory. </p>
 
 </div>
 </div>
@@ -122,7 +210,7 @@ Static Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_s_l_file_system.html">SLFileSystem</a></li>
-    <li class="footer">Generated on Thu Jan 21 2016 09:08:38 for SLProject by
+    <li class="footer">Generated on Tue Feb 14 2017 16:58:32 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
   </ul>

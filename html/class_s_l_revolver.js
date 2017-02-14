@@ -1,8 +1,8 @@
 var class_s_l_revolver =
 [
-    [ "SLRevolver", "class_s_l_revolver.html#abd74b3df48f6b7615342a629117f9319", null ],
+    [ "SLRevolver", "class_s_l_revolver.html#a268def61d61ece43334ef04644823ac3", null ],
     [ "SLRevolver", "class_s_l_revolver.html#aa8c09768154a53d2e025019cfb33752d", null ],
-    [ "~SLRevolver", "class_s_l_revolver.html#aad78fad9eb9dc26a8e8a8c04015b4011", null ],
+    [ "SLRevolver", "class_s_l_revolver.html#a8917c8bce5d81afc67895c02bfa0286a", null ],
     [ "buildMesh", "class_s_l_revolver.html#ab84aa04edac1ac4069cf025fa4c043d3", null ],
     [ "_revAxis", "class_s_l_revolver.html#a2a8cd1b42333ee762aac794408d87e0c", null ],
     [ "_revPoints", "class_s_l_revolver.html#ad48081379ea86f5404c012fad32670f6", null ],

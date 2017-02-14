@@ -1,0 +1,11 @@
+Z:/Documents/GitHub/SLProject/include/SLImage.h:78: warning: Found unknown command `\Deprecated'
+Z:/Documents/GitHub/SLProject/include/SLImage.h:78: warning: Found unknown command `\Deprecated'
+Z:/Documents/GitHub/SLProject/lib-SLProject/source/GL/SLGLTexture.cpp:192: warning: The following parameters of SLGLTexture::copyVideoImage(SLint camWidth, SLint camHeight, SLPixelFormat srcFormat, SLuchar *data, SLbool isContinuous, SLbool isTopLeft) are not documented:
+  parameter 'isContinuous'
+Z:/Documents/GitHub/SLProject/include/SLImage.h:78: warning: Found unknown command `\Deprecated'
+Z:/Documents/GitHub/SLProject/lib-SLProject/source/SL/SLImage.cpp:21: warning: Found unknown command `\Deprecated'
+Z:/Documents/GitHub/SLProject/include/SLImage.h:78: warning: Found unknown command `\Deprecated'
+Z:/Documents/GitHub/SLProject/include/SLImage.h:79: warning: Found unknown command `\Deprecated'
+Z:/Documents/GitHub/SLProject/lib-SLProject/source/SL/SLImage.cpp:21: warning: Found unknown command `\Deprecated'
+Z:/Documents/GitHub/SLProject/include/SLImage.h:78: warning: Found unknown command `\Deprecated'
+Z:/Documents/GitHub/SLProject/include/SLImage.h:78: warning: Found unknown command `\Deprecated'

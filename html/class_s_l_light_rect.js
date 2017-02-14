@@ -8,7 +8,7 @@ var class_s_l_light_rect =
     [ "height", "class_s_l_light_rect.html#affef0b5407aad09c24a1e1c288e80f51", null ],
     [ "hitRec", "class_s_l_light_rect.html#a1edde64d4273ccfe5c7c17296ee965a5", null ],
     [ "init", "class_s_l_light_rect.html#adca8e50684798383dedb3211f2337600", null ],
-    [ "positionWS", "class_s_l_light_rect.html#a6077dd72735626c568091a912fb500c2", null ],
+    [ "positionWS", "class_s_l_light_rect.html#a9ef342617140886f6858a65c554ebfb7", null ],
     [ "samples", "class_s_l_light_rect.html#aa00d242853b4b4d6e5fe78e92c42c659", null ],
     [ "samplesXY", "class_s_l_light_rect.html#a37f2279036578a3f04e09ddbb9a450cb", null ],
     [ "setState", "class_s_l_light_rect.html#aa62e25ca57aaab23af0e6bb6576c0117", null ],

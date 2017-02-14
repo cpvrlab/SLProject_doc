@@ -12,7 +12,7 @@ var class_s_l_skeleton =
     [ "getAnimPlayback", "class_s_l_skeleton.html#a7d72e90a950a0d7ab030aae306c2b3c4", null ],
     [ "getJoint", "class_s_l_skeleton.html#a5b884d89d51c7e5f193880ee163f4f68", null ],
     [ "getJoint", "class_s_l_skeleton.html#abb7886c4b50bd89feb401bd37f2186bd", null ],
-    [ "getJointWorldMatrices", "class_s_l_skeleton.html#ac955ab31de6d1c26e9026836d542e5d1", null ],
+    [ "getJointMatrices", "class_s_l_skeleton.html#af2f138e9a53cc353638f8f7a8e05558a", null ],
     [ "joints", "class_s_l_skeleton.html#a430f9d2b82c486a009e8f75de59ecaee", null ],
     [ "loadAnimation", "class_s_l_skeleton.html#a86a38733a57727bad77ecc815768f7cd", null ],
     [ "maxOS", "class_s_l_skeleton.html#a090e689f36408d167fcfcc1837593887", null ],

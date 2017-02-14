@@ -1,15 +1,19 @@
 <map id="SLMesh" name="SLMesh">
 <area shape="rect" id="node5" href="$class_s_l_box.html" title="Axis aligned box mesh." alt="" coords="5,155,67,181"/>
-<area shape="rect" id="node7" href="$class_s_l_grid.html" title="SLGrid creates a rectangular grid with lines with a certain resolution." alt="" coords="92,155,156,181"/>
-<area shape="rect" id="node9" href="$class_s_l_polygon.html" title="SLPolygon creates a convex polyon mesh." alt="" coords="180,155,268,181"/>
-<area shape="rect" id="node11" href="$class_s_l_rectangle.html" title="SLRectangle creates a rectangular mesh with a certain resolution." alt="" coords="292,155,393,181"/>
-<area shape="rect" id="node13" href="$class_s_l_revolver.html" title="SLRevolver is an SLMesh object built out of revolving points." alt="" coords="418,155,509,181"/>
-<area shape="rect" id="node27" href="$class_s_l_triangle.html" title="A triangle class as the most simplest mesh." alt="" coords="535,155,623,181"/>
-<area shape="rect" id="node2" href="$class_s_l_object.html" title="Base class for all other classes." alt="" coords="243,5,321,32"/>
-<area shape="rect" id="node15" href="$class_s_l_cone.html" title="SLCone creates a cone mesh based on SLRevolver." alt="" coords="178,229,248,256"/>
-<area shape="rect" id="node17" href="$class_s_l_cylinder.html" title="SLCylinder is creates sphere mesh based on its SLRevolver methods." alt="" coords="273,229,361,256"/>
-<area shape="rect" id="node19" href="$class_s_l_disk.html" title="SLDisk creates a disk mesh based on SLRevolver." alt="" coords="386,229,451,256"/>
-<area shape="rect" id="node21" href="$class_s_l_lens.html" title="SLLens creates a lens mesh based on SLRevolver." alt="" coords="475,229,543,256"/>
-<area shape="rect" id="node23" href="$class_s_l_sphere.html" title="SLSphere creates a sphere mesh based on SLRevolver." alt="" coords="567,229,651,256"/>
-<area shape="rect" id="node25" href="$class_s_l_volume.html" title="SLSphere creates a sphere mesh based on SLRevolver." alt="" coords="675,229,761,256"/>
+<area shape="rect" id="node7" href="$class_s_l_coord_axis.html" title="Axis aligned coordinate axis mesh." alt="" coords="91,155,193,181"/>
+<area shape="rect" id="node9" href="$class_s_l_grid.html" title="SLGrid creates a rectangular grid with lines with a certain resolution." alt="" coords="219,155,283,181"/>
+<area shape="rect" id="node11" href="$class_s_l_polygon.html" title="SLPolygon creates a convex polyon mesh." alt="" coords="307,155,395,181"/>
+<area shape="rect" id="node13" href="$class_s_l_polyline.html" title="SLPolyline creates a polyline object." alt="" coords="419,155,505,181"/>
+<area shape="rect" id="node15" href="$class_s_l_rectangle.html" title="SLRectangle creates a rectangular mesh with a certain resolution." alt="" coords="531,155,632,181"/>
+<area shape="rect" id="node17" href="$class_s_l_revolver.html" title="SLRevolver is an SLMesh object built out of revolving points." alt="" coords="657,155,748,181"/>
+<area shape="rect" id="node35" href="$class_s_l_triangle.html" title="A triangle class as the most simplest mesh." alt="" coords="773,155,861,181"/>
+<area shape="rect" id="node2" href="$class_s_l_object.html" title="Base class for all other classes." alt="" coords="367,5,445,32"/>
+<area shape="rect" id="node19" href="$class_s_l_arrow.html" title="SLArrow is creates an arrow mesh based on its SLRevolver methods." alt="" coords="363,229,437,256"/>
+<area shape="rect" id="node21" href="$class_s_l_cone.html" title="SLCone creates a cone mesh based on SLRevolver." alt="" coords="462,229,532,256"/>
+<area shape="rect" id="node23" href="$class_s_l_cylinder.html" title="SLCylinder is creates sphere mesh based on its SLRevolver methods." alt="" coords="557,229,645,256"/>
+<area shape="rect" id="node25" href="$class_s_l_disk.html" title="SLDisk creates a disk mesh based on SLRevolver." alt="" coords="670,229,735,256"/>
+<area shape="rect" id="node27" href="$class_s_l_lens.html" title="SLLens creates a lens mesh based on SLRevolver." alt="" coords="759,229,827,256"/>
+<area shape="rect" id="node29" href="$class_s_l_spheric.html" title="SLSphere creates a sphere mesh based on SLRevolver." alt="" coords="851,229,937,256"/>
+<area shape="rect" id="node33" href="$class_s_l_volume.html" title="SLSphere creates a sphere mesh based on SLRevolver." alt="" coords="962,229,1048,256"/>
+<area shape="rect" id="node31" href="$class_s_l_sphere.html" title="SLSphere creates a sphere mesh based on SLSpheric w. 180 deg polar angle." alt="" coords="853,304,936,331"/>
 </map>

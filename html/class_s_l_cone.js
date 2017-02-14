@@ -1,6 +1,6 @@
 var class_s_l_cone =
 [
-    [ "SLCone", "class_s_l_cone.html#a8dd6426f6f79a27c018e752314d1e356", null ],
+    [ "SLCone", "class_s_l_cone.html#a9557ecc03b57b69c8cf9291e040e67bf", null ],
     [ "~SLCone", "class_s_l_cone.html#a30e3e6938cb8d7194aec7cb95a367982", null ],
     [ "hasBottom", "class_s_l_cone.html#ab675f00657e55251ee8df5199531142b", null ],
     [ "height", "class_s_l_cone.html#a52c0a20ec942e85b7f8c30d4e754bfde", null ],

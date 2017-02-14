@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">1.31</span>
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -91,9 +91,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad6782ef27e4239274a7fb73612bfaadc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_g_l_vertex_buffer.html#ad6782ef27e4239274a7fb73612bfaadc">deleteGL</a> ()</td></tr>
 <tr class="memdesc:ad6782ef27e4239274a7fb73612bfaadc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes all vertex array &amp; vertex buffer objects.  <a href="#ad6782ef27e4239274a7fb73612bfaadc"></a><br/></td></tr>
 <tr class="separator:ad6782ef27e4239274a7fb73612bfaadc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf588db2e6d17253a5e92dc3d28e8bf2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_g_l_vertex_buffer.html#adf588db2e6d17253a5e92dc3d28e8bf2">clear</a> (<a class="el" href="_s_l_g_l_enums_8h.html#af2a4734548d7c452a449938c9770d0d9">SLGLBufferType</a> bt)</td></tr>
-<tr class="memdesc:adf588db2e6d17253a5e92dc3d28e8bf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the attribute definition and sets the buffer data type.  <a href="#adf588db2e6d17253a5e92dc3d28e8bf2"></a><br/></td></tr>
-<tr class="separator:adf588db2e6d17253a5e92dc3d28e8bf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2be2ce569a9058fb01c946685a2381f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_g_l_vertex_buffer.html#aa2be2ce569a9058fb01c946685a2381f">clear</a> ()</td></tr>
+<tr class="memdesc:aa2be2ce569a9058fb01c946685a2381f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls deleteGL &amp; clears the attributes.  <a href="#aa2be2ce569a9058fb01c946685a2381f"></a><br/></td></tr>
+<tr class="separator:aa2be2ce569a9058fb01c946685a2381f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0985dd7570461713d48aeceeafaba4b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_g_l_vertex_buffer.html#a0985dd7570461713d48aeceeafaba4b2">attribIndex</a> (<a class="el" href="_s_l_g_l_enums_8h.html#a1c4ce10c8a033bc987d78c4405ec1072">SLGLAttributeType</a> type)</td></tr>
 <tr class="memdesc:a0985dd7570461713d48aeceeafaba4b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the vector index if a vertex attribute exists otherwise -1.  <a href="#a0985dd7570461713d48aeceeafaba4b2"></a><br/></td></tr>
 <tr class="separator:a0985dd7570461713d48aeceeafaba4b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -127,6 +127,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:adf214ce6e57ffdf2048aa81ee76c4284"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb49898084cbfe942a56ba805171db4d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_g_l_vertex_buffer.html#acb49898084cbfe942a56ba805171db4d">outputInterleaved</a> ()</td></tr>
 <tr class="separator:acb49898084cbfe942a56ba805171db4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec7cad6d1ef1d09e30a0dc0877fe9588"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_g_l_vertex_buffer.html#aec7cad6d1ef1d09e30a0dc0877fe9588">dataType</a> (<a class="el" href="_s_l_g_l_enums_8h.html#af2a4734548d7c452a449938c9770d0d9">SLGLBufferType</a> dt)</td></tr>
+<tr class="separator:aec7cad6d1ef1d09e30a0dc0877fe9588"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -170,8 +172,7 @@ Protected Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="class_s_l_g_l_vertex_buffer.html" title="SLGLVertexBuffer encapsulates an OpenGL buffer for vertex attributes.">SLGLVertexBuffer</a> encapsulates an OpenGL buffer for vertex attributes. </p>
-<p><a class="el" href="class_s_l_g_l_vertex_buffer.html" title="SLGLVertexBuffer encapsulates an OpenGL buffer for vertex attributes.">SLGLVertexBuffer</a> is only meant to be used within the <a class="el" href="class_s_l_g_l_vertex_array.html" title="SLGLVertexArray encapsulates the core OpenGL drawing.">SLGLVertexArray</a> class. A vertex attribute buffer is either of type float or half float. Half float attributes only use 2 bytes per number but will be converted to 4 byte floats before they arrive in the shader.<br/>
- Attributes can be either be in sequential order (first all positions, then all normals, etc.) or interleaved (all attributes together for one vertex). See <a class="el" href="class_s_l_g_l_vertex_buffer.html#a12102d9cc1bef29d6f4f594081bc39bd" title="Generates the VBO.">SLGLVertexBuffer::generate</a> for more information.<br/>
+<p><a class="el" href="class_s_l_g_l_vertex_buffer.html" title="SLGLVertexBuffer encapsulates an OpenGL buffer for vertex attributes.">SLGLVertexBuffer</a> is only meant to be used within the <a class="el" href="class_s_l_g_l_vertex_array.html" title="SLGLVertexArray encapsulates the core OpenGL drawing.">SLGLVertexArray</a> class. Attributes can be either be in sequential order (first all positions, then all normals, etc.) or interleaved (all attributes together for one vertex). See <a class="el" href="class_s_l_g_l_vertex_buffer.html#a12102d9cc1bef29d6f4f594081bc39bd" title="Generates the VBO.">SLGLVertexBuffer::generate</a> for more information.<br/>
  Vertex index buffer are not handled in this class. They are generated in <a class="el" href="class_s_l_g_l_vertex_array.html" title="SLGLVertexArray encapsulates the core OpenGL drawing.">SLGLVertexArray</a>. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a91218a8577ce6491adb89131559a43ad"></a>
@@ -274,21 +275,44 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="adf588db2e6d17253a5e92dc3d28e8bf2"></a>
+<a class="anchor" id="aa2be2ce569a9058fb01c946685a2381f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void SLGLVertexBuffer::clear </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="_s_l_g_l_enums_8h.html#af2a4734548d7c452a449938c9770d0d9">SLGLBufferType</a>&#160;</td>
-          <td class="paramname"><em>bt</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Clears the attribute definition and sets the buffer data type. </p>
+<p>Calls deleteGL &amp; clears the attributes. </p>
+
+</div>
+</div>
+<a class="anchor" id="aec7cad6d1ef1d09e30a0dc0877fe9588"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SLGLVertexBuffer::dataType </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_s_l_g_l_enums_8h.html#af2a4734548d7c452a449938c9770d0d9">SLGLBufferType</a>&#160;</td>
+          <td class="paramname"><em>dt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -883,7 +907,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_s_l_g_l_vertex_buffer.html">SLGLVertexBuffer</a></li>
-    <li class="footer">Generated on Thu Jan 21 2016 09:08:38 for SLProject by
+    <li class="footer">Generated on Tue Feb 14 2017 16:58:34 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
   </ul>

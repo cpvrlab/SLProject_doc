@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">1.31</span>
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -101,8 +101,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3c1e6f83f2825f9ccacd831be73d1a79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad27a1e237044fff67db9816fc02b06da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_ray.html#ad27a1e237044fff67db9816fc02b06da">diffuseMC</a> (<a class="el" href="class_s_l_ray.html">SLRay</a> *scattered)</td></tr>
 <tr class="separator:ad27a1e237044fff67db9816fc02b06da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac80a7f8b77275425ea313a1b5440c481"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_ray.html#ac80a7f8b77275425ea313a1b5440c481">volumeRay</a> (<a class="el" href="class_s_l_ray.html">SLRay</a> *volumeRay)</td></tr>
-<tr class="separator:ac80a7f8b77275425ea313a1b5440c481"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfdd337a485ad408ed080822353d7b0a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_ray.html#abfdd337a485ad408ed080822353d7b0a">print</a> () const </td></tr>
 <tr class="separator:abfdd337a485ad408ed080822353d7b0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a779fd764adfcab2f8732a7337ba94191"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_ray.html#a779fd764adfcab2f8732a7337ba94191">setDir</a> (<a class="el" href="_s_l_vec3_8h.html#a22a90ea5a9c12a50e5ce23324a383120">SLVec3f</a> Dir)</td></tr>
@@ -236,9 +234,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:add46c93f45c10e8b872ffeb30cb237b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_vec3_8h.html#a22a90ea5a9c12a50e5ce23324a383120">SLVec3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_ray.html#add46c93f45c10e8b872ffeb30cb237b7">hitNormal</a></td></tr>
 <tr class="memdesc:add46c93f45c10e8b872ffeb30cb237b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Surface normal at intersection point.  <a href="#add46c93f45c10e8b872ffeb30cb237b7"></a><br/></td></tr>
 <tr class="separator:add46c93f45c10e8b872ffeb30cb237b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f855d27e42f5317fa2bfc4df77770fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_ray.html#a2f855d27e42f5317fa2bfc4df77770fd">hitTexCol</a></td></tr>
-<tr class="memdesc:a2f855d27e42f5317fa2bfc4df77770fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Texture color at intersection point.  <a href="#a2f855d27e42f5317fa2bfc4df77770fd"></a><br/></td></tr>
-<tr class="separator:a2f855d27e42f5317fa2bfc4df77770fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad2aa75a51006c75a540c2b0521b6440"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_ray.html#aad2aa75a51006c75a540c2b0521b6440">hitColor</a></td></tr>
+<tr class="memdesc:aad2aa75a51006c75a540c2b0521b6440"><td class="mdescLeft">&#160;</td><td class="mdescRight">Color at intersection for texture or color attributes.  <a href="#aad2aa75a51006c75a540c2b0521b6440"></a><br/></td></tr>
+<tr class="separator:aad2aa75a51006c75a540c2b0521b6440"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace36b78a8d42b0791c5392a2396da6d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_vec3_8h.html#a22a90ea5a9c12a50e5ce23324a383120">SLVec3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_ray.html#ace36b78a8d42b0791c5392a2396da6d4">invDir</a></td></tr>
 <tr class="memdesc:ace36b78a8d42b0791c5392a2396da6d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inverse ray dir for fast AABB hit in WS.  <a href="#ace36b78a8d42b0791c5392a2396da6d4"></a><br/></td></tr>
 <tr class="separator:ace36b78a8d42b0791c5392a2396da6d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -275,6 +273,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a4870c79b7eb68d3b215ff752d5e5af71"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_s_l_material.html">SLMaterial</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_ray.html#a4870c79b7eb68d3b215ff752d5e5af71">hitMat</a></td></tr>
 <tr class="memdesc:a4870c79b7eb68d3b215ff752d5e5af71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Points to material of intersected node.  <a href="#a4870c79b7eb68d3b215ff752d5e5af71"></a><br/></td></tr>
 <tr class="separator:a4870c79b7eb68d3b215ff752d5e5af71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f855d27e42f5317fa2bfc4df77770fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_ray.html#a2f855d27e42f5317fa2bfc4df77770fd">hitTexCol</a></td></tr>
+<tr class="memdesc:a2f855d27e42f5317fa2bfc4df77770fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Texture color at intersection point.  <a href="#a2f855d27e42f5317fa2bfc4df77770fd"></a><br/></td></tr>
+<tr class="separator:a2f855d27e42f5317fa2bfc4df77770fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -1162,22 +1163,6 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ac80a7f8b77275425ea313a1b5440c481"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void SLRay::volumeRay </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_s_l_ray.html">SLRay</a> *&#160;</td>
-          <td class="paramname"><em>volumeRay</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a class="anchor" id="aa762d7cf39da34f5bba83b14856777af"></a>
 <div class="memitem">
@@ -1335,6 +1320,20 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>NO. of emitted photons from all lightsources. </p>
+
+</div>
+</div>
+<a class="anchor" id="aad2aa75a51006c75a540c2b0521b6440"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a> SLRay::hitColor</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Color at intersection for texture or color attributes. </p>
 
 </div>
 </div>
@@ -2170,7 +2169,7 @@ Static Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_s_l_ray.html">SLRay</a></li>
-    <li class="footer">Generated on Thu Jan 21 2016 09:08:39 for SLProject by
+    <li class="footer">Generated on Tue Feb 14 2017 16:58:39 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
   </ul>

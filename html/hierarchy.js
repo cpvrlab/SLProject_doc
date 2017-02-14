@@ -18,6 +18,15 @@ var hierarchy =
     [ "SLCurve", "class_s_l_curve.html", [
       [ "SLCurveBezier", "class_s_l_curve_bezier.html", null ]
     ] ],
+    [ "SLCVArucoParams", "class_s_l_c_v_aruco_params.html", null ],
+    [ "SLCVCalibration", "class_s_l_c_v_calibration.html", null ],
+    [ "SLCVCapture", "class_s_l_c_v_capture.html", null ],
+    [ "SLCVFeatureMap2D", "class_s_l_c_v_feature_map2_d.html", null ],
+    [ "SLCVFeatureMapper2D", "class_s_l_c_v_feature_mapper2_d.html", null ],
+    [ "SLCVTracker", "class_s_l_c_v_tracker.html", [
+      [ "SLCVTrackerAruco", "class_s_l_c_v_tracker_aruco.html", null ],
+      [ "SLCVTrackerChessboard", "class_s_l_c_v_tracker_chessboard.html", null ]
+    ] ],
     [ "SLDrawBits", "class_s_l_draw_bits.html", null ],
     [ "SLEventHandler", "class_s_l_event_handler.html", [
       [ "SLGLUniform< T >", "class_s_l_g_l_uniform.html", null ],
@@ -25,8 +34,9 @@ var hierarchy =
         [ "SLButton", "class_s_l_button.html", null ],
         [ "SLCamera", "class_s_l_camera.html", null ],
         [ "SLJoint", "class_s_l_joint.html", null ],
+        [ "SLLightDirect", "class_s_l_light_direct.html", null ],
         [ "SLLightRect", "class_s_l_light_rect.html", null ],
-        [ "SLLightSphere", "class_s_l_light_sphere.html", null ],
+        [ "SLLightSpot", "class_s_l_light_spot.html", null ],
         [ "SLSceneNode", "class_s_l_scene_node.html", null ],
         [ "SLText", "class_s_l_text.html", null ]
       ] ],
@@ -36,7 +46,6 @@ var hierarchy =
     ] ],
     [ "SLFileSystem", "class_s_l_file_system.html", null ],
     [ "SLGLAttribute", "struct_s_l_g_l_attribute.html", null ],
-    [ "SLGLOcculusDistortionVertex", "struct_s_l_g_l_occulus_distortion_vertex.html", null ],
     [ "SLGLOculus", "class_s_l_g_l_oculus.html", null ],
     [ "SLGLOculusFB", "class_s_l_g_l_oculus_f_b.html", null ],
     [ "SLGLState", "class_s_l_g_l_state.html", null ],
@@ -64,8 +73,9 @@ var hierarchy =
       [ "SLTransformKeyframe", "class_s_l_transform_keyframe.html", null ]
     ] ],
     [ "SLLight", "class_s_l_light.html", [
+      [ "SLLightDirect", "class_s_l_light_direct.html", null ],
       [ "SLLightRect", "class_s_l_light_rect.html", null ],
-      [ "SLLightSphere", "class_s_l_light_sphere.html", null ]
+      [ "SLLightSpot", "class_s_l_light_spot.html", null ]
     ] ],
     [ "SLMat3< T >", "class_s_l_mat3.html", null ],
     [ "SLMat3< SLfloat >", "class_s_l_mat3.html", null ],
@@ -74,6 +84,7 @@ var hierarchy =
     [ "SLNodeStats", "struct_s_l_node_stats.html", null ],
     [ "SLObject", "class_s_l_object.html", [
       [ "SLBackground", "class_s_l_background.html", null ],
+      [ "SLCVImage", "class_s_l_c_v_image.html", null ],
       [ "SLGLProgram", "class_s_l_g_l_program.html", [
         [ "SLGLGenericProgram", "class_s_l_g_l_generic_program.html", null ]
       ] ],
@@ -86,15 +97,20 @@ var hierarchy =
       [ "SLMaterial", "class_s_l_material.html", null ],
       [ "SLMesh", "class_s_l_mesh.html", [
         [ "SLBox", "class_s_l_box.html", null ],
+        [ "SLCoordAxis", "class_s_l_coord_axis.html", null ],
         [ "SLGrid", "class_s_l_grid.html", null ],
         [ "SLPolygon", "class_s_l_polygon.html", null ],
+        [ "SLPolyline", "class_s_l_polyline.html", null ],
         [ "SLRectangle", "class_s_l_rectangle.html", null ],
         [ "SLRevolver", "class_s_l_revolver.html", [
+          [ "SLArrow", "class_s_l_arrow.html", null ],
           [ "SLCone", "class_s_l_cone.html", null ],
           [ "SLCylinder", "class_s_l_cylinder.html", null ],
           [ "SLDisk", "class_s_l_disk.html", null ],
           [ "SLLens", "class_s_l_lens.html", null ],
-          [ "SLSphere", "class_s_l_sphere.html", null ],
+          [ "SLSpheric", "class_s_l_spheric.html", [
+            [ "SLSphere", "class_s_l_sphere.html", null ]
+          ] ],
           [ "SLVolume", "class_s_l_volume.html", null ]
         ] ],
         [ "SLTriangle", "class_s_l_triangle.html", null ]
@@ -126,6 +142,7 @@ var hierarchy =
     [ "SLVec4< SLfloat >", "class_s_l_vec4.html", null ],
     [ "SLVec4< SLint >", "class_s_l_vec4.html", null ],
     [ "SLVector< T, U >", "class_s_l_vector.html", null ],
+    [ "SLVertexOculus", "struct_s_l_vertex_oculus.html", null ],
     [ "sTGA", "structs_t_g_a.html", null ],
     [ "sTGAHeader", "structs_t_g_a_header.html", null ],
     [ "tagBMP_FILEHEADER", "structtag_b_m_p___f_i_l_e_h_e_a_d_e_r.html", null ],

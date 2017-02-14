@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">1.31</span>
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -79,16 +79,17 @@ $(document).ready(function(){initNavTree('_s_l_interface_8cpp.html','');});
 <code>#include &lt;<a class="el" href="_s_l_scene_view_8h.html">SLSceneView.h</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="_s_l_assimp_importer_8h.html">SLAssimpImporter.h</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="_s_l_input_manager_8h.html">SLInputManager.h</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="_s_l_c_v_capture_8h.html">SLCVCapture.h</a>&gt;</code><br/>
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for SLInterface.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="_s_l_interface_8cpp__incl.svg" width="3215" height="1083"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="_s_l_interface_8cpp__incl.svg" width="3478" height="1083"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a578a008d272c28c91aeeff708785ffef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_interface_8cpp.html#a578a008d272c28c91aeeff708785ffef">slCreateScene</a> (<a class="el" href="_s_l_8h.html#aca126708dd7d8ef3cb2356e9c99b2712">SLVstring</a> &amp;cmdLineArgs, <a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a> shaderPath, <a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a> modelPath, <a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a> texturePath)</td></tr>
-<tr class="separator:a578a008d272c28c91aeeff708785ffef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c02833e1f7d6d0ad3ea8d88cbe8b044"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_interface_8cpp.html#a9c02833e1f7d6d0ad3ea8d88cbe8b044">slCreateScene</a> (<a class="el" href="_s_l_8h.html#aca126708dd7d8ef3cb2356e9c99b2712">SLVstring</a> &amp;cmdLineArgs, <a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a> shaderPath, <a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a> modelPath, <a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a> texturePath, <a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a> fontPath, <a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a> calibrationPath, <a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a> configPath)</td></tr>
+<tr class="separator:a9c02833e1f7d6d0ad3ea8d88cbe8b044"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a476798948ab3378d348e63f5ac0af7f8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_interface_8cpp.html#a476798948ab3378d348e63f5ac0af7f8">slCreateSceneView</a> (int screenWidth, int screenHeight, int dotsPerInch, <a class="el" href="_s_l_enums_8h.html#ac9bd7e0647bd8fd6d7dbf2e085449e1f">SLCommand</a> initScene, void *onWndUpdateCallback, void *onSelectNodeMeshCallback, void *onNewSceneViewCallback, void *onShowSystemCursorCallback)</td></tr>
 <tr class="separator:a476798948ab3378d348e63f5ac0af7f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21d0d9038259a1f4b77f040dfccdce3f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_interface_8cpp.html#a21d0d9038259a1f4b77f040dfccdce3f">slNewSceneView</a> ()</td></tr>
@@ -137,12 +138,10 @@ Functions</h2></td></tr>
 <tr class="separator:a898f279e40ccbc125e08631664600d36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97c16367cd629b766ba19a5a825b80cc"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_interface_8cpp.html#a97c16367cd629b766ba19a5a825b80cc">slGetWindowTitle</a> (int sceneViewIndex)</td></tr>
 <tr class="separator:a97c16367cd629b766ba19a5a825b80cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41d56723595104f5322de1d20203fcec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_interface_8cpp.html#a41d56723595104f5322de1d20203fcec">slCopyVideoImage</a> (int width, int height, <a class="el" href="_s_l_enums_8h.html#a408fa74d21ec77c3f43bbd7dc7aaa513">SLPixelFormat</a> format, <a class="el" href="_s_l_8h.html#a558bc88d42cc617a969769339a841b13">SLuchar</a> *data, bool isTopLeft)</td></tr>
-<tr class="separator:a41d56723595104f5322de1d20203fcec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3790fc364c9dab06fe0a3de8979fd0d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_interface_8cpp.html#ae3790fc364c9dab06fe0a3de8979fd0d">slUsesVideoImage</a> ()</td></tr>
-<tr class="separator:ae3790fc364c9dab06fe0a3de8979fd0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad253908b378f5e387ab9bb99c64e4fe0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_interface_8cpp.html#ad253908b378f5e387ab9bb99c64e4fe0">slGrabCopyVideoImage</a> ()</td></tr>
-<tr class="separator:ad253908b378f5e387ab9bb99c64e4fe0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af59cd4eb0245974bf72c787bf990f762"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_interface_8cpp.html#af59cd4eb0245974bf72c787bf990f762">slCopyVideoImage</a> (<a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a> width, <a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a> height, <a class="el" href="_s_l_enums_8h.html#a408fa74d21ec77c3f43bbd7dc7aaa513">SLPixelFormat</a> format, <a class="el" href="_s_l_8h.html#a558bc88d42cc617a969769339a841b13">SLuchar</a> *data, <a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> isContinuous)</td></tr>
+<tr class="separator:af59cd4eb0245974bf72c787bf990f762"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac37adeb4f1719bbc3f2841b6e06febaf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_interface_8cpp.html#ac37adeb4f1719bbc3f2841b6e06febaf">slGetVideoType</a> ()</td></tr>
+<tr class="separator:ac37adeb4f1719bbc3f2841b6e06febaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -208,20 +207,20 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a41d56723595104f5322de1d20203fcec"></a>
+<a class="anchor" id="af59cd4eb0245974bf72c787bf990f762"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void slCopyVideoImage </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a>&#160;</td>
           <td class="paramname"><em>width</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a>&#160;</td>
           <td class="paramname"><em>height</em>, </td>
         </tr>
         <tr>
@@ -239,8 +238,8 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>isTopLeft</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td>
+          <td class="paramname"><em>isContinuous</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -253,7 +252,7 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a578a008d272c28c91aeeff708785ffef"></a>
+<a class="anchor" id="a9c02833e1f7d6d0ad3ea8d88cbe8b044"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -279,7 +278,25 @@ Variables</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a>&#160;</td>
-          <td class="paramname"><em>texturePath</em>&#160;</td>
+          <td class="paramname"><em>texturePath</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a>&#160;</td>
+          <td class="paramname"><em>fontPath</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a>&#160;</td>
+          <td class="paramname"><em>calibrationPath</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a>&#160;</td>
+          <td class="paramname"><em>configPath</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -288,10 +305,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<hr/>
- global pointer to an OpenCV video capture device</p>
 <p>Global creation function for a <a class="el" href="class_s_l_scene.html" title="The SLScene class represents the top level instance holding the scene structure.">SLScene</a> instance. This function should be called only once per application. The <a class="el" href="class_s_l_scene.html" title="The SLScene class represents the top level instance holding the scene structure.">SLScene</a> constructor call is delayed until the first <a class="el" href="class_s_l_scene_view.html" title="SceneView class represents a dynamic real time 3D view onto the scene.">SLSceneView</a> is created to guarantee, that the OpenGL context is present.<br/>
- <br/>
+ /param cmdLineArgs Command line arguments /param shaderPath Path to the shader files (readonly) /param modelPath Path to the 3D model files (readonly) /param texturePath Path to the texture image files (readonly) /param fontPath Path to the font image files (readonly) /param calibrationPath Path to the calibration ini files (readonly) /param configPath Path where the config files are stored (read-write) <br/>
  See examples usages in:</p>
 <ul>
 <li>app-Demo-GLFW: glfwMain.cpp in function <a class="el" href="_quaternion_test_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main()</a></li>
@@ -420,6 +435,22 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ac37adeb4f1719bbc3f2841b6e06febaf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int slGetVideoType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Global function returns the type of video camera wanted </p>
+
+</div>
+</div>
 <a class="anchor" id="a97c16367cd629b766ba19a5a825b80cc"></a>
 <div class="memitem">
 <div class="memproto">
@@ -434,22 +465,6 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Global function to retrieve a window title text generated by the scene library. </p>
-
-</div>
-</div>
-<a class="anchor" id="ad253908b378f5e387ab9bb99c64e4fe0"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void slGrabCopyVideoImage </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Grabs an image from the live video stream with the OpenCV library. After grabbing the image is copied to the SLScenes::_videoTexture Not all application will use OpenCV for capturing live video. </p>
 
 </div>
 </div>
@@ -1058,22 +1073,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ae3790fc364c9dab06fe0a3de8979fd0d"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool slUsesVideoImage </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Global function returns true if <a class="el" href="class_s_l.html" title="Class SL with some global static functions.">SL</a> wants a live video images </p>
-
-</div>
-</div>
 <h2 class="groupheader">Variable Documentation</h2>
 <a class="anchor" id="adb16a9f63410e383d7088631e29482ef"></a>
 <div class="memitem">
@@ -1094,8 +1093,8 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_d0048d0e1a364fc830c4a6aa45e5e78d.html">lib-SLProject</a></li><li class="navelem"><a class="el" href="dir_d2ed81c8199e634bafcc499a18319507.html">source</a></li><li class="navelem"><a class="el" href="dir_04c6e5bfb66514f367a2f857fdd78326.html">SL</a></li><li class="navelem"><a class="el" href="_s_l_interface_8cpp.html">SLInterface.cpp</a></li>
-    <li class="footer">Generated on Thu Jan 21 2016 09:08:36 for SLProject by
+    <li class="navelem"><a class="el" href="dir_c8272d645ebfda6411862271e704593b.html">lib-SLProject</a></li><li class="navelem"><a class="el" href="dir_dac97db7b2bc27a06e3fc01229640b31.html">source</a></li><li class="navelem"><a class="el" href="dir_f817a0816ba7ee426f2d5f51f13242de.html">SL</a></li><li class="navelem"><a class="el" href="_s_l_interface_8cpp.html">SLInterface.cpp</a></li>
+    <li class="footer">Generated on Tue Feb 14 2017 16:58:01 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
   </ul>

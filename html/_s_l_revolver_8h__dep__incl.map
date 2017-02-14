@@ -1,17 +1,20 @@
 <map id="SLRevolver.h" name="SLRevolver.h">
-<area shape="rect" id="node3" href="$_s_l_revolver_8cpp.html" title="SLRevolver.cpp" alt="" coords="65,80,183,107"/>
-<area shape="rect" id="node5" href="$_s_l_cone_8h.html" title="SLCone.h" alt="" coords="208,80,291,107"/>
-<area shape="rect" id="node11" href="$_s_l_cylinder_8h.html" title="SLCylinder.h" alt="" coords="315,80,416,107"/>
-<area shape="rect" id="node16" href="$_s_l_disk_8h.html" title="SLDisk.h" alt="" coords="440,80,517,107"/>
-<area shape="rect" id="node21" href="$_s_l_lens_8h.html" title="SLLens.h" alt="" coords="541,80,621,107"/>
-<area shape="rect" id="node26" href="$_s_l_sphere_8h.html" title="SLSphere.h" alt="" coords="685,80,781,107"/>
-<area shape="rect" id="node33" href="$_s_l_volume_8h.html" title="SLVolume.h" alt="" coords="933,80,1032,107"/>
-<area shape="rect" id="node7" href="$_s_l_cone_8cpp.html" title="SLCone.cpp" alt="" coords="5,155,104,181"/>
-<area shape="rect" id="node9" href="$_s_l_scene__on_load_8cpp.html" title="SLScene_onLoad.cpp" alt="" coords="269,155,427,181"/>
-<area shape="rect" id="node13" href="$_s_l_cylinder_8cpp.html" title="SLCylinder.cpp" alt="" coords="129,155,244,181"/>
-<area shape="rect" id="node18" href="$_s_l_disk_8cpp.html" title="SLDisk.cpp" alt="" coords="451,155,543,181"/>
-<area shape="rect" id="node23" href="$_s_l_lens_8cpp.html" title="SLLens.cpp" alt="" coords="567,155,661,181"/>
-<area shape="rect" id="node28" href="$_s_l_light_sphere_8cpp.html" title="SLLightSphere.cpp" alt="" coords="686,155,828,181"/>
-<area shape="rect" id="node31" href="$_s_l_sphere_8cpp.html" title="SLSphere.cpp" alt="" coords="853,155,963,181"/>
-<area shape="rect" id="node35" href="$_s_l_pathtracer_8cpp.html" title="SLPathtracer.cpp" alt="" coords="987,155,1119,181"/>
+<area shape="rect" id="node3" href="$_s_l_revolver_8cpp.html" title="SLRevolver.cpp" alt="" coords="5,80,123,107"/>
+<area shape="rect" id="node5" href="$_s_l_arrow_8h.html" title="SLArrow.h" alt="" coords="1153,155,1239,181"/>
+<area shape="rect" id="node9" href="$_s_l_cone_8h.html" title="SLCone.h" alt="" coords="148,80,231,107"/>
+<area shape="rect" id="node15" href="$_s_l_cylinder_8h.html" title="SLCylinder.h" alt="" coords="269,80,371,107"/>
+<area shape="rect" id="node20" href="$_s_l_disk_8h.html" title="SLDisk.h" alt="" coords="452,80,529,107"/>
+<area shape="rect" id="node25" href="$_s_l_lens_8h.html" title="SLLens.h" alt="" coords="553,80,633,107"/>
+<area shape="rect" id="node30" href="$_s_l_spheric_8h.html" title="SLSpheric.h" alt="" coords="833,80,932,107"/>
+<area shape="rect" id="node43" href="$_s_l_volume_8h.html" title="SLVolume.h" alt="" coords="1257,80,1356,107"/>
+<area shape="rect" id="node7" href="$_s_l_light_direct_8cpp.html" title="SLLightDirect.cpp" alt="" coords="1047,229,1181,256"/>
+<area shape="rect" id="node11" href="$_s_l_cone_8cpp.html" title="SLCone.cpp" alt="" coords="37,155,136,181"/>
+<area shape="rect" id="node13" href="$_s_l_scene__on_load_8cpp.html" title="SLScene_onLoad.cpp" alt="" coords="421,229,579,256"/>
+<area shape="rect" id="node17" href="$_s_l_cylinder_8cpp.html" title="SLCylinder.cpp" alt="" coords="262,155,377,181"/>
+<area shape="rect" id="node22" href="$_s_l_disk_8cpp.html" title="SLDisk.cpp" alt="" coords="454,155,545,181"/>
+<area shape="rect" id="node27" href="$_s_l_lens_8cpp.html" title="SLLens.cpp" alt="" coords="622,155,716,181"/>
+<area shape="rect" id="node33" href="$_s_l_light_spot_8cpp.html" title="SLLightSpot.cpp" alt="" coords="819,229,945,256"/>
+<area shape="rect" id="node36" href="$_s_l_spheric_8cpp.html" title="SLSpheric.cpp" alt="" coords="963,155,1076,181"/>
+<area shape="rect" id="node38" href="$_s_l_sphere_8h.html" title="SLSphere.h" alt="" coords="792,155,888,181"/>
+<area shape="rect" id="node45" href="$_s_l_pathtracer_8cpp.html" title="SLPathtracer.cpp" alt="" coords="1263,155,1395,181"/>
 </map>
