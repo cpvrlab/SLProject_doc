@@ -206,27 +206,21 @@ The red animation classes provide the functionality for simple node animations o
 <p>
 The orange classes provide the functionality for image processing using the OpenCV framework. 
 The SLProject framework can now process the images from attached live video cameras. This works via OpenCV 
-on desktop OS as well as on iOS and Android. The live video image is constantly fed into and OpenGL texture 
-that can be used as a texture on an objects material or as the scenes background. With the live video in the 
-background you can create Augmented Reality applications. Examples can be found in the demo application 
-under Load Scene > Using Video > Track Chessboard or Calibrate Camera. 
+on desktop OS as well as on iOS and Android. The live video image is constantly fed into an OpenGL texture 
+that can be used as a texture on an objects material or as the scenes background. With the live video in the background you can create augmented reality (AR) applications. Examples can be found in the demo application under Load Scene > Using Video > Track Chessboard or Track AruCo. 
 <ul>
     <li>
-        SLCVImage: Replaces the deprecated SLImage class and provides all for loading, saving and converting images. 
-		Internally it stores the image in a cv::Mat instance.  
+        SLCVImage: Replaces the deprecated SLImage class and provides all for loading, saving and converting images. Internally it stores the image in a cv::Mat instance.  
     </li>
     <li>
-        SLCVCapture: Holds static images from the OpenCV video capture or from an external (iOS and Android) video capture service.
-		There is a SLCVCapture::_lastFrame and a SLCVCapture::_lastFrameGray with the gray level version of the last capture video frame.
+        SLCVCapture: Holds static images from the OpenCV video capture or from an external (iOS and Android) video capture service. There is an SLCVCapture::_lastFrame and an SLCVCapture::_lastFrameGray with the gray level version of the last capture video frame.
     </li>
     <li>
-        SLCVCalibration holds all functionality to calibrate the video camera. A classic chessboard pattern is used for calibration.
-		In the demo application a special scene is provided for the calibration (Load Scene > Using Video > Track Chessboard or Calibrate Camera).
+        SLCVCalibration holds all functionality to calibrate the video camera. A classic chessboard pattern is used for calibration. In the demo application a special scene is provided for the calibration (Preferences > Video > Calibrate Camera).
     </li>
     <li>
         SLCVTracker is the base class for tracking classes. The scene can have multiple trackers. 
-		A tracker is associated with a Node. When the object to be tracked is found, it controls the nodes transform.
-        If the associated node is the scenes active camera a classic augmented reality application can be generated.		
+		A tracker is associated with a Node. When the object to be tracked is found, it controls the nodes transform. If the associated node is the scenes active camera a classic augmented reality application can be generated.		
     </li>
     <li>
         SLCVTrackerChessboard tracks the same chessboard that is used for the camera calibration.	
