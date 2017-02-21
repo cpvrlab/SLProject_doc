@@ -4,6 +4,7 @@ var class_s_l_utils =
     [ "getFileName", "class_s_l_utils.html#a71ff2bba08b129bd27508526940abec3", null ],
     [ "getFileNamesInDir", "class_s_l_utils.html#a57270b3ce71b60a024c815454a62bcfc", null ],
     [ "getFileNameWOExt", "class_s_l_utils.html#a6ea54f70cbce0cfa240929243ed4c605", null ],
+    [ "getLocalTimeString", "class_s_l_utils.html#abbebdadc90b445be6f7602fa9457c754", null ],
     [ "getPath", "class_s_l_utils.html#a2924c8fb63693f042d92ac6dc255aa22", null ],
     [ "replaceString", "class_s_l_utils.html#aafc181db8da96f362d3a1b415db988dd", null ],
     [ "split", "class_s_l_utils.html#a6ac5fa6e2479da9dc41afafb2068a384", null ],

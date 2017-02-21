@@ -4,12 +4,12 @@
 <area shape="rect" id="node7" href="$class_s_l_g_l_program.html" title="Encapsulation of an OpenGL shader program object." alt="" coords="135,107,246,133"/>
 <area shape="rect" id="node11" href="$class_s_l_g_l_shader.html" title="Encapsulation of an OpenGL shader object." alt="" coords="140,157,241,184"/>
 <area shape="rect" id="node13" href="$class_s_l_g_l_texture.html" title="Texture object for OpenGL texturing." alt="" coords="139,208,242,235"/>
-<area shape="rect" id="node21" href="$class_s_l_image.html" title=": Small image class for loading JPG, PNG, BMP, TGA and saving PNG files" alt="" coords="151,259,230,285"/>
+<area shape="rect" id="node21" href="$class_s_l_image.html" title="This class is deprecated." alt="" coords="151,259,230,285"/>
 <area shape="rect" id="node23" href="$class_s_l_material.html" title="Defines a standard CG material with textures and a shader program." alt="" coords="146,309,235,336"/>
 <area shape="rect" id="node25" href="$class_s_l_mesh.html" title="An SLMesh object is a triangulated mesh that is drawn with one draw call." alt="" coords="155,360,227,387"/>
-<area shape="rect" id="node59" href="$class_s_l_node.html" title="SLNode represents a node in a hierarchical scene graph." alt="" coords="155,689,227,716"/>
-<area shape="rect" id="node77" href="$class_s_l_scene.html" title="The SLScene class represents the top level instance holding the scene structure." alt="" coords="151,740,230,767"/>
-<area shape="rect" id="node79" href="$class_s_l_scene_view.html" title="SceneView class represents a dynamic real time 3D view onto the scene." alt="" coords="137,791,244,817"/>
+<area shape="rect" id="node59" href="$class_s_l_node.html" title="SLNode represents a node in a hierarchical scene graph." alt="" coords="155,664,227,691"/>
+<area shape="rect" id="node75" href="$class_s_l_scene.html" title="The SLScene class represents the top level instance holding the scene structure." alt="" coords="151,715,230,741"/>
+<area shape="rect" id="node77" href="$class_s_l_scene_view.html" title="SceneView class represents a dynamic real time 3D view onto the scene." alt="" coords="137,765,244,792"/>
 <area shape="rect" id="node9" href="$class_s_l_g_l_generic_program.html" title="Generic Shader Program class inherited from SLGLProgram." alt="" coords="297,31,455,57"/>
 <area shape="rect" id="node15" href="$class_s_l_raytracer.html" title="SLRaytracer hold all the methods for Whitted style Ray Tracing." alt="" coords="327,81,425,108"/>
 <area shape="rect" id="node19" href="$class_s_l_tex_font.html" title="Texture Font class inherits SLGLTexture for alpha blended font rendering." alt="" coords="332,132,420,159"/>
@@ -36,6 +36,5 @@
 <area shape="rect" id="node67" href="$class_s_l_light_direct.html" title="SLLightDirect class for a directional light source." alt="" coords="323,740,429,767"/>
 <area shape="rect" id="node69" href="$class_s_l_light_rect.html" title="Light node class for a rectangular light source." alt="" coords="327,791,425,817"/>
 <area shape="rect" id="node71" href="$class_s_l_light_spot.html" title="SLLightSpot class for a spot light source." alt="" coords="327,841,425,868"/>
-<area shape="rect" id="node73" href="$class_s_l_scene_node.html" title="SLSceneNode represents a node in the scene graph and is a specialization of SLNode." alt="" coords="320,892,432,919"/>
-<area shape="rect" id="node75" href="$class_s_l_text.html" title="SLText creates a mesh using a textured font from SLTexFont." alt="" coords="343,943,409,969"/>
+<area shape="rect" id="node73" href="$class_s_l_text.html" title="SLText creates a mesh using a textured font from SLTexFont." alt="" coords="343,892,409,919"/>
 </map>

@@ -9,6 +9,7 @@ var class_s_l_c_v_capture =
     [ "_captureDevice", "class_s_l_c_v_capture.html#a114e8e37deee2a21cb87b3a4560d3064", null ],
     [ "captureSize", "class_s_l_c_v_capture.html#a4b3b0ddbc81c87a1e9a08de4fd75bc30", null ],
     [ "format", "class_s_l_c_v_capture.html#a585aad953fd43e61103b88bcb19d132f", null ],
+    [ "hasSecondaryCamera", "class_s_l_c_v_capture.html#a673b604cfd18bf903825a1c72696ebff", null ],
     [ "lastFrame", "class_s_l_c_v_capture.html#a2514b2c2404193ecdc1c00518c94a953", null ],
     [ "lastFrameGray", "class_s_l_c_v_capture.html#a43c34326806ca333fd2c7efe0940b8b0", null ],
     [ "startCaptureTimeMS", "class_s_l_c_v_capture.html#a640302f03ab28a394b6729185c484959", null ]

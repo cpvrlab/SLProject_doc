@@ -87,8 +87,6 @@ var annotated =
     [ "SLRTAAPixel", "struct_s_l_r_t_a_a_pixel.html", "struct_s_l_r_t_a_a_pixel" ],
     [ "SLSamples2D", "class_s_l_samples2_d.html", "class_s_l_samples2_d" ],
     [ "SLScene", "class_s_l_scene.html", "class_s_l_scene" ],
-    [ "SLSceneNode", "class_s_l_scene_node.html", "class_s_l_scene_node" ],
-    [ "SLSceneNodeStats", "struct_s_l_scene_node_stats.html", "struct_s_l_scene_node_stats" ],
     [ "SLSceneView", "class_s_l_scene_view.html", "class_s_l_scene_view" ],
     [ "SLSkeleton", "class_s_l_skeleton.html", "class_s_l_skeleton" ],
     [ "SLSphere", "class_s_l_sphere.html", "class_s_l_sphere" ],

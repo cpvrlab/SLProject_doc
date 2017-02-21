@@ -1,14 +1,13 @@
 <map id="SLEventHandler" name="SLEventHandler">
-<area shape="rect" id="node3" href="$class_s_l_g_l_uniform.html" title="Template for a single GLSL uniform variable." alt="" coords="179,157,322,184"/>
-<area shape="rect" id="node5" href="$class_s_l_node.html" title="SLNode represents a node in a hierarchical scene graph." alt="" coords="215,208,287,235"/>
-<area shape="rect" id="node23" href="$class_s_l_raytracer.html" title="SLRaytracer hold all the methods for Whitted style Ray Tracing." alt="" coords="201,335,300,361"/>
-<area shape="rect" id="node7" href="$class_s_l_button.html" title="Defines a 2D&#45;GUI button with optional submenus as children of the group." alt="" coords="386,5,467,32"/>
-<area shape="rect" id="node9" href="$class_s_l_camera.html" title="Active or visible camera node class." alt="" coords="382,56,471,83"/>
-<area shape="rect" id="node11" href="$class_s_l_joint.html" title="Specialized SLNode that represents a single joint (or bone) in a skeleton." alt="" coords="394,107,459,133"/>
-<area shape="rect" id="node13" href="$class_s_l_light_direct.html" title="SLLightDirect class for a directional light source." alt="" coords="373,157,480,184"/>
-<area shape="rect" id="node15" href="$class_s_l_light_rect.html" title="Light node class for a rectangular light source." alt="" coords="378,208,475,235"/>
-<area shape="rect" id="node17" href="$class_s_l_light_spot.html" title="SLLightSpot class for a spot light source." alt="" coords="377,259,476,285"/>
-<area shape="rect" id="node19" href="$class_s_l_scene_node.html" title="SLSceneNode represents a node in the scene graph and is a specialization of SLNode." alt="" coords="371,309,483,336"/>
-<area shape="rect" id="node21" href="$class_s_l_text.html" title="SLText creates a mesh using a textured font from SLTexFont." alt="" coords="394,360,459,387"/>
-<area shape="rect" id="node25" href="$class_s_l_pathtracer.html" title="Classic Monte Carlo Pathtracing algorithm for real global illumination." alt="" coords="374,411,479,437"/>
+<area shape="rect" id="node3" href="$class_s_l_g_l_uniform.html" title="Template for a single GLSL uniform variable." alt="" coords="227,80,369,107"/>
+<area shape="rect" id="node5" href="$class_s_l_node.html" title="SLNode represents a node in a hierarchical scene graph." alt="" coords="395,80,467,107"/>
+<area shape="rect" id="node21" href="$class_s_l_raytracer.html" title="SLRaytracer hold all the methods for Whitted style Ray Tracing." alt="" coords="605,80,704,107"/>
+<area shape="rect" id="node7" href="$class_s_l_button.html" title="Defines a 2D&#45;GUI button with optional submenus as children of the group." alt="" coords="5,155,85,181"/>
+<area shape="rect" id="node9" href="$class_s_l_camera.html" title="Active or visible camera node class." alt="" coords="110,155,199,181"/>
+<area shape="rect" id="node11" href="$class_s_l_joint.html" title="Specialized SLNode that represents a single joint (or bone) in a skeleton." alt="" coords="223,155,288,181"/>
+<area shape="rect" id="node13" href="$class_s_l_light_direct.html" title="SLLightDirect class for a directional light source." alt="" coords="313,155,420,181"/>
+<area shape="rect" id="node15" href="$class_s_l_light_rect.html" title="Light node class for a rectangular light source." alt="" coords="445,155,541,181"/>
+<area shape="rect" id="node17" href="$class_s_l_light_spot.html" title="SLLightSpot class for a spot light source." alt="" coords="567,155,665,181"/>
+<area shape="rect" id="node19" href="$class_s_l_text.html" title="SLText creates a mesh using a textured font from SLTexFont." alt="" coords="690,155,755,181"/>
+<area shape="rect" id="node23" href="$class_s_l_pathtracer.html" title="Classic Monte Carlo Pathtracing algorithm for real global illumination." alt="" coords="779,155,884,181"/>
 </map>

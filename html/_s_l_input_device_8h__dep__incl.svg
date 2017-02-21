@@ -11,73 +11,68 @@
 <polygon fill="white" stroke="white" points="-4,5 -4,-136 448,-136 448,5 -4,5"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="81,-112.5 81,-131.5 175,-131.5 175,-112.5 81,-112.5"/>
-<text text-anchor="middle" x="128" y="-119.5" font-family="Arial.ttf" font-size="10.00">SLInputDevice.h</text>
+<polygon fill="#bfbfbf" stroke="black" points="178,-112.5 178,-131.5 272,-131.5 272,-112.5 178,-112.5"/>
+<text text-anchor="middle" x="225" y="-119.5" font-family="Arial.ttf" font-size="10.00">SLInputDevice.h</text>
 </g>
 <!-- Node2 -->
 <g id="node3" class="node"><title>Node2</title>
-<a xlink:href="_s_l_input_device_8cpp.html" target="_top" xlink:title="SLInputDevice.cpp">
-<polygon fill="white" stroke="black" points="-0.5,-0.5 -0.5,-19.5 104.5,-19.5 104.5,-0.5 -0.5,-0.5"/>
-<text text-anchor="middle" x="52" y="-7.5" font-family="Arial.ttf" font-size="10.00">SLInputDevice.cpp</text>
+<a xlink:href="_s_l_input_manager_8h.html" target="_top" xlink:title="SLInputManager.h">
+<polygon fill="white" stroke="black" points="173,-56.5 173,-75.5 277,-75.5 277,-56.5 173,-56.5"/>
+<text text-anchor="middle" x="225" y="-63.5" font-family="Arial.ttf" font-size="10.00">SLInputManager.h</text>
 </a>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge2" class="edge"><title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M116.225,-103.957C99.7545,-80.1184 70.4533,-37.7088 57.9359,-19.5914"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="113.472,-106.131 122.036,-112.368 119.232,-102.152 113.472,-106.131"/>
+<path fill="none" stroke="midnightblue" d="M225,-101.805C225,-92.9102 225,-82.7798 225,-75.7511"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="221.5,-102.083 225,-112.083 228.5,-102.083 221.5,-102.083"/>
 </g>
 <!-- Node3 -->
 <g id="node5" class="node"><title>Node3</title>
-<a xlink:href="_s_l_input_manager_8h.html" target="_top" xlink:title="SLInputManager.h">
-<polygon fill="white" stroke="black" points="116,-56.5 116,-75.5 220,-75.5 220,-56.5 116,-56.5"/>
-<text text-anchor="middle" x="168" y="-63.5" font-family="Arial.ttf" font-size="10.00">SLInputManager.h</text>
+<a xlink:href="_s_l_interface_8cpp.html" target="_top" xlink:title="SLProject C&#45;functions interface implementation.">
+<polygon fill="white" stroke="black" points="-0.5,-0.5 -0.5,-19.5 90.5,-19.5 90.5,-0.5 -0.5,-0.5"/>
+<text text-anchor="middle" x="45" y="-7.5" font-family="Arial.ttf" font-size="10.00">SLInterface.cpp</text>
 </a>
 </g>
-<!-- Node1&#45;&gt;Node3 -->
-<g id="edge4" class="edge"><title>Node1&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M140.7,-103.855C147.626,-94.5048 155.906,-83.3265 161.518,-75.7511"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="137.745,-101.964 134.605,-112.083 143.37,-106.131 137.745,-101.964"/>
-</g>
-<!-- Node3&#45;&gt;Node2 -->
-<g id="edge8" class="edge"><title>Node3&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M140.28,-52.096C118.608,-42.0073 89.0979,-28.2697 70.2946,-19.5164"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="139.077,-55.3962 149.619,-56.4435 142.031,-49.0501 139.077,-55.3962"/>
+<!-- Node2&#45;&gt;Node3 -->
+<g id="edge4" class="edge"><title>Node2&#45;&gt;Node3</title>
+<path fill="none" stroke="midnightblue" d="M186.892,-53.5677C152.937,-43.381 104.011,-28.7034 73.3881,-19.5164"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="185.894,-56.9224 196.478,-56.4435 187.906,-50.2176 185.894,-56.9224"/>
 </g>
 <!-- Node4 -->
 <g id="node7" class="node"><title>Node4</title>
-<a xlink:href="_s_l_interface_8cpp.html" target="_top" xlink:title="SLProject C&#45;functions interface implementation.">
-<polygon fill="white" stroke="black" points="122.5,-0.5 122.5,-19.5 213.5,-19.5 213.5,-0.5 122.5,-0.5"/>
-<text text-anchor="middle" x="168" y="-7.5" font-family="Arial.ttf" font-size="10.00">SLInterface.cpp</text>
+<a xlink:href="_s_l_input_device_8cpp.html" target="_top" xlink:title="SLInputDevice.cpp">
+<polygon fill="white" stroke="black" points="108.5,-0.5 108.5,-19.5 213.5,-19.5 213.5,-0.5 108.5,-0.5"/>
+<text text-anchor="middle" x="161" y="-7.5" font-family="Arial.ttf" font-size="10.00">SLInputDevice.cpp</text>
 </a>
 </g>
-<!-- Node3&#45;&gt;Node4 -->
-<g id="edge6" class="edge"><title>Node3&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M168,-45.8045C168,-36.9102 168,-26.7798 168,-19.7511"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="164.5,-46.083 168,-56.083 171.5,-46.083 164.5,-46.083"/>
+<!-- Node2&#45;&gt;Node4 -->
+<g id="edge6" class="edge"><title>Node2&#45;&gt;Node4</title>
+<path fill="none" stroke="midnightblue" d="M207.009,-49.8197C195.542,-40.1452 181.087,-27.9481 171.47,-19.8339"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="204.817,-52.5502 214.717,-56.324 209.331,-47.2002 204.817,-52.5502"/>
 </g>
 <!-- Node5 -->
-<g id="node10" class="node"><title>Node5</title>
+<g id="node9" class="node"><title>Node5</title>
 <a xlink:href="_s_l_input_manager_8cpp.html" target="_top" xlink:title="SLInputManager.cpp">
 <polygon fill="white" stroke="black" points="231.5,-0.5 231.5,-19.5 346.5,-19.5 346.5,-0.5 231.5,-0.5"/>
 <text text-anchor="middle" x="289" y="-7.5" font-family="Arial.ttf" font-size="10.00">SLInputManager.cpp</text>
 </a>
 </g>
-<!-- Node3&#45;&gt;Node5 -->
-<g id="edge10" class="edge"><title>Node3&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M196.306,-52.3678C218.965,-42.2553 250.126,-28.3486 269.917,-19.5164"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="194.878,-49.1719 187.173,-56.4435 197.731,-55.5643 194.878,-49.1719"/>
+<!-- Node2&#45;&gt;Node5 -->
+<g id="edge8" class="edge"><title>Node2&#45;&gt;Node5</title>
+<path fill="none" stroke="midnightblue" d="M242.991,-49.8197C254.458,-40.1452 268.913,-27.9481 278.53,-19.8339"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="240.669,-47.2002 235.283,-56.324 245.183,-52.5502 240.669,-47.2002"/>
 </g>
 <!-- Node6 -->
-<g id="node12" class="node"><title>Node6</title>
+<g id="node11" class="node"><title>Node6</title>
 <a xlink:href="_s_l_scene_8cpp.html" target="_top" xlink:title="SLScene.cpp">
 <polygon fill="white" stroke="black" points="364.5,-0.5 364.5,-19.5 443.5,-19.5 443.5,-0.5 364.5,-0.5"/>
 <text text-anchor="middle" x="404" y="-7.5" font-family="Arial.ttf" font-size="10.00">SLScene.cpp</text>
 </a>
 </g>
-<!-- Node3&#45;&gt;Node6 -->
-<g id="edge12" class="edge"><title>Node3&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M215.406,-54.1529C259.997,-43.95 325.854,-28.8809 366.78,-19.5164"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="214.362,-50.8011 205.395,-56.4435 215.924,-57.6248 214.362,-50.8011"/>
+<!-- Node2&#45;&gt;Node6 -->
+<g id="edge10" class="edge"><title>Node2&#45;&gt;Node6</title>
+<path fill="none" stroke="midnightblue" d="M263.331,-53.4363C297.08,-43.2551 345.447,-28.664 375.77,-19.5164"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="261.926,-50.2044 253.363,-56.4435 263.948,-56.9061 261.926,-50.2044"/>
 </g>
 </g>
 </svg>

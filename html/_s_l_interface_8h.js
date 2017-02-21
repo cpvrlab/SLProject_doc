@@ -2,7 +2,7 @@ var _s_l_interface_8h =
 [
     [ "slCharInput", "_s_l_interface_8h.html#a60aab8336041f8f497bcee8bbbf2125f", null ],
     [ "slCommand", "_s_l_interface_8h.html#a56c555196878a7e7a6f4ea6cd3342523", null ],
-    [ "slCopyVideoImage", "_s_l_interface_8h.html#a9d8588d50c904487cd0d6860d83cf412", null ],
+    [ "slCopyVideoImage", "_s_l_interface_8h.html#aee60401039e69e89ff5c9de79624e80a", null ],
     [ "slCreateScene", "_s_l_interface_8h.html#a9c02833e1f7d6d0ad3ea8d88cbe8b044", null ],
     [ "slCreateSceneView", "_s_l_interface_8h.html#a193045d5ca309444d3cbb1da08fe3d79", null ],
     [ "slDoubleClick", "_s_l_interface_8h.html#ad6de9baea60f89142dfbf6c5e8122079", null ],

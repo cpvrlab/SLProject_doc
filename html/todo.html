@@ -86,8 +86,6 @@ $(document).ready(function(){initNavTree('todo.html','');});
 <dd>Add more doxygen documentation.  </dd>
 <dt><a class="anchor" id="_todo000013"></a>Member <a class="el" href="class_s_l_quat4.html#a4de3016afe38b753e1eb5a12f00a090f">SLQuat4&lt; T &gt;::slerp</a>  (const SLQuat4&lt; T &gt; &amp;q2, const T t) const </dt>
 <dd>clean up the code below and find a working algorithm (or check the original shoemake implementation for errors)  </dd>
-<dt><a class="anchor" id="_todo000014"></a>Class <a class="el" href="class_s_l_scene_node.html">SLSceneNode</a>  </dt>
-<dd>switch to this node for the scene graph and move the functionality that is specific to the scenenode in here. A base <a class="el" href="class_s_l_node.html" title="SLNode represents a node in a hierarchical scene graph.">SLNode</a> doesn't need to hold meshes. Advantages of this approach are: The concrete implementations like <a class="el" href="class_s_l_scene_node.html" title="SLSceneNode represents a node in the scene graph and is a specialization of SLNode.">SLSceneNode</a> and <a class="el" href="class_s_l_joint.html" title="Specialized SLNode that represents a single joint (or bone) in a skeleton.">SLJoint</a> can provide concrete addChild and createChild implementations that use their type.  </dd>
 <dt><a class="anchor" id="_todo000008"></a>Member <a class="el" href="class_s_l_scene_view.html#abc1dd714031f952a42fc02064cafc4e1">SLSceneView::rebuild2DMenus</a>  (SLbool showAboutFirst=false)</dt>
 <dd>the menu is still contained in the scene which partly breaks this behavior for multiview applications. </dd>
 </dl>
@@ -96,7 +94,7 @@ $(document).ready(function(){initNavTree('todo.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Feb 14 2017 16:58:27 for SLProject by
+    <li class="footer">Generated on Tue Feb 21 2017 12:45:28 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
   </ul>

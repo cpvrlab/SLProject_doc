@@ -75,7 +75,7 @@ $(document).ready(function(){initNavTree('class_s_l_c_v_capture.html','');});
 </div><!--header-->
 <div class="contents">
 
-<p>Encapsulation of the OpenCV Capture Device.  
+<p>Encapsulation of the OpenCV Capture Device and holder of the last frame.  
  <a href="class_s_l_c_v_capture.html#details">More...</a></p>
 
 <p><code>#include &lt;SLCVCapture.h&gt;</code></p>
@@ -88,7 +88,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a26320d813d8341464e6203cda1ad6af0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_capture.html#a26320d813d8341464e6203cda1ad6af0">grabAndAdjustForSL</a> ()</td></tr>
 <tr class="separator:a26320d813d8341464e6203cda1ad6af0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad66cc083ad148f8fb5a98701eab1ac86"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_capture.html#ad66cc083ad148f8fb5a98701eab1ac86">adjustForSL</a> ()</td></tr>
-<tr class="memdesc:ad66cc083ad148f8fb5a98701eab1ac86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Crops the last captured frame and copies it to the <a class="el" href="class_s_l_scene.html" title="The SLScene class represents the top level instance holding the scene structure.">SLScene</a> video texture.  <a href="#ad66cc083ad148f8fb5a98701eab1ac86"></a><br/></td></tr>
+<tr class="memdesc:ad66cc083ad148f8fb5a98701eab1ac86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Does all adjustments needed for the <a class="el" href="class_s_l_scene.html#a0e9eff4801ffb7007ca8110960d4fec7" title="Texture for live video image.">SLScene::_videoTexture</a>.  <a href="#ad66cc083ad148f8fb5a98701eab1ac86"></a><br/></td></tr>
 <tr class="separator:ad66cc083ad148f8fb5a98701eab1ac86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1067e6db4026e9f461710f19f102a729"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_capture.html#a1067e6db4026e9f461710f19f102a729">isOpened</a> ()</td></tr>
 <tr class="separator:a1067e6db4026e9f461710f19f102a729"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -106,7 +106,7 @@ Static Public Attributes</h2></td></tr>
 <tr class="memdesc:a43c34326806ca333fd2c7efe0940b8b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">last frame in grayscale  <a href="#a43c34326806ca333fd2c7efe0940b8b0"></a><br/></td></tr>
 <tr class="separator:a43c34326806ca333fd2c7efe0940b8b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a585aad953fd43e61103b88bcb19d132f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_s_l_enums_8h.html#a408fa74d21ec77c3f43bbd7dc7aaa513">SLPixelFormat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_capture.html#a585aad953fd43e61103b88bcb19d132f">format</a></td></tr>
-<tr class="memdesc:a585aad953fd43e61103b88bcb19d132f"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_s_l.html" title="Class SL with some global static functions.">SL</a> pixel format.  <a href="#a585aad953fd43e61103b88bcb19d132f"></a><br/></td></tr>
+<tr class="memdesc:a585aad953fd43e61103b88bcb19d132f"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_s_l.html">SL</a> pixel format.  <a href="#a585aad953fd43e61103b88bcb19d132f"></a><br/></td></tr>
 <tr class="separator:a585aad953fd43e61103b88bcb19d132f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b3b0ddbc81c87a1e9a08de4fd75bc30"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_s_l_c_v_8h.html#af35d04fd003282caec13d0b5ac5fcbab">SLCVSize</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_capture.html#a4b3b0ddbc81c87a1e9a08de4fd75bc30">captureSize</a></td></tr>
 <tr class="memdesc:a4b3b0ddbc81c87a1e9a08de4fd75bc30"><td class="mdescLeft">&#160;</td><td class="mdescRight">size of captured fram  <a href="#a4b3b0ddbc81c87a1e9a08de4fd75bc30"></a><br/></td></tr>
@@ -114,6 +114,9 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:a640302f03ab28a394b6729185c484959"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_capture.html#a640302f03ab28a394b6729185c484959">startCaptureTimeMS</a></td></tr>
 <tr class="memdesc:a640302f03ab28a394b6729185c484959"><td class="mdescLeft">&#160;</td><td class="mdescRight">start time of capturing in ms  <a href="#a640302f03ab28a394b6729185c484959"></a><br/></td></tr>
 <tr class="separator:a640302f03ab28a394b6729185c484959"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a673b604cfd18bf903825a1c72696ebff"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_capture.html#a673b604cfd18bf903825a1c72696ebff">hasSecondaryCamera</a> = true</td></tr>
+<tr class="memdesc:a673b604cfd18bf903825a1c72696ebff"><td class="mdescLeft">&#160;</td><td class="mdescRight">flag if device has secondary camera  <a href="#a673b604cfd18bf903825a1c72696ebff"></a><br/></td></tr>
+<tr class="separator:a673b604cfd18bf903825a1c72696ebff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
@@ -122,8 +125,9 @@ Static Private Attributes</h2></td></tr>
 <tr class="separator:a114e8e37deee2a21cb87b3a4560d3064"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Encapsulation of the OpenCV Capture Device. </p>
-<p>It holds a static image for the last captured color frame and a grayscale version as well as a single static instance of the OpenCV capture device. The The live video image grabbing is not mandatory and can be replaced by the the top level application with its own video grabbing functionality. This is e.g. used in the iOS or Android examples. The <a class="el" href="class_s_l_c_v_capture.html#a2514b2c2404193ecdc1c00518c94a953" title="last frame grabbed">SLCVCapture::lastFrame</a> and <a class="el" href="class_s_l_c_v_capture.html#a43c34326806ca333fd2c7efe0940b8b0" title="last frame in grayscale">SLCVCapture::lastFrameGray</a> are on the other hand used in all applications as the buffer for the last captured image. </p>
+<div class="textblock"><p>Encapsulation of the OpenCV Capture Device and holder of the last frame. </p>
+<p>It holds a static image for the last captured color frame and a grayscale version as well as a single static instance of the OpenCV capture device. <br/>
+ The live video image grabbing is not mandatory and can be replaced by the the top level application with its own video grabbing functionality. This is e.g. used in the iOS or Android examples. The <a class="el" href="class_s_l_c_v_capture.html#a2514b2c2404193ecdc1c00518c94a953" title="last frame grabbed">SLCVCapture::lastFrame</a> and <a class="el" href="class_s_l_c_v_capture.html#a43c34326806ca333fd2c7efe0940b8b0" title="last frame in grayscale">SLCVCapture::lastFrameGray</a> are on the other hand used in all applications as the buffer for the last captured image. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="ad66cc083ad148f8fb5a98701eab1ac86"></a>
 <div class="memitem">
@@ -146,7 +150,11 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Crops the last captured frame and copies it to the <a class="el" href="class_s_l_scene.html" title="The SLScene class represents the top level instance holding the scene structure.">SLScene</a> video texture. </p>
+<p>Does all adjustments needed for the <a class="el" href="class_s_l_scene.html#a0e9eff4801ffb7007ca8110960d4fec7" title="Texture for live video image.">SLScene::_videoTexture</a>. </p>
+<p><a class="el" href="class_s_l_c_v_capture.html#ad66cc083ad148f8fb5a98701eab1ac86" title="Does all adjustments needed for the SLScene::_videoTexture.">SLCVCapture::adjustForSL</a> processes the following adjustments for all input image no matter with what the where captured: <br/>
+ 1) Crops the input image if it doesn't match the screens aspect ratio. The input image mostly does't fit the aspect of the output screen aspect. If the input image is too high we crop it on top and bottom, if it is too wide we crop it on the sides. <br/>
+ 2) Some cameras toward a face mirror the image and some do not. If a input image should be mirrord or not is stored in <a class="el" href="class_s_l_c_v_calibration.html#a8e4609684607422a4d11131be166aac7" title="Flag if input image must be mirrored.">SLCVCalibration::_isMirrored</a>. <br/>
+ 3) Many of the further processing steps are faster done on grayscale images. We therefore create a copy that is grayscale converted. </p>
 
 </div>
 </div>
@@ -170,7 +178,7 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Grabs a new frame from the OpenCV capture device and adjusts it for <a class="el" href="class_s_l.html" title="Class SL with some global static functions.">SL</a> </p>
+<p>Grabs a new frame from the OpenCV capture device and adjusts it for <a class="el" href="class_s_l.html">SL</a> </p>
 
 </div>
 </div>
@@ -208,19 +216,19 @@ Static Private Attributes</h2></td></tr>
           <td class="memname">void SLCVCapture::loadIntoLastFrame </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a>&#160;</td>
-          <td class="paramname"><em>camWidth</em>, </td>
+          <td class="paramname"><em>width</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a>&#160;</td>
-          <td class="paramname"><em>camHeight</em>, </td>
+          <td class="paramname"><em>height</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="_s_l_enums_8h.html#a408fa74d21ec77c3f43bbd7dc7aaa513">SLPixelFormat</a>&#160;</td>
-          <td class="paramname"><em>srcPixelFormat</em>, </td>
+          <td class="paramname"><em>format</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -246,6 +254,7 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>This method is called by iOS and Android projects that capture their video cameras on their own. We only adjust the color space. See the app-Demo-iOS and app-Demo-Android projects for the usage. </p>
 
 </div>
 </div>
@@ -361,7 +370,29 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="class_s_l.html" title="Class SL with some global static functions.">SL</a> pixel format. </p>
+<p><a class="el" href="class_s_l.html">SL</a> pixel format. </p>
+
+</div>
+</div>
+<a class="anchor" id="a673b604cfd18bf903825a1c72696ebff"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> SLCVCapture::hasSecondaryCamera = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>flag if device has secondary camera </p>
 
 </div>
 </div>
@@ -441,7 +472,7 @@ Static Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_s_l_c_v_capture.html">SLCVCapture</a></li>
-    <li class="footer">Generated on Tue Feb 14 2017 16:58:31 for SLProject by
+    <li class="footer">Generated on Tue Feb 21 2017 12:45:29 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
   </ul>

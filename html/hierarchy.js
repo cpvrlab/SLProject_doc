@@ -37,7 +37,6 @@ var hierarchy =
         [ "SLLightDirect", "class_s_l_light_direct.html", null ],
         [ "SLLightRect", "class_s_l_light_rect.html", null ],
         [ "SLLightSpot", "class_s_l_light_spot.html", null ],
-        [ "SLSceneNode", "class_s_l_scene_node.html", null ],
         [ "SLText", "class_s_l_text.html", null ]
       ] ],
       [ "SLRaytracer", "class_s_l_raytracer.html", [
@@ -125,7 +124,6 @@ var hierarchy =
     [ "SLRay", "class_s_l_ray.html", null ],
     [ "SLRTAAPixel", "struct_s_l_r_t_a_a_pixel.html", null ],
     [ "SLSamples2D", "class_s_l_samples2_d.html", null ],
-    [ "SLSceneNodeStats", "struct_s_l_scene_node_stats.html", null ],
     [ "SLSkeleton", "class_s_l_skeleton.html", null ],
     [ "SLStack< T >", "class_s_l_stack.html", null ],
     [ "SLStack< SLMat4f >", "class_s_l_stack.html", null ],

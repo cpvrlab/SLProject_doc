@@ -5,7 +5,7 @@ var class_s_l_c_v_image =
     [ "SLCVImage", "class_s_l_c_v_image.html#ac324f524e187485e2aeec26ba5d3162b", null ],
     [ "SLCVImage", "class_s_l_c_v_image.html#ae6724f9dc4fb4fc1732bfbc57a9acb0f", null ],
     [ "~SLCVImage", "class_s_l_c_v_image.html#a24757c59c13ee281d991f2073aba7f35", null ],
-    [ "allocate", "class_s_l_c_v_image.html#a4d8e54d7f7e09e0947a9ab11937d9712", null ],
+    [ "allocate", "class_s_l_c_v_image.html#ac8b8d9bf1f4f4c53e28196141bf2158a", null ],
     [ "bytesPerImage", "class_s_l_c_v_image.html#a0b631f9e96b6dde133c5a34834e7a98c", null ],
     [ "bytesPerLine", "class_s_l_c_v_image.html#aeaeeae121692f049f0766815b36f5b8d", null ],
     [ "bytesPerLine", "class_s_l_c_v_image.html#ac5d568e69f1eaef76e55199dbeb13eae", null ],

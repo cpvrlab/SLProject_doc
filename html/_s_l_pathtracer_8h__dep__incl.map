@@ -1,29 +1,30 @@
 <map id="SLPathtracer.h" name="SLPathtracer.h">
 <area shape="rect" id="node3" href="$_s_l_pathtracer_8cpp.html" title="SLPathtracer.cpp" alt="" coords="5,155,136,181"/>
-<area shape="rect" id="node5" href="$_s_l_scene_view_8h.html" title="SLSceneView.h" alt="" coords="1287,80,1405,107"/>
-<area shape="rect" id="node7" href="$_s_l_c_v_capture_8cpp.html" title="SLCVCapture.cpp" alt="" coords="2606,155,2740,181"/>
-<area shape="rect" id="node9" href="$_s_l_c_v_tracker_aruco_8cpp.html" title="SLCVTrackerAruco.cpp" alt="" coords="757,304,923,331"/>
-<area shape="rect" id="node11" href="$_s_l_interface_8cpp.html" title="SLProject C&#45;functions interface implementation." alt="" coords="213,155,333,181"/>
-<area shape="rect" id="node13" href="$_s_l_anim_track_8cpp.html" title="SLAnimTrack.cpp" alt="" coords="358,155,489,181"/>
-<area shape="rect" id="node15" href="$_s_l_camera_8cpp.html" title="SLCamera.cpp" alt="" coords="514,155,629,181"/>
-<area shape="rect" id="node17" href="$_s_l_input_manager_8cpp.html" title="SLInputManager.cpp" alt="" coords="654,155,807,181"/>
-<area shape="rect" id="node19" href="$_s_l_light_direct_8cpp.html" title="SLLightDirect.cpp" alt="" coords="831,155,965,181"/>
-<area shape="rect" id="node21" href="$_s_l_light_rect_8cpp.html" title="SLLightRect.cpp" alt="" coords="990,155,1113,181"/>
-<area shape="rect" id="node23" href="$_s_l_light_spot_8cpp.html" title="SLLightSpot.cpp" alt="" coords="1138,155,1264,181"/>
-<area shape="rect" id="node25" href="$_s_l_material_8cpp.html" title="SLMaterial.cpp" alt="" coords="1289,155,1404,181"/>
-<area shape="rect" id="node27" href="$_s_l_mesh_8cpp.html" title="SLMesh.cpp" alt="" coords="1429,155,1528,181"/>
-<area shape="rect" id="node29" href="$_s_l_node_8cpp.html" title="SLNode.cpp" alt="" coords="1492,229,1591,256"/>
-<area shape="rect" id="node32" href="$_s_l_raytracer_8cpp.html" title="SLRaytracer.cpp" alt="" coords="1603,155,1729,181"/>
-<area shape="rect" id="node34" href="$_s_l_scene_8cpp.html" title="SLScene.cpp" alt="" coords="2245,304,2349,331"/>
-<area shape="rect" id="node36" href="$_s_l_scene__on_load_8cpp.html" title="SLScene_onLoad.cpp" alt="" coords="1606,304,1764,331"/>
-<area shape="rect" id="node38" href="$_s_l_skeleton_8cpp.html" title="SLSkeleton.cpp" alt="" coords="1945,155,2065,181"/>
-<area shape="rect" id="node40" href="$_s_l_uniform_grid_8cpp.html" title="SLUniformGrid.cpp" alt="" coords="2090,155,2232,181"/>
-<area shape="rect" id="node42" href="$_s_l_button_8h.html" title="SLButton.h" alt="" coords="2317,155,2411,181"/>
-<area shape="rect" id="node49" href="$_s_l_c_v_tracker_8h.html" title="SLCVTracker.h" alt="" coords="1805,155,1920,181"/>
-<area shape="rect" id="node44" href="$_s_l_button_8cpp.html" title="SLButton.cpp" alt="" coords="2371,229,2479,256"/>
-<area shape="rect" id="node47" href="$_s_l_scene_view_8cpp.html" title="SLSceneView.cpp" alt="" coords="2213,229,2347,256"/>
-<area shape="rect" id="node51" href="$_s_l_c_v_tracker_8cpp.html" title="SLCVTracker.cpp" alt="" coords="2057,229,2188,256"/>
-<area shape="rect" id="node55" href="$_s_l_c_v_tracker_aruco_8h.html" title="SLCVTrackerAruco.h" alt="" coords="1615,229,1767,256"/>
-<area shape="rect" id="node60" href="$_s_l_c_v_tracker_chessboard_8h.html" title="SLCVTrackerChessboard.h" alt="" coords="1791,229,1981,256"/>
-<area shape="rect" id="node62" href="$_s_l_c_v_tracker_chessboard_8cpp.html" title="SLCVTrackerChessboard.cpp" alt="" coords="1789,304,1995,331"/>
+<area shape="rect" id="node5" href="$_s_l_scene_view_8h.html" title="SLSceneView.h" alt="" coords="1303,80,1421,107"/>
+<area shape="rect" id="node7" href="$_s_l_c_v_capture_8cpp.html" title="SLCVCapture.cpp" alt="" coords="2695,155,2829,181"/>
+<area shape="rect" id="node9" href="$_s_l_c_v_tracker_aruco_8cpp.html" title="SLCVTrackerAruco.cpp" alt="" coords="801,304,967,331"/>
+<area shape="rect" id="node11" href="$_s_l_8cpp.html" title="SL.cpp" alt="" coords="213,155,277,181"/>
+<area shape="rect" id="node13" href="$_s_l_interface_8cpp.html" title="SLProject C&#45;functions interface implementation." alt="" coords="302,155,423,181"/>
+<area shape="rect" id="node15" href="$_s_l_anim_track_8cpp.html" title="SLAnimTrack.cpp" alt="" coords="447,155,579,181"/>
+<area shape="rect" id="node17" href="$_s_l_camera_8cpp.html" title="SLCamera.cpp" alt="" coords="603,155,719,181"/>
+<area shape="rect" id="node19" href="$_s_l_input_manager_8cpp.html" title="SLInputManager.cpp" alt="" coords="743,155,896,181"/>
+<area shape="rect" id="node21" href="$_s_l_light_direct_8cpp.html" title="SLLightDirect.cpp" alt="" coords="921,155,1055,181"/>
+<area shape="rect" id="node23" href="$_s_l_light_rect_8cpp.html" title="SLLightRect.cpp" alt="" coords="1079,155,1203,181"/>
+<area shape="rect" id="node25" href="$_s_l_light_spot_8cpp.html" title="SLLightSpot.cpp" alt="" coords="1227,155,1353,181"/>
+<area shape="rect" id="node27" href="$_s_l_material_8cpp.html" title="SLMaterial.cpp" alt="" coords="1378,155,1493,181"/>
+<area shape="rect" id="node29" href="$_s_l_mesh_8cpp.html" title="SLMesh.cpp" alt="" coords="1519,155,1617,181"/>
+<area shape="rect" id="node31" href="$_s_l_node_8cpp.html" title="SLNode.cpp" alt="" coords="1581,229,1680,256"/>
+<area shape="rect" id="node34" href="$_s_l_raytracer_8cpp.html" title="SLRaytracer.cpp" alt="" coords="1693,155,1819,181"/>
+<area shape="rect" id="node36" href="$_s_l_scene_8cpp.html" title="SLScene.cpp" alt="" coords="2334,304,2439,331"/>
+<area shape="rect" id="node38" href="$_s_l_scene__on_load_8cpp.html" title="SLScene_onLoad.cpp" alt="" coords="1695,304,1853,331"/>
+<area shape="rect" id="node40" href="$_s_l_skeleton_8cpp.html" title="SLSkeleton.cpp" alt="" coords="2034,155,2155,181"/>
+<area shape="rect" id="node42" href="$_s_l_uniform_grid_8cpp.html" title="SLUniformGrid.cpp" alt="" coords="2179,155,2321,181"/>
+<area shape="rect" id="node44" href="$_s_l_button_8h.html" title="SLButton.h" alt="" coords="2407,155,2500,181"/>
+<area shape="rect" id="node51" href="$_s_l_c_v_tracker_8h.html" title="SLCVTracker.h" alt="" coords="1895,155,2009,181"/>
+<area shape="rect" id="node46" href="$_s_l_button_8cpp.html" title="SLButton.cpp" alt="" coords="2461,229,2568,256"/>
+<area shape="rect" id="node49" href="$_s_l_scene_view_8cpp.html" title="SLSceneView.cpp" alt="" coords="2302,229,2436,256"/>
+<area shape="rect" id="node53" href="$_s_l_c_v_tracker_8cpp.html" title="SLCVTracker.cpp" alt="" coords="2147,229,2277,256"/>
+<area shape="rect" id="node57" href="$_s_l_c_v_tracker_aruco_8h.html" title="SLCVTrackerAruco.h" alt="" coords="1704,229,1856,256"/>
+<area shape="rect" id="node62" href="$_s_l_c_v_tracker_chessboard_8h.html" title="SLCVTrackerChessboard.h" alt="" coords="1881,229,2071,256"/>
+<area shape="rect" id="node64" href="$_s_l_c_v_tracker_chessboard_8cpp.html" title="SLCVTrackerChessboard.cpp" alt="" coords="1878,304,2084,331"/>
 </map>

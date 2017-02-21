@@ -74,9 +74,6 @@ $(document).ready(function(){initNavTree('class_s_l.html','');});
 </div><!--header-->
 <div class="contents">
 
-<p>Class <a class="el" href="class_s_l.html" title="Class SL with some global static functions.">SL</a> with some global static functions.  
- <a href="class_s_l.html#details">More...</a></p>
-
 <p><code>#include &lt;SL.h&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
@@ -103,6 +100,14 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a9904c21b626e13be3120d5a1fcfcfd03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a7ee2e0f01a67d417aac5a53c856621"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l.html#a7a7ee2e0f01a67d417aac5a53c856621">allTestIsRunning</a> ()</td></tr>
 <tr class="separator:a7a7ee2e0f01a67d417aac5a53c856621"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34ecf34f6d37045f3270d06b65e736fe"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l.html#a34ecf34f6d37045f3270d06b65e736fe">loadConfig</a> (<a class="el" href="class_s_l_scene_view.html">SLSceneView</a> *sv)</td></tr>
+<tr class="memdesc:a34ecf34f6d37045f3270d06b65e736fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the configuration from readable path.  <a href="#a34ecf34f6d37045f3270d06b65e736fe"></a><br/></td></tr>
+<tr class="separator:a34ecf34f6d37045f3270d06b65e736fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad946157a3214e629f993386dd1767e21"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l.html#ad946157a3214e629f993386dd1767e21">saveConfig</a> (<a class="el" href="class_s_l_scene_view.html">SLSceneView</a> *sv)</td></tr>
+<tr class="memdesc:ad946157a3214e629f993386dd1767e21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves the configuration to a writable path.  <a href="#ad946157a3214e629f993386dd1767e21"></a><br/></td></tr>
+<tr class="separator:ad946157a3214e629f993386dd1767e21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90b79b908bb734a1e62e825aacb037fb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l.html#a90b79b908bb734a1e62e825aacb037fb">dpmm</a> ()</td></tr>
+<tr class="separator:a90b79b908bb734a1e62e825aacb037fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -130,10 +135,17 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:a9788477abc05e5152e2849f7f12c2fcd"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l.html#a9788477abc05e5152e2849f7f12c2fcd">configPath</a> = &quot;../_data/config/&quot;</td></tr>
 <tr class="memdesc:a9788477abc05e5152e2849f7f12c2fcd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default path for calibration files.  <a href="#a9788477abc05e5152e2849f7f12c2fcd"></a><br/></td></tr>
 <tr class="separator:a9788477abc05e5152e2849f7f12c2fcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac524f64b0ef7647b2d120182d4709b2a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l.html#ac524f64b0ef7647b2d120182d4709b2a">configTime</a> = &quot;-&quot;</td></tr>
+<tr class="memdesc:ac524f64b0ef7647b2d120182d4709b2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time of stored configuration.  <a href="#ac524f64b0ef7647b2d120182d4709b2a"></a><br/></td></tr>
+<tr class="separator:ac524f64b0ef7647b2d120182d4709b2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4da097a08e9af7f8e6a5eafe54094605"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l.html#a4da097a08e9af7f8e6a5eafe54094605">dpi</a> = 0</td></tr>
+<tr class="memdesc:a4da097a08e9af7f8e6a5eafe54094605"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current UI dot per inch resolution.  <a href="#a4da097a08e9af7f8e6a5eafe54094605"></a><br/></td></tr>
+<tr class="separator:a4da097a08e9af7f8e6a5eafe54094605"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7806bb582f905166e7d568bfd59d826c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_s_l_enums_8h.html#ac9bd7e0647bd8fd6d7dbf2e085449e1f">SLCommand</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l.html#a7806bb582f905166e7d568bfd59d826c">currentSceneID</a> = <a class="el" href="_s_l_enums_8h.html#ac9bd7e0647bd8fd6d7dbf2e085449e1faabafba0e621817c210325c13c610df25">C_sceneEmpty</a></td></tr>
+<tr class="memdesc:a7806bb582f905166e7d568bfd59d826c"><td class="mdescLeft">&#160;</td><td class="mdescRight">ID of last loaded scene.  <a href="#a7806bb582f905166e7d568bfd59d826c"></a><br/></td></tr>
+<tr class="separator:a7806bb582f905166e7d568bfd59d826c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Class <a class="el" href="class_s_l.html" title="Class SL with some global static functions.">SL</a> with some global static functions. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a7a7ee2e0f01a67d417aac5a53c856621"></a>
 <div class="memitem">
 <div class="memproto">
@@ -143,6 +155,29 @@ Static Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">static <a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> SL::allTestIsRunning </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a90b79b908bb734a1e62e825aacb037fb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> SL::dpmm </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -219,6 +254,32 @@ Static Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a34ecf34f6d37045f3270d06b65e736fe"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SL::loadConfig </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_s_l_scene_view.html">SLSceneView</a> *&#160;</td>
+          <td class="paramname"><em>sv</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Loads the configuration from readable path. </p>
 
 </div>
 </div>
@@ -331,6 +392,32 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ad946157a3214e629f993386dd1767e21"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SL::saveConfig </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_s_l_scene_view.html">SLSceneView</a> *&#160;</td>
+          <td class="paramname"><em>sv</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Saves the configuration to a writable path. </p>
+
+</div>
+</div>
 <a class="anchor" id="a9904c21b626e13be3120d5a1fcfcfd03"></a>
 <div class="memitem">
 <div class="memproto">
@@ -416,7 +503,73 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Default path for calibration files. </p>
-<p>Default path for configuration files. </p>
+<p>Default values for static fields. </p>
+
+</div>
+</div>
+<a class="anchor" id="ac524f64b0ef7647b2d120182d4709b2a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a> SL::configTime = &quot;-&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Time of stored configuration. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7806bb582f905166e7d568bfd59d826c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_enums_8h.html#ac9bd7e0647bd8fd6d7dbf2e085449e1f">SLCommand</a> SL::currentSceneID = <a class="el" href="_s_l_enums_8h.html#ac9bd7e0647bd8fd6d7dbf2e085449e1faabafba0e621817c210325c13c610df25">C_sceneEmpty</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ID of last loaded scene. </p>
+
+</div>
+</div>
+<a class="anchor" id="a4da097a08e9af7f8e6a5eafe54094605"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a> SL::dpi = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Current UI dot per inch resolution. </p>
 
 </div>
 </div>
@@ -584,7 +737,7 @@ Static Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_s_l.html">SL</a></li>
-    <li class="footer">Generated on Tue Feb 14 2017 16:58:27 for SLProject by
+    <li class="footer">Generated on Tue Feb 21 2017 12:45:28 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
   </ul>
