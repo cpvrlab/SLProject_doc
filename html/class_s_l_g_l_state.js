@@ -114,6 +114,8 @@ var class_s_l_g_l_state =
     [ "matAmbient", "class_s_l_g_l_state.html#a64d854fcc32a18f58b97d638c1018429", null ],
     [ "matDiffuse", "class_s_l_g_l_state.html#a53e849f796f584a5619a7eac4cadd412", null ],
     [ "matEmissive", "class_s_l_g_l_state.html#a80c500430f2278b96bfec7b7db0a094f", null ],
+    [ "matMetallic", "class_s_l_g_l_state.html#a3cd6395b328940e99395126621553e9b", null ],
+    [ "matRoughness", "class_s_l_g_l_state.html#a795532d2780ed998205e1b3f37a2ba80", null ],
     [ "matShininess", "class_s_l_g_l_state.html#a898154535efb5e97e17b955a05eb6b01", null ],
     [ "matSpecular", "class_s_l_g_l_state.html#aa04b89569d155f6dd74771d57722f680", null ],
     [ "modelViewMatrix", "class_s_l_g_l_state.html#a4f76f0bbaf4db338ce2c1f3d775757b7", null ],

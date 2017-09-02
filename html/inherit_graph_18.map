@@ -1,3 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_s_l_file_system.html" title="SLFileSystem provides basic filesystem functions." alt="" coords="6,5,114,32"/>
+<area shape="rect" id="node1" href="$class_s_l_c_v_tracked.html" title="SLCVTracked is the pure virtual base class for tracking features in video." alt="" coords="5,56,112,83"/>
+<area shape="rect" id="node3" href="$class_s_l_c_v_tracked_aruco.html" title="OpenCV ArUco marker tracker class derived from SLCVTracked." alt="" coords="181,5,323,32"/>
+<area shape="rect" id="node5" href="$class_s_l_c_v_tracked_chessboard.html" title="OpenCV chessboard tracker class derived from SLCVTracked." alt="" coords="161,56,343,83"/>
+<area shape="rect" id="node7" href="$class_s_l_c_v_tracked_features.html" title="SLCVTrackedFeatures is the main part of the AR Christoffelturm scene." alt="" coords="171,107,333,133"/>
 </map>

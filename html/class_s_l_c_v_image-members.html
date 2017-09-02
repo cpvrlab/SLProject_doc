@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">2.0</span>
+   &#160;<span id="projectnumber">2.1</span>
    </div>
   </td>
  </tr>
@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('class_s_l_c_v_image.html','');});
   <tr><td class="entry"><a class="el" href="class_s_l_c_v_image.html#a3eb1fb6d6df25c5458d35a8875c46397">getPixelf</a>(SLfloat x, SLfloat y)</td><td class="entry"><a class="el" href="class_s_l_c_v_image.html">SLCVImage</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_s_l_c_v_image.html#a719237451ab941694b72b5646e678b30">getPixeli</a>(SLint x, SLint y)</td><td class="entry"><a class="el" href="class_s_l_c_v_image.html">SLCVImage</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="class_s_l_c_v_image.html#a349e68961ab6410e7a618815a015ba32">height</a>()</td><td class="entry"><a class="el" href="class_s_l_c_v_image.html">SLCVImage</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_s_l_c_v_image.html#a86c0e1a201eaedee54071822a0dca9d1">load</a>(const SLstring filename, bool flipVertical=true)</td><td class="entry"><a class="el" href="class_s_l_c_v_image.html">SLCVImage</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_s_l_c_v_image.html#a872f5e6b58e76ded9f6442da28cad79b">load</a>(const SLstring filename, SLbool flipVertical=true, SLbool loadGrayscaleIntoAlpha=false)</td><td class="entry"><a class="el" href="class_s_l_c_v_image.html">SLCVImage</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="class_s_l_c_v_image.html#ab105b676f797108fc7f0c5be0f8c0604">load</a>(SLint inWidth, SLint inHeight, SLPixelFormat srcFormat, SLPixelFormat dstFormat, SLuchar *data, SLbool isContinuous, SLbool isTopLeft)</td><td class="entry"><a class="el" href="class_s_l_c_v_image.html">SLCVImage</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_s_l_object.html#a801d395f3b263f7f06f6208461bdd096">name</a>(const SLstring &amp;Name)</td><td class="entry"><a class="el" href="class_s_l_object.html">SLObject</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="class_s_l_object.html#a4a3d1735aa0fdca3dda9d34f3b243582">name</a>() const </td><td class="entry"><a class="el" href="class_s_l_object.html">SLObject</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
@@ -112,8 +112,10 @@ $(document).ready(function(){initNavTree('class_s_l_c_v_image.html','');});
   <tr><td class="entry"><a class="el" href="class_s_l_c_v_image.html#a9fa0de9fa879300f6214045cfb3008c1">setPixeliRGBA</a>(SLint x, SLint y, SLCol4f color)</td><td class="entry"><a class="el" href="class_s_l_c_v_image.html">SLCVImage</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_s_l_c_v_image.html#ab6efa5cb3fd848cf280c6763be58230f">SLCVImage</a>()</td><td class="entry"><a class="el" href="class_s_l_c_v_image.html">SLCVImage</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="class_s_l_c_v_image.html#ac2a39e63ef0fecbbd3843d28933e58f2">SLCVImage</a>(SLint width, SLint height, SLPixelFormat format)</td><td class="entry"><a class="el" href="class_s_l_c_v_image.html">SLCVImage</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_s_l_c_v_image.html#ac324f524e187485e2aeec26ba5d3162b">SLCVImage</a>(const SLstring imageFilename, bool flipVertical=true)</td><td class="entry"><a class="el" href="class_s_l_c_v_image.html">SLCVImage</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_s_l_c_v_image.html#a8c2226215447c57dc90afced57a70db1">SLCVImage</a>(const SLstring imageFilename, SLbool flipVertical=true, SLbool loadGrayscaleIntoAlpha=false)</td><td class="entry"><a class="el" href="class_s_l_c_v_image.html">SLCVImage</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="class_s_l_c_v_image.html#ae6724f9dc4fb4fc1732bfbc57a9acb0f">SLCVImage</a>(SLCVImage &amp;srcImage)</td><td class="entry"><a class="el" href="class_s_l_c_v_image.html">SLCVImage</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_s_l_c_v_image.html#a08dd0209a3ad90f33fddb97a535989c3">SLCVImage</a>(const SLVCol3f &amp;colors)</td><td class="entry"><a class="el" href="class_s_l_c_v_image.html">SLCVImage</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="class_s_l_c_v_image.html#ae6cfa0b2ee8c8bf5c2dc07f2fd29f85b">SLCVImage</a>(const SLVCol4f &amp;colors)</td><td class="entry"><a class="el" href="class_s_l_c_v_image.html">SLCVImage</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_s_l_object.html#a5dbcf74e93531b5fba17005173518599">SLObject</a>(const SLstring &amp;Name=&quot;&quot;, const SLstring &amp;url=&quot;&quot;)</td><td class="entry"><a class="el" href="class_s_l_object.html">SLObject</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="class_s_l_object.html#ac0d169c90fe308b33722265cd4660e56">url</a>(const SLstring &amp;url)</td><td class="entry"><a class="el" href="class_s_l_object.html">SLObject</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_s_l_object.html#a2c60d8d768eec0d4b2c8fcc2b31b39de">url</a>() const </td><td class="entry"><a class="el" href="class_s_l_object.html">SLObject</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
@@ -125,7 +127,7 @@ $(document).ready(function(){initNavTree('class_s_l_c_v_image.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Feb 21 2017 12:45:29 for SLProject by
+    <li class="footer">Generated on Sat Sep 2 2017 11:24:53 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
   </ul>

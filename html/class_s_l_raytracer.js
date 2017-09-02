@@ -39,8 +39,6 @@ var class_s_l_raytracer =
     [ "_continuous", "class_s_l_raytracer.html#a59f14bc84545c986edf8834416c9263a", null ],
     [ "_distributed", "class_s_l_raytracer.html#afdb2df192380609953afed339b0604a5", null ],
     [ "_EYE", "class_s_l_raytracer.html#abc2a299ff781253393561384fbf23941", null ],
-    [ "_infoColor", "class_s_l_raytracer.html#a65b3d2a3f8f0572dbe5ac520e42c714d", null ],
-    [ "_infoText", "class_s_l_raytracer.html#a1e24f30ac8becebb7c9bbcdd0ab9a97c", null ],
     [ "_LA", "class_s_l_raytracer.html#a75536e0203036e62a61764f1a7a65fd8", null ],
     [ "_LR", "class_s_l_raytracer.html#a4713b84ad620113432fc22dd17e05356", null ],
     [ "_LU", "class_s_l_raytracer.html#aaf7d013406f91803d2ab9a153eb437c1", null ],

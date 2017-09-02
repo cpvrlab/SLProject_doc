@@ -16,7 +16,7 @@ var class_s_l_input_event =
       [ "Resize", "class_s_l_input_event.html#aa88b00108ecb4633bc34c3b8525d2854a2a4734e72c241d9d63a05f5ff0ddf9d9", null ],
       [ "DeviceRotationPYR", "class_s_l_input_event.html#aa88b00108ecb4633bc34c3b8525d2854a68ec5985f407e931f173b608f1259d5b", null ],
       [ "DeviceRotationQUAT", "class_s_l_input_event.html#aa88b00108ecb4633bc34c3b8525d2854a2ea83ed63467f5267140fd73ed47cc30", null ],
-      [ "CharacterInput", "class_s_l_input_event.html#aa88b00108ecb4633bc34c3b8525d2854ad8ce6e070b9912b071b45980628946cf", null ],
+      [ "CharInput", "class_s_l_input_event.html#aa88b00108ecb4633bc34c3b8525d2854a6a0ecdd10b08132cc13bf247a47a0e0c", null ],
       [ "NumEvents", "class_s_l_input_event.html#aa88b00108ecb4633bc34c3b8525d2854a016eccc86519157655058e5f5546efed", null ]
     ] ],
     [ "SLInputEvent", "class_s_l_input_event.html#aa3f24fc7428ce2c81cf4edac8acb9d2e", null ],

@@ -1,7 +1,8 @@
 <map id="SLEventHandler" name="SLEventHandler">
 <area shape="rect" id="node3" href="$class_s_l_g_l_uniform.html" title="Template for a single GLSL uniform variable." alt="" coords="227,80,369,107"/>
 <area shape="rect" id="node5" href="$class_s_l_node.html" title="SLNode represents a node in a hierarchical scene graph." alt="" coords="395,80,467,107"/>
-<area shape="rect" id="node21" href="$class_s_l_raytracer.html" title="SLRaytracer hold all the methods for Whitted style Ray Tracing." alt="" coords="605,80,704,107"/>
+<area shape="rect" id="node21" href="$class_s_l_raytracer.html" title="SLRaytracer hold all the methods for Whitted style Ray Tracing." alt="" coords="491,80,589,107"/>
+<area shape="rect" id="node25" href="$class_s_l_transfer_function.html" title="A transfer function defines a 1D texture of 256 RGBA values." alt="" coords="613,80,757,107"/>
 <area shape="rect" id="node7" href="$class_s_l_button.html" title="Defines a 2D&#45;GUI button with optional submenus as children of the group." alt="" coords="5,155,85,181"/>
 <area shape="rect" id="node9" href="$class_s_l_camera.html" title="Active or visible camera node class." alt="" coords="110,155,199,181"/>
 <area shape="rect" id="node11" href="$class_s_l_joint.html" title="Specialized SLNode that represents a single joint (or bone) in a skeleton." alt="" coords="223,155,288,181"/>

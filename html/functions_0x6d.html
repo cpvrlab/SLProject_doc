@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">2.0</span>
+   &#160;<span id="projectnumber">2.1</span>
    </div>
   </td>
  </tr>
@@ -118,14 +118,11 @@ $(document).ready(function(){initNavTree('functions_0x6d.html','');});
 : <a class="el" href="class_s_l_vec4.html#ad4b82c7f192066c0d57281064da563b1">SLVec4&lt; T &gt;</a>
 , <a class="el" href="class_s_l_vec3.html#a81e04b22973e0a8e91b8ec0dfd9080e1">SLVec3&lt; T &gt;</a>
 </li>
-<li>Mapper2DState
-: <a class="el" href="class_s_l_c_v_feature_mapper2_d.html#a104d4983b5ce62d23f8c3136a9bdba59">SLCVFeatureMapper2D</a>
+<li>magFiler()
+: <a class="el" href="class_s_l_g_l_texture.html#a220db5c1392938a01ac55d74381caaed">SLGLTexture</a>
 </li>
 <li>mapSquareToDisc()
 : <a class="el" href="class_s_l_samples2_d.html#a05a688caa447be64b57858bf3a45c640">SLSamples2D</a>
-</li>
-<li>mapType()
-: <a class="el" href="class_s_l_c_v_feature_map2_d.html#a225fc321089ae1ff41274c57dbd71eaa">SLCVFeatureMap2D</a>
 </li>
 <li>mat
 : <a class="el" href="class_s_l_mesh.html#a423fc203b739f92a7b65080467b85aa4">SLMesh</a>
@@ -136,6 +133,12 @@ $(document).ready(function(){initNavTree('functions_0x6d.html','');});
 <li>matAmbient
 : <a class="el" href="class_s_l_g_l_state.html#a64d854fcc32a18f58b97d638c1018429">SLGLState</a>
 </li>
+<li>matches
+: <a class="el" href="struct_s_l_c_v_tracked_features_1_1_s_l_frame_data.html#a2e5aba6ac850b7515834f04cf68b5002">SLCVTrackedFeatures::SLFrameData</a>
+</li>
+<li>matchTimesMS()
+: <a class="el" href="class_s_l_scene.html#a3103728916f0a6b771beb11e6ae5635b">SLScene</a>
+</li>
 <li>matDiffuse
 : <a class="el" href="class_s_l_g_l_state.html#a53e849f796f584a5619a7eac4cadd412">SLGLState</a>
 </li>
@@ -145,8 +148,14 @@ $(document).ready(function(){initNavTree('functions_0x6d.html','');});
 <li>materials()
 : <a class="el" href="class_s_l_scene.html#a11aa86da4decbc2e5844e655d538ac66">SLScene</a>
 </li>
+<li>matMetallic
+: <a class="el" href="class_s_l_g_l_state.html#a3cd6395b328940e99395126621553e9b">SLGLState</a>
+</li>
 <li>matOut
 : <a class="el" href="class_s_l_mesh.html#af33edccd8325fb071294437cd6165053">SLMesh</a>
+</li>
+<li>matRoughness
+: <a class="el" href="class_s_l_g_l_state.html#a795532d2780ed998205e1b3f37a2ba80">SLGLState</a>
 </li>
 <li>matShininess
 : <a class="el" href="class_s_l_g_l_state.html#a898154535efb5e97e17b955a05eb6b01">SLGLState</a>
@@ -176,7 +185,7 @@ $(document).ready(function(){initNavTree('functions_0x6d.html','');});
 : <a class="el" href="class_s_l_mesh.html#a0b1f238d85194dd978be13c039b484ec">SLMesh</a>
 </li>
 <li>maxSpeed()
-: <a class="el" href="class_s_l_camera.html#a530bfca275acbc68d0b8b782c1537a5b">SLCamera</a>
+: <a class="el" href="class_s_l_camera.html#a635c55a4d2ef7c938f21a5c3fb42b6f2">SLCamera</a>
 </li>
 <li>maxThreads()
 : <a class="el" href="class_s_l.html#a17a787efa74ed5afb8e6225711bd5d98">SL</a>
@@ -191,18 +200,6 @@ $(document).ready(function(){initNavTree('functions_0x6d.html','');});
 <li>maxXYZW()
 : <a class="el" href="class_s_l_vec4.html#a655b05264fa8c9b963ae6a5e5ebc9783">SLVec4&lt; T &gt;</a>
 </li>
-<li>menu2D()
-: <a class="el" href="class_s_l_scene.html#a8ca62bdf1b696de9e8cf62f8b50cc69f">SLScene</a>
-</li>
-<li>menuGL()
-: <a class="el" href="class_s_l_scene.html#a551298172792257101e6cb2028cb9598">SLScene</a>
-</li>
-<li>menuPT()
-: <a class="el" href="class_s_l_scene.html#a1e309ab367497f8c3ff2a756d214e88d">SLScene</a>
-</li>
-<li>menuRT()
-: <a class="el" href="class_s_l_scene.html#a527ef24c56d22b5b79ac8c3027bd414c">SLScene</a>
-</li>
 <li>mergeWS()
 : <a class="el" href="class_s_l_a_a_b_box.html#a4348e31f35fe822c5cff5e3af3613dad">SLAABBox</a>
 </li>
@@ -214,14 +211,17 @@ $(document).ready(function(){initNavTree('functions_0x6d.html','');});
 <li>MeshList
 : <a class="el" href="class_s_l_assimp_importer.html#ab21558a1ba66f64398fe8d76fae4914c">SLAssimpImporter</a>
 </li>
+<li>metalness()
+: <a class="el" href="class_s_l_material.html#ad5d9ea25ee084cc471fd7bd4c93444c7">SLMaterial</a>
+</li>
 <li>minComp()
 : <a class="el" href="class_s_l_vec4.html#ab4c202ed2709f59644b5ba84d39415cd">SLVec4&lt; T &gt;</a>
 </li>
 <li>minContrib
 : <a class="el" href="class_s_l_ray.html#aacc42ec60f499bfc16ba80dae43454f1">SLRay</a>
 </li>
-<li>minHessian
-: <a class="el" href="class_s_l_c_v_feature_map2_d.html#ab75531b0b810c99ad4fb676b1c0c4072">SLCVFeatureMap2D</a>
+<li>minFiler()
+: <a class="el" href="class_s_l_g_l_texture.html#a1b454682ed57cff105581c30d974f905">SLGLTexture</a>
 </li>
 <li>minMenuPos
 : <a class="el" href="class_s_l_button.html#ad149d7027701cbcc67d4a93f78c3a5c4">SLButton</a>
@@ -233,6 +233,9 @@ $(document).ready(function(){initNavTree('functions_0x6d.html','');});
 <li>minP
 : <a class="el" href="class_s_l_mesh.html#a8b4af5da36c1ae588a6f5c64e31bc04b">SLMesh</a>
 </li>
+<li>minThFAST
+: <a class="el" href="class_s_l_c_v_raul_mur_orb.html#a701bec4f26532b657e6acea4bb678447">SLCVRaulMurOrb</a>
+</li>
 <li>minWS()
 : <a class="el" href="class_s_l_a_a_b_box.html#af8baea9eb143a60a45ae846c3967d8fc">SLAABBox</a>
 </li>
@@ -240,7 +243,8 @@ $(document).ready(function(){initNavTree('functions_0x6d.html','');});
 : <a class="el" href="class_s_l_button.html#a75e83da64c27c6d413451ab481ccb59b">SLButton</a>
 </li>
 <li>minXYZ()
-: <a class="el" href="class_s_l_vec4.html#a2d30782e7db10fd33f2eac255a81762c">SLVec4&lt; T &gt;</a>
+: <a class="el" href="class_s_l_vec3.html#a765ed1e0713feb15838e45c53a4ab67e">SLVec3&lt; T &gt;</a>
+, <a class="el" href="class_s_l_vec4.html#a2d30782e7db10fd33f2eac255a81762c">SLVec4&lt; T &gt;</a>
 , <a class="el" href="class_s_l_vec3.html#a55f685c25410baa15cb141102cb21c87">SLVec3&lt; T &gt;</a>
 </li>
 <li>minXYZW()
@@ -250,8 +254,11 @@ $(document).ready(function(){initNavTree('functions_0x6d.html','');});
 : <a class="el" href="class_s_l_button.html#a268702ea72acef8ab7048291e881491f">SLButton</a>
 </li>
 <li>mix()
-: <a class="el" href="class_s_l_vec4.html#ab86ce4caabd94dc3e53eae8d8c7b0a25">SLVec4&lt; T &gt;</a>
-, <a class="el" href="class_s_l_vec3.html#a44f85285cb54db4a3a744d0d9116c75b">SLVec3&lt; T &gt;</a>
+: <a class="el" href="class_s_l_vec3.html#a44f85285cb54db4a3a744d0d9116c75b">SLVec3&lt; T &gt;</a>
+, <a class="el" href="class_s_l_vec4.html#ab86ce4caabd94dc3e53eae8d8c7b0a25">SLVec4&lt; T &gt;</a>
+</li>
+<li>mnFeaturesPerLevel
+: <a class="el" href="class_s_l_c_v_raul_mur_orb.html#a0740640dcb0dd6ba58831e3aaf4e4b30">SLCVRaulMurOrb</a>
 </li>
 <li>modelViewMatrix
 : <a class="el" href="class_s_l_g_l_state.html#a4f76f0bbaf4db338ce2c1f3d775757b7">SLGLState</a>
@@ -276,7 +283,7 @@ $(document).ready(function(){initNavTree('functions_0x6d.html','');});
 : <a class="el" href="class_s_l_input_event.html#aa88b00108ecb4633bc34c3b8525d2854acc04866ba0723dae70fb2ec34e4037dc">SLInputEvent</a>
 </li>
 <li>moveAccel()
-: <a class="el" href="class_s_l_camera.html#a04e743964307327d740ebdc311fdbda0">SLCamera</a>
+: <a class="el" href="class_s_l_camera.html#a94ca1b99596c5ae309c4a3c7acc42ff9">SLCamera</a>
 </li>
 <li>multiply()
 : <a class="el" href="class_s_l_mat4.html#aa35ddc5ba71a86728b60f454a5522674">SLMat4&lt; T &gt;</a>
@@ -287,8 +294,23 @@ $(document).ready(function(){initNavTree('functions_0x6d.html','');});
 <li>multVec()
 : <a class="el" href="class_s_l_mat4.html#aa5026e271059fee6122a582b6b51f26c">SLMat4&lt; T &gt;</a>
 </li>
+<li>mvImagePyramid
+: <a class="el" href="class_s_l_c_v_raul_mur_orb.html#af6560bbdbfc8d36bee9b904569feb6bd">SLCVRaulMurOrb</a>
+</li>
+<li>mvInvLevelSigma2
+: <a class="el" href="class_s_l_c_v_raul_mur_orb.html#a10095dedb8270b3f470d6c100e0bdbe6">SLCVRaulMurOrb</a>
+</li>
+<li>mvInvScaleFactor
+: <a class="el" href="class_s_l_c_v_raul_mur_orb.html#a1b0f77ec6b3515b78c81598b2f44633c">SLCVRaulMurOrb</a>
+</li>
+<li>mvLevelSigma2
+: <a class="el" href="class_s_l_c_v_raul_mur_orb.html#ae8821d8f471f1db84d4d2e11e468bab9">SLCVRaulMurOrb</a>
+</li>
 <li>mvpMatrix()
 : <a class="el" href="class_s_l_g_l_state.html#ab04237b5bc02cd2cf14560ad67440c37">SLGLState</a>
+</li>
+<li>mvScaleFactor
+: <a class="el" href="class_s_l_c_v_raul_mur_orb.html#a0abf26fd68f0c499413b34afef1ae79b">SLCVRaulMurOrb</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -296,7 +318,7 @@ $(document).ready(function(){initNavTree('functions_0x6d.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Feb 21 2017 12:45:37 for SLProject by
+    <li class="footer">Generated on Sat Sep 2 2017 11:25:10 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
   </ul>

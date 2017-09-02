@@ -37,14 +37,14 @@ timer involved.
                      * All visible nodes without transparencies (opaque) are added to the _opaqueNodes vector.
                      * All visible nodes with transparencies are added to the _blendNodes vector.
             * SLSceneView::draw3DGLAll:
-               * Blending is turned off and the depthtest on
+               * Blending is turned off and the depth test on
                * SLSceneView::draw3DGLNodes is called for every node in the _opaqueNodes vector:
                   * The view matrix is applied to the modelview matrix
                   * The nodes world matrix is applied to the modelview matrix
                   * SLMesh::draw is called on all meshes of the node:
                      * 1) Apply the drawing bits
                      * 2) Apply the uniform variables to the shader
-                        * 2a) Activate a shader program if it is not yet in use and apply all its material paramters.
+                        * 2a) Activate a shader program if it is not yet in use and apply all its material parameters.
                         * 2b) Pass the modelview and modelview-projection matrix to the shader.
                         * 2c) If needed build and pass the inverse modelview and the normal matrix.
                         * 2d) If the mesh has a skeleton and HW skinning is applied pass the joint matrices.
@@ -62,12 +62,14 @@ timer involved.
                * The nodes of the _blendNotes get sorted by depth for correct transparency blending.
                * SLSceneView::draw3DGLNodes is called for every node in the _blendNodes vector (same as above).
                * Blending is turned off and the depthtest on again.
-            * SLSceneView::draw3DGLALL:
+            * SLSceneView::draw3DGLAll:
                * ... (the same but for the right eye of stereo projections)
-         * SLSceneView::draw2DGL is called for all 2D drawing in orthographic projection.
-            * SLSceneView::draw2DGLAll:
-               * if visible the 2D Menu buttons get drawn in orthographic projection.
-               * if visible the debugging info text get drawn too.
+         * SLSceneView::draw2DGL is called for all 2D drawing
+            * 1) The orthographic projection and viewport in screen space is set.
+            * 2) A pseudo culling step for all nodes on the _root2D scene.
+            * 3) SLSceneView::draw2DGLAll:
+               * all nodes in the _root2D scene node get drawn in orthographic projection.
+            * 4) The ImGUI::render function is called that draws the ImGUI UI.
          * if Oculus stereo projection is used the Oculus frame buffer is drawn and swapped.
       * return true if either an update or a camera move occured.
    * Swap the back buffer to the front.

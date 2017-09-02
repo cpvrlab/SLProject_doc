@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">2.0</span>
+   &#160;<span id="projectnumber">2.1</span>
    </div>
   </td>
  </tr>
@@ -121,6 +121,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4f2bb2341d2fb5d5672b036dc274bebe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad0685b092ff29d20c0fc42bfa5add655"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_quat4.html#ad0685b092ff29d20c0fc42bfa5add655">toAngleAxis</a> (T &amp;angleDEG, <a class="el" href="class_s_l_vec3.html">SLVec3</a>&lt; T &gt; &amp;axis) const </td></tr>
 <tr class="separator:ad0685b092ff29d20c0fc42bfa5add655"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acada46e67b6268c39853a17191232597"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_quat4.html#acada46e67b6268c39853a17191232597">toEulerAngles</a> (T &amp;pitchRAD, T &amp;yawRAD, T &amp;rollRAD) const </td></tr>
+<tr class="separator:acada46e67b6268c39853a17191232597"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f71b440e0ba62695c3669dcf5be7581"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_quat4.html#a1f71b440e0ba62695c3669dcf5be7581">dot</a> (const <a class="el" href="class_s_l_quat4.html">SLQuat4</a>&lt; T &gt; &amp;q) const </td></tr>
 <tr class="separator:a1f71b440e0ba62695c3669dcf5be7581"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad948d23aeddbdd21ce94c8348a99de35"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_quat4.html#ad948d23aeddbdd21ce94c8348a99de35">length</a> () const </td></tr>
@@ -207,7 +209,7 @@ class SLQuat4&lt; T &gt;</h3>
 
 <p>Quaternion class for angle-axis rotation representation. </p>
 <p>Quaternion class for angle-axis rotation representation. For rotations quaternions must have unit length. See <a href="http://en.wikipedia.org/wiki/Quaternion">http://en.wikipedia.org/wiki/Quaternion</a> Quaternions can be interpolated at low cost with the method lerp or slerp. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000012">Todo:</a></b></dt><dd>Add more doxygen documentation. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000008">Todo:</a></b></dt><dd>Add more doxygen documentation. </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="aba1617e433df5ec9f7864bd1067c287a"></a>
 <div class="memitem">
@@ -554,7 +556,7 @@ template&lt;class T&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Sets the quaternion from 3 Euler angles in radians Source: Essential Mathematics for Games and Interactive Applications A Programmer’s Guide 2nd edition by James M. Van Verth and Lars M. Bishop </p>
+<p>Sets the quaternion from 3 Euler angles in radians Source: Essential Mathematics for Games and Interactive Applications A Programmer's Guide 2nd edition by James M. Van Verth and Lars M. Bishop </p>
 
 </div>
 </div>
@@ -1208,7 +1210,7 @@ template&lt;class T&gt; </div>
 </div><div class="memdoc">
 
 <p>Spherical linear interpolation. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000013">Todo:</a></b></dt><dd>clean up the code below and find a working algorithm (or check the original shoemake implementation for errors) </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000009">Todo:</a></b></dt><dd>clean up the code below and find a working algorithm (or check the original shoemake implementation for errors) </dd></dl>
 
 </div>
 </div>
@@ -1273,6 +1275,40 @@ template&lt;typename T&gt; </div>
           <td></td>
           <td class="paramtype"><a class="el" href="class_s_l_vec3.html">SLVec3</a>&lt; T &gt; &amp;&#160;</td>
           <td class="paramname"><em>axis</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="acada46e67b6268c39853a17191232597"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_s_l_quat4.html">SLQuat4</a>&lt; T &gt;::toEulerAngles </td>
+          <td>(</td>
+          <td class="paramtype">T &amp;&#160;</td>
+          <td class="paramname"><em>pitchRAD</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T &amp;&#160;</td>
+          <td class="paramname"><em>yawRAD</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T &amp;&#160;</td>
+          <td class="paramname"><em>rollRAD</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1563,7 +1599,7 @@ template&lt;class T&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_s_l_quat4.html">SLQuat4</a></li>
-    <li class="footer">Generated on Tue Feb 21 2017 12:45:31 for SLProject by
+    <li class="footer">Generated on Sat Sep 2 2017 11:24:59 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
   </ul>

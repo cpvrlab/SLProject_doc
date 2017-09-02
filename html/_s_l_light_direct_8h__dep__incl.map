@@ -1,6 +1,7 @@
 <map id="SLLightDirect.h" name="SLLightDirect.h">
-<area shape="rect" id="node3" href="$_s_l_light_direct_8cpp.html" title="SLLightDirect.cpp" alt="" coords="5,80,139,107"/>
-<area shape="rect" id="node5" href="$_s_l_node_8cpp.html" title="SLNode.cpp" alt="" coords="164,80,263,107"/>
-<area shape="rect" id="node7" href="$_s_l_scene_8cpp.html" title="SLScene.cpp" alt="" coords="287,80,392,107"/>
-<area shape="rect" id="node9" href="$_s_l_scene__on_load_8cpp.html" title="SLScene_onLoad.cpp" alt="" coords="417,80,575,107"/>
+<area shape="rect" id="node3" href="$_s_l_demo_gui_8cpp.html" title="SLDemoGui.cpp" alt="" coords="5,80,131,107"/>
+<area shape="rect" id="node5" href="$_s_l_light_direct_8cpp.html" title="SLLightDirect.cpp" alt="" coords="155,80,289,107"/>
+<area shape="rect" id="node7" href="$_s_l_node_8cpp.html" title="SLNode.cpp" alt="" coords="315,80,413,107"/>
+<area shape="rect" id="node9" href="$_s_l_scene_8cpp.html" title="SLScene.cpp" alt="" coords="438,80,543,107"/>
+<area shape="rect" id="node11" href="$_s_l_scene__on_load_8cpp.html" title="SLScene_onLoad.cpp" alt="" coords="567,80,725,107"/>
 </map>

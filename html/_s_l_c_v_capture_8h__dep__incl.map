@@ -1,6 +1,9 @@
 <map id="SLCVCapture.h" name="SLCVCapture.h">
-<area shape="rect" id="node3" href="$_s_l_c_v_capture_8cpp.html" title="SLCVCapture.cpp" alt="" coords="5,80,139,107"/>
-<area shape="rect" id="node5" href="$_s_l_interface_8cpp.html" title="SLProject C&#45;functions interface implementation." alt="" coords="163,80,284,107"/>
-<area shape="rect" id="node7" href="$_s_l_scene_8cpp.html" title="SLScene.cpp" alt="" coords="309,80,413,107"/>
-<area shape="rect" id="node9" href="$_s_l_scene_view_8cpp.html" title="SLSceneView.cpp" alt="" coords="438,80,572,107"/>
+<area shape="rect" id="node3" href="$_s_l_c_v_calibration_8cpp.html" title="SLCVCalibration.cpp" alt="" coords="5,80,155,107"/>
+<area shape="rect" id="node5" href="$_s_l_c_v_capture_8cpp.html" title="SLCVCapture.cpp" alt="" coords="179,80,313,107"/>
+<area shape="rect" id="node7" href="$_s_l_8cpp.html" title="SL.cpp" alt="" coords="338,80,403,107"/>
+<area shape="rect" id="node9" href="$_s_l_interface_8cpp.html" title="SLProject C&#45;functions interface implementation." alt="" coords="427,80,548,107"/>
+<area shape="rect" id="node11" href="$_s_l_demo_gui_8cpp.html" title="SLDemoGui.cpp" alt="" coords="573,80,699,107"/>
+<area shape="rect" id="node13" href="$_s_l_scene_8cpp.html" title="SLScene.cpp" alt="" coords="723,80,828,107"/>
+<area shape="rect" id="node15" href="$_s_l_scene_view_8cpp.html" title="SLSceneView.cpp" alt="" coords="853,80,987,107"/>
 </map>

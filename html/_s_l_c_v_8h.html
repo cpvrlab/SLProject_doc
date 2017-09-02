@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">2.0</span>
+   &#160;<span id="projectnumber">2.1</span>
    </div>
   </td>
  </tr>
@@ -73,17 +73,18 @@ $(document).ready(function(){initNavTree('_s_l_c_v_8h.html','');});
 <code>#include &lt;opencv/cv.h&gt;</code><br/>
 <code>#include &lt;opencv2/core.hpp&gt;</code><br/>
 <code>#include &lt;opencv2/opencv.hpp&gt;</code><br/>
+<code>#include &lt;opencv2/core/ocl.hpp&gt;</code><br/>
+<code>#include &lt;opencv2/core/hal/interface.h&gt;</code><br/>
+<code>#include &lt;opencv2/xfeatures2d.hpp&gt;</code><br/>
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for SLCV.h:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="_s_l_c_v_8h__incl.svg" width="546" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="_s_l_c_v_8h__incl.svg" width="1164" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="_s_l_c_v_8h__dep__incl.svg" width="4123" height="635"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="_s_l_c_v_8h__dep__incl.svg" width="5378" height="336"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
@@ -96,6 +97,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:aac7daa9f2e97d93e65962182c76222cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12f428c7daf4b7d90546df6dfe392052"><td class="memItemLeft" align="right" valign="top">typedef cv::Point&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_c_v_8h.html#a12f428c7daf4b7d90546df6dfe392052">SLCVPoint</a></td></tr>
 <tr class="separator:a12f428c7daf4b7d90546df6dfe392052"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0da29625b9b3a6132eede016e5330d8"><td class="memItemLeft" align="right" valign="top">typedef cv::Point2i&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_c_v_8h.html#ad0da29625b9b3a6132eede016e5330d8">SLCVPoint2i</a></td></tr>
+<tr class="separator:ad0da29625b9b3a6132eede016e5330d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78a6da9463fbe6e6a18673f82f630059"><td class="memItemLeft" align="right" valign="top">typedef cv::Point2f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_c_v_8h.html#a78a6da9463fbe6e6a18673f82f630059">SLCVPoint2f</a></td></tr>
 <tr class="separator:a78a6da9463fbe6e6a18673f82f630059"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9515afaaff2f19a697e1492bf84cbd16"><td class="memItemLeft" align="right" valign="top">typedef cv::Point3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_c_v_8h.html#a9515afaaff2f19a697e1492bf84cbd16">SLCVPoint3f</a></td></tr>
@@ -108,6 +111,14 @@ Typedefs</h2></td></tr>
 <tr class="separator:aab49f8511b8bf7aa9b6f2f1e04b9b522"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05866d18249414e3aabbcd6ac1fa5841"><td class="memItemLeft" align="right" valign="top">typedef cv::FileStorage&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_c_v_8h.html#a05866d18249414e3aabbcd6ac1fa5841">SLCVFileStorage</a></td></tr>
 <tr class="separator:a05866d18249414e3aabbcd6ac1fa5841"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9252345dac57338eaae0009577fe01a"><td class="memItemLeft" align="right" valign="top">typedef cv::DMatch&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_c_v_8h.html#ad9252345dac57338eaae0009577fe01a">SLCVDMatch</a></td></tr>
+<tr class="separator:ad9252345dac57338eaae0009577fe01a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf0b72fe251db04f2ce88bf04578cf96"><td class="memItemLeft" align="right" valign="top">typedef cv::InputArray&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_c_v_8h.html#abf0b72fe251db04f2ce88bf04578cf96">SLCVInputArray</a></td></tr>
+<tr class="separator:abf0b72fe251db04f2ce88bf04578cf96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ab81f624438b11a86b042d2b6229882"><td class="memItemLeft" align="right" valign="top">typedef cv::OutputArray&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_c_v_8h.html#a0ab81f624438b11a86b042d2b6229882">SLCVOutputArray</a></td></tr>
+<tr class="separator:a0ab81f624438b11a86b042d2b6229882"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac531c6e1b95e958c697d61fa0413d364"><td class="memItemLeft" align="right" valign="top">typedef cv::Feature2D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_c_v_8h.html#ac531c6e1b95e958c697d61fa0413d364">SLCVFeature2D</a></td></tr>
+<tr class="separator:ac531c6e1b95e958c697d61fa0413d364"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a545f65bf5eaf3437d2c62a4411a9d728"><td class="memItemLeft" align="right" valign="top">typedef vector&lt; cv::Mat &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_c_v_8h.html#a545f65bf5eaf3437d2c62a4411a9d728">SLCVVMat</a></td></tr>
 <tr class="separator:a545f65bf5eaf3437d2c62a4411a9d728"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adaab795a19da25cb5c06e5be89127e61"><td class="memItemLeft" align="right" valign="top">typedef vector&lt; cv::Point &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_c_v_8h.html#adaab795a19da25cb5c06e5be89127e61">SLCVVPoint</a></td></tr>
@@ -122,6 +133,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:a01042074b070a9bb1748543bfc147706"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9eeb31ccb2d407f180df04578d46b202"><td class="memItemLeft" align="right" valign="top">typedef vector&lt; cv::KeyPoint &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_c_v_8h.html#a9eeb31ccb2d407f180df04578d46b202">SLCVVKeyPoint</a></td></tr>
 <tr class="separator:a9eeb31ccb2d407f180df04578d46b202"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd05db7fbd60f11d1e62b8cf0696fec0"><td class="memItemLeft" align="right" valign="top">typedef vector&lt; cv::DMatch &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_c_v_8h.html#abd05db7fbd60f11d1e62b8cf0696fec0">SLCVVDMatch</a></td></tr>
+<tr class="separator:abd05db7fbd60f11d1e62b8cf0696fec0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add9885d8d06a9b16d3fd312f9b309782"><td class="memItemLeft" align="right" valign="top">typedef vector&lt; vector<br class="typebreak"/>
 &lt; cv::Point &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_c_v_8h.html#add9885d8d06a9b16d3fd312f9b309782">SLCVVVPoint</a></td></tr>
 <tr class="separator:add9885d8d06a9b16d3fd312f9b309782"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -131,14 +144,56 @@ Typedefs</h2></td></tr>
 <tr class="memitem:aa0266d85243803471d6bb42061d19211"><td class="memItemLeft" align="right" valign="top">typedef vector&lt; vector<br class="typebreak"/>
 &lt; cv::Point3f &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_c_v_8h.html#aa0266d85243803471d6bb42061d19211">SLCVVVPoint3f</a></td></tr>
 <tr class="separator:aa0266d85243803471d6bb42061d19211"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43b6c4ff749f2a22eb719e83aeee2a22"><td class="memItemLeft" align="right" valign="top">typedef vector&lt; vector<br class="typebreak"/>
+&lt; cv::DMatch &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_c_v_8h.html#a43b6c4ff749f2a22eb719e83aeee2a22">SLCVVVDMatch</a></td></tr>
+<tr class="separator:a43b6c4ff749f2a22eb719e83aeee2a22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7efe3164c199bf0763cfaf2cbb84e9da"><td class="memItemLeft" align="right" valign="top">typedef vector&lt; vector<br class="typebreak"/>
+&lt; cv::KeyPoint &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_c_v_8h.html#a7efe3164c199bf0763cfaf2cbb84e9da">SLCVVVKeyPoint</a></td></tr>
+<tr class="separator:a7efe3164c199bf0763cfaf2cbb84e9da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
+<a class="anchor" id="ad9252345dac57338eaae0009577fe01a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef cv::DMatch <a class="el" href="_s_l_c_v_8h.html#ad9252345dac57338eaae0009577fe01a">SLCVDMatch</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac531c6e1b95e958c697d61fa0413d364"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef cv::Feature2D <a class="el" href="_s_l_c_v_8h.html#ac531c6e1b95e958c697d61fa0413d364">SLCVFeature2D</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a05866d18249414e3aabbcd6ac1fa5841"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">typedef cv::FileStorage <a class="el" href="_s_l_c_v_8h.html#a05866d18249414e3aabbcd6ac1fa5841">SLCVFileStorage</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abf0b72fe251db04f2ce88bf04578cf96"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef cv::InputArray <a class="el" href="_s_l_c_v_8h.html#abf0b72fe251db04f2ce88bf04578cf96">SLCVInputArray</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -169,6 +224,18 @@ Typedefs</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a0ab81f624438b11a86b042d2b6229882"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef cv::OutputArray <a class="el" href="_s_l_c_v_8h.html#a0ab81f624438b11a86b042d2b6229882">SLCVOutputArray</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a12f428c7daf4b7d90546df6dfe392052"></a>
 <div class="memitem">
 <div class="memproto">
@@ -187,6 +254,18 @@ Typedefs</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">typedef cv::Point2f <a class="el" href="_s_l_c_v_8h.html#a78a6da9463fbe6e6a18673f82f630059">SLCVPoint2f</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad0da29625b9b3a6132eede016e5330d8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef cv::Point2i <a class="el" href="_s_l_c_v_8h.html#ad0da29625b9b3a6132eede016e5330d8">SLCVPoint2i</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -247,6 +326,18 @@ Typedefs</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">typedef cv::Size2f <a class="el" href="_s_l_c_v_8h.html#a41a02d803488b3302ff71476ddff95e4">SLCVSize2f</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abd05db7fbd60f11d1e62b8cf0696fec0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef vector&lt;cv::DMatch&gt; <a class="el" href="_s_l_c_v_8h.html#abd05db7fbd60f11d1e62b8cf0696fec0">SLCVVDMatch</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -337,6 +428,30 @@ Typedefs</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a43b6c4ff749f2a22eb719e83aeee2a22"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef vector&lt;vector&lt;cv::DMatch&gt; &gt; <a class="el" href="_s_l_c_v_8h.html#a43b6c4ff749f2a22eb719e83aeee2a22">SLCVVVDMatch</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7efe3164c199bf0763cfaf2cbb84e9da"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef vector&lt;vector&lt;cv::KeyPoint&gt; &gt; <a class="el" href="_s_l_c_v_8h.html#a7efe3164c199bf0763cfaf2cbb84e9da">SLCVVVKeyPoint</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="add9885d8d06a9b16d3fd312f9b309782"></a>
 <div class="memitem">
 <div class="memproto">
@@ -379,7 +494,7 @@ Typedefs</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_43b3a96032ec52f10c098e2e3b7283be.html">include</a></li><li class="navelem"><a class="el" href="_s_l_c_v_8h.html">SLCV.h</a></li>
-    <li class="footer">Generated on Tue Feb 21 2017 12:45:22 for SLProject by
+    <li class="footer">Generated on Sat Sep 2 2017 11:24:08 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
   </ul>

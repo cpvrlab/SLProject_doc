@@ -40,6 +40,7 @@ var class_s_l_quat4 =
     [ "slerp", "class_s_l_quat4.html#a4de3016afe38b753e1eb5a12f00a090f", null ],
     [ "slerp", "class_s_l_quat4.html#ac0b58b0b4339495da79d073cea769cc5", null ],
     [ "toAngleAxis", "class_s_l_quat4.html#ad0685b092ff29d20c0fc42bfa5add655", null ],
+    [ "toEulerAngles", "class_s_l_quat4.html#acada46e67b6268c39853a17191232597", null ],
     [ "toMat3", "class_s_l_quat4.html#a0b98868a1915ee81f01b57711a3b7104", null ],
     [ "toMat4", "class_s_l_quat4.html#a2eba2cec006bbf31d1b16d0dc69c0885", null ],
     [ "toVec4", "class_s_l_quat4.html#a4f2bb2341d2fb5d5672b036dc274bebe", null ],

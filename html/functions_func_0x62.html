@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">2.0</span>
+   &#160;<span id="projectnumber">2.1</span>
    </div>
   </td>
  </tr>
@@ -111,7 +111,7 @@ $(document).ready(function(){initNavTree('functions_func_0x62.html','');});
 
 <h3><a class="anchor" id="index_b"></a>- b -</h3><ul>
 <li>background()
-: <a class="el" href="class_s_l_scene.html#a1352a19c1d62ea073a9f0d4006b3d17f">SLScene</a>
+: <a class="el" href="class_s_l_camera.html#aa54311db8e76f80fa2b545ddf550ba9f">SLCamera</a>
 </li>
 <li>barycentricCoords()
 : <a class="el" href="class_s_l_vec2.html#a51161a0612e7b52774d4bd683bb00a9e">SLVec2&lt; T &gt;</a>
@@ -159,23 +159,11 @@ $(document).ready(function(){initNavTree('functions_func_0x62.html','');});
 <li>brakeAccel()
 : <a class="el" href="class_s_l_camera.html#a6b61e99407d670270139d81c469bb184">SLCamera</a>
 </li>
-<li>btnAbout()
-: <a class="el" href="class_s_l_scene.html#a5d7c898c079537319aa5f0c95488930b">SLScene</a>
-</li>
-<li>btnCalibration()
-: <a class="el" href="class_s_l_scene.html#aa69deafdc7002b0f9f229b1186a5690e">SLScene</a>
-</li>
-<li>btnCredits()
-: <a class="el" href="class_s_l_scene.html#a10c4dd18cb5a7389525b9fc6e992989b">SLScene</a>
-</li>
 <li>btnH()
 : <a class="el" href="class_s_l_button.html#adab55420d6d9c3854dcb866875e04f23">SLButton</a>
 </li>
-<li>btnHelp()
-: <a class="el" href="class_s_l_scene.html#ae350a916041856d4bf7929984e726221">SLScene</a>
-</li>
 <li>btnW()
-: <a class="el" href="class_s_l_button.html#ac8b5f55abfec8d013c11ab739e114b8a">SLButton</a>
+: <a class="el" href="class_s_l_button.html#ad3ac4d1dd25d3ccf59f96765bc347eb7">SLButton</a>
 </li>
 <li>build()
 : <a class="el" href="class_s_l_accel_struct.html#a9da62cb8bb70b6a8b6dabed07bbbb879">SLAccelStruct</a>
@@ -183,23 +171,8 @@ $(document).ready(function(){initNavTree('functions_func_0x62.html','');});
 , <a class="el" href="class_s_l_g_l_texture.html#ac85e4850a61d217422f53651a342f0f4">SLGLTexture</a>
 , <a class="el" href="class_s_l_uniform_grid.html#adbcfe6e517b2414ad62641374940a3b6">SLUniformGrid</a>
 </li>
-<li>build2DInfoGL()
-: <a class="el" href="class_s_l_scene_view.html#acaac24de515e156f6ecdcd0121daa10d">SLSceneView</a>
-</li>
-<li>build2DInfoLoading()
-: <a class="el" href="class_s_l_scene_view.html#a01b2eb828a5604a2266e24a35d0f3bef">SLSceneView</a>
-</li>
-<li>build2DInfoRT()
-: <a class="el" href="class_s_l_scene_view.html#a7d3b8741bad66010892bb061264d9c3e">SLSceneView</a>
-</li>
-<li>build2DMenus()
-: <a class="el" href="class_s_l_scene_view.html#a896f817ec8c4ca945998ebc33b1ee7d0">SLSceneView</a>
-</li>
 <li>build2DMipmaps()
 : <a class="el" href="class_s_l_g_l_texture.html#a149e59119b677533672640378b1690ad">SLGLTexture</a>
-</li>
-<li>build2DMsgBoxes()
-: <a class="el" href="class_s_l_scene_view.html#a6cba8942218e5ebf5c00b6bd2fcae6ea">SLSceneView</a>
 </li>
 <li>build3DTexture()
 : <a class="el" href="classgl_utils.html#a306470582226a5f6d0cdb13b8eb496ba">glUtils</a>
@@ -210,6 +183,9 @@ $(document).ready(function(){initNavTree('functions_func_0x62.html','');});
 <li>buildBuffers()
 : <a class="el" href="class_s_l_button.html#ad6a27e9fba04d005aea5cf6dd0d781b4">SLButton</a>
 </li>
+<li>buildDemoGui()
+: <a class="el" href="class_s_l_demo_gui.html#a87373e32526f50feb4d87080138b3a2d">SLDemoGui</a>
+</li>
 <li>buildInterpolationCurve()
 : <a class="el" href="class_s_l_node_anim_track.html#abd1753e1dce97c3d69d6d46c48728e96">SLNodeAnimTrack</a>
 </li>
@@ -219,20 +195,29 @@ $(document).ready(function(){initNavTree('functions_func_0x62.html','');});
 <li>buildInverseMatrix()
 : <a class="el" href="class_s_l_g_l_state.html#ae7aa29af334600142587823abdc96707">SLGLState</a>
 </li>
+<li>buildMenuBar()
+: <a class="el" href="class_s_l_demo_gui.html#a1934802e53ad07831d9519c4cadcaa84">SLDemoGui</a>
+</li>
 <li>buildMesh()
-: <a class="el" href="class_s_l_triangle.html#a65e7920bbb44ec314caef4b189a7ac77">SLTriangle</a>
+: <a class="el" href="class_s_l_box.html#a5e2f423da0b835587dd44e2d6d780aab">SLBox</a>
+, <a class="el" href="class_s_l_grid.html#a11907c8fc10ce00c50d75f50b38e64e3">SLGrid</a>
+, <a class="el" href="class_s_l_revolver.html#ab84aa04edac1ac4069cf025fa4c043d3">SLRevolver</a>
 , <a class="el" href="class_s_l_polygon.html#a5af183d84db313c40a13a8a0b7154de8">SLPolygon</a>
 , <a class="el" href="class_s_l_rectangle.html#a3f743a273fa7e122476494fefa47a927">SLRectangle</a>
-, <a class="el" href="class_s_l_revolver.html#ab84aa04edac1ac4069cf025fa4c043d3">SLRevolver</a>
-, <a class="el" href="class_s_l_box.html#a5e2f423da0b835587dd44e2d6d780aab">SLBox</a>
+, <a class="el" href="class_s_l_triangle.html#a65e7920bbb44ec314caef4b189a7ac77">SLTriangle</a>
 , <a class="el" href="class_s_l_coord_axis.html#aaf50f909a5161a41f33a15bf6a307e65">SLCoordAxis</a>
-, <a class="el" href="class_s_l_grid.html#a11907c8fc10ce00c50d75f50b38e64e3">SLGrid</a>
 </li>
 <li>buildNormalMatrix()
 : <a class="el" href="class_s_l_g_l_state.html#a9f692f562202b979f4d2c7eef9579d8c">SLGLState</a>
 </li>
 <li>buildProgram()
 : <a class="el" href="classgl_utils.html#a3b273399dc03007a761523a2b7b2f142">glUtils</a>
+</li>
+<li>buildProperties()
+: <a class="el" href="class_s_l_demo_gui.html#aa47dda4a36ee813326601249e31b44d3">SLDemoGui</a>
+</li>
+<li>buildSceneGraph()
+: <a class="el" href="class_s_l_demo_gui.html#a4f74933f8e68a3aedbf6756f086e383d">SLDemoGui</a>
 </li>
 <li>buildShader()
 : <a class="el" href="classgl_utils.html#a988fc0767e6c2379d33da937499084ca">glUtils</a>
@@ -242,6 +227,9 @@ $(document).ready(function(){initNavTree('functions_func_0x62.html','');});
 </li>
 <li>buildTexture()
 : <a class="el" href="classgl_utils.html#a37e5418c5b45dff7e8e938f6faa6829e">glUtils</a>
+</li>
+<li>buildUndistortionMaps()
+: <a class="el" href="class_s_l_c_v_calibration.html#a56ede91235fe5f3aac3bacee55c8a291">SLCVCalibration</a>
 </li>
 <li>buildVAO()
 : <a class="el" href="classgl_utils.html#acb19272e3db32c946a830f87c5bf7418">glUtils</a>
@@ -253,20 +241,13 @@ $(document).ready(function(){initNavTree('functions_func_0x62.html','');});
 : <a class="el" href="class_s_l_g_l_texture.html#a931e3d4885b446ab3a11c35a6d867d96">SLGLTexture</a>
 </li>
 <li>bytesPerImage()
-: <a class="el" href="class_s_l_image.html#a9af62027f06eafed4c009d73076ccf2d">SLImage</a>
-, <a class="el" href="class_s_l_c_v_image.html#a0b631f9e96b6dde133c5a34834e7a98c">SLCVImage</a>
+: <a class="el" href="class_s_l_c_v_image.html#a0b631f9e96b6dde133c5a34834e7a98c">SLCVImage</a>
 </li>
 <li>bytesPerLine()
-: <a class="el" href="class_s_l_image.html#ae746f50ac94a60a12400c28349f6535f">SLImage</a>
-, <a class="el" href="class_s_l_c_v_image.html#ac5d568e69f1eaef76e55199dbeb13eae">SLCVImage</a>
-, <a class="el" href="class_s_l_image.html#abdf848ea266a676a1d2695f9e714b46b">SLImage</a>
-, <a class="el" href="class_s_l_c_v_image.html#aeaeeae121692f049f0766815b36f5b8d">SLCVImage</a>
+: <a class="el" href="class_s_l_c_v_image.html#aeaeeae121692f049f0766815b36f5b8d">SLCVImage</a>
 </li>
 <li>bytesPerPixel()
 : <a class="el" href="class_s_l_c_v_image.html#a9540009d0c668d3b26d3d8f43fd60b6f">SLCVImage</a>
-, <a class="el" href="class_s_l_image.html#abde0dcc4951fcf9723a866ce15a097ca">SLImage</a>
-, <a class="el" href="class_s_l_c_v_image.html#af0e164d23ff3f9eff019e1f4c298e347">SLCVImage</a>
-, <a class="el" href="class_s_l_image.html#ad3096f25b51da5d6aae03fa72c734ffd">SLImage</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -274,7 +255,7 @@ $(document).ready(function(){initNavTree('functions_func_0x62.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Feb 21 2017 12:45:37 for SLProject by
+    <li class="footer">Generated on Sat Sep 2 2017 11:25:10 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
   </ul>

@@ -11,8 +11,8 @@
 <polygon fill="white" stroke="white" points="-4,5 -4,-136 664,-136 664,5 -4,5"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="272.5,-112.5 272.5,-131.5 365.5,-131.5 365.5,-112.5 272.5,-112.5"/>
-<text text-anchor="middle" x="319" y="-119.5" font-family="Arial.ttf" font-size="10.00">SLEventHandler</text>
+<polygon fill="#bfbfbf" stroke="black" points="313.5,-112.5 313.5,-131.5 406.5,-131.5 406.5,-112.5 313.5,-112.5"/>
+<text text-anchor="middle" x="360" y="-119.5" font-family="Arial.ttf" font-size="10.00">SLEventHandler</text>
 </g>
 <!-- Node2 -->
 <g id="node3" class="node"><title>Node2</title>
@@ -23,8 +23,8 @@
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge2" class="edge"><title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M294.163,-107.453C275.886,-97.4835 251.584,-84.2279 235.867,-75.6545"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="292.639,-110.608 303.094,-112.324 295.991,-104.463 292.639,-110.608"/>
+<path fill="none" stroke="midnightblue" d="M328.298,-108.772C302,-98.6287 265.284,-84.4669 242.08,-75.5164"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="327.227,-112.11 337.817,-112.444 329.746,-105.579 327.227,-112.11"/>
 </g>
 <!-- Node3 -->
 <g id="node5" class="node"><title>Node3</title>
@@ -35,20 +35,32 @@
 </g>
 <!-- Node1&#45;&gt;Node3 -->
 <g id="edge4" class="edge"><title>Node1&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M319,-101.805C319,-92.9102 319,-82.7798 319,-75.7511"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="315.5,-102.083 319,-112.083 322.5,-102.083 315.5,-102.083"/>
+<path fill="none" stroke="midnightblue" d="M346.983,-103.855C339.883,-94.5048 331.396,-83.3265 325.644,-75.7511"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="344.395,-106.235 353.23,-112.083 349.97,-102.002 344.395,-106.235"/>
 </g>
 <!-- Node11 -->
 <g id="node21" class="node"><title>Node11</title>
 <a xlink:href="class_s_l_raytracer.html" target="_top" xlink:title="SLRaytracer hold all the methods for Whitted style Ray Tracing.">
-<polygon fill="white" stroke="black" points="450,-56.5 450,-75.5 524,-75.5 524,-56.5 450,-56.5"/>
-<text text-anchor="middle" x="487" y="-63.5" font-family="Arial.ttf" font-size="10.00">SLRaytracer</text>
+<polygon fill="white" stroke="black" points="364,-56.5 364,-75.5 438,-75.5 438,-56.5 364,-56.5"/>
+<text text-anchor="middle" x="401" y="-63.5" font-family="Arial.ttf" font-size="10.00">SLRaytracer</text>
 </a>
 </g>
 <!-- Node1&#45;&gt;Node11 -->
 <g id="edge20" class="edge"><title>Node1&#45;&gt;Node11</title>
-<path fill="none" stroke="midnightblue" d="M355.386,-109.304C387.042,-99.1294 432.168,-84.6246 460.504,-75.5164"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="354.069,-106.051 345.62,-112.444 356.211,-112.715 354.069,-106.051"/>
+<path fill="none" stroke="midnightblue" d="M373.017,-103.855C380.117,-94.5048 388.604,-83.3265 394.356,-75.7511"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="370.03,-102.002 366.77,-112.083 375.605,-106.235 370.03,-102.002"/>
+</g>
+<!-- Node13 -->
+<g id="node25" class="node"><title>Node13</title>
+<a xlink:href="class_s_l_transfer_function.html" target="_top" xlink:title="A transfer function defines a 1D texture of 256 RGBA values.">
+<polygon fill="white" stroke="black" points="456,-56.5 456,-75.5 564,-75.5 564,-56.5 456,-56.5"/>
+<text text-anchor="middle" x="510" y="-63.5" font-family="Arial.ttf" font-size="10.00">SLTransferFunction</text>
+</a>
+</g>
+<!-- Node1&#45;&gt;Node13 -->
+<g id="edge24" class="edge"><title>Node1&#45;&gt;Node13</title>
+<path fill="none" stroke="midnightblue" d="M393.225,-109.039C421.448,-98.8786 461.262,-84.5457 486.343,-75.5164"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="391.991,-105.763 383.768,-112.444 394.362,-112.349 391.991,-105.763"/>
 </g>
 <!-- Node4 -->
 <g id="node7" class="node"><title>Node4</title>
@@ -131,8 +143,8 @@
 </g>
 <!-- Node3&#45;&gt;Node10 -->
 <g id="edge18" class="edge"><title>Node3&#45;&gt;Node10</title>
-<path fill="none" stroke="midnightblue" d="M355.937,-56.2469C393.318,-47.3342 452.752,-33.0142 504,-20 506.959,-19.2485 510.059,-18.4473 513.133,-17.6444"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="354.921,-52.8909 346.004,-58.6118 356.542,-59.7006 354.921,-52.8909"/>
+<path fill="none" stroke="midnightblue" d="M355.891,-55.7988C422.767,-39.4392 440.922,-35.9667 504,-20 506.96,-19.2508 510.06,-18.451 513.134,-17.6488"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="354.999,-52.4136 346.121,-58.1953 356.667,-59.212 354.999,-52.4136"/>
 </g>
 <!-- Node12 -->
 <g id="node23" class="node"><title>Node12</title>
@@ -143,8 +155,8 @@
 </g>
 <!-- Node11&#45;&gt;Node12 -->
 <g id="edge22" class="edge"><title>Node11&#45;&gt;Node12</title>
-<path fill="none" stroke="midnightblue" d="M517.448,-52.6377C542.407,-42.504 577.077,-28.4274 599.024,-19.5164"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="516.023,-49.4387 508.074,-56.4435 518.656,-55.9245 516.023,-49.4387"/>
+<path fill="none" stroke="midnightblue" d="M445.515,-54.0237C486.884,-43.8232 547.643,-28.8414 585.461,-19.5164"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="444.572,-50.6512 435.701,-56.4435 446.248,-57.4476 444.572,-50.6512"/>
 </g>
 </g>
 </svg>

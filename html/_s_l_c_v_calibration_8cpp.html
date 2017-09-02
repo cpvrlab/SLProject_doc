@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">2.0</span>
+   &#160;<span id="projectnumber">2.1</span>
    </div>
   </td>
  </tr>
@@ -71,13 +71,11 @@ $(document).ready(function(){initNavTree('_s_l_c_v_calibration_8cpp.html','');})
 <div class="contents">
 <div class="textblock"><code>#include &lt;stdafx.h&gt;</code><br/>
 <code>#include &lt;<a class="el" href="_s_l_c_v_calibration_8h.html">SLCVCalibration.h</a>&gt;</code><br/>
-<code>#include &lt;opencv2/highgui.hpp&gt;</code><br/>
-<code>#include &lt;opencv2/calib3d.hpp&gt;</code><br/>
+<code>#include &lt;<a class="el" href="_s_l_c_v_capture_8h.html">SLCVCapture.h</a>&gt;</code><br/>
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for SLCVCalibration.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="_s_l_c_v_calibration_8cpp__incl.svg" width="571" height="262"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="_s_l_c_v_calibration_8cpp__incl.svg" width="1164" height="262"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -85,15 +83,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a43154b0b189dc00a7e20e172fa70878c"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_c_v_calibration_8cpp.html#a43154b0b189dc00a7e20e172fa70878c">calcReprojectionErrors</a> (const <a class="el" href="_s_l_c_v_8h.html#aa0266d85243803471d6bb42061d19211">SLCVVVPoint3f</a> &amp;objectPoints, const <a class="el" href="_s_l_c_v_8h.html#aea47012b9180a75cfd7ec2cf735fc0db">SLCVVVPoint2f</a> &amp;imagePoints, const <a class="el" href="_s_l_c_v_8h.html#a545f65bf5eaf3437d2c62a4411a9d728">SLCVVMat</a> &amp;rvecs, const <a class="el" href="_s_l_c_v_8h.html#a545f65bf5eaf3437d2c62a4411a9d728">SLCVVMat</a> &amp;tvecs, const <a class="el" href="_s_l_c_v_8h.html#a931cd144af48217cf4457932c275206c">SLCVMat</a> &amp;cameraMatrix, const <a class="el" href="_s_l_c_v_8h.html#a931cd144af48217cf4457932c275206c">SLCVMat</a> &amp;distCoeffs, <a class="el" href="_s_l_8h.html#a469a4feb5adc315c56ec15d511600f71">SLVfloat</a> &amp;perViewErrors)</td></tr>
 <tr class="memdesc:a43154b0b189dc00a7e20e172fa70878c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the reprojection error of the calibration.  <a href="#a43154b0b189dc00a7e20e172fa70878c"></a><br/></td></tr>
 <tr class="separator:a43154b0b189dc00a7e20e172fa70878c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32edbe6bdcee3e8dee4504507c58446d"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_c_v_calibration_8cpp.html#a32edbe6bdcee3e8dee4504507c58446d">calcCalibration</a> (<a class="el" href="_s_l_c_v_8h.html#af35d04fd003282caec13d0b5ac5fcbab">SLCVSize</a> &amp;imageSize, <a class="el" href="_s_l_c_v_8h.html#a931cd144af48217cf4457932c275206c">SLCVMat</a> &amp;cameraMatrix, <a class="el" href="_s_l_c_v_8h.html#a931cd144af48217cf4457932c275206c">SLCVMat</a> &amp;distCoeffs, <a class="el" href="_s_l_c_v_8h.html#aea47012b9180a75cfd7ec2cf735fc0db">SLCVVVPoint2f</a> imagePoints, <a class="el" href="_s_l_c_v_8h.html#a545f65bf5eaf3437d2c62a4411a9d728">SLCVVMat</a> &amp;rvecs, <a class="el" href="_s_l_c_v_8h.html#a545f65bf5eaf3437d2c62a4411a9d728">SLCVVMat</a> &amp;tvecs, <a class="el" href="_s_l_8h.html#a469a4feb5adc315c56ec15d511600f71">SLVfloat</a> &amp;reprojErrs, double &amp;totalAvgErr, <a class="el" href="_s_l_c_v_8h.html#af35d04fd003282caec13d0b5ac5fcbab">SLCVSize</a> &amp;boardSize, <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> squareSize, <a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a> flag)</td></tr>
-<tr class="memdesc:a32edbe6bdcee3e8dee4504507c58446d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the calibration with the given set of image points.  <a href="#a32edbe6bdcee3e8dee4504507c58446d"></a><br/></td></tr>
-<tr class="separator:a32edbe6bdcee3e8dee4504507c58446d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0eaa6468e6cabcb91a5c55df574afd74"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_c_v_calibration_8cpp.html#a0eaa6468e6cabcb91a5c55df574afd74">saveCameraParams</a> (<a class="el" href="_s_l_c_v_8h.html#af35d04fd003282caec13d0b5ac5fcbab">SLCVSize</a> &amp;imageSize, <a class="el" href="_s_l_c_v_8h.html#a931cd144af48217cf4457932c275206c">SLCVMat</a> &amp;cameraMatrix, Mat &amp;distCoeffs, const <a class="el" href="_s_l_c_v_8h.html#a545f65bf5eaf3437d2c62a4411a9d728">SLCVVMat</a> &amp;rvecs, const <a class="el" href="_s_l_c_v_8h.html#a545f65bf5eaf3437d2c62a4411a9d728">SLCVVMat</a> &amp;tvecs, const <a class="el" href="_s_l_8h.html#a469a4feb5adc315c56ec15d511600f71">SLVfloat</a> &amp;reprojErrs, const <a class="el" href="_s_l_c_v_8h.html#aea47012b9180a75cfd7ec2cf735fc0db">SLCVVVPoint2f</a> &amp;imagePoints, double totalAvgErr, <a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a> flag, <a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a> filename, <a class="el" href="_s_l_c_v_8h.html#af35d04fd003282caec13d0b5ac5fcbab">SLCVSize</a> &amp;boardSize, <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> squareSize)</td></tr>
-<tr class="memdesc:a0eaa6468e6cabcb91a5c55df574afd74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves the camera calibration parameters to the config file.  <a href="#a0eaa6468e6cabcb91a5c55df574afd74"></a><br/></td></tr>
-<tr class="separator:a0eaa6468e6cabcb91a5c55df574afd74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5228938d86746b7ad6d48fa28467fbda"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_c_v_calibration_8cpp.html#a5228938d86746b7ad6d48fa28467fbda">calcCalibration</a> (<a class="el" href="_s_l_c_v_8h.html#af35d04fd003282caec13d0b5ac5fcbab">SLCVSize</a> &amp;imageSize, <a class="el" href="_s_l_c_v_8h.html#a931cd144af48217cf4457932c275206c">SLCVMat</a> &amp;cameraMatrix, <a class="el" href="_s_l_c_v_8h.html#a931cd144af48217cf4457932c275206c">SLCVMat</a> &amp;distCoeffs, <a class="el" href="_s_l_c_v_8h.html#aea47012b9180a75cfd7ec2cf735fc0db">SLCVVVPoint2f</a> imagePoints, <a class="el" href="_s_l_c_v_8h.html#a545f65bf5eaf3437d2c62a4411a9d728">SLCVVMat</a> &amp;rvecs, <a class="el" href="_s_l_c_v_8h.html#a545f65bf5eaf3437d2c62a4411a9d728">SLCVVMat</a> &amp;tvecs, <a class="el" href="_s_l_8h.html#a469a4feb5adc315c56ec15d511600f71">SLVfloat</a> &amp;reprojErrs, <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> &amp;totalAvgErr, <a class="el" href="_s_l_c_v_8h.html#af35d04fd003282caec13d0b5ac5fcbab">SLCVSize</a> &amp;boardSize, <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> squareSize, <a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a> flag)</td></tr>
+<tr class="memdesc:a5228938d86746b7ad6d48fa28467fbda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the calibration with the given set of image points.  <a href="#a5228938d86746b7ad6d48fa28467fbda"></a><br/></td></tr>
+<tr class="separator:a5228938d86746b7ad6d48fa28467fbda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a32edbe6bdcee3e8dee4504507c58446d"></a>
+<a class="anchor" id="a5228938d86746b7ad6d48fa28467fbda"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -145,7 +140,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> &amp;&#160;</td>
           <td class="paramname"><em>totalAvgErr</em>, </td>
         </tr>
         <tr>
@@ -249,109 +244,13 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a0eaa6468e6cabcb91a5c55df574afd74"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void saveCameraParams </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="_s_l_c_v_8h.html#af35d04fd003282caec13d0b5ac5fcbab">SLCVSize</a> &amp;&#160;</td>
-          <td class="paramname"><em>imageSize</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="_s_l_c_v_8h.html#a931cd144af48217cf4457932c275206c">SLCVMat</a> &amp;&#160;</td>
-          <td class="paramname"><em>cameraMatrix</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Mat &amp;&#160;</td>
-          <td class="paramname"><em>distCoeffs</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="_s_l_c_v_8h.html#a545f65bf5eaf3437d2c62a4411a9d728">SLCVVMat</a> &amp;&#160;</td>
-          <td class="paramname"><em>rvecs</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="_s_l_c_v_8h.html#a545f65bf5eaf3437d2c62a4411a9d728">SLCVVMat</a> &amp;&#160;</td>
-          <td class="paramname"><em>tvecs</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="_s_l_8h.html#a469a4feb5adc315c56ec15d511600f71">SLVfloat</a> &amp;&#160;</td>
-          <td class="paramname"><em>reprojErrs</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="_s_l_c_v_8h.html#aea47012b9180a75cfd7ec2cf735fc0db">SLCVVVPoint2f</a> &amp;&#160;</td>
-          <td class="paramname"><em>imagePoints</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>totalAvgErr</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a>&#160;</td>
-          <td class="paramname"><em>flag</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a>&#160;</td>
-          <td class="paramname"><em>filename</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="_s_l_c_v_8h.html#af35d04fd003282caec13d0b5ac5fcbab">SLCVSize</a> &amp;&#160;</td>
-          <td class="paramname"><em>boardSize</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a>&#160;</td>
-          <td class="paramname"><em>squareSize</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Saves the camera calibration parameters to the config file. </p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_c8272d645ebfda6411862271e704593b.html">lib-SLProject</a></li><li class="navelem"><a class="el" href="dir_dac97db7b2bc27a06e3fc01229640b31.html">source</a></li><li class="navelem"><a class="el" href="dir_56765a2f42a9fcaf21979745fc78f8c6.html">CV</a></li><li class="navelem"><a class="el" href="_s_l_c_v_calibration_8cpp.html">SLCVCalibration.cpp</a></li>
-    <li class="footer">Generated on Tue Feb 21 2017 12:45:22 for SLProject by
+    <li class="footer">Generated on Sat Sep 2 2017 11:24:09 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
   </ul>

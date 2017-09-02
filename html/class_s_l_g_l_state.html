@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">2.0</span>
+   &#160;<span id="projectnumber">2.1</span>
    </div>
   </td>
  </tr>
@@ -274,8 +274,14 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:a80c500430f2278b96bfec7b7db0a094f"><td class="mdescLeft">&#160;</td><td class="mdescRight">emissive color (ke)  <a href="#a80c500430f2278b96bfec7b7db0a094f"></a><br/></td></tr>
 <tr class="separator:a80c500430f2278b96bfec7b7db0a094f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a898154535efb5e97e17b955a05eb6b01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_g_l_state.html#a898154535efb5e97e17b955a05eb6b01">matShininess</a></td></tr>
-<tr class="memdesc:a898154535efb5e97e17b955a05eb6b01"><td class="mdescLeft">&#160;</td><td class="mdescRight">shininess exponent  <a href="#a898154535efb5e97e17b955a05eb6b01"></a><br/></td></tr>
+<tr class="memdesc:a898154535efb5e97e17b955a05eb6b01"><td class="mdescLeft">&#160;</td><td class="mdescRight">shininess exponent for Blinn-Phong lighting  <a href="#a898154535efb5e97e17b955a05eb6b01"></a><br/></td></tr>
 <tr class="separator:a898154535efb5e97e17b955a05eb6b01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a795532d2780ed998205e1b3f37a2ba80"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_g_l_state.html#a795532d2780ed998205e1b3f37a2ba80">matRoughness</a></td></tr>
+<tr class="memdesc:a795532d2780ed998205e1b3f37a2ba80"><td class="mdescLeft">&#160;</td><td class="mdescRight">roughness for Cook-Torrance lighting  <a href="#a795532d2780ed998205e1b3f37a2ba80"></a><br/></td></tr>
+<tr class="separator:a795532d2780ed998205e1b3f37a2ba80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cd6395b328940e99395126621553e9b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_g_l_state.html#a3cd6395b328940e99395126621553e9b">matMetallic</a></td></tr>
+<tr class="memdesc:a3cd6395b328940e99395126621553e9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">metallic for Cook-Torrance lighing  <a href="#a3cd6395b328940e99395126621553e9b"></a><br/></td></tr>
+<tr class="separator:a3cd6395b328940e99395126621553e9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61ce9d739accd089aeb685e3169d32c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_g_l_state.html#a61ce9d739accd089aeb685e3169d32c3">fogIsOn</a></td></tr>
 <tr class="memdesc:a61ce9d739accd089aeb685e3169d32c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag if fog blending is enabled.  <a href="#a61ce9d739accd089aeb685e3169d32c3"></a><br/></td></tr>
 <tr class="separator:a61ce9d739accd089aeb685e3169d32c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2775,6 +2781,34 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a3cd6395b328940e99395126621553e9b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> SLGLState::matMetallic</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>metallic for Cook-Torrance lighing </p>
+
+</div>
+</div>
+<a class="anchor" id="a795532d2780ed998205e1b3f37a2ba80"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> SLGLState::matRoughness</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>roughness for Cook-Torrance lighting </p>
+
+</div>
+</div>
 <a class="anchor" id="a898154535efb5e97e17b955a05eb6b01"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2785,7 +2819,7 @@ Static Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>shininess exponent </p>
+<p>shininess exponent for Blinn-Phong lighting </p>
 
 </div>
 </div>
@@ -2926,7 +2960,7 @@ Static Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_s_l_g_l_state.html">SLGLState</a></li>
-    <li class="footer">Generated on Tue Feb 21 2017 12:45:29 for SLProject by
+    <li class="footer">Generated on Sat Sep 2 2017 11:24:55 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
   </ul>

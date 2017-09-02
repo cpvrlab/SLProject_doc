@@ -15,6 +15,5 @@ var class_s_l_light_direct =
     [ "spotDirWS", "class_s_l_light_direct.html#a4b1aafed1b4f2256ddc9bcc60a803760", null ],
     [ "statsRec", "class_s_l_light_direct.html#aadc5b73bd9db98c874823f3361caf5ec", null ],
     [ "_arrowLength", "class_s_l_light_direct.html#a9a16eb2b29af246c48b5e3383398f2b7", null ],
-    [ "_arrowRadius", "class_s_l_light_direct.html#aa419209975f1b43c505f14bd0401e199", null ],
-    [ "_oldTouchPos1", "class_s_l_light_direct.html#a84810e3b35b63d575a3c409e1d5c7511", null ]
+    [ "_arrowRadius", "class_s_l_light_direct.html#aa419209975f1b43c505f14bd0401e199", null ]
 ];

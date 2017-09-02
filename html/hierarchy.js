@@ -1,5 +1,9 @@
 var hierarchy =
 [
+    [ "colorBGR", "structcolor_b_g_r.html", null ],
+    [ "Feature2D", null, [
+      [ "SLCVRaulMurOrb", "class_s_l_c_v_raul_mur_orb.html", null ]
+    ] ],
     [ "glUtils", "classgl_utils.html", null ],
     [ "SL", "class_s_l.html", null ],
     [ "SLAABBox", "class_s_l_a_a_b_box.html", null ],
@@ -21,12 +25,14 @@ var hierarchy =
     [ "SLCVArucoParams", "class_s_l_c_v_aruco_params.html", null ],
     [ "SLCVCalibration", "class_s_l_c_v_calibration.html", null ],
     [ "SLCVCapture", "class_s_l_c_v_capture.html", null ],
-    [ "SLCVFeatureMap2D", "class_s_l_c_v_feature_map2_d.html", null ],
-    [ "SLCVFeatureMapper2D", "class_s_l_c_v_feature_mapper2_d.html", null ],
-    [ "SLCVTracker", "class_s_l_c_v_tracker.html", [
-      [ "SLCVTrackerAruco", "class_s_l_c_v_tracker_aruco.html", null ],
-      [ "SLCVTrackerChessboard", "class_s_l_c_v_tracker_chessboard.html", null ]
+    [ "SLCVFeatureManager", "class_s_l_c_v_feature_manager.html", null ],
+    [ "SLCVRaulMurExtractorNode", "class_s_l_c_v_raul_mur_extractor_node.html", null ],
+    [ "SLCVTracked", "class_s_l_c_v_tracked.html", [
+      [ "SLCVTrackedAruco", "class_s_l_c_v_tracked_aruco.html", null ],
+      [ "SLCVTrackedChessboard", "class_s_l_c_v_tracked_chessboard.html", null ],
+      [ "SLCVTrackedFeatures", "class_s_l_c_v_tracked_features.html", null ]
     ] ],
+    [ "SLDemoGui", "class_s_l_demo_gui.html", null ],
     [ "SLDrawBits", "class_s_l_draw_bits.html", null ],
     [ "SLEventHandler", "class_s_l_event_handler.html", [
       [ "SLGLUniform< T >", "class_s_l_g_l_uniform.html", null ],
@@ -41,10 +47,14 @@ var hierarchy =
       ] ],
       [ "SLRaytracer", "class_s_l_raytracer.html", [
         [ "SLPathtracer", "class_s_l_pathtracer.html", null ]
-      ] ]
+      ] ],
+      [ "SLTransferFunction", "class_s_l_transfer_function.html", null ]
     ] ],
+    [ "SLCVTrackedFeatures::SLFeatureMarker2D", "struct_s_l_c_v_tracked_features_1_1_s_l_feature_marker2_d.html", null ],
     [ "SLFileSystem", "class_s_l_file_system.html", null ],
+    [ "SLCVTrackedFeatures::SLFrameData", "struct_s_l_c_v_tracked_features_1_1_s_l_frame_data.html", null ],
     [ "SLGLAttribute", "struct_s_l_g_l_attribute.html", null ],
+    [ "SLGLImGui", "class_s_l_g_l_im_gui.html", null ],
     [ "SLGLOculus", "class_s_l_g_l_oculus.html", null ],
     [ "SLGLOculusFB", "class_s_l_g_l_oculus_f_b.html", null ],
     [ "SLGLState", "class_s_l_g_l_state.html", null ],
@@ -52,7 +62,6 @@ var hierarchy =
       [ "SLGLVertexArrayExt", "class_s_l_g_l_vertex_array_ext.html", null ]
     ] ],
     [ "SLGLVertexBuffer", "class_s_l_g_l_vertex_buffer.html", null ],
-    [ "SLImage_JPEG_error", "struct_s_l_image___j_p_e_g__error.html", null ],
     [ "SLImporter", "class_s_l_importer.html", [
       [ "SLAssimpImporter", "class_s_l_assimp_importer.html", null ]
     ] ],
@@ -90,9 +99,9 @@ var hierarchy =
       [ "SLGLShader", "class_s_l_g_l_shader.html", null ],
       [ "SLGLTexture", "class_s_l_g_l_texture.html", [
         [ "SLRaytracer", "class_s_l_raytracer.html", null ],
-        [ "SLTexFont", "class_s_l_tex_font.html", null ]
+        [ "SLTexFont", "class_s_l_tex_font.html", null ],
+        [ "SLTransferFunction", "class_s_l_transfer_function.html", null ]
       ] ],
-      [ "SLImage", "class_s_l_image.html", null ],
       [ "SLMaterial", "class_s_l_material.html", null ],
       [ "SLMesh", "class_s_l_mesh.html", [
         [ "SLBox", "class_s_l_box.html", null ],
@@ -129,6 +138,8 @@ var hierarchy =
     [ "SLStack< SLMat4f >", "class_s_l_stack.html", null ],
     [ "SLTexFont::SLTexFontChar", "struct_s_l_tex_font_1_1_s_l_tex_font_char.html", null ],
     [ "SLTimer", "class_s_l_timer.html", null ],
+    [ "SLTransferAlpha", "struct_s_l_transfer_alpha.html", null ],
+    [ "SLTransferColor", "struct_s_l_transfer_color.html", null ],
     [ "SLUtils", "class_s_l_utils.html", null ],
     [ "SLVec2< T >", "class_s_l_vec2.html", null ],
     [ "SLVec2< SLfloat >", "class_s_l_vec2.html", null ],
@@ -141,10 +152,6 @@ var hierarchy =
     [ "SLVec4< SLint >", "class_s_l_vec4.html", null ],
     [ "SLVector< T, U >", "class_s_l_vector.html", null ],
     [ "SLVertexOculus", "struct_s_l_vertex_oculus.html", null ],
-    [ "sTGA", "structs_t_g_a.html", null ],
-    [ "sTGAHeader", "structs_t_g_a_header.html", null ],
-    [ "tagBMP_FILEHEADER", "structtag_b_m_p___f_i_l_e_h_e_a_d_e_r.html", null ],
-    [ "tagBMP_INFO", "structtag_b_m_p___i_n_f_o.html", null ],
-    [ "tagBMP_INFOHEADER", "structtag_b_m_p___i_n_f_o_h_e_a_d_e_r.html", null ],
-    [ "tagBMP_RGBQUAD", "structtag_b_m_p___r_g_b_q_u_a_d.html", null ]
+    [ "YUV2RGB_BlockInfo", "struct_y_u_v2_r_g_b___block_info.html", null ],
+    [ "YUV2RGB_ImageInfo", "struct_y_u_v2_r_g_b___image_info.html", null ]
 ];

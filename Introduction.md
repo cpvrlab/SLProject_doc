@@ -3,7 +3,7 @@
 <p>
 The following class diagram gives you an overview of the major classes with of its important variables and methods:
 <ul>
-    <li>The <b>gray boxes</b> are the application side that depends on the OS and the GUI tool-kit.</li>
+    <li>The <b>gray boxes</b> are the application side that depends on the OS, the window the GUI tool-kit.</li>
     <li>The <b>blue classes</b> form the centre with the SLInputManager, SLScene and SLSceneView class.</li>
     <li>The <b>yellow classes</b> define the materials that are responsible for the visual appearances of the mesh objects.</li>
     <li>The <b>green classes</b> build the scenegraph that defines the spacial structure of the visible objects.</li>
@@ -24,33 +24,33 @@ before it is handled by the C++-framework in the library lib-SLProject.
 The following OS' are supported and applications are provided for demonstration:
 <ul>
     <li>
-        Windows, Linux and Max OSX applications can use the <a href="http://www.glfw.org/">GLFW</a>
+        <b>Windows, Linux and Max OSX</b> applications use the <a href="http://www.glfw.org/">GLFW</a>
         C-library for the platform independent window and context creation.
-        GLFW is included in the SLProject repository. See the app-Demo-GLFW for demonstration.
+        GLFW is included in the SLProject repository. See the app-Demo-GLFW for demonstration. 
+		For all demo apps (with GLFW, on iOS and Android) we use the 
+        <a href="https://github.com/ocornut/imgui">ImGUI</a> library for the UI. 
+		The UI for the demo apps is implemented in the class SLDemoGui. ImGUI is also included in the repository.
     </li>
     <li>
-        Windows, Linux and Max OSX applications can also use the <a href="http://qt-project.org/">Qt</a>
-        C++-library for the window and context creation. Qt has to be downloaded and installed additionally.
-        See the app-Demo-Qt for demonstration.
-    </li>
-    <li>
-        The Android application starts in JAVA and passes the events with JNI (Java
+        The <b>Android</b> application starts in JAVA and passes the events with JNI (Java
         Native Interface) to the C-interface. See the <a href="https://github.com/cpvrlab/SLProject/wiki/Build-for-Android">
         wiki for build instructions</a> and the app-Demo-Android for demonstration.
     </li>
     <li>
-        On Apple iOS Devices the application starts in ObjectiveC before it passes the
+        On <b>Apple iOS</b> Devices the application starts in ObjectiveC before it passes the
         events to the C-interface. See the <a href="https://github.com/cpvrlab/SLProject/wiki/Build-for-Apple-iOS">
         wiki for build instructions</a> and the app-Demo-iOS for demonstration.
     </li>
     <li>
         You could in fact use any GUI library on any OS that can create OpenGL contexts.
-        Other alternatives could be e.g.
-        <a href="http://freeglut.sourceforge.net/">freeglut</a>,
-        <a href="http://www.fltk.org/index.php">FLTK</a>,
-        <a href="http://www.wxwidgets.org/">wxWidgets</a>,
-        <a href="http://www.nanapro.org/en-us/">Nana</a> or
-        <a href="http://www.juce.com/">Juce</a>
+        Other alternatives could be e.g. 
+		<a href="https://www.qt.io/">Qt</a>, 
+		<a href="http://freeglut.sourceforge.net/">freeglut</a>, 
+		<a href="http://www.fltk.org/index.php">FLTK</a>, 
+		<a href="http://www.wxwidgets.org/">wxWidgets</a>, 
+		<a href="http://www.nanapro.org/en-us/">Nana</a> or 
+		<a href="http://www.juce.com/">Juce</a>.
+		An extended example with Qt can be found in the folder _old. 
     </li>
 </ul>
 </p>
@@ -193,7 +193,7 @@ The red animation classes provide the functionality for simple node animations o
         by which it can be influenced.
     </li>
     <li>
-        SLJoint is a specialized SLNode that represents a single joint (or bone) in a skeleton
+        SLJoint is a specialised SLNode that represents a single joint (or bone) in a skeleton
         The main addition of SLJoint to the base SLNode is the offset matrix which is the
         inverse transformation of the joint's binding pose in mesh space.
         It is used to transform the vertices of a rigged SLMesh to the origin of the joint
@@ -219,20 +219,25 @@ that can be used as a texture on an objects material or as the scenes background
         SLCVCalibration holds all functionality to calibrate the video camera. A classic chessboard pattern is used for calibration. In the demo application a special scene is provided for the calibration (Preferences > Video > Calibrate Camera).
     </li>
     <li>
-        SLCVTracker is the base class for tracking classes. The scene can have multiple trackers. 
+        SLCVTracked is the base class for tracking classes. The scene can have multiple trackers. 
 		A tracker is associated with a Node. When the object to be tracked is found, it controls the nodes transform. If the associated node is the scenes active camera a classic augmented reality application can be generated.		
     </li>
     <li>
-        SLCVTrackerChessboard tracks the same chessboard that is used for the camera calibration.	
+        SLCVTrackedChessboard tracks the same chessboard that is used for the camera calibration.	
     </li>
     <li>
-        SLCVTrackerAruco tracks special markers called AruCo markers. These markers are optimal in tracking performance and stability.	
+        SLCVTrackedAruco tracks special markers called AruCo markers. These markers are optimal in tracking performance and stability.	
+    </li>
+    <li>
+        SLCVTrackedFeatures tracks any 2D features. Supported are any feature detectors and descriptors that
+		are provided by OpenCV. In addition we include the enhanced ORB feature detector developed by 
+        <a href="https://github.com/raulmur/ORB_SLAM2/">Raul Mur</a>
     </li>
 </ul>
 </p>
 
 <p>
 Authors: marcus.hudritsch@bfh.ch<br>
-Date: February 2017<br>
+Date: September 2017<br>
 Copyright (c): 2002-2017 Marcus Hudritsch, Kirchrain 18, 2572 Sutz, Switzerland
 </p>

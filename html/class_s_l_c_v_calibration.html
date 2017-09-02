@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">2.0</span>
+   &#160;<span id="projectnumber">2.1</span>
    </div>
   </td>
  </tr>
@@ -71,6 +71,7 @@ $(document).ready(function(){initNavTree('class_s_l_c_v_calibration.html','');})
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_s_l_c_v_calibration-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">SLCVCalibration Class Reference</div>  </div>
@@ -86,33 +87,52 @@ $(document).ready(function(){initNavTree('class_s_l_c_v_calibration.html','');})
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a3dc9dff1caf14d72fbdefc11f5d653f3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#a3dc9dff1caf14d72fbdefc11f5d653f3">SLCVCalibration</a> ()</td></tr>
 <tr class="separator:a3dc9dff1caf14d72fbdefc11f5d653f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad403262a4c0fb8ef811cfc3b83ffa5d8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#ad403262a4c0fb8ef811cfc3b83ffa5d8">load</a> (<a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a> calibFileName, <a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> mirror)</td></tr>
-<tr class="memdesc:ad403262a4c0fb8ef811cfc3b83ffa5d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the calibration information from the config file.  <a href="#ad403262a4c0fb8ef811cfc3b83ffa5d8"></a><br/></td></tr>
-<tr class="separator:ad403262a4c0fb8ef811cfc3b83ffa5d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d032d9dff903f6527551c80ca9fc94d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#a8d032d9dff903f6527551c80ca9fc94d">~SLCVCalibration</a> ()</td></tr>
+<tr class="separator:a8d032d9dff903f6527551c80ca9fc94d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f5d5803b90a0b1e2da26cdb605ca41c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#a8f5d5803b90a0b1e2da26cdb605ca41c">load</a> (<a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a> <a class="el" href="class_s_l_c_v_calibration.html#a108e71975877c93a144318a18cbaca48">calibFileName</a>, <a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> mirrorHorizontally, <a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> mirrorVertically)</td></tr>
+<tr class="memdesc:a8f5d5803b90a0b1e2da26cdb605ca41c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the calibration information from the config file.  <a href="#a8f5d5803b90a0b1e2da26cdb605ca41c"></a><br/></td></tr>
+<tr class="separator:a8f5d5803b90a0b1e2da26cdb605ca41c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad764b68769643efa10a00b6733af5afa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#ad764b68769643efa10a00b6733af5afa">save</a> ()</td></tr>
+<tr class="memdesc:ad764b68769643efa10a00b6733af5afa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves the camera calibration parameters to the config file.  <a href="#ad764b68769643efa10a00b6733af5afa"></a><br/></td></tr>
+<tr class="separator:ad764b68769643efa10a00b6733af5afa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acecbc5212151cfa87e0df15a815c90b9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#acecbc5212151cfa87e0df15a815c90b9">loadCalibParams</a> ()</td></tr>
 <tr class="memdesc:acecbc5212151cfa87e0df15a815c90b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the chessboard calibration pattern parameters.  <a href="#acecbc5212151cfa87e0df15a815c90b9"></a><br/></td></tr>
 <tr class="separator:acecbc5212151cfa87e0df15a815c90b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0258851c4d9234d1fa2d9ae72fe61a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#ac0258851c4d9234d1fa2d9ae72fe61a8">setCalibrationState</a> ()</td></tr>
-<tr class="memdesc:ac0258851c4d9234d1fa2d9ae72fe61a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears and flags the state for calibration.  <a href="#ac0258851c4d9234d1fa2d9ae72fe61a8"></a><br/></td></tr>
-<tr class="separator:ac0258851c4d9234d1fa2d9ae72fe61a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91e9a0656d1c9a97ff6303de1a25d20e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#a91e9a0656d1c9a97ff6303de1a25d20e">calculate</a> ()</td></tr>
 <tr class="memdesc:a91e9a0656d1c9a97ff6303de1a25d20e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initiates the final calculation.  <a href="#a91e9a0656d1c9a97ff6303de1a25d20e"></a><br/></td></tr>
 <tr class="separator:a91e9a0656d1c9a97ff6303de1a25d20e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a972496ac03de9c3dcb84e0328ba9f168"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#a972496ac03de9c3dcb84e0328ba9f168">clear</a> ()</td></tr>
 <tr class="memdesc:a972496ac03de9c3dcb84e0328ba9f168"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets the calibration to the uncalibrated state.  <a href="#a972496ac03de9c3dcb84e0328ba9f168"></a><br/></td></tr>
 <tr class="separator:a972496ac03de9c3dcb84e0328ba9f168"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b14a0f90b123f7b60c43759912923f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#a2b14a0f90b123f7b60c43759912923f5">calcReprojectionErr</a> (const <a class="el" href="_s_l_c_v_8h.html#aa0266d85243803471d6bb42061d19211">SLCVVVPoint3f</a> &amp;objectPoints, const <a class="el" href="_s_l_c_v_8h.html#a545f65bf5eaf3437d2c62a4411a9d728">SLCVVMat</a> &amp;rvecs, const <a class="el" href="_s_l_c_v_8h.html#a545f65bf5eaf3437d2c62a4411a9d728">SLCVVMat</a> &amp;tvecs, <a class="el" href="_s_l_8h.html#a469a4feb5adc315c56ec15d511600f71">SLVfloat</a> &amp;perViewErrors)</td></tr>
+<tr class="memdesc:a2b14a0f90b123f7b60c43759912923f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the reprojection error of the calibration.  <a href="#a2b14a0f90b123f7b60c43759912923f5"></a><br/></td></tr>
+<tr class="separator:a2b14a0f90b123f7b60c43759912923f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a472dd8e77192e1793f351a5501ece41d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#a472dd8e77192e1793f351a5501ece41d">findChessboard</a> (<a class="el" href="_s_l_c_v_8h.html#a931cd144af48217cf4457932c275206c">SLCVMat</a> imageColor, <a class="el" href="_s_l_c_v_8h.html#a931cd144af48217cf4457932c275206c">SLCVMat</a> imageGray, bool drawCorners=true)</td></tr>
 <tr class="memdesc:a472dd8e77192e1793f351a5501ece41d"><td class="mdescLeft">&#160;</td><td class="mdescRight">&lt; Finds the inner chessboard corners in the given image  <a href="#a472dd8e77192e1793f351a5501ece41d"></a><br/></td></tr>
 <tr class="separator:a472dd8e77192e1793f351a5501ece41d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a480acf565c8ac731b997bb76f9c80ce7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#a480acf565c8ac731b997bb76f9c80ce7">estimate</a> (<a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a> imageWidthPX, <a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a> imageHeightPX)</td></tr>
-<tr class="memdesc:a480acf565c8ac731b997bb76f9c80ce7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates camera intrinsics from an estimated FOV angle.  <a href="#a480acf565c8ac731b997bb76f9c80ce7"></a><br/></td></tr>
-<tr class="separator:a480acf565c8ac731b997bb76f9c80ce7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56ede91235fe5f3aac3bacee55c8a291"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#a56ede91235fe5f3aac3bacee55c8a291">buildUndistortionMaps</a> ()</td></tr>
+<tr class="memdesc:a56ede91235fe5f3aac3bacee55c8a291"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds undistortion maps after calibration or loading.  <a href="#a56ede91235fe5f3aac3bacee55c8a291"></a><br/></td></tr>
+<tr class="separator:a56ede91235fe5f3aac3bacee55c8a291"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bbe54c2b55166bf2728dc95497fe6ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#a6bbe54c2b55166bf2728dc95497fe6ef">remap</a> (<a class="el" href="_s_l_c_v_8h.html#a931cd144af48217cf4457932c275206c">SLCVMat</a> &amp;inDistorted, <a class="el" href="_s_l_c_v_8h.html#a931cd144af48217cf4457932c275206c">SLCVMat</a> &amp;outUndistorted)</td></tr>
+<tr class="memdesc:a6bbe54c2b55166bf2728dc95497fe6ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Undistorts the inDistorted image into the outUndistorted.  <a href="#a6bbe54c2b55166bf2728dc95497fe6ef"></a><br/></td></tr>
+<tr class="separator:a6bbe54c2b55166bf2728dc95497fe6ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b1050600c4eac55202d8a74196de5e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#a9b1050600c4eac55202d8a74196de5e2">createFromGuessedFOV</a> (<a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a> imageWidthPX, <a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a> imageHeightPX)</td></tr>
+<tr class="memdesc:a9b1050600c4eac55202d8a74196de5e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates camera intrinsics from a guessed FOV angle.  <a href="#a9b1050600c4eac55202d8a74196de5e2"></a><br/></td></tr>
+<tr class="separator:a9b1050600c4eac55202d8a74196de5e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afec496f314fac059f454befd477380dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#afec496f314fac059f454befd477380dc">state</a> (<a class="el" href="_s_l_enums_8h.html#acf2c11eb376c63f148c4054e4f078364">SLCVCalibState</a> s)</td></tr>
 <tr class="separator:afec496f314fac059f454befd477380dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc74963ee086b5d556b7d07787df92da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#adc74963ee086b5d556b7d07787df92da">isMirrored</a> (<a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> iM)</td></tr>
-<tr class="separator:adc74963ee086b5d556b7d07787df92da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6d4e3587dae552d090a56d460198590"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#ac6d4e3587dae552d090a56d460198590">showUndistorted</a> (<a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> sU)</td></tr>
-<tr class="separator:ac6d4e3587dae552d090a56d460198590"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33d90da639edf87e32e351c3de765f5f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#a33d90da639edf87e32e351c3de765f5f">toggleMirrorH</a> ()</td></tr>
+<tr class="separator:a33d90da639edf87e32e351c3de765f5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d9b70d451ea69faac435b090ff1e651"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#a4d9b70d451ea69faac435b090ff1e651">toggleMirrorV</a> ()</td></tr>
+<tr class="separator:a4d9b70d451ea69faac435b090ff1e651"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e65a0cadee6fe53af53b0299f2c54b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#a1e65a0cadee6fe53af53b0299f2c54b0">toggleFixPrincipalPoint</a> ()</td></tr>
+<tr class="separator:a1e65a0cadee6fe53af53b0299f2c54b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeda9beebccb83a84e8fb2efa9b7eee45"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#aeda9beebccb83a84e8fb2efa9b7eee45">toggleFixAspectRatio</a> ()</td></tr>
+<tr class="separator:aeda9beebccb83a84e8fb2efa9b7eee45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c5e7081a042e404400d91a6f8c188f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#a8c5e7081a042e404400d91a6f8c188f8">toggleZeroTangentDist</a> ()</td></tr>
+<tr class="separator:a8c5e7081a042e404400d91a6f8c188f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16e7a786f28069f06a3aeeec4aa97a36"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#a16e7a786f28069f06a3aeeec4aa97a36">showUndistorted</a> (<a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> su)</td></tr>
+<tr class="separator:a16e7a786f28069f06a3aeeec4aa97a36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6532fd93fe52192c499db783a92485be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_c_v_8h.html#af35d04fd003282caec13d0b5ac5fcbab">SLCVSize</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#a6532fd93fe52192c499db783a92485be">imageSize</a> ()</td></tr>
 <tr class="separator:a6532fd93fe52192c499db783a92485be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4fefcb2b2cc648028093333c9f4350be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#a4fefcb2b2cc648028093333c9f4350be">imageAspectRatio</a> ()</td></tr>
@@ -123,8 +143,16 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab9cfaa102332dcf62c1084a5a74e14e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a574db3debbbd2beddb8c29ed0e911aca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#a574db3debbbd2beddb8c29ed0e911aca">cameraFovDeg</a> ()</td></tr>
 <tr class="separator:a574db3debbbd2beddb8c29ed0e911aca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa87cabf1e0784d7625d297dceb22edff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#aa87cabf1e0784d7625d297dceb22edff">isMirrored</a> ()</td></tr>
-<tr class="separator:aa87cabf1e0784d7625d297dceb22edff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d1be3b19571ad5bbbd61bf9e1c8b4ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#a4d1be3b19571ad5bbbd61bf9e1c8b4ea">calibFixPrincipalPoint</a> ()</td></tr>
+<tr class="separator:a4d1be3b19571ad5bbbd61bf9e1c8b4ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb23ebff67926d046e4891c49b563753"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#acb23ebff67926d046e4891c49b563753">calibFixAspectRatio</a> ()</td></tr>
+<tr class="separator:acb23ebff67926d046e4891c49b563753"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a362930c2e20f2562b6c3e3980b09787e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#a362930c2e20f2562b6c3e3980b09787e">calibZeroTangentDist</a> ()</td></tr>
+<tr class="separator:a362930c2e20f2562b6c3e3980b09787e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a421fecaf297cab01ca38872c2c7b64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#a3a421fecaf297cab01ca38872c2c7b64">isMirroredH</a> ()</td></tr>
+<tr class="separator:a3a421fecaf297cab01ca38872c2c7b64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa084400e46f8b65e2739f2526ee6ea9f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#aa084400e46f8b65e2739f2526ee6ea9f">isMirroredV</a> ()</td></tr>
+<tr class="separator:aa084400e46f8b65e2739f2526ee6ea9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f648f3c9fcaf9b507b96ac24befd09a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#a0f648f3c9fcaf9b507b96ac24befd09a">fx</a> ()</td></tr>
 <tr class="separator:a0f648f3c9fcaf9b507b96ac24befd09a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58df2ee0b96739f3dd7c15c27d8f856f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#a58df2ee0b96739f3dd7c15c27d8f856f">fy</a> ()</td></tr>
@@ -159,6 +187,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a854e73f8038220deecd72e8b1ba22887"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a993d3c1ebd108fd84cf2a40581c7bca4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#a993d3c1ebd108fd84cf2a40581c7bca4">calibrationTime</a> ()</td></tr>
 <tr class="separator:a993d3c1ebd108fd84cf2a40581c7bca4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a108e71975877c93a144318a18cbaca48"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#a108e71975877c93a144318a18cbaca48">calibFileName</a> ()</td></tr>
+<tr class="separator:a108e71975877c93a144318a18cbaca48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b5c7f1faa45e057708bd3e4f62c2bb4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#a2b5c7f1faa45e057708bd3e4f62c2bb4">stateStr</a> ()</td></tr>
 <tr class="separator:a2b5c7f1faa45e057708bd3e4f62c2bb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -176,9 +206,9 @@ Static Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:ab5f953ce15528fa7992e58e42085f52f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#ab5f953ce15528fa7992e58e42085f52f">calcCameraFOV</a> ()</td></tr>
-<tr class="memdesc:ab5f953ce15528fa7992e58e42085f52f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the vertical field of view angle in degrees.  <a href="#ab5f953ce15528fa7992e58e42085f52f"></a><br/></td></tr>
-<tr class="separator:ab5f953ce15528fa7992e58e42085f52f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a151826947c33ef18c79777e7ee1316aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#a151826947c33ef18c79777e7ee1316aa">calcCameraFOV</a> ()</td></tr>
+<tr class="memdesc:a151826947c33ef18c79777e7ee1316aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the vertical field of view angle in degrees.  <a href="#a151826947c33ef18c79777e7ee1316aa"></a><br/></td></tr>
+<tr class="separator:a151826947c33ef18c79777e7ee1316aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -186,23 +216,38 @@ Private Attributes</h2></td></tr>
 <tr class="memdesc:aaf74b87937ce943dc7f77a2ab58825a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">3x3 Matrix for intrinsic camera matrix  <a href="#aaf74b87937ce943dc7f77a2ab58825a2"></a><br/></td></tr>
 <tr class="separator:aaf74b87937ce943dc7f77a2ab58825a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2fe683d0f7d0394cb460715c69a4ae1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_c_v_8h.html#a931cd144af48217cf4457932c275206c">SLCVMat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#ac2fe683d0f7d0394cb460715c69a4ae1">_distortion</a></td></tr>
-<tr class="memdesc:ac2fe683d0f7d0394cb460715c69a4ae1"><td class="mdescLeft">&#160;</td><td class="mdescRight">5x1 Matrix for intrinsic distortion ///////////////////////////////////////////////////////////////////////////////  <a href="#ac2fe683d0f7d0394cb460715c69a4ae1"></a><br/></td></tr>
+<tr class="memdesc:ac2fe683d0f7d0394cb460715c69a4ae1"><td class="mdescLeft">&#160;</td><td class="mdescRight">4x1 Matrix for intrinsic distortion ////////////////////////////////////////////////////////////////////////////////  <a href="#ac2fe683d0f7d0394cb460715c69a4ae1"></a><br/></td></tr>
 <tr class="separator:ac2fe683d0f7d0394cb460715c69a4ae1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe625f4dc552787c7aa349f036e19997"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#afe625f4dc552787c7aa349f036e19997">_cameraFovDeg</a></td></tr>
-<tr class="memdesc:afe625f4dc552787c7aa349f036e19997"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vertical field of view in degrees.  <a href="#afe625f4dc552787c7aa349f036e19997"></a><br/></td></tr>
-<tr class="separator:afe625f4dc552787c7aa349f036e19997"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a707235c97866b785da99eb7a55c11a0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_enums_8h.html#acf2c11eb376c63f148c4054e4f078364">SLCVCalibState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#a707235c97866b785da99eb7a55c11a0e">_state</a></td></tr>
 <tr class="memdesc:a707235c97866b785da99eb7a55c11a0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">calibration state enumeration  <a href="#a707235c97866b785da99eb7a55c11a0e"></a><br/></td></tr>
 <tr class="separator:a707235c97866b785da99eb7a55c11a0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe625f4dc552787c7aa349f036e19997"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#afe625f4dc552787c7aa349f036e19997">_cameraFovDeg</a></td></tr>
+<tr class="memdesc:afe625f4dc552787c7aa349f036e19997"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vertical field of view in degrees.  <a href="#afe625f4dc552787c7aa349f036e19997"></a><br/></td></tr>
+<tr class="separator:afe625f4dc552787c7aa349f036e19997"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1a3ea3380b38812d159852c94e0ec44"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#aa1a3ea3380b38812d159852c94e0ec44">_calibFileName</a></td></tr>
 <tr class="memdesc:aa1a3ea3380b38812d159852c94e0ec44"><td class="mdescLeft">&#160;</td><td class="mdescRight">name for calibration file  <a href="#aa1a3ea3380b38812d159852c94e0ec44"></a><br/></td></tr>
 <tr class="separator:aa1a3ea3380b38812d159852c94e0ec44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09f242c7ee744b9db44340c41a682014"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#a09f242c7ee744b9db44340c41a682014">_calibParamsFileName</a></td></tr>
 <tr class="memdesc:a09f242c7ee744b9db44340c41a682014"><td class="mdescLeft">&#160;</td><td class="mdescRight">name of calibration paramters file  <a href="#a09f242c7ee744b9db44340c41a682014"></a><br/></td></tr>
 <tr class="separator:a09f242c7ee744b9db44340c41a682014"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e4609684607422a4d11131be166aac7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#a8e4609684607422a4d11131be166aac7">_isMirrored</a></td></tr>
-<tr class="memdesc:a8e4609684607422a4d11131be166aac7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag if input image must be mirrored.  <a href="#a8e4609684607422a4d11131be166aac7"></a><br/></td></tr>
-<tr class="separator:a8e4609684607422a4d11131be166aac7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14c667f02b7525401930517821c9424f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#a14c667f02b7525401930517821c9424f">_calibFlags</a></td></tr>
+<tr class="memdesc:a14c667f02b7525401930517821c9424f"><td class="mdescLeft">&#160;</td><td class="mdescRight">OpenCV calibration flags.  <a href="#a14c667f02b7525401930517821c9424f"></a><br/></td></tr>
+<tr class="separator:a14c667f02b7525401930517821c9424f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bc5d48a1b5b4b572a050ee1bec36f12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#a7bc5d48a1b5b4b572a050ee1bec36f12">_calibFixPrincipalPoint</a></td></tr>
+<tr class="memdesc:a7bc5d48a1b5b4b572a050ee1bec36f12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calib. flag for fix principal point.  <a href="#a7bc5d48a1b5b4b572a050ee1bec36f12"></a><br/></td></tr>
+<tr class="separator:a7bc5d48a1b5b4b572a050ee1bec36f12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b3d801d3d19bfcf3e97ff1fb6997065"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#a3b3d801d3d19bfcf3e97ff1fb6997065">_calibFixAspectRatio</a></td></tr>
+<tr class="memdesc:a3b3d801d3d19bfcf3e97ff1fb6997065"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calib. flag for fix aspect ratio.  <a href="#a3b3d801d3d19bfcf3e97ff1fb6997065"></a><br/></td></tr>
+<tr class="separator:a3b3d801d3d19bfcf3e97ff1fb6997065"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1ff64817c43f79f829f180dbed0c29d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#ae1ff64817c43f79f829f180dbed0c29d">_calibZeroTangentDist</a></td></tr>
+<tr class="memdesc:ae1ff64817c43f79f829f180dbed0c29d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calib. flag for zero tangent distortion.  <a href="#ae1ff64817c43f79f829f180dbed0c29d"></a><br/></td></tr>
+<tr class="separator:ae1ff64817c43f79f829f180dbed0c29d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99d3ea6536744df23ae8f47e09ed47b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#a99d3ea6536744df23ae8f47e09ed47b7">_isMirroredH</a></td></tr>
+<tr class="memdesc:a99d3ea6536744df23ae8f47e09ed47b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag if image must be horizontally mirrored.  <a href="#a99d3ea6536744df23ae8f47e09ed47b7"></a><br/></td></tr>
+<tr class="separator:a99d3ea6536744df23ae8f47e09ed47b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49f00240772331e2f63d6daa9f9e6175"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#a49f00240772331e2f63d6daa9f9e6175">_isMirroredV</a></td></tr>
+<tr class="memdesc:a49f00240772331e2f63d6daa9f9e6175"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag if image must be vertically mirrored.  <a href="#a49f00240772331e2f63d6daa9f9e6175"></a><br/></td></tr>
+<tr class="separator:a49f00240772331e2f63d6daa9f9e6175"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1133d45fddf5480e9b74b81836ba6fe1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_c_v_8h.html#af35d04fd003282caec13d0b5ac5fcbab">SLCVSize</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#a1133d45fddf5480e9b74b81836ba6fe1">_boardSize</a></td></tr>
 <tr class="memdesc:a1133d45fddf5480e9b74b81836ba6fe1"><td class="mdescLeft">&#160;</td><td class="mdescRight">NO. of inner chessboard corners.  <a href="#a1133d45fddf5480e9b74b81836ba6fe1"></a><br/></td></tr>
 <tr class="separator:a1133d45fddf5480e9b74b81836ba6fe1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -227,15 +272,30 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:aa1ef1d50d45bd2e25c2e58b309928713"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#aa1ef1d50d45bd2e25c2e58b309928713">_showUndistorted</a></td></tr>
 <tr class="memdesc:aa1ef1d50d45bd2e25c2e58b309928713"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag if image should be undistorted.  <a href="#aa1ef1d50d45bd2e25c2e58b309928713"></a><br/></td></tr>
 <tr class="separator:aa1ef1d50d45bd2e25c2e58b309928713"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32b4fd7b9a4de4d6334bffc20e82de20"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_c_v_8h.html#a931cd144af48217cf4457932c275206c">SLCVMat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#a32b4fd7b9a4de4d6334bffc20e82de20">_undistortMapX</a></td></tr>
+<tr class="memdesc:a32b4fd7b9a4de4d6334bffc20e82de20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Undistortion float map in x-direction.  <a href="#a32b4fd7b9a4de4d6334bffc20e82de20"></a><br/></td></tr>
+<tr class="separator:a32b4fd7b9a4de4d6334bffc20e82de20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd43ece9c516772d4bece25ec7587896"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_c_v_8h.html#a931cd144af48217cf4457932c275206c">SLCVMat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#abd43ece9c516772d4bece25ec7587896">_undistortMapY</a></td></tr>
+<tr class="memdesc:abd43ece9c516772d4bece25ec7587896"><td class="mdescLeft">&#160;</td><td class="mdescRight">Undistortion float map in y-direction.  <a href="#abd43ece9c516772d4bece25ec7587896"></a><br/></td></tr>
+<tr class="separator:abd43ece9c516772d4bece25ec7587896"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeced7f441a4e49fb02eaebabd0a86598"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_c_v_8h.html#a931cd144af48217cf4457932c275206c">SLCVMat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#aeced7f441a4e49fb02eaebabd0a86598">_cameraMatUndistorted</a></td></tr>
+<tr class="memdesc:aeced7f441a4e49fb02eaebabd0a86598"><td class="mdescLeft">&#160;</td><td class="mdescRight">Camera matrix for undistorted image.  <a href="#aeced7f441a4e49fb02eaebabd0a86598"></a><br/></td></tr>
+<tr class="separator:aeced7f441a4e49fb02eaebabd0a86598"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a741fa761c3c5e8527736e2ccfdd615f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#a741fa761c3c5e8527736e2ccfdd615f5">_calibrationTime</a></td></tr>
 <tr class="memdesc:a741fa761c3c5e8527736e2ccfdd615f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time stamp string of calibration.  <a href="#a741fa761c3c5e8527736e2ccfdd615f5"></a><br/></td></tr>
 <tr class="separator:a741fa761c3c5e8527736e2ccfdd615f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a82b79fe34f298cc19862c5e778245e3a"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_c_v_calibration.html#a82b79fe34f298cc19862c5e778245e3a">_CALIBFILEVERSION</a> = 3</td></tr>
+<tr class="memdesc:a82b79fe34f298cc19862c5e778245e3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global const file format version.  <a href="#a82b79fe34f298cc19862c5e778245e3a"></a><br/></td></tr>
+<tr class="separator:a82b79fe34f298cc19862c5e778245e3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Live video camera calibration class with OpenCV an OpenCV calibration. </p>
 <p>The camera calibration can determine the inner or intrinsic parameters such as the focal length and the lens distortion and external or extrinsic parameter such as the camera pose towards a known geometry. <br/>
  For a good calibration we have to make 15-20 images from a chessboard pattern. The chessboard pattern can be printed from the CalibrationChessboard_8x5_A4.pdf in the folder _data/calibration. It is important that one side has an odd number of inner corners. Like this it is unambiguous and can be rotated in any direction. <br/>
- The different calibration states are handled within <a class="el" href="class_s_l_scene.html#af10cab4b78dffad547f02c0ad59b447b" title="Updates all animations in the scene after all views got painted.">SLScene::onUpdate</a>: <br/>
+ The different calibration states are handled within <a class="el" href="class_s_l_scene.html#af10cab4b78dffad547f02c0ad59b447b" title="Processes all queued events and updates animations, AR trackers and AABBs.">SLScene::onUpdate</a>: <br/>
 </p>
 <ul>
 <li>CS_uncalibrated: The camera is not calibrated (no calibration found found)</li>
@@ -245,7 +305,7 @@ Private Attributes</h2></td></tr>
 <li>CS_calibrated: The camera is calibrated</li>
 <li>CS_estimate: The camera intrinsics are set from an estimated FOV angle <br/>
  The core of the intrinsic calibration is stored in the members _cameraMat and _distortion. For the calibration internals see the OpenCV documentation: <a href="http://docs.opencv.org/3.1.0/dc/dbb/tutorial_py_calibration.html">http://docs.opencv.org/3.1.0/dc/dbb/tutorial_py_calibration.html</a> After a successufull calibration the parameters are stored in a config file on the <a class="el" href="class_s_l.html#a9788477abc05e5152e2849f7f12c2fcd" title="Default path for calibration files.">SL::configPath</a>. If it exists, it is loaded from there at startup. If doesn't exist a simple calibration from a default field of view angle is estimated. <br/>
- The <a class="el" href="class_s_l_scene.html" title="The SLScene class represents the top level instance holding the scene structure.">SLScene</a> instance has two video camera calibrations, one for a main camera (<a class="el" href="class_s_l_scene.html#a7789b5667cb104c885d80b1cdc575c7f" title="OpenCV calibration for main camera.">SLScene::_calibMainCam</a>) and one for the selfie camera on mobile devices (<a class="el" href="class_s_l_scene.html#ac7b71537bb100cd5a4fb54f6c9fc134d" title="OpenCV calibration for secondary camera.">SLScene::_calibScndCam</a>). The member <a class="el" href="class_s_l_scene.html#a1cf4720dba42ece72f8b578086312e92" title="Referance to the active calibration.">SLScene::_activeCalib</a> references the active one and is set by the <a class="el" href="class_s_l_scene.html#ab59b1dff4b8959255a0e480ea88d5930" title="Setter for video type also sets the active calibration.">SLScene::videoType</a> (VT_NONE, VT_MAIN, VT_SCND) during the scene assembly in <a class="el" href="class_s_l_scene.html#ada7194df99deb706cdc761db56cf5390" title="SLScene::onLoad(int _currentID) builds a scene from source code.">SLScene::onLoad</a>. </li>
+ The <a class="el" href="class_s_l_scene.html" title="The SLScene class represents the top level instance holding the scene structure.">SLScene</a> instance has two video camera calibrations, one for a main camera (<a class="el" href="class_s_l_scene.html#a7789b5667cb104c885d80b1cdc575c7f" title="OpenCV calibration for main video camera.">SLScene::_calibMainCam</a>) and one for the selfie camera on mobile devices (<a class="el" href="class_s_l_scene.html#ac7b71537bb100cd5a4fb54f6c9fc134d" title="OpenCV calibration for secondary video camera.">SLScene::_calibScndCam</a>). The member <a class="el" href="class_s_l_scene.html#a5fa89d3877e1636b1b3450a28ef9d512" title="Pointer to the active calibration.">SLScene::_activeCalib</a> references the active one and is set by the <a class="el" href="class_s_l_scene.html#ab59b1dff4b8959255a0e480ea88d5930" title="Setter for video type also sets the active calibration.">SLScene::videoType</a> (VT_NONE, VT_MAIN, VT_SCND) during the scene assembly in <a class="el" href="class_s_l_scene.html#ada7194df99deb706cdc761db56cf5390" title="SLScene::onLoad(int _currentID) builds a scene from source code.">SLScene::onLoad</a>. On mobile devices the front camera is the selfie camera (our secondary) and the back camera is the our main camera. </li>
 </ul>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a3dc9dff1caf14d72fbdefc11f5d653f3"></a>
@@ -259,6 +319,29 @@ Private Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8d032d9dff903f6527551c80ca9fc94d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SLCVCalibration::~SLCVCalibration </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -333,6 +416,23 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a56ede91235fe5f3aac3bacee55c8a291"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SLCVCalibration::buildUndistortionMaps </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Builds undistortion maps after calibration or loading. </p>
+
+</div>
+</div>
 <a class="anchor" id="a3255e49c03cd01dc3d0317d2f6a290ec"></a>
 <div class="memitem">
 <div class="memproto">
@@ -375,7 +475,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab5f953ce15528fa7992e58e42085f52f"></a>
+<a class="anchor" id="a151826947c33ef18c79777e7ee1316aa"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -383,7 +483,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void SLCVCalibration::calcCameraFOV </td>
+          <td class="memname"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> SLCVCalibration::calcCameraFOV </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -397,6 +497,46 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Calculates the vertical field of view angle in degrees. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2b14a0f90b123f7b60c43759912923f5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> SLCVCalibration::calcReprojectionErr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="_s_l_c_v_8h.html#aa0266d85243803471d6bb42061d19211">SLCVVVPoint3f</a> &amp;&#160;</td>
+          <td class="paramname"><em>objectPoints</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="_s_l_c_v_8h.html#a545f65bf5eaf3437d2c62a4411a9d728">SLCVVMat</a> &amp;&#160;</td>
+          <td class="paramname"><em>rvecs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="_s_l_c_v_8h.html#a545f65bf5eaf3437d2c62a4411a9d728">SLCVVMat</a> &amp;&#160;</td>
+          <td class="paramname"><em>tvecs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_s_l_8h.html#a469a4feb5adc315c56ec15d511600f71">SLVfloat</a> &amp;&#160;</td>
+          <td class="paramname"><em>perViewErrors</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculates the reprojection error of the calibration. </p>
 
 </div>
 </div>
@@ -417,6 +557,75 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a108e71975877c93a144318a18cbaca48"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a> SLCVCalibration::calibFileName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="acb23ebff67926d046e4891c49b563753"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> SLCVCalibration::calibFixAspectRatio </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4d1be3b19571ad5bbbd61bf9e1c8b4ea"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> SLCVCalibration::calibFixPrincipalPoint </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a993d3c1ebd108fd84cf2a40581c7bca4"></a>
 <div class="memitem">
 <div class="memproto">
@@ -426,6 +635,29 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a> SLCVCalibration::calibrationTime </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a362930c2e20f2562b6c3e3980b09787e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> SLCVCalibration::calibZeroTangentDist </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -503,6 +735,34 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a9b1050600c4eac55202d8a74196de5e2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SLCVCalibration::createFromGuessedFOV </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a>&#160;</td>
+          <td class="paramname"><em>imageWidthPX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a>&#160;</td>
+          <td class="paramname"><em>imageHeightPX</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculates camera intrinsics from a guessed FOV angle. </p>
+
+</div>
+</div>
 <a class="anchor" id="a86181cea9d57893987f26f0a30f82a55"></a>
 <div class="memitem">
 <div class="memproto">
@@ -569,34 +829,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a480acf565c8ac731b997bb76f9c80ce7"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void SLCVCalibration::estimate </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a>&#160;</td>
-          <td class="paramname"><em>imageWidthPX</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a>&#160;</td>
-          <td class="paramname"><em>imageHeightPX</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Calculates camera intrinsics from an estimated FOV angle. </p>
 
 </div>
 </div>
@@ -726,7 +958,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="adc74963ee086b5d556b7d07787df92da"></a>
+<a class="anchor" id="a3a421fecaf297cab01ca38872c2c7b64"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -734,10 +966,9 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void SLCVCalibration::isMirrored </td>
+          <td class="memname"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> SLCVCalibration::isMirroredH </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td>
-          <td class="paramname"><em>iM</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -750,7 +981,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aa87cabf1e0784d7625d297dceb22edff"></a>
+<a class="anchor" id="aa084400e46f8b65e2739f2526ee6ea9f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -758,7 +989,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> SLCVCalibration::isMirrored </td>
+          <td class="memname"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> SLCVCalibration::isMirroredV </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -819,7 +1050,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad403262a4c0fb8ef811cfc3b83ffa5d8"></a>
+<a class="anchor" id="a8f5d5803b90a0b1e2da26cdb605ca41c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -833,7 +1064,13 @@ Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td>
-          <td class="paramname"><em>mirror</em>&#160;</td>
+          <td class="paramname"><em>mirrorHorizontally</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td>
+          <td class="paramname"><em>mirrorVertically</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -956,6 +1193,34 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a6bbe54c2b55166bf2728dc95497fe6ef"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SLCVCalibration::remap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_s_l_c_v_8h.html#a931cd144af48217cf4457932c275206c">SLCVMat</a> &amp;&#160;</td>
+          <td class="paramname"><em>inDistorted</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_s_l_c_v_8h.html#a931cd144af48217cf4457932c275206c">SLCVMat</a> &amp;&#160;</td>
+          <td class="paramname"><em>outUndistorted</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Undistorts the inDistorted image into the outUndistorted. </p>
+
+</div>
+</div>
 <a class="anchor" id="a9e330daf57e0c5a445da0b49610a853d"></a>
 <div class="memitem">
 <div class="memproto">
@@ -979,12 +1244,12 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ac0258851c4d9234d1fa2d9ae72fe61a8"></a>
+<a class="anchor" id="ad764b68769643efa10a00b6733af5afa"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void SLCVCalibration::setCalibrationState </td>
+          <td class="memname">void SLCVCalibration::save </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -992,11 +1257,11 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Clears and flags the state for calibration. </p>
+<p>Saves the camera calibration parameters to the config file. </p>
 
 </div>
 </div>
-<a class="anchor" id="ac6d4e3587dae552d090a56d460198590"></a>
+<a class="anchor" id="a16e7a786f28069f06a3aeeec4aa97a36"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1007,7 +1272,7 @@ Private Attributes</h2></td></tr>
           <td class="memname">void SLCVCalibration::showUndistorted </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td>
-          <td class="paramname"><em>sU</em></td><td>)</td>
+          <td class="paramname"><em>su</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1113,6 +1378,121 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="aeda9beebccb83a84e8fb2efa9b7eee45"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SLCVCalibration::toggleFixAspectRatio </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1e65a0cadee6fe53af53b0299f2c54b0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SLCVCalibration::toggleFixPrincipalPoint </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a33d90da639edf87e32e351c3de765f5f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SLCVCalibration::toggleMirrorH </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4d9b70d451ea69faac435b090ff1e651"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SLCVCalibration::toggleMirrorV </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8c5e7081a042e404400d91a6f8c188f8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SLCVCalibration::toggleZeroTangentDist </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a class="anchor" id="a1133d45fddf5480e9b74b81836ba6fe1"></a>
 <div class="memitem">
@@ -1180,6 +1560,95 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a82b79fe34f298cc19862c5e778245e3a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a> SLCVCalibration::_CALIBFILEVERSION = 3</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Global const file format version. </p>
+<p>Increase the _CALIBFILEVERSION each time you change the file format. </p>
+
+</div>
+</div>
+<a class="anchor" id="a3b3d801d3d19bfcf3e97ff1fb6997065"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> SLCVCalibration::_calibFixAspectRatio</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calib. flag for fix aspect ratio. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7bc5d48a1b5b4b572a050ee1bec36f12"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> SLCVCalibration::_calibFixPrincipalPoint</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calib. flag for fix principal point. </p>
+
+</div>
+</div>
+<a class="anchor" id="a14c667f02b7525401930517821c9424f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a> SLCVCalibration::_calibFlags</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>OpenCV calibration flags. </p>
+
+</div>
+</div>
 <a class="anchor" id="a09f242c7ee744b9db44340c41a682014"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1221,6 +1690,28 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Time stamp string of calibration. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae1ff64817c43f79f829f180dbed0c29d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> SLCVCalibration::_calibZeroTangentDist</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calib. flag for zero tangent distortion. </p>
 
 </div>
 </div>
@@ -1268,6 +1759,28 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="aeced7f441a4e49fb02eaebabd0a86598"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_c_v_8h.html#a931cd144af48217cf4457932c275206c">SLCVMat</a> SLCVCalibration::_cameraMatUndistorted</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Camera matrix for undistorted image. </p>
+
+</div>
+</div>
 <a class="anchor" id="ac2fe683d0f7d0394cb460715c69a4ae1"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1286,7 +1799,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>5x1 Matrix for intrinsic distortion /////////////////////////////////////////////////////////////////////////////// </p>
+<p>4x1 Matrix for intrinsic distortion //////////////////////////////////////////////////////////////////////////////// </p>
 
 </div>
 </div>
@@ -1334,7 +1847,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a8e4609684607422a4d11131be166aac7"></a>
+<a class="anchor" id="a99d3ea6536744df23ae8f47e09ed47b7"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1342,7 +1855,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> SLCVCalibration::_isMirrored</td>
+          <td class="memname"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> SLCVCalibration::_isMirroredH</td>
         </tr>
       </table>
   </td>
@@ -1352,7 +1865,29 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Flag if input image must be mirrored. </p>
+<p>Flag if image must be horizontally mirrored. </p>
+
+</div>
+</div>
+<a class="anchor" id="a49f00240772331e2f63d6daa9f9e6175"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> SLCVCalibration::_isMirroredV</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Flag if image must be vertically mirrored. </p>
 
 </div>
 </div>
@@ -1466,6 +2001,50 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a32b4fd7b9a4de4d6334bffc20e82de20"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_c_v_8h.html#a931cd144af48217cf4457932c275206c">SLCVMat</a> SLCVCalibration::_undistortMapX</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Undistortion float map in x-direction. </p>
+
+</div>
+</div>
+<a class="anchor" id="abd43ece9c516772d4bece25ec7587896"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_c_v_8h.html#a931cd144af48217cf4457932c275206c">SLCVMat</a> SLCVCalibration::_undistortMapY</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Undistortion float map in y-direction. </p>
+
+</div>
+</div>
 <a class="anchor" id="a3ba15878d8eeff7c553dccc9ef00b515"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1499,7 +2078,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_s_l_c_v_calibration.html">SLCVCalibration</a></li>
-    <li class="footer">Generated on Tue Feb 21 2017 12:45:29 for SLProject by
+    <li class="footer">Generated on Sat Sep 2 2017 11:24:52 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
   </ul>

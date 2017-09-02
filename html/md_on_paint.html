@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">2.0</span>
+   &#160;<span id="projectnumber">2.1</span>
    </div>
   </td>
  </tr>
@@ -65,10 +65,10 @@ $(document).ready(function(){initNavTree('md_on_paint.html','');});
 <ul>
 <li><b>onPaint</b>:<ul>
 <li><b>slUpdateAndPaint</b>: C interface function<ul>
-<li><a class="el" href="class_s_l_scene.html#af10cab4b78dffad547f02c0ad59b447b" title="Updates all animations in the scene after all views got painted.">SLScene::onUpdate</a>:<ul>
+<li><a class="el" href="class_s_l_scene.html#af10cab4b78dffad547f02c0ad59b447b" title="Processes all queued events and updates animations, AR trackers and AABBs.">SLScene::onUpdate</a>:<ul>
 <li>Return if not all views are finished.</li>
 <li>Calculate the frame time over all views.</li>
-<li><a class="el" href="class_s_l_input_manager.html#accbdab788493640e8258459df7c284dd">SLInputManager::pollEvents</a> polls and processes the queued up user or device events.</li>
+<li>SLInputManager::pollEvents polls and processes the queued up user or device events.</li>
 <li><a class="el" href="class_s_l_anim_manager.html#afcc519a0a1ba33d6ee82aad478e807ce" title="Advances the time of all enabled animation plays.">SLAnimManager::update</a>:<ul>
 <li>All enabled node animations get updated by the elapsed time.</li>
 <li>Call <a class="el" href="class_s_l_skeleton.html#af029399f0f45636f0bcefcc1413467d5">SLSkeleton::updateAnimations</a> for all enabled skeletons with the elapsed time.</li>
@@ -90,7 +90,7 @@ $(document).ready(function(){initNavTree('md_on_paint.html','');});
 </li>
 <li><b>Frustum Culling</b>:<ul>
 <li><a class="el" href="class_s_l_camera.html#a9866ac380c8f97046d7eb129796aeed1" title="SLCamera::setFrustumPlanes set the 6 plane from the view frustum.">SLCamera::setFrustumPlanes</a> set the cameras frustum planes according to the current projection and view transform.</li>
-<li><a class="el" href="class_s_l_node.html#a487230f1024cac5f12be34226de76f4c">SLNode::cullRec</a> called on the root node:<ul>
+<li>SLNode::cullRec called on the root node:<ul>
 <li>All nodes are checked if they are visible.<ul>
 <li>All visible nodes without transparencies (opaque) are added to the _opaqueNodes vector.</li>
 <li>All visible nodes with transparencies are added to the _blendNodes vector.</li>
@@ -101,14 +101,14 @@ $(document).ready(function(){initNavTree('md_on_paint.html','');});
 </ul>
 </li>
 <li><a class="el" href="class_s_l_scene_view.html#a265b94097ecec9fe8bf4d685e095c4a0">SLSceneView::draw3DGLAll</a>:<ul>
-<li>Blending is turned off and the depthtest on</li>
+<li>Blending is turned off and the depth test on</li>
 <li><a class="el" href="class_s_l_scene_view.html#a444011dac8445ca89c98251f28ecaeb6">SLSceneView::draw3DGLNodes</a> is called for every node in the _opaqueNodes vector:<ul>
 <li>The view matrix is applied to the modelview matrix</li>
 <li>The nodes world matrix is applied to the modelview matrix</li>
 <li><a class="el" href="class_s_l_mesh.html#af4d3add1aa69f6d1e46fe801a93466f4">SLMesh::draw</a> is called on all meshes of the node:<ul>
 <li>1) Apply the drawing bits</li>
 <li>2) Apply the uniform variables to the shader<ul>
-<li>2a) Activate a shader program if it is not yet in use and apply all its material paramters.</li>
+<li>2a) Activate a shader program if it is not yet in use and apply all its material parameters.</li>
 <li>2b) Pass the modelview and modelview-projection matrix to the shader.</li>
 <li>2c) If needed build and pass the inverse modelview and the normal matrix.</li>
 <li>2d) If the mesh has a skeleton and HW skinning is applied pass the joint matrices.</li>
@@ -136,18 +136,20 @@ $(document).ready(function(){initNavTree('md_on_paint.html','');});
 <li>Blending is turned off and the depthtest on again.</li>
 </ul>
 </li>
-<li>SLSceneView::draw3DGLALL:<ul>
+<li><a class="el" href="class_s_l_scene_view.html#a265b94097ecec9fe8bf4d685e095c4a0">SLSceneView::draw3DGLAll</a>:<ul>
 <li>... (the same but for the right eye of stereo projections)</li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a class="el" href="class_s_l_scene_view.html#a5b9751907097fbbda414269382a98201">SLSceneView::draw2DGL</a> is called for all 2D drawing in orthographic projection.<ul>
-<li><a class="el" href="class_s_l_scene_view.html#a1887378fb96eab8873985501a9706d64">SLSceneView::draw2DGLAll</a>:<ul>
-<li>if visible the 2D Menu buttons get drawn in orthographic projection.</li>
-<li>if visible the debugging info text get drawn too.</li>
+<li><a class="el" href="class_s_l_scene_view.html#a5b9751907097fbbda414269382a98201">SLSceneView::draw2DGL</a> is called for all 2D drawing<ul>
+<li>1) The orthographic projection and viewport in screen space is set.</li>
+<li>2) A pseudo culling step for all nodes on the _root2D scene.</li>
+<li>3) <a class="el" href="class_s_l_scene_view.html#a1887378fb96eab8873985501a9706d64">SLSceneView::draw2DGLAll</a>:<ul>
+<li>all nodes in the _root2D scene node get drawn in orthographic projection.</li>
 </ul>
 </li>
+<li>4) The ImGUI::render function is called that draws the ImGUI UI.</li>
 </ul>
 </li>
 <li>if Oculus stereo projection is used the Oculus frame buffer is drawn and swapped.</li>
@@ -167,7 +169,7 @@ $(document).ready(function(){initNavTree('md_on_paint.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Feb 21 2017 12:45:28 for SLProject by
+    <li class="footer">Generated on Sat Sep 2 2017 11:24:49 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
   </ul>

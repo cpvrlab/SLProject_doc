@@ -66,35 +66,46 @@ var files =
     [ "SLCVCalibration.h", "_s_l_c_v_calibration_8h.html", [
       [ "SLCVCalibration", "class_s_l_c_v_calibration.html", "class_s_l_c_v_calibration" ]
     ] ],
-    [ "SLCVCapture.cpp", "_s_l_c_v_capture_8cpp.html", null ],
+    [ "SLCVCapture.cpp", "_s_l_c_v_capture_8cpp.html", "_s_l_c_v_capture_8cpp" ],
     [ "SLCVCapture.h", "_s_l_c_v_capture_8h.html", [
       [ "SLCVCapture", "class_s_l_c_v_capture.html", "class_s_l_c_v_capture" ]
     ] ],
-    [ "SLCVFeatureMap2D.h", "_s_l_c_v_feature_map2_d_8h.html", [
-      [ "SLCVFeatureMap2D", "class_s_l_c_v_feature_map2_d.html", "class_s_l_c_v_feature_map2_d" ]
-    ] ],
-    [ "SLCVFeatureMapper2D.cpp", "_s_l_c_v_feature_mapper2_d_8cpp.html", null ],
-    [ "SLCVFeatureMapper2D.h", "_s_l_c_v_feature_mapper2_d_8h.html", [
-      [ "SLCVFeatureMapper2D", "class_s_l_c_v_feature_mapper2_d.html", "class_s_l_c_v_feature_mapper2_d" ]
+    [ "SLCVFeatureManager.cpp", "_s_l_c_v_feature_manager_8cpp.html", null ],
+    [ "SLCVFeatureManager.h", "_s_l_c_v_feature_manager_8h.html", [
+      [ "SLCVFeatureManager", "class_s_l_c_v_feature_manager.html", "class_s_l_c_v_feature_manager" ]
     ] ],
     [ "SLCVImage.cpp", "_s_l_c_v_image_8cpp.html", null ],
     [ "SLCVImage.h", "_s_l_c_v_image_8h.html", "_s_l_c_v_image_8h" ],
-    [ "SLCVTracker.cpp", "_s_l_c_v_tracker_8cpp.html", null ],
-    [ "SLCVTracker.h", "_s_l_c_v_tracker_8h.html", [
-      [ "SLCVTracker", "class_s_l_c_v_tracker.html", "class_s_l_c_v_tracker" ]
+    [ "SLCVRaulMurExtractorNode.cpp", "_s_l_c_v_raul_mur_extractor_node_8cpp.html", null ],
+    [ "SLCVRaulMurExtractorNode.h", "_s_l_c_v_raul_mur_extractor_node_8h.html", [
+      [ "SLCVRaulMurExtractorNode", "class_s_l_c_v_raul_mur_extractor_node.html", "class_s_l_c_v_raul_mur_extractor_node" ]
     ] ],
-    [ "SLCVTrackerAruco.cpp", "_s_l_c_v_tracker_aruco_8cpp.html", null ],
-    [ "SLCVTrackerAruco.h", "_s_l_c_v_tracker_aruco_8h.html", [
+    [ "SLCVRaulMurOrb.cpp", "_s_l_c_v_raul_mur_orb_8cpp.html", "_s_l_c_v_raul_mur_orb_8cpp" ],
+    [ "SLCVRaulMurOrb.h", "_s_l_c_v_raul_mur_orb_8h.html", [
+      [ "SLCVRaulMurOrb", "class_s_l_c_v_raul_mur_orb.html", "class_s_l_c_v_raul_mur_orb" ]
+    ] ],
+    [ "SLCVTracked.cpp", "_s_l_c_v_tracked_8cpp.html", null ],
+    [ "SLCVTracked.h", "_s_l_c_v_tracked_8h.html", [
+      [ "SLCVTracked", "class_s_l_c_v_tracked.html", "class_s_l_c_v_tracked" ]
+    ] ],
+    [ "SLCVTrackedAruco.cpp", "_s_l_c_v_tracked_aruco_8cpp.html", null ],
+    [ "SLCVTrackedAruco.h", "_s_l_c_v_tracked_aruco_8h.html", [
       [ "SLCVArucoParams", "class_s_l_c_v_aruco_params.html", "class_s_l_c_v_aruco_params" ],
-      [ "SLCVTrackerAruco", "class_s_l_c_v_tracker_aruco.html", "class_s_l_c_v_tracker_aruco" ]
+      [ "SLCVTrackedAruco", "class_s_l_c_v_tracked_aruco.html", "class_s_l_c_v_tracked_aruco" ]
     ] ],
-    [ "SLCVTrackerChessboard.cpp", "_s_l_c_v_tracker_chessboard_8cpp.html", null ],
-    [ "SLCVTrackerChessboard.h", "_s_l_c_v_tracker_chessboard_8h.html", [
-      [ "SLCVTrackerChessboard", "class_s_l_c_v_tracker_chessboard.html", "class_s_l_c_v_tracker_chessboard" ]
+    [ "SLCVTrackedChessboard.cpp", "_s_l_c_v_tracked_chessboard_8cpp.html", null ],
+    [ "SLCVTrackedChessboard.h", "_s_l_c_v_tracked_chessboard_8h.html", [
+      [ "SLCVTrackedChessboard", "class_s_l_c_v_tracked_chessboard.html", "class_s_l_c_v_tracked_chessboard" ]
     ] ],
+    [ "SLCVTrackedFeatures.cpp", "_s_l_c_v_tracked_features_8cpp.html", "_s_l_c_v_tracked_features_8cpp" ],
+    [ "SLCVTrackedFeatures.h", "_s_l_c_v_tracked_features_8h.html", "_s_l_c_v_tracked_features_8h" ],
     [ "SLCylinder.cpp", "_s_l_cylinder_8cpp.html", null ],
     [ "SLCylinder.h", "_s_l_cylinder_8h.html", [
       [ "SLCylinder", "class_s_l_cylinder.html", "class_s_l_cylinder" ]
+    ] ],
+    [ "SLDemoGui.cpp", "_s_l_demo_gui_8cpp.html", "_s_l_demo_gui_8cpp" ],
+    [ "SLDemoGui.h", "_s_l_demo_gui_8h.html", [
+      [ "SLDemoGui", "class_s_l_demo_gui.html", "class_s_l_demo_gui" ]
     ] ],
     [ "SLDisk.cpp", "_s_l_disk_8cpp.html", null ],
     [ "SLDisk.h", "_s_l_disk_8h.html", [
@@ -110,6 +121,10 @@ var files =
     [ "SLGLEnums.h", "_s_l_g_l_enums_8h.html", "_s_l_g_l_enums_8h" ],
     [ "SLGLGenericProgram.h", "_s_l_g_l_generic_program_8h.html", [
       [ "SLGLGenericProgram", "class_s_l_g_l_generic_program.html", "class_s_l_g_l_generic_program" ]
+    ] ],
+    [ "SLGLImGui.cpp", "_s_l_g_l_im_gui_8cpp.html", "_s_l_g_l_im_gui_8cpp" ],
+    [ "SLGLImGui.h", "_s_l_g_l_im_gui_8h.html", [
+      [ "SLGLImGui", "class_s_l_g_l_im_gui.html", "class_s_l_g_l_im_gui" ]
     ] ],
     [ "SLGLOculus.cpp", "_s_l_g_l_oculus_8cpp.html", null ],
     [ "SLGLOculus.h", "_s_l_g_l_oculus_8h.html", "_s_l_g_l_oculus_8h" ],
@@ -142,8 +157,6 @@ var files =
     [ "SLGrid.h", "_s_l_grid_8h.html", [
       [ "SLGrid", "class_s_l_grid.html", "class_s_l_grid" ]
     ] ],
-    [ "SLImage.cpp", "_s_l_image_8cpp.html", "_s_l_image_8cpp" ],
-    [ "SLImage.h", "_s_l_image_8h.html", "_s_l_image_8h" ],
     [ "SLImporter.cpp", "_s_l_importer_8cpp.html", null ],
     [ "SLImporter.h", "_s_l_importer_8h.html", "_s_l_importer_8h" ],
     [ "SLInputDevice.cpp", "_s_l_input_device_8cpp.html", null ],
@@ -249,6 +262,8 @@ var files =
     ] ],
     [ "SLTimer.cpp", "_s_l_timer_8cpp.html", null ],
     [ "SLTimer.h", "_s_l_timer_8h.html", "_s_l_timer_8h" ],
+    [ "SLTransferFunction.cpp", "_s_l_transfer_function_8cpp.html", null ],
+    [ "SLTransferFunction.h", "_s_l_transfer_function_8h.html", "_s_l_transfer_function_8h" ],
     [ "SLTriangle.cpp", "_s_l_triangle_8cpp.html", null ],
     [ "SLTriangle.h", "_s_l_triangle_8h.html", [
       [ "SLTriangle", "class_s_l_triangle.html", "class_s_l_triangle" ]

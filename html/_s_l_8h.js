@@ -35,6 +35,7 @@ var _s_l_8h =
     [ "SLVint", "_s_l_8h.html#acc7599c3806601eb3c65d1a95802d5b3", null ],
     [ "SLVlong", "_s_l_8h.html#a8ed4389e38a5893b561525c56f5cb05e", null ],
     [ "SLVshort", "_s_l_8h.html#a0eee3317a0f9a89ae462b0d1a59725eb", null ],
+    [ "SLVsize_t", "_s_l_8h.html#a0356069bfb8de2fb5d814cf96acb1576", null ],
     [ "SLVstring", "_s_l_8h.html#aca126708dd7d8ef3cb2356e9c99b2712", null ],
     [ "SLVubyte", "_s_l_8h.html#a6a2930bcb1930a7f43e1297842d4a3b8", null ],
     [ "SLVuchar", "_s_l_8h.html#a8b8637db2d93f0d8cdd26be184417a9a", null ],
@@ -49,5 +50,6 @@ var _s_l_8h =
     [ "SLVVuint", "_s_l_8h.html#a6a169d5f7da0588cb66ee9d2dfb16a61", null ],
     [ "SLVVushort", "_s_l_8h.html#a668a504682fa007aac1f9ce09f9a6550", null ],
     [ "SLwstring", "_s_l_8h.html#ae0dc22fee25da19956235423b5cd3151", null ],
-    [ "SL_sizeOfVector", "_s_l_8h.html#adfa0ae8a3b351e741bc4e6947eb850db", null ]
+    [ "SL_sizeOfVector", "_s_l_8h.html#adfa0ae8a3b351e741bc4e6947eb850db", null ],
+    [ "to_string", "_s_l_8h.html#a0423d0cfc3161e70e82867fede98de9f", null ]
 ];

@@ -49,8 +49,9 @@ The framework uses beside OpenGL the following external libraries that are also 
 <ul>
     <li><a href="http://www.opengl.org/">OpenGL</a> platform independent realtime rendering.</li>
     <li><a href="http://www.opencv.org/">OpenCV</a> for image processing.</li>
-    <li><a href="http://nvwa.sourceforge.net/">nvwa</a> for memory management.</li>
+    <li><a href="https://github.com/ocornut/imgui">ImGUI</a> for an easy to use GUI.</li>
     <li><a href="http://assimp.sourceforge.net/">assimp</a> for 3D file formats loading.</li>
+    <li><a href="http://nvwa.sourceforge.net/">nvwa</a> for memory management.</li>
 </ul>
 
 <h3>Support:</h3>

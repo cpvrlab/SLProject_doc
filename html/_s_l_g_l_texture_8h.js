@@ -16,6 +16,8 @@ var _s_l_g_l_texture_8h =
       [ "TT_normal", "_s_l_g_l_texture_8h.html#a0a528bf535c89d9227e20b41e9135bcca98778527b6a8bbe38811d0d5346cac80", null ],
       [ "TT_height", "_s_l_g_l_texture_8h.html#a0a528bf535c89d9227e20b41e9135bcca247a81e56ae7acb5cf0bb9cabd69dce8", null ],
       [ "TT_gloss", "_s_l_g_l_texture_8h.html#a0a528bf535c89d9227e20b41e9135bcca11a072171843e91946637f1c23066768", null ],
+      [ "TT_roughness", "_s_l_g_l_texture_8h.html#a0a528bf535c89d9227e20b41e9135bcca74bc269097b363373fa656f6a48b83e8", null ],
+      [ "TT_metallic", "_s_l_g_l_texture_8h.html#a0a528bf535c89d9227e20b41e9135bcca35163b5ad4f06616bd6260c8067397f3", null ],
       [ "TT_font", "_s_l_g_l_texture_8h.html#a0a528bf535c89d9227e20b41e9135bccafda2a0dbf519f7d2b7b21939c51495ca", null ]
     ] ]
 ];

@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">2.0</span>
+   &#160;<span id="projectnumber">2.1</span>
    </div>
   </td>
  </tr>
@@ -78,14 +78,12 @@ $(document).ready(function(){initNavTree('_s_l_g_l_texture_8h.html','');});
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for SLGLTexture.h:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="_s_l_g_l_texture_8h__incl.svg" width="691" height="336"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="_s_l_g_l_texture_8h__incl.svg" width="1246" height="336"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="_s_l_g_l_texture_8h__dep__incl.svg" width="4300" height="411"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="_s_l_g_l_texture_8h__dep__incl.svg" width="4772" height="336"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -122,12 +120,17 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a0a528bf535c89d9227e20b41e9135bcc"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_g_l_texture_8h.html#a0a528bf535c89d9227e20b41e9135bcc">SLTextureType</a> { <a class="el" href="_s_l_g_l_texture_8h.html#a0a528bf535c89d9227e20b41e9135bcca38fc508aa56015f34e8f60188a2e98e2">TT_unknown</a>, 
+<tr class="memitem:a0a528bf535c89d9227e20b41e9135bcc"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_g_l_texture_8h.html#a0a528bf535c89d9227e20b41e9135bcc">SLTextureType</a> { <br/>
+&#160;&#160;<a class="el" href="_s_l_g_l_texture_8h.html#a0a528bf535c89d9227e20b41e9135bcca38fc508aa56015f34e8f60188a2e98e2">TT_unknown</a>, 
 <a class="el" href="_s_l_g_l_texture_8h.html#a0a528bf535c89d9227e20b41e9135bcca44651d89ea15477b8416108942323752">TT_color</a>, 
 <a class="el" href="_s_l_g_l_texture_8h.html#a0a528bf535c89d9227e20b41e9135bcca98778527b6a8bbe38811d0d5346cac80">TT_normal</a>, 
 <a class="el" href="_s_l_g_l_texture_8h.html#a0a528bf535c89d9227e20b41e9135bcca247a81e56ae7acb5cf0bb9cabd69dce8">TT_height</a>, 
 <a class="el" href="_s_l_g_l_texture_8h.html#a0a528bf535c89d9227e20b41e9135bcca11a072171843e91946637f1c23066768">TT_gloss</a>, 
+<a class="el" href="_s_l_g_l_texture_8h.html#a0a528bf535c89d9227e20b41e9135bcca74bc269097b363373fa656f6a48b83e8">TT_roughness</a>, 
+<br/>
+&#160;&#160;<a class="el" href="_s_l_g_l_texture_8h.html#a0a528bf535c89d9227e20b41e9135bcca35163b5ad4f06616bd6260c8067397f3">TT_metallic</a>, 
 <a class="el" href="_s_l_g_l_texture_8h.html#a0a528bf535c89d9227e20b41e9135bccafda2a0dbf519f7d2b7b21939c51495ca">TT_font</a>
+<br/>
  }</td></tr>
 <tr class="memdesc:a0a528bf535c89d9227e20b41e9135bcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Texture type enumeration &amp; their filename appendix for auto type detection.  <a href="_s_l_g_l_texture_8h.html#a0a528bf535c89d9227e20b41e9135bcc">More...</a><br/></td></tr>
 <tr class="separator:a0a528bf535c89d9227e20b41e9135bcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -267,6 +270,10 @@ Enumerations</h2></td></tr>
 </td></tr>
 <tr><td valign="top"><em><a class="anchor" id="a0a528bf535c89d9227e20b41e9135bcca11a072171843e91946637f1c23066768"></a>TT_gloss</em>&nbsp;</td><td>
 </td></tr>
+<tr><td valign="top"><em><a class="anchor" id="a0a528bf535c89d9227e20b41e9135bcca74bc269097b363373fa656f6a48b83e8"></a>TT_roughness</em>&nbsp;</td><td>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="a0a528bf535c89d9227e20b41e9135bcca35163b5ad4f06616bd6260c8067397f3"></a>TT_metallic</em>&nbsp;</td><td>
+</td></tr>
 <tr><td valign="top"><em><a class="anchor" id="a0a528bf535c89d9227e20b41e9135bccafda2a0dbf519f7d2b7b21939c51495ca"></a>TT_font</em>&nbsp;</td><td>
 </td></tr>
 </table>
@@ -281,7 +288,7 @@ Enumerations</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_43b3a96032ec52f10c098e2e3b7283be.html">include</a></li><li class="navelem"><a class="el" href="_s_l_g_l_texture_8h.html">SLGLTexture.h</a></li>
-    <li class="footer">Generated on Tue Feb 21 2017 12:45:24 for SLProject by
+    <li class="footer">Generated on Sat Sep 2 2017 11:24:22 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
   </ul>

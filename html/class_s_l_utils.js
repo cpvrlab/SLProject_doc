@@ -1,8 +1,9 @@
 var class_s_l_utils =
 [
+    [ "formatString", "class_s_l_utils.html#a35ec5d0f5b1f3ab05a28ed358a9a52fe", null ],
     [ "getFileExt", "class_s_l_utils.html#a8e59af69941f115b8dfa5ec341a46c50", null ],
     [ "getFileName", "class_s_l_utils.html#a71ff2bba08b129bd27508526940abec3", null ],
-    [ "getFileNamesInDir", "class_s_l_utils.html#a57270b3ce71b60a024c815454a62bcfc", null ],
+    [ "getFileNamesInDir", "class_s_l_utils.html#ad82ed57e5b53266422ebb77808765914", null ],
     [ "getFileNameWOExt", "class_s_l_utils.html#a6ea54f70cbce0cfa240929243ed4c605", null ],
     [ "getLocalTimeString", "class_s_l_utils.html#abbebdadc90b445be6f7602fa9457c754", null ],
     [ "getPath", "class_s_l_utils.html#a2924c8fb63693f042d92ac6dc255aa22", null ],
