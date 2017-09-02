@@ -2,7 +2,7 @@ How one frame gets painted
 ============
 
 The most outer onPaint routine gets called in the main event loop
-whenever the slUpadateAndRepaint returns true. Repaints occure therefore as
+whenever the slUpadateAndRepaint returns true. Repaints occurs therefore as
 fast as possible and only when needed. If nothing happens (no animation or
 camera move) no repaint is requested and energy can be saved. There is no
 timer involved.
@@ -11,19 +11,18 @@ timer involved.
    * **slUpdateAndPaint**: C interface function
       * SLScene::onUpdate:
          * Return if not all views are finished.
-         * Calculate the frame time over all views.
-         * SLInputManager::pollEvents polls and processes the queued up user or device events.
-         * SLAnimManager::update:
+         * 1) Calculate the frame time over all views.
+         * 2) SLInputManager::pollAndProcessEvents polls and processes the queued up user or device events.
+         * 3) SLAnimManager::update:
             * All enabled node animations get updated by the elapsed time.
             * Call SLSkeleton::updateAnimations for all enabled skeletons with the elapsed time.
-         * SLNode::updateAABBRec called on the root node to resize the
+         * 4) Do all Augmented Reality (AR) Tracking using the live video feed.
+         * 5) SLNode::updateAABBRec called on the root node to resize the
            axis aligned bounding boxes of all nodes that have changed during animation.
-         * SLMesh::transformSkin is called on all meshes with skeletons that use SW skinning.
-         * SLMesh::updateAccelStruct called on all meshes with software skinning,
       * SLSceneView::onPaint called for every sceneview:
          * SLSceneView::draw3DGL
             * SLCamera::camUpdate updates any camera animation (smooth transitions)
-            * All buffers are cleared (color, depth and Occulus frame buffer)
+            * All buffers are cleared (color, depth and Oculus frame buffer)
             * **Camera Settings**:
                * SLCamera::setProjection sets the projection
                  (perspective, orthographic or one of the stereo projections) and viewport.
@@ -58,10 +57,10 @@ timer involved.
                  * If the drawbit for viewing the AABBs is set SLAABBox::drawWS draws it.
                  * If the drawbit for viewing the axis is set SLAABBox::drawAxisWS draws it.
                * SLSceneView::draw3DGLLines: for every node in the _blendNodes vector the same as above.
-               * Blending is turned on and the depthtest off.
+               * Blending is turned on and the depth test off.
                * The nodes of the _blendNotes get sorted by depth for correct transparency blending.
                * SLSceneView::draw3DGLNodes is called for every node in the _blendNodes vector (same as above).
-               * Blending is turned off and the depthtest on again.
+               * Blending is turned off and the depth test on again.
             * SLSceneView::draw3DGLAll:
                * ... (the same but for the right eye of stereo projections)
          * SLSceneView::draw2DGL is called for all 2D drawing
@@ -71,7 +70,7 @@ timer involved.
                * all nodes in the _root2D scene node get drawn in orthographic projection.
             * 4) The ImGUI::render function is called that draws the ImGUI UI.
          * if Oculus stereo projection is used the Oculus frame buffer is drawn and swapped.
-      * return true if either an update or a camera move occured.
+      * return true if either an update or a camera move occurred.
    * Swap the back buffer to the front.
    * Update the window title.
    * return the answer from SLScene::updateIfAllViewsGotPainted and SLSceneView::onPaint

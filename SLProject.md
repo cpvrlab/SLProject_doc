@@ -26,6 +26,7 @@ The code is provided without any warranties whether expressed or implied.
 <ul>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/How-to-get-SLProject/">How to get SLProject</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/SLProject-Features">SLProject Features</a></li>
+<li><a href="https://github.com/cpvrlab/SLProject/wiki/Version-History">Version History</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/Build-with-VisualStudio">Build instructions with MS Visual Studio</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/Build-with-QtCreator">Build instructions with QtCreator under Windows, OSX or Linux.</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/Build-for-Android">Build instructions for the Android build with Android Studio.</a></li>
@@ -34,8 +35,7 @@ The code is provided without any warranties whether expressed or implied.
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/Folder-Structure">Repository folder structure</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/Coding-Style-Guidelines">Coding Style Guidelines for Contributors</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/Generate-the-Documentation">How to generate the HTML Documentation using Doxygen</a></li>
-<li><a href="http://cpvrlab.github.io/SLProject/html/index.html">Online HTML Documentation</a></li>
-<li><a href="https://github.com/cpvrlab/SLProject/wiki/Version-History">Version History</a></li>
+<li><a href="http://cpvrlab.github.io/SLProject_doc/html/index.html">Online HTML Documentation</a></li>
 </ul>
 
 <h3>Introduction:</h3>
