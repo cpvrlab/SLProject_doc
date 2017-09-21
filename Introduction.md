@@ -176,7 +176,7 @@ The red animation classes provide the functionality for simple node animations o
         SLAnimTrack and SLNodeAnimTrack: An animation track is a track that affects a
         single SLNode or an SLJoint of an SLSkeleton by interpolating its transform.
         It holds therefore a list of SLKeyframe. For a smooth motion it can interpolate
-        the transform at a given time between two neighboring SLKeyframe.
+        the transform at a given time between two neighbouring SLKeyframe.
      </li>
     <li>
         SLKeyframe and SLTransformKeyframe define a transform at a certain time on an
