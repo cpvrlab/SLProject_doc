@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">2.1</span>
+   &#160;<span id="projectnumber">2.2</span>
    </div>
   </td>
  </tr>
@@ -106,6 +106,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a31f43d488f2b44f27fabcac02b27578c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a347b229fd21566754c57d15c6a2127d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_camera.html#a347b229fd21566754c57d15c6a2127d6">calcMinMax</a> (<a class="el" href="_s_l_vec3_8h.html#a22a90ea5a9c12a50e5ce23324a383120">SLVec3f</a> &amp;minV, <a class="el" href="_s_l_vec3_8h.html#a22a90ea5a9c12a50e5ce23324a383120">SLVec3f</a> &amp;maxV)</td></tr>
 <tr class="separator:a347b229fd21566754c57d15c6a2127d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa73dbd13f953b37fc14e2a902a39be88"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_camera.html#aa73dbd13f953b37fc14e2a902a39be88">buildAABB</a> (<a class="el" href="class_s_l_a_a_b_box.html">SLAABBox</a> &amp;<a class="el" href="class_s_l_node.html#a1403e7cbc041bf53de3b240f2589ba77">aabb</a>, <a class="el" href="_s_l_mat4_8h.html#aa4e4dd2bcc8c451863ddc5f3e67b1ea9">SLMat4f</a> wmNode)</td></tr>
+<tr class="separator:aa73dbd13f953b37fc14e2a902a39be88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab2cf3898ee3c061b7bb1fc8437be91c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_camera.html#aab2cf3898ee3c061b7bb1fc8437be91c">onMouseDown</a> (const <a class="el" href="_s_l_enums_8h.html#aa0d4a64ab52b958b6230e389aec788de">SLMouseButton</a> button, const <a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a> x, const <a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a> y, const <a class="el" href="_s_l_enums_8h.html#afceaa9670aadae056dd2545c1be01e38">SLKey</a> mod)</td></tr>
 <tr class="memdesc:aab2cf3898ee3c061b7bb1fc8437be91c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets called whenever a mouse button gets pressed.  <a href="#aab2cf3898ee3c061b7bb1fc8437be91c"></a><br/></td></tr>
 <tr class="separator:aab2cf3898ee3c061b7bb1fc8437be91c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -130,6 +132,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a723c99c985d6774cb4b1f28afa931a71"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_camera.html#a723c99c985d6774cb4b1f28afa931a71">eyeToPixelRay</a> (<a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> x, <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> y, <a class="el" href="class_s_l_ray.html">SLRay</a> *ray)</td></tr>
 <tr class="memdesc:a723c99c985d6774cb4b1f28afa931a71"><td class="mdescLeft">&#160;</td><td class="mdescRight">eyeToPixelRay returns the a ray from the eye to the center of a pixel.  <a href="#a723c99c985d6774cb4b1f28afa931a71"></a><br/></td></tr>
 <tr class="separator:a723c99c985d6774cb4b1f28afa931a71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6e332b133f27c3848d00edd504ce925"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_vec3_8h.html#a22a90ea5a9c12a50e5ce23324a383120">SLVec3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_camera.html#aa6e332b133f27c3848d00edd504ce925">trackballVec</a> (const <a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a> x, const <a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a> y)</td></tr>
+<tr class="memdesc:aa6e332b133f27c3848d00edd504ce925"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a vector from the window center to a virtual trackball at [x,y].  <a href="#aa6e332b133f27c3848d00edd504ce925"></a><br/></td></tr>
+<tr class="separator:aa6e332b133f27c3848d00edd504ce925"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab4de571ab2ff3b97930a070bd45542c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_camera.html#aab4de571ab2ff3b97930a070bd45542c">isInFrustum</a> (<a class="el" href="class_s_l_a_a_b_box.html">SLAABBox</a> *<a class="el" href="class_s_l_node.html#a1403e7cbc041bf53de3b240f2589ba77">aabb</a>)</td></tr>
 <tr class="memdesc:aab4de571ab2ff3b97930a070bd45542c"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_s_l_camera.html#aab4de571ab2ff3b97930a070bd45542c" title="SLCamera::isInFrustum does a simple and fast frustum culling test for AABBs.">SLCamera::isInFrustum</a> does a simple and fast frustum culling test for AABBs.  <a href="#aab4de571ab2ff3b97930a070bd45542c"></a><br/></td></tr>
 <tr class="separator:aab4de571ab2ff3b97930a070bd45542c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -152,6 +157,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3735bd392c7e07f35dbe7d44f10e7070"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a360ee01102556c6419995206e3420af3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_camera.html#a360ee01102556c6419995206e3420af3">clipFar</a> (const <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> cFar)</td></tr>
 <tr class="separator:a360ee01102556c6419995206e3420af3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad27ce3d929fa4caf73329786cc459325"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_camera.html#ad27ce3d929fa4caf73329786cc459325">lookFrom</a> (const <a class="el" href="_s_l_vec3_8h.html#a22a90ea5a9c12a50e5ce23324a383120">SLVec3f</a> fromDir, const <a class="el" href="_s_l_vec3_8h.html#a22a90ea5a9c12a50e5ce23324a383120">SLVec3f</a> upDir=<a class="el" href="class_s_l_vec3.html#a4ca30e71ce175d74b8d1234ea4fd952f">SLVec3f::AXISY</a>)</td></tr>
+<tr class="memdesc:ad27ce3d929fa4caf73329786cc459325"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the view to look from a direction towards the current focal point.  <a href="#ad27ce3d929fa4caf73329786cc459325"></a><br/></td></tr>
+<tr class="separator:ad27ce3d929fa4caf73329786cc459325"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a530bfca275acbc68d0b8b782c1537a5b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_camera.html#a530bfca275acbc68d0b8b782c1537a5b">maxSpeed</a> (const <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> ms)</td></tr>
 <tr class="separator:a530bfca275acbc68d0b8b782c1537a5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94ca1b99596c5ae309c4a3c7acc42ff9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_camera.html#a94ca1b99596c5ae309c4a3c7acc42ff9">moveAccel</a> (const <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> accel)</td></tr>
@@ -168,8 +176,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7389e21ad89bcff0209b2e98af784bdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00214adf051ca28cd7e02f280f7465d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_camera.html#a00214adf051ca28cd7e02f280f7465d3">eyeSeparation</a> (const <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> es)</td></tr>
 <tr class="separator:a00214adf051ca28cd7e02f280f7465d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8454568a2511032ca48571f55f74be6f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_camera.html#a8454568a2511032ca48571f55f74be6f">useDeviceRot</a> (const <a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> use)</td></tr>
-<tr class="separator:a8454568a2511032ca48571f55f74be6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6498642a223ab2d1db975a420b05d257"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="_s_l_mat4_8h.html#aa4e4dd2bcc8c451863ddc5f3e67b1ea9">SLMat4f</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_camera.html#a6498642a223ab2d1db975a420b05d257">updateAndGetVM</a> () const </td></tr>
 <tr class="separator:a6498642a223ab2d1db975a420b05d257"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef43030903d72d13ee7c1fb12d0dd1bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_enums_8h.html#a70e4993b9e12800feca0f1059602ea58">SLProjection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_camera.html#aef43030903d72d13ee7c1fb12d0dd1bd">projection</a> () const </td></tr>
@@ -191,22 +197,26 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab689ab9aae62845b2659ce5a6e647860"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_camera.html#ab689ab9aae62845b2659ce5a6e647860">animationStr</a> () const </td></tr>
 <tr class="memdesc:ab689ab9aae62845b2659ce5a6e647860"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_s_l_camera.html#ab689ab9aae62845b2659ce5a6e647860" title="SLCamera::animationStr() returns the animation enum as string.">SLCamera::animationStr()</a> returns the animation enum as string.  <a href="#ab689ab9aae62845b2659ce5a6e647860"></a><br/></td></tr>
 <tr class="separator:ab689ab9aae62845b2659ce5a6e647860"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afce68d1357bfa87a00208b82d4b67f47"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_camera.html#afce68d1357bfa87a00208b82d4b67f47">focalDist</a> () const </td></tr>
-<tr class="separator:afce68d1357bfa87a00208b82d4b67f47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6354bd643dd0f41a36d94effcfb17417"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_camera.html#a6354bd643dd0f41a36d94effcfb17417">lensDiameter</a> () const </td></tr>
 <tr class="separator:a6354bd643dd0f41a36d94effcfb17417"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f04f8c40b9c927b5bfb14b2576a52e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_s_l_samples2_d.html">SLSamples2D</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_camera.html#a8f04f8c40b9c927b5bfb14b2576a52e9">lensSamples</a> ()</td></tr>
 <tr class="separator:a8f04f8c40b9c927b5bfb14b2576a52e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8cd1a9bc700d0be5ec4c59f2eae4df5a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_camera.html#a8cd1a9bc700d0be5ec4c59f2eae4df5a">eyeSeparation</a> () const </td></tr>
 <tr class="separator:a8cd1a9bc700d0be5ec4c59f2eae4df5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afce68d1357bfa87a00208b82d4b67f47"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_camera.html#afce68d1357bfa87a00208b82d4b67f47">focalDist</a> () const </td></tr>
+<tr class="separator:afce68d1357bfa87a00208b82d4b67f47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5144584c81a534e5b3b2676389e42dcb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_camera.html#a5144584c81a534e5b3b2676389e42dcb">focalDistScrW</a> () const </td></tr>
 <tr class="separator:a5144584c81a534e5b3b2676389e42dcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1dc81c1a5e566e27a4e3d2bbe19532f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_camera.html#a1dc81c1a5e566e27a4e3d2bbe19532f3">focalDistScrH</a> () const </td></tr>
 <tr class="separator:a1dc81c1a5e566e27a4e3d2bbe19532f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0eb2e18546586cb8330f838ed590522f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_vec3_8h.html#a22a90ea5a9c12a50e5ce23324a383120">SLVec3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_camera.html#a0eb2e18546586cb8330f838ed590522f">focalPointWS</a> () const </td></tr>
+<tr class="separator:a0eb2e18546586cb8330f838ed590522f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3e317bd77883d3e99c3af50198bf11d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_vec3_8h.html#a22a90ea5a9c12a50e5ce23324a383120">SLVec3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_camera.html#ac3e317bd77883d3e99c3af50198bf11d">focalPointOS</a> () const </td></tr>
+<tr class="separator:ac3e317bd77883d3e99c3af50198bf11d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6497ac99687121ca00139543896e6cb5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_camera.html#a6497ac99687121ca00139543896e6cb5">trackballSize</a> () const </td></tr>
+<tr class="separator:a6497ac99687121ca00139543896e6cb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa54311db8e76f80fa2b545ddf550ba9f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_s_l_background.html">SLBackground</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_camera.html#aa54311db8e76f80fa2b545ddf550ba9f">background</a> ()</td></tr>
 <tr class="separator:aa54311db8e76f80fa2b545ddf550ba9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fa4cd402c91b1516431dce19af1d0be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_s_l_ray.html">SLRay</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_camera.html#a6fa4cd402c91b1516431dce19af1d0be">lookAtRay</a> ()</td></tr>
-<tr class="separator:a6fa4cd402c91b1516431dce19af1d0be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a635c55a4d2ef7c938f21a5c3fb42b6f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_camera.html#a635c55a4d2ef7c938f21a5c3fb42b6f2">maxSpeed</a> () const </td></tr>
 <tr class="separator:a635c55a4d2ef7c938f21a5c3fb42b6f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04e743964307327d740ebdc311fdbda0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_camera.html#a04e743964307327d740ebdc311fdbda0">moveAccel</a> () const </td></tr>
@@ -215,8 +225,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a09b15eb02b8bed720807a6d57ddde27f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfb716335307b3c79e7a40c3c0589f07"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_camera.html#acfb716335307b3c79e7a40c3c0589f07">drag</a> () const </td></tr>
 <tr class="separator:acfb716335307b3c79e7a40c3c0589f07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af10fb6359d9fc9e510324a592fd5da9b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_camera.html#af10fb6359d9fc9e510324a592fd5da9b">useDeviceRot</a> () const </td></tr>
-<tr class="separator:af10fb6359d9fc9e510324a592fd5da9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f0ba3189f09bd72cb8d109b10452cd3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_camera.html#a4f0ba3189f09bd72cb8d109b10452cd3">toString</a> () const </td></tr>
 <tr class="memdesc:a4f0ba3189f09bd72cb8d109b10452cd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">SLCamera::to_string returns important camera parameter as a string.  <a href="#a4f0ba3189f09bd72cb8d109b10452cd3"></a><br/></td></tr>
 <tr class="separator:a4f0ba3189f09bd72cb8d109b10452cd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -259,8 +267,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0a36d8ef6f03558301dcba2831e1eb45 inherit pub_methods_class_s_l_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad25e2b89013ca8b7d89763b8c173fe09 inherit pub_methods_class_s_l_node"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_node.html#ad25e2b89013ca8b7d89763b8c173fe09">removeMesh</a> (<a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a> <a class="el" href="class_s_l_object.html#a801d395f3b263f7f06f6208461bdd096">name</a>)</td></tr>
 <tr class="separator:ad25e2b89013ca8b7d89763b8c173fe09 inherit pub_methods_class_s_l_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3593cd6ec016f08bcbccd9dc4a9a0a29 inherit pub_methods_class_s_l_node"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_s_l_mesh.html">SLMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_node.html#a3593cd6ec016f08bcbccd9dc4a9a0a29">findMesh</a> (<a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a> <a class="el" href="class_s_l_object.html#a801d395f3b263f7f06f6208461bdd096">name</a>)</td></tr>
-<tr class="separator:a3593cd6ec016f08bcbccd9dc4a9a0a29 inherit pub_methods_class_s_l_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a748d249a838788de6c3357fc2d30ccf2 inherit pub_methods_class_s_l_node"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_s_l_mesh.html">SLMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_node.html#a748d249a838788de6c3357fc2d30ccf2">findMesh</a> (<a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a> <a class="el" href="class_s_l_object.html#a801d395f3b263f7f06f6208461bdd096">name</a>, <a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> recursive=false)</td></tr>
+<tr class="separator:a748d249a838788de6c3357fc2d30ccf2 inherit pub_methods_class_s_l_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86f0566d3b26a22f91e3e81be7b08505 inherit pub_methods_class_s_l_node"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_node.html#a86f0566d3b26a22f91e3e81be7b08505">setAllMeshMaterials</a> (<a class="el" href="class_s_l_material.html">SLMaterial</a> *mat, <a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> recursive=true)</td></tr>
+<tr class="separator:a86f0566d3b26a22f91e3e81be7b08505 inherit pub_methods_class_s_l_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33555c9cc810b9b4715cc4686729e149 inherit pub_methods_class_s_l_node"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_node.html#a33555c9cc810b9b4715cc4686729e149">containsMesh</a> (const <a class="el" href="class_s_l_mesh.html">SLMesh</a> *mesh)</td></tr>
 <tr class="separator:a33555c9cc810b9b4715cc4686729e149 inherit pub_methods_class_s_l_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a041d2f297522142ba4a55dbd3a2d9f77 inherit pub_methods_class_s_l_node"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_node.html#a041d2f297522142ba4a55dbd3a2d9f77">numChildren</a> ()</td></tr>
@@ -283,9 +293,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6ff001f040229047c812a52948f8e7e1 inherit pub_methods_class_s_l_node"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a6ff001f040229047c812a52948f8e7e1 inherit pub_methods_class_s_l_node"><td class="memTemplItemLeft" align="right" valign="top">T *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_s_l_node.html#a6ff001f040229047c812a52948f8e7e1">findChild</a> (const <a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a> &amp;<a class="el" href="class_s_l_object.html#a801d395f3b263f7f06f6208461bdd096">name</a>=&quot;&quot;, <a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> findRecursive=true)</td></tr>
 <tr class="separator:a6ff001f040229047c812a52948f8e7e1 inherit pub_methods_class_s_l_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45c17bf34da61aaeff7587385dca6d4f inherit pub_methods_class_s_l_node"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a45c17bf34da61aaeff7587385dca6d4f inherit pub_methods_class_s_l_node"><td class="memTemplItemLeft" align="right" valign="top">vector&lt; T * &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_s_l_node.html#a45c17bf34da61aaeff7587385dca6d4f">findChildren</a> (const <a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a> &amp;<a class="el" href="class_s_l_object.html#a801d395f3b263f7f06f6208461bdd096">name</a>=&quot;&quot;, <a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> findRecursive=true)</td></tr>
-<tr class="separator:a45c17bf34da61aaeff7587385dca6d4f inherit pub_methods_class_s_l_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33ac2338d0ec647b3feaa7efeb2ab6c6 inherit pub_methods_class_s_l_node"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a33ac2338d0ec647b3feaa7efeb2ab6c6 inherit pub_methods_class_s_l_node"><td class="memTemplItemLeft" align="right" valign="top">vector&lt; T * &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_s_l_node.html#a33ac2338d0ec647b3feaa7efeb2ab6c6">findChildren</a> (const <a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a> &amp;<a class="el" href="class_s_l_object.html#a801d395f3b263f7f06f6208461bdd096">name</a>=&quot;&quot;, <a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> findRecursive=true, <a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> canContain=false)</td></tr>
+<tr class="separator:a33ac2338d0ec647b3feaa7efeb2ab6c6 inherit pub_methods_class_s_l_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac6e355e24bada294cc6d3058eb6d516 inherit pub_methods_class_s_l_node"><td class="memItemLeft" align="right" valign="top">vector&lt; <a class="el" href="class_s_l_node.html">SLNode</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_node.html#aac6e355e24bada294cc6d3058eb6d516">findChildren</a> (const <a class="el" href="class_s_l_mesh.html">SLMesh</a> *mesh, <a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> findRecursive=true)</td></tr>
 <tr class="separator:aac6e355e24bada294cc6d3058eb6d516 inherit pub_methods_class_s_l_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95da71096f54e4f1f1c0a8599fc31079 inherit pub_methods_class_s_l_node"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_vec3_8h.html#a22a90ea5a9c12a50e5ce23324a383120">SLVec3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_node.html#a95da71096f54e4f1f1c0a8599fc31079">translationOS</a> () const </td></tr>
@@ -411,6 +421,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4bb583af4521bcf795b57252b74b9624 inherit pub_methods_class_s_l_event_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf8906eb78b2a010d2153808e1af31f7 inherit pub_methods_class_s_l_event_handler"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_event_handler.html#abf8906eb78b2a010d2153808e1af31f7">onDoubleClick</a> (const <a class="el" href="_s_l_enums_8h.html#aa0d4a64ab52b958b6230e389aec788de">SLMouseButton</a> button, const <a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a> x, const <a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a> y, const <a class="el" href="_s_l_enums_8h.html#afceaa9670aadae056dd2545c1be01e38">SLKey</a> mod)</td></tr>
 <tr class="separator:abf8906eb78b2a010d2153808e1af31f7 inherit pub_methods_class_s_l_event_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9465e581726351f9fc307cd1d9e1c543 inherit pub_methods_class_s_l_event_handler"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_event_handler.html#a9465e581726351f9fc307cd1d9e1c543">onRotationPYR</a> (const <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> pitchRAD, const <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> yawRAD, const <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> rollRAD)</td></tr>
+<tr class="separator:a9465e581726351f9fc307cd1d9e1c543 inherit pub_methods_class_s_l_event_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3b8b933d424d55d11bbaba6ebf93d9a inherit pub_methods_class_s_l_event_handler"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_event_handler.html#ab3b8b933d424d55d11bbaba6ebf93d9a">rotFactor</a> (<a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> rf)</td></tr>
 <tr class="separator:ab3b8b933d424d55d11bbaba6ebf93d9a inherit pub_methods_class_s_l_event_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfde42afcd27f4ebe63e2e751378531c inherit pub_methods_class_s_l_event_handler"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_event_handler.html#abfde42afcd27f4ebe63e2e751378531c">dRot</a> (<a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> dr)</td></tr>
@@ -440,6 +452,10 @@ Static Public Attributes</h2></td></tr>
 <tr class="separator:abef4a643eb2a96eba007d8fbc8744702"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a296621a47126758ea4f7c5b66fef64f9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_camera.html#a296621a47126758ea4f7c5b66fef64f9">currentDevRotation</a> = 0</td></tr>
 <tr class="separator:a296621a47126758ea4f7c5b66fef64f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_class_s_l_node"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_class_s_l_node')"><img src="closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="class_s_l_node.html">SLNode</a></td></tr>
+<tr class="memitem:a51f1c2e6eaf88b30e719f710bf0abbda inherit pub_static_attribs_class_s_l_node"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_s_l_8h.html#a74dab4086041e043ebf72725bcf1cfe6">SLuint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_node.html#a51f1c2e6eaf88b30e719f710bf0abbda">numWMUpdates</a> = 0</td></tr>
+<tr class="memdesc:a51f1c2e6eaf88b30e719f710bf0abbda inherit pub_static_attribs_class_s_l_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">NO. of calls to updateWM per frame.  <a href="#a51f1c2e6eaf88b30e719f710bf0abbda"></a><br/></td></tr>
+<tr class="separator:a51f1c2e6eaf88b30e719f710bf0abbda inherit pub_static_attribs_class_s_l_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-types"></a>
 Protected Types</h2></td></tr>
@@ -498,6 +514,12 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a86ef81f0bea41b1cfcf462d2d6131e64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_vec2_8h.html#afe643e3766158c3ff5dc0ad67638de97">SLVec2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_camera.html#a86ef81f0bea41b1cfcf462d2d6131e64">_oldTouchPos2</a></td></tr>
 <tr class="memdesc:a86ef81f0bea41b1cfcf462d2d6131e64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Old 2nd finger touch position in pixels.  <a href="#a86ef81f0bea41b1cfcf462d2d6131e64"></a><br/></td></tr>
 <tr class="separator:a86ef81f0bea41b1cfcf462d2d6131e64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9444ad7ceb2efb68d948830efc0649c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_vec3_8h.html#a22a90ea5a9c12a50e5ce23324a383120">SLVec3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_camera.html#a9444ad7ceb2efb68d948830efc0649c0">_trackballStartVec</a></td></tr>
+<tr class="memdesc:a9444ad7ceb2efb68d948830efc0649c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trackball vector at mouse down.  <a href="#a9444ad7ceb2efb68d948830efc0649c0"></a><br/></td></tr>
+<tr class="separator:a9444ad7ceb2efb68d948830efc0649c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cee87ab493db91231d8fcdef1b816ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_camera.html#a7cee87ab493db91231d8fcdef1b816ab">_trackballSize</a></td></tr>
+<tr class="memdesc:a7cee87ab493db91231d8fcdef1b816ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size of trackball (0.8 = 80% of window size)  <a href="#a7cee87ab493db91231d8fcdef1b816ab"></a><br/></td></tr>
+<tr class="separator:a7cee87ab493db91231d8fcdef1b816ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b4bf1a8aed6ba1dbd529ecfd2b4d850"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_vec3_8h.html#a22a90ea5a9c12a50e5ce23324a383120">SLVec3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_camera.html#a4b4bf1a8aed6ba1dbd529ecfd2b4d850">_moveDir</a></td></tr>
 <tr class="memdesc:a4b4bf1a8aed6ba1dbd529ecfd2b4d850"><td class="mdescLeft">&#160;</td><td class="mdescRight">accumulated movement directions based on pressed buttons  <a href="#a4b4bf1a8aed6ba1dbd529ecfd2b4d850"></a><br/></td></tr>
 <tr class="separator:a4b4bf1a8aed6ba1dbd529ecfd2b4d850"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -519,14 +541,8 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a88aaee4eebed6d8bcf09a6cf9a6936c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_camera.html#a88aaee4eebed6d8bcf09a6cf9a6936c5">_moveAccel</a></td></tr>
 <tr class="memdesc:a88aaee4eebed6d8bcf09a6cf9a6936c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">move acceleration  <a href="#a88aaee4eebed6d8bcf09a6cf9a6936c5"></a><br/></td></tr>
 <tr class="separator:a88aaee4eebed6d8bcf09a6cf9a6936c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29790d24a48bfdb7d64f2343fabc918b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_camera.html#a29790d24a48bfdb7d64f2343fabc918b">_useDeviceRot</a></td></tr>
-<tr class="memdesc:a29790d24a48bfdb7d64f2343fabc918b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag if mobile device or oculus Rift rotation should be used.  <a href="#a29790d24a48bfdb7d64f2343fabc918b"></a><br/></td></tr>
-<tr class="separator:a29790d24a48bfdb7d64f2343fabc918b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab73b07cdfe6f9f1b9dc2f32431e3f6e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_s_l_ray.html">SLRay</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_camera.html#ab73b07cdfe6f9f1b9dc2f32431e3f6e7">_lookAtRay</a></td></tr>
-<tr class="memdesc:ab73b07cdfe6f9f1b9dc2f32431e3f6e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ray through the center of screen.  <a href="#ab73b07cdfe6f9f1b9dc2f32431e3f6e7"></a><br/></td></tr>
-<tr class="separator:ab73b07cdfe6f9f1b9dc2f32431e3f6e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7bcff9f2ab776609103d27f8eac9bf7b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_camera.html#a7bcff9f2ab776609103d27f8eac9bf7b">_focalDist</a></td></tr>
-<tr class="memdesc:a7bcff9f2ab776609103d27f8eac9bf7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">distance of focal plane from lens  <a href="#a7bcff9f2ab776609103d27f8eac9bf7b"></a><br/></td></tr>
+<tr class="memdesc:a7bcff9f2ab776609103d27f8eac9bf7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">distance to lookAt point on the focal plane from lens  <a href="#a7bcff9f2ab776609103d27f8eac9bf7b"></a><br/></td></tr>
 <tr class="separator:a7bcff9f2ab776609103d27f8eac9bf7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d4b6d2a0f49fc871bbe9f450efffd9c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_camera.html#a4d4b6d2a0f49fc871bbe9f450efffd9c">_lensDiameter</a></td></tr>
 <tr class="memdesc:a4d4b6d2a0f49fc871bbe9f450efffd9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lens diameter.  <a href="#a4d4b6d2a0f49fc871bbe9f450efffd9c"></a><br/></td></tr>
@@ -611,7 +627,17 @@ Protected Attributes</h2></td></tr>
 <div class="textblock"><p>Active or visible camera node class. </p>
 <p>An instance of this <a class="el" href="class_s_l_node.html" title="SLNode represents a node in a hierarchical scene graph.">SLNode</a> derived class serves as an active camera with all its view and projection parameters or if inactive as a visible scene graph node with camera body and its view frustum. The position and orientation of the active camera is set in the setView method by loading the view matrix _vm into the OpenGL modelview matrix. The view matrix _vm is simply the inverse of the shapes world matrix _wm. Every <a class="el" href="class_s_l_scene_view.html" title="SceneView class represents a dynamic real time 3D view onto the scene.">SLSceneView</a> instance has a pointer _camera to its active camera.<br/>
  Because the <a class="el" href="class_s_l_node.html" title="SLNode represents a node in a hierarchical scene graph.">SLNode</a> class is inherited from the abstract <a class="el" href="class_s_l_event_handler.html" title="Virtual Eventhandler class.">SLEventHandler</a> class a camera can handle mouse &amp; keyboard event. All camera animations are handled in these event handlers.<br/>
- Every camera has an instance of <a class="el" href="class_s_l_background.html" title="Defines a 2D-Background for the OpenGL framebuffer background.">SLBackground</a> that defines the views background if the camera is the active one. If the camera is inactive the background gets drawn on the far clipping plane of the visualized view frustum. </p>
+ The following camera animations are available:<br/>
+</p>
+<ul>
+<li>SLCamAnim::CA_turntableYUp</li>
+<li>SLCamAnim::CA_turntableZUp</li>
+<li>SLCamAnim::CA_trackball</li>
+<li>SLCamAnim::CA_walkingYUp</li>
+<li>SLCamAnim::CA_walkingZUp</li>
+<li>SLCamAnim::CA_deviceRotYUp <br/>
+ Every camera has an instance of <a class="el" href="class_s_l_background.html" title="Defines a 2D-Background for the OpenGL framebuffer background.">SLBackground</a> that defines the views background if the camera is the active one. If the camera is inactive the background gets drawn on the far clipping plane of the visualized view frustum. </li>
+</ul>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a class="anchor" id="a3e2b0fadf953bfb57a10b9ace354fdc8"></a>
 <div class="memitem">
@@ -794,6 +820,33 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="aa73dbd13f953b37fc14e2a902a39be88"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SLCamera::buildAABB </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_s_l_a_a_b_box.html">SLAABBox</a> &amp;&#160;</td>
+          <td class="paramname"><em>aabb</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_s_l_mat4_8h.html#aa4e4dd2bcc8c451863ddc5f3e67b1ea9">SLMat4f</a>&#160;</td>
+          <td class="paramname"><em>wmNode</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p><a class="el" href="class_s_l_camera.html#aa73dbd13f953b37fc14e2a902a39be88">SLCamera::buildAABB</a> builds the passed axis-aligned bounding box in OS and updates the min &amp; max points in WS with the passed WM of the node. The camera node has no mesh accociated, so we have to calculate the min and max point from the camera frustum. </p>
+
+</div>
+</div>
 <a class="anchor" id="a347b229fd21566754c57d15c6a2127d6"></a>
 <div class="memitem">
 <div class="memproto">
@@ -817,7 +870,7 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p><a class="el" href="class_s_l_camera.html#a347b229fd21566754c57d15c6a2127d6">SLCamera::calcMinMax</a> calculates the axis alligned minimum and maximum point of the camera position and the 4 near clipping plane points. </p>
+<p><a class="el" href="class_s_l_camera.html#a347b229fd21566754c57d15c6a2127d6">SLCamera::calcMinMax</a> calculates the axis alligned minimum and maximum point of the camera position and the 4 near clipping plane points in object space (OS). </p>
 
 </div>
 </div>
@@ -1224,6 +1277,52 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ac3e317bd77883d3e99c3af50198bf11d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_vec3_8h.html#a22a90ea5a9c12a50e5ce23324a383120">SLVec3f</a> SLCamera::focalPointOS </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0eb2e18546586cb8330f838ed590522f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_vec3_8h.html#a22a90ea5a9c12a50e5ce23324a383120">SLVec3f</a> SLCamera::focalPointWS </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="aaafc66b158a12ca8432e45e88d157401"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1394,26 +1493,31 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a6fa4cd402c91b1516431dce19af1d0be"></a>
+<a class="anchor" id="ad27ce3d929fa4caf73329786cc459325"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_s_l_ray.html">SLRay</a>* SLCamera::lookAtRay </td>
+          <td class="memname">void SLCamera::lookFrom </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="_s_l_vec3_8h.html#a22a90ea5a9c12a50e5ce23324a383120">SLVec3f</a>&#160;</td>
+          <td class="paramname"><em>fromDir</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="_s_l_vec3_8h.html#a22a90ea5a9c12a50e5ce23324a383120">SLVec3f</a>&#160;</td>
+          <td class="paramname"><em>upDir</em> = <code><a class="el" href="class_s_l_vec3.html#a4ca30e71ce175d74b8d1234ea4fd952f">SLVec3f::AXISY</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
+
+<p>Sets the view to look from a direction towards the current focal point. </p>
 
 </div>
 </div>
@@ -2107,7 +2211,7 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Applies the view transform to the modelview matrix depending on the eye: eye=-1 for left, eye=1 for right </p>
+<p>Applies the view transform to the modelview matrix depending on the eye: eye=-1 for the left and eye=1 for the right eye. The view matrix that projects all points from the world coordinate system to the camera coordinate system (that means relative to the camera) is the camera nodes inverse world matrix. </p>
 
 </div>
 </div>
@@ -2153,6 +2257,58 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>SLCamera::to_string returns important camera parameter as a string. </p>
+
+</div>
+</div>
+<a class="anchor" id="a6497ac99687121ca00139543896e6cb5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> SLCamera::trackballSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa6e332b133f27c3848d00edd504ce925"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_vec3_8h.html#a22a90ea5a9c12a50e5ce23324a383120">SLVec3f</a> SLCamera::trackballVec </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a>&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a>&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a vector from the window center to a virtual trackball at [x,y]. </p>
+<p>The trackball vector is a vector from the window center to a hemisphere over the window at the specified cursor position. With two trackball vectors you can calculate a single rotation axis with the cross product. This routine is used for the trackball camera animation. </p>
 
 </div>
 </div>
@@ -2212,53 +2368,6 @@ Protected Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">const <a class="el" href="_s_l_mat4_8h.html#aa4e4dd2bcc8c451863ddc5f3e67b1ea9">SLMat4f</a>&amp; SLCamera::updateAndGetVM </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a8454568a2511032ca48571f55f74be6f"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void SLCamera::useDeviceRot </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td>
-          <td class="paramname"><em>use</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="af10fb6359d9fc9e510324a592fd5da9b"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> SLCamera::useDeviceRot </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -2491,7 +2600,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>distance of focal plane from lens </p>
+<p>distance to lookAt point on the focal plane from lens </p>
 
 </div>
 </div>
@@ -2580,28 +2689,6 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>sample points for lens sampling (DOF) </p>
-
-</div>
-</div>
-<a class="anchor" id="ab73b07cdfe6f9f1b9dc2f32431e3f6e7"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_s_l_ray.html">SLRay</a> SLCamera::_lookAtRay</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Ray through the center of screen. </p>
 
 </div>
 </div>
@@ -2823,6 +2910,50 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a7cee87ab493db91231d8fcdef1b816ab"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> SLCamera::_trackballSize</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Size of trackball (0.8 = 80% of window size) </p>
+
+</div>
+</div>
+<a class="anchor" id="a9444ad7ceb2efb68d948830efc0649c0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_vec3_8h.html#a22a90ea5a9c12a50e5ce23324a383120">SLVec3f</a> SLCamera::_trackballStartVec</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Trackball vector at mouse down. </p>
+
+</div>
+</div>
 <a class="anchor" id="a11441ac14659ff3c5f45036530710008"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2842,28 +2973,6 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>indicate what the current unit scaling is to adjust movement and stereo rendering correctly </p>
-
-</div>
-</div>
-<a class="anchor" id="a29790d24a48bfdb7d64f2343fabc918b"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> SLCamera::_useDeviceRot</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Flag if mobile device or oculus Rift rotation should be used. </p>
 
 </div>
 </div>
@@ -3001,7 +3110,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_s_l_camera.html">SLCamera</a></li>
-    <li class="footer">Generated on Sat Sep 2 2017 12:28:42 for SLProject by
+    <li class="footer">Generated on Fri Feb 2 2018 15:29:38 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
   </ul>

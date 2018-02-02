@@ -40,7 +40,7 @@ var class_s_l_a_a_b_box =
     [ "_boneIsOffset", "class_s_l_a_a_b_box.html#ada82407a85def8342465b2cef285d1d9", null ],
     [ "_centerOS", "class_s_l_a_a_b_box.html#a1f43c5158bfd94116d0c6cd0af8dd976", null ],
     [ "_centerWS", "class_s_l_a_a_b_box.html#a9030ea2d067f7c49fec41b0bc2a8f35e", null ],
-    [ "_hasTransp", "class_s_l_a_a_b_box.html#a1eb7c65948cfcfe5c5ae40c3910545ba", null ],
+    [ "_hasAlpha", "class_s_l_a_a_b_box.html#acded03067a4807e81efac556b4d56788", null ],
     [ "_isVisible", "class_s_l_a_a_b_box.html#adff4adb1ea7862bcf83a4c1f5a47ca66", null ],
     [ "_maxOS", "class_s_l_a_a_b_box.html#a7284d10b7054ed5e19b6f4222ff9f720", null ],
     [ "_maxWS", "class_s_l_a_a_b_box.html#a59b975a218c5a761834fb4e881b97285", null ],

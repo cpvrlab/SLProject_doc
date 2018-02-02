@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">2.1</span>
+   &#160;<span id="projectnumber">2.2</span>
    </div>
   </td>
  </tr>
@@ -79,6 +79,8 @@ $(document).ready(function(){initNavTree('class_s_l_lens.html','');});
   <tr class="even"><td class="entry"><a class="el" href="class_s_l_mesh.html#a9eac0eec66443c5fea3b5be3d67a5e92">_finalP</a></td><td class="entry"><a class="el" href="class_s_l_mesh.html">SLMesh</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr><td class="entry"><a class="el" href="class_s_l_mesh.html#a30c18e5c47cccbbd0e7abfb73f240a43">_isVolume</a></td><td class="entry"><a class="el" href="class_s_l_mesh.html">SLMesh</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_s_l_mesh.html#a9bf0b558a30001535dc66d087d718d0b">_jointMatrices</a></td><td class="entry"><a class="el" href="class_s_l_mesh.html">SLMesh</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="class_s_l_mesh.html#afd22b1671cad9f01de4128548c3cdb67">_mat</a></td><td class="entry"><a class="el" href="class_s_l_mesh.html">SLMesh</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_s_l_mesh.html#af247a6a95f0eb3a7cb2facb0729ab738">_matOut</a></td><td class="entry"><a class="el" href="class_s_l_mesh.html">SLMesh</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr><td class="entry"><a class="el" href="class_s_l_object.html#a8b2f66031607d40e0f2f1542215f147a">_name</a></td><td class="entry"><a class="el" href="class_s_l_object.html">SLObject</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_s_l_lens.html#a7cf050118768fa092eb4f6d468a9573c">_pointOutput</a></td><td class="entry"><a class="el" href="class_s_l_lens.html">SLLens</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
   <tr><td class="entry"><a class="el" href="class_s_l_mesh.html#a75038f543a0410e06fc326724f937de0">_primitive</a></td><td class="entry"><a class="el" href="class_s_l_mesh.html">SLMesh</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
@@ -123,8 +125,10 @@ $(document).ready(function(){initNavTree('class_s_l_lens.html','');});
   <tr class="even"><td class="entry"><a class="el" href="class_s_l_mesh.html#a5343a21a1090ce73a62ffb862e64d6ca">SLRevolver::init</a>(SLNode *node)</td><td class="entry"><a class="el" href="class_s_l_mesh.html">SLMesh</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="class_s_l_mesh.html#abf617471b084c7f1d22fd7fe49d531b8">Ji</a></td><td class="entry"><a class="el" href="class_s_l_mesh.html">SLMesh</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_s_l_mesh.html#adc1837caa4d5025b806fa1cdf06703d3">Jw</a></td><td class="entry"><a class="el" href="class_s_l_mesh.html">SLMesh</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="class_s_l_mesh.html#a423fc203b739f92a7b65080467b85aa4">mat</a></td><td class="entry"><a class="el" href="class_s_l_mesh.html">SLMesh</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_s_l_mesh.html#af33edccd8325fb071294437cd6165053">matOut</a></td><td class="entry"><a class="el" href="class_s_l_mesh.html">SLMesh</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="class_s_l_mesh.html#a99c53da88056f8d1f8098fcc2e9af0ea">mat</a>() const </td><td class="entry"><a class="el" href="class_s_l_mesh.html">SLMesh</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_s_l_mesh.html#a2e70347410ba88f1a81185618ab06ab5">mat</a>(SLMaterial *m)</td><td class="entry"><a class="el" href="class_s_l_mesh.html">SLMesh</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="class_s_l_mesh.html#aecc916d36ce5c723a5a0ded77e51af66">matOut</a>() const </td><td class="entry"><a class="el" href="class_s_l_mesh.html">SLMesh</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_s_l_mesh.html#aad92c6d239542e20992caeb17c2ab8cb">matOut</a>(SLMaterial *m)</td><td class="entry"><a class="el" href="class_s_l_mesh.html">SLMesh</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="class_s_l_mesh.html#a0b1f238d85194dd978be13c039b484ec">maxP</a></td><td class="entry"><a class="el" href="class_s_l_mesh.html">SLMesh</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_s_l_mesh.html#a8b4af5da36c1ae588a6f5c64e31bc04b">minP</a></td><td class="entry"><a class="el" href="class_s_l_mesh.html">SLMesh</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="class_s_l_mesh.html#a89e08fc8aafe3e0b1033368ebbdf7e92">N</a></td><td class="entry"><a class="el" href="class_s_l_mesh.html">SLMesh</a></td><td class="entry"></td></tr>
@@ -161,7 +165,7 @@ $(document).ready(function(){initNavTree('class_s_l_lens.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Sep 2 2017 12:28:50 for SLProject by
+    <li class="footer">Generated on Fri Feb 2 2018 15:29:58 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
   </ul>

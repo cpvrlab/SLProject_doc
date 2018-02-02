@@ -1,12 +1,11 @@
 <map id="SLTexFont.h" name="SLTexFont.h">
 <area shape="rect" id="node3" href="$_s_l_tex_font_8cpp.html" title="SLTexFont.cpp" alt="" coords="5,80,120,107"/>
 <area shape="rect" id="node5" href="$_s_l_scene_view_8cpp.html" title="SLSceneView.cpp" alt="" coords="145,80,279,107"/>
-<area shape="rect" id="node7" href="$_s_l_button_8h.html" title="SLButton.h" alt="" coords="163,155,256,181"/>
+<area shape="rect" id="node7" href="$_s_l_button_8h.html" title="SLButton.h" alt="" coords="216,155,309,181"/>
 <area shape="rect" id="node11" href="$_s_l_text_8h.html" title="SLText.h" alt="" coords="461,80,539,107"/>
-<area shape="rect" id="node9" href="$_s_l_button_8cpp.html" title="SLButton.cpp" alt="" coords="155,229,263,256"/>
-<area shape="rect" id="node13" href="$_s_l_pathtracer_8cpp.html" title="SLPathtracer.cpp" alt="" coords="281,155,412,181"/>
-<area shape="rect" id="node15" href="$_s_l_raytracer_8cpp.html" title="SLRaytracer.cpp" alt="" coords="437,155,563,181"/>
-<area shape="rect" id="node17" href="$_s_l_scene_8cpp.html" title="SLScene.cpp" alt="" coords="587,155,692,181"/>
-<area shape="rect" id="node19" href="$_s_l_scene__on_load_8cpp.html" title="SLScene_onLoad.cpp" alt="" coords="717,155,875,181"/>
-<area shape="rect" id="node21" href="$_s_l_text_8cpp.html" title="SLText.cpp" alt="" coords="899,155,991,181"/>
+<area shape="rect" id="node9" href="$_s_l_button_8cpp.html" title="SLButton.cpp" alt="" coords="209,229,316,256"/>
+<area shape="rect" id="node13" href="$_s_l_pathtracer_8cpp.html" title="SLPathtracer.cpp" alt="" coords="334,155,465,181"/>
+<area shape="rect" id="node15" href="$_s_l_raytracer_8cpp.html" title="SLRaytracer.cpp" alt="" coords="490,155,616,181"/>
+<area shape="rect" id="node17" href="$_s_l_scene_8cpp.html" title="SLScene.cpp" alt="" coords="641,155,745,181"/>
+<area shape="rect" id="node19" href="$_s_l_text_8cpp.html" title="SLText.cpp" alt="" coords="770,155,861,181"/>
 </map>

@@ -1,7 +1,6 @@
 <map id="SLSpheric.h" name="SLSpheric.h">
 <area shape="rect" id="node3" href="$_s_l_light_direct_8cpp.html" title="SLLightDirect.cpp" alt="" coords="5,155,139,181"/>
-<area shape="rect" id="node5" href="$_s_l_light_spot_8cpp.html" title="SLLightSpot.cpp" alt="" coords="346,155,472,181"/>
-<area shape="rect" id="node7" href="$_s_l_spheric_8cpp.html" title="SLSpheric.cpp" alt="" coords="366,80,479,107"/>
-<area shape="rect" id="node9" href="$_s_l_sphere_8h.html" title="SLSphere.h" alt="" coords="195,80,291,107"/>
-<area shape="rect" id="node13" href="$_s_l_scene__on_load_8cpp.html" title="SLScene_onLoad.cpp" alt="" coords="163,155,321,181"/>
+<area shape="rect" id="node5" href="$_s_l_light_spot_8cpp.html" title="SLLightSpot.cpp" alt="" coords="241,155,367,181"/>
+<area shape="rect" id="node7" href="$_s_l_spheric_8cpp.html" title="SLSpheric.cpp" alt="" coords="191,80,304,107"/>
+<area shape="rect" id="node9" href="$_s_l_sphere_8h.html" title="SLSphere.h" alt="" coords="71,80,167,107"/>
 </map>

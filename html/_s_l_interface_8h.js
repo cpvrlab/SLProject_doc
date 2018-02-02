@@ -1,17 +1,18 @@
 var _s_l_interface_8h =
 [
     [ "slCharInput", "_s_l_interface_8h.html#a60aab8336041f8f497bcee8bbbf2125f", null ],
-    [ "slCommand", "_s_l_interface_8h.html#a56c555196878a7e7a6f4ea6cd3342523", null ],
     [ "slCopyVideoImage", "_s_l_interface_8h.html#ae2921f6479cd1eabbb2792b6b8d45c64", null ],
     [ "slCopyVideoYUVPlanes", "_s_l_interface_8h.html#ae18179c9acfaea039815d5000fc6bb2e", null ],
-    [ "slCreateScene", "_s_l_interface_8h.html#a9c02833e1f7d6d0ad3ea8d88cbe8b044", null ],
-    [ "slCreateSceneView", "_s_l_interface_8h.html#ac0bcebe87644e37296d5e7ee7c368e4a", null ],
+    [ "slCreateAppAndScene", "_s_l_interface_8h.html#a529b1c83b3608d9dfce1b54895665ba9", null ],
+    [ "slCreateSceneView", "_s_l_interface_8h.html#ae5ce7c644166b9cb29b16d6c68955ca4", null ],
     [ "slDoubleClick", "_s_l_interface_8h.html#ad6de9baea60f89142dfbf6c5e8122079", null ],
     [ "slGetVideoSizeIndex", "_s_l_interface_8h.html#a7e0c2293279f723127a9967fe3b7dee5", null ],
     [ "slGetVideoType", "_s_l_interface_8h.html#ac37adeb4f1719bbc3f2841b6e06febaf", null ],
     [ "slGetWindowTitle", "_s_l_interface_8h.html#a97c16367cd629b766ba19a5a825b80cc", null ],
+    [ "slGrabVideoFileFrame", "_s_l_interface_8h.html#a686dc0f8657697c3def2a526e3e612a1", null ],
     [ "slKeyPress", "_s_l_interface_8h.html#aa7514fb207b6708ae10e8d54e79bc62c", null ],
     [ "slKeyRelease", "_s_l_interface_8h.html#a4afca69303e1c6bf33597580d06e4821", null ],
+    [ "slLocationLLA", "_s_l_interface_8h.html#acfd2583993d60b38c50dc8972ba9c11d", null ],
     [ "slLongTouch", "_s_l_interface_8h.html#a1f67c29af8f6789215b81853e8b8f5ee", null ],
     [ "slMouseDown", "_s_l_interface_8h.html#a9a5aadb5798c076d2784f84022382b19", null ],
     [ "slMouseMove", "_s_l_interface_8h.html#a2387cd657b918c493c758ad38df650a9", null ],
@@ -19,8 +20,7 @@ var _s_l_interface_8h =
     [ "slMouseWheel", "_s_l_interface_8h.html#a4887b9e1bc6e808d1ee977984375755d", null ],
     [ "slNewSceneView", "_s_l_interface_8h.html#a21d0d9038259a1f4b77f040dfccdce3f", null ],
     [ "slResize", "_s_l_interface_8h.html#a7ca591dc0ec420e64b0702814a34d88f", null ],
-    [ "slRotationPYR", "_s_l_interface_8h.html#a36e21d375c645b65f52d847c10a4d9cd", null ],
-    [ "slRotationQUAT", "_s_l_interface_8h.html#a6c4d762c4f840d72b90383b65d4502db", null ],
+    [ "slRotationQUAT", "_s_l_interface_8h.html#a0a61a914182b1dff60ba4914a8c03b6b", null ],
     [ "slShouldClose", "_s_l_interface_8h.html#afe61179548715401a9c670d470b1a889", null ],
     [ "slShouldClose", "_s_l_interface_8h.html#a6d2b31d18de0351f7723f7bff9d1a3c5", null ],
     [ "slTerminate", "_s_l_interface_8h.html#aabd6c43be1bc542fc168348659f08bdb", null ],
@@ -28,5 +28,6 @@ var _s_l_interface_8h =
     [ "slTouch2Move", "_s_l_interface_8h.html#a9acd8a87d35e582f5f79c9ddc45bf50e", null ],
     [ "slTouch2Up", "_s_l_interface_8h.html#a699dbcd7dde6244ecbe5796a96d061c5", null ],
     [ "slUpdateAndPaint", "_s_l_interface_8h.html#a4c6b2e40dd33d43bed8772ca573054fa", null ],
+    [ "slUsesLocation", "_s_l_interface_8h.html#a418d0ebccc90b4515cd254a61fa2f9c8", null ],
     [ "slUsesRotation", "_s_l_interface_8h.html#a201414d6b1b66509070c77e82c8571ef", null ]
 ];

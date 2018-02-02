@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">2.1</span>
+   &#160;<span id="projectnumber">2.2</span>
    </div>
   </td>
  </tr>
@@ -121,8 +121,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4f2bb2341d2fb5d5672b036dc274bebe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad0685b092ff29d20c0fc42bfa5add655"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_quat4.html#ad0685b092ff29d20c0fc42bfa5add655">toAngleAxis</a> (T &amp;angleDEG, <a class="el" href="class_s_l_vec3.html">SLVec3</a>&lt; T &gt; &amp;axis) const </td></tr>
 <tr class="separator:ad0685b092ff29d20c0fc42bfa5add655"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acada46e67b6268c39853a17191232597"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_quat4.html#acada46e67b6268c39853a17191232597">toEulerAngles</a> (T &amp;pitchRAD, T &amp;yawRAD, T &amp;rollRAD) const </td></tr>
-<tr class="separator:acada46e67b6268c39853a17191232597"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d845c2c5b911ce3b500e15f3ab385d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_quat4.html#a6d845c2c5b911ce3b500e15f3ab385d1">toEulerAnglesXYZ</a> (T &amp;rollRAD, T &amp;pitchRAD, T &amp;yawRAD) const </td></tr>
+<tr class="separator:a6d845c2c5b911ce3b500e15f3ab385d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a75c660f960d01cff85372035ed6ac9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_quat4.html#a1a75c660f960d01cff85372035ed6ac9">toEulerAnglesZYX</a> (T &amp;rollRAD, T &amp;pitchRAD, T &amp;yawRAD) const </td></tr>
+<tr class="separator:a1a75c660f960d01cff85372035ed6ac9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f71b440e0ba62695c3669dcf5be7581"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_quat4.html#a1f71b440e0ba62695c3669dcf5be7581">dot</a> (const <a class="el" href="class_s_l_quat4.html">SLQuat4</a>&lt; T &gt; &amp;q) const </td></tr>
 <tr class="separator:a1f71b440e0ba62695c3669dcf5be7581"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad948d23aeddbdd21ce94c8348a99de35"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_quat4.html#ad948d23aeddbdd21ce94c8348a99de35">length</a> () const </td></tr>
@@ -1286,15 +1288,21 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="acada46e67b6268c39853a17191232597"></a>
+<a class="anchor" id="a6d845c2c5b911ce3b500e15f3ab385d1"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="class_s_l_quat4.html">SLQuat4</a>&lt; T &gt;::toEulerAngles </td>
+          <td class="memname">void <a class="el" href="class_s_l_quat4.html">SLQuat4</a>&lt; T &gt;::toEulerAnglesXYZ </td>
           <td>(</td>
+          <td class="paramtype">T &amp;&#160;</td>
+          <td class="paramname"><em>rollRAD</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">T &amp;&#160;</td>
           <td class="paramname"><em>pitchRAD</em>, </td>
         </tr>
@@ -1302,13 +1310,41 @@ template&lt;typename T&gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">T &amp;&#160;</td>
-          <td class="paramname"><em>yawRAD</em>, </td>
+          <td class="paramname"><em>yawRAD</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1a75c660f960d01cff85372035ed6ac9"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_s_l_quat4.html">SLQuat4</a>&lt; T &gt;::toEulerAnglesZYX </td>
+          <td>(</td>
+          <td class="paramtype">T &amp;&#160;</td>
+          <td class="paramname"><em>rollRAD</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">T &amp;&#160;</td>
-          <td class="paramname"><em>rollRAD</em>&#160;</td>
+          <td class="paramname"><em>pitchRAD</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T &amp;&#160;</td>
+          <td class="paramname"><em>yawRAD</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1599,7 +1635,7 @@ template&lt;class T&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_s_l_quat4.html">SLQuat4</a></li>
-    <li class="footer">Generated on Sat Sep 2 2017 12:28:53 for SLProject by
+    <li class="footer">Generated on Fri Feb 2 2018 15:30:08 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
   </ul>

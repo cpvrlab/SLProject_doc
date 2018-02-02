@@ -1,7 +1,7 @@
 var class_s_l_ray =
 [
-    [ "SLRay", "class_s_l_ray.html#a166bbb0865cdba1d3b1cf3c8c695425d", null ],
-    [ "SLRay", "class_s_l_ray.html#a9292d9225a6e0dbb2461cecb0174c426", null ],
+    [ "SLRay", "class_s_l_ray.html#af232d6312140396165523276db75ddf1", null ],
+    [ "SLRay", "class_s_l_ray.html#a12cfddbaede476aa0a62ba20dff053a0", null ],
     [ "SLRay", "class_s_l_ray.html#a1dd9dc9f2bba1158356747e3c861797f", null ],
     [ "SLRay", "class_s_l_ray.html#a166bbb0865cdba1d3b1cf3c8c695425d", null ],
     [ "SLRay", "class_s_l_ray.html#a77f2d5995535b2b11348e9db184cbbca", null ],
@@ -84,6 +84,7 @@ var class_s_l_ray =
     [ "srcTriangle", "class_s_l_ray.html#a2659725a0613d65bc3ffc984e6e36594", null ],
     [ "subsampledPixels", "class_s_l_ray.html#a8a900aa6c30eb09c88d8ef51badc0122", null ],
     [ "subsampledRays", "class_s_l_ray.html#aba4b570d90f147356591e715210e19de", null ],
+    [ "sv", "class_s_l_ray.html#aee72d21238d3a6867342fa0428ae7941", null ],
     [ "tests", "class_s_l_ray.html#a3285f539bfa3f46b7e799f1c76d98575", null ],
     [ "tirPhotons", "class_s_l_ray.html#a9ef64065f0efa5745db02081abdc6aa5", null ],
     [ "tirRays", "class_s_l_ray.html#a249db3727ca2cc2777af5a703f56950b", null ],

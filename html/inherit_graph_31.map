@@ -1,4 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_s_l_importer.html" title="Interface for 3D file format importer implementations." alt="" coords="5,5,99,32"/>
-<area shape="rect" id="node3" href="$class_s_l_assimp_importer.html" title="Small class interface into the AssImp library for importing 3D assets." alt="" coords="147,5,287,32"/>
+<area shape="rect" id="node1" href="$class_s_l_g_l_vertex_array.html" title="SLGLVertexArray encapsulates the core OpenGL drawing." alt="" coords="5,5,136,32"/>
+<area shape="rect" id="node3" href="$class_s_l_g_l_vertex_array_ext.html" title="SLGLVertexArray adds Helper Functions for quick Line &amp; Point Drawing." alt="" coords="185,5,335,32"/>
 </map>

@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">2.1</span>
+   &#160;<span id="projectnumber">2.2</span>
    </div>
   </td>
  </tr>
@@ -67,6 +67,7 @@ $(document).ready(function(){initNavTree('class_s_l_node.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#friends">Friends</a> &#124;
@@ -83,7 +84,7 @@ $(document).ready(function(){initNavTree('class_s_l_node.html','');});
 <div class="dynheader">
 Inheritance diagram for SLNode:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_s_l_node__inherit__graph.svg" width="760" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_s_l_node__inherit__graph.svg" width="868" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -128,8 +129,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0a36d8ef6f03558301dcba2831e1eb45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad25e2b89013ca8b7d89763b8c173fe09"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_node.html#ad25e2b89013ca8b7d89763b8c173fe09">removeMesh</a> (<a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a> <a class="el" href="class_s_l_object.html#a801d395f3b263f7f06f6208461bdd096">name</a>)</td></tr>
 <tr class="separator:ad25e2b89013ca8b7d89763b8c173fe09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3593cd6ec016f08bcbccd9dc4a9a0a29"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_s_l_mesh.html">SLMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_node.html#a3593cd6ec016f08bcbccd9dc4a9a0a29">findMesh</a> (<a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a> <a class="el" href="class_s_l_object.html#a801d395f3b263f7f06f6208461bdd096">name</a>)</td></tr>
-<tr class="separator:a3593cd6ec016f08bcbccd9dc4a9a0a29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a748d249a838788de6c3357fc2d30ccf2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_s_l_mesh.html">SLMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_node.html#a748d249a838788de6c3357fc2d30ccf2">findMesh</a> (<a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a> <a class="el" href="class_s_l_object.html#a801d395f3b263f7f06f6208461bdd096">name</a>, <a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> recursive=false)</td></tr>
+<tr class="separator:a748d249a838788de6c3357fc2d30ccf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86f0566d3b26a22f91e3e81be7b08505"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_node.html#a86f0566d3b26a22f91e3e81be7b08505">setAllMeshMaterials</a> (<a class="el" href="class_s_l_material.html">SLMaterial</a> *mat, <a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> recursive=true)</td></tr>
+<tr class="separator:a86f0566d3b26a22f91e3e81be7b08505"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33555c9cc810b9b4715cc4686729e149"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_node.html#a33555c9cc810b9b4715cc4686729e149">containsMesh</a> (const <a class="el" href="class_s_l_mesh.html">SLMesh</a> *mesh)</td></tr>
 <tr class="separator:a33555c9cc810b9b4715cc4686729e149"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc6027a7ff7cd0c7e83c2481d3f6d816"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_node.html#abc6027a7ff7cd0c7e83c2481d3f6d816">drawMeshes</a> (<a class="el" href="class_s_l_scene_view.html">SLSceneView</a> *sv)</td></tr>
@@ -154,9 +157,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6ff001f040229047c812a52948f8e7e1"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a6ff001f040229047c812a52948f8e7e1"><td class="memTemplItemLeft" align="right" valign="top">T *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_s_l_node.html#a6ff001f040229047c812a52948f8e7e1">findChild</a> (const <a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a> &amp;<a class="el" href="class_s_l_object.html#a801d395f3b263f7f06f6208461bdd096">name</a>=&quot;&quot;, <a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> findRecursive=true)</td></tr>
 <tr class="separator:a6ff001f040229047c812a52948f8e7e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45c17bf34da61aaeff7587385dca6d4f"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a45c17bf34da61aaeff7587385dca6d4f"><td class="memTemplItemLeft" align="right" valign="top">vector&lt; T * &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_s_l_node.html#a45c17bf34da61aaeff7587385dca6d4f">findChildren</a> (const <a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a> &amp;<a class="el" href="class_s_l_object.html#a801d395f3b263f7f06f6208461bdd096">name</a>=&quot;&quot;, <a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> findRecursive=true)</td></tr>
-<tr class="separator:a45c17bf34da61aaeff7587385dca6d4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33ac2338d0ec647b3feaa7efeb2ab6c6"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a33ac2338d0ec647b3feaa7efeb2ab6c6"><td class="memTemplItemLeft" align="right" valign="top">vector&lt; T * &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_s_l_node.html#a33ac2338d0ec647b3feaa7efeb2ab6c6">findChildren</a> (const <a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a> &amp;<a class="el" href="class_s_l_object.html#a801d395f3b263f7f06f6208461bdd096">name</a>=&quot;&quot;, <a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> findRecursive=true, <a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> canContain=false)</td></tr>
+<tr class="separator:a33ac2338d0ec647b3feaa7efeb2ab6c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac6e355e24bada294cc6d3058eb6d516"><td class="memItemLeft" align="right" valign="top">vector&lt; <a class="el" href="class_s_l_node.html">SLNode</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_node.html#aac6e355e24bada294cc6d3058eb6d516">findChildren</a> (const <a class="el" href="class_s_l_mesh.html">SLMesh</a> *mesh, <a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> findRecursive=true)</td></tr>
 <tr class="separator:aac6e355e24bada294cc6d3058eb6d516"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95da71096f54e4f1f1c0a8599fc31079"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_vec3_8h.html#a22a90ea5a9c12a50e5ce23324a383120">SLVec3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_node.html#a95da71096f54e4f1f1c0a8599fc31079">translationOS</a> () const </td></tr>
@@ -300,6 +303,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a426cd7aa2f2984d593093606b63c603a inherit pub_methods_class_s_l_event_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1361219db4d359fd52497762fba0aa88 inherit pub_methods_class_s_l_event_handler"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_event_handler.html#a1361219db4d359fd52497762fba0aa88">onKeyRelease</a> (const <a class="el" href="_s_l_enums_8h.html#afceaa9670aadae056dd2545c1be01e38">SLKey</a> key, const <a class="el" href="_s_l_enums_8h.html#afceaa9670aadae056dd2545c1be01e38">SLKey</a> mod)</td></tr>
 <tr class="separator:a1361219db4d359fd52497762fba0aa88 inherit pub_methods_class_s_l_event_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9465e581726351f9fc307cd1d9e1c543 inherit pub_methods_class_s_l_event_handler"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_event_handler.html#a9465e581726351f9fc307cd1d9e1c543">onRotationPYR</a> (const <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> pitchRAD, const <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> yawRAD, const <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> rollRAD)</td></tr>
+<tr class="separator:a9465e581726351f9fc307cd1d9e1c543 inherit pub_methods_class_s_l_event_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3b8b933d424d55d11bbaba6ebf93d9a inherit pub_methods_class_s_l_event_handler"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_event_handler.html#ab3b8b933d424d55d11bbaba6ebf93d9a">rotFactor</a> (<a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> rf)</td></tr>
 <tr class="separator:ab3b8b933d424d55d11bbaba6ebf93d9a inherit pub_methods_class_s_l_event_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfde42afcd27f4ebe63e2e751378531c inherit pub_methods_class_s_l_event_handler"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_event_handler.html#abfde42afcd27f4ebe63e2e751378531c">dRot</a> (<a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> dr)</td></tr>
@@ -312,6 +317,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4885e21f7ecff7592db39e2e2d4c9c7c inherit pub_methods_class_s_l_event_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca5023dc50754afac6580da6b4dc29ec inherit pub_methods_class_s_l_event_handler"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_event_handler.html#aca5023dc50754afac6580da6b4dc29ec">dPos</a> ()</td></tr>
 <tr class="separator:aca5023dc50754afac6580da6b4dc29ec inherit pub_methods_class_s_l_event_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a51f1c2e6eaf88b30e719f710bf0abbda"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_s_l_8h.html#a74dab4086041e043ebf72725bcf1cfe6">SLuint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_node.html#a51f1c2e6eaf88b30e719f710bf0abbda">numWMUpdates</a> = 0</td></tr>
+<tr class="memdesc:a51f1c2e6eaf88b30e719f710bf0abbda"><td class="mdescLeft">&#160;</td><td class="mdescRight">NO. of calls to updateWM per frame.  <a href="#a51f1c2e6eaf88b30e719f710bf0abbda"></a><br/></td></tr>
+<tr class="separator:a51f1c2e6eaf88b30e719f710bf0abbda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -385,9 +396,9 @@ Protected Attributes</h2></td></tr>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a50bd9fa98f8063d3863f6a1c326ec891"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_node.html#a50bd9fa98f8063d3863f6a1c326ec891">updateWM</a> () const </td></tr>
 <tr class="separator:a50bd9fa98f8063d3863f6a1c326ec891"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a097630efa79b92dfb8037a72fad33959"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a097630efa79b92dfb8037a72fad33959"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_s_l_node.html#a097630efa79b92dfb8037a72fad33959">findChildrenHelper</a> (const <a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a> &amp;<a class="el" href="class_s_l_object.html#a801d395f3b263f7f06f6208461bdd096">name</a>, vector&lt; T * &gt; &amp;list, <a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> findRecursive)</td></tr>
-<tr class="separator:a097630efa79b92dfb8037a72fad33959"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac41e832af52928d83f1b053e30d7d54c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ac41e832af52928d83f1b053e30d7d54c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_s_l_node.html#ac41e832af52928d83f1b053e30d7d54c">findChildrenHelper</a> (const <a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a> &amp;<a class="el" href="class_s_l_object.html#a801d395f3b263f7f06f6208461bdd096">name</a>, vector&lt; T * &gt; &amp;list, <a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> findRecursive, <a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> canContain=false)</td></tr>
+<tr class="separator:ac41e832af52928d83f1b053e30d7d54c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a893b31cbe708a1cc23f86511a7412dae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_node.html#a893b31cbe708a1cc23f86511a7412dae">findChildrenHelper</a> (const <a class="el" href="class_s_l_mesh.html">SLMesh</a> *mesh, vector&lt; <a class="el" href="class_s_l_node.html">SLNode</a> * &gt; &amp;list, <a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> findRecursive)</td></tr>
 <tr class="separator:a893b31cbe708a1cc23f86511a7412dae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -866,7 +877,7 @@ Friends</h2></td></tr>
 <b>Filter meshes for blended or opaque pass</b>: <a class="el" href="class_s_l_scene_view.html#a265b94097ecec9fe8bf4d685e095c4a0">SLSceneView::draw3DGLAll</a> renders the opaque nodes before blended nodes and the blended nodes have to be drawn from back to front. During the cull traversal all nodes with alpha materials are flagged and added the to the vector _alphaNodes. The visibleNodes vector contains all visible opaque and transparent nodes because a node with alpha meshes still can have nodes with opaque material. To avoid double drawing the <a class="el" href="class_s_l_node.html#abc6027a7ff7cd0c7e83c2481d3f6d816">SLNode::drawMeshes</a> draws in the blended pass only the alpha meshes and in the opaque pass only the opaque meshes.  </li>
 </ul>
 
-<p>Reimplemented in <a class="el" href="class_s_l_light_direct.html#af9aa1226d61c80cbaa873e993440ec18">SLLightDirect</a>, <a class="el" href="class_s_l_light_spot.html#ac183aed411369dd542a93caab7264e01">SLLightSpot</a>, <a class="el" href="class_s_l_light_rect.html#ae57cc06c4760c43022d03e1889dd5442">SLLightRect</a>, <a class="el" href="class_s_l_camera.html#a8e92db4ac49ee697195da691e8aebb42">SLCamera</a>, and <a class="el" href="class_s_l_text.html#a8b516f2c68124ebb81677b0f2407aeb8">SLText</a>.</p>
+<p>Reimplemented in <a class="el" href="class_s_l_light_direct.html#af9aa1226d61c80cbaa873e993440ec18">SLLightDirect</a>, <a class="el" href="class_s_l_camera.html#a8e92db4ac49ee697195da691e8aebb42">SLCamera</a>, <a class="el" href="class_s_l_light_spot.html#ac183aed411369dd542a93caab7264e01">SLLightSpot</a>, <a class="el" href="class_s_l_light_rect.html#ae57cc06c4760c43022d03e1889dd5442">SLLightRect</a>, and <a class="el" href="class_s_l_text.html#a8b516f2c68124ebb81677b0f2407aeb8">SLText</a>.</p>
 
 </div>
 </div>
@@ -979,7 +990,7 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a45c17bf34da61aaeff7587385dca6d4f"></a>
+<a class="anchor" id="a33ac2338d0ec647b3feaa7efeb2ab6c6"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -995,7 +1006,13 @@ template&lt;typename T &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td>
-          <td class="paramname"><em>findRecursive</em> = <code>true</code>&#160;</td>
+          <td class="paramname"><em>findRecursive</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td>
+          <td class="paramname"><em>canContain</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1004,7 +1021,7 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p><a class="el" href="class_s_l_node.html#a45c17bf34da61aaeff7587385dca6d4f">SLNode::findChildren&lt;T&gt;</a> finds a list of all children that are of type T or subclasses of T. If a name is specified only nodes with that name are included. </p>
+<p><a class="el" href="class_s_l_node.html#a33ac2338d0ec647b3feaa7efeb2ab6c6">SLNode::findChildren&lt;T&gt;</a> finds a list of all children that are of type T or subclasses of T. If a name is specified only nodes with that name are included. </p>
 
 </div>
 </div>
@@ -1035,7 +1052,7 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a097630efa79b92dfb8037a72fad33959"></a>
+<a class="anchor" id="ac41e832af52928d83f1b053e30d7d54c"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -1060,7 +1077,13 @@ template&lt;typename T &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td>
-          <td class="paramname"><em>findRecursive</em>&#160;</td>
+          <td class="paramname"><em>findRecursive</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td>
+          <td class="paramname"><em>canContain</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1074,7 +1097,7 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p><a class="el" href="class_s_l_node.html#a097630efa79b92dfb8037a72fad33959">SLNode::findChildrenHelper&lt;T&gt;</a> is the helper function for findChildren&lt;T&gt;. It appends all newly found children to 'list'. </p>
+<p><a class="el" href="class_s_l_node.html#ac41e832af52928d83f1b053e30d7d54c">SLNode::findChildrenHelper&lt;T&gt;</a> is the helper function for findChildren&lt;T&gt;. It appends all newly found children to 'list'. </p>
 
 </div>
 </div>
@@ -1119,7 +1142,7 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a3593cd6ec016f08bcbccd9dc4a9a0a29"></a>
+<a class="anchor" id="a748d249a838788de6c3357fc2d30ccf2"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1127,12 +1150,22 @@ template&lt;typename T &gt; </div>
           <td class="memname"><a class="el" href="class_s_l_mesh.html">SLMesh</a> * SLNode::findMesh </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="_s_l_8h.html#ab2b640a4e47941897548c20b992885c8">SLstring</a>&#160;</td>
-          <td class="paramname"><em>name</em></td><td>)</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td>
+          <td class="paramname"><em>recursive</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p><a class="el" href="class_s_l_node.html#a3593cd6ec016f08bcbccd9dc4a9a0a29">SLNode::findMesh</a> finds the specified mesh by name. </p>
+<p><a class="el" href="class_s_l_node.html#a748d249a838788de6c3357fc2d30ccf2">SLNode::findMesh</a> finds the specified mesh by name. With recursive search all child nodes are searched too. </p>
 
 </div>
 </div>
@@ -2131,6 +2164,33 @@ this modifier doesn't allow for different transform spaces, so there isn't the p
 
 </div>
 </div>
+<a class="anchor" id="a86f0566d3b26a22f91e3e81be7b08505"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SLNode::setAllMeshMaterials </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_s_l_material.html">SLMaterial</a> *&#160;</td>
+          <td class="paramname"><em>mat</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td>
+          <td class="paramname"><em>recursive</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p><a class="el" href="class_s_l_node.html#a86f0566d3b26a22f91e3e81be7b08505">SLNode::setAllMeshMaterials</a> set on all meshes of the node to the passed material. If recursive is true the material is also applied to all child node and their meshes. </p>
+
+</div>
+</div>
 <a class="anchor" id="af596887a8134697e3b67af24fbba14ad"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2231,7 +2291,7 @@ this modifier doesn't allow for different transform spaces, so there isn't the p
 </div><div class="memdoc">
 <p>Updates the statistic numbers of the passed <a class="el" href="struct_s_l_node_stats.html" title="Struct for scene graph statistics.">SLNodeStats</a> struct and calls recursively the same method for all children. </p>
 
-<p>Reimplemented in <a class="el" href="class_s_l_light_direct.html#aadc5b73bd9db98c874823f3361caf5ec">SLLightDirect</a>, <a class="el" href="class_s_l_light_spot.html#a87b05a62d9368df7c8a31cbb2989686c">SLLightSpot</a>, <a class="el" href="class_s_l_light_rect.html#a90817bf1c4aef58ac58250b148757248">SLLightRect</a>, <a class="el" href="class_s_l_camera.html#a4e0714f2d4f2d85af7d49dd12ba05256">SLCamera</a>, and <a class="el" href="class_s_l_text.html#adba81154449111a7986ab7b9be451209">SLText</a>.</p>
+<p>Reimplemented in <a class="el" href="class_s_l_light_direct.html#aadc5b73bd9db98c874823f3361caf5ec">SLLightDirect</a>, <a class="el" href="class_s_l_light_spot.html#a87b05a62d9368df7c8a31cbb2989686c">SLLightSpot</a>, <a class="el" href="class_s_l_camera.html#a4e0714f2d4f2d85af7d49dd12ba05256">SLCamera</a>, <a class="el" href="class_s_l_light_rect.html#a90817bf1c4aef58ac58250b148757248">SLLightRect</a>, and <a class="el" href="class_s_l_text.html#adba81154449111a7986ab7b9be451209">SLText</a>.</p>
 
 </div>
 </div>
@@ -2990,6 +3050,28 @@ this modifier doesn't allow for different transform spaces, so there isn't the p
 
 </div>
 </div>
+<a class="anchor" id="a51f1c2e6eaf88b30e719f710bf0abbda"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_8h.html#a74dab4086041e043ebf72725bcf1cfe6">SLuint</a> SLNode::numWMUpdates = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>NO. of calls to updateWM per frame. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="_s_l_node_8h.html">SLNode.h</a></li>
 <li><a class="el" href="_s_l_node_8cpp.html">SLNode.cpp</a></li>
@@ -3000,7 +3082,7 @@ this modifier doesn't allow for different transform spaces, so there isn't the p
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_s_l_node.html">SLNode</a></li>
-    <li class="footer">Generated on Sat Sep 2 2017 12:28:53 for SLProject by
+    <li class="footer">Generated on Fri Feb 2 2018 15:30:04 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
   </ul>

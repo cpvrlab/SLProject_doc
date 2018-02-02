@@ -25,11 +25,11 @@ var class_s_l_node =
     [ "dumpRec", "class_s_l_node.html#a280a20e70212331516785a9aee26eb35", null ],
     [ "find", "class_s_l_node.html#a10cbb79495f4a288b02afc3fd740fa83", null ],
     [ "findChild", "class_s_l_node.html#a6ff001f040229047c812a52948f8e7e1", null ],
-    [ "findChildren", "class_s_l_node.html#a45c17bf34da61aaeff7587385dca6d4f", null ],
+    [ "findChildren", "class_s_l_node.html#a33ac2338d0ec647b3feaa7efeb2ab6c6", null ],
     [ "findChildren", "class_s_l_node.html#aac6e355e24bada294cc6d3058eb6d516", null ],
-    [ "findChildrenHelper", "class_s_l_node.html#a097630efa79b92dfb8037a72fad33959", null ],
+    [ "findChildrenHelper", "class_s_l_node.html#ac41e832af52928d83f1b053e30d7d54c", null ],
     [ "findChildrenHelper", "class_s_l_node.html#a893b31cbe708a1cc23f86511a7412dae", null ],
-    [ "findMesh", "class_s_l_node.html#a3593cd6ec016f08bcbccd9dc4a9a0a29", null ],
+    [ "findMesh", "class_s_l_node.html#a748d249a838788de6c3357fc2d30ccf2", null ],
     [ "forwardOS", "class_s_l_node.html#a5a72d090ca8686ed3c40830b4641cf85", null ],
     [ "forwardWS", "class_s_l_node.html#adc45c912cbfa1e6ef579a159ec38120c", null ],
     [ "hitRec", "class_s_l_node.html#af29c4c2dcd2cdca61ce6b25729e22b33", null ],
@@ -68,6 +68,7 @@ var class_s_l_node =
     [ "scaling", "class_s_l_node.html#ab85c28dc841bbe1cb838ee4456cce716", null ],
     [ "scaling", "class_s_l_node.html#a60926cb0f28826414420c59105058739", null ],
     [ "scaling", "class_s_l_node.html#ac9dc4913ac287d254ea5c71588c5da3a", null ],
+    [ "setAllMeshMaterials", "class_s_l_node.html#a86f0566d3b26a22f91e3e81be7b08505", null ],
     [ "setDrawBitsRec", "class_s_l_node.html#af596887a8134697e3b67af24fbba14ad", null ],
     [ "setInitialState", "class_s_l_node.html#aa70ec7b032911e4e5c7ef8dea13711b1", null ],
     [ "setPrimitiveTypeRec", "class_s_l_node.html#a6625e69e81d1e78e09f8e0cde585c832", null ],
@@ -104,5 +105,6 @@ var class_s_l_node =
     [ "_tracker", "class_s_l_node.html#a6782e7748d014e89eeb27efd850f6925", null ],
     [ "_wm", "class_s_l_node.html#aca0b140ccbc9a2f875a85e0453f0108b", null ],
     [ "_wmI", "class_s_l_node.html#a1d45444ac5ad02349183576bf4d8a756", null ],
-    [ "_wmN", "class_s_l_node.html#a9e97155e6953d323cc8109996c2b33ef", null ]
+    [ "_wmN", "class_s_l_node.html#a9e97155e6953d323cc8109996c2b33ef", null ],
+    [ "numWMUpdates", "class_s_l_node.html#a51f1c2e6eaf88b30e719f710bf0abbda", null ]
 ];

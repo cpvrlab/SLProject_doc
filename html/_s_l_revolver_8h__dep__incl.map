@@ -1,20 +1,19 @@
 <map id="SLRevolver.h" name="SLRevolver.h">
-<area shape="rect" id="node3" href="$_s_l_revolver_8cpp.html" title="SLRevolver.cpp" alt="" coords="153,80,271,107"/>
-<area shape="rect" id="node5" href="$_s_l_arrow_8h.html" title="SLArrow.h" alt="" coords="5,155,91,181"/>
-<area shape="rect" id="node9" href="$_s_l_cone_8h.html" title="SLCone.h" alt="" coords="535,80,617,107"/>
-<area shape="rect" id="node15" href="$_s_l_cylinder_8h.html" title="SLCylinder.h" alt="" coords="657,80,759,107"/>
-<area shape="rect" id="node20" href="$_s_l_disk_8h.html" title="SLDisk.h" alt="" coords="849,80,927,107"/>
-<area shape="rect" id="node25" href="$_s_l_lens_8h.html" title="SLLens.h" alt="" coords="983,80,1063,107"/>
-<area shape="rect" id="node30" href="$_s_l_spheric_8h.html" title="SLSpheric.h" alt="" coords="347,80,445,107"/>
-<area shape="rect" id="node42" href="$_s_l_volume_8h.html" title="SLVolume.h" alt="" coords="1141,80,1240,107"/>
-<area shape="rect" id="node7" href="$_s_l_light_direct_8cpp.html" title="SLLightDirect.cpp" alt="" coords="62,229,196,256"/>
-<area shape="rect" id="node11" href="$_s_l_cone_8cpp.html" title="SLCone.cpp" alt="" coords="527,155,625,181"/>
-<area shape="rect" id="node13" href="$_s_l_scene__on_load_8cpp.html" title="SLScene_onLoad.cpp" alt="" coords="725,229,883,256"/>
-<area shape="rect" id="node17" href="$_s_l_cylinder_8cpp.html" title="SLCylinder.cpp" alt="" coords="650,155,765,181"/>
-<area shape="rect" id="node22" href="$_s_l_disk_8cpp.html" title="SLDisk.cpp" alt="" coords="842,155,933,181"/>
-<area shape="rect" id="node27" href="$_s_l_lens_8cpp.html" title="SLLens.cpp" alt="" coords="1061,155,1155,181"/>
-<area shape="rect" id="node33" href="$_s_l_light_spot_8cpp.html" title="SLLightSpot.cpp" alt="" coords="333,229,459,256"/>
-<area shape="rect" id="node35" href="$_s_l_spheric_8cpp.html" title="SLSpheric.cpp" alt="" coords="167,155,280,181"/>
-<area shape="rect" id="node37" href="$_s_l_sphere_8h.html" title="SLSphere.h" alt="" coords="305,155,401,181"/>
-<area shape="rect" id="node44" href="$_s_l_pathtracer_8cpp.html" title="SLPathtracer.cpp" alt="" coords="1179,155,1311,181"/>
+<area shape="rect" id="node3" href="$_s_l_revolver_8cpp.html" title="SLRevolver.cpp" alt="" coords="5,80,123,107"/>
+<area shape="rect" id="node5" href="$_s_l_arrow_8h.html" title="SLArrow.h" alt="" coords="49,155,135,181"/>
+<area shape="rect" id="node9" href="$_s_l_cone_8h.html" title="SLCone.h" alt="" coords="199,80,281,107"/>
+<area shape="rect" id="node13" href="$_s_l_cylinder_8h.html" title="SLCylinder.h" alt="" coords="305,80,407,107"/>
+<area shape="rect" id="node17" href="$_s_l_disk_8h.html" title="SLDisk.h" alt="" coords="431,80,508,107"/>
+<area shape="rect" id="node21" href="$_s_l_lens_8h.html" title="SLLens.h" alt="" coords="539,80,619,107"/>
+<area shape="rect" id="node25" href="$_s_l_spheric_8h.html" title="SLSpheric.h" alt="" coords="760,80,859,107"/>
+<area shape="rect" id="node36" href="$_s_l_volume_8h.html" title="SLVolume.h" alt="" coords="959,80,1057,107"/>
+<area shape="rect" id="node7" href="$_s_l_light_direct_8cpp.html" title="SLLightDirect.cpp" alt="" coords="742,229,876,256"/>
+<area shape="rect" id="node11" href="$_s_l_cone_8cpp.html" title="SLCone.cpp" alt="" coords="160,155,259,181"/>
+<area shape="rect" id="node15" href="$_s_l_cylinder_8cpp.html" title="SLCylinder.cpp" alt="" coords="283,155,399,181"/>
+<area shape="rect" id="node19" href="$_s_l_disk_8cpp.html" title="SLDisk.cpp" alt="" coords="423,155,515,181"/>
+<area shape="rect" id="node23" href="$_s_l_lens_8cpp.html" title="SLLens.cpp" alt="" coords="539,155,633,181"/>
+<area shape="rect" id="node28" href="$_s_l_light_spot_8cpp.html" title="SLLightSpot.cpp" alt="" coords="909,229,1035,256"/>
+<area shape="rect" id="node30" href="$_s_l_spheric_8cpp.html" title="SLSpheric.cpp" alt="" coords="658,155,771,181"/>
+<area shape="rect" id="node32" href="$_s_l_sphere_8h.html" title="SLSphere.h" alt="" coords="847,155,943,181"/>
+<area shape="rect" id="node38" href="$_s_l_pathtracer_8cpp.html" title="SLPathtracer.cpp" alt="" coords="1018,155,1149,181"/>
 </map>

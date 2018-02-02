@@ -15,7 +15,7 @@ var class_s_l_assimp_importer =
     [ "findSkeletonRoot", "class_s_l_assimp_importer.html#ab95c8664486cd6529cfcb25893d2ee4f", null ],
     [ "getNodeByName", "class_s_l_assimp_importer.html#acaef1f6b922d47cea6255fe5276f19d0", null ],
     [ "getOffsetMat", "class_s_l_assimp_importer.html#a803115d9da94a1e93de3b8783475797c", null ],
-    [ "load", "class_s_l_assimp_importer.html#afff09b76ccde0b88e42c8fcd46113837", null ],
+    [ "load", "class_s_l_assimp_importer.html#a97cd52b3c513043d00c9985df6fbe8e3", null ],
     [ "loadAnimation", "class_s_l_assimp_importer.html#a8b6557d0ebd78c334cbbfd1b653f6394", null ],
     [ "loadMaterial", "class_s_l_assimp_importer.html#a0fd521bf5b42a5409ba3021594ff3794", null ],
     [ "loadMesh", "class_s_l_assimp_importer.html#ae4482730a84c633c500e5e96e8220f81", null ],

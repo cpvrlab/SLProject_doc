@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">2.1</span>
+   &#160;<span id="projectnumber">2.2</span>
    </div>
   </td>
  </tr>
@@ -116,6 +116,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a00b37044b515f065395cfd7316522a92"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_g_l_texture.html#a00b37044b515f065395cfd7316522a92">drawSprite</a> (<a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> doUpdate=false)</td></tr>
 <tr class="memdesc:a00b37044b515f065395cfd7316522a92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the texture as 2D sprite with OpenGL buffers.  <a href="#a00b37044b515f065395cfd7316522a92"></a><br/></td></tr>
 <tr class="separator:a00b37044b515f065395cfd7316522a92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abae881ab946d251ece96d8e2c25c35fa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_g_l_texture.html#abae881ab946d251ece96d8e2c25c35fa">cubeUV2XYZ</a> (<a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a> index, <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> u, <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> v, <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> &amp;x, <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> &amp;y, <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> &amp;z)</td></tr>
+<tr class="memdesc:abae881ab946d251ece96d8e2c25c35fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the unnormalised vector x,y,z from tex. coords. uv with cubemap index.  <a href="#abae881ab946d251ece96d8e2c25c35fa"></a><br/></td></tr>
+<tr class="separator:abae881ab946d251ece96d8e2c25c35fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48d6141f6d1bb4dd87d5915e7891e82f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_g_l_texture.html#a48d6141f6d1bb4dd87d5915e7891e82f">cubeXYZ2UV</a> (<a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> x, <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> y, <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> z, <a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a> &amp;index, <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> &amp;u, <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> &amp;v)</td></tr>
+<tr class="memdesc:a48d6141f6d1bb4dd87d5915e7891e82f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the uv and cubemap image index from a unnormalized vector x,y,z.  <a href="#a48d6141f6d1bb4dd87d5915e7891e82f"></a><br/></td></tr>
+<tr class="separator:a48d6141f6d1bb4dd87d5915e7891e82f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac150d08eba8a36fa429f2cb83f089187"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_g_l_texture.html#ac150d08eba8a36fa429f2cb83f089187">texType</a> (<a class="el" href="_s_l_g_l_texture_8h.html#a0a528bf535c89d9227e20b41e9135bcc">SLTextureType</a> bt)</td></tr>
 <tr class="separator:ac150d08eba8a36fa429f2cb83f089187"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a931e3d4885b446ab3a11c35a6d867d96"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_g_l_texture.html#a931e3d4885b446ab3a11c35a6d867d96">bumpScale</a> (<a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> bs)</td></tr>
@@ -134,8 +140,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3102803e63a89bd530c0eeafb02c5e49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5e0709b0168e567327b53ef3d142b64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_g_l_texture.html#ad5e0709b0168e567327b53ef3d142b64">bumpScale</a> ()</td></tr>
 <tr class="separator:ad5e0709b0168e567327b53ef3d142b64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6dc6192001f0661c3cb799a16bb93bf7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_g_l_texture.html#a6dc6192001f0661c3cb799a16bb93bf7">getTexelf</a> (<a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> s, <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> t)</td></tr>
-<tr class="separator:a6dc6192001f0661c3cb799a16bb93bf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41a1c5fc7f4a78f614f1e63d873f7690"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_g_l_texture.html#a41a1c5fc7f4a78f614f1e63d873f7690">getTexelf</a> (<a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> s, <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> t, <a class="el" href="_s_l_8h.html#a74dab4086041e043ebf72725bcf1cfe6">SLuint</a> imgIndex=0)</td></tr>
+<tr class="memdesc:a41a1c5fc7f4a78f614f1e63d873f7690"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_s_l_g_l_texture.html#a41a1c5fc7f4a78f614f1e63d873f7690" title="SLGLTexture::getTexelf returns a pixel color from s &amp; t texture coordinates.">SLGLTexture::getTexelf</a> returns a pixel color from s &amp; t texture coordinates.  <a href="#a41a1c5fc7f4a78f614f1e63d873f7690"></a><br/></td></tr>
+<tr class="separator:a41a1c5fc7f4a78f614f1e63d873f7690"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a006b4b9569468fd7a59fb6c0a7e8c717"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_g_l_texture.html#a006b4b9569468fd7a59fb6c0a7e8c717">getTexelf</a> (<a class="el" href="_s_l_vec3_8h.html#a22a90ea5a9c12a50e5ce23324a383120">SLVec3f</a> cubemapDir)</td></tr>
+<tr class="memdesc:a006b4b9569468fd7a59fb6c0a7e8c717"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_s_l_g_l_texture.html#a41a1c5fc7f4a78f614f1e63d873f7690" title="SLGLTexture::getTexelf returns a pixel color from s &amp; t texture coordinates.">SLGLTexture::getTexelf</a> returns a pixel color at the specified cubemap direction.  <a href="#a006b4b9569468fd7a59fb6c0a7e8c717"></a><br/></td></tr>
+<tr class="separator:a006b4b9569468fd7a59fb6c0a7e8c717"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa07971aa08140279f755bef58fb4e70c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_g_l_texture.html#aa07971aa08140279f755bef58fb4e70c">hasAlpha</a> ()</td></tr>
 <tr class="separator:aa07971aa08140279f755bef58fb4e70c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af01f23b30c903435eb992446c89e03a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_g_l_texture.html#af01f23b30c903435eb992446c89e03a3">width</a> ()</td></tr>
@@ -273,7 +283,7 @@ Protected Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Texture object for OpenGL texturing. </p>
-<p>The <a class="el" href="class_s_l_g_l_texture.html" title="Texture object for OpenGL texturing.">SLGLTexture</a> class implements an OpenGL texture object that can is used by the <a class="el" href="class_s_l_material.html" title="Defines a standard CG material with textures and a shader program.">SLMaterial</a> class. A texture can have 1-n SLCVImages in the vector _images. A simple 2D texture has just a single texture image (_images[0]). For cube maps you will need 6 images (_images[0-5]). For 3D textures you can have as much images of the same size than your GPU and/or CPU memory can hold. The images are not released after the OpenGL texture creation. They may be needed for ray tracing. </p>
+<p>The <a class="el" href="class_s_l_g_l_texture.html" title="Texture object for OpenGL texturing.">SLGLTexture</a> class implements an OpenGL texture object that can be used by the <a class="el" href="class_s_l_material.html" title="Defines a standard CG material with textures and a shader program.">SLMaterial</a> class. A texture can have 1-n SLCVImages in the vector _images. A simple 2D texture has just a single texture image (_images[0]). For cube maps you will need 6 images (_images[0-5]). For 3D textures you can have as much images of the same size than your GPU and/or CPU memory can hold. The images are not released after the OpenGL texture creation. They may be needed for ray tracing. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ac222f5cd00968ee29048cf8c34652649"></a>
 <div class="memitem">
@@ -797,6 +807,114 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="abae881ab946d251ece96d8e2c25c35fa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SLGLTexture::cubeUV2XYZ </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a>&#160;</td>
+          <td class="paramname"><em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a>&#160;</td>
+          <td class="paramname"><em>u</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a>&#160;</td>
+          <td class="paramname"><em>v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> &amp;&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> &amp;&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> &amp;&#160;</td>
+          <td class="paramname"><em>z</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Computes the unnormalised vector x,y,z from tex. coords. uv with cubemap index. </p>
+<p>A cube texture indexes six texture maps from 0 to 5 in order Positive X, Negative X, Positive Y, Negative Y, Positive Z, Negative Z. The images are stored with the origin at the lower left of the image. The Positive X and Y faces must reverse the Z coordinate and the Negative Z face must negate the X coordinate. If given the face, and texture coordinates (u,v), the unnormalized vector (x,y,z) are computed. Source:<br/>
+ <a href="https://en.wikipedia.org/wiki/Cube_mapping">https://en.wikipedia.org/wiki/Cube_mapping</a> </p>
+
+</div>
+</div>
+<a class="anchor" id="a48d6141f6d1bb4dd87d5915e7891e82f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SLGLTexture::cubeXYZ2UV </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a>&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a>&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a>&#160;</td>
+          <td class="paramname"><em>z</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a> &amp;&#160;</td>
+          <td class="paramname"><em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> &amp;&#160;</td>
+          <td class="paramname"><em>u</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> &amp;&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Computes the uv and cubemap image index from a unnormalized vector x,y,z. </p>
+<p>See also <a class="el" href="class_s_l_g_l_texture.html#abae881ab946d251ece96d8e2c25c35fa" title="Computes the unnormalised vector x,y,z from tex. coords. uv with cubemap index.">SLGLTexture::cubeUV2XYZ</a>. Source:<br/>
+ <a href="https://en.wikipedia.org/wiki/Cube_mapping">https://en.wikipedia.org/wiki/Cube_mapping</a> </p>
+
+</div>
+</div>
 <a class="anchor" id="a4e6422216aca06b68364350f7176249c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -901,7 +1019,7 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a6dc6192001f0661c3cb799a16bb93bf7"></a>
+<a class="anchor" id="a41a1c5fc7f4a78f614f1e63d873f7690"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -915,7 +1033,13 @@ Protected Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a>&#160;</td>
-          <td class="paramname"><em>t</em>&#160;</td>
+          <td class="paramname"><em>t</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_s_l_8h.html#a74dab4086041e043ebf72725bcf1cfe6">SLuint</a>&#160;</td>
+          <td class="paramname"><em>imgIndex</em> = <code>0</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -924,7 +1048,27 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>getTexelf returns a pixel color with its s &amp; t texture coordinates. If the OpenGL filtering is set to GL_LINEAR a bilinear interpolated color out of four neighboring pixels is return. Otherwise the nearest pixel is returned. </p>
+
+<p><a class="el" href="class_s_l_g_l_texture.html#a41a1c5fc7f4a78f614f1e63d873f7690" title="SLGLTexture::getTexelf returns a pixel color from s &amp; t texture coordinates.">SLGLTexture::getTexelf</a> returns a pixel color from s &amp; t texture coordinates. </p>
+<p>If the OpenGL filtering is set to GL_LINEAR a bilinear interpolated color out of four neighboring pixels is return. Otherwise the nearest pixel is returned. </p>
+
+</div>
+</div>
+<a class="anchor" id="a006b4b9569468fd7a59fb6c0a7e8c717"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a> SLGLTexture::getTexelf </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_s_l_vec3_8h.html#a22a90ea5a9c12a50e5ce23324a383120">SLVec3f</a>&#160;</td>
+          <td class="paramname"><em>cubemapDir</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_s_l_g_l_texture.html#a41a1c5fc7f4a78f614f1e63d873f7690" title="SLGLTexture::getTexelf returns a pixel color from s &amp; t texture coordinates.">SLGLTexture::getTexelf</a> returns a pixel color at the specified cubemap direction. </p>
 
 </div>
 </div>
@@ -1804,7 +1948,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_s_l_g_l_texture.html">SLGLTexture</a></li>
-    <li class="footer">Generated on Sat Sep 2 2017 12:28:48 for SLProject by
+    <li class="footer">Generated on Fri Feb 2 2018 15:29:51 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
   </ul>

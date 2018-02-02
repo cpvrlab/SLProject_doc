@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">2.1</span>
+   &#160;<span id="projectnumber">2.2</span>
    </div>
   </td>
  </tr>
@@ -64,6 +64,7 @@ $(document).ready(function(){initNavTree('md__introduction.html','');});
 <div class="toc"><h3>Table of Contents</h3>
 <ul><li class="level1"><a href="#diagram">Class Diagram</a></li>
 <li class="level1"><a href="#app">Application Code</a></li>
+<li class="level1"><a href="#toplevel">Top-level Classes</a></li>
 <li class="level1"><a href="#central">Central Classes</a></li>
 <li class="level1"><a href="#node">Scenegraph Classes</a></li>
 <li class="level1"><a href="#mesh">Mesh Classes</a></li>
@@ -78,13 +79,15 @@ Class Diagram</h1>
 <p>The following class diagram gives you an overview of the major classes with of its important variables and methods: </p>
 <ul>
 <li>
-The <b>gray boxes</b> are the application side that depends on the OS, the window the GUI tool-kit. </li>
+The <b>grey boxes</b> are the application side that depends on the OS, the window the GUI tool-kit. </li>
 <li>
-The <b>blue classes</b> form the centre with the <a class="el" href="class_s_l_input_manager.html" title="SLInputManager. manages system input and custom input devices.">SLInputManager</a>, <a class="el" href="class_s_l_scene.html" title="The SLScene class represents the top level instance holding the scene structure.">SLScene</a> and <a class="el" href="class_s_l_scene_view.html" title="SceneView class represents a dynamic real time 3D view onto the scene.">SLSceneView</a> class. </li>
+The <b>red classes</b> form the top level classes <a class="el" href="class_s_l_application.html" title="Top level class for an SLProject application.">SLApplication</a> and <a class="el" href="class_s_l_input_manager.html" title="SLInputManager. manages system input and custom input devices.">SLInputManager</a>. </li>
+<li>
+The <b>blue classes</b> form the <a class="el" href="class_s_l_scene.html" title="The SLScene class represents the top level instance holding the scene structure.">SLScene</a> and <a class="el" href="class_s_l_scene_view.html" title="SceneView class represents a dynamic real time 3D view onto the scene.">SLSceneView</a> class. </li>
 <li>
 The <b>yellow classes</b> define the materials that are responsible for the visual appearances of the mesh objects. </li>
 <li>
-The <b>green classes</b> build the scenegraph that defines the spacial structure of the visible objects. </li>
+The <b>green classes</b> build the scene graph that defines the spacial structure of the visible objects. </li>
 <li>
 The <b>pink classes</b> define a single triangulated mesh object. </li>
 <li>
@@ -99,16 +102,27 @@ The <b>orange classes</b> encapsulate the image processing functionality using O
 </div>
  <h1><a class="anchor" id="app"></a>
 Application Code</h1>
-<p>The applications starting code (gray boxes in the class diagram below) depends on the operating system In all cases we have the most outer shell of the application that handles the window and the OpenGL context creation and passes events to a thin C-function interface before it is handled by the C++-framework in the library lib-SLProject. The following OS' are supported and applications are provided for demonstration: </p>
+<p>The applications starting code (grey boxes in the class diagram below) depends on the operating system In all cases we have the most outer shell of the application that handles the window and the OpenGL context creation and passes events to a thin C-function interface before it is handled by the C++-framework in the library lib-SLProject. The following OS' are supported and applications are provided for demonstration: </p>
 <ul>
 <li>
-<b>Windows, Linux and Max OSX</b> applications use the <a href="http://www.glfw.org/">GLFW</a> C-library for the platform independent window and context creation. GLFW is included in the SLProject repository. See the app-Demo-GLFW for demonstration. For all demo apps (with GLFW, on iOS and Android) we use the <a href="https://github.com/ocornut/imgui">ImGUI</a> library for the UI. The UI for the demo apps is implemented in the class <a class="el" href="class_s_l_demo_gui.html" title="ImGui UI class for the UI of the demo applications.">SLDemoGui</a>. ImGUI is also included in the repository.  </li>
+<b>Windows, Linux and Max OSX</b> applications use the <a href="http://www.glfw.org/">GLFW</a> C-library for the platform independent window and context creation. GLFW is included in the SLProject repository. See the app-Demo-GLFW for demonstration. For all demo apps (with GLFW, on iOS and Android) we use the <a href="https://github.com/ocornut/imgui">ImGUI</a> library for the UI. The UI for the demo apps is implemented in the applications. ImGUI is also included in the repository.  </li>
 <li>
 The <b>Android</b> application starts in JAVA and passes the events with JNI (Java Native Interface) to the C-interface. See the <a href="https://github.com/cpvrlab/SLProject/wiki/Build-for-Android">wiki for build instructions</a> and the app-Demo-Android for demonstration.  </li>
 <li>
 On <b>Apple iOS</b> Devices the application starts in ObjectiveC before it passes the events to the C-interface. See the <a href="https://github.com/cpvrlab/SLProject/wiki/Build-for-Apple-iOS">wiki for build instructions</a> and the app-Demo-iOS for demonstration.  </li>
 <li>
 You could in fact use any GUI library on any OS that can create OpenGL contexts. Other alternatives could be e.g. <a href="https://www.qt.io/">Qt</a>, <a href="http://freeglut.sourceforge.net/">freeglut</a>, <a href="http://www.fltk.org/index.php">FLTK</a>, <a href="http://www.wxwidgets.org/">wxWidgets</a>, <a href="http://www.nanapro.org/en-us/">Nana</a> or <a href="http://www.juce.com/">Juce</a>. An extended example with Qt can be found in the folder _old.  </li>
+<li>
+<a class="el" href="_s_l_interface_8h.html" title="SLProject C-functions interface declaration.">SLInterface.h</a> and <a class="el" href="_s_l_interface_8cpp.html" title="SLProject C-functions interface implementation.">SLInterface.cpp</a> define the C-Interface of the SLProject library. We use a C-interface because this type can be called from any higher level language. The SLInterface talks only to the <a class="el" href="class_s_l_application.html" title="Top level class for an SLProject application.">SLApplication</a>, <a class="el" href="class_s_l_scene.html" title="The SLScene class represents the top level instance holding the scene structure.">SLScene</a> and <a class="el" href="class_s_l_scene_view.html" title="SceneView class represents a dynamic real time 3D view onto the scene.">SLSceneView</a> classes.  </li>
+</ul>
+<h1><a class="anchor" id="toplevel"></a>
+Top-level Classes</h1>
+<p>The red classes form the top-level classes of the SLProject framework: </p>
+<ul>
+<li>
+The <a class="el" href="class_s_l_application.html" title="Top level class for an SLProject application.">SLApplication</a> holds static instances of top-level items such as the scene pointer, the camera calibration objects and the device rotation and location information.  </li>
+<li>
+<a class="el" href="class_s_l_input_manager.html" title="SLInputManager. manages system input and custom input devices.">SLInputManager</a> collects all user events from the mouse and keyboard as well as from additional input devices such as a LeapMotion or Kinect sensor.  </li>
 </ul>
 <h1><a class="anchor" id="central"></a>
 Central Classes</h1>
@@ -119,7 +133,7 @@ Central Classes</h1>
 <li>
 <a class="el" href="class_s_l_input_manager.html" title="SLInputManager. manages system input and custom input devices.">SLInputManager</a> collects all user events from the mouse and keyboard as well as from additional input devices such as a LeapMotion or Kinect sensor.  </li>
 <li>
-<a class="el" href="class_s_l_scene.html" title="The SLScene class represents the top level instance holding the scene structure.">SLScene</a> is the top-level class of the framework that represents the scene with its properties. The scene content is created in <a class="el" href="class_s_l_scene.html#ada7194df99deb706cdc761db56cf5390" title="SLScene::onLoad(int _currentID) builds a scene from source code.">SLScene::onLoad</a>. It also holds one or more pointers to <a class="el" href="class_s_l_scene_view.html" title="SceneView class represents a dynamic real time 3D view onto the scene.">SLSceneView</a> instances.  </li>
+<a class="el" href="class_s_l_scene.html" title="The SLScene class represents the top level instance holding the scene structure.">SLScene</a> is the top-level class of the framework that represents the scene with its properties. The scene content is created in <a class="el" href="class_s_l_scene.html#ad64c907ecd28bfb20fcbfdaea8c1f0e3" title="C-Callback for scene load.">SLScene::onLoad</a>. It also holds one or more pointers to <a class="el" href="class_s_l_scene_view.html" title="SceneView class represents a dynamic real time 3D view onto the scene.">SLSceneView</a> instances.  </li>
 <li>
 <a class="el" href="class_s_l_scene_view.html" title="SceneView class represents a dynamic real time 3D view onto the scene.">SLSceneView</a> represents a dynamic real time 3D view onto the scene. A scene can be shown in multiple sceneviews as demonstrated in the app-Viewer-Qt application. A sceneview receives all events (keyboard, mouse etc.) from the GUI via the <a class="el" href="class_s_l_input_manager.html" title="SLInputManager. manages system input and custom input devices.">SLInputManager</a>.  </li>
 </ul>
@@ -170,7 +184,7 @@ Animation Classes</h1>
 <li>
 <a class="el" href="class_s_l_animation.html" title="SLAnimation is the base container for all animation data.">SLAnimation</a> is a container for multiple <a class="el" href="class_s_l_anim_track.html" title="Abstract base class for SLAnimationTracks providing time and keyframe functions.">SLAnimTrack</a> that build an animation. E.g. a walk animation would consist of all the <a class="el" href="class_s_l_anim_track.html" title="Abstract base class for SLAnimationTracks providing time and keyframe functions.">SLAnimTrack</a> that make a <a class="el" href="class_s_l_skeleton.html" title="SLSkeleton keeps track of a skeletons joints and animations.">SLSkeleton</a> walk. It also knows the length of the animation.  </li>
 <li>
-<a class="el" href="class_s_l_anim_track.html" title="Abstract base class for SLAnimationTracks providing time and keyframe functions.">SLAnimTrack</a> and <a class="el" href="class_s_l_node_anim_track.html" title="Specialized animation track for node animations.">SLNodeAnimTrack</a>: An animation track is a track that affects a single <a class="el" href="class_s_l_node.html" title="SLNode represents a node in a hierarchical scene graph.">SLNode</a> or an <a class="el" href="class_s_l_joint.html" title="Specialized SLNode that represents a single joint (or bone) in a skeleton.">SLJoint</a> of an <a class="el" href="class_s_l_skeleton.html" title="SLSkeleton keeps track of a skeletons joints and animations.">SLSkeleton</a> by interpolating its transform. It holds therefore a list of <a class="el" href="class_s_l_keyframe.html" title="Base class for all keyframes.">SLKeyframe</a>. For a smooth motion it can interpolate the transform at a given time between two neighboring <a class="el" href="class_s_l_keyframe.html" title="Base class for all keyframes.">SLKeyframe</a>.  </li>
+<a class="el" href="class_s_l_anim_track.html" title="Abstract base class for SLAnimationTracks providing time and keyframe functions.">SLAnimTrack</a> and <a class="el" href="class_s_l_node_anim_track.html" title="Specialized animation track for node animations.">SLNodeAnimTrack</a>: An animation track is a track that affects a single <a class="el" href="class_s_l_node.html" title="SLNode represents a node in a hierarchical scene graph.">SLNode</a> or an <a class="el" href="class_s_l_joint.html" title="Specialized SLNode that represents a single joint (or bone) in a skeleton.">SLJoint</a> of an <a class="el" href="class_s_l_skeleton.html" title="SLSkeleton keeps track of a skeletons joints and animations.">SLSkeleton</a> by interpolating its transform. It holds therefore a list of <a class="el" href="class_s_l_keyframe.html" title="Base class for all keyframes.">SLKeyframe</a>. For a smooth motion it can interpolate the transform at a given time between two neighbouring <a class="el" href="class_s_l_keyframe.html" title="Base class for all keyframes.">SLKeyframe</a>.  </li>
 <li>
 <a class="el" href="class_s_l_keyframe.html" title="Base class for all keyframes.">SLKeyframe</a> and <a class="el" href="class_s_l_transform_keyframe.html" title="SLTransformKeyframe is a specialized SLKeyframe for node transformations.">SLTransformKeyframe</a> define a transform at a certain time on an <a class="el" href="class_s_l_anim_track.html" title="Abstract base class for SLAnimationTracks providing time and keyframe functions.">SLAnimTrack</a>.  </li>
 <li>
@@ -205,7 +219,7 @@ Image Processing Classes</h1>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Sep 2 2017 12:28:40 for SLProject by
+    <li class="footer">Generated on Fri Feb 2 2018 15:29:32 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
   </ul>

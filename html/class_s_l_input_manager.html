@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">2.1</span>
+   &#160;<span id="projectnumber">2.2</span>
    </div>
   </td>
  </tr>
@@ -67,10 +67,8 @@ $(document).ready(function(){initNavTree('class_s_l_input_manager.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
-<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="class_s_l_input_manager-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -85,20 +83,17 @@ $(document).ready(function(){initNavTree('class_s_l_input_manager.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:ac06cc49eadd0359b41a86ae7bc226751"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_input_manager.html#ac06cc49eadd0359b41a86ae7bc226751">SLInputManager</a> ()</td></tr>
+<tr class="separator:ac06cc49eadd0359b41a86ae7bc226751"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae13f803f4cc451072320bf6fb63dc2a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_input_manager.html#ae13f803f4cc451072320bf6fb63dc2a8">pollAndProcessEvents</a> ()</td></tr>
 <tr class="separator:ae13f803f4cc451072320bf6fb63dc2a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2bc553afaa7d1c43bf965720bcd63c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_input_manager.html#af2bc553afaa7d1c43bf965720bcd63c5">queueEvent</a> (const <a class="el" href="class_s_l_input_event.html">SLInputEvent</a> *e)</td></tr>
 <tr class="separator:af2bc553afaa7d1c43bf965720bcd63c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a3a910575269ad5bc7e8c80a61da707e8"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_s_l_input_manager.html">SLInputManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_input_manager.html#a3a910575269ad5bc7e8c80a61da707e8">instance</a> ()</td></tr>
-<tr class="separator:a3a910575269ad5bc7e8c80a61da707e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a385a411425c1d400b8fa6e9a434db68a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_input_device_8h.html#afa9f09340d7c71d0d76e3df1bd4d8166">SLVInputDevice</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_input_manager.html#a385a411425c1d400b8fa6e9a434db68a">devices</a> ()</td></tr>
+<tr class="separator:a385a411425c1d400b8fa6e9a434db68a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:ac06cc49eadd0359b41a86ae7bc226751"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_input_manager.html#ac06cc49eadd0359b41a86ae7bc226751">SLInputManager</a> ()</td></tr>
-<tr class="separator:ac06cc49eadd0359b41a86ae7bc226751"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50eb186419bda75aec54d9e2d610f9b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_input_manager.html#a50eb186419bda75aec54d9e2d610f9b4">processQueuedEvents</a> ()</td></tr>
 <tr class="separator:a50eb186419bda75aec54d9e2d610f9b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -111,12 +106,6 @@ Private Attributes</h2></td></tr>
 <tr class="memdesc:a397816818c23e7667854e1012cc913ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">list of activated SLInputDevices  <a href="#a397816818c23e7667854e1012cc913ac"></a><br/></td></tr>
 <tr class="separator:a397816818c23e7667854e1012cc913ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
-Static Private Attributes</h2></td></tr>
-<tr class="memitem:a87563522e1a7ce261c60baf39f9cf7cf"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_s_l_input_manager.html">SLInputManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_input_manager.html#a87563522e1a7ce261c60baf39f9cf7cf">_instance</a></td></tr>
-<tr class="memdesc:a87563522e1a7ce261c60baf39f9cf7cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">the singleton instance of the input manager  <a href="#a87563522e1a7ce261c60baf39f9cf7cf"></a><br/></td></tr>
-<tr class="separator:a87563522e1a7ce261c60baf39f9cf7cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
 <tr class="memitem:a9a8cf2b44f1c2ff8b4dd3e18c87c7212"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_input_manager.html#a9a8cf2b44f1c2ff8b4dd3e18c87c7212">SLInputDevice</a></td></tr>
@@ -124,8 +113,7 @@ Friends</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="class_s_l_input_manager.html" title="SLInputManager. manages system input and custom input devices.">SLInputManager</a>. manages system input and custom input devices. </p>
-<p>Every user input has to go through the <a class="el" href="class_s_l_input_manager.html" title="SLInputManager. manages system input and custom input devices.">SLInputManager</a>. System event's like touch, mouse, character input will be encapsulated in <a class="el" href="class_s_l_input_event.html" title="Baseclass for all system input events.">SLInputEvent</a> subclasses and will be queued up before being sent to the relevant <a class="el" href="class_s_l_scene_view.html" title="SceneView class represents a dynamic real time 3D view onto the scene.">SLSceneView</a>. Custom SLInputDevices can also be created. The SLInputDevices are guaranteed to receive a call to their poll() function whenever the <a class="el" href="class_s_l_input_manager.html" title="SLInputManager. manages system input and custom input devices.">SLInputManager</a> requires them to send out new events.</p>
-<p><a class="el" href="class_s_l_input_manager.html" title="SLInputManager. manages system input and custom input devices.">SLInputManager</a> is a singleton class and only ever exists once. </p>
+<p>One static instance of <a class="el" href="class_s_l_input_manager.html" title="SLInputManager. manages system input and custom input devices.">SLInputManager</a> is used in <a class="el" href="class_s_l_application.html" title="Top level class for an SLProject application.">SLApplication</a>. Every user input has to go through the <a class="el" href="class_s_l_input_manager.html" title="SLInputManager. manages system input and custom input devices.">SLInputManager</a>. System event's like touch, mouse, character input will be encapsulated in <a class="el" href="class_s_l_input_event.html" title="Baseclass for all system input events.">SLInputEvent</a> subclasses and will be queued up before being sent to the relevant <a class="el" href="class_s_l_scene_view.html" title="SceneView class represents a dynamic real time 3D view onto the scene.">SLSceneView</a>. Custom SLInputDevices can also be created. The SLInputDevices are guaranteed to receive a call to their poll() function whenever the <a class="el" href="class_s_l_input_manager.html" title="SLInputManager. manages system input and custom input devices.">SLInputManager</a> requires them to send out new events. The method pollAndProcessEvents is called every frame in <a class="el" href="class_s_l_scene.html#af10cab4b78dffad547f02c0ad59b447b" title="Processes all queued events and updates animations, AR trackers and AABBs.">SLScene::onUpdate</a>. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ac06cc49eadd0359b41a86ae7bc226751"></a>
 <div class="memitem">
@@ -143,7 +131,7 @@ Friends</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -151,7 +139,7 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a3a910575269ad5bc7e8c80a61da707e8"></a>
+<a class="anchor" id="a385a411425c1d400b8fa6e9a434db68a"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -159,7 +147,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_s_l_input_manager.html">SLInputManager</a> &amp; SLInputManager::instance </td>
+          <td class="memname"><a class="el" href="_s_l_input_device_8h.html#afa9f09340d7c71d0d76e3df1bd4d8166">SLVInputDevice</a>&amp; SLInputManager::devices </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -167,11 +155,10 @@ Friends</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>static accessor to the singleton instance of this class </p>
 
 </div>
 </div>
@@ -188,7 +175,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Sends any queued up system event's to their correct receiver and polls all activated SLInputDevices.</p>
-<dl class="section note"><dt>Note</dt><dd>The event queue is similar to how Qt manages it's events. The main difference is, that we don't use the <a class="el" href="class_s_l_input_event.html" title="Baseclass for all system input events.">SLInputEvent</a> class outside of the <a class="el" href="class_s_l_input_manager.html" title="SLInputManager. manages system input and custom input devices.">SLInputManager</a>. The <a class="el" href="class_s_l_input_manager.html" title="SLInputManager. manages system input and custom input devices.">SLInputManager</a> calls the correct <a class="el" href="class_s_l_scene_view.html" title="SceneView class represents a dynamic real time 3D view onto the scene.">SLSceneView</a> input handler functions directly. Also we don't allow for custom SLInputEvents. This is the other main difference to the Qt event system. The decision to go this route is simplicity for now. It is totally sufficient for our use cases to provide the user with the <a class="el" href="class_s_l_input_device.html" title="Interface for input devices that have to be pollsed.">SLInputDevice</a> interface to realize custom input. However it has to be considered, that Qt also has many GUI related events like MouseEnter, MouseLeave, Drag etc. For a sophisticated GUI implementation the whole input management in <a class="el" href="class_s_l.html">SL</a> would have to be reviewed. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>The event queue is similar to how Qt manages it's events. The main difference is, that we don't use the <a class="el" href="class_s_l_input_event.html" title="Baseclass for all system input events.">SLInputEvent</a> class outside of the <a class="el" href="class_s_l_input_manager.html" title="SLInputManager. manages system input and custom input devices.">SLInputManager</a>. The <a class="el" href="class_s_l_input_manager.html" title="SLInputManager. manages system input and custom input devices.">SLInputManager</a> calls the correct <a class="el" href="class_s_l_scene_view.html" title="SceneView class represents a dynamic real time 3D view onto the scene.">SLSceneView</a> input handler functions directly. Also we don't allow for custom SLInputEvents. This is the other main difference to the Qt event system. The decision to go this route is simplicity for now. It is totally sufficient for our use cases to provide the user with the <a class="el" href="class_s_l_input_device.html" title="Interface for input devices that have to be pollsed.">SLInputDevice</a> interface to realize custom input. However it has to be considered, that Qt also has many GUI related events like MouseEnter, MouseLeave, Drag etc. For a sophisticated GUI implementation the whole input management in <a class="el" href="class_s_l.html" title="Class SL with some global static functions and members.">SL</a> would have to be reviewed. </dd></dl>
 
 </div>
 </div>
@@ -278,29 +265,6 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a87563522e1a7ce261c60baf39f9cf7cf"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_s_l_input_manager.html">SLInputManager</a> SLInputManager::_instance</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>the singleton instance of the input manager </p>
-<p>static instance variable declaration </p>
-
-</div>
-</div>
 <a class="anchor" id="a91be5bf7589491941c723bb1755a6e78"></a>
 <div class="memitem">
 <div class="memproto">
@@ -333,7 +297,7 @@ Friends</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_s_l_input_manager.html">SLInputManager</a></li>
-    <li class="footer">Generated on Sat Sep 2 2017 12:28:49 for SLProject by
+    <li class="footer">Generated on Fri Feb 2 2018 15:29:55 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
   </ul>

@@ -5,7 +5,8 @@
 <area shape="rect" id="node13" href="$class_s_l_light_direct.html" title="SLLightDirect class for a directional light source." alt="" coords="313,155,420,181"/>
 <area shape="rect" id="node15" href="$class_s_l_light_rect.html" title="Light node class for a rectangular light source." alt="" coords="445,155,541,181"/>
 <area shape="rect" id="node17" href="$class_s_l_light_spot.html" title="SLLightSpot class for a spot light source." alt="" coords="567,155,665,181"/>
-<area shape="rect" id="node19" href="$class_s_l_text.html" title="SLText creates a mesh using a textured font from SLTexFont." alt="" coords="690,155,755,181"/>
-<area shape="rect" id="node2" href="$class_s_l_object.html" title="Base class for all other classes." alt="" coords="265,5,343,32"/>
-<area shape="rect" id="node4" href="$class_s_l_event_handler.html" title="Virtual Eventhandler class." alt="" coords="367,5,491,32"/>
+<area shape="rect" id="node19" href="$class_s_l_skybox.html" title="Skybox node class with a SLBox mesh." alt="" coords="690,155,773,181"/>
+<area shape="rect" id="node21" href="$class_s_l_text.html" title="SLText creates a mesh using a textured font from SLTexFont." alt="" coords="798,155,863,181"/>
+<area shape="rect" id="node2" href="$class_s_l_object.html" title="Base class for all other classes." alt="" coords="327,5,405,32"/>
+<area shape="rect" id="node4" href="$class_s_l_event_handler.html" title="Virtual Eventhandler class." alt="" coords="430,5,553,32"/>
 </map>

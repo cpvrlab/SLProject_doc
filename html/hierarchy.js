@@ -17,6 +17,7 @@ var hierarchy =
     [ "SLAnimTrack", "class_s_l_anim_track.html", [
       [ "SLNodeAnimTrack", "class_s_l_node_anim_track.html", null ]
     ] ],
+    [ "SLApplication", "class_s_l_application.html", null ],
     [ "SLAverage< T >", "class_s_l_average.html", null ],
     [ "SLAverage< SLfloat >", "class_s_l_average.html", null ],
     [ "SLCurve", "class_s_l_curve.html", [
@@ -32,7 +33,8 @@ var hierarchy =
       [ "SLCVTrackedChessboard", "class_s_l_c_v_tracked_chessboard.html", null ],
       [ "SLCVTrackedFeatures", "class_s_l_c_v_tracked_features.html", null ]
     ] ],
-    [ "SLDemoGui", "class_s_l_demo_gui.html", null ],
+    [ "SLDeviceLocation", "class_s_l_device_location.html", null ],
+    [ "SLDeviceRotation", "class_s_l_device_rotation.html", null ],
     [ "SLDrawBits", "class_s_l_draw_bits.html", null ],
     [ "SLEventHandler", "class_s_l_event_handler.html", [
       [ "SLGLUniform< T >", "class_s_l_g_l_uniform.html", null ],
@@ -43,6 +45,7 @@ var hierarchy =
         [ "SLLightDirect", "class_s_l_light_direct.html", null ],
         [ "SLLightRect", "class_s_l_light_rect.html", null ],
         [ "SLLightSpot", "class_s_l_light_spot.html", null ],
+        [ "SLSkybox", "class_s_l_skybox.html", null ],
         [ "SLText", "class_s_l_text.html", null ]
       ] ],
       [ "SLRaytracer", "class_s_l_raytracer.html", [
@@ -69,7 +72,6 @@ var hierarchy =
     [ "SLInputDevice", "class_s_l_input_device.html", null ],
     [ "SLInputEvent", "class_s_l_input_event.html", [
       [ "SLCharInputEvent", "class_s_l_char_input_event.html", null ],
-      [ "SLCommandEvent", "class_s_l_command_event.html", null ],
       [ "SLKeyEvent", "class_s_l_key_event.html", null ],
       [ "SLMouseEvent", "class_s_l_mouse_event.html", null ],
       [ "SLResizeEvent", "class_s_l_resize_event.html", null ],
@@ -86,6 +88,7 @@ var hierarchy =
       [ "SLLightSpot", "class_s_l_light_spot.html", null ]
     ] ],
     [ "SLMat3< T >", "class_s_l_mat3.html", null ],
+    [ "SLMat3< SLdouble >", "class_s_l_mat3.html", null ],
     [ "SLMat3< SLfloat >", "class_s_l_mat3.html", null ],
     [ "SLMat4< T >", "class_s_l_mat4.html", null ],
     [ "SLMat4< SLfloat >", "class_s_l_mat4.html", null ],
@@ -107,6 +110,7 @@ var hierarchy =
         [ "SLBox", "class_s_l_box.html", null ],
         [ "SLCoordAxis", "class_s_l_coord_axis.html", null ],
         [ "SLGrid", "class_s_l_grid.html", null ],
+        [ "SLPoints", "class_s_l_points.html", null ],
         [ "SLPolygon", "class_s_l_polygon.html", null ],
         [ "SLPolyline", "class_s_l_polyline.html", null ],
         [ "SLRectangle", "class_s_l_rectangle.html", null ],
@@ -131,6 +135,10 @@ var hierarchy =
     [ "SLQuat4< T >", "class_s_l_quat4.html", null ],
     [ "SLQuat4< SLfloat >", "class_s_l_quat4.html", null ],
     [ "SLRay", "class_s_l_ray.html", null ],
+    [ "SLRnd3f", "class_s_l_rnd3f.html", [
+      [ "SLRnd3fNormal", "class_s_l_rnd3f_normal.html", null ],
+      [ "SLRnd3fUniform", "class_s_l_rnd3f_uniform.html", null ]
+    ] ],
     [ "SLRTAAPixel", "struct_s_l_r_t_a_a_pixel.html", null ],
     [ "SLSamples2D", "class_s_l_samples2_d.html", null ],
     [ "SLSkeleton", "class_s_l_skeleton.html", null ],
@@ -145,6 +153,7 @@ var hierarchy =
     [ "SLVec2< SLfloat >", "class_s_l_vec2.html", null ],
     [ "SLVec2< SLint >", "class_s_l_vec2.html", null ],
     [ "SLVec3< T >", "class_s_l_vec3.html", null ],
+    [ "SLVec3< double >", "class_s_l_vec3.html", null ],
     [ "SLVec3< SLfloat >", "class_s_l_vec3.html", null ],
     [ "SLVec3< SLint >", "class_s_l_vec3.html", null ],
     [ "SLVec4< T >", "class_s_l_vec4.html", null ],

@@ -12,8 +12,8 @@ var class_s_l_mat3 =
     [ "fromEulerAnglesXYZ", "class_s_l_mat3.html#ae203283760b7b82db68bbf49762e22ed", null ],
     [ "fromEulerAnglesZXZ", "class_s_l_mat3.html#a6813c1904477f3391b7f17774db1dd56", null ],
     [ "identity", "class_s_l_mat3.html#a90b8c1f4f0bf5dadb675e25fc4b79669", null ],
-    [ "inverse", "class_s_l_mat3.html#ae259bf6c74dfd3aedb17ee679ff09a6e", null ],
     [ "invert", "class_s_l_mat3.html#ab26fbdb70a1e1b3dad58c95a9021d766", null ],
+    [ "inverted", "class_s_l_mat3.html#aae8070305c4784ca91737ee934883831", null ],
     [ "operator const T *", "class_s_l_mat3.html#a1270637a874fd2b17ce576f0b827e015", null ],
     [ "operator T *", "class_s_l_mat3.html#acecc0d62cde51aef8f10895446879856", null ],
     [ "operator()", "class_s_l_mat3.html#a13cd44ed19a743fdf4b2fdae79c66a0b", null ],
@@ -43,5 +43,6 @@ var class_s_l_mat3 =
     [ "toEulerAnglesZYX", "class_s_l_mat3.html#a0435ff18be61847f0a86630730a91c7d", null ],
     [ "trace", "class_s_l_mat3.html#a16b374441b2323d87e39da834002137a", null ],
     [ "transpose", "class_s_l_mat3.html#a36564aacbf12ab46cb689a8d957030b7", null ],
+    [ "transposed", "class_s_l_mat3.html#aa0ec71f24b8c07599a31f14b32b04f38", null ],
     [ "_m", "class_s_l_mat3.html#ae474cf289ebddb2781152eade072ecca", null ]
 ];

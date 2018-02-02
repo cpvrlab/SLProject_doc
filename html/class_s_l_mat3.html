@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">2.1</span>
+   &#160;<span id="projectnumber">2.2</span>
    </div>
   </td>
  </tr>
@@ -161,13 +161,17 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a90b8c1f4f0bf5dadb675e25fc4b79669"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_mat3.html#a90b8c1f4f0bf5dadb675e25fc4b79669">identity</a> ()</td></tr>
 <tr class="separator:a90b8c1f4f0bf5dadb675e25fc4b79669"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36564aacbf12ab46cb689a8d957030b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_mat3.html#a36564aacbf12ab46cb689a8d957030b7">transpose</a> ()</td></tr>
+<tr class="memdesc:a36564aacbf12ab46cb689a8d957030b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transposes the matrix.  <a href="#a36564aacbf12ab46cb689a8d957030b7"></a><br/></td></tr>
 <tr class="separator:a36564aacbf12ab46cb689a8d957030b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0ec71f24b8c07599a31f14b32b04f38"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_s_l_mat3.html">SLMat3</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_mat3.html#aa0ec71f24b8c07599a31f14b32b04f38">transposed</a> ()</td></tr>
+<tr class="memdesc:aa0ec71f24b8c07599a31f14b32b04f38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the transposed of the matrix and leaves the itself unchanged.  <a href="#aa0ec71f24b8c07599a31f14b32b04f38"></a><br/></td></tr>
+<tr class="separator:aa0ec71f24b8c07599a31f14b32b04f38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab26fbdb70a1e1b3dad58c95a9021d766"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_mat3.html#ab26fbdb70a1e1b3dad58c95a9021d766">invert</a> ()</td></tr>
 <tr class="memdesc:ab26fbdb70a1e1b3dad58c95a9021d766"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inverts the matrix.  <a href="#ab26fbdb70a1e1b3dad58c95a9021d766"></a><br/></td></tr>
 <tr class="separator:ab26fbdb70a1e1b3dad58c95a9021d766"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae259bf6c74dfd3aedb17ee679ff09a6e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_s_l_mat3.html">SLMat3</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_mat3.html#ae259bf6c74dfd3aedb17ee679ff09a6e">inverse</a> ()</td></tr>
-<tr class="memdesc:ae259bf6c74dfd3aedb17ee679ff09a6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the inverse of the matrix.  <a href="#ae259bf6c74dfd3aedb17ee679ff09a6e"></a><br/></td></tr>
-<tr class="separator:ae259bf6c74dfd3aedb17ee679ff09a6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae8070305c4784ca91737ee934883831"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_s_l_mat3.html">SLMat3</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_mat3.html#aae8070305c4784ca91737ee934883831">inverted</a> ()</td></tr>
+<tr class="memdesc:aae8070305c4784ca91737ee934883831"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the inverse of the matrix and leaves itself unchanged.  <a href="#aae8070305c4784ca91737ee934883831"></a><br/></td></tr>
+<tr class="separator:aae8070305c4784ca91737ee934883831"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16b374441b2323d87e39da834002137a"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_mat3.html#a16b374441b2323d87e39da834002137a">trace</a> () const </td></tr>
 <tr class="separator:a16b374441b2323d87e39da834002137a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa99b7284b1fe1b94bd3f97f19980ff76"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_mat3.html#aa99b7284b1fe1b94bd3f97f19980ff76">det</a> () const </td></tr>
@@ -581,25 +585,6 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="ae259bf6c74dfd3aedb17ee679ff09a6e"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_s_l_mat3.html">SLMat3</a>&lt; T &gt; <a class="el" href="class_s_l_mat3.html">SLMat3</a>&lt; T &gt;::inverse </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Returns the inverse of the matrix. </p>
-
-</div>
-</div>
 <a class="anchor" id="ab26fbdb70a1e1b3dad58c95a9021d766"></a>
 <div class="memitem">
 <div class="memproto">
@@ -616,6 +601,25 @@ template&lt;class T &gt; </div>
 </div><div class="memdoc">
 
 <p>Inverts the matrix. </p>
+
+</div>
+</div>
+<a class="anchor" id="aae8070305c4784ca91737ee934883831"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_s_l_mat3.html">SLMat3</a>&lt; T &gt; <a class="el" href="class_s_l_mat3.html">SLMat3</a>&lt; T &gt;::inverted </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the inverse of the matrix and leaves itself unchanged. </p>
 
 </div>
 </div>
@@ -1372,6 +1376,27 @@ template&lt;class T &gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>Transposes the matrix. </p>
+
+</div>
+</div>
+<a class="anchor" id="aa0ec71f24b8c07599a31f14b32b04f38"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_s_l_mat3.html">SLMat3</a>&lt; T &gt; <a class="el" href="class_s_l_mat3.html">SLMat3</a>&lt; T &gt;::transposed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the transposed of the matrix and leaves the itself unchanged. </p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -1398,7 +1423,7 @@ template&lt;class T&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_s_l_mat3.html">SLMat3</a></li>
-    <li class="footer">Generated on Sat Sep 2 2017 12:28:51 for SLProject by
+    <li class="footer">Generated on Fri Feb 2 2018 15:30:01 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
   </ul>

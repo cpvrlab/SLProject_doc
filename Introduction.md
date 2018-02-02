@@ -3,10 +3,11 @@
 <p>
 The following class diagram gives you an overview of the major classes with of its important variables and methods:
 <ul>
-    <li>The <b>gray boxes</b> are the application side that depends on the OS, the window the GUI tool-kit.</li>
-    <li>The <b>blue classes</b> form the centre with the SLInputManager, SLScene and SLSceneView class.</li>
+    <li>The <b>grey boxes</b> are the application side that depends on the OS, the window the GUI tool-kit.</li>
+    <li>The <b>red classes</b> form the top level classes SLApplication and SLInputManager.</li>
+    <li>The <b>blue classes</b> form the SLScene and SLSceneView class.</li>
     <li>The <b>yellow classes</b> define the materials that are responsible for the visual appearances of the mesh objects.</li>
-    <li>The <b>green classes</b> build the scenegraph that defines the spacial structure of the visible objects.</li>
+    <li>The <b>green classes</b> build the scene graph that defines the spacial structure of the visible objects.</li>
     <li>The <b>pink classes</b> define a single triangulated mesh object.</li>
     <li>The <b>violet classes</b> encapsulate all OpenGL vertex array object and buffer objects.</li>
     <li>The <b>red classes</b> build the animation framework.</li>
@@ -17,7 +18,7 @@ The following class diagram gives you an overview of the major classes with of i
 
 \section app Application Code
 <p>
-The applications starting code (gray boxes in the class diagram below) depends on the operating system 
+The applications starting code (grey boxes in the class diagram below) depends on the operating system 
 In all cases we have the most outer shell of the application that handles the window and the
 OpenGL context creation and passes events to a thin C-function interface
 before it is handled by the C++-framework in the library lib-SLProject.
@@ -29,7 +30,7 @@ The following OS' are supported and applications are provided for demonstration:
         GLFW is included in the SLProject repository. See the app-Demo-GLFW for demonstration. 
 		For all demo apps (with GLFW, on iOS and Android) we use the 
         <a href="https://github.com/ocornut/imgui">ImGUI</a> library for the UI. 
-		The UI for the demo apps is implemented in the class SLDemoGui. ImGUI is also included in the repository.
+		The UI for the demo apps is implemented in the applications. ImGUI is also included in the repository.
     </li>
     <li>
         The <b>Android</b> application starts in JAVA and passes the events with JNI (Java
@@ -51,6 +52,27 @@ The following OS' are supported and applications are provided for demonstration:
 		<a href="http://www.nanapro.org/en-us/">Nana</a> or 
 		<a href="http://www.juce.com/">Juce</a>.
 		An extended example with Qt can be found in the folder _old. 
+    </li>
+    <li>
+        SLInterface.h and SLInterface.cpp define the C-Interface of the SLProject library.
+        We use a C-interface because this type can be called from any higher level language.
+        The SLInterface talks only to the SLApplication, SLScene and SLSceneView classes.
+    </li>
+</ul>
+</p>
+
+\section toplevel Top-level Classes
+<p>
+The red classes form the top-level classes of the SLProject framework:
+<ul>
+    <li>
+        The SLApplication holds static instances of top-level items such as the scene
+ pointer, the camera calibration objects and the device rotation and location
+ information.
+    </li>
+    <li>
+        SLInputManager collects all user events from the mouse and keyboard as well as from
+        additional input devices such as a LeapMotion or Kinect sensor.
     </li>
 </ul>
 </p>

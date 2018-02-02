@@ -11,7 +11,7 @@
 <polygon fill="white" stroke="white" points="-4,5 -4,-24 35,-24 35,5 -4,5"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<a xlink:href="class_s_l.html" target="_top" xlink:title="SL">
+<a xlink:href="class_s_l.html" target="_top" xlink:title="Class SL with some global static functions and members.">
 <polygon fill="white" stroke="black" points="0.5,-0.5 0.5,-19.5 29.5,-19.5 29.5,-0.5 0.5,-0.5"/>
 <text text-anchor="middle" x="15" y="-7.5" font-family="Arial.ttf" font-size="10.00">SL</text>
 </a>

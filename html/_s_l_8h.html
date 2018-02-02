@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">2.1</span>
+   &#160;<span id="projectnumber">2.2</span>
    </div>
   </td>
  </tr>
@@ -74,6 +74,7 @@ $(document).ready(function(){initNavTree('_s_l_8h.html','');});
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="_s_l_enums_8h.html">SLEnums.h</a>&gt;</code><br/>
 <code>#include &lt;iostream&gt;</code><br/>
+<code>#include &lt;iomanip&gt;</code><br/>
 <code>#include &lt;sstream&gt;</code><br/>
 <code>#include &lt;fstream&gt;</code><br/>
 <code>#include &lt;vector&gt;</code><br/>
@@ -89,6 +90,7 @@ $(document).ready(function(){initNavTree('_s_l_8h.html','');});
 <code>#include &lt;functional&gt;</code><br/>
 <code>#include &lt;random&gt;</code><br/>
 <code>#include &lt;cstdarg&gt;</code><br/>
+<code>#include &lt;ctime&gt;</code><br/>
 <code>#include &lt;stdio.h&gt;</code><br/>
 <code>#include &lt;stdlib.h&gt;</code><br/>
 <code>#include &lt;float.h&gt;</code><br/>
@@ -101,17 +103,18 @@ $(document).ready(function(){initNavTree('_s_l_8h.html','');});
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for SL.h:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="_s_l_8h__incl.svg" width="2415" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="_s_l_8h__incl.svg" width="2596" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="_s_l_8h__dep__incl.svg" width="3382" height="859"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="_s_l_8h__dep__incl.svg" width="3484" height="859"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l.html">SL</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class <a class="el" href="class_s_l.html" title="Class SL with some global static functions and members.">SL</a> with some global static functions and members.  <a href="class_s_l.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
@@ -167,8 +170,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:a0b1d051d1c4fafab733f678ef104a86b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1129a94a009825d989fb4988bdd7f7e"><td class="memItemLeft" align="right" valign="top">typedef GLfloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a></td></tr>
 <tr class="separator:ae1129a94a009825d989fb4988bdd7f7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48af65414c4bf1f26aada5827e3ab69d"><td class="memItemLeft" align="right" valign="top">typedef GLfloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_8h.html#a48af65414c4bf1f26aada5827e3ab69d">SLreal</a></td></tr>
-<tr class="separator:a48af65414c4bf1f26aada5827e3ab69d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55a247ba8b253580f60ae1ea06a89857"><td class="memItemLeft" align="right" valign="top">typedef double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_8h.html#a55a247ba8b253580f60ae1ea06a89857">SLdouble</a></td></tr>
+<tr class="separator:a55a247ba8b253580f60ae1ea06a89857"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6eb6bdf37149321094e71ed06120392e"><td class="memItemLeft" align="right" valign="top">typedef bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a></td></tr>
 <tr class="separator:a6eb6bdf37149321094e71ed06120392e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ac6666963fa79ead67d1635baba8b5b"><td class="memItemLeft" align="right" valign="top">typedef GLenum&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_8h.html#a2ac6666963fa79ead67d1635baba8b5b">SLenum</a></td></tr>
@@ -452,6 +455,18 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a55a247ba8b253580f60ae1ea06a89857"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef double <a class="el" href="_s_l_8h.html#a55a247ba8b253580f60ae1ea06a89857">SLdouble</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a2ac6666963fa79ead67d1635baba8b5b"></a>
 <div class="memitem">
 <div class="memproto">
@@ -506,18 +521,6 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">typedef signed long <a class="el" href="_s_l_8h.html#aa95512f72f92b235cbd23ed8879b43c8">SLlong</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a48af65414c4bf1f26aada5827e3ab69d"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef GLfloat <a class="el" href="_s_l_8h.html#a48af65414c4bf1f26aada5827e3ab69d">SLreal</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -948,7 +951,7 @@ template&lt;typename T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_43b3a96032ec52f10c098e2e3b7283be.html">include</a></li><li class="navelem"><a class="el" href="_s_l_8h.html">SL.h</a></li>
-    <li class="footer">Generated on Sat Sep 2 2017 12:27:32 for SLProject by
+    <li class="footer">Generated on Fri Feb 2 2018 15:26:39 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
   </ul>

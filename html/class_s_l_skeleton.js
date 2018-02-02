@@ -20,8 +20,8 @@ var class_s_l_skeleton =
     [ "numAnimations", "class_s_l_skeleton.html#a9f73d09a8ab80e5b964ddf8f97880247", null ],
     [ "numJoints", "class_s_l_skeleton.html#a0158c8210ce103a1184f153c5bd3ca9d", null ],
     [ "reset", "class_s_l_skeleton.html#ab72dad6001a50dbfaa170032e6263045", null ],
-    [ "root", "class_s_l_skeleton.html#af183e7d707f51c0bb51743ba2ec98ad9", null ],
-    [ "root", "class_s_l_skeleton.html#a886fa5b7dad08ddf033401b59e6f723f", null ],
+    [ "rootJoint", "class_s_l_skeleton.html#aa09026ce350ef1be558f50f434487a18", null ],
+    [ "rootJoint", "class_s_l_skeleton.html#a6994c803f7c7f8062a442cd54acfe9aa", null ],
     [ "updateAnimations", "class_s_l_skeleton.html#af029399f0f45636f0bcefcc1413467d5", null ],
     [ "updateMinMax", "class_s_l_skeleton.html#afd341f03da6d62b169d6c1138ef5d8de", null ],
     [ "_animations", "class_s_l_skeleton.html#a476b2b2d04645eceebeb08cc9c4da6e4", null ],
@@ -31,5 +31,5 @@ var class_s_l_skeleton =
     [ "_maxOS", "class_s_l_skeleton.html#a812d46c629d782acca496425d9af744d", null ],
     [ "_minMaxOutOfDate", "class_s_l_skeleton.html#a80da3740cb66703f1965183a759f9e09", null ],
     [ "_minOS", "class_s_l_skeleton.html#aa8769e39cb1d84f06ce0c98c983332d4", null ],
-    [ "_root", "class_s_l_skeleton.html#a2bd78a18a787a40b20bbedaf6ec0da36", null ]
+    [ "_rootJoint", "class_s_l_skeleton.html#ab35472e35ee378cf4ff9ca910639f9b0", null ]
 ];

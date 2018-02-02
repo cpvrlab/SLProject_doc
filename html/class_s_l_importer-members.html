@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">2.1</span>
+   &#160;<span id="projectnumber">2.2</span>
    </div>
   </td>
  </tr>
@@ -81,7 +81,7 @@ $(document).ready(function(){initNavTree('class_s_l_importer.html','');});
   <tr class="even"><td class="entry"><a class="el" href="class_s_l_importer.html#ad207f4c9e98788c3c7aa6220dde74de4">_sceneRoot</a></td><td class="entry"><a class="el" href="class_s_l_importer.html">SLImporter</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr><td class="entry"><a class="el" href="class_s_l_importer.html#aa219e9e4a761421efbdc9166a67e3a20">_skeleton</a></td><td class="entry"><a class="el" href="class_s_l_importer.html">SLImporter</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_s_l_importer.html#a1fe54962264cc0d8a161077ec85bfd32">defaultPath</a></td><td class="entry"><a class="el" href="class_s_l_importer.html">SLImporter</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr><td class="entry"><a class="el" href="class_s_l_importer.html#ac14a76aa8c8fbb6eeaf597b0c2083a3f">load</a>(SLstring pathFilename, SLbool loadMeshesOnly=true, SLuint flags=SLProcess_Triangulate|SLProcess_JoinIdenticalVertices|SLProcess_SplitLargeMeshes|SLProcess_RemoveRedundantMaterials|SLProcess_SortByPType|SLProcess_FindDegenerates|SLProcess_FindInvalidData)=0</td><td class="entry"><a class="el" href="class_s_l_importer.html">SLImporter</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="class_s_l_importer.html#a0ef2add587b7d2b6cbc3999016c97735">load</a>(SLstring pathFilename, SLbool loadMeshesOnly=true, SLMaterial *overrideMat=nullptr, SLuint flags=SLProcess_Triangulate|SLProcess_JoinIdenticalVertices|SLProcess_SplitLargeMeshes|SLProcess_RemoveRedundantMaterials|SLProcess_SortByPType|SLProcess_FindDegenerates|SLProcess_FindInvalidData)=0</td><td class="entry"><a class="el" href="class_s_l_importer.html">SLImporter</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_s_l_importer.html#a11f624c335d31ca093257da3cf6243f0">logConsoleVerbosity</a>(SLLogVerbosity verb)</td><td class="entry"><a class="el" href="class_s_l_importer.html">SLImporter</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="class_s_l_importer.html#a9a17b409737a38627d8349b9e14adc03">logFileVerbosity</a>(SLLogVerbosity verb)</td><td class="entry"><a class="el" href="class_s_l_importer.html">SLImporter</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_s_l_importer.html#aeb7253457e7d1676bb4615a957ec9795">logMessage</a>(SLLogVerbosity verbosity, const char *msg,...)</td><td class="entry"><a class="el" href="class_s_l_importer.html">SLImporter</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('class_s_l_importer.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Sep 2 2017 12:28:49 for SLProject by
+    <li class="footer">Generated on Fri Feb 2 2018 15:29:54 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
   </ul>

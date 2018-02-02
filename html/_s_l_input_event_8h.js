@@ -6,7 +6,6 @@ var _s_l_input_event_8h =
     [ "SLTouchEvent", "class_s_l_touch_event.html", "class_s_l_touch_event" ],
     [ "SLRotationEvent", "class_s_l_rotation_event.html", "class_s_l_rotation_event" ],
     [ "SLResizeEvent", "class_s_l_resize_event.html", "class_s_l_resize_event" ],
-    [ "SLCommandEvent", "class_s_l_command_event.html", "class_s_l_command_event" ],
     [ "SLCharInputEvent", "class_s_l_char_input_event.html", "class_s_l_char_input_event" ],
     [ "SLQInputEvent", "_s_l_input_event_8h.html#a6d066ea1ede2fc5397baaa12701e249a", null ]
 ];

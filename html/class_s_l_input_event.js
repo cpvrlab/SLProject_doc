@@ -1,7 +1,6 @@
 var class_s_l_input_event =
 [
     [ "Type", "class_s_l_input_event.html#aa88b00108ecb4633bc34c3b8525d2854", [
-      [ "Command", "class_s_l_input_event.html#aa88b00108ecb4633bc34c3b8525d2854af012856e8ad0a14a8f3dd69195b0b703", null ],
       [ "MouseMove", "class_s_l_input_event.html#aa88b00108ecb4633bc34c3b8525d2854ad9fce5df50f80558d587c0afbd084f8b", null ],
       [ "MouseDown", "class_s_l_input_event.html#aa88b00108ecb4633bc34c3b8525d2854a5ef698ea696f7ef2800d3a4b6262ef56", null ],
       [ "MouseUp", "class_s_l_input_event.html#aa88b00108ecb4633bc34c3b8525d2854aa0e52ad688ea039d8b7c5adab35ac4d8", null ],

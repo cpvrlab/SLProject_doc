@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">2.1</span>
+   &#160;<span id="projectnumber">2.2</span>
    </div>
   </td>
  </tr>
@@ -104,6 +104,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7c52215881d85849c6a4947dd984ab30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbb7b21a0af601400948731c18fe249c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_raytracer.html#adbb7b21a0af601400948731c18fe249c">sampleAAPixels</a> (const bool isMainThread)</td></tr>
 <tr class="separator:adbb7b21a0af601400948731c18fe249c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae77bd33c9e81d4c6d576304ca0bdc028"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_raytracer.html#ae77bd33c9e81d4c6d576304ca0bdc028">finishBeforeUpdate</a> ()</td></tr>
+<tr class="memdesc:ae77bd33c9e81d4c6d576304ca0bdc028"><td class="mdescLeft">&#160;</td><td class="mdescRight">Must be called before an inbetween frame update.  <a href="#ae77bd33c9e81d4c6d576304ca0bdc028"></a><br/></td></tr>
+<tr class="separator:ae77bd33c9e81d4c6d576304ca0bdc028"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aafd0d8a57fb1c2897367519e8ba62df5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_raytracer.html#aafd0d8a57fb1c2897367519e8ba62df5">setPrimaryRay</a> (<a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> x, <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> y, <a class="el" href="class_s_l_ray.html">SLRay</a> *primaryRay)</td></tr>
 <tr class="memdesc:aafd0d8a57fb1c2897367519e8ba62df5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the parameters of a primary ray for a pixel position at x, y.  <a href="#aafd0d8a57fb1c2897367519e8ba62df5"></a><br/></td></tr>
 <tr class="separator:aafd0d8a57fb1c2897367519e8ba62df5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -119,20 +122,24 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6f5a2d0f671f1bd5eca895262a950940"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aabb10d38929bf4729b51a079773ee55c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_raytracer.html#aabb10d38929bf4729b51a079773ee55c">maxDepth</a> (<a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a> <a class="el" href="class_s_l_g_l_texture.html#a4e6422216aca06b68364350f7176249c">depth</a>)</td></tr>
 <tr class="separator:aabb10d38929bf4729b51a079773ee55c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d536b3235815ee49011f98646bbf3c9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_raytracer.html#a6d536b3235815ee49011f98646bbf3c9">distributed</a> (<a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> distrib)</td></tr>
-<tr class="separator:a6d536b3235815ee49011f98646bbf3c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a465e038974c53ec1e5fd6a0731b5e97a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_raytracer.html#a465e038974c53ec1e5fd6a0731b5e97a">continuous</a> (<a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> cont)</td></tr>
-<tr class="separator:a465e038974c53ec1e5fd6a0731b5e97a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebcee7b369f5a25b10685cf092183fa0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_raytracer.html#aebcee7b369f5a25b10685cf092183fa0">doDistributed</a> (<a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> distrib)</td></tr>
+<tr class="separator:aebcee7b369f5a25b10685cf092183fa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46cdc8097fe1011a1c8f17cabd35666f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_raytracer.html#a46cdc8097fe1011a1c8f17cabd35666f">doContinuous</a> (<a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> cont)</td></tr>
+<tr class="separator:a46cdc8097fe1011a1c8f17cabd35666f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9abd2325d6a196f76a7a1f9f058bc24c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_raytracer.html#a9abd2325d6a196f76a7a1f9f058bc24c">doFresnel</a> (<a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> fresnel)</td></tr>
+<tr class="separator:a9abd2325d6a196f76a7a1f9f058bc24c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac01a7732283054db4cb9544ac927dfcb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_raytracer.html#ac01a7732283054db4cb9544ac927dfcb">aaSamples</a> (<a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a> samples)</td></tr>
 <tr class="separator:ac01a7732283054db4cb9544ac927dfcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3b8245e4c4d56e8ba01844ce97436c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_raytracer_8h.html#afcb28825b86bab0c77ff377cc2c9c315">SLRTState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_raytracer.html#ab3b8245e4c4d56e8ba01844ce97436c6">state</a> () const </td></tr>
 <tr class="separator:ab3b8245e4c4d56e8ba01844ce97436c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae11a5f84c4f9dba5e028751ed279e46f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_raytracer.html#ae11a5f84c4f9dba5e028751ed279e46f">maxDepth</a> () const </td></tr>
 <tr class="separator:ae11a5f84c4f9dba5e028751ed279e46f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32818fe947cb0ef167bc0e93c4924b76"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_raytracer.html#a32818fe947cb0ef167bc0e93c4924b76">distributed</a> () const </td></tr>
-<tr class="separator:a32818fe947cb0ef167bc0e93c4924b76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6852040f7b1d0e1e891583269a58e60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_raytracer.html#ae6852040f7b1d0e1e891583269a58e60">continuous</a> () const </td></tr>
-<tr class="separator:ae6852040f7b1d0e1e891583269a58e60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8580e3fa353b0785f1f4e229dbe6dee5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_raytracer.html#a8580e3fa353b0785f1f4e229dbe6dee5">doDistributed</a> () const </td></tr>
+<tr class="separator:a8580e3fa353b0785f1f4e229dbe6dee5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef57801a097dff8400a6f884326e7e36"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_raytracer.html#aef57801a097dff8400a6f884326e7e36">doContinuous</a> () const </td></tr>
+<tr class="separator:aef57801a097dff8400a6f884326e7e36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3e9044f5c0ed698f0b34c28f5037c12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_raytracer.html#af3e9044f5c0ed698f0b34c28f5037c12">doFresnel</a> () const </td></tr>
+<tr class="separator:af3e9044f5c0ed698f0b34c28f5037c12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41bf3d8c91ccf8c776205357a6493caa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_raytracer.html#a41bf3d8c91ccf8c776205357a6493caa">aaSamples</a> () const </td></tr>
 <tr class="separator:a41bf3d8c91ccf8c776205357a6493caa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3df74cfccbe0d2149a7a29122bd25abc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_raytracer.html#a3df74cfccbe0d2149a7a29122bd25abc">numThreads</a> () const </td></tr>
@@ -179,6 +186,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a00b37044b515f065395cfd7316522a92 inherit pub_methods_class_s_l_g_l_texture"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_g_l_texture.html#a00b37044b515f065395cfd7316522a92">drawSprite</a> (<a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> doUpdate=false)</td></tr>
 <tr class="memdesc:a00b37044b515f065395cfd7316522a92 inherit pub_methods_class_s_l_g_l_texture"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the texture as 2D sprite with OpenGL buffers.  <a href="#a00b37044b515f065395cfd7316522a92"></a><br/></td></tr>
 <tr class="separator:a00b37044b515f065395cfd7316522a92 inherit pub_methods_class_s_l_g_l_texture"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abae881ab946d251ece96d8e2c25c35fa inherit pub_methods_class_s_l_g_l_texture"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_g_l_texture.html#abae881ab946d251ece96d8e2c25c35fa">cubeUV2XYZ</a> (<a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a> index, <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> u, <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> v, <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> &amp;x, <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> &amp;y, <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> &amp;z)</td></tr>
+<tr class="memdesc:abae881ab946d251ece96d8e2c25c35fa inherit pub_methods_class_s_l_g_l_texture"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the unnormalised vector x,y,z from tex. coords. uv with cubemap index.  <a href="#abae881ab946d251ece96d8e2c25c35fa"></a><br/></td></tr>
+<tr class="separator:abae881ab946d251ece96d8e2c25c35fa inherit pub_methods_class_s_l_g_l_texture"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48d6141f6d1bb4dd87d5915e7891e82f inherit pub_methods_class_s_l_g_l_texture"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_g_l_texture.html#a48d6141f6d1bb4dd87d5915e7891e82f">cubeXYZ2UV</a> (<a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> x, <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> y, <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> z, <a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a> &amp;index, <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> &amp;u, <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> &amp;v)</td></tr>
+<tr class="memdesc:a48d6141f6d1bb4dd87d5915e7891e82f inherit pub_methods_class_s_l_g_l_texture"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the uv and cubemap image index from a unnormalized vector x,y,z.  <a href="#a48d6141f6d1bb4dd87d5915e7891e82f"></a><br/></td></tr>
+<tr class="separator:a48d6141f6d1bb4dd87d5915e7891e82f inherit pub_methods_class_s_l_g_l_texture"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac150d08eba8a36fa429f2cb83f089187 inherit pub_methods_class_s_l_g_l_texture"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_g_l_texture.html#ac150d08eba8a36fa429f2cb83f089187">texType</a> (<a class="el" href="_s_l_g_l_texture_8h.html#a0a528bf535c89d9227e20b41e9135bcc">SLTextureType</a> bt)</td></tr>
 <tr class="separator:ac150d08eba8a36fa429f2cb83f089187 inherit pub_methods_class_s_l_g_l_texture"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a931e3d4885b446ab3a11c35a6d867d96 inherit pub_methods_class_s_l_g_l_texture"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_g_l_texture.html#a931e3d4885b446ab3a11c35a6d867d96">bumpScale</a> (<a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> bs)</td></tr>
@@ -197,8 +210,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3102803e63a89bd530c0eeafb02c5e49 inherit pub_methods_class_s_l_g_l_texture"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5e0709b0168e567327b53ef3d142b64 inherit pub_methods_class_s_l_g_l_texture"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_g_l_texture.html#ad5e0709b0168e567327b53ef3d142b64">bumpScale</a> ()</td></tr>
 <tr class="separator:ad5e0709b0168e567327b53ef3d142b64 inherit pub_methods_class_s_l_g_l_texture"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6dc6192001f0661c3cb799a16bb93bf7 inherit pub_methods_class_s_l_g_l_texture"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_g_l_texture.html#a6dc6192001f0661c3cb799a16bb93bf7">getTexelf</a> (<a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> s, <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> t)</td></tr>
-<tr class="separator:a6dc6192001f0661c3cb799a16bb93bf7 inherit pub_methods_class_s_l_g_l_texture"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41a1c5fc7f4a78f614f1e63d873f7690 inherit pub_methods_class_s_l_g_l_texture"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_g_l_texture.html#a41a1c5fc7f4a78f614f1e63d873f7690">getTexelf</a> (<a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> s, <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> t, <a class="el" href="_s_l_8h.html#a74dab4086041e043ebf72725bcf1cfe6">SLuint</a> imgIndex=0)</td></tr>
+<tr class="memdesc:a41a1c5fc7f4a78f614f1e63d873f7690 inherit pub_methods_class_s_l_g_l_texture"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_s_l_g_l_texture.html#a41a1c5fc7f4a78f614f1e63d873f7690" title="SLGLTexture::getTexelf returns a pixel color from s &amp; t texture coordinates.">SLGLTexture::getTexelf</a> returns a pixel color from s &amp; t texture coordinates.  <a href="#a41a1c5fc7f4a78f614f1e63d873f7690"></a><br/></td></tr>
+<tr class="separator:a41a1c5fc7f4a78f614f1e63d873f7690 inherit pub_methods_class_s_l_g_l_texture"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a006b4b9569468fd7a59fb6c0a7e8c717 inherit pub_methods_class_s_l_g_l_texture"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_g_l_texture.html#a006b4b9569468fd7a59fb6c0a7e8c717">getTexelf</a> (<a class="el" href="_s_l_vec3_8h.html#a22a90ea5a9c12a50e5ce23324a383120">SLVec3f</a> cubemapDir)</td></tr>
+<tr class="memdesc:a006b4b9569468fd7a59fb6c0a7e8c717 inherit pub_methods_class_s_l_g_l_texture"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_s_l_g_l_texture.html#a41a1c5fc7f4a78f614f1e63d873f7690" title="SLGLTexture::getTexelf returns a pixel color from s &amp; t texture coordinates.">SLGLTexture::getTexelf</a> returns a pixel color at the specified cubemap direction.  <a href="#a006b4b9569468fd7a59fb6c0a7e8c717"></a><br/></td></tr>
+<tr class="separator:a006b4b9569468fd7a59fb6c0a7e8c717 inherit pub_methods_class_s_l_g_l_texture"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa07971aa08140279f755bef58fb4e70c inherit pub_methods_class_s_l_g_l_texture"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_g_l_texture.html#aa07971aa08140279f755bef58fb4e70c">hasAlpha</a> ()</td></tr>
 <tr class="separator:aa07971aa08140279f755bef58fb4e70c inherit pub_methods_class_s_l_g_l_texture"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af01f23b30c903435eb992446c89e03a3 inherit pub_methods_class_s_l_g_l_texture"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_g_l_texture.html#af01f23b30c903435eb992446c89e03a3">width</a> ()</td></tr>
@@ -276,6 +293,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a426cd7aa2f2984d593093606b63c603a inherit pub_methods_class_s_l_event_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1361219db4d359fd52497762fba0aa88 inherit pub_methods_class_s_l_event_handler"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_event_handler.html#a1361219db4d359fd52497762fba0aa88">onKeyRelease</a> (const <a class="el" href="_s_l_enums_8h.html#afceaa9670aadae056dd2545c1be01e38">SLKey</a> key, const <a class="el" href="_s_l_enums_8h.html#afceaa9670aadae056dd2545c1be01e38">SLKey</a> mod)</td></tr>
 <tr class="separator:a1361219db4d359fd52497762fba0aa88 inherit pub_methods_class_s_l_event_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9465e581726351f9fc307cd1d9e1c543 inherit pub_methods_class_s_l_event_handler"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_event_handler.html#a9465e581726351f9fc307cd1d9e1c543">onRotationPYR</a> (const <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> pitchRAD, const <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> yawRAD, const <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> rollRAD)</td></tr>
+<tr class="separator:a9465e581726351f9fc307cd1d9e1c543 inherit pub_methods_class_s_l_event_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3b8b933d424d55d11bbaba6ebf93d9a inherit pub_methods_class_s_l_event_handler"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_event_handler.html#ab3b8b933d424d55d11bbaba6ebf93d9a">rotFactor</a> (<a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> rf)</td></tr>
 <tr class="separator:ab3b8b933d424d55d11bbaba6ebf93d9a inherit pub_methods_class_s_l_event_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfde42afcd27f4ebe63e2e751378531c inherit pub_methods_class_s_l_event_handler"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_event_handler.html#abfde42afcd27f4ebe63e2e751378531c">dRot</a> (<a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> dr)</td></tr>
@@ -306,12 +325,15 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a9c79e2907986971323c7c82b42d7622c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_raytracer.html#a9c79e2907986971323c7c82b42d7622c">_maxDepth</a></td></tr>
 <tr class="memdesc:a9c79e2907986971323c7c82b42d7622c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Max. allowed recursion depth.  <a href="#a9c79e2907986971323c7c82b42d7622c"></a><br/></td></tr>
 <tr class="separator:a9c79e2907986971323c7c82b42d7622c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59f14bc84545c986edf8834416c9263a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_raytracer.html#a59f14bc84545c986edf8834416c9263a">_continuous</a></td></tr>
-<tr class="memdesc:a59f14bc84545c986edf8834416c9263a"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true state goes into ready again  <a href="#a59f14bc84545c986edf8834416c9263a"></a><br/></td></tr>
-<tr class="separator:a59f14bc84545c986edf8834416c9263a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afdb2df192380609953afed339b0604a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_raytracer.html#afdb2df192380609953afed339b0604a5">_distributed</a></td></tr>
-<tr class="memdesc:afdb2df192380609953afed339b0604a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag for parallel distributed RT.  <a href="#afdb2df192380609953afed339b0604a5"></a><br/></td></tr>
-<tr class="separator:afdb2df192380609953afed339b0604a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad281581a7e0562f51867d4185c49b85e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_raytracer.html#ad281581a7e0562f51867d4185c49b85e">_doContinuous</a></td></tr>
+<tr class="memdesc:ad281581a7e0562f51867d4185c49b85e"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true state goes into ready again  <a href="#ad281581a7e0562f51867d4185c49b85e"></a><br/></td></tr>
+<tr class="separator:ad281581a7e0562f51867d4185c49b85e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24fce8c271535014aa005a588ac2786d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_raytracer.html#a24fce8c271535014aa005a588ac2786d">_doDistributed</a></td></tr>
+<tr class="memdesc:a24fce8c271535014aa005a588ac2786d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag for parallel distributed RT.  <a href="#a24fce8c271535014aa005a588ac2786d"></a><br/></td></tr>
+<tr class="separator:a24fce8c271535014aa005a588ac2786d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95258609508eeac608fa29a9fc8424b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_raytracer.html#a95258609508eeac608fa29a9fc8424b4">_doFresnel</a></td></tr>
+<tr class="memdesc:a95258609508eeac608fa29a9fc8424b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag for Fresnel reflection.  <a href="#a95258609508eeac608fa29a9fc8424b4"></a><br/></td></tr>
+<tr class="separator:a95258609508eeac608fa29a9fc8424b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae44b6f562b960871bfeeea451817f2c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_raytracer.html#ae44b6f562b960871bfeeea451817f2c6">_pcRendered</a></td></tr>
 <tr class="memdesc:ae44b6f562b960871bfeeea451817f2c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">% rendered  <a href="#ae44b6f562b960871bfeeea451817f2c6"></a><br/></td></tr>
 <tr class="separator:ae44b6f562b960871bfeeea451817f2c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -549,7 +571,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a465e038974c53ec1e5fd6a0731b5e97a"></a>
+<a class="anchor" id="a46cdc8097fe1011a1c8f17cabd35666f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -557,7 +579,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void SLRaytracer::continuous </td>
+          <td class="memname">void SLRaytracer::doContinuous </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td>
           <td class="paramname"><em>cont</em></td><td>)</td>
@@ -573,7 +595,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ae6852040f7b1d0e1e891583269a58e60"></a>
+<a class="anchor" id="aef57801a097dff8400a6f884326e7e36"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -581,7 +603,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> SLRaytracer::continuous </td>
+          <td class="memname"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> SLRaytracer::doContinuous </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -596,7 +618,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a6d536b3235815ee49011f98646bbf3c9"></a>
+<a class="anchor" id="aebcee7b369f5a25b10685cf092183fa0"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -604,7 +626,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void SLRaytracer::distributed </td>
+          <td class="memname">void SLRaytracer::doDistributed </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td>
           <td class="paramname"><em>distrib</em></td><td>)</td>
@@ -620,7 +642,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a32818fe947cb0ef167bc0e93c4924b76"></a>
+<a class="anchor" id="a8580e3fa353b0785f1f4e229dbe6dee5"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -628,7 +650,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> SLRaytracer::distributed </td>
+          <td class="memname"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> SLRaytracer::doDistributed </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -640,6 +662,70 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9abd2325d6a196f76a7a1f9f058bc24c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SLRaytracer::doFresnel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td>
+          <td class="paramname"><em>fresnel</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af3e9044f5c0ed698f0b34c28f5037c12"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> SLRaytracer::doFresnel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae77bd33c9e81d4c6d576304ca0bdc028"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SLRaytracer::finishBeforeUpdate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Must be called before an inbetween frame update. </p>
 
 </div>
 </div>
@@ -1196,7 +1282,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a59f14bc84545c986edf8834416c9263a"></a>
+<a class="anchor" id="ad281581a7e0562f51867d4185c49b85e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1204,7 +1290,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> SLRaytracer::_continuous</td>
+          <td class="memname"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> SLRaytracer::_doContinuous</td>
         </tr>
       </table>
   </td>
@@ -1218,7 +1304,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="afdb2df192380609953afed339b0604a5"></a>
+<a class="anchor" id="a24fce8c271535014aa005a588ac2786d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1226,7 +1312,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> SLRaytracer::_distributed</td>
+          <td class="memname"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> SLRaytracer::_doDistributed</td>
         </tr>
       </table>
   </td>
@@ -1237,6 +1323,28 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Flag for parallel distributed RT. </p>
+
+</div>
+</div>
+<a class="anchor" id="a95258609508eeac608fa29a9fc8424b4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> SLRaytracer::_doFresnel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Flag for Fresnel reflection. </p>
 
 </div>
 </div>
@@ -1510,7 +1618,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_s_l_raytracer.html">SLRaytracer</a></li>
-    <li class="footer">Generated on Sat Sep 2 2017 12:28:54 for SLProject by
+    <li class="footer">Generated on Fri Feb 2 2018 15:30:09 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
   </ul>

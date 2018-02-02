@@ -18,5 +18,6 @@ var class_s_l_background =
     [ "_resX", "class_s_l_background.html#ae5eb1603bfd36232c3a6624fa331279e", null ],
     [ "_resY", "class_s_l_background.html#a050de129474310e2a25c7c9ffbcab03f", null ],
     [ "_texture", "class_s_l_background.html#a642c088fefc127c414083f049de9e021", null ],
+    [ "_textureError", "class_s_l_background.html#ab935d960b492eca2cf1ab7d2e477331d", null ],
     [ "_vao", "class_s_l_background.html#a787d1f4a9a285fd01bf66a7d1346b2f8", null ]
 ];

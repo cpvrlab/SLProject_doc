@@ -1,5 +1,6 @@
 var class_s_l_utils =
 [
+    [ "contains", "class_s_l_utils.html#a49efeec34d545be9a9162f125b65df31", null ],
     [ "formatString", "class_s_l_utils.html#a35ec5d0f5b1f3ab05a28ed358a9a52fe", null ],
     [ "getFileExt", "class_s_l_utils.html#a8e59af69941f115b8dfa5ec341a46c50", null ],
     [ "getFileName", "class_s_l_utils.html#a71ff2bba08b129bd27508526940abec3", null ],

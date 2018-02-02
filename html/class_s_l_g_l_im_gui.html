@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">2.1</span>
+   &#160;<span id="projectnumber">2.2</span>
    </div>
   </td>
  </tr>
@@ -144,10 +144,10 @@ Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a4b241ecbf5ea85bb149c72ac633f8d0e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_g_l_im_gui.html#a4b241ecbf5ea85bb149c72ac633f8d0e">fontPropDots</a> = 0.0f</td></tr>
+<tr class="memitem:a4b241ecbf5ea85bb149c72ac633f8d0e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_g_l_im_gui.html#a4b241ecbf5ea85bb149c72ac633f8d0e">fontPropDots</a> = 16.0f</td></tr>
 <tr class="memdesc:a4b241ecbf5ea85bb149c72ac633f8d0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default font size of proportional font.  <a href="#a4b241ecbf5ea85bb149c72ac633f8d0e"></a><br/></td></tr>
 <tr class="separator:a4b241ecbf5ea85bb149c72ac633f8d0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a392fabf97c788ba2e4e32aeffea873da"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_g_l_im_gui.html#a392fabf97c788ba2e4e32aeffea873da">fontFixedDots</a> = 0.0f</td></tr>
+<tr class="memitem:a392fabf97c788ba2e4e32aeffea873da"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_g_l_im_gui.html#a392fabf97c788ba2e4e32aeffea873da">fontFixedDots</a> = 13.0f</td></tr>
 <tr class="memdesc:a392fabf97c788ba2e4e32aeffea873da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default font size of fixed size font.  <a href="#a392fabf97c788ba2e4e32aeffea873da"></a><br/></td></tr>
 <tr class="separator:a392fabf97c788ba2e4e32aeffea873da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -213,7 +213,7 @@ Private Attributes</h2></td></tr>
 <p>ImGui is a super easy GUI library for the rendering of a UI with OpenGL. For more information see: <a href="https://github.com/ocornut/imgui">https://github.com/ocornut/imgui</a><br/>
  <br/>
  This class provides only the interface into ImGui. In the event handlers of <a class="el" href="class_s_l_scene_view.html" title="SceneView class represents a dynamic real time 3D view onto the scene.">SLSceneView</a> the according callback in ImGui is called.<br/>
- There is no UI drawn with this class. It must be defined in another class that provides the build function. For the Demo apps this is done in the class <a class="el" href="class_s_l_demo_gui.html" title="ImGui UI class for the UI of the demo applications.">SLDemoGui</a> and the build function is passed e.g. in glfwMain function of the app-Demo-GLFW project.<br/>
+ There is no UI drawn with this class. It must be defined in another class that provides the build function. For the Demo apps this is done in the class SLDemoGui and the build function is passed e.g. in glfwMain function of the app-Demo-GLFW project.<br/>
  <br/>
  The full call stack for rendering one frame is:<br/>
 </p>
@@ -230,7 +230,7 @@ Private Attributes</h2></td></tr>
 <li><a class="el" href="class_s_l_scene_view.html#a5b9751907097fbbda414269382a98201">SLSceneView::draw2DGL</a>:<ul>
 <li>ImGui::Render<ul>
 <li><a class="el" href="class_s_l_g_l_im_gui.html#a3e300faa43cbe2a230bd6d604df90384" title="Callback for main rendering for the ImGui GUI system.">SLGLImGui::onPaint</a>(ImGui::GetDrawData())</li>
-<li><a class="el" href="class_s_l_demo_gui.html#a87373e32526f50feb4d87080138b3a2d" title="This is the main building function for the GUI of the Demo apps.">SLDemoGui::buildDemoGui</a>: Builds the full UI </li>
+<li>SLDemoGui::buildDemoGui: Builds the full UI </li>
 </ul>
 </li>
 </ul>
@@ -1102,7 +1102,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> SLGLImGui::fontFixedDots = 0.0f</td>
+          <td class="memname"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> SLGLImGui::fontFixedDots = 13.0f</td>
         </tr>
       </table>
   </td>
@@ -1124,7 +1124,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> SLGLImGui::fontPropDots = 0.0f</td>
+          <td class="memname"><a class="el" href="_s_l_8h.html#ae1129a94a009825d989fb4988bdd7f7e">SLfloat</a> SLGLImGui::fontPropDots = 16.0f</td>
         </tr>
       </table>
   </td>
@@ -1148,7 +1148,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_s_l_g_l_im_gui.html">SLGLImGui</a></li>
-    <li class="footer">Generated on Sat Sep 2 2017 12:28:47 for SLProject by
+    <li class="footer">Generated on Fri Feb 2 2018 15:29:48 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
   </ul>

@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">2.1</span>
+   &#160;<span id="projectnumber">2.2</span>
    </div>
   </td>
  </tr>
@@ -304,8 +304,8 @@ Static Private Attributes</h2></td></tr>
 <li>CS_startCalculating: The calibration starts during the next frame</li>
 <li>CS_calibrated: The camera is calibrated</li>
 <li>CS_estimate: The camera intrinsics are set from an estimated FOV angle <br/>
- The core of the intrinsic calibration is stored in the members _cameraMat and _distortion. For the calibration internals see the OpenCV documentation: <a href="http://docs.opencv.org/3.1.0/dc/dbb/tutorial_py_calibration.html">http://docs.opencv.org/3.1.0/dc/dbb/tutorial_py_calibration.html</a> After a successufull calibration the parameters are stored in a config file on the <a class="el" href="class_s_l.html#a9788477abc05e5152e2849f7f12c2fcd" title="Default path for calibration files.">SL::configPath</a>. If it exists, it is loaded from there at startup. If doesn't exist a simple calibration from a default field of view angle is estimated. <br/>
- The <a class="el" href="class_s_l_scene.html" title="The SLScene class represents the top level instance holding the scene structure.">SLScene</a> instance has two video camera calibrations, one for a main camera (<a class="el" href="class_s_l_scene.html#a7789b5667cb104c885d80b1cdc575c7f" title="OpenCV calibration for main video camera.">SLScene::_calibMainCam</a>) and one for the selfie camera on mobile devices (<a class="el" href="class_s_l_scene.html#ac7b71537bb100cd5a4fb54f6c9fc134d" title="OpenCV calibration for secondary video camera.">SLScene::_calibScndCam</a>). The member <a class="el" href="class_s_l_scene.html#a5fa89d3877e1636b1b3450a28ef9d512" title="Pointer to the active calibration.">SLScene::_activeCalib</a> references the active one and is set by the <a class="el" href="class_s_l_scene.html#ab59b1dff4b8959255a0e480ea88d5930" title="Setter for video type also sets the active calibration.">SLScene::videoType</a> (VT_NONE, VT_MAIN, VT_SCND) during the scene assembly in <a class="el" href="class_s_l_scene.html#ada7194df99deb706cdc761db56cf5390" title="SLScene::onLoad(int _currentID) builds a scene from source code.">SLScene::onLoad</a>. On mobile devices the front camera is the selfie camera (our secondary) and the back camera is the our main camera. </li>
+ The core of the intrinsic calibration is stored in the members _cameraMat and _distortion. For the calibration internals see the OpenCV documentation: <a href="http://docs.opencv.org/3.1.0/dc/dbb/tutorial_py_calibration.html">http://docs.opencv.org/3.1.0/dc/dbb/tutorial_py_calibration.html</a> After a successufull calibration the parameters are stored in a config file on the SL::configPath. If it exists, it is loaded from there at startup. If doesn't exist a simple calibration from a default field of view angle is estimated. <br/>
+ The <a class="el" href="class_s_l_scene.html" title="The SLScene class represents the top level instance holding the scene structure.">SLScene</a> instance has two video camera calibrations, one for a main camera (SLScene::_calibMainCam) and one for the selfie camera on mobile devices (SLScene::_calibScndCam). The member SLScene::_activeCalib references the active one and is set by the <a class="el" href="class_s_l_scene.html#ab59b1dff4b8959255a0e480ea88d5930" title="Setter for video type also sets the active calibration.">SLScene::videoType</a> (VT_NONE, VT_MAIN, VT_SCND) during the scene assembly in <a class="el" href="class_s_l_scene.html#ad64c907ecd28bfb20fcbfdaea8c1f0e3" title="C-Callback for scene load.">SLScene::onLoad</a>. On mobile devices the front camera is the selfie camera (our secondary) and the back camera is the our main camera. </li>
 </ul>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a3dc9dff1caf14d72fbdefc11f5d653f3"></a>
@@ -2078,7 +2078,7 @@ Static Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_s_l_c_v_calibration.html">SLCVCalibration</a></li>
-    <li class="footer">Generated on Sat Sep 2 2017 12:28:44 for SLProject by
+    <li class="footer">Generated on Fri Feb 2 2018 15:29:42 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
   </ul>
