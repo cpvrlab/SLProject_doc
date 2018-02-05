@@ -24,7 +24,7 @@ The code is provided without any warranties whether expressed or implied.
 
 <h3>Read the following wiki page for more information:</h3>
 <ul>
-<li><a href="https://github.com/cpvrlab/SLProject/wiki/How-to-get-SLProject/">How to get SLProject</a></li>
+<li><a href="https://github.com/cpvrlab/SLProject/wiki/How-to-clone-SLProject/">How to get SLProject</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/SLProject-Features">SLProject Features</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/Version-History">Version History</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/Build-with-VisualStudio">Build instructions with MS Visual Studio</a></li>
@@ -51,7 +51,6 @@ The framework uses beside OpenGL the following external libraries that are also 
     <li><a href="http://www.opencv.org/">OpenCV</a> for image processing.</li>
     <li><a href="https://github.com/ocornut/imgui">ImGUI</a> for an easy to use GUI.</li>
     <li><a href="http://assimp.sourceforge.net/">assimp</a> for 3D file formats loading.</li>
-    <li><a href="http://nvwa.sourceforge.net/">nvwa</a> for memory management.</li>
 </ul>
 
 <h3>Support:</h3>
@@ -70,6 +69,6 @@ The framework uses beside OpenGL the following external libraries that are also 
 
 <p>
 Authors: marcus.hudritsch@bfh.ch<br>
-Date: February 2017<br>
-Copyright (c): 2002-2017 Marcus Hudritsch, Kirchrain 18, 2572 Sutz, Switzerland
+Date: February 2018<br>
+Copyright (c): 2002-2018 Marcus Hudritsch, Kirchrain 18, 2572 Sutz, Switzerland
 </p>

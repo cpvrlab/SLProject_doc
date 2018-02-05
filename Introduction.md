@@ -3,9 +3,9 @@
 <p>
 The following class diagram gives you an overview of the major classes with of its important variables and methods:
 <ul>
-    <li>The <b>grey boxes</b> are the application side that depends on the OS, the window the GUI tool-kit.</li>
-    <li>The <b>red classes</b> form the top level classes SLApplication and SLInputManager.</li>
-    <li>The <b>blue classes</b> form the SLScene and SLSceneView class.</li>
+    <li>The <b>grey boxes</b> are the application side parts that depend on the OS, the window-SDK and the GUI-SDK.</li>
+    <li>The <b>red classes</b> form the top level classes with SLApplication and SLInputManager.</li>
+    <li>The <b>blue classes</b> are the SLScene and SLSceneView class.</li>
     <li>The <b>yellow classes</b> define the materials that are responsible for the visual appearances of the mesh objects.</li>
     <li>The <b>green classes</b> build the scene graph that defines the spacial structure of the visible objects.</li>
     <li>The <b>pink classes</b> define a single triangulated mesh object.</li>
@@ -28,7 +28,7 @@ The following OS' are supported and applications are provided for demonstration:
         <b>Windows, Linux and Max OSX</b> applications use the <a href="http://www.glfw.org/">GLFW</a>
         C-library for the platform independent window and context creation.
         GLFW is included in the SLProject repository. See the app-Demo-GLFW for demonstration. 
-		For all demo apps (with GLFW, on iOS and Android) we use the 
+		For all demo apps (desktop and mobile) we use the 
         <a href="https://github.com/ocornut/imgui">ImGUI</a> library for the UI. 
 		The UI for the demo apps is implemented in the applications. ImGUI is also included in the repository.
     </li>
@@ -260,6 +260,6 @@ that can be used as a texture on an objects material or as the scenes background
 
 <p>
 Authors: marcus.hudritsch@bfh.ch<br>
-Date: September 2017<br>
-Copyright (c): 2002-2017 Marcus Hudritsch, Kirchrain 18, 2572 Sutz, Switzerland
+Date: February 2018<br>
+Copyright (c): 2002-2018 Marcus Hudritsch, Kirchrain 18, 2572 Sutz, Switzerland
 </p>
