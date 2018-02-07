@@ -24,7 +24,7 @@ The code is provided without any warranties whether expressed or implied.
 
 <h3>Read the following wiki page for more information:</h3>
 <ul>
-<li><a href="https://github.com/cpvrlab/SLProject/wiki/How-to-clone-SLProject/">How to get SLProject</a></li>
+<li><a href="https://github.com/cpvrlab/SLProject/wiki/How-to-clone-SLProject">How to get SLProject</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/SLProject-Features">SLProject Features</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/Version-History">Version History</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/Build-with-VisualStudio">Build instructions with MS Visual Studio</a></li>

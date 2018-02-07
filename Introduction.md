@@ -1,11 +1,11 @@
 \tableofcontents
 \section diagram Class Diagram
 <p>
-The following class diagram gives you an overview of the major classes with of its important variables and methods:
+The following class diagram gives you an overview of the major classes with its important variables and methods:
 <ul>
-    <li>The <b>grey boxes</b> are the application side parts that depend on the OS, the window-SDK and the GUI-SDK.</li>
+    <li>The <b>grey boxes</b> is the application side parts that depend on the OS, the window-SDK and the GUI-SDK.</li>
     <li>The <b>red classes</b> form the top level classes with SLApplication and SLInputManager.</li>
-    <li>The <b>blue classes</b> are the SLScene and SLSceneView class.</li>
+    <li>The <b>blue classes</b> are the SLScene and SLSceneView classes.</li>
     <li>The <b>yellow classes</b> define the materials that are responsible for the visual appearances of the mesh objects.</li>
     <li>The <b>green classes</b> build the scene graph that defines the spacial structure of the visible objects.</li>
     <li>The <b>pink classes</b> define a single triangulated mesh object.</li>
@@ -18,11 +18,7 @@ The following class diagram gives you an overview of the major classes with of i
 
 \section app Application Code
 <p>
-The applications starting code (grey boxes in the class diagram below) depends on the operating system 
-In all cases we have the most outer shell of the application that handles the window and the
-OpenGL context creation and passes events to a thin C-function interface
-before it is handled by the C++-framework in the library lib-SLProject.
-The following OS' are supported and applications are provided for demonstration:
+The applications starting code (grey boxes in the class diagram below) depends on the operating system. In all cases we have the most outer shell of the application that handles the window and the OpenGL context creation and passes the events to a thin C-function interface before it is handled by the C++-framework in the library lib-SLProject. The following OS' are supported and applications are provided for demonstration:
 <ul>
     <li>
         <b>Windows, Linux and Max OSX</b> applications use the <a href="http://www.glfw.org/">GLFW</a>
