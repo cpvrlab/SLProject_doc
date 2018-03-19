@@ -4,8 +4,7 @@
 The following class diagram gives you an overview of the major classes with its important variables and methods:
 <ul>
     <li>The <b>grey boxes</b> is the application side parts that depend on the OS, the window-SDK and the GUI-SDK.</li>
-    <li>The <b>red classes</b> form the top level classes with SLApplication and SLInputManager.</li>
-    <li>The <b>blue classes</b> are the SLScene and SLSceneView classes.</li>
+    <li>The <b>blue classes</b> are the central classes with the top-level instances of SLApplication and SLInputManager. The core classes for the scene are SLScene and SLSceneView.</li>
     <li>The <b>yellow classes</b> define the materials that are responsible for the visual appearances of the mesh objects.</li>
     <li>The <b>green classes</b> build the scene graph that defines the spacial structure of the visible objects.</li>
     <li>The <b>pink classes</b> define a single triangulated mesh object.</li>
