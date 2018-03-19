@@ -56,30 +56,14 @@ The applications starting code (grey boxes in the class diagram below) depends o
 </ul>
 </p>
 
-\section toplevel Top-level Classes
-<p>
-The red classes form the top-level classes of the SLProject framework:
-<ul>
-    <li>
-        The SLApplication holds static instances of top-level items such as the scene
- pointer, the camera calibration objects and the device rotation and location
- information.
-    </li>
-    <li>
-        SLInputManager collects all user events from the mouse and keyboard as well as from
-        additional input devices such as a LeapMotion or Kinect sensor.
-    </li>
-</ul>
-</p>
-
 \section central Central Classes
 <p>
 The blue classes form the center of the SLProject framework:
 <ul>
     <li>
-        SLInterface.h and SLInterface.cpp define the C-Interface of the SLProject library.
-        We use a C-interface because this type can be called from any higher level language.
-        The SLInterface talks only to the SLScene and SLSceneView classes.
+        The SLApplication holds static instances of top-level items such as the scene
+ pointer, the camera calibration objects and the device rotation and location
+ information.
     </li>
     <li>
         SLInputManager collects all user events from the mouse and keyboard as well as from
