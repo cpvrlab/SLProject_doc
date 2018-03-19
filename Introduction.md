@@ -89,11 +89,12 @@ and can have 0-N children nodes and 0-N triangle meshes.
 A node can be transformed (translated, rotated and scaled) in 3D-space.
 <ul>
     <li>
-        SLLightSphere and SLLightRect are from SLNode derived and define lights 
+        SLLightDirect, SLLightSpot and SLLightRect are from SLNode derived and define lights 
         that can be placed and directed in space.
     </li>
     <li>
-        SLCamera that defines the view to the scene.
+        SLCamera that defines the view to the scene. The scene can have multiple cameras
+        but only one can be active for the scene view.
     </li>
 </ul>
 </p>
