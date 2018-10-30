@@ -27,9 +27,9 @@ The code is provided without any warranties whether expressed or implied.
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/How-to-clone-SLProject">How to get SLProject</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/SLProject-Features">SLProject Features</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/Version-History">Version History</a></li>
-<li><a href="https://github.com/cpvrlab/SLProject/wiki/Build-with-VisualStudio">Build instructions with MS Visual Studio</a></li>
-<li><a href="https://github.com/cpvrlab/SLProject/wiki/Build-with-QtCreator">Build instructions with QtCreator under Windows, OSX or Linux.</a></li>
-<li><a href="https://github.com/cpvrlab/SLProject/wiki/Build-for-Android">Build instructions for the Android build with Android Studio.</a></li>
+<li><a href="https://github.com/cpvrlab/SLProject/wiki/Build-with-VisualStudio">Build instructions for MS Visual Studio</a></li>
+<li><a href="https://github.com/cpvrlab/SLProject/wiki/Build-with-QtCreator">Build instructions for QtCreator</a></li>
+<li><a href="https://github.com/cpvrlab/SLProject/wiki/Build-for-Android">Build instructions for Android with Android Studio.</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/Build-for-Apple-iOS">Build instructions for the iOS build with Apple XCode</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/Build-minimal-OpenGL-apps">Minimal OpenGL Applications in C++, C#, Java and WebGL</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/Folder-Structure">Repository folder structure</a></li>
@@ -57,7 +57,7 @@ The framework uses beside OpenGL the following external libraries that are also 
 <ul>
    <li>The code is provided without any warranties whether expressed or implied.</li>
    <li>No support can be provided on installation, compiler or build issues. The
-      framework was tested on several machines using MS Visual Studio 2015 as
+      framework was tested on several machines using MS Visual Studio 2017 as
       well as on Mac OSX using XCode with GCC or LLVM compiler.
    </li>
    <li>The code is provided under <a href="http://opensource.org/licenses/GPL-3.0">GNU General Puplic License (GPL)</a>. 
