@@ -27,7 +27,7 @@ The code is provided without any warranties whether expressed or implied.
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/How-to-clone-SLProject">How to get SLProject</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/SLProject-Features">SLProject Features</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/Version-History">Version History</a></li>
-<li><a href="https://github.com/cpvrlab/SLProject/wiki/Build-with-VisualStudio">Build instructions for MS Visual Studio</a></li>
+<li><a href="https://github.com/cpvrlab/SLProject/wiki/Build-on-Windows-with-VisualStudio">Build instructions for MS Visual Studio</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/Build-with-QtCreator">Build instructions for QtCreator</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/Build-for-Android">Build instructions for Android with Android Studio.</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/Build-for-Apple-iOS">Build instructions for the iOS build with Apple XCode</a></li>
