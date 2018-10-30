@@ -31,7 +31,7 @@ The code is provided without any warranties whether expressed or implied.
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/Build-with-QtCreator">Build instructions with QtCreator under Windows, OSX or Linux.</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/Build-for-Android">Build instructions for the Android build with Android Studio.</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/Build-for-Apple-iOS">Build instructions for the iOS build with Apple XCode</a></li>
-<li><a href="https://github.com/cpvrlab/SLProject/wiki/Build-minimal-OpenGL-apps">Minimal OpenGL Applications in C++, C#, Java and WebGL</a></li>
+<li><a href="https://github.com/cpvrlab/SLProject/wiki/Minimal-OpenGL-and-OpenCV-apps">Minimal OpenGL and OpenCV Applications</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/Folder-Structure">Repository folder structure</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/Coding-Style-Guidelines">Coding Style Guidelines for Contributors</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/Generate-the-Documentation">How to generate the HTML Documentation using Doxygen</a></li>
