@@ -1,4 +1,5 @@
 <map id="SLRectangle" name="SLRectangle">
-<area shape="rect" id="node2" href="$class_s_l_mesh.html" title="An SLMesh object is a triangulated mesh that is drawn with one draw call." alt="" coords="20,80,92,107"/>
-<area shape="rect" id="node4" href="$class_s_l_object.html" title="Base class for all other classes." alt="" coords="17,5,95,32"/>
+<area shape="rect" id="node1" title="SLRectangle creates a rectangular mesh with a certain resolution." alt="" coords="5,152,103,177"/>
+<area shape="rect" id="node2" href="$class_s_l_mesh.html" title="An SLMesh object is a triangulated mesh that is drawn with one draw call." alt="" coords="19,79,89,104"/>
+<area shape="rect" id="node3" href="$class_s_l_object.html" title="Base class for all other classes." alt="" coords="16,5,92,31"/>
 </map>

@@ -1,3 +1,4 @@
 <map id="SLGLShader" name="SLGLShader">
-<area shape="rect" id="node2" href="$class_s_l_object.html" title="Base class for all other classes." alt="" coords="17,5,95,32"/>
+<area shape="rect" id="node1" title="Encapsulation of an OpenGL shader object." alt="" coords="5,79,104,104"/>
+<area shape="rect" id="node2" href="$class_s_l_object.html" title="Base class for all other classes." alt="" coords="16,5,93,31"/>
 </map>

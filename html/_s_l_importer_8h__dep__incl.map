@@ -1,8 +1,10 @@
 <map id="SLImporter.h" name="SLImporter.h">
-<area shape="rect" id="node3" href="$_s_l_importer_8cpp.html" title="SLImporter.cpp" alt="" coords="5,80,125,107"/>
-<area shape="rect" id="node5" href="$_s_l_scene_view_8cpp.html" title="SLSceneView.cpp" alt="" coords="150,80,284,107"/>
-<area shape="rect" id="node7" href="$_s_l_assimp_importer_8h.html" title="SLAssimpImporter.h" alt="" coords="309,80,461,107"/>
-<area shape="rect" id="node9" href="$_s_l_assimp_importer_8cpp.html" title="SLAssimpImporter.cpp" alt="" coords="134,155,300,181"/>
-<area shape="rect" id="node11" href="$_s_l_interface_8cpp.html" title="SLProject C&#45;functions interface implementation." alt="" coords="325,155,445,181"/>
-<area shape="rect" id="node13" href="$_s_l_scene_8cpp.html" title="SLScene.cpp" alt="" coords="470,155,575,181"/>
+<area shape="rect" id="node1" title=" " alt="" coords="258,5,356,31"/>
+<area shape="rect" id="node2" href="$_s_l_importer_8cpp.html" title=" " alt="" coords="101,79,212,104"/>
+<area shape="rect" id="node3" href="$_s_l_assimp_importer_8h.html" title=" " alt="" coords="236,79,378,104"/>
+<area shape="rect" id="node8" href="$_app_demo_gui_8cpp.html" title=" " alt="" coords="401,79,528,104"/>
+<area shape="rect" id="node4" href="$_s_l_assimp_importer_8cpp.html" title=" " alt="" coords="5,152,161,177"/>
+<area shape="rect" id="node5" href="$_s_l_interface_8cpp.html" title=" " alt="" coords="184,152,299,177"/>
+<area shape="rect" id="node6" href="$_s_l_scene_8cpp.html" title=" " alt="" coords="323,152,424,177"/>
+<area shape="rect" id="node7" href="$_app_demo_load_8cpp.html" title=" " alt="" coords="449,152,584,177"/>
 </map>

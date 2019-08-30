@@ -10,7 +10,7 @@ The following class diagram gives you an overview of the major classes with its 
     <li>The <b>pink classes</b> define a single triangulated mesh object.</li>
     <li>The <b>violet classes</b> encapsulate all OpenGL vertex array object and buffer objects.</li>
     <li>The <b>red classes</b> build the animation framework.</li>
-    <li>The <b>orange classes</b> encapsulate the image processing functionality using OpenCV.</li>
+    <li>The <b>orange classes</b> encapsulate the video and image processing functionality using OpenCV.</li>
 </ul>
 <img src="../images/SLProject_UML_min.svg" width="100%">
 </p>
@@ -204,34 +204,34 @@ The red animation classes provide the functionality for simple node animations o
 </ul>
 </p>
 
-\section imageprocessing Image Processing Classes
+\section imageprocessing Image and Video Processing Classes
 <p>
-The orange classes provide the functionality for image processing using the OpenCV framework. 
+The orange classes provide the functionality for video and image processing using the OpenCV framework. 
 The SLProject framework can now process the images from attached live video cameras. This works via OpenCV 
 on desktop OS as well as on iOS and Android. The live video image is constantly fed into an OpenGL texture 
 that can be used as a texture on an objects material or as the scenes background. With the live video in the background you can create augmented reality (AR) applications. Examples can be found in the demo application under Load Scene > Using Video > Track Chessboard or Track AruCo. 
 <ul>
     <li>
-        SLCVImage: Replaces the deprecated SLImage class and provides all for loading, saving and converting images. Internally it stores the image in a cv::Mat instance.  
+        CVImage: Replaces the deprecated SLImage class and provides all for loading, saving and converting images. Internally it stores the image in a cv::Mat instance.  
     </li>
     <li>
-        SLCVCapture: Holds static images from the OpenCV video capture or from an external (iOS and Android) video capture service. There is an SLCVCapture::_lastFrame and an SLCVCapture::_lastFrameGray with the gray level version of the last capture video frame.
+        CVCapture: Holds static images from the OpenCV video capture or from an external (iOS and Android) video capture service. There is an CVCapture::lastFrame and an CVCapture::lastFrameGray with the gray level version of the last capture video frame.
     </li>
     <li>
-        SLCVCalibration holds all functionality to calibrate the video camera. A classic chessboard pattern is used for calibration. In the demo application a special scene is provided for the calibration (Preferences > Video > Calibrate Camera).
+        CVCalibration holds all functionality to calibrate the video camera. A classic chessboard pattern is used for calibration. In the demo application a special scene is provided for the calibration (Preferences > Video > Calibrate Camera).
     </li>
     <li>
-        SLCVTracked is the base class for tracking classes. The scene can have multiple trackers. 
+        CVTracked is the base class for tracking classes. The scene can have multiple trackers. 
 		A tracker is associated with a Node. When the object to be tracked is found, it controls the nodes transform. If the associated node is the scenes active camera a classic augmented reality application can be generated.		
     </li>
     <li>
-        SLCVTrackedChessboard tracks the same chessboard that is used for the camera calibration.	
+        CVTrackedChessboard tracks the same chessboard that is used for the camera calibration.	
     </li>
     <li>
-        SLCVTrackedAruco tracks special markers called AruCo markers. These markers are optimal in tracking performance and stability.	
+        CVTrackedAruco tracks special markers called AruCo markers. These markers are optimal in tracking performance and stability.	
     </li>
     <li>
-        SLCVTrackedFeatures tracks any 2D features. Supported are any feature detectors and descriptors that
+        CVTrackedFeatures tracks any 2D features. Supported are any feature detectors and descriptors that
 		are provided by OpenCV. In addition we include the enhanced ORB feature detector developed by 
         <a href="https://github.com/raulmur/ORB_SLAM2/">Raul Mur</a>
     </li>

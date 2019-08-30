@@ -9,5 +9,13 @@ var _s_l_vec3_8h =
     [ "SLVec3s", "_s_l_vec3_8h.html#a9c8de1150d632d4b4d3ae83cb7a0f4e9", null ],
     [ "SLVec3ui", "_s_l_vec3_8h.html#af9128104cf66127fddebc31a8a01e28e", null ],
     [ "SLVVec3d", "_s_l_vec3_8h.html#a13d8fe86ebc1d3ef9c0dd5474776b164", null ],
-    [ "SLVVec3f", "_s_l_vec3_8h.html#ac7d312bd02cdc209251ff15b627bcc67", null ]
+    [ "SLVVec3f", "_s_l_vec3_8h.html#ac7d312bd02cdc209251ff15b627bcc67", null ],
+    [ "EARTH_ECCENTRICTIY", "_s_l_vec3_8h.html#aab012a4cbd6f6a4500a2fb64ab5729be", null ],
+    [ "EARTH_ECCENTRICTIY2", "_s_l_vec3_8h.html#a7f8d3cd3ce2e7bcf587d97e888485e73", null ],
+    [ "EARTH_ECCENTRICTIY2_SQR", "_s_l_vec3_8h.html#ada2b9ce109b95cbf6f890a0f53428cf9", null ],
+    [ "EARTH_ECCENTRICTIY_SQR", "_s_l_vec3_8h.html#a26c0ecdeb80ee423c787903f8d6d3ba8", null ],
+    [ "EARTH_RADIUS_A", "_s_l_vec3_8h.html#a54d6eaf73b4896e4d188fea3eb45c1f7", null ],
+    [ "EARTH_RADIUS_A_SQR", "_s_l_vec3_8h.html#a45c04eed13959c920743724b6217c8a2", null ],
+    [ "EARTH_RADIUS_B", "_s_l_vec3_8h.html#a18f128e6de1e4592df0dbfe0c37f1798", null ],
+    [ "EARTH_RADIUS_B_SQR", "_s_l_vec3_8h.html#ae0b0037f1d247bfcbe950d6ed97e823b", null ]
 ];

@@ -1,12 +1,12 @@
 var class_s_l_g_l_program =
 [
-    [ "SLGLProgram", "class_s_l_g_l_program.html#af5b1e5b21d8f9126d74d5ac1bb16bcc7", null ],
+    [ "SLGLProgram", "class_s_l_g_l_program.html#a3fa445d8cbc2f9c21a5aa40e2c46b7c1", null ],
     [ "~SLGLProgram", "class_s_l_g_l_program.html#a73ba03eae66b4e13ae389c0c6369f5ea", null ],
     [ "addShader", "class_s_l_g_l_program.html#a7dcaeaeedc4f33cf29b1a381d92462d6", null ],
     [ "addUniform1f", "class_s_l_g_l_program.html#a8f6ca243635e624b5fa48e75561ac7ac", null ],
     [ "addUniform1i", "class_s_l_g_l_program.html#a845f73fe5c92e729be6eae12d943d570", null ],
     [ "beginShader", "class_s_l_g_l_program.html#ae1e5193a390635d5a220d0ca7ccc357d", null ],
-    [ "beginUse", "class_s_l_g_l_program.html#a312b6c59fc3a3ad278546be36f32262a", null ],
+    [ "beginUse", "class_s_l_g_l_program.html#adba74d3f0e7274b68cf89c761bbbacd8", null ],
     [ "endShader", "class_s_l_g_l_program.html#ae2424ff1d6b14fd78074bdbcee97acfa", null ],
     [ "endUse", "class_s_l_g_l_program.html#afc01b0765a239eef68b9eb9342983864", null ],
     [ "getAttribLocation", "class_s_l_g_l_program.html#af0a919f13a45eb4234df4e9272ef47a5", null ],
@@ -41,7 +41,6 @@ var class_s_l_g_l_program =
     [ "_isLinked", "class_s_l_g_l_program.html#af99acf73888dc0ccd3ce90a689c0a8ae", null ],
     [ "_objectGL", "class_s_l_g_l_program.html#acf9434f262cc0cbcad0e07768c2898ce", null ],
     [ "_shaders", "class_s_l_g_l_program.html#ab65a521a152f49076dbd641d853fc006", null ],
-    [ "_stateGL", "class_s_l_g_l_program.html#ae41813c00b2da0cf416bf0aa3a0d12d1", null ],
     [ "_uniforms1f", "class_s_l_g_l_program.html#a87460e422863d65ce7f8b9513d277e14", null ],
     [ "_uniforms1i", "class_s_l_g_l_program.html#ad32d27731f5d9bda37883caabd97a82f", null ],
     [ "defaultPath", "class_s_l_g_l_program.html#a32a812153c9aab647af2c4e8c2197368", null ]

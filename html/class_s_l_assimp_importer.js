@@ -6,7 +6,7 @@ var class_s_l_assimp_importer =
     [ "SLVaiNode", "class_s_l_assimp_importer.html#aafa40fb713cc2be1121cdead2fd7491c", null ],
     [ "SLAssimpImporter", "class_s_l_assimp_importer.html#a93d23214df61a4a6b33e6a82ad89fb6c", null ],
     [ "SLAssimpImporter", "class_s_l_assimp_importer.html#a9cd7bc86aa68ae873285abce98640c70", null ],
-    [ "SLAssimpImporter", "class_s_l_assimp_importer.html#a42694005b7c9338ca4ebb99ddbba8b14", null ],
+    [ "SLAssimpImporter", "class_s_l_assimp_importer.html#a1373d25c031a0843061e46a95c8c3ba1", null ],
     [ "aiNodeHasMesh", "class_s_l_assimp_importer.html#a3315ae0196def2921c8bbd9f178e0a2c", null ],
     [ "checkFilePath", "class_s_l_assimp_importer.html#a27fb99af72ccf33a35ddeeec5e8a41c9", null ],
     [ "clear", "class_s_l_assimp_importer.html#a8708cbcd4303301830bab738b8ca928f", null ],

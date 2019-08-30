@@ -1,4 +1,21 @@
 <map id="SLAnimTrack.h" name="SLAnimTrack.h">
-<area shape="rect" id="node5" href="$_s_l_enums_8h.html" title="SLEnums.h" alt="" coords="22,80,116,107"/>
-<area shape="rect" id="node7" href="$_s_l_keyframe_8h.html" title="SLKeyframe.h" alt="" coords="140,80,250,107"/>
+<area shape="rect" id="node1" title=" " alt="" coords="584,5,696,31"/>
+<area shape="rect" id="node2" title=" " alt="" coords="523,79,570,104"/>
+<area shape="rect" id="node3" href="$_s_l_enums_8h.html" title=" " alt="" coords="595,79,685,104"/>
+<area shape="rect" id="node4" href="$_s_l_anim_keyframe_8h.html" title=" " alt="" coords="709,79,845,104"/>
+<area shape="rect" id="node5" href="$_s_l_8h.html" title=" " alt="" coords="820,519,868,544"/>
+<area shape="rect" id="node9" href="$_s_l_quat4_8h.html" title=" " alt="" coords="735,152,820,177"/>
+<area shape="rect" id="node13" href="$_s_l_vec3_8h.html" title=" " alt="" coords="704,372,781,397"/>
+<area shape="rect" id="node6" href="$_utils_8h.html" title=" " alt="" coords="637,592,696,617"/>
+<area shape="rect" id="node7" title=" " alt="" coords="600,665,654,691"/>
+<area shape="rect" id="node8" title=" " alt="" coords="678,665,735,691"/>
+<area shape="rect" id="node10" href="$_s_l_mat4_8h.html" title=" " alt="" coords="559,225,638,251"/>
+<area shape="rect" id="node16" href="$_s_l_vec4_8h.html" title=" " alt="" coords="907,299,984,324"/>
+<area shape="rect" id="node11" title=" " alt="" coords="246,299,298,324"/>
+<area shape="rect" id="node12" href="$_s_l_mat3_8h.html" title=" " alt="" coords="93,299,171,324"/>
+<area shape="rect" id="node17" title=" " alt="" coords="322,299,390,324"/>
+<area shape="rect" id="node18" title=" " alt="" coords="414,299,586,324"/>
+<area shape="rect" id="node19" title=" " alt="" coords="610,299,782,324"/>
+<area shape="rect" id="node15" title=" " alt="" coords="169,372,242,397"/>
+<area shape="rect" id="node14" href="$_s_l_vec2_8h.html" title=" " alt="" coords="704,445,781,471"/>
 </map>

@@ -1,6 +1,6 @@
 var structcolor_b_g_r =
 [
-    [ "b", "structcolor_b_g_r.html#abd854da52e74ff366012b1515c8f0f3a", null ],
-    [ "g", "structcolor_b_g_r.html#a1a9b5f097ac36a26907bdd910e4a83a4", null ],
-    [ "r", "structcolor_b_g_r.html#adf9116717ef405f5dce0c781607993af", null ]
+    [ "b", "structcolor_b_g_r.html#acbc4cf89698fa27a9700afc9242bbdc3", null ],
+    [ "g", "structcolor_b_g_r.html#ab344106195511b0b14261b70b43a3529", null ],
+    [ "r", "structcolor_b_g_r.html#a7d7fc1baea7d8b34bdff1a5a06d7dbd0", null ]
 ];

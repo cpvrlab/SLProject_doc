@@ -1,4 +1,8 @@
 <map id="SLInterface.h" name="SLInterface.h">
-<area shape="rect" id="node3" href="$_s_l_interface_8cpp.html" title="SLProject C&#45;functions interface implementation." alt="" coords="5,80,125,107"/>
-<area shape="rect" id="node5" href="$_s_l_scene_view_8cpp.html" title="SLSceneView.cpp" alt="" coords="150,80,284,107"/>
+<area shape="rect" id="node1" title=" " alt="" coords="310,5,410,31"/>
+<area shape="rect" id="node2" href="$_s_l_interface_8cpp.html" title=" " alt="" coords="5,79,120,104"/>
+<area shape="rect" id="node3" href="$_s_l_scene_view_8cpp.html" title=" " alt="" coords="144,79,272,104"/>
+<area shape="rect" id="node4" href="$_s_l_memory_stats_8h.html" title=" " alt="" coords="296,79,424,104"/>
+<area shape="rect" id="node5" href="$_app_demo_gui_8cpp.html" title=" " alt="" coords="447,79,574,104"/>
+<area shape="rect" id="node6" href="$_app_demo_main_g_l_f_w_8cpp.html" title=" " alt="" coords="598,79,770,104"/>
 </map>

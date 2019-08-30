@@ -1,3 +1,9 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_s_l_samples2_d.html" title="Class for 2D disk samplepoints." alt="" coords="5,5,117,32"/>
+<area shape="rect" id="node1" href="$class_s_l_input_event.html" title="Baseclass for all system input events." alt="" coords="5,129,107,155"/>
+<area shape="rect" id="node2" href="$class_s_l_char_input_event.html" title="Specialized SLInput class for unicode character input." alt="" coords="155,5,285,31"/>
+<area shape="rect" id="node3" href="$class_s_l_key_event.html" title="Specialized SLInput class for all keypress related input events." alt="" coords="173,55,267,80"/>
+<area shape="rect" id="node4" href="$class_s_l_mouse_event.html" title="Specialized SLInput class for all mouse related input events." alt="" coords="164,104,276,129"/>
+<area shape="rect" id="node5" href="$class_s_l_resize_event.html" title="Specialized SLInput class for window resize events." alt="" coords="164,153,276,179"/>
+<area shape="rect" id="node6" href="$class_s_l_rotation_event.html" title="Specialized SLInput class for all device rotation related input events." alt="" coords="159,203,281,228"/>
+<area shape="rect" id="node7" href="$class_s_l_touch_event.html" title="Specialized SLInput class for touch related input events." alt="" coords="167,252,273,277"/>
 </map>

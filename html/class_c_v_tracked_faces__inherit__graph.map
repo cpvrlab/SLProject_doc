@@ -1,0 +1,4 @@
+<map id="CVTrackedFaces" name="CVTrackedFaces">
+<area shape="rect" id="node1" title="OpenCV face &amp; facial landmark tracker class derived from CVTracked." alt="" coords="5,79,129,104"/>
+<area shape="rect" id="node2" href="$class_c_v_tracked.html" title="CVTracked is the pure virtual base class for tracking features in video." alt="" coords="23,5,111,31"/>
+</map>

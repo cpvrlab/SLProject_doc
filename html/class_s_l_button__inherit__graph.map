@@ -1,5 +1,6 @@
 <map id="SLButton" name="SLButton">
-<area shape="rect" id="node2" href="$class_s_l_node.html" title="SLNode represents a node in a hierarchical scene graph." alt="" coords="71,80,143,107"/>
-<area shape="rect" id="node4" href="$class_s_l_object.html" title="Base class for all other classes." alt="" coords="5,5,83,32"/>
-<area shape="rect" id="node6" href="$class_s_l_event_handler.html" title="Virtual Eventhandler class." alt="" coords="107,5,231,32"/>
+<area shape="rect" id="node1" title="Defines a 2D&#45;GUI button with optional submenus as children of the group." alt="" coords="65,152,142,177"/>
+<area shape="rect" id="node2" href="$class_s_l_node.html" title="SLNode represents a node in a hierarchical scene graph." alt="" coords="69,79,138,104"/>
+<area shape="rect" id="node3" href="$class_s_l_object.html" title="Base class for all other classes." alt="" coords="5,5,82,31"/>
+<area shape="rect" id="node4" href="$class_s_l_event_handler.html" title="Virtual Eventhandler class." alt="" coords="106,5,224,31"/>
 </map>

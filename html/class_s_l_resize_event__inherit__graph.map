@@ -1,3 +1,4 @@
 <map id="SLResizeEvent" name="SLResizeEvent">
-<area shape="rect" id="node2" href="$class_s_l_input_event.html" title="Baseclass for all system input events." alt="" coords="9,5,116,32"/>
+<area shape="rect" id="node1" title="Specialized SLInput class for window resize events." alt="" coords="5,79,118,104"/>
+<area shape="rect" id="node2" href="$class_s_l_input_event.html" title="Baseclass for all system input events." alt="" coords="11,5,112,31"/>
 </map>

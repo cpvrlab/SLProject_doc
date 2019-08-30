@@ -32,7 +32,7 @@ PROJECT_NAME           = SLProject
 # This could be handy for archiving the generated documentation or 
 # if some version control system is used.
 
-PROJECT_NUMBER         = 2.2
+PROJECT_NUMBER         = 2.3.1
 
 # Using the PROJECT_BRIEF tag one can provide an optional one line description 
 # for a project that appears at the top of each page and should give viewer 
@@ -676,7 +676,10 @@ WARN_LOGFILE           = GenerateHTMLDoc.log
 # with spaces.
 
 INPUT                  = ../lib-SLProject/source \
-                         ../include \
+                         ../lib-SLProject/include \
+                         ../apps/app-Demo-SLProject/source \
+                         ../apps/app-Demo-SLProject/GLFW \
+                         ../externals/utils/lib-Utils/source \
                          SLProject.md \
                          Introduction.md \
                          onPaint.md \

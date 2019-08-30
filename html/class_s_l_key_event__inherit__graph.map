@@ -1,3 +1,4 @@
 <map id="SLKeyEvent" name="SLKeyEvent">
-<area shape="rect" id="node2" href="$class_s_l_input_event.html" title="Baseclass for all system input events." alt="" coords="5,5,112,32"/>
+<area shape="rect" id="node1" title="Specialized SLInput class for all keypress related input events." alt="" coords="9,79,103,104"/>
+<area shape="rect" id="node2" href="$class_s_l_input_event.html" title="Baseclass for all system input events." alt="" coords="5,5,107,31"/>
 </map>

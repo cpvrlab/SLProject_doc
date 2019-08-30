@@ -1,7 +1,9 @@
 <map id="SLAccelStruct.h" name="SLAccelStruct.h">
-<area shape="rect" id="node3" href="$_s_l_compact_grid_8h.html" title="SLCompactGrid.h" alt="" coords="155,80,289,107"/>
-<area shape="rect" id="node9" href="$_s_l_uniform_grid_8h.html" title="SLUniformGrid.h" alt="" coords="314,80,440,107"/>
-<area shape="rect" id="node5" href="$_s_l_compact_grid_8cpp.html" title="SLCompactGrid.cpp" alt="" coords="5,155,155,181"/>
-<area shape="rect" id="node7" href="$_s_l_mesh_8cpp.html" title="SLMesh.cpp" alt="" coords="179,155,277,181"/>
-<area shape="rect" id="node11" href="$_s_l_uniform_grid_8cpp.html" title="SLUniformGrid.cpp" alt="" coords="306,155,448,181"/>
+<area shape="rect" id="node1" title=" " alt="" coords="231,5,347,31"/>
+<area shape="rect" id="node2" href="$_s_l_compact_grid_8h.html" title=" " alt="" coords="91,79,218,104"/>
+<area shape="rect" id="node5" href="$_s_l_k_d_tree_8h.html" title=" " alt="" coords="242,79,336,104"/>
+<area shape="rect" id="node6" href="$_s_l_uniform_grid_8h.html" title=" " alt="" coords="361,79,482,104"/>
+<area shape="rect" id="node3" href="$_s_l_compact_grid_8cpp.html" title=" " alt="" coords="5,152,147,177"/>
+<area shape="rect" id="node4" href="$_s_l_mesh_8cpp.html" title=" " alt="" coords="171,152,266,177"/>
+<area shape="rect" id="node7" href="$_s_l_uniform_grid_8cpp.html" title=" " alt="" coords="354,152,489,177"/>
 </map>

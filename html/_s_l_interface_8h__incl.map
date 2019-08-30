@@ -1,4 +1,9 @@
 <map id="SLInterface.h" name="SLInterface.h">
-<area shape="rect" id="node5" href="$_s_l_enums_8h.html" title="SLEnums.h" alt="" coords="22,80,116,107"/>
-<area shape="rect" id="node7" href="$_s_l_g_l_enums_8h.html" title="SLGLEnums.h" alt="" coords="140,80,250,107"/>
+<area shape="rect" id="node1" title=" " alt="" coords="61,5,162,31"/>
+<area shape="rect" id="node2" href="$_s_l_enums_8h.html" title=" " alt="" coords="5,79,96,104"/>
+<area shape="rect" id="node3" href="$_s_l_g_l_enums_8h.html" title=" " alt="" coords="119,79,227,104"/>
+<area shape="rect" id="node4" href="$_s_l_8h.html" title=" " alt="" coords="149,152,198,177"/>
+<area shape="rect" id="node5" href="$_utils_8h.html" title=" " alt="" coords="144,225,202,251"/>
+<area shape="rect" id="node6" title=" " alt="" coords="106,299,160,324"/>
+<area shape="rect" id="node7" title=" " alt="" coords="184,299,242,324"/>
 </map>

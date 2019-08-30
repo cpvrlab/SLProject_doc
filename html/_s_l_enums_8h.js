@@ -24,26 +24,6 @@ var _s_l_enums_8h =
       [ "CA_deviceRotYUp", "_s_l_enums_8h.html#a0507d57d47609d67fb4ed245763cbf41ae95763e2ea34ca43931a46bf7f5c5933", null ],
       [ "CA_deviceRotLocYUp", "_s_l_enums_8h.html#a0507d57d47609d67fb4ed245763cbf41a51165596198c8502233a63aaca10373b", null ]
     ] ],
-    [ "SLCVCalibState", "_s_l_enums_8h.html#acf2c11eb376c63f148c4054e4f078364", [
-      [ "CS_uncalibrated", "_s_l_enums_8h.html#acf2c11eb376c63f148c4054e4f078364a79e51893f551a3d47350740515405291", null ],
-      [ "CS_calibrateStream", "_s_l_enums_8h.html#acf2c11eb376c63f148c4054e4f078364ac7b702a9b58e4a4477bb5ee4a9b86442", null ],
-      [ "CS_calibrateGrab", "_s_l_enums_8h.html#acf2c11eb376c63f148c4054e4f078364a6a8a05cfa7a6383293badc18c482c71c", null ],
-      [ "CS_startCalculating", "_s_l_enums_8h.html#acf2c11eb376c63f148c4054e4f078364a86bd9f5a5f22b78b5361707411c984d6", null ],
-      [ "CS_calibrated", "_s_l_enums_8h.html#acf2c11eb376c63f148c4054e4f078364a4b353fd3df91ab78630a35f0e5afca42", null ],
-      [ "CS_guessed", "_s_l_enums_8h.html#acf2c11eb376c63f148c4054e4f078364a7c560152fd0e3201d923c26bfebb14ff", null ]
-    ] ],
-    [ "SLCVDetectDescribeType", "_s_l_enums_8h.html#a830876cb2615db1fad3b9f5bb7ff5fba", [
-      [ "DDT_FAST_BRIEF", "_s_l_enums_8h.html#a830876cb2615db1fad3b9f5bb7ff5fbaa49bcbcdff66d3cbc22aa765fbe3aca37", null ],
-      [ "DDT_RAUL_RAUL", "_s_l_enums_8h.html#a830876cb2615db1fad3b9f5bb7ff5fbaaf78808b1a548cd1f4420413d188319f3", null ],
-      [ "DDT_ORB_ORB", "_s_l_enums_8h.html#a830876cb2615db1fad3b9f5bb7ff5fbaa0bf64315a809f8c4e313c61ed36468d3", null ],
-      [ "DDT_SURF_SURF", "_s_l_enums_8h.html#a830876cb2615db1fad3b9f5bb7ff5fbaa47deb004ffcabedf9d91a24268b7a89f", null ],
-      [ "DDT_SIFT_SIFT", "_s_l_enums_8h.html#a830876cb2615db1fad3b9f5bb7ff5fbaac63deecd41b8c4446db17d43d883f95f", null ]
-    ] ],
-    [ "SLCVFeatureType", "_s_l_enums_8h.html#a35abd2cd4100f036711a085478b91387", [
-      [ "FT_SIFT", "_s_l_enums_8h.html#a35abd2cd4100f036711a085478b91387a8ce6aeb3f9c1414fda5e03e95fed6095", null ],
-      [ "FT_SURF", "_s_l_enums_8h.html#a35abd2cd4100f036711a085478b91387aba3903644cd0f8184de195c34a8d7505", null ],
-      [ "FT_ORB", "_s_l_enums_8h.html#a35abd2cd4100f036711a085478b91387a9f32faba555d913672296b251f153473", null ]
-    ] ],
     [ "SLEasingCurve", "_s_l_enums_8h.html#a6bc396893938ccb2e48bd3e252d8faeb", [
       [ "EC_linear", "_s_l_enums_8h.html#a6bc396893938ccb2e48bd3e252d8faebaa144b95307a63ef2f826092240011dae", null ],
       [ "EC_inQuad", "_s_l_enums_8h.html#a6bc396893938ccb2e48bd3e252d8faebac5741ebbcc26946a16f1ccbad36b4163", null ],
@@ -135,29 +115,6 @@ var _s_l_enums_8h =
       [ "MB_middle", "_s_l_enums_8h.html#aa0d4a64ab52b958b6230e389aec788dea78c73fbce82168b94c33fc7143ce104f", null ],
       [ "MB_right", "_s_l_enums_8h.html#aa0d4a64ab52b958b6230e389aec788dea4302dc32995cec9a1f19a0606438f46a", null ]
     ] ],
-    [ "SLPixelFormat", "_s_l_enums_8h.html#a408fa74d21ec77c3f43bbd7dc7aaa513", [
-      [ "PF_unknown", "_s_l_enums_8h.html#a408fa74d21ec77c3f43bbd7dc7aaa513a7eb5537d394d2116961fb97a257310d9", null ],
-      [ "PF_yuv_420_888", "_s_l_enums_8h.html#a408fa74d21ec77c3f43bbd7dc7aaa513a85d6d0162791675c917284e88318fde5", null ],
-      [ "PF_alpha", "_s_l_enums_8h.html#a408fa74d21ec77c3f43bbd7dc7aaa513a26584f29aea3c3377bf7ef193f215a0d", null ],
-      [ "PF_luminance", "_s_l_enums_8h.html#a408fa74d21ec77c3f43bbd7dc7aaa513a1b2195688770744d6b28f9d728b625b7", null ],
-      [ "PF_luminance_alpha", "_s_l_enums_8h.html#a408fa74d21ec77c3f43bbd7dc7aaa513a64d535a3feb21336408063e49975bb1e", null ],
-      [ "PF_intensity", "_s_l_enums_8h.html#a408fa74d21ec77c3f43bbd7dc7aaa513aebb9147d30d4b0c7ffc2cd9a2fe985ef", null ],
-      [ "PF_green", "_s_l_enums_8h.html#a408fa74d21ec77c3f43bbd7dc7aaa513a4151631d2b909b903bfe0cfcb9200c8c", null ],
-      [ "PF_blue", "_s_l_enums_8h.html#a408fa74d21ec77c3f43bbd7dc7aaa513acf16b5ddeb0598dabfd735eb98fc7340", null ],
-      [ "PF_depth_component", "_s_l_enums_8h.html#a408fa74d21ec77c3f43bbd7dc7aaa513a730214cd61569b7968086f6fa35b93b5", null ],
-      [ "PF_red", "_s_l_enums_8h.html#a408fa74d21ec77c3f43bbd7dc7aaa513a576757ebd8affe58acbca2e830044dd5", null ],
-      [ "PF_rg", "_s_l_enums_8h.html#a408fa74d21ec77c3f43bbd7dc7aaa513a6b4698733214d0b2ff60e1a8e0483a4f", null ],
-      [ "PF_rgb", "_s_l_enums_8h.html#a408fa74d21ec77c3f43bbd7dc7aaa513a65f3d042d07849523be84ae36ecaa1c1", null ],
-      [ "PF_rgba", "_s_l_enums_8h.html#a408fa74d21ec77c3f43bbd7dc7aaa513a80b1f772ec642655aa03cd2eee310acd", null ],
-      [ "PF_bgr", "_s_l_enums_8h.html#a408fa74d21ec77c3f43bbd7dc7aaa513aab3ce2b217d866eba6cea3192dadf409", null ],
-      [ "PF_bgra", "_s_l_enums_8h.html#a408fa74d21ec77c3f43bbd7dc7aaa513a7cc018fc72abc78901eb2c158cb3a14c", null ],
-      [ "PF_rg_integer", "_s_l_enums_8h.html#a408fa74d21ec77c3f43bbd7dc7aaa513a4a0ff54734c55ec07bce5251d451942d", null ],
-      [ "PF_red_integer", "_s_l_enums_8h.html#a408fa74d21ec77c3f43bbd7dc7aaa513ac33ddb89e5e1084537eeee7da4382efa", null ],
-      [ "PF_rgb_integer", "_s_l_enums_8h.html#a408fa74d21ec77c3f43bbd7dc7aaa513a03a931fffceb4102b134a2703db6eb84", null ],
-      [ "PF_rgba_integer", "_s_l_enums_8h.html#a408fa74d21ec77c3f43bbd7dc7aaa513a2e755d9a9cc081c8e3a1ca5facce9557", null ],
-      [ "PF_bgr_integer", "_s_l_enums_8h.html#a408fa74d21ec77c3f43bbd7dc7aaa513a221cfef5d32170618b42bb9d0caf6fcb", null ],
-      [ "PF_bgra_integer", "_s_l_enums_8h.html#a408fa74d21ec77c3f43bbd7dc7aaa513a69e3fb56a0e5c8de605f8b88e1028857", null ]
-    ] ],
     [ "SLProjection", "_s_l_enums_8h.html#a70e4993b9e12800feca0f1059602ea58", [
       [ "P_monoPerspective", "_s_l_enums_8h.html#a70e4993b9e12800feca0f1059602ea58a16e9db1d5e24d2f91cfc64d10ea7a987", null ],
       [ "P_monoOrthographic", "_s_l_enums_8h.html#a70e4993b9e12800feca0f1059602ea58ad4a70a61e3b7faf9786b49ba98694b54", null ],
@@ -219,6 +176,8 @@ var _s_l_enums_8h =
       [ "SID_VideoTrackArucoScnd", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71aa095dd7e1dde958904c6432a04f7f476", null ],
       [ "SID_VideoTrackFeature2DMain", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71aa834d0e23f66d0c23c7efcc56bea5834", null ],
       [ "SID_VideoTrackFeature2DScnd", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a98c8c41973590739496e8a37442e445c", null ],
+      [ "SID_VideoTrackFaceMain", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71ac039b0546c89e65c031c2cbc5962beff", null ],
+      [ "SID_VideoTrackFaceScnd", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a30b5de3546eb2c0abe79223fa667fd82", null ],
       [ "SID_VideoSensorAR", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a359b9d23e62f6e20a84295cf1f211d15", null ],
       [ "SID_RTMuttenzerBox", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71af07424e34e95b709a4aa62329428da80", null ],
       [ "SID_RTSpheres", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a30ea896f0ba5b16faff1e828fac24a1f", null ],
@@ -279,11 +238,5 @@ var _s_l_enums_8h =
       [ "UT_inc", "_s_l_enums_8h.html#aae8867faff20f30a15c373a7608da628a5289006fe6384223e7646d706b16e792", null ],
       [ "UT_random", "_s_l_enums_8h.html#aae8867faff20f30a15c373a7608da628aa19587d89c1a90d2e62e9ad3c423a354", null ],
       [ "UT_seconds", "_s_l_enums_8h.html#aae8867faff20f30a15c373a7608da628a223aa4524b2cdeb0aa6ba7812ed97c77", null ]
-    ] ],
-    [ "SLVideoType", "_s_l_enums_8h.html#af25c7a2fe342c2a19a982cbaca339b86", [
-      [ "VT_NONE", "_s_l_enums_8h.html#af25c7a2fe342c2a19a982cbaca339b86ac0ca85f2ffe008d4c33bfe128d71e1f1", null ],
-      [ "VT_MAIN", "_s_l_enums_8h.html#af25c7a2fe342c2a19a982cbaca339b86acb62deb29e4e865b1bb130aee532c2d2", null ],
-      [ "VT_SCND", "_s_l_enums_8h.html#af25c7a2fe342c2a19a982cbaca339b86a7c816e004aa73d3b4261d4dd1c0479d0", null ],
-      [ "VT_FILE", "_s_l_enums_8h.html#af25c7a2fe342c2a19a982cbaca339b86abfde60956bec0701278b0d5fe4ca1ade", null ]
     ] ]
 ];

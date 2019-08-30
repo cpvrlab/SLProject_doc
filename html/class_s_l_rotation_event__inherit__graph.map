@@ -1,3 +1,4 @@
 <map id="SLRotationEvent" name="SLRotationEvent">
-<area shape="rect" id="node2" href="$class_s_l_input_event.html" title="Baseclass for all system input events." alt="" coords="15,5,121,32"/>
+<area shape="rect" id="node1" title="Specialized SLInput class for all device rotation related input events." alt="" coords="5,79,127,104"/>
+<area shape="rect" id="node2" href="$class_s_l_input_event.html" title="Baseclass for all system input events." alt="" coords="15,5,117,31"/>
 </map>

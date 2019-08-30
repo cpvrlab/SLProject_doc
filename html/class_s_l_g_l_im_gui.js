@@ -18,6 +18,7 @@ var class_s_l_g_l_im_gui =
     [ "onResize", "class_s_l_g_l_im_gui.html#a862a95992564f455e8713df47a8a6034", null ],
     [ "printCompileErrors", "class_s_l_g_l_im_gui.html#a05a14acbabd956f92ef889b6c2ffe118", null ],
     [ "renderExtraFrame", "class_s_l_g_l_im_gui.html#af630b1c5dd7ab242c0ec95b5b1dce689", null ],
+    [ "void", "class_s_l_g_l_im_gui.html#acd7489fb21824afd7802a9f0a4e69365", null ],
     [ "_attribLocColor", "class_s_l_g_l_im_gui.html#ab2a77f324182bb4b7af64124d63d68dd", null ],
     [ "_attribLocPosition", "class_s_l_g_l_im_gui.html#a8d6c5dc9e0a167926a4449e459a0ac34", null ],
     [ "_attribLocProjMtx", "class_s_l_g_l_im_gui.html#a3f4582d831ca784850751111a75e541c", null ],
@@ -36,7 +37,7 @@ var class_s_l_g_l_im_gui =
     [ "_vaoHandle", "class_s_l_g_l_im_gui.html#afc9f834ea157312acbf4db7a858c2444", null ],
     [ "_vboHandle", "class_s_l_g_l_im_gui.html#a6c95a30a434cc5c4470243059a3f94e6", null ],
     [ "_vertHandle", "class_s_l_g_l_im_gui.html#a9ebd69f313267e3f85f677659a682462", null ],
-    [ "build", "class_s_l_g_l_im_gui.html#abff30410ab961f45bbf8bb9338f44951", null ],
     [ "fontFixedDots", "class_s_l_g_l_im_gui.html#a392fabf97c788ba2e4e32aeffea873da", null ],
-    [ "fontPropDots", "class_s_l_g_l_im_gui.html#a4b241ecbf5ea85bb149c72ac633f8d0e", null ]
+    [ "fontPropDots", "class_s_l_g_l_im_gui.html#a4b241ecbf5ea85bb149c72ac633f8d0e", null ],
+    [ "sv", "class_s_l_g_l_im_gui.html#a005fac89edce9792a24f000ff9262b29", null ]
 ];
