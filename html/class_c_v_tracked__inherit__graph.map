@@ -1,7 +1,6 @@
 <map id="CVTracked" name="CVTracked">
-<area shape="rect" id="node1" title="CVTracked is the pure virtual base class for tracking features in video." alt="" coords="271,5,358,31"/>
-<area shape="rect" id="node2" href="$class_c_v_tracked_aruco.html" title="OpenCV ArUco marker tracker class derived from CVTracked." alt="" coords="5,79,128,104"/>
-<area shape="rect" id="node3" href="$class_c_v_tracked_chessboard.html" title="OpenCV chessboard tracker class derived from CVTracked." alt="" coords="152,79,312,104"/>
-<area shape="rect" id="node4" href="$class_c_v_tracked_faces.html" title="OpenCV face &amp; facial landmark tracker class derived from CVTracked." alt="" coords="335,79,459,104"/>
-<area shape="rect" id="node5" href="$class_c_v_tracked_features.html" title="CVTrackedFeatures is the main part of the AR Christoffelturm scene." alt="" coords="483,79,623,104"/>
+<area shape="rect" id="node2" href="$class_c_v_tracked_aruco.html" title="OpenCV ArUco marker tracker class derived from CVTracked. " alt="" coords="5,80,128,107"/>
+<area shape="rect" id="node3" href="$class_c_v_tracked_chessboard.html" title="OpenCV chessboard tracker class derived from CVTracked. " alt="" coords="153,80,313,107"/>
+<area shape="rect" id="node4" href="$class_c_v_tracked_faces.html" title="OpenCV face &amp; facial landmark tracker class derived from CVTracked. " alt="" coords="337,80,463,107"/>
+<area shape="rect" id="node5" href="$class_c_v_tracked_features.html" title="CVTrackedFeatures is the main part of the AR Christoffelturm scene. " alt="" coords="487,80,628,107"/>
 </map>

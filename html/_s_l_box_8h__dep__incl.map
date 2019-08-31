@@ -1,6 +1,5 @@
 <map id="SLBox.h" name="SLBox.h">
-<area shape="rect" id="node1" title=" " alt="" coords="143,5,214,31"/>
-<area shape="rect" id="node2" href="$_s_l_skybox_8cpp.html" title=" " alt="" coords="5,79,112,104"/>
-<area shape="rect" id="node3" href="$_s_l_box_8cpp.html" title=" " alt="" coords="136,79,222,104"/>
-<area shape="rect" id="node4" href="$_app_demo_load_8cpp.html" title=" " alt="" coords="246,79,381,104"/>
+<area shape="rect" id="node2" href="$_s_l_skybox_8cpp.html" title="SLSkybox.cpp" alt="" coords="5,80,112,107"/>
+<area shape="rect" id="node3" href="$_s_l_box_8cpp.html" title="SLBox.cpp" alt="" coords="137,80,223,107"/>
+<area shape="rect" id="node4" href="$_app_demo_load_8cpp.html" title="AppDemoLoad.cpp" alt="" coords="248,80,384,107"/>
 </map>

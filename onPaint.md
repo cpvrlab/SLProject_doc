@@ -1,24 +1,25 @@
 How one frame gets painted
 ============
 
+As an example we start here at the outer shell of a desktop app using GLFW.
 The most outer onPaint routine gets called in the main event loop
-whenever the slUpadateAndRepaint returns true. Repaints occurs therefore as
+whenever the slPaintAllViews returns true. Repaints occurs therefore as
 fast as possible and only when needed. If nothing happens (no animation or
 camera move) no repaint is requested and energy can be saved. There is no
 timer involved.
 
-* **onPaint**:
-   * **slUpdateAndPaint**: C interface function
+* **AppDemoMainGLFW::onPaint**:
+   * **AppDemoVideo::onUpdateVideo**
+      * Updates calibration during calibration process.
+      * Updates tracking if a tracker is used.
+      * Updates the video texture with the latest video frame if video is used.
+   * **SLInterface::slUpdateScene**
       * SLScene::onUpdate:
-         * Return if not all views are finished.
          * 1) Calculate the frame time over all views.
-         * 2) SLInputManager::pollAndProcessEvents polls and processes the queued up user or device events.
-         * 3) SLAnimManager::update:
-            * All enabled node animations get updated by the elapsed time.
-            * Call SLSkeleton::updateAnimations for all enabled skeletons with the elapsed time.
-         * 4) Do all Augmented Reality (AR) Tracking using the live video feed.
-         * 5) SLNode::updateAABBRec called on the root node to resize the
-           axis aligned bounding boxes of all nodes that have changed during animation.
+         * 2) SLInputManager::pollAndProcessEvents
+         * 3) SLAnimManager::update: Updates all animations.
+         * 4) SLNode::updateAABBRec updates the axis aligned bounding boxes of all nodes that have changed during animation.
+   * **SLInterface::slPaintAllViews**: C interface function
       * SLSceneView::onPaint called for every sceneview:
          * SLSceneView::draw3DGL
             * SLCamera::camUpdate updates any camera animation (smooth transitions)
@@ -73,4 +74,4 @@ timer involved.
       * return true if either an update or a camera move occurred.
    * Swap the back buffer to the front.
    * Update the window title.
-   * return the answer from SLScene::updateIfAllViewsGotPainted and SLSceneView::onPaint
+   * return the true if an immediate update is needed.

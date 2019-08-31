@@ -3,7 +3,7 @@ var struct_hmd_render_info =
     [ "EyeConfig", "struct_hmd_render_info_1_1_eye_config.html", "struct_hmd_render_info_1_1_eye_config" ],
     [ "ShutterInfo", "struct_hmd_render_info_1_1_shutter_info.html", "struct_hmd_render_info_1_1_shutter_info" ],
     [ "HmdRenderInfo", "struct_hmd_render_info.html#a829081d37e4c404c8df69376f2189579", null ],
-    [ "GetEyeCenter", "struct_hmd_render_info.html#a3637615c5fedab500a60169d5c65b6b7", null ],
+    [ "GetEyeCenter", "struct_hmd_render_info.html#a686ec1b0674d28a85df36969ad22117d", null ],
     [ "CenterFromTopInMeters", "struct_hmd_render_info.html#a2379c99cf8f22384464f3a18ba26be91", null ],
     [ "EyeCups", "struct_hmd_render_info.html#af4c2732c734f00a882ee888e54068944", null ],
     [ "EyeLeft", "struct_hmd_render_info.html#a455b2578c1581a5294f749426b92912a", null ],

@@ -1,9 +1,6 @@
 <map id="SLGLUniform.h" name="SLGLUniform.h">
-<area shape="rect" id="node1" title=" " alt="" coords="62,5,176,31"/>
-<area shape="rect" id="node2" href="$_s_l_8h.html" title=" " alt="" coords="48,152,97,177"/>
-<area shape="rect" id="node6" href="$_s_l_event_handler_8h.html" title=" " alt="" coords="105,79,234,104"/>
-<area shape="rect" id="node3" href="$_utils_8h.html" title=" " alt="" coords="43,225,101,251"/>
-<area shape="rect" id="node4" title=" " alt="" coords="5,299,59,324"/>
-<area shape="rect" id="node5" title=" " alt="" coords="83,299,141,324"/>
-<area shape="rect" id="node7" href="$_s_l_enums_8h.html" title=" " alt="" coords="125,152,215,177"/>
+<area shape="rect" id="node2" href="$_s_l_8h.html" title="SL.h" alt="" coords="47,155,96,181"/>
+<area shape="rect" id="node6" href="$_s_l_event_handler_8h.html" title="SLEventHandler.h" alt="" coords="105,80,236,107"/>
+<area shape="rect" id="node3" href="$_utils_8h.html" title="Utils.h" alt="" coords="43,229,101,256"/>
+<area shape="rect" id="node7" href="$_s_l_enums_8h.html" title="SLEnums.h" alt="" coords="125,155,216,181"/>
 </map>

@@ -1,9 +1,5 @@
 <map id="SLAnimPlayback.h" name="SLAnimPlayback.h">
-<area shape="rect" id="node1" title=" " alt="" coords="54,5,188,31"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,79,53,104"/>
-<area shape="rect" id="node3" title=" " alt="" coords="61,225,119,251"/>
-<area shape="rect" id="node4" href="$_s_l_8h.html" title=" " alt="" coords="127,79,176,104"/>
-<area shape="rect" id="node7" href="$_s_l_enums_8h.html" title=" " alt="" coords="200,79,290,104"/>
-<area shape="rect" id="node5" href="$_utils_8h.html" title=" " alt="" coords="128,152,186,177"/>
-<area shape="rect" id="node6" title=" " alt="" coords="143,225,197,251"/>
+<area shape="rect" id="node4" href="$_s_l_8h.html" title="SL.h" alt="" coords="129,80,177,107"/>
+<area shape="rect" id="node7" href="$_s_l_enums_8h.html" title="SLEnums.h" alt="" coords="203,80,293,107"/>
+<area shape="rect" id="node5" href="$_utils_8h.html" title="Utils.h" alt="" coords="128,155,187,181"/>
 </map>

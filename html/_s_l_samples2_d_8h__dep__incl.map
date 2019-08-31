@@ -1,52 +1,51 @@
 <map id="SLSamples2D.h" name="SLSamples2D.h">
-<area shape="rect" id="node1" title=" " alt="" coords="4190,5,4308,31"/>
-<area shape="rect" id="node2" href="$_s_l_samples2_d_8cpp.html" title=" " alt="" coords="3819,79,3951,104"/>
-<area shape="rect" id="node3" href="$_s_l_camera_8h.html" title=" " alt="" coords="3974,79,4070,104"/>
-<area shape="rect" id="node46" href="$_s_l_light_direct_8h.html" title=" " alt="" coords="4419,79,4532,104"/>
-<area shape="rect" id="node50" href="$_s_l_light_spot_8h.html" title=" " alt="" coords="4614,299,4719,324"/>
-<area shape="rect" id="node4" href="$_s_l_skybox_8cpp.html" title=" " alt="" coords="1221,372,1327,397"/>
-<area shape="rect" id="node5" href="$_s_l_pathtracer_8cpp.html" title=" " alt="" coords="2363,372,2487,397"/>
-<area shape="rect" id="node6" href="$_s_l_scene_view_8cpp.html" title=" " alt="" coords="4315,372,4444,397"/>
-<area shape="rect" id="node7" href="$_s_l_uniform_grid_8cpp.html" title=" " alt="" coords="3548,372,3683,397"/>
-<area shape="rect" id="node8" href="$_s_l_g_l_oculus_8h.html" title=" " alt="" coords="887,152,995,177"/>
-<area shape="rect" id="node44" href="$_s_l_g_l_oculus_f_b_8h.html" title=" " alt="" coords="3802,225,3927,251"/>
-<area shape="rect" id="node45" href="$_s_l_keyframe_camera_8h.html" title=" " alt="" coords="4211,299,4364,324"/>
-<area shape="rect" id="node9" href="$_s_l_g_l_oculus_8cpp.html" title=" " alt="" coords="62,372,184,397"/>
-<area shape="rect" id="node10" href="$_s_l_g_l_o_v_r_workaround_8h.html" title=" " alt="" coords="40,299,207,324"/>
-<area shape="rect" id="node11" href="$_s_l_scene_8h.html" title=" " alt="" coords="1713,225,1800,251"/>
-<area shape="rect" id="node12" href="$_s_l_g_l_im_gui_8cpp.html" title=" " alt="" coords="1699,299,1815,324"/>
-<area shape="rect" id="node13" href="$_s_l_g_l_oculus_f_b_8cpp.html" title=" " alt="" coords="3795,299,3934,324"/>
-<area shape="rect" id="node14" href="$_s_l_g_l_program_8cpp.html" title=" " alt="" coords="1839,299,1971,324"/>
-<area shape="rect" id="node15" href="$_s_l_g_l_texture_8cpp.html" title=" " alt="" coords="1995,299,2118,324"/>
-<area shape="rect" id="node16" href="$_s_l_g_l_vertex_array_8cpp.html" title=" " alt="" coords="2876,299,3024,324"/>
-<area shape="rect" id="node17" href="$_s_l_g_l_vertex_array_ext_8cpp.html" title=" " alt="" coords="1175,299,1344,324"/>
-<area shape="rect" id="node18" href="$_s_l_g_l_vertex_buffer_8cpp.html" title=" " alt="" coords="847,299,999,324"/>
-<area shape="rect" id="node19" href="$_s_l_curve_bezier_8cpp.html" title=" " alt="" coords="333,299,468,324"/>
-<area shape="rect" id="node20" href="$_s_l_application_8cpp.html" title=" " alt="" coords="1367,299,1495,324"/>
-<area shape="rect" id="node21" href="$_s_l_assimp_importer_8cpp.html" title=" " alt="" coords="1519,299,1674,324"/>
-<area shape="rect" id="node22" href="$_s_l_interface_8cpp.html" title=" " alt="" coords="2674,372,2789,397"/>
-<area shape="rect" id="node23" href="$_s_l_tex_font_8cpp.html" title=" " alt="" coords="2253,299,2362,324"/>
-<area shape="rect" id="node24" href="$_s_l_a_a_b_box_8cpp.html" title=" " alt="" coords="492,299,605,324"/>
-<area shape="rect" id="node25" href="$_s_l_animation_8cpp.html" title=" " alt="" coords="2386,299,2508,324"/>
-<area shape="rect" id="node26" href="$_s_l_anim_manager_8cpp.html" title=" " alt="" coords="679,299,824,324"/>
-<area shape="rect" id="node27" href="$_s_l_background_8cpp.html" title=" " alt="" coords="2532,299,2666,324"/>
-<area shape="rect" id="node28" href="$_s_l_input_manager_8cpp.html" title=" " alt="" coords="2813,372,2957,397"/>
-<area shape="rect" id="node29" href="$_s_l_light_direct_8cpp.html" title=" " alt="" coords="3707,372,3833,397"/>
-<area shape="rect" id="node30" href="$_s_l_light_rect_8cpp.html" title=" " alt="" coords="2981,372,3100,397"/>
-<area shape="rect" id="node31" href="$_s_l_light_spot_8cpp.html" title=" " alt="" coords="4172,372,4291,397"/>
-<area shape="rect" id="node32" href="$_s_l_scene_8cpp.html" title=" " alt="" coords="4048,372,4148,397"/>
-<area shape="rect" id="node33" href="$_s_l_skeleton_8cpp.html" title=" " alt="" coords="3125,372,3239,397"/>
-<area shape="rect" id="node34" href="$_s_l_text_8cpp.html" title=" " alt="" coords="2143,299,2229,324"/>
-<area shape="rect" id="node35" href="$_s_l_transfer_function_8cpp.html" title=" " alt="" coords="2690,299,2852,324"/>
-<area shape="rect" id="node36" href="$_s_l_scene_view_8h.html" title=" " alt="" coords="3403,299,3518,324"/>
-<area shape="rect" id="node41" href="$_app_demo_gui_8cpp.html" title=" " alt="" coords="4468,372,4595,397"/>
-<area shape="rect" id="node42" href="$_app_demo_load_8cpp.html" title=" " alt="" coords="4738,372,4874,397"/>
-<area shape="rect" id="node43" href="$_app_demo_video_8cpp.html" title=" " alt="" coords="2511,372,2651,397"/>
-<area shape="rect" id="node37" href="$_s_l_anim_track_8cpp.html" title=" " alt="" coords="3398,372,3524,397"/>
-<area shape="rect" id="node38" href="$_s_l_camera_8cpp.html" title=" " alt="" coords="3263,372,3373,397"/>
-<area shape="rect" id="node39" href="$_s_l_keyframe_camera_8cpp.html" title=" " alt="" coords="3857,372,4024,397"/>
-<area shape="rect" id="node40" href="$_s_l_node_8cpp.html" title=" " alt="" coords="4619,372,4713,397"/>
-<area shape="rect" id="node47" href="$_s_l_device_location_8h.html" title=" " alt="" coords="4171,152,4311,177"/>
-<area shape="rect" id="node48" href="$_s_l_device_location_8cpp.html" title=" " alt="" coords="4164,225,4318,251"/>
-<area shape="rect" id="node49" href="$_s_l_application_8h.html" title=" " alt="" coords="3056,225,3170,251"/>
+<area shape="rect" id="node2" href="$_s_l_samples2_d_8cpp.html" title="SLSamples2D.cpp" alt="" coords="3858,80,3989,107"/>
+<area shape="rect" id="node3" href="$_s_l_camera_8h.html" title="SLCamera.h" alt="" coords="4014,80,4110,107"/>
+<area shape="rect" id="node46" href="$_s_l_light_direct_8h.html" title="SLLightDirect.h" alt="" coords="4462,80,4574,107"/>
+<area shape="rect" id="node50" href="$_s_l_light_spot_8h.html" title="SLLightSpot.h" alt="" coords="4658,304,4762,331"/>
+<area shape="rect" id="node4" href="$_s_l_skybox_8cpp.html" title="SLSkybox.cpp" alt="" coords="1232,379,1338,405"/>
+<area shape="rect" id="node5" href="$_s_l_pathtracer_8cpp.html" title="SLPathtracer.cpp" alt="" coords="2389,379,2514,405"/>
+<area shape="rect" id="node6" href="$_s_l_scene_view_8cpp.html" title="SLSceneView.cpp" alt="" coords="4357,379,4488,405"/>
+<area shape="rect" id="node7" href="$_s_l_uniform_grid_8cpp.html" title="SLUniformGrid.cpp" alt="" coords="3584,379,3720,405"/>
+<area shape="rect" id="node8" href="$_s_l_g_l_oculus_8h.html" title="SLGLOculus.h" alt="" coords="1284,155,1393,181"/>
+<area shape="rect" id="node44" href="$_s_l_g_l_oculus_f_b_8h.html" title="SLGLOculusFB.h" alt="" coords="3841,229,3966,256"/>
+<area shape="rect" id="node45" href="$_s_l_keyframe_camera_8h.html" title="SLKeyframeCamera.h" alt="" coords="4252,304,4405,331"/>
+<area shape="rect" id="node9" href="$_s_l_g_l_oculus_8cpp.html" title="SLGLOculus.cpp" alt="" coords="57,379,180,405"/>
+<area shape="rect" id="node10" href="$_s_l_g_l_o_v_r_workaround_8h.html" title="SLGLOVRWorkaround.h" alt="" coords="34,304,202,331"/>
+<area shape="rect" id="node11" href="$_s_l_scene_8h.html" title="SLScene.h" alt="" coords="1730,229,1816,256"/>
+<area shape="rect" id="node12" href="$_s_l_g_l_im_gui_8cpp.html" title="SLGLImGui.cpp" alt="" coords="1714,304,1832,331"/>
+<area shape="rect" id="node13" href="$_s_l_g_l_oculus_f_b_8cpp.html" title="SLGLOculusFB.cpp" alt="" coords="3834,304,3973,331"/>
+<area shape="rect" id="node14" href="$_s_l_g_l_program_8cpp.html" title="SLGLProgram.cpp" alt="" coords="1856,304,1988,331"/>
+<area shape="rect" id="node15" href="$_s_l_g_l_texture_8cpp.html" title="SLGLTexture.cpp" alt="" coords="2012,304,2138,331"/>
+<area shape="rect" id="node16" href="$_s_l_g_l_vertex_array_8cpp.html" title="SLGLVertexArray.cpp" alt="" coords="2908,304,3060,331"/>
+<area shape="rect" id="node17" href="$_s_l_g_l_vertex_array_ext_8cpp.html" title="SLGLVertexArrayExt.cpp" alt="" coords="1184,304,1354,331"/>
+<area shape="rect" id="node18" href="$_s_l_g_l_vertex_buffer_8cpp.html" title="SLGLVertexBuffer.cpp" alt="" coords="851,304,1006,331"/>
+<area shape="rect" id="node19" href="$_s_l_curve_bezier_8cpp.html" title="SLCurveBezier.cpp" alt="" coords="330,304,466,331"/>
+<area shape="rect" id="node20" href="$_s_l_application_8cpp.html" title="SLApplication.cpp" alt="" coords="1379,304,1508,331"/>
+<area shape="rect" id="node21" href="$_s_l_assimp_importer_8cpp.html" title="SLAssimpImporter.cpp" alt="" coords="1533,304,1690,331"/>
+<area shape="rect" id="node22" href="$_s_l_interface_8cpp.html" title="SLProject C&#45;functions interface implementation. " alt="" coords="2703,379,2818,405"/>
+<area shape="rect" id="node23" href="$_s_l_tex_font_8cpp.html" title="SLTexFont.cpp" alt="" coords="2277,304,2389,331"/>
+<area shape="rect" id="node24" href="$_s_l_a_a_b_box_8cpp.html" title="SLAABBox.cpp" alt="" coords="491,304,604,331"/>
+<area shape="rect" id="node25" href="$_s_l_animation_8cpp.html" title="SLAnimation.cpp" alt="" coords="2413,304,2536,331"/>
+<area shape="rect" id="node26" href="$_s_l_anim_manager_8cpp.html" title="SLAnimManager.cpp" alt="" coords="680,304,826,331"/>
+<area shape="rect" id="node27" href="$_s_l_background_8cpp.html" title="SLBackground.cpp" alt="" coords="2560,304,2694,331"/>
+<area shape="rect" id="node28" href="$_s_l_input_manager_8cpp.html" title="SLInputManager.cpp" alt="" coords="2843,379,2988,405"/>
+<area shape="rect" id="node29" href="$_s_l_light_direct_8cpp.html" title="SLLightDirect.cpp" alt="" coords="3744,379,3870,405"/>
+<area shape="rect" id="node30" href="$_s_l_light_rect_8cpp.html" title="SLLightRect.cpp" alt="" coords="3013,379,3133,405"/>
+<area shape="rect" id="node31" href="$_s_l_light_spot_8cpp.html" title="SLLightSpot.cpp" alt="" coords="4213,379,4333,405"/>
+<area shape="rect" id="node32" href="$_s_l_scene_8cpp.html" title="SLScene.cpp" alt="" coords="4088,379,4189,405"/>
+<area shape="rect" id="node33" href="$_s_l_skeleton_8cpp.html" title="SLSkeleton.cpp" alt="" coords="3158,379,3273,405"/>
+<area shape="rect" id="node34" href="$_s_l_text_8cpp.html" title="SLText.cpp" alt="" coords="2163,304,2252,331"/>
+<area shape="rect" id="node35" href="$_s_l_transfer_function_8cpp.html" title="SLTransferFunction.cpp" alt="" coords="2719,304,2882,331"/>
+<area shape="rect" id="node36" href="$_s_l_scene_view_8h.html" title="SLSceneView.h" alt="" coords="3439,304,3554,331"/>
+<area shape="rect" id="node41" href="$_app_demo_gui_8cpp.html" title="AppDemoGui.cpp" alt="" coords="4512,379,4638,405"/>
+<area shape="rect" id="node42" href="$_app_demo_load_8cpp.html" title="AppDemoLoad.cpp" alt="" coords="4784,379,4920,405"/>
+<area shape="rect" id="node43" href="$_app_demo_video_8cpp.html" title="AppDemoVideo.cpp" alt="" coords="2539,379,2678,405"/>
+<area shape="rect" id="node37" href="$_s_l_anim_track_8cpp.html" title="SLAnimTrack.cpp" alt="" coords="3432,379,3558,405"/>
+<area shape="rect" id="node38" href="$_s_l_camera_8cpp.html" title="SLCamera.cpp" alt="" coords="3298,379,3408,405"/>
+<area shape="rect" id="node39" href="$_s_l_keyframe_camera_8cpp.html" title="SLKeyframeCamera.cpp" alt="" coords="3896,379,4064,405"/>
+<area shape="rect" id="node40" href="$_s_l_node_8cpp.html" title="SLNode.cpp" alt="" coords="4664,379,4760,405"/>
+<area shape="rect" id="node47" href="$_s_l_device_location_8h.html" title="SLDeviceLocation.h" alt="" coords="4204,155,4344,181"/>
+<area shape="rect" id="node48" href="$_s_l_device_location_8cpp.html" title="SLDeviceLocation.cpp" alt="" coords="4197,229,4352,256"/>
+<area shape="rect" id="node49" href="$_s_l_application_8h.html" title="SLApplication.h" alt="" coords="3090,229,3205,256"/>
 </map>

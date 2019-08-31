@@ -1,9 +1,8 @@
 <map id="SLInputEvent" name="SLInputEvent">
-<area shape="rect" id="node1" title="Baseclass for all system input events." alt="" coords="350,5,452,31"/>
-<area shape="rect" id="node2" href="$class_s_l_char_input_event.html" title="Specialized SLInput class for unicode character input." alt="" coords="5,79,136,104"/>
-<area shape="rect" id="node3" href="$class_s_l_key_event.html" title="Specialized SLInput class for all keypress related input events." alt="" coords="159,79,254,104"/>
-<area shape="rect" id="node4" href="$class_s_l_mouse_event.html" title="Specialized SLInput class for all mouse related input events." alt="" coords="277,79,389,104"/>
-<area shape="rect" id="node5" href="$class_s_l_resize_event.html" title="Specialized SLInput class for window resize events." alt="" coords="413,79,525,104"/>
-<area shape="rect" id="node6" href="$class_s_l_rotation_event.html" title="Specialized SLInput class for all device rotation related input events." alt="" coords="550,79,671,104"/>
-<area shape="rect" id="node7" href="$class_s_l_touch_event.html" title="Specialized SLInput class for touch related input events." alt="" coords="695,79,801,104"/>
+<area shape="rect" id="node2" href="$class_s_l_char_input_event.html" title="Specialized SLInput class for unicode character input. " alt="" coords="5,80,136,107"/>
+<area shape="rect" id="node3" href="$class_s_l_key_event.html" title="Specialized SLInput class for all keypress related input events. " alt="" coords="160,80,256,107"/>
+<area shape="rect" id="node4" href="$class_s_l_mouse_event.html" title="Specialized SLInput class for all mouse related input events. " alt="" coords="280,80,392,107"/>
+<area shape="rect" id="node5" href="$class_s_l_resize_event.html" title="Specialized SLInput class for window resize events. " alt="" coords="417,80,529,107"/>
+<area shape="rect" id="node6" href="$class_s_l_rotation_event.html" title="Specialized SLInput class for all device rotation related input events. " alt="" coords="555,80,677,107"/>
+<area shape="rect" id="node7" href="$class_s_l_touch_event.html" title="Specialized SLInput class for touch related input events. " alt="" coords="701,80,811,107"/>
 </map>

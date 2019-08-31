@@ -1,7 +1,6 @@
 <map id="SLCurve.h" name="SLCurve.h">
-<area shape="rect" id="node1" title=" " alt="" coords="184,5,269,31"/>
-<area shape="rect" id="node2" href="$_s_l_curve_bezier_8h.html" title=" " alt="" coords="166,79,287,104"/>
-<area shape="rect" id="node3" href="$_s_l_curve_bezier_8cpp.html" title=" " alt="" coords="5,152,141,177"/>
-<area shape="rect" id="node4" href="$_s_l_animation_8cpp.html" title=" " alt="" coords="165,152,287,177"/>
-<area shape="rect" id="node5" href="$_s_l_anim_track_8cpp.html" title=" " alt="" coords="311,152,437,177"/>
+<area shape="rect" id="node2" href="$_s_l_curve_bezier_8h.html" title="SLCurveBezier.h" alt="" coords="167,80,289,107"/>
+<area shape="rect" id="node3" href="$_s_l_curve_bezier_8cpp.html" title="SLCurveBezier.cpp" alt="" coords="5,155,141,181"/>
+<area shape="rect" id="node4" href="$_s_l_animation_8cpp.html" title="SLAnimation.cpp" alt="" coords="167,155,289,181"/>
+<area shape="rect" id="node5" href="$_s_l_anim_track_8cpp.html" title="SLAnimTrack.cpp" alt="" coords="314,155,440,181"/>
 </map>

@@ -1,5 +1,4 @@
 <map id="SLGLProgram" name="SLGLProgram">
-<area shape="rect" id="node1" title="Encapsulation of an OpenGL shader program object." alt="" coords="29,79,135,104"/>
-<area shape="rect" id="node3" href="$class_s_l_g_l_generic_program.html" title="Generic Shader Program class inherited from SLGLProgram." alt="" coords="5,152,159,177"/>
-<area shape="rect" id="node2" href="$class_s_l_object.html" title="Base class for all other classes." alt="" coords="44,5,120,31"/>
+<area shape="rect" id="node3" href="$class_s_l_g_l_generic_program.html" title="Generic Shader Program class inherited from SLGLProgram. " alt="" coords="5,155,157,181"/>
+<area shape="rect" id="node2" href="$class_s_l_object.html" title="Base class for all other classes. " alt="" coords="43,5,120,32"/>
 </map>

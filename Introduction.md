@@ -3,21 +3,25 @@
 <p>
 The following class diagram gives you an overview of the major classes with its important variables and methods:
 <ul>
-    <li>The <b>grey boxes</b> is the application side parts that depend on the OS, the window-SDK and the GUI-SDK.</li>
-    <li>The <b>blue classes</b> are the central classes with the top-level instances of SLApplication and SLInputManager. The core classes for the scene are SLScene and SLSceneView.</li>
+    <li>The <b>grey boxes</b> on top contain the application code that depend on the OS and do the GUI, the scene assembly and the video processing.</li>
+    <li>The <b>light blue classes</b> are the central classes with the top-level instances of SLApplication and SLInputManager. The core classes for the scene are SLScene and SLSceneView.</li>
+   <li>The <b>dark blue classes</b> are the alternative renderers for ray tracing and path tracing.</li>
     <li>The <b>yellow classes</b> define the materials that are responsible for the visual appearances of the mesh objects.</li>
     <li>The <b>green classes</b> build the scene graph that defines the spacial structure of the visible objects.</li>
     <li>The <b>pink classes</b> define a single triangulated mesh object.</li>
     <li>The <b>violet classes</b> encapsulate all OpenGL vertex array object and buffer objects.</li>
     <li>The <b>red classes</b> build the animation framework.</li>
-    <li>The <b>orange classes</b> encapsulate the video and image processing functionality using OpenCV.</li>
+    <li>The <b>orange classes</b> encapsulate the video, image and AR tracking functionality using OpenCV. CV classes are independent from all SL classes. Only SLGLTexture uses CVImage for its texture images.</li>
+    <li>The <b>red classes</b> build the animation framework.</li>
+    <li>The <b>white classes</b> are low level classes for the math. Some of them are within the namespace Utils.</li>
+    <li>The <b>gray boxes</b> at the bottom are the external libraries that are used within the frame work.</li>
 </ul>
 <img src="../images/SLProject_UML_min.svg" width="100%">
 </p>
 
 \section app Application Code
 <p>
-The applications starting code (grey boxes in the class diagram below) depends on the operating system. In all cases we have the most outer shell of the application that handles the window and the OpenGL context creation and passes the events to a thin C-function interface before it is handled by the C++-framework in the library lib-SLProject. The following OS' are supported and applications are provided for demonstration:
+The applications code (grey boxes at the top of the diagram) contains the code for the operating system, the scene definition with SLProject library (SL), the video processing using CV-classes and the UI with ImGUI. In all cases we have the most outer shell of the application that handles the window and the OpenGL context creation and passes the events to a thin C-function interface before it is handled by the C++-framework in the library lib-SLProject. The following OS' are supported and applications are provided for demonstration:
 <ul>
     <li>
         <b>Windows, Linux and Max OSX</b> applications use the <a href="http://www.glfw.org/">GLFW</a>
@@ -25,7 +29,7 @@ The applications starting code (grey boxes in the class diagram below) depends o
         GLFW is included in the SLProject repository. See the app-Demo-GLFW for demonstration. 
 		For all demo apps (desktop and mobile) we use the 
         <a href="https://github.com/ocornut/imgui">ImGUI</a> library for the UI. 
-		The UI for the demo apps is implemented in the applications. ImGUI is also included in the repository.
+		The UI for the demo apps is implemented in AppDemoGUI. ImGUI is also included in the repository.
     </li>
     <li>
         The <b>Android</b> application starts in JAVA and passes the events with JNI (Java
@@ -45,8 +49,7 @@ The applications starting code (grey boxes in the class diagram below) depends o
 		<a href="http://www.fltk.org/index.php">FLTK</a>, 
 		<a href="http://www.wxwidgets.org/">wxWidgets</a>, 
 		<a href="http://www.nanapro.org/en-us/">Nana</a> or 
-		<a href="http://www.juce.com/">Juce</a>.
-		An extended example with Qt can be found in the folder _old. 
+		<a href="http://www.juce.com/">Juce</a>. 
     </li>
     <li>
         SLInterface.h and SLInterface.cpp define the C-Interface of the SLProject library.
@@ -58,16 +61,13 @@ The applications starting code (grey boxes in the class diagram below) depends o
 
 \section central Central Classes
 <p>
-The blue classes form the center of the SLProject framework:
+The light blue classes form the center of the SLProject framework:
 <ul>
     <li>
-        The SLApplication holds static instances of top-level items such as the scene
- pointer, the camera calibration objects and the device rotation and location
- information.
+        The SLApplication holds static instances of top-level items such as the input manager, the scene pointer and the device rotation and location information.
     </li>
     <li>
-        SLInputManager collects all user events from the mouse and keyboard as well as from
-        additional input devices such as a LeapMotion or Kinect sensor.
+        SLInputManager collects all user events from the mouse and keyboard as well as from additional input devices such as a LeapMotion or Kinect sensor.
     </li>
     <li>
         SLScene is the top-level class of the framework that represents the scene with

@@ -1,11 +1,3 @@
 <map id="CVRaulMurExtNode.h" name="CVRaulMurExtNode.h">
-<area shape="rect" id="node1" title=" " alt="" coords="426,5,578,31"/>
-<area shape="rect" id="node2" href="$_c_v_typedefs_8h.html" title=" " alt="" coords="450,79,555,104"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,152,63,177"/>
-<area shape="rect" id="node4" title=" " alt="" coords="86,152,243,177"/>
-<area shape="rect" id="node5" title=" " alt="" coords="267,152,415,177"/>
-<area shape="rect" id="node6" title=" " alt="" coords="439,152,565,177"/>
-<area shape="rect" id="node7" title=" " alt="" coords="589,152,733,177"/>
-<area shape="rect" id="node8" title=" " alt="" coords="757,152,928,177"/>
-<area shape="rect" id="node9" title=" " alt="" coords="952,152,1151,177"/>
+<area shape="rect" id="node2" href="$_c_v_typedefs_8h.html" title="CVTypedefs.h" alt="" coords="453,80,560,107"/>
 </map>

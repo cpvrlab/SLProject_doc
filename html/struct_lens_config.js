@@ -1,10 +1,10 @@
 var struct_lens_config =
 [
-    [ "DistortionFn", "struct_lens_config.html#a61cd212838cfd5a5e39e749d19d4abc8", null ],
-    [ "DistortionFnInverse", "struct_lens_config.html#ae90dd7332e98a4813547338561837b0c", null ],
-    [ "DistortionFnInverseApprox", "struct_lens_config.html#af98d9572a9a1490271b736d198755672", null ],
-    [ "DistortionFnScaleRadiusSquared", "struct_lens_config.html#ab3b7d41fabaae9af4d1527b7c257edde", null ],
-    [ "DistortionFnScaleRadiusSquaredChroma", "struct_lens_config.html#a5ef2af1e8057968be1b4fa039cf59730", null ],
+    [ "DistortionFn", "struct_lens_config.html#add1fe4e475a06b78dff84343799d3174", null ],
+    [ "DistortionFnInverse", "struct_lens_config.html#aba04e4540202df89ae2cc5d71721d4de", null ],
+    [ "DistortionFnInverseApprox", "struct_lens_config.html#a8c0d4dbd25af1c5f62c6c2537a679bec", null ],
+    [ "DistortionFnScaleRadiusSquared", "struct_lens_config.html#a69d2ab904de783969fc014fa84b8c6fc", null ],
+    [ "DistortionFnScaleRadiusSquaredChroma", "struct_lens_config.html#a627fcbda1d282cf932aff3e56fda1991", null ],
     [ "SetToIdentity", "struct_lens_config.html#aa0ff1b7733c5493bd907e6fe633cebd9", null ],
     [ "SetUpInverseApprox", "struct_lens_config.html#a02b296500e904b5d669daf2fc55fe4ff", null ],
     [ "ChromaticAberration", "struct_lens_config.html#ac3ae598f52b90be5c68d302020129ad4", null ],

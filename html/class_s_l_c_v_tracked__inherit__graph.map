@@ -1,5 +1,0 @@
-<map id="SLCVTracked" name="SLCVTracked">
-<area shape="rect" id="node3" href="$class_s_l_c_v_tracked_aruco.html" title="OpenCV ArUco marker tracker class derived from SLCVTracked." alt="" coords="5,80,147,107"/>
-<area shape="rect" id="node5" href="$class_s_l_c_v_tracked_chessboard.html" title="OpenCV chessboard tracker class derived from SLCVTracked." alt="" coords="171,80,353,107"/>
-<area shape="rect" id="node7" href="$class_s_l_c_v_tracked_features.html" title="SLCVTrackedFeatures is the main part of the AR Christoffelturm scene." alt="" coords="379,80,541,107"/>
-</map>

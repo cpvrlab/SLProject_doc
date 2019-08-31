@@ -1,10 +1,6 @@
 <map id="SLGLImGui.h" name="SLGLImGui.h">
-<area shape="rect" id="node1" title=" " alt="" coords="70,5,172,31"/>
-<area shape="rect" id="node2" href="$_s_l_8h.html" title=" " alt="" coords="90,152,139,177"/>
-<area shape="rect" id="node6" href="$_s_l_enums_8h.html" title=" " alt="" coords="22,79,113,104"/>
-<area shape="rect" id="node7" href="$_s_l_vec2_8h.html" title=" " alt="" coords="137,79,214,104"/>
-<area shape="rect" id="node8" title=" " alt="" coords="238,79,302,104"/>
-<area shape="rect" id="node3" href="$_utils_8h.html" title=" " alt="" coords="116,225,174,251"/>
-<area shape="rect" id="node4" title=" " alt="" coords="78,299,132,324"/>
-<area shape="rect" id="node5" title=" " alt="" coords="156,299,214,324"/>
+<area shape="rect" id="node2" href="$_s_l_8h.html" title="SL.h" alt="" coords="90,155,138,181"/>
+<area shape="rect" id="node6" href="$_s_l_enums_8h.html" title="SLEnums.h" alt="" coords="22,80,113,107"/>
+<area shape="rect" id="node7" href="$_s_l_vec2_8h.html" title="SLVec2.h" alt="" coords="137,80,217,107"/>
+<area shape="rect" id="node3" href="$_utils_8h.html" title="Utils.h" alt="" coords="116,229,174,256"/>
 </map>

@@ -9,7 +9,7 @@ var class_s_l_photon_map =
     [ "irradianceEstimate", "class_s_l_photon_map.html#a818522db011d905182bea85c2e835799", null ],
     [ "isDone", "class_s_l_photon_map.html#abe71bd651c7c63881d0e195e20fa59a1", null ],
     [ "isFull", "class_s_l_photon_map.html#a8441f7875794e0c3985abbf8ea298c50", null ],
-    [ "locatePhotons", "class_s_l_photon_map.html#a922517de59b7bf0dfd7f4b23990cd8bf", null ],
+    [ "locatePhotons", "class_s_l_photon_map.html#a46631e412a7a2e12a405e05622c14c78", null ],
     [ "maxPhotonsFound", "class_s_l_photon_map.html#a4c9a3a048208cf759950f185c101655c", null ],
     [ "maxPower", "class_s_l_photon_map.html#acdb57c448babc67d03f29a73894a7e06", null ],
     [ "maxRadius", "class_s_l_photon_map.html#a27dd30d8cc0ae75c1a4539e065219c17", null ],
