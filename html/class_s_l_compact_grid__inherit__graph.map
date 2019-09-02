@@ -1,3 +1,4 @@
 <map id="SLCompactGrid" name="SLCompactGrid">
-<area shape="rect" id="node2" href="$class_s_l_accel_struct.html" title="SLAccelStruct is an abstract base class for acceleration structures. " alt="" coords="11,5,116,32"/>
+<area shape="rect" id="node1" title="Class for compact uniform grid acceleration structure." alt="" coords="5,79,122,104"/>
+<area shape="rect" id="node2" href="$class_s_l_accel_struct.html" title="SLAccelStruct is an abstract base class for acceleration structures." alt="" coords="11,5,116,31"/>
 </map>

@@ -1,4 +1,34 @@
 \tableofcontents
+\section overview Overview
+<p>
+There are 5 code sections in an SLProject application:
+<ul>
+  <li><b>APP</b>: Application code:</li> 
+  <ul>
+    <li>OS dependent OpenGL context and window creation</li>
+    <li>UI Definition using ImGUI</li>
+    <li>Scene definition using SL</li>
+    <li>Video processing using CV</li>
+  </ul>
+  <li><b>SL</b>: Scene Library code:</li>
+  <ul>
+    <li>Scene & Sceneview management</li>
+    <li>Scenegraph classes</li>
+    <li>3D and 2D rendering</li>
+    <li>Animation</li>
+  </ul>
+  <li><b>CV</b>: Computer Vision code:</li>
+  <ul>
+    <li>Video Capturing</li>
+    <li>Calibration</li>
+    <li>Tracking</li>
+  </ul>
+  <li><b>Utils</b>: Utilities used by SL and CV</li>
+  <li><b>Externals</b>: External dependencies</li>
+</ul>
+<img src="../images/SLProject-App-Structure.png" width="30%">
+</p>
+<br><br>
 \section diagram Class Diagram
 <p>
 The following class diagram gives you an overview of the major classes with its important variables and methods:
@@ -18,7 +48,7 @@ The following class diagram gives you an overview of the major classes with its 
 </ul>
 <img src="../images/SLProject_UML_min.svg" width="100%">
 </p>
-
+<br><br>
 \section app Application Code
 <p>
 The applications code (grey boxes at the top of the diagram) contains the code for the operating system, the scene definition with SLProject library (SL), the video processing using CV-classes and the UI with ImGUI. In all cases we have the most outer shell of the application that handles the window and the OpenGL context creation and passes the events to a thin C-function interface before it is handled by the C++-framework in the library lib-SLProject. The following OS' are supported and applications are provided for demonstration:

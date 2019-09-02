@@ -1,3 +1,4 @@
 <map id="SLCharInputEvent" name="SLCharInputEvent">
-<area shape="rect" id="node2" href="$class_s_l_input_event.html" title="Baseclass for all system input events. " alt="" coords="19,5,121,32"/>
+<area shape="rect" id="node1" title="Specialized SLInput class for unicode character input." alt="" coords="5,79,136,104"/>
+<area shape="rect" id="node2" href="$class_s_l_input_event.html" title="Baseclass for all system input events." alt="" coords="20,5,121,31"/>
 </map>

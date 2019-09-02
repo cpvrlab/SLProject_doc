@@ -1,7 +1,11 @@
 <map id="SLDeviceRotation.h" name="SLDeviceRotation.h">
-<area shape="rect" id="node2" href="$_s_l_8h.html" title="SL.h" alt="" coords="87,304,136,331"/>
-<area shape="rect" id="node6" href="$_s_l_mat3_8h.html" title="SLMat3.h" alt="" coords="101,80,179,107"/>
-<area shape="rect" id="node3" href="$_utils_8h.html" title="Utils.h" alt="" coords="212,379,271,405"/>
-<area shape="rect" id="node7" href="$_s_l_vec3_8h.html" title="SLVec3.h" alt="" coords="100,155,180,181"/>
-<area shape="rect" id="node8" href="$_s_l_vec2_8h.html" title="SLVec2.h" alt="" coords="149,229,229,256"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,145,31"/>
+<area shape="rect" id="node2" href="$_s_l_8h.html" title=" " alt="" coords="89,299,138,324"/>
+<area shape="rect" id="node6" href="$_s_l_mat3_8h.html" title=" " alt="" coords="102,79,181,104"/>
+<area shape="rect" id="node3" href="$_utils_8h.html" title=" " alt="" coords="210,372,268,397"/>
+<area shape="rect" id="node4" title=" " alt="" coords="172,445,226,471"/>
+<area shape="rect" id="node5" title=" " alt="" coords="250,445,308,471"/>
+<area shape="rect" id="node7" href="$_s_l_vec3_8h.html" title=" " alt="" coords="103,152,180,177"/>
+<area shape="rect" id="node9" title=" " alt="" coords="204,152,276,177"/>
+<area shape="rect" id="node8" href="$_s_l_vec2_8h.html" title=" " alt="" coords="151,225,228,251"/>
 </map>

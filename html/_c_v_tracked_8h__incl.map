@@ -1,6 +1,19 @@
 <map id="CVTracked.h" name="CVTracked.h">
-<area shape="rect" id="node2" href="$_averaged_8h.html" title="Averaged.h" alt="" coords="184,80,275,107"/>
-<area shape="rect" id="node4" href="$_high_res_timer_8h.html" title="HighResTimer.h" alt="" coords="737,80,855,107"/>
-<area shape="rect" id="node8" href="$_c_v_typedefs_8h.html" title="CVTypedefs.h" alt="" coords="453,155,560,181"/>
-<area shape="rect" id="node15" href="$_c_v_calibration_8h.html" title="CVCalibration.h" alt="" coords="545,80,660,107"/>
+<area shape="rect" id="node1" title=" " alt="" coords="594,5,693,31"/>
+<area shape="rect" id="node2" href="$_averaged_8h.html" title=" " alt="" coords="372,79,461,104"/>
+<area shape="rect" id="node4" href="$_high_res_timer_8h.html" title=" " alt="" coords="729,79,846,104"/>
+<area shape="rect" id="node8" href="$_c_v_typedefs_8h.html" title=" " alt="" coords="450,152,555,177"/>
+<area shape="rect" id="node13" title=" " alt="" coords="981,225,1152,251"/>
+<area shape="rect" id="node15" href="$_c_v_calibration_8h.html" title=" " alt="" coords="539,79,654,104"/>
+<area shape="rect" id="node17" title=" " alt="" coords="869,79,1004,104"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,225,63,251"/>
+<area shape="rect" id="node5" title=" " alt="" coords="728,152,791,177"/>
+<area shape="rect" id="node6" title=" " alt="" coords="815,152,893,177"/>
+<area shape="rect" id="node7" title=" " alt="" coords="918,152,977,177"/>
+<area shape="rect" id="node9" title=" " alt="" coords="86,225,243,251"/>
+<area shape="rect" id="node10" title=" " alt="" coords="267,225,415,251"/>
+<area shape="rect" id="node11" title=" " alt="" coords="439,225,565,251"/>
+<area shape="rect" id="node12" title=" " alt="" coords="589,225,733,251"/>
+<area shape="rect" id="node14" title=" " alt="" coords="757,225,957,251"/>
+<area shape="rect" id="node16" title=" " alt="" coords="579,152,639,177"/>
 </map>

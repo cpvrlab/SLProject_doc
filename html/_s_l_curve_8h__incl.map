@@ -1,9 +1,17 @@
 <map id="SLCurve.h" name="SLCurve.h">
-<area shape="rect" id="node2" href="$_s_l_8h.html" title="SL.h" alt="" coords="359,379,408,405"/>
-<area shape="rect" id="node6" href="$_s_l_mat4_8h.html" title="SLMat4.h" alt="" coords="441,80,519,107"/>
-<area shape="rect" id="node9" href="$_s_l_vec3_8h.html" title="SLVec3.h" alt="" coords="331,229,411,256"/>
-<area shape="rect" id="node12" href="$_s_l_vec4_8h.html" title="SLVec4.h" alt="" coords="5,155,85,181"/>
-<area shape="rect" id="node3" href="$_utils_8h.html" title="Utils.h" alt="" coords="304,453,363,480"/>
-<area shape="rect" id="node8" href="$_s_l_mat3_8h.html" title="SLMat3.h" alt="" coords="486,155,564,181"/>
-<area shape="rect" id="node10" href="$_s_l_vec2_8h.html" title="SLVec2.h" alt="" coords="165,304,245,331"/>
+<area shape="rect" id="node1" title=" " alt="" coords="233,5,317,31"/>
+<area shape="rect" id="node2" href="$_s_l_8h.html" title=" " alt="" coords="354,372,403,397"/>
+<area shape="rect" id="node6" href="$_s_l_mat4_8h.html" title=" " alt="" coords="434,79,513,104"/>
+<area shape="rect" id="node9" href="$_s_l_vec3_8h.html" title=" " alt="" coords="327,225,404,251"/>
+<area shape="rect" id="node12" href="$_s_l_vec4_8h.html" title=" " alt="" coords="5,152,83,177"/>
+<area shape="rect" id="node3" href="$_utils_8h.html" title=" " alt="" coords="299,445,357,471"/>
+<area shape="rect" id="node4" title=" " alt="" coords="261,519,315,544"/>
+<area shape="rect" id="node5" title=" " alt="" coords="339,519,397,544"/>
+<area shape="rect" id="node7" title=" " alt="" coords="403,152,456,177"/>
+<area shape="rect" id="node8" href="$_s_l_mat3_8h.html" title=" " alt="" coords="480,152,558,177"/>
+<area shape="rect" id="node13" title=" " alt="" coords="582,152,650,177"/>
+<area shape="rect" id="node14" title=" " alt="" coords="675,152,846,177"/>
+<area shape="rect" id="node15" title=" " alt="" coords="157,152,329,177"/>
+<area shape="rect" id="node11" title=" " alt="" coords="478,225,551,251"/>
+<area shape="rect" id="node10" href="$_s_l_vec2_8h.html" title=" " alt="" coords="163,299,240,324"/>
 </map>

@@ -1,7 +1,30 @@
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this file.
+
+Copyright (C) 1997-2019 by Dimitri van Heesch
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of version 2 of the GNU General Public License as published by
+the Free Software Foundation
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along
+with this program; if not, write to the Free Software Foundation, Inc.,
+51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+@licend  The above is the entire license notice
+for the JavaScript code in this file
+*/
 var NAVTREE =
 [
   [ "SLProject", "index.html", [
     [ "Introduction", "md__introduction.html", [
+      [ "Overview", "md__introduction.html#overview", null ],
       [ "Class Diagram", "md__introduction.html#diagram", null ],
       [ "Application Code", "md__introduction.html#app", null ],
       [ "Central Classes", "md__introduction.html#central", null ],
@@ -24,16 +47,16 @@ var NAVTREE =
       [ "Exporting", "md_blender_to_sl.html#export", null ]
     ] ],
     [ "Todo List", "todo.html", null ],
-    [ "Namespaces", null, [
-      [ "Namespace List", "namespaces.html", "namespaces" ],
+    [ "Namespaces", "namespaces.html", [
+      [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
         [ "All", "namespacemembers.html", null ],
         [ "Functions", "namespacemembers_func.html", null ],
         [ "Variables", "namespacemembers_vars.html", null ]
       ] ]
     ] ],
-    [ "Classes", null, [
-      [ "Class List", "annotated.html", "annotated" ],
+    [ "Classes", "annotated.html", [
+      [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
@@ -46,8 +69,8 @@ var NAVTREE =
         [ "Related Functions", "functions_rela.html", null ]
       ] ]
     ] ],
-    [ "Files", null, [
-      [ "File List", "files.html", "files" ],
+    [ "Files", "files.html", [
+      [ "File List", "files.html", "files_dup" ],
       [ "File Members", "globals.html", [
         [ "All", "globals.html", "globals_dup" ],
         [ "Functions", "globals_func.html", null ],
@@ -77,11 +100,11 @@ var NAVTREEINDEX =
 "class_s_l_light.html#aa24b6e229c3425687a01c0fa227f03bc",
 "class_s_l_material.html#acc627d885cecee37d36fcce795076f26",
 "class_s_l_photon_map.html",
-"class_s_l_raytracer.html#a46cdc8097fe1011a1c8f17cabd35666f",
-"class_s_l_scene_view.html#a4718d7d9155ce29988e11ba149340c41",
-"class_s_l_vec2.html#a64ed6a469c394330dbafce1cc0eb6312",
+"class_s_l_raytracer.html#a3e6a5466e356c9b28b2a48a1c51da75d",
+"class_s_l_scene_view.html#a444011dac8445ca89c98251f28ecaeb6",
+"class_s_l_vec2.html#a5aceb5f03526e70b90a7712f0f0dc89c",
 "class_s_l_volume.html#a94fb878536b4cee34bd95f8022eb71af",
-"struct_lens_config.html#a02b296500e904b5d669daf2fc55fe4ff"
+"struct_lens_config.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

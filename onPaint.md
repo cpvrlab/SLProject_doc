@@ -3,23 +3,23 @@ How one frame gets painted
 
 As an example we start here at the outer shell of a desktop app using GLFW.
 The most outer onPaint routine gets called in the main event loop
-whenever the slPaintAllViews returns true. Repaints occurs therefore as
+whenever a function that is called within returns true. Repaints occurs therefore as
 fast as possible and only when needed. If nothing happens (no animation or
 camera move) no repaint is requested and energy can be saved. There is no
 timer involved.
 
-* **AppDemoMainGLFW::onPaint**:
-   * **AppDemoVideo::onUpdateVideo**
+* **AppDemoMainGLFW.cpp: onPaint()**:
+   * **AppDemoVideo.cpp: onUpdateVideo()**
       * Updates calibration during calibration process.
       * Updates tracking if a tracker is used.
       * Updates the video texture with the latest video frame if video is used.
-   * **SLInterface::slUpdateScene**
+   * **SLInterface.h: slUpdateScene()**
       * SLScene::onUpdate:
-         * 1) Calculate the frame time over all views.
+         * 1) Calculates the frame time over all views.
          * 2) SLInputManager::pollAndProcessEvents
          * 3) SLAnimManager::update: Updates all animations.
-         * 4) SLNode::updateAABBRec updates the axis aligned bounding boxes of all nodes that have changed during animation.
-   * **SLInterface::slPaintAllViews**: C interface function
+         * 4) SLNode::updateAABBRec: Updates the axis aligned bounding boxes of all nodes that have changed during animation.
+   * **SLInterface.h: slPaintAllViews()**:
       * SLSceneView::onPaint called for every sceneview:
          * SLSceneView::draw3DGL
             * SLCamera::camUpdate updates any camera animation (smooth transitions)
@@ -67,9 +67,9 @@ timer involved.
          * SLSceneView::draw2DGL is called for all 2D drawing
             * 1) The orthographic projection and viewport in screen space is set.
             * 2) A pseudo culling step for all nodes on the _root2D scene.
-            * 3) SLSceneView::draw2DGLAll:
+            * 3) SLSceneView::draw2DGLNodes:
                * all nodes in the _root2D scene node get drawn in orthographic projection.
-            * 4) The ImGUI::render function is called that draws the ImGUI UI.
+            * 4) The ImGui::Render function is called that draws the ImGUI UI.
          * if Oculus stereo projection is used the Oculus frame buffer is drawn and swapped.
       * return true if either an update or a camera move occurred.
    * Swap the back buffer to the front.

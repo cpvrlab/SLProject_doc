@@ -30,9 +30,8 @@ The code is provided without any warranties whether expressed or implied.
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/Build-on-Windows-with-VisualStudio">Build instructions for MS Visual Studio</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/Build-with-QtCreator">Build instructions for QtCreator</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/Build-for-Android">Build instructions for Android with Android Studio.</a></li>
-<li><a href="https://github.com/cpvrlab/SLProject/wiki/Build-for-Apple-iOS">Build instructions for iOS with Apple XCode</a></li>
-<li><a href="https://github.com/cpvrlab/SLProject/wiki/Minimal-OpenGL-Apps">Minimal OpenGL Applications</a></li>
-<li><a href="https://github.com/cpvrlab/SLProject/wiki/Minimal-OpenCV-Apps">Minimal OpenCV Applications</a></li>
+<li><a href="https://github.com/cpvrlab/SLProject/wiki/Build-on-MacOS-with-XCode">Build instructions for iOS with Apple XCode</a></li>
+<li><a href="https://github.com/cpvrlab/SLProject/wiki/Minimal-OpenGL-and-OpenCV-apps">Minimal OpenGL and OpenCV Applications</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/Folder-Structure">Repository folder structure</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/Coding-Style-Guidelines">Coding Style Guidelines for Contributors</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/Generate-the-Documentation">How to generate the HTML Documentation using Doxygen</a></li>

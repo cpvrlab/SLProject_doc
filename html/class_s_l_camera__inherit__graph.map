@@ -1,6 +1,7 @@
 <map id="SLCamera" name="SLCamera">
-<area shape="rect" id="node5" href="$class_s_l_keyframe_camera.html" title="SLKeyframeCamera" alt="" coords="34,229,176,256"/>
-<area shape="rect" id="node2" href="$class_s_l_node.html" title="SLNode represents a node in a hierarchical scene graph. " alt="" coords="70,80,140,107"/>
-<area shape="rect" id="node3" href="$class_s_l_object.html" title="Base class for all other classes. " alt="" coords="5,5,83,32"/>
-<area shape="rect" id="node4" href="$class_s_l_event_handler.html" title="Virtual Eventhandler class. " alt="" coords="107,5,225,32"/>
+<area shape="rect" id="node1" title="Active or visible camera node class." alt="" coords="61,152,146,177"/>
+<area shape="rect" id="node5" href="$class_s_l_keyframe_camera.html" title=" " alt="" coords="32,225,174,251"/>
+<area shape="rect" id="node2" href="$class_s_l_node.html" title="SLNode represents a node in a hierarchical scene graph." alt="" coords="69,79,138,104"/>
+<area shape="rect" id="node3" href="$class_s_l_object.html" title="Base class for all other classes." alt="" coords="5,5,82,31"/>
+<area shape="rect" id="node4" href="$class_s_l_event_handler.html" title="Virtual Eventhandler class." alt="" coords="106,5,224,31"/>
 </map>

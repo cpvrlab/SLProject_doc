@@ -1,3 +1,4 @@
 <map id="SLTouchEvent" name="SLTouchEvent">
-<area shape="rect" id="node2" href="$class_s_l_input_event.html" title="Baseclass for all system input events. " alt="" coords="9,5,111,32"/>
+<area shape="rect" id="node1" title="Specialized SLInput class for touch related input events." alt="" coords="5,79,112,104"/>
+<area shape="rect" id="node2" href="$class_s_l_input_event.html" title="Baseclass for all system input events." alt="" coords="8,5,109,31"/>
 </map>

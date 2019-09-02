@@ -1,7 +1,11 @@
 <map id="SLMemoryStats.h" name="SLMemoryStats.h">
-<area shape="rect" id="node2" href="$_s_l_8h.html" title="SL.h" alt="" coords="72,229,121,256"/>
-<area shape="rect" id="node6" href="$_s_l_interface_8h.html" title="SLProject C&#45;functions interface declaration. " alt="" coords="32,80,133,107"/>
-<area shape="rect" id="node3" href="$_utils_8h.html" title="Utils.h" alt="" coords="68,304,126,331"/>
-<area shape="rect" id="node7" href="$_s_l_enums_8h.html" title="SLEnums.h" alt="" coords="32,155,122,181"/>
-<area shape="rect" id="node8" href="$_s_l_g_l_enums_8h.html" title="SLGLEnums.h" alt="" coords="146,155,256,181"/>
+<area shape="rect" id="node1" title=" " alt="" coords="18,5,145,31"/>
+<area shape="rect" id="node2" href="$_s_l_8h.html" title=" " alt="" coords="72,225,121,251"/>
+<area shape="rect" id="node6" href="$_s_l_interface_8h.html" title=" " alt="" coords="31,79,132,104"/>
+<area shape="rect" id="node9" title=" " alt="" coords="157,79,348,104"/>
+<area shape="rect" id="node3" href="$_utils_8h.html" title=" " alt="" coords="67,299,126,324"/>
+<area shape="rect" id="node4" title=" " alt="" coords="29,372,83,397"/>
+<area shape="rect" id="node5" title=" " alt="" coords="108,372,165,397"/>
+<area shape="rect" id="node7" href="$_s_l_enums_8h.html" title=" " alt="" coords="31,152,122,177"/>
+<area shape="rect" id="node8" href="$_s_l_g_l_enums_8h.html" title=" " alt="" coords="145,152,253,177"/>
 </map>
