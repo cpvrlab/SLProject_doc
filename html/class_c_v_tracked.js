@@ -1,6 +1,7 @@
 var class_c_v_tracked =
 [
     [ "CVTracked", "class_c_v_tracked.html#a228d67275a65463873877fac1beb692e", null ],
+    [ "~CVTracked", "class_c_v_tracked.html#a8495bacb0e51293f7d4a3aa95fecd411", null ],
     [ "calcObjectMatrix", "class_c_v_tracked.html#a513b12880607e4f59890335fd754545d", null ],
     [ "createGLMatrix", "class_c_v_tracked.html#a779241370ead0e7b35c1dc862e9e3258", null ],
     [ "createRvecTvec", "class_c_v_tracked.html#a211c58178cce09582f80e9b47893fd0d", null ],

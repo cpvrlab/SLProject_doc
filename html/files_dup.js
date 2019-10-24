@@ -6,6 +6,8 @@ var files_dup =
     [ "AppDemoSceneView.cpp", "_app_demo_scene_view_8cpp.html", null ],
     [ "AppDemoVideo.cpp", "_app_demo_video_8cpp.html", "_app_demo_video_8cpp" ],
     [ "Averaged.h", "_averaged_8h.html", "_averaged_8h" ],
+    [ "AverageTiming.cpp", "_average_timing_8cpp.html", null ],
+    [ "AverageTiming.h", "_average_timing_8h.html", "_average_timing_8h" ],
     [ "CVCalibration.cpp", "_c_v_calibration_8cpp.html", "_c_v_calibration_8cpp" ],
     [ "CVCalibration.h", "_c_v_calibration_8h.html", "_c_v_calibration_8h" ],
     [ "CVCapture.cpp", "_c_v_capture_8cpp.html", "_c_v_capture_8cpp" ],
@@ -73,11 +75,6 @@ var files_dup =
     ] ],
     [ "SLAssimpImporter.cpp", "_s_l_assimp_importer_8cpp.html", "_s_l_assimp_importer_8cpp" ],
     [ "SLAssimpImporter.h", "_s_l_assimp_importer_8h.html", "_s_l_assimp_importer_8h" ],
-    [ "SLAverageTiming.cpp", "_s_l_average_timing_8cpp.html", null ],
-    [ "SLAverageTiming.h", "_s_l_average_timing_8h.html", [
-      [ "SLAverageTimingBlock", "struct_s_l_average_timing_block.html", "struct_s_l_average_timing_block" ],
-      [ "SLAverageTiming", "class_s_l_average_timing.html", "class_s_l_average_timing" ]
-    ] ],
     [ "SLBackground.cpp", "_s_l_background_8cpp.html", null ],
     [ "SLBackground.h", "_s_l_background_8h.html", [
       [ "SLBackground", "class_s_l_background.html", "class_s_l_background" ]

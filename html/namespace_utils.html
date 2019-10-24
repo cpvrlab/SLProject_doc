@@ -28,7 +28,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">2.3.1</span>
+   &#160;<span id="projectnumber">2.4.0</span>
    </div>
   </td>
  </tr>
@@ -140,8 +140,14 @@ Functions</h2></td></tr>
 <tr class="memitem:afd04c5fcded138dcd9804e9509526a0c"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils.html#afd04c5fcded138dcd9804e9509526a0c">getFileExt</a> (const string &amp;filename)</td></tr>
 <tr class="memdesc:afd04c5fcded138dcd9804e9509526a0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the file extension without dot in lower case.  <a href="namespace_utils.html#afd04c5fcded138dcd9804e9509526a0c">More...</a><br /></td></tr>
 <tr class="separator:afd04c5fcded138dcd9804e9509526a0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a229e1c7c9462d2b77a891488cf1e5e48"><td class="memItemLeft" align="right" valign="top">vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils.html#a229e1c7c9462d2b77a891488cf1e5e48">getDirNamesInDir</a> (const string &amp;dirName)</td></tr>
+<tr class="memdesc:a229e1c7c9462d2b77a891488cf1e5e48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a vector directory names with path in dir.  <a href="namespace_utils.html#a229e1c7c9462d2b77a891488cf1e5e48">More...</a><br /></td></tr>
+<tr class="separator:a229e1c7c9462d2b77a891488cf1e5e48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a448b583825936abbfa85de40ca2c5074"><td class="memItemLeft" align="right" valign="top">vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils.html#a448b583825936abbfa85de40ca2c5074">getAllNamesInDir</a> (const string &amp;dirName)</td></tr>
+<tr class="memdesc:a448b583825936abbfa85de40ca2c5074"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a vector of sorted names (files and directories) with path in dir.  <a href="namespace_utils.html#a448b583825936abbfa85de40ca2c5074">More...</a><br /></td></tr>
+<tr class="separator:a448b583825936abbfa85de40ca2c5074"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc2acbddd8367c04feea3cb39d72c6b6"><td class="memItemLeft" align="right" valign="top">vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils.html#acc2acbddd8367c04feea3cb39d72c6b6">getFileNamesInDir</a> (const string &amp;dirName)</td></tr>
-<tr class="memdesc:acc2acbddd8367c04feea3cb39d72c6b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a vector of storted filesnames with path in dir.  <a href="namespace_utils.html#acc2acbddd8367c04feea3cb39d72c6b6">More...</a><br /></td></tr>
+<tr class="memdesc:acc2acbddd8367c04feea3cb39d72c6b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a vector of sorted filesnames with path in dir.  <a href="namespace_utils.html#acc2acbddd8367c04feea3cb39d72c6b6">More...</a><br /></td></tr>
 <tr class="separator:acc2acbddd8367c04feea3cb39d72c6b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1cb691bb08b8da23c6d608e8373b8e93"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils.html#a1cb691bb08b8da23c6d608e8373b8e93">dirExists</a> (const string &amp;path)</td></tr>
 <tr class="memdesc:a1cb691bb08b8da23c6d608e8373b8e93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if a directory exists.  <a href="namespace_utils.html#a1cb691bb08b8da23c6d608e8373b8e93">More...</a><br /></td></tr>
@@ -182,18 +188,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a83ba4547717da86ed0addec0110a6a4c"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils.html#a83ba4547717da86ed0addec0110a6a4c">httpGet</a> (const string &amp;httpURL, const string &amp;outFolder=&quot;&quot;)</td></tr>
 <tr class="memdesc:a83ba4547717da86ed0addec0110a6a4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Download a file from an http url into the outFile.  <a href="namespace_utils.html#a83ba4547717da86ed0addec0110a6a4c">More...</a><br /></td></tr>
 <tr class="separator:a83ba4547717da86ed0addec0110a6a4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed8a0f8df8d8b1bc06936d162020a22d"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:aed8a0f8df8d8b1bc06936d162020a22d"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_utils.html#aed8a0f8df8d8b1bc06936d162020a22d">min</a> (T a, T b)</td></tr>
-<tr class="separator:aed8a0f8df8d8b1bc06936d162020a22d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3a45a162c1f9e5cb28120abc249f183"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:ad3a45a162c1f9e5cb28120abc249f183"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_utils.html#ad3a45a162c1f9e5cb28120abc249f183">max</a> (T a, T b)</td></tr>
-<tr class="separator:ad3a45a162c1f9e5cb28120abc249f183"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2d648d90e4454b7cbc50277e1a1b11d"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:ad2d648d90e4454b7cbc50277e1a1b11d"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_utils.html#ad2d648d90e4454b7cbc50277e1a1b11d">min</a> (T a, T b, T c)</td></tr>
-<tr class="separator:ad2d648d90e4454b7cbc50277e1a1b11d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a678ca16fe77324632108666ce379d000"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a678ca16fe77324632108666ce379d000"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_utils.html#a678ca16fe77324632108666ce379d000">max</a> (T a, T b, T c)</td></tr>
-<tr class="separator:a678ca16fe77324632108666ce379d000"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae11e2c1dfc26f9a2cd17335f18e9866"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils.html#aae11e2c1dfc26f9a2cd17335f18e9866">gcd</a> (int a, int b)</td></tr>
+<tr class="memdesc:aae11e2c1dfc26f9a2cd17335f18e9866"><td class="mdescLeft">&#160;</td><td class="mdescRight">Greatest common divisor of two integer numbers (ggT = grösster gemeinsame Teiler)  <a href="namespace_utils.html#aae11e2c1dfc26f9a2cd17335f18e9866">More...</a><br /></td></tr>
+<tr class="separator:aae11e2c1dfc26f9a2cd17335f18e9866"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a357043a1c4adbe4a6f4f66f47b445d34"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils.html#a357043a1c4adbe4a6f4f66f47b445d34">lcm</a> (int a, int b)</td></tr>
+<tr class="memdesc:a357043a1c4adbe4a6f4f66f47b445d34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lowest common multiple (kgV = kleinstes gemeinsames Vielfache)  <a href="namespace_utils.html#a357043a1c4adbe4a6f4f66f47b445d34">More...</a><br /></td></tr>
+<tr class="separator:a357043a1c4adbe4a6f4f66f47b445d34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21c6e0eafa5386b9d93bbcdcbb91cde2"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a21c6e0eafa5386b9d93bbcdcbb91cde2"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_utils.html#a21c6e0eafa5386b9d93bbcdcbb91cde2">sign</a> (T a)</td></tr>
 <tr class="separator:a21c6e0eafa5386b9d93bbcdcbb91cde2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -219,7 +219,7 @@ Functions</h2></td></tr>
 <tr class="memitem:ae6119d987383a6ed512ca828016f6486"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_utils.html#ae6119d987383a6ed512ca828016f6486">pulse</a> (T a, T b, T x)</td></tr>
 <tr class="separator:ae6119d987383a6ed512ca828016f6486"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5049e1eb69b0b0d330e9237af9bfbdb6"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a5049e1eb69b0b0d330e9237af9bfbdb6"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_utils.html#a5049e1eb69b0b0d330e9237af9bfbdb6">clamp</a> (T a, T <a class="el" href="namespace_utils.html#aed8a0f8df8d8b1bc06936d162020a22d">min</a>, T <a class="el" href="namespace_utils.html#ad3a45a162c1f9e5cb28120abc249f183">max</a>)</td></tr>
+<tr class="memitem:a5049e1eb69b0b0d330e9237af9bfbdb6"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_utils.html#a5049e1eb69b0b0d330e9237af9bfbdb6">clamp</a> (T a, T min, T max)</td></tr>
 <tr class="separator:a5049e1eb69b0b0d330e9237af9bfbdb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0fb5e1759ad63020792a17cfc0d710b"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:aa0fb5e1759ad63020792a17cfc0d710b"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_utils.html#aa0fb5e1759ad63020792a17cfc0d710b">mix</a> (T mix, T a, T b)</td></tr>
@@ -232,7 +232,7 @@ Functions</h2></td></tr>
 <tr class="separator:a1c02dffac8cd7d80ea4d30be0936b394"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7a4822115b158ffd8b99fa543c47870"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils.html#ac7a4822115b158ffd8b99fa543c47870">isPowerOf2</a> (unsigned int a)</td></tr>
 <tr class="separator:ac7a4822115b158ffd8b99fa543c47870"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abea60bf083882a55a49b5bb564404068"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils.html#abea60bf083882a55a49b5bb564404068">random</a> (float <a class="el" href="namespace_utils.html#aed8a0f8df8d8b1bc06936d162020a22d">min</a>, float <a class="el" href="namespace_utils.html#ad3a45a162c1f9e5cb28120abc249f183">max</a>)</td></tr>
+<tr class="memitem:abea60bf083882a55a49b5bb564404068"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils.html#abea60bf083882a55a49b5bb564404068">random</a> (float min, float max)</td></tr>
 <tr class="separator:abea60bf083882a55a49b5bb564404068"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a062098fe4ed63e6a28e1f56d69d36c55"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils.html#a062098fe4ed63e6a28e1f56d69d36c55">pow</a> (int x, int p)</td></tr>
 <tr class="separator:a062098fe4ed63e6a28e1f56d69d36c55"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -609,6 +609,56 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
+<a id="aae11e2c1dfc26f9a2cd17335f18e9866"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae11e2c1dfc26f9a2cd17335f18e9866">&#9670;&nbsp;</a></span>gcd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Utils::gcd </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Greatest common divisor of two integer numbers (ggT = grösster gemeinsame Teiler) </p>
+
+</div>
+</div>
+<a id="a448b583825936abbfa85de40ca2c5074"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a448b583825936abbfa85de40ca2c5074">&#9670;&nbsp;</a></span>getAllNamesInDir()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">vector&lt; string &gt; Utils::getAllNamesInDir </td>
+          <td>(</td>
+          <td class="paramtype">const string &amp;&#160;</td>
+          <td class="paramname"><em>dirName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a vector of sorted names (files and directories) with path in dir. </p>
+
+</div>
+</div>
 <a id="a6049f0f2f07f2d6f9333018efbd0b366"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6049f0f2f07f2d6f9333018efbd0b366">&#9670;&nbsp;</a></span>getAppsWritableDir()</h2>
 
@@ -684,6 +734,26 @@ template&lt;class T &gt; </div>
 </div><div class="memdoc">
 
 <p>Returns local time as string like "20190213-154611". </p>
+
+</div>
+</div>
+<a id="a229e1c7c9462d2b77a891488cf1e5e48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a229e1c7c9462d2b77a891488cf1e5e48">&#9670;&nbsp;</a></span>getDirNamesInDir()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">vector&lt; string &gt; Utils::getDirNamesInDir </td>
+          <td>(</td>
+          <td class="paramtype">const string &amp;&#160;</td>
+          <td class="paramname"><em>dirName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a vector directory names with path in dir. </p>
 
 </div>
 </div>
@@ -773,7 +843,7 @@ template&lt;class T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Returns a vector of storted filesnames with path in dir. </p>
+<p>Returns a vector of sorted filesnames with path in dir. </p>
 <p>Returns a vector of storted filesnames in dirName. </p>
 
 </div>
@@ -934,6 +1004,36 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
+<a id="a357043a1c4adbe4a6f4f66f47b445d34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a357043a1c4adbe4a6f4f66f47b445d34">&#9670;&nbsp;</a></span>lcm()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Utils::lcm </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Lowest common multiple (kgV = kleinstes gemeinsames Vielfache) </p>
+
+</div>
+</div>
 <a id="a571a9b7b04fcb99f20c45892e3b5b1d3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a571a9b7b04fcb99f20c45892e3b5b1d3">&#9670;&nbsp;</a></span>lerp()</h2>
 
@@ -1028,88 +1128,6 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a id="ad3a45a162c1f9e5cb28120abc249f183"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad3a45a162c1f9e5cb28120abc249f183">&#9670;&nbsp;</a></span>max() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">T std::max </td>
-          <td>(</td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a678ca16fe77324632108666ce379d000"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a678ca16fe77324632108666ce379d000">&#9670;&nbsp;</a></span>max() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">T std::max </td>
-          <td>(</td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>b</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>c</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a9c3a65a31a3c42bca45a0fffc7054d32"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9c3a65a31a3c42bca45a0fffc7054d32">&#9670;&nbsp;</a></span>maxThreads()</h2>
 
@@ -1126,88 +1144,6 @@ template&lt;class T &gt; </div>
 </div><div class="memdoc">
 
 <p>Returns in release config the max. NO. of threads otherwise 1. </p>
-
-</div>
-</div>
-<a id="aed8a0f8df8d8b1bc06936d162020a22d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aed8a0f8df8d8b1bc06936d162020a22d">&#9670;&nbsp;</a></span>min() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">T std::min </td>
-          <td>(</td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad2d648d90e4454b7cbc50277e1a1b11d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad2d648d90e4454b7cbc50277e1a1b11d">&#9670;&nbsp;</a></span>min() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">T std::min </td>
-          <td>(</td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>b</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>c</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -1964,7 +1900,7 @@ template&lt;class T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_utils.html">Utils</a></li>
-    <li class="footer">Generated on Mon Sep 2 2019 11:50:01 for SLProject by
+    <li class="footer">Generated on Thu Oct 24 2019 11:34:54 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
   </ul>

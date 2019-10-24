@@ -2,6 +2,7 @@ var hierarchy =
 [
     [ "Averaged< T >", "class_averaged.html", null ],
     [ "Averaged< float >", "class_averaged.html", null ],
+    [ "AverageTimingBlock", "struct_average_timing_block.html", null ],
     [ "colorBGR", "structcolor_b_g_r.html", null ],
     [ "CVArucoParams", "class_c_v_aruco_params.html", null ],
     [ "CVCalibration", "class_c_v_calibration.html", null ],
@@ -27,7 +28,7 @@ var hierarchy =
     [ "join_threads", "classjoin__threads.html", null ],
     [ "LensConfig", "struct_lens_config.html", null ],
     [ "map", null, [
-      [ "SLAverageTiming", "class_s_l_average_timing.html", null ]
+      [ "AverageTiming", "class_average_timing.html", null ]
     ] ],
     [ "ovrDistortionMesh_", "structovr_distortion_mesh__.html", null ],
     [ "ovrDistortionVertex_", "structovr_distortion_vertex__.html", null ],
@@ -52,7 +53,6 @@ var hierarchy =
       [ "SLNodeAnimTrack", "class_s_l_node_anim_track.html", null ]
     ] ],
     [ "SLApplication", "class_s_l_application.html", null ],
-    [ "SLAverageTimingBlock", "struct_s_l_average_timing_block.html", null ],
     [ "SLCurve", "class_s_l_curve.html", [
       [ "SLCurveBezier", "class_s_l_curve_bezier.html", null ]
     ] ],
@@ -165,6 +165,7 @@ var hierarchy =
     [ "SLRay", "class_s_l_ray.html", null ],
     [ "SLRect< T, V >", "class_s_l_rect.html", null ],
     [ "SLRect< SLfloat, SLVec2f >", "class_s_l_rect.html", null ],
+    [ "SLRect< SLint, SLVec2i >", "class_s_l_rect.html", null ],
     [ "SLRnd3f", "class_s_l_rnd3f.html", [
       [ "SLRnd3fNormal", "class_s_l_rnd3f_normal.html", null ],
       [ "SLRnd3fUniform", "class_s_l_rnd3f_uniform.html", null ]

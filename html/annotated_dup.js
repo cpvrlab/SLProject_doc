@@ -1,6 +1,8 @@
 var annotated_dup =
 [
     [ "Averaged", "class_averaged.html", "class_averaged" ],
+    [ "AverageTiming", "class_average_timing.html", "class_average_timing" ],
+    [ "AverageTimingBlock", "struct_average_timing_block.html", "struct_average_timing_block" ],
     [ "colorBGR", "structcolor_b_g_r.html", "structcolor_b_g_r" ],
     [ "CVArucoParams", "class_c_v_aruco_params.html", "class_c_v_aruco_params" ],
     [ "CVCalibration", "class_c_v_calibration.html", "class_c_v_calibration" ],
@@ -37,8 +39,6 @@ var annotated_dup =
     [ "SLApplication", "class_s_l_application.html", "class_s_l_application" ],
     [ "SLArrow", "class_s_l_arrow.html", "class_s_l_arrow" ],
     [ "SLAssimpImporter", "class_s_l_assimp_importer.html", "class_s_l_assimp_importer" ],
-    [ "SLAverageTiming", "class_s_l_average_timing.html", "class_s_l_average_timing" ],
-    [ "SLAverageTimingBlock", "struct_s_l_average_timing_block.html", "struct_s_l_average_timing_block" ],
     [ "SLBackground", "class_s_l_background.html", "class_s_l_background" ],
     [ "SLBox", "class_s_l_box.html", "class_s_l_box" ],
     [ "SLButton", "class_s_l_button.html", "class_s_l_button" ],

@@ -22,12 +22,12 @@
 /Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:211: warning: no uniquely matching class member found for 
   void AppDemoGui::build(SLScene *s, SLSceneView *sv)
 
-/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:842: warning: documented symbol 'void AppDemoGui::buildMenuBar' was not declared or defined.
-/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:1699: warning: documented symbol 'void AppDemoGui::buildSceneGraph' was not declared or defined.
-/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:1710: warning: documented symbol 'void AppDemoGui::addSceneGraphNode' was not declared or defined.
-/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:1756: warning: documented symbol 'void AppDemoGui::buildProperties' was not declared or defined.
-/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:2229: warning: documented symbol 'void AppDemoGui::loadConfig' was not declared or defined.
-/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:2330: warning: documented symbol 'void AppDemoGui::saveConfig' was not declared or defined.
+/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:867: warning: documented symbol 'void AppDemoGui::buildMenuBar' was not declared or defined.
+/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:1766: warning: documented symbol 'void AppDemoGui::buildSceneGraph' was not declared or defined.
+/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:1777: warning: documented symbol 'void AppDemoGui::addSceneGraphNode' was not declared or defined.
+/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:1823: warning: documented symbol 'void AppDemoGui::buildProperties' was not declared or defined.
+/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:2296: warning: documented symbol 'void AppDemoGui::loadConfig' was not declared or defined.
+/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:2403: warning: documented symbol 'void AppDemoGui::saveConfig' was not declared or defined.
 /Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoSceneView.cpp:26: warning: no uniquely matching class member found for 
   SLbool AppDemoSceneView::onMouseDown(SLMouseButton button, SLint x, SLint y, SLKey mod)
 

@@ -1,8 +1,9 @@
 <map id="SLSamples2D.h" name="SLSamples2D.h">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,123,31"/>
-<area shape="rect" id="node2" href="$_s_l_8h.html" title=" " alt="" coords="17,152,66,177"/>
-<area shape="rect" id="node6" href="$_s_l_vec2_8h.html" title=" " alt="" coords="64,79,142,104"/>
-<area shape="rect" id="node3" href="$_utils_8h.html" title=" " alt="" coords="43,225,101,251"/>
+<area shape="rect" id="node1" title=" " alt="" coords="45,5,163,31"/>
+<area shape="rect" id="node2" href="$_s_l_8h.html" title=" " alt="" coords="57,152,106,177"/>
+<area shape="rect" id="node7" href="$_s_l_vec2_8h.html" title=" " alt="" coords="104,79,182,104"/>
+<area shape="rect" id="node3" href="$_utils_8h.html" title=" " alt="" coords="83,225,141,251"/>
 <area shape="rect" id="node4" title=" " alt="" coords="5,299,59,324"/>
 <area shape="rect" id="node5" title=" " alt="" coords="83,299,141,324"/>
+<area shape="rect" id="node6" title=" " alt="" coords="166,299,219,324"/>
 </map>

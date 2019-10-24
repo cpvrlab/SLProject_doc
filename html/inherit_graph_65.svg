@@ -9,27 +9,27 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 689)">
 <title>Graphical Class Hierarchy</title>
 <polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-689 609.3086,-689 609.3086,4 -4,4"/>
-<!-- Node109 -->
+<!-- Node110 -->
 <g id="node1" class="node">
-<title>Node109</title>
+<title>Node110</title>
 <g id="a_node1"><a xlink:href="class_s_l_event_handler.html" target="_top" xlink:title="Virtual Eventhandler class.">
 <polygon fill="#ffffff" stroke="#000000" points="93.1328,-185.5 93.1328,-203.5 181.9551,-203.5 181.9551,-185.5 93.1328,-185.5"/>
 <text text-anchor="middle" x="137.5439" y="-191.5" font-family="Arial.ttf" font-size="10.00" fill="#000000">SLEventHandler</text>
 </a>
 </g>
 </g>
-<!-- Node110 -->
+<!-- Node111 -->
 <g id="node2" class="node">
-<title>Node110</title>
+<title>Node111</title>
 <g id="a_node2"><a xlink:href="class_s_l_g_l_uniform.html" target="_top" xlink:title="Template for a single GLSL uniform variable.">
 <polygon fill="#ffffff" stroke="#000000" points="225.6357,-185.5 225.6357,-203.5 325.2051,-203.5 325.2051,-185.5 225.6357,-185.5"/>
 <text text-anchor="middle" x="275.4204" y="-191.5" font-family="Arial.ttf" font-size="10.00" fill="#000000">SLGLUniform&lt; T &gt;</text>
 </a>
 </g>
 </g>
-<!-- Node109&#45;&gt;Node110 -->
+<!-- Node110&#45;&gt;Node111 -->
 <g id="edge1" class="edge">
-<title>Node109&#45;&gt;Node110</title>
+<title>Node110&#45;&gt;Node111</title>
 <path fill="none" stroke="#191970" d="M192.5875,-194.5C203.503,-194.5 214.9033,-194.5 225.6317,-194.5"/>
 <polygon fill="#191970" stroke="#191970" points="192.3085,-191.0001 182.3085,-194.5 192.3084,-198.0001 192.3085,-191.0001"/>
 </g>
@@ -42,9 +42,9 @@
 </a>
 </g>
 </g>
-<!-- Node109&#45;&gt;Node30 -->
+<!-- Node110&#45;&gt;Node30 -->
 <g id="edge2" class="edge">
-<title>Node109&#45;&gt;Node30</title>
+<title>Node110&#45;&gt;Node30</title>
 <path fill="none" stroke="#191970" d="M181.1702,-206.2074C203.4268,-212.1801 229.7709,-219.2497 248.941,-224.3941"/>
 <polygon fill="#191970" stroke="#191970" points="181.8378,-202.7628 171.2723,-203.5512 180.0234,-209.5235 181.8378,-202.7628"/>
 </g>
@@ -57,9 +57,9 @@
 </a>
 </g>
 </g>
-<!-- Node109&#45;&gt;Node6 -->
+<!-- Node110&#45;&gt;Node6 -->
 <g id="edge12" class="edge">
-<title>Node109&#45;&gt;Node6</title>
+<title>Node110&#45;&gt;Node6</title>
 <path fill="none" stroke="#191970" d="M172.609,-181.0801C175.863,-179.3694 179.032,-177.507 181.9551,-175.5 200.8697,-162.5132 198.4108,-150.5183 217.9551,-138.5 224.5452,-134.4476 232.127,-131.2339 239.5766,-128.7127"/>
 <polygon fill="#191970" stroke="#191970" points="170.8689,-178.0321 163.3475,-185.4939 173.8805,-184.3512 170.8689,-178.0321"/>
 </g>
@@ -72,9 +72,9 @@
 </a>
 </g>
 </g>
-<!-- Node109&#45;&gt;Node10 -->
+<!-- Node110&#45;&gt;Node10 -->
 <g id="edge15" class="edge">
-<title>Node109&#45;&gt;Node10</title>
+<title>Node110&#45;&gt;Node10</title>
 <path fill="none" stroke="#191970" d="M181.1542,-182.7969C200.6768,-177.5579 223.3469,-171.4742 241.5624,-166.586"/>
 <polygon fill="#191970" stroke="#191970" points="180.0234,-179.4765 171.2723,-185.4488 181.8378,-186.2372 180.0234,-179.4765"/>
 </g>
@@ -243,30 +243,30 @@
 <path fill="none" stroke="#191970" d="M319.5496,-108.869C339.4884,-103.6138 362.6971,-97.4967 381.3286,-92.586"/>
 <polygon fill="#191970" stroke="#191970" points="318.5393,-105.5156 309.7616,-111.4488 320.3234,-112.2845 318.5393,-105.5156"/>
 </g>
-<!-- Node83 -->
+<!-- Node84 -->
 <g id="node17" class="node">
-<title>Node83</title>
+<title>Node84</title>
 <g id="a_node17"><a xlink:href="class_s_l_light.html" target="_top" xlink:title="Abstract Light class for OpenGL light sources.">
 <polygon fill="#ffffff" stroke="#000000" points="250.4624,-518.5 250.4624,-536.5 300.3784,-536.5 300.3784,-518.5 250.4624,-518.5"/>
 <text text-anchor="middle" x="275.4204" y="-524.5" font-family="Arial.ttf" font-size="10.00" fill="#000000">SLLight</text>
 </a>
 </g>
 </g>
-<!-- Node83&#45;&gt;Node35 -->
+<!-- Node84&#45;&gt;Node35 -->
 <g id="edge16" class="edge">
-<title>Node83&#45;&gt;Node35</title>
+<title>Node84&#45;&gt;Node35</title>
 <path fill="none" stroke="#191970" d="M310.2524,-522.0903C318.6387,-519.2735 326.8946,-514.9953 332.8857,-508.5 378.7837,-458.7396 324.1704,-411.3257 368.8857,-360.5 372.1128,-356.832 376.173,-353.9074 380.5474,-351.5766"/>
 <polygon fill="#191970" stroke="#191970" points="309.194,-518.7513 300.4755,-524.771 311.0451,-525.5021 309.194,-518.7513"/>
 </g>
-<!-- Node83&#45;&gt;Node36 -->
+<!-- Node84&#45;&gt;Node36 -->
 <g id="edge17" class="edge">
-<title>Node83&#45;&gt;Node36</title>
+<title>Node84&#45;&gt;Node36</title>
 <path fill="none" stroke="#191970" d="M310.2722,-520.8634C318.3647,-518.068 326.4757,-514.1069 332.8857,-508.5 360.4146,-484.4201 341.9306,-459.2205 368.8857,-434.5 372.8721,-430.8441 377.6794,-427.9033 382.6762,-425.5456"/>
 <polygon fill="#191970" stroke="#191970" points="309.1335,-517.55 300.5259,-523.7273 311.107,-524.266 309.1335,-517.55"/>
 </g>
-<!-- Node83&#45;&gt;Node37 -->
+<!-- Node84&#45;&gt;Node37 -->
 <g id="edge18" class="edge">
-<title>Node83&#45;&gt;Node37</title>
+<title>Node84&#45;&gt;Node37</title>
 <path fill="none" stroke="#191970" d="M310.1437,-521.7078C318.4596,-518.8937 326.7085,-514.7125 332.8857,-508.5 369.4538,-471.7229 333.1924,-435.1266 368.8857,-397.5 372.3681,-393.829 376.6808,-390.8975 381.2687,-388.5588"/>
 <polygon fill="#191970" stroke="#191970" points="309.1527,-518.3506 300.4708,-524.4231 311.0446,-525.0901 309.1527,-518.3506"/>
 </g>

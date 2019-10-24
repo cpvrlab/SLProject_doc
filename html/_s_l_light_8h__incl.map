@@ -1,10 +1,11 @@
 <map id="SLLight.h" name="SLLight.h">
-<area shape="rect" id="node1" title=" " alt="" coords="173,5,251,31"/>
-<area shape="rect" id="node2" href="$_s_l_8h.html" title=" " alt="" coords="173,299,222,324"/>
-<area shape="rect" id="node6" href="$_s_l_vec4_8h.html" title=" " alt="" coords="98,79,175,104"/>
-<area shape="rect" id="node3" href="$_utils_8h.html" title=" " alt="" coords="80,372,139,397"/>
-<area shape="rect" id="node4" title=" " alt="" coords="43,445,97,471"/>
-<area shape="rect" id="node5" title=" " alt="" coords="121,445,178,471"/>
-<area shape="rect" id="node7" href="$_s_l_vec2_8h.html" title=" " alt="" coords="22,225,99,251"/>
-<area shape="rect" id="node8" href="$_s_l_vec3_8h.html" title=" " alt="" coords="98,152,175,177"/>
+<area shape="rect" id="node1" title=" " alt="" coords="176,5,254,31"/>
+<area shape="rect" id="node2" href="$_s_l_8h.html" title=" " alt="" coords="176,299,225,324"/>
+<area shape="rect" id="node7" href="$_s_l_vec4_8h.html" title=" " alt="" coords="100,79,178,104"/>
+<area shape="rect" id="node3" href="$_utils_8h.html" title=" " alt="" coords="83,372,141,397"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,445,59,471"/>
+<area shape="rect" id="node5" title=" " alt="" coords="83,445,141,471"/>
+<area shape="rect" id="node6" title=" " alt="" coords="166,445,219,471"/>
+<area shape="rect" id="node8" href="$_s_l_vec2_8h.html" title=" " alt="" coords="24,225,102,251"/>
+<area shape="rect" id="node9" href="$_s_l_vec3_8h.html" title=" " alt="" coords="100,152,178,177"/>
 </map>

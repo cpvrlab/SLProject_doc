@@ -1,7 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_c_v_tracked.html" title="CVTracked is the pure virtual base class for tracking features in video." alt="" coords="5,80,93,105"/>
-<area shape="rect" id="node2" href="$class_c_v_tracked_aruco.html" title="OpenCV ArUco marker tracker class derived from CVTracked." alt="" coords="159,5,282,31"/>
-<area shape="rect" id="node3" href="$class_c_v_tracked_chessboard.html" title="OpenCV chessboard tracker class derived from CVTracked." alt="" coords="141,55,300,80"/>
-<area shape="rect" id="node4" href="$class_c_v_tracked_faces.html" title="OpenCV face &amp; facial landmark tracker class derived from CVTracked." alt="" coords="159,104,282,129"/>
-<area shape="rect" id="node5" href="$class_c_v_tracked_features.html" title="CVTrackedFeatures is the main part of the AR Christoffelturm scene." alt="" coords="151,153,291,179"/>
+<area shape="rect" id="node1" href="$class_c_v_raul_mur_ext_node.html" title="Data structure used to subdivide the Image with key points into segments." alt="" coords="5,5,147,31"/>
 </map>

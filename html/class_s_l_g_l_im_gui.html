@@ -28,7 +28,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">2.3.1</span>
+   &#160;<span id="projectnumber">2.4.0</span>
    </div>
   </td>
  </tr>
@@ -105,9 +105,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a862a95992564f455e8713df47a8a6034"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_s_l_g_l_im_gui.html#acd7489fb21824afd7802a9f0a4e69365">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_g_l_im_gui.html#a862a95992564f455e8713df47a8a6034">onResize</a> (<a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a> scrW, <a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a> scrH)</td></tr>
 <tr class="memdesc:a862a95992564f455e8713df47a8a6034"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback if window got resized.  <a href="class_s_l_g_l_im_gui.html#a862a95992564f455e8713df47a8a6034">More...</a><br /></td></tr>
 <tr class="separator:a862a95992564f455e8713df47a8a6034"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e300faa43cbe2a230bd6d604df90384"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_s_l_g_l_im_gui.html#acd7489fb21824afd7802a9f0a4e69365">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_g_l_im_gui.html#a3e300faa43cbe2a230bd6d604df90384">onPaint</a> (ImDrawData *draw_data)</td></tr>
-<tr class="memdesc:a3e300faa43cbe2a230bd6d604df90384"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback for main rendering for the ImGui GUI system.  <a href="class_s_l_g_l_im_gui.html#a3e300faa43cbe2a230bd6d604df90384">More...</a><br /></td></tr>
-<tr class="separator:a3e300faa43cbe2a230bd6d604df90384"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae49b336bec936db919235ce9b6586263"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_s_l_g_l_im_gui.html#acd7489fb21824afd7802a9f0a4e69365">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_g_l_im_gui.html#ae49b336bec936db919235ce9b6586263">onPaint</a> (ImDrawData *draw_data, const <a class="el" href="_s_l_rect_8h.html#af8fc65f9abffa180053a61dc202cb8a8">SLRecti</a> &amp;viewport)</td></tr>
+<tr class="memdesc:ae49b336bec936db919235ce9b6586263"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback for main rendering for the ImGui GUI system.  <a href="class_s_l_g_l_im_gui.html#ae49b336bec936db919235ce9b6586263">More...</a><br /></td></tr>
+<tr class="separator:ae49b336bec936db919235ce9b6586263"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2a500b8bdb31a31085c7a5e6356ae6f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_s_l_g_l_im_gui.html#acd7489fb21824afd7802a9f0a4e69365">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_g_l_im_gui.html#aa2a500b8bdb31a31085c7a5e6356ae6f">onMouseDown</a> (<a class="el" href="_s_l_enums_8h.html#aa0d4a64ab52b958b6230e389aec788de">SLMouseButton</a> button, <a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a> x, <a class="el" href="_s_l_8h.html#ac596bcf2933ea243d3a9d6369651794d">SLint</a> y)</td></tr>
 <tr class="memdesc:aa2a500b8bdb31a31085c7a5e6356ae6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback on mouse button down event.  <a href="class_s_l_g_l_im_gui.html#aa2a500b8bdb31a31085c7a5e6356ae6f">More...</a><br /></td></tr>
 <tr class="separator:aa2a500b8bdb31a31085c7a5e6356ae6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -599,8 +599,8 @@ The full call stack for rendering one frame is:<br  />
 
 </div>
 </div>
-<a id="a3e300faa43cbe2a230bd6d604df90384"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e300faa43cbe2a230bd6d604df90384">&#9670;&nbsp;</a></span>onPaint()</h2>
+<a id="ae49b336bec936db919235ce9b6586263"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae49b336bec936db919235ce9b6586263">&#9670;&nbsp;</a></span>onPaint()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -609,8 +609,18 @@ The full call stack for rendering one frame is:<br  />
           <td class="memname"><a class="el" href="class_s_l_g_l_im_gui.html#acd7489fb21824afd7802a9f0a4e69365">void</a> SLGLImGui::onPaint </td>
           <td>(</td>
           <td class="paramtype">ImDrawData *&#160;</td>
-          <td class="paramname"><em>draw_data</em></td><td>)</td>
+          <td class="paramname"><em>draw_data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="_s_l_rect_8h.html#af8fc65f9abffa180053a61dc202cb8a8">SLRecti</a> &amp;&#160;</td>
+          <td class="paramname"><em>viewport</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1244,7 +1254,7 @@ The full call stack for rendering one frame is:<br  />
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_s_l_g_l_im_gui.html">SLGLImGui</a></li>
-    <li class="footer">Generated on Mon Sep 2 2019 11:49:58 for SLProject by
+    <li class="footer">Generated on Thu Oct 24 2019 11:34:44 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
   </ul>

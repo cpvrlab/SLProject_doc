@@ -14,7 +14,7 @@ var class_s_l_g_l_im_gui =
     [ "onMouseMove", "class_s_l_g_l_im_gui.html#a6c10c5c601f05a706844aa5ec70d9c26", null ],
     [ "onMouseUp", "class_s_l_g_l_im_gui.html#abefb824c212ddd7f4b053fb95f7ae414", null ],
     [ "onMouseWheel", "class_s_l_g_l_im_gui.html#a4c18f3bb048dbf1797d07f2ed4ce1dac", null ],
-    [ "onPaint", "class_s_l_g_l_im_gui.html#a3e300faa43cbe2a230bd6d604df90384", null ],
+    [ "onPaint", "class_s_l_g_l_im_gui.html#ae49b336bec936db919235ce9b6586263", null ],
     [ "onResize", "class_s_l_g_l_im_gui.html#a862a95992564f455e8713df47a8a6034", null ],
     [ "printCompileErrors", "class_s_l_g_l_im_gui.html#a05a14acbabd956f92ef889b6c2ffe118", null ],
     [ "renderExtraFrame", "class_s_l_g_l_im_gui.html#af630b1c5dd7ab242c0ec95b5b1dce689", null ],

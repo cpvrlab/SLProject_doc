@@ -1,12 +1,13 @@
 <map id="SLGLVertexArray.h" name="SLGLVertexArray.h">
 <area shape="rect" id="node1" title=" " alt="" coords="51,5,185,31"/>
 <area shape="rect" id="node2" href="$_s_l_g_l_enums_8h.html" title=" " alt="" coords="5,152,113,177"/>
-<area shape="rect" id="node7" href="$_s_l_g_l_vertex_buffer_8h.html" title=" " alt="" coords="108,79,246,104"/>
+<area shape="rect" id="node8" href="$_s_l_g_l_vertex_buffer_8h.html" title=" " alt="" coords="108,79,246,104"/>
 <area shape="rect" id="node3" href="$_s_l_8h.html" title=" " alt="" coords="176,372,225,397"/>
 <area shape="rect" id="node4" href="$_utils_8h.html" title=" " alt="" coords="202,445,261,471"/>
-<area shape="rect" id="node5" title=" " alt="" coords="164,519,218,544"/>
-<area shape="rect" id="node6" title=" " alt="" coords="243,519,300,544"/>
-<area shape="rect" id="node8" href="$_s_l_vec2_8h.html" title=" " alt="" coords="299,299,377,324"/>
-<area shape="rect" id="node9" href="$_s_l_vec3_8h.html" title=" " alt="" coords="198,225,275,251"/>
-<area shape="rect" id="node10" href="$_s_l_vec4_8h.html" title=" " alt="" coords="138,152,215,177"/>
+<area shape="rect" id="node5" title=" " alt="" coords="124,519,178,544"/>
+<area shape="rect" id="node6" title=" " alt="" coords="203,519,260,544"/>
+<area shape="rect" id="node7" title=" " alt="" coords="285,519,338,544"/>
+<area shape="rect" id="node9" href="$_s_l_vec2_8h.html" title=" " alt="" coords="299,299,377,324"/>
+<area shape="rect" id="node10" href="$_s_l_vec3_8h.html" title=" " alt="" coords="198,225,275,251"/>
+<area shape="rect" id="node11" href="$_s_l_vec4_8h.html" title=" " alt="" coords="138,152,215,177"/>
 </map>

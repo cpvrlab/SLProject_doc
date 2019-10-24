@@ -28,7 +28,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">2.3.1</span>
+   &#160;<span id="projectnumber">2.4.0</span>
    </div>
   </td>
  </tr>
@@ -90,7 +90,8 @@ $(document).ready(function(){initNavTree('_utils_8cpp.html','');});
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for Utils.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="_utils_8cpp__incl.svg" width="1276" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="_utils_8cpp__incl.svg" width="1314" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -164,8 +165,14 @@ Functions</h2></td></tr>
 <tr class="memitem:afd04c5fcded138dcd9804e9509526a0c"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils.html#afd04c5fcded138dcd9804e9509526a0c">Utils::getFileExt</a> (const string &amp;filename)</td></tr>
 <tr class="memdesc:afd04c5fcded138dcd9804e9509526a0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the file extension without dot in lower case.  <a href="namespace_utils.html#afd04c5fcded138dcd9804e9509526a0c">More...</a><br /></td></tr>
 <tr class="separator:afd04c5fcded138dcd9804e9509526a0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a229e1c7c9462d2b77a891488cf1e5e48"><td class="memItemLeft" align="right" valign="top">vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils.html#a229e1c7c9462d2b77a891488cf1e5e48">Utils::getDirNamesInDir</a> (const string &amp;dirName)</td></tr>
+<tr class="memdesc:a229e1c7c9462d2b77a891488cf1e5e48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a vector directory names with path in dir.  <a href="namespace_utils.html#a229e1c7c9462d2b77a891488cf1e5e48">More...</a><br /></td></tr>
+<tr class="separator:a229e1c7c9462d2b77a891488cf1e5e48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a448b583825936abbfa85de40ca2c5074"><td class="memItemLeft" align="right" valign="top">vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils.html#a448b583825936abbfa85de40ca2c5074">Utils::getAllNamesInDir</a> (const string &amp;dirName)</td></tr>
+<tr class="memdesc:a448b583825936abbfa85de40ca2c5074"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a vector of sorted names (files and directories) with path in dir.  <a href="namespace_utils.html#a448b583825936abbfa85de40ca2c5074">More...</a><br /></td></tr>
+<tr class="separator:a448b583825936abbfa85de40ca2c5074"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc2acbddd8367c04feea3cb39d72c6b6"><td class="memItemLeft" align="right" valign="top">vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils.html#acc2acbddd8367c04feea3cb39d72c6b6">Utils::getFileNamesInDir</a> (const string &amp;dirName)</td></tr>
-<tr class="memdesc:acc2acbddd8367c04feea3cb39d72c6b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a vector of storted filesnames with path in dir.  <a href="namespace_utils.html#acc2acbddd8367c04feea3cb39d72c6b6">More...</a><br /></td></tr>
+<tr class="memdesc:acc2acbddd8367c04feea3cb39d72c6b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a vector of sorted filesnames with path in dir.  <a href="namespace_utils.html#acc2acbddd8367c04feea3cb39d72c6b6">More...</a><br /></td></tr>
 <tr class="separator:acc2acbddd8367c04feea3cb39d72c6b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1cb691bb08b8da23c6d608e8373b8e93"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils.html#a1cb691bb08b8da23c6d608e8373b8e93">Utils::dirExists</a> (const string &amp;path)</td></tr>
 <tr class="memdesc:a1cb691bb08b8da23c6d608e8373b8e93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if a directory exists.  <a href="namespace_utils.html#a1cb691bb08b8da23c6d608e8373b8e93">More...</a><br /></td></tr>
@@ -206,6 +213,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a83ba4547717da86ed0addec0110a6a4c"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils.html#a83ba4547717da86ed0addec0110a6a4c">Utils::httpGet</a> (const string &amp;httpURL, const string &amp;outFolder=&quot;&quot;)</td></tr>
 <tr class="memdesc:a83ba4547717da86ed0addec0110a6a4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Download a file from an http url into the outFile.  <a href="namespace_utils.html#a83ba4547717da86ed0addec0110a6a4c">More...</a><br /></td></tr>
 <tr class="separator:a83ba4547717da86ed0addec0110a6a4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae11e2c1dfc26f9a2cd17335f18e9866"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils.html#aae11e2c1dfc26f9a2cd17335f18e9866">Utils::gcd</a> (int a, int b)</td></tr>
+<tr class="memdesc:aae11e2c1dfc26f9a2cd17335f18e9866"><td class="mdescLeft">&#160;</td><td class="mdescRight">Greatest common divisor of two integer numbers (ggT = grösster gemeinsame Teiler)  <a href="namespace_utils.html#aae11e2c1dfc26f9a2cd17335f18e9866">More...</a><br /></td></tr>
+<tr class="separator:aae11e2c1dfc26f9a2cd17335f18e9866"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a357043a1c4adbe4a6f4f66f47b445d34"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils.html#a357043a1c4adbe4a6f4f66f47b445d34">Utils::lcm</a> (int a, int b)</td></tr>
+<tr class="memdesc:a357043a1c4adbe4a6f4f66f47b445d34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lowest common multiple (kgV = kleinstes gemeinsames Vielfache)  <a href="namespace_utils.html#a357043a1c4adbe4a6f4f66f47b445d34">More...</a><br /></td></tr>
+<tr class="separator:a357043a1c4adbe4a6f4f66f47b445d34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -233,7 +246,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d2b6318187fb2206cad9b40a4e1245e4.html">externals</a></li><li class="navelem"><a class="el" href="dir_f38502282ed815d868f236e18b2f7dfd.html">utils</a></li><li class="navelem"><a class="el" href="dir_7ee4e11daa01397c6d93f5c74c023755.html">lib-Utils</a></li><li class="navelem"><a class="el" href="dir_5f62420bc7dcf82c9235b9a59a2f009e.html">source</a></li><li class="navelem"><a class="el" href="_utils_8cpp.html">Utils.cpp</a></li>
-    <li class="footer">Generated on Mon Sep 2 2019 11:49:57 for SLProject by
+    <li class="footer">Generated on Thu Oct 24 2019 11:34:38 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
   </ul>

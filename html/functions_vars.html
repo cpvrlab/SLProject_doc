@@ -28,7 +28,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">2.3.1</span>
+   &#160;<span id="projectnumber">2.4.0</span>
    </div>
   </td>
  </tr>
@@ -139,9 +139,6 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 <li>_arucoID
 : <a class="el" href="class_c_v_tracked_aruco.html#a8d995a5b87ba0592870f365f9fad4cc7">CVTrackedAruco</a>
 </li>
-<li>_aspect
-: <a class="el" href="class_s_l_camera.html#ad341c5e615dbba2e67ce7433c6416066">SLCamera</a>
-</li>
 <li>_attribLocColor
 : <a class="el" href="class_s_l_g_l_im_gui.html#ab2a77f324182bb4b7af64124d63d68dd">SLGLImGui</a>
 </li>
@@ -176,7 +173,7 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 : <a class="el" href="class_averaged.html#ae5caa25f315b9085f98f6472def5a5fa">Averaged&lt; T &gt;</a>
 </li>
 <li>_averageNumValues
-: <a class="el" href="class_s_l_average_timing.html#a39fba48079bbf912d377ab372b1e1605">SLAverageTiming</a>
+: <a class="el" href="class_average_timing.html#ad61e92ba6aea888f5fafaee751da1214">AverageTiming</a>
 </li>
 <li>_avgPosePoints2D
 : <a class="el" href="class_c_v_tracked_faces.html#a68954495ffe1a65705c0e53922918dc7">CVTrackedFaces</a>
@@ -372,16 +369,16 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 : <a class="el" href="class_s_l_transfer_function.html#a646cb212d18530b1aca7db587eb9627c">SLTransferFunction</a>
 </li>
 <li>_colorMaskA
-: <a class="el" href="class_s_l_g_l_state.html#a24004556089d80434c2cf40e0ebc3df0">SLGLState</a>
+: <a class="el" href="class_s_l_g_l_state.html#a52c40be96f7760e6651c3243cf0cfa16">SLGLState</a>
 </li>
 <li>_colorMaskB
-: <a class="el" href="class_s_l_g_l_state.html#adc25ca52e78905e99f1ab00b75483071">SLGLState</a>
+: <a class="el" href="class_s_l_g_l_state.html#ae96b40b84b2dc56d27d9f395a100c2b6">SLGLState</a>
 </li>
 <li>_colorMaskG
-: <a class="el" href="class_s_l_g_l_state.html#a98220ec1196bab3d3d6eb3090e17ad25">SLGLState</a>
+: <a class="el" href="class_s_l_g_l_state.html#af413b47bde3478d810937aa867bd098a">SLGLState</a>
 </li>
 <li>_colorMaskR
-: <a class="el" href="class_s_l_g_l_state.html#ab82a7db63091e31e7afcd7b10f116af7">SLGLState</a>
+: <a class="el" href="class_s_l_g_l_state.html#a62574c623451d6f2089ac76d7fc4cd69">SLGLState</a>
 </li>
 <li>_colors
 : <a class="el" href="class_s_l_background.html#a2a3e9c70eb4f3708511e099c551c9ea5">SLBackground</a>
@@ -389,6 +386,9 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 </li>
 <li>_command
 : <a class="el" href="class_s_l_button.html#a048e85b076e90f51bf5b3f4fbf9e1b18">SLButton</a>
+</li>
+<li>_computerInfos
+: <a class="el" href="class_c_v_calibration.html#a75d5665fb908876b1fd907df5ef09ba4">CVCalibration</a>
 </li>
 <li>_contents
 : <a class="el" href="class_s_l_vector.html#a3e4cd2a83d6ed91e14f225a4b47b626a">SLVector&lt; T, U &gt;</a>
@@ -412,10 +412,10 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 : <a class="el" href="class_c_v_tracked_features.html#af89c2fe913d953c650f551d5b3130313">CVTrackedFeatures</a>
 </li>
 <li>_currentPosH
-: <a class="el" href="class_s_l_average_timing.html#a7320ac1aa2c40cc7b39ce80df56f96eb">SLAverageTiming</a>
+: <a class="el" href="class_average_timing.html#ac8848052913563de527d8838b7143cfd">AverageTiming</a>
 </li>
 <li>_currentPosV
-: <a class="el" href="class_s_l_average_timing.html#ad899a0b57661a7bd186b10144c949587">SLAverageTiming</a>
+: <a class="el" href="class_average_timing.html#a387153274c458df5a8ba46ff226a0599">AverageTiming</a>
 </li>
 <li>_currentValueCount
 : <a class="el" href="class_averaged.html#a69895a185c9883b8e71b150f53a99d3a">Averaged&lt; T &gt;</a>
@@ -1512,15 +1512,13 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 : <a class="el" href="class_s_l_scene.html#ad5ae8fab6355778614a3fb6f23902195">SLScene</a>
 </li>
 <li>_scrH
-: <a class="el" href="class_s_l_camera.html#a7ffdb8f07b7ad343ca820187a4d80c56">SLCamera</a>
-, <a class="el" href="class_s_l_scene_view.html#a29889aa913b04460aade44bc24404627">SLSceneView</a>
+: <a class="el" href="class_s_l_scene_view.html#a29889aa913b04460aade44bc24404627">SLSceneView</a>
 </li>
 <li>_scrHdiv2
 : <a class="el" href="class_s_l_scene_view.html#a8e79da06a099b39270e7e67022f8e574">SLSceneView</a>
 </li>
 <li>_scrW
-: <a class="el" href="class_s_l_camera.html#a0870a4d12cc6a3f078740908560335dd">SLCamera</a>
-, <a class="el" href="class_s_l_scene_view.html#a0ce64a6266fe48f85650e80b153438ef">SLSceneView</a>
+: <a class="el" href="class_s_l_scene_view.html#a0ce64a6266fe48f85650e80b153438ef">SLSceneView</a>
 </li>
 <li>_scrWdiv2
 : <a class="el" href="class_s_l_scene_view.html#a86d4e309f00f24c3918cb1b183b56742">SLSceneView</a>
@@ -1884,6 +1882,25 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 <li>_viewport
 : <a class="el" href="class_s_l_g_l_state.html#a13321d032e439592cfb23ccc971fd889">SLGLState</a>
 </li>
+<li>_viewportAlign
+: <a class="el" href="class_s_l_scene_view.html#a8217bd9732ce077966318ae9fb4eb3a8">SLSceneView</a>
+</li>
+<li>_viewportH
+: <a class="el" href="class_s_l_camera.html#ac50d2fc2e9c3dfbc82dcf68103a37b3d">SLCamera</a>
+</li>
+<li>_viewportRatio
+: <a class="el" href="class_s_l_camera.html#a9c993980ca836f7d1a403a5227609f2a">SLCamera</a>
+, <a class="el" href="class_s_l_scene_view.html#ac76b9e226f462ff8308613eb2588f499">SLSceneView</a>
+</li>
+<li>_viewportRect
+: <a class="el" href="class_s_l_scene_view.html#a7ce7e152920df1e2ed0e55bd5ea279f7">SLSceneView</a>
+</li>
+<li>_viewportSameAsVideo
+: <a class="el" href="class_s_l_scene_view.html#aaed112f02d6c65013f112aa5b50e7218">SLSceneView</a>
+</li>
+<li>_viewportW
+: <a class="el" href="class_s_l_camera.html#ab45090692b726d8374a5bf05e50868e4">SLCamera</a>
+</li>
 <li>_voxel
 : <a class="el" href="class_s_l_uniform_grid.html#a8339f90b3026115b7a315462dd0083f5">SLUniformGrid</a>
 </li>
@@ -1970,7 +1987,7 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Sep 2 2019 11:50:02 for SLProject by
+    <li class="footer">Generated on Thu Oct 24 2019 11:34:59 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
   </ul>

@@ -28,6 +28,7 @@ var class_s_l_application =
     [ "computerOSVer", "class_s_l_application.html#a27dbef7cc9482a526d6c13000d86f9c5", null ],
     [ "computerUser", "class_s_l_application.html#a4aaff798c0a7faf96e5475c72270aaec", null ],
     [ "configPath", "class_s_l_application.html#aa4457bd101fa9ace86e24a9cf5fed9a0", null ],
+    [ "configuration", "class_s_l_application.html#a5293fce67f99271c690d985a33b73226", null ],
     [ "deviceParameter", "class_s_l_application.html#a6e62a6617e239660b93caabb8667a7f9", null ],
     [ "devLoc", "class_s_l_application.html#a4be545fe850af201261ab1459462be55", null ],
     [ "devRot", "class_s_l_application.html#ad69a92e7e1a504ba78d32da74e6da869", null ],

@@ -28,7 +28,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">2.3.1</span>
+   &#160;<span id="projectnumber">2.4.0</span>
    </div>
   </td>
  </tr>
@@ -88,7 +88,7 @@ $(document).ready(function(){initNavTree('class_s_l_mesh.html','');});
   <tr class="even"><td class="entry"><a class="el" href="class_s_l_mesh.html#ace373e69a4e26afa19f9697dd9b91aac">_vaoS</a></td><td class="entry"><a class="el" href="class_s_l_mesh.html">SLMesh</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr><td class="entry"><a class="el" href="class_s_l_mesh.html#a3aaa3c36d86d5689469e53274281ef14">_vaoT</a></td><td class="entry"><a class="el" href="class_s_l_mesh.html">SLMesh</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_s_l_mesh.html#a6d2e3ee7dfea1198d1b37723c402f946">addStats</a>(SLNodeStats &amp;stats)</td><td class="entry"><a class="el" href="class_s_l_mesh.html">SLMesh</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="class_s_l_mesh.html#a4986ad535aac724d2326958783021c1a">buildAABB</a>(SLAABBox &amp;aabb, SLMat4f wmNode)</td><td class="entry"><a class="el" href="class_s_l_mesh.html">SLMesh</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="class_s_l_mesh.html#ac8d3eb0b88d2fc83f49c30ff1a6445d9">buildAABB</a>(SLAABBox &amp;aabb, const SLMat4f &amp;wmNode)</td><td class="entry"><a class="el" href="class_s_l_mesh.html">SLMesh</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_s_l_mesh.html#a5babf7f82655e688a41592bcbfc4c1de">C</a></td><td class="entry"><a class="el" href="class_s_l_mesh.html">SLMesh</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="class_s_l_mesh.html#a588bcfd12afb6db52242e797ebc0ff42">calcCenterRad</a>(SLVec3f &amp;center, SLfloat &amp;radius)</td><td class="entry"><a class="el" href="class_s_l_mesh.html">SLMesh</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_s_l_mesh.html#a4239835450732f65f055cc4a4ffdc06a">calcMinMax</a>()</td><td class="entry"><a class="el" href="class_s_l_mesh.html">SLMesh</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
@@ -128,7 +128,7 @@ $(document).ready(function(){initNavTree('class_s_l_mesh.html','');});
   <tr class="even"><td class="entry"><a class="el" href="class_s_l_mesh.html#a7e653ba9b3879db4d2f477f5b782e93d">skeleton</a>(SLSkeleton *skel)</td><td class="entry"><a class="el" href="class_s_l_mesh.html">SLMesh</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="class_s_l_mesh.html#a5bc427a102ec6a4ea6e44682f64da48c">skinnedN</a></td><td class="entry"><a class="el" href="class_s_l_mesh.html">SLMesh</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_s_l_mesh.html#ada7115addaac6eb8e13baa9a14a7772e">skinnedP</a></td><td class="entry"><a class="el" href="class_s_l_mesh.html">SLMesh</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="class_s_l_mesh.html#a0dfd93735012bfced5acfbd14fa78958">SLMesh</a>(SLstring name=&quot;Mesh&quot;)</td><td class="entry"><a class="el" href="class_s_l_mesh.html">SLMesh</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
+  <tr><td class="entry"><a class="el" href="class_s_l_mesh.html#ae7d5aee748f5ee647341d74be73cac94">SLMesh</a>(const SLstring &amp;name=&quot;Mesh&quot;)</td><td class="entry"><a class="el" href="class_s_l_mesh.html">SLMesh</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_s_l_object.html#a5dbcf74e93531b5fba17005173518599">SLObject</a>(const SLstring &amp;Name=&quot;&quot;, const SLstring &amp;url=&quot;&quot;)</td><td class="entry"><a class="el" href="class_s_l_object.html">SLObject</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="class_s_l_mesh.html#a3b102aa019de457a5e7c31c1315ee86a">T</a></td><td class="entry"><a class="el" href="class_s_l_mesh.html">SLMesh</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_s_l_mesh.html#a33e00c88f8536b06e27149284a043c70">Tc</a></td><td class="entry"><a class="el" href="class_s_l_mesh.html">SLMesh</a></td><td class="entry"></td></tr>
@@ -143,7 +143,7 @@ $(document).ready(function(){initNavTree('class_s_l_mesh.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Sep 2 2019 11:50:00 for SLProject by
+    <li class="footer">Generated on Thu Oct 24 2019 11:34:47 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
   </ul>

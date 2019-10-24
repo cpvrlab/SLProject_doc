@@ -238,5 +238,10 @@ var _s_l_enums_8h =
       [ "UT_inc", "_s_l_enums_8h.html#aae8867faff20f30a15c373a7608da628a5289006fe6384223e7646d706b16e792", null ],
       [ "UT_random", "_s_l_enums_8h.html#aae8867faff20f30a15c373a7608da628aa19587d89c1a90d2e62e9ad3c423a354", null ],
       [ "UT_seconds", "_s_l_enums_8h.html#aae8867faff20f30a15c373a7608da628a223aa4524b2cdeb0aa6ba7812ed97c77", null ]
+    ] ],
+    [ "SLViewportAlign", "_s_l_enums_8h.html#ac03dbada860be0cfdf2695c4ac46e60c", [
+      [ "VA_center", "_s_l_enums_8h.html#ac03dbada860be0cfdf2695c4ac46e60ca877c9f56253a2e64860c49d57ca158a6", null ],
+      [ "VA_leftOrTop", "_s_l_enums_8h.html#ac03dbada860be0cfdf2695c4ac46e60caaf08bcb18d7d548a46cbe95810ce9881", null ],
+      [ "VA_rightOrBottom", "_s_l_enums_8h.html#ac03dbada860be0cfdf2695c4ac46e60caa500f021dae69842f070d550b1769ebd", null ]
     ] ]
 ];

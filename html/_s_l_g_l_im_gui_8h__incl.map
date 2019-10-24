@@ -1,10 +1,18 @@
 <map id="SLGLImGui.h" name="SLGLImGui.h">
-<area shape="rect" id="node1" title=" " alt="" coords="70,5,172,31"/>
-<area shape="rect" id="node2" href="$_s_l_8h.html" title=" " alt="" coords="90,152,139,177"/>
-<area shape="rect" id="node6" href="$_s_l_enums_8h.html" title=" " alt="" coords="22,79,113,104"/>
-<area shape="rect" id="node7" href="$_s_l_vec2_8h.html" title=" " alt="" coords="137,79,214,104"/>
-<area shape="rect" id="node8" title=" " alt="" coords="238,79,302,104"/>
-<area shape="rect" id="node3" href="$_utils_8h.html" title=" " alt="" coords="116,225,174,251"/>
-<area shape="rect" id="node4" title=" " alt="" coords="78,299,132,324"/>
-<area shape="rect" id="node5" title=" " alt="" coords="156,299,214,324"/>
+<area shape="rect" id="node1" title=" " alt="" coords="493,5,595,31"/>
+<area shape="rect" id="node2" href="$_s_l_8h.html" title=" " alt="" coords="136,592,184,617"/>
+<area shape="rect" id="node7" href="$_s_l_enums_8h.html" title=" " alt="" coords="582,79,672,104"/>
+<area shape="rect" id="node8" href="$_s_l_vec2_8h.html" title=" " alt="" coords="353,519,431,544"/>
+<area shape="rect" id="node9" href="$_s_l_rect_8h.html" title=" " alt="" coords="354,79,430,104"/>
+<area shape="rect" id="node16" title=" " alt="" coords="696,79,760,104"/>
+<area shape="rect" id="node3" href="$_utils_8h.html" title=" " alt="" coords="257,665,316,691"/>
+<area shape="rect" id="node4" title=" " alt="" coords="180,739,234,764"/>
+<area shape="rect" id="node5" title=" " alt="" coords="258,739,315,764"/>
+<area shape="rect" id="node6" title=" " alt="" coords="340,739,393,764"/>
+<area shape="rect" id="node10" href="$_s_l_g_l_vertex_array_ext_8h.html" title=" " alt="" coords="195,152,349,177"/>
+<area shape="rect" id="node14" href="$_s_l_vec3_8h.html" title=" " alt="" coords="277,445,355,471"/>
+<area shape="rect" id="node11" href="$_s_l_g_l_vertex_array_8h.html" title=" " alt="" coords="201,225,335,251"/>
+<area shape="rect" id="node12" href="$_s_l_g_l_enums_8h.html" title=" " alt="" coords="94,372,202,397"/>
+<area shape="rect" id="node13" href="$_s_l_g_l_vertex_buffer_8h.html" title=" " alt="" coords="199,299,337,324"/>
+<area shape="rect" id="node15" href="$_s_l_vec4_8h.html" title=" " alt="" coords="227,372,304,397"/>
 </map>
