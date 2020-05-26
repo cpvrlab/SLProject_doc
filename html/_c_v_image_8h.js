@@ -1,7 +1,7 @@
 var _c_v_image_8h =
 [
     [ "CVImage", "class_c_v_image.html", "class_c_v_image" ],
-    [ "CVVImage", "_c_v_image_8h.html#ad5d8265210aeebcafc3da1c5be4636ea", null ],
+    [ "CVVImage", "_c_v_image_8h.html#acf0cccaba35e9edaf5da3248df11cd44", null ],
     [ "CVPixFormat", "_c_v_image_8h.html#ac47ec6151ecf8b8f0c6aee8084a90fd7", [
       [ "PF_unknown", "_c_v_image_8h.html#ac47ec6151ecf8b8f0c6aee8084a90fd7a7eb5537d394d2116961fb97a257310d9", null ],
       [ "PF_yuv_420_888", "_c_v_image_8h.html#ac47ec6151ecf8b8f0c6aee8084a90fd7a85d6d0162791675c917284e88318fde5", null ],
@@ -23,6 +23,7 @@ var _c_v_image_8h =
       [ "PF_rgb_integer", "_c_v_image_8h.html#ac47ec6151ecf8b8f0c6aee8084a90fd7a03a931fffceb4102b134a2703db6eb84", null ],
       [ "PF_rgba_integer", "_c_v_image_8h.html#ac47ec6151ecf8b8f0c6aee8084a90fd7a2e755d9a9cc081c8e3a1ca5facce9557", null ],
       [ "PF_bgr_integer", "_c_v_image_8h.html#ac47ec6151ecf8b8f0c6aee8084a90fd7a221cfef5d32170618b42bb9d0caf6fcb", null ],
-      [ "PF_bgra_integer", "_c_v_image_8h.html#ac47ec6151ecf8b8f0c6aee8084a90fd7a69e3fb56a0e5c8de605f8b88e1028857", null ]
+      [ "PF_bgra_integer", "_c_v_image_8h.html#ac47ec6151ecf8b8f0c6aee8084a90fd7a69e3fb56a0e5c8de605f8b88e1028857", null ],
+      [ "PF_r32f", "_c_v_image_8h.html#ac47ec6151ecf8b8f0c6aee8084a90fd7a89478240ddffa37b6e48493c58c57607", null ]
     ] ]
 ];

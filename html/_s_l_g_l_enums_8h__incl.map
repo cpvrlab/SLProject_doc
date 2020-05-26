@@ -1,8 +1,23 @@
 <map id="SLGLEnums.h" name="SLGLEnums.h">
-<area shape="rect" id="node1" title=" " alt="" coords="58,5,166,31"/>
-<area shape="rect" id="node2" href="$_s_l_8h.html" title=" " alt="" coords="88,79,137,104"/>
-<area shape="rect" id="node3" href="$_utils_8h.html" title=" " alt="" coords="83,152,141,177"/>
-<area shape="rect" id="node4" title=" " alt="" coords="5,225,59,251"/>
-<area shape="rect" id="node5" title=" " alt="" coords="83,225,141,251"/>
-<area shape="rect" id="node6" title=" " alt="" coords="166,225,219,251"/>
+<area shape="rect" id="node1" title=" " alt="" coords="654,5,761,32"/>
+<area shape="rect" id="node2" href="$_s_l_8h.html" title=" " alt="" coords="253,453,303,480"/>
+<area shape="rect" id="node11" href="$_s_l_g_l_state_8h.html" title=" " alt="" coords="327,80,424,107"/>
+<area shape="rect" id="node3" href="$_utils_8h.html" title=" " alt="" coords="172,528,232,555"/>
+<area shape="rect" id="node4" title=" " alt="" coords="308,677,363,704"/>
+<area shape="rect" id="node5" title=" " alt="" coords="41,603,99,629"/>
+<area shape="rect" id="node6" title=" " alt="" coords="124,603,179,629"/>
+<area shape="rect" id="node7" title=" " alt="" coords="94,677,163,704"/>
+<area shape="rect" id="node8" href="$_file_log_8h.html" title=" " alt="" coords="378,603,453,629"/>
+<area shape="rect" id="node10" href="$_custom_log_8h.html" title=" " alt="" coords="203,603,303,629"/>
+<area shape="rect" id="node9" title=" " alt="" coords="387,677,454,704"/>
+<area shape="rect" id="node12" href="$_s_l_vec3_8h.html" title=" " alt="" coords="168,304,247,331"/>
+<area shape="rect" id="node14" href="$_s_l_vec4_8h.html" title=" " alt="" coords="5,229,84,256"/>
+<area shape="rect" id="node15" href="$_s_l_mat4_8h.html" title=" " alt="" coords="336,155,415,181"/>
+<area shape="rect" id="node13" href="$_s_l_vec2_8h.html" title=" " alt="" coords="35,379,113,405"/>
+<area shape="rect" id="node16" title=" " alt="" coords="211,229,265,256"/>
+<area shape="rect" id="node17" href="$_s_l_mat3_8h.html" title=" " alt="" coords="821,229,900,256"/>
+<area shape="rect" id="node19" title=" " alt="" coords="341,229,410,256"/>
+<area shape="rect" id="node20" title=" " alt="" coords="435,229,604,256"/>
+<area shape="rect" id="node21" title=" " alt="" coords="628,229,797,256"/>
+<area shape="rect" id="node18" title=" " alt="" coords="701,304,773,331"/>
 </map>

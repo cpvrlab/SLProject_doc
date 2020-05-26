@@ -40,6 +40,7 @@ var class_s_l_g_l_oculus =
     [ "_resolution", "class_s_l_g_l_oculus.html#a5f1d0bfe43c1d5784ee5e92e2ccb8d7d", null ],
     [ "_resolutionScale", "class_s_l_g_l_oculus.html#adc8d0353e50d4b5559a354671db8da38", null ],
     [ "_rtSize", "class_s_l_g_l_oculus.html#aa62a6f26adf85c0eb3a0a6fb09f8233f", null ],
+    [ "_stereoOculusDistProgram", "class_s_l_g_l_oculus.html#ae3989bf7ac295900f037dedc953301c9", null ],
     [ "_timeWarpEnabled", "class_s_l_g_l_oculus.html#abf7cec44ae126dfdb3a4a941ddbad0f0", null ],
     [ "_usingDebugHmd", "class_s_l_g_l_oculus.html#a5d77502f8aaa50899625b899c4c8e70d", null ],
     [ "_viewAdjust", "class_s_l_g_l_oculus.html#a619cf637dd4804a6b2fb8e1d06d9bc81", null ]

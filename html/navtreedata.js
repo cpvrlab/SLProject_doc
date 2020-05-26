@@ -1,24 +1,26 @@
 /*
-@licstart  The following is the entire license notice for the
-JavaScript code in this file.
+ @licstart  The following is the entire license notice for the JavaScript code in this file.
 
-Copyright (C) 1997-2019 by Dimitri van Heesch
+ The MIT License (MIT)
 
-This program is free software; you can redistribute it and/or modify
-it under the terms of version 2 of the GNU General Public License as published by
-the Free Software Foundation
+ Copyright (C) 1997-2020 by Dimitri van Heesch
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-GNU General Public License for more details.
+ Permission is hereby granted, free of charge, to any person obtaining a copy of this software
+ and associated documentation files (the "Software"), to deal in the Software without restriction,
+ including without limitation the rights to use, copy, modify, merge, publish, distribute,
+ sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
 
-You should have received a copy of the GNU General Public License along
-with this program; if not, write to the Free Software Foundation, Inc.,
-51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ The above copyright notice and this permission notice shall be included in all copies or
+ substantial portions of the Software.
 
-@licend  The above is the entire license notice
-for the JavaScript code in this file
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+ BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+ DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+ @licend  The above is the entire license notice for the JavaScript code in this file
 */
 var NAVTREE =
 [
@@ -87,24 +89,25 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_app_demo_gui_8cpp.html",
-"_s_l_8h.html",
-"_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a6a7b7d90f2c53f282a0d3f2db1bfe376",
-"_s_l_importer_8h.html#a9abe3eba225d8d79a9bb75b08614b26c",
-"_s_l_uniform_grid_8h.html",
-"class_c_v_calibration.html#a8a17f0a8835dbf0ced694c51a81936b3",
-"class_c_v_tracked_features.html#a688eb648a88da7b57dce818d0fac64b4",
-"class_s_l_arrow.html#abacda1424c8444d7f1d6ffde9613fdbe",
-"class_s_l_coord_axis.html#a36a63d245562516600d43a56cbfa521d",
-"class_s_l_g_l_oculus_f_b.html#a6110a3b7d1fea642becbdad6adda212f",
-"class_s_l_g_l_texture.html#aa9805f42cd873dd9b98b6703d080f5fd",
-"class_s_l_light.html#a59385d39dc65a95aec0c135e7fd6264b",
-"class_s_l_material.html#a8cc29091fbbb1d7c7ccf6e83c7643d04",
-"class_s_l_object.html#a5dbcf74e93531b5fba17005173518599",
-"class_s_l_ray.html#af232d6312140396165523276db75ddf1",
-"class_s_l_scene_view.html#a1498028bce6a1447fcfbb7ed3b51882a",
-"class_s_l_triangle.html#a6c6879d876603c59b574f2b2038df511",
-"class_s_l_vec4.html#aee0ec12f4e5ef9d9615c3ec2f1b6de5e",
-"struct_c_v_tracked_features_1_1_s_l_frame_data.html#a92b820974e3d91694cb434d4177eeb8a"
+"_c_v_types_8h.html#a28e55d530c4f771725cec8e1d10d74d8",
+"_s_l_enums_8h.html#aae8867faff20f30a15c373a7608da628",
+"_s_l_g_l_program_manager_8h.html#afa167686eb252712b1d5d8f9e2ccf82ea6c21d9eb4c1219d40533cecbb27678ed",
+"_s_l_transfer_function_8h.html#a7e1381d0e7f745c0f23d0d23c31081efa993b01738ffe1b31e9d400fdccd5d904",
+"class_c_v_calibration.html#a48b14a8461e29600a3eb48f54178a9df",
+"class_c_v_raul_mur_orb.html#acb9b63a8468b2a38c80438ff899dfa68",
+"class_s_l_anim_playback.html#af4e7fb0556c7f11dc62a92d910e9d712",
+"class_s_l_compact_grid.html#a8869524cd56e8287a1b90ed8eaec4b46",
+"class_s_l_g_l_conetracer_tex3_d.html",
+"class_s_l_g_l_state.html#a610f129d27c2f9ff094616cdfc7b8a99",
+"class_s_l_importer.html#aab20129db0d7def5e1951dec8e412e4b",
+"class_s_l_mat3.html#a409b674f2cdad0ed1ca52c3948ea9196",
+"class_s_l_mesh.html#abf617471b084c7f1d22fd7fe49d531b8",
+"class_s_l_points.html",
+"class_s_l_rect.html#a9ced6ef942f4996f41de1bdea973980e",
+"class_s_l_scene_view.html#ac3a922ecbbe17aa3f7d89e2e8d4956d6",
+"class_s_l_vec2.html#a06d03ebc8290538b444385c57c075f75",
+"class_s_l_vector.html#a49cfaecbaa567977f09c9f28bc886685",
+"struct_c_v_tracked_features_1_1_s_l_frame_data.html#a19cbe0bf3d7b6f49be9c09aa1c68b426"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -3,6 +3,7 @@ var classgl_utils =
     [ "build3DTexture", "classgl_utils.html#a158ed6a21773300229a89263f131d360", null ],
     [ "buildProgram", "classgl_utils.html#a3b273399dc03007a761523a2b7b2f142", null ],
     [ "buildShader", "classgl_utils.html#a792b4ccda0b079879f0108af7470aeda", null ],
+    [ "buildShaderFromSource", "classgl_utils.html#a6f4d812be23970f1ce67144f6b8641b6", null ],
     [ "buildTexture", "classgl_utils.html#a37e5418c5b45dff7e8e938f6faa6829e", null ],
     [ "buildVAO", "classgl_utils.html#acb19272e3db32c946a830f87c5bf7418", null ],
     [ "buildVBO", "classgl_utils.html#a4e9210275cdb0a69b96c1fdca24f3fff", null ],

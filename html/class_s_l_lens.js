@@ -1,7 +1,7 @@
 var class_s_l_lens =
 [
-    [ "SLLens", "class_s_l_lens.html#a9842a2d3a9e3f3aac7acdc4f3d3abc82", null ],
-    [ "SLLens", "class_s_l_lens.html#a7acd468ee8fa036e99789aa9b9c4769f", null ],
+    [ "SLLens", "class_s_l_lens.html#a2e8ad095ade61efeb781614ff124e373", null ],
+    [ "SLLens", "class_s_l_lens.html#a103ac12777fd3e70422f114fb3ab71b8", null ],
     [ "calcSagitta", "class_s_l_lens.html#a2715fa35a406a2398258bc59e3c30e96", null ],
     [ "generateLens", "class_s_l_lens.html#a6b72bcb60c07739fa380fae8d9485934", null ],
     [ "generateLensBot", "class_s_l_lens.html#aacfb3e75a614ba8c9d1b56e780bd09e4", null ],

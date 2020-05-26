@@ -37,6 +37,7 @@ The code is provided without any warranties whether expressed or implied.
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/Folder-Structure">Repository folder structure</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/Coding-Style-Guidelines">Coding Style Guidelines for Contributors</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/Generate-the-Documentation">How to generate the HTML Documentation using Doxygen</a></li>
+<li><a href="https://github.com/cpvrlab/SLProject/wiki/Data-Protection-Declaration">Data Protection Declaration</a></li>
 <li><a href="http://cpvrlab.github.io/SLProject_doc/html/index.html">Online HTML Documentation</a></li>
 </ul>
 

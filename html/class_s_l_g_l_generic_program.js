@@ -1,6 +1,8 @@
 var class_s_l_g_l_generic_program =
 [
-    [ "SLGLGenericProgram", "class_s_l_g_l_generic_program.html#a63ce097658f7770e0558307efc27708f", null ],
-    [ "beginShader", "class_s_l_g_l_generic_program.html#a23431bf666e31ef48f2b225f6b872ecc", null ],
-    [ "endShader", "class_s_l_g_l_generic_program.html#ab20c4f9ad83b791f56fa10459926dfad", null ]
+    [ "~SLGLGenericProgram", "class_s_l_g_l_generic_program.html#a8a234b2856c86af03724f0757b03c3d1", null ],
+    [ "SLGLGenericProgram", "class_s_l_g_l_generic_program.html#a030e80443f5bcf3f841d1af45ae89dfa", null ],
+    [ "SLGLGenericProgram", "class_s_l_g_l_generic_program.html#ac824273557696047421eefdfc16d5341", null ],
+    [ "beginShader", "class_s_l_g_l_generic_program.html#ab9f5a51f62a15e76e78db6ad974cdfa5", null ],
+    [ "endShader", "class_s_l_g_l_generic_program.html#aa604a2df1d225c1d4a67c720e97ded18", null ]
 ];

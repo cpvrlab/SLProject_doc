@@ -1,6 +1,10 @@
 <map id="Utils.h" name="Utils.h">
-<area shape="rect" id="node1" title=" " alt="" coords="83,5,141,31"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,79,59,104"/>
-<area shape="rect" id="node3" title=" " alt="" coords="83,79,141,104"/>
-<area shape="rect" id="node4" title=" " alt="" coords="166,79,219,104"/>
+<area shape="rect" id="node1" title=" " alt="" coords="154,5,214,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="290,155,345,181"/>
+<area shape="rect" id="node3" title=" " alt="" coords="23,80,82,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="106,80,161,107"/>
+<area shape="rect" id="node5" title=" " alt="" coords="76,155,146,181"/>
+<area shape="rect" id="node6" href="$_file_log_8h.html" title=" " alt="" coords="360,80,435,107"/>
+<area shape="rect" id="node8" href="$_custom_log_8h.html" title=" " alt="" coords="185,80,285,107"/>
+<area shape="rect" id="node7" title=" " alt="" coords="370,155,436,181"/>
 </map>

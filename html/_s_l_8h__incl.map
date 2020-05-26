@@ -1,7 +1,11 @@
 <map id="SL.h" name="SL.h">
-<area shape="rect" id="node1" title=" " alt="" coords="88,5,137,31"/>
-<area shape="rect" id="node2" href="$_utils_8h.html" title=" " alt="" coords="83,79,141,104"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,152,59,177"/>
-<area shape="rect" id="node4" title=" " alt="" coords="83,152,141,177"/>
-<area shape="rect" id="node5" title=" " alt="" coords="166,152,219,177"/>
+<area shape="rect" id="node1" title=" " alt="" coords="160,5,209,32"/>
+<area shape="rect" id="node2" href="$_utils_8h.html" title=" " alt="" coords="154,80,214,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="290,229,345,256"/>
+<area shape="rect" id="node4" title=" " alt="" coords="23,155,82,181"/>
+<area shape="rect" id="node5" title=" " alt="" coords="106,155,161,181"/>
+<area shape="rect" id="node6" title=" " alt="" coords="76,229,146,256"/>
+<area shape="rect" id="node7" href="$_file_log_8h.html" title=" " alt="" coords="360,155,435,181"/>
+<area shape="rect" id="node9" href="$_custom_log_8h.html" title=" " alt="" coords="185,155,285,181"/>
+<area shape="rect" id="node8" title=" " alt="" coords="370,229,436,256"/>
 </map>

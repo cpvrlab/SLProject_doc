@@ -117,6 +117,7 @@ var _s_l_enums_8h =
     ] ],
     [ "SLProjection", "_s_l_enums_8h.html#a70e4993b9e12800feca0f1059602ea58", [
       [ "P_monoPerspective", "_s_l_enums_8h.html#a70e4993b9e12800feca0f1059602ea58a16e9db1d5e24d2f91cfc64d10ea7a987", null ],
+      [ "P_monoIntrinsic", "_s_l_enums_8h.html#a70e4993b9e12800feca0f1059602ea58a3ba658fc637cd3064f3d14875e7179a2", null ],
       [ "P_monoOrthographic", "_s_l_enums_8h.html#a70e4993b9e12800feca0f1059602ea58ad4a70a61e3b7faf9786b49ba98694b54", null ],
       [ "P_stereoSideBySide", "_s_l_enums_8h.html#a70e4993b9e12800feca0f1059602ea58a98dca78080194c11860111b335ea35dd", null ],
       [ "P_stereoSideBySideP", "_s_l_enums_8h.html#a70e4993b9e12800feca0f1059602ea58a2c029eb25e4873d337e9adbd9b531b89", null ],
@@ -132,7 +133,10 @@ var _s_l_enums_8h =
     [ "SLRenderType", "_s_l_enums_8h.html#a52a22949ac9930a950f25914c096dd57", [
       [ "RT_gl", "_s_l_enums_8h.html#a52a22949ac9930a950f25914c096dd57a1a5ce19eeca276186737d04767d12937", null ],
       [ "RT_rt", "_s_l_enums_8h.html#a52a22949ac9930a950f25914c096dd57a0b3e878ff7d9d9fd5e659874fa2c1766", null ],
-      [ "RT_pt", "_s_l_enums_8h.html#a52a22949ac9930a950f25914c096dd57a149ec60657c3930ee2c68f17ae24fa0c", null ]
+      [ "RT_pt", "_s_l_enums_8h.html#a52a22949ac9930a950f25914c096dd57a149ec60657c3930ee2c68f17ae24fa0c", null ],
+      [ "RT_ct", "_s_l_enums_8h.html#a52a22949ac9930a950f25914c096dd57a6e145b6fdc967699ede7f83557141824", null ],
+      [ "RT_optix_rt", "_s_l_enums_8h.html#a52a22949ac9930a950f25914c096dd57a3957e4c50fdcc33dfa4a504fa1327dd1", null ],
+      [ "RT_optix_pt", "_s_l_enums_8h.html#a52a22949ac9930a950f25914c096dd57a2cdd412667c27b7832ec316720459ac9", null ]
     ] ],
     [ "SLSceneID", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71", [
       [ "SID_FromFile", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a42c329dd0393acd8a8431b1cbac6a2e8", null ],
@@ -159,6 +163,7 @@ var _s_l_enums_8h =
       [ "SID_ShaderBumpParallax", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71ac86fc5c754c0ab58515fb865fc95668b", null ],
       [ "SID_ShaderSkyBox", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a82cba8359425f8251075996a9be3fced", null ],
       [ "SID_ShaderEarth", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a44e8ce53bcfcbd26882985cd3b54b16d", null ],
+      [ "SID_ShaderVoxelConeDemo", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a1ca71a06f9d65ea358dddbadd1fef398", null ],
       [ "SID_VolumeRayCast", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a469de9218f9278221084720dcccbfb8a", null ],
       [ "SID_VolumeRayCastLighted", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71aaf939f4bc751a7634c55e48852fcb04f", null ],
       [ "SID_AnimationMass", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a951531f2818879c64a7e12b9ea2f1d95", null ],
@@ -168,6 +173,10 @@ var _s_l_enums_8h =
       [ "SID_VideoTextureLive", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a477d316e04149b17f7ed8106dad7bbe6", null ],
       [ "SID_VideoTextureFile", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a75f5da8c167c4c678b42005220c65643", null ],
       [ "SID_VideoChristoffel", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a6a7b7d90f2c53f282a0d3f2db1bfe376", null ],
+      [ "SID_VideoAugustaRaurica", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a3b585000787071e1a1f746605bb16231", null ],
+      [ "SID_VideoAventicumAmphi", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71afc0c164a954dee3152cf9349859be9ae", null ],
+      [ "SID_VideoAventicumCigonier", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71ac6df806e92026663d57e1274f5e7423b", null ],
+      [ "SID_VideoAventicumTheatre", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a8a3ae6b557a78a2e25b52be0bfabfb25", null ],
       [ "SID_VideoCalibrateMain", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71ac42c45e046aef51c74e7990eb68db99d", null ],
       [ "SID_VideoCalibrateScnd", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a5be3ab6be9ac7b544da1b72f1483f18e", null ],
       [ "SID_VideoTrackChessMain", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71ac627fe9d6b9e5959fa74bb2fab5d9147", null ],
@@ -186,23 +195,6 @@ var _s_l_enums_8h =
       [ "SID_RTLens", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a9d01b0c243290901bc089b3c61a65101", null ],
       [ "SID_RTTest", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a326fbccaf9f85aff3fed0ad6d575804a", null ],
       [ "SID_Maximal", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71abbb9ee8f2fb7f818f6f7faf0ab48e3e4", null ]
-    ] ],
-    [ "SLShaderProg", "_s_l_enums_8h.html#aedc44d186f57a6099fe3da9c3ca131dc", [
-      [ "SP_colorAttribute", "_s_l_enums_8h.html#aedc44d186f57a6099fe3da9c3ca131dca5c34076f3fd5c27ccc99a23996c3412a", null ],
-      [ "SP_colorUniform", "_s_l_enums_8h.html#aedc44d186f57a6099fe3da9c3ca131dca1b5fd0c71524f701db45889aaa4293dc", null ],
-      [ "SP_perVrtBlinn", "_s_l_enums_8h.html#aedc44d186f57a6099fe3da9c3ca131dcaf9eb37e59d3bec8f9806588504515e02", null ],
-      [ "SP_perVrtBlinnColorAttrib", "_s_l_enums_8h.html#aedc44d186f57a6099fe3da9c3ca131dca2728b21b2f78149ba857b07c80e2a3ef", null ],
-      [ "SP_perVrtBlinnTex", "_s_l_enums_8h.html#aedc44d186f57a6099fe3da9c3ca131dca82cfefb8c2579d54ad93e060c97244ad", null ],
-      [ "SP_TextureOnly", "_s_l_enums_8h.html#aedc44d186f57a6099fe3da9c3ca131dcabd49f72026d55fa452d7a797cd6b745f", null ],
-      [ "SP_perPixBlinn", "_s_l_enums_8h.html#aedc44d186f57a6099fe3da9c3ca131dcadd245d7222f91d1cd1ef383354d0a5a5", null ],
-      [ "SP_perPixBlinnTex", "_s_l_enums_8h.html#aedc44d186f57a6099fe3da9c3ca131dcad7b7c821cdeb467aec29cdb0dae23e52", null ],
-      [ "SP_perPixCookTorrance", "_s_l_enums_8h.html#aedc44d186f57a6099fe3da9c3ca131dca4f5d61a8c3c7c568382364cbd71d2ae2", null ],
-      [ "SP_perPixCookTorranceTex", "_s_l_enums_8h.html#aedc44d186f57a6099fe3da9c3ca131dca6c21d9eb4c1219d40533cecbb27678ed", null ],
-      [ "SP_bumpNormal", "_s_l_enums_8h.html#aedc44d186f57a6099fe3da9c3ca131dca8ddf0e0a1781b6cff90ebc4d088a8904", null ],
-      [ "SP_bumpNormalParallax", "_s_l_enums_8h.html#aedc44d186f57a6099fe3da9c3ca131dca7a12855219642e9393b79e7b9e63ebc7", null ],
-      [ "SP_fontTex", "_s_l_enums_8h.html#aedc44d186f57a6099fe3da9c3ca131dcae01324575ec8d4be53338ed89fa1eb20", null ],
-      [ "SP_stereoOculus", "_s_l_enums_8h.html#aedc44d186f57a6099fe3da9c3ca131dcac985b4c5f54c64434c7b9a0d076ff3c3", null ],
-      [ "SP_stereoOculusDistortion", "_s_l_enums_8h.html#aedc44d186f57a6099fe3da9c3ca131dca36ed76290ce21b7ac5044451df97ca02", null ]
     ] ],
     [ "SLShaderType", "_s_l_enums_8h.html#a5fa3763671bb522a817da51b17eaa1a5", [
       [ "ST_none", "_s_l_enums_8h.html#a5fa3763671bb522a817da51b17eaa1a5a4d2c8a1d798a49b1e861c5b5a628db87", null ],

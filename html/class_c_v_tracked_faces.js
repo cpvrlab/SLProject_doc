@@ -1,6 +1,6 @@
 var class_c_v_tracked_faces =
 [
-    [ "CVTrackedFaces", "class_c_v_tracked_faces.html#a7992d3ff47082dae520e4d8da433a546", null ],
+    [ "CVTrackedFaces", "class_c_v_tracked_faces.html#a9de03aac0a7acea60ffc9373ce5ca243", null ],
     [ "~CVTrackedFaces", "class_c_v_tracked_faces.html#a835dad88b62d515d77ca9194a5d46e29", null ],
     [ "delaunayTriangulate", "class_c_v_tracked_faces.html#a0270245c940b65a93a958ac924e26685", null ],
     [ "track", "class_c_v_tracked_faces.html#a402be5bb5c076eaf861c78508e34bc1d", null ],

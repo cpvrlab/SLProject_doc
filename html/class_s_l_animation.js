@@ -6,7 +6,6 @@ var class_s_l_animation =
     [ "apply", "class_s_l_animation.html#abea1409894aa5e16f290ad12485f61d6", null ],
     [ "apply", "class_s_l_animation.html#ad973d75f2b51f344a5fe08957cb43921", null ],
     [ "applyToNode", "class_s_l_animation.html#ad4d06fa8e6f8d4664e3864c6b3a328e0", null ],
-    [ "create", "class_s_l_animation.html#af8a17fa007cdc156fd5e25acf5ebfc3f", null ],
     [ "createEllipticNodeTrack", "class_s_l_animation.html#a10d4a1c92956a8269de473df035b9e29", null ],
     [ "createNodeAnimationTrack", "class_s_l_animation.html#ab752cbb25f57b07d6c653f2cb00b0b34", null ],
     [ "createNodeAnimationTrack", "class_s_l_animation.html#a81e3c05ad2044568c9de55523f50f714", null ],

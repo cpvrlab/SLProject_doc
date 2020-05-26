@@ -1,0 +1,4 @@
+<map id="CVTrackedWAI" name="CVTrackedWAI">
+<area shape="rect" id="node1" title="Tracker that uses the ORB&#45;Slam based WAI library (Where Am I)" alt="" coords="5,80,119,107"/>
+<area shape="rect" id="node2" href="$class_c_v_tracked.html" title="CVTracked is the pure virtual base class for tracking features in video." alt="" coords="18,5,106,32"/>
+</map>

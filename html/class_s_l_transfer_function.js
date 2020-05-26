@@ -1,7 +1,7 @@
 var class_s_l_transfer_function =
 [
-    [ "SLTransferFunction", "class_s_l_transfer_function.html#aa666238edffd94e443b17e6071bbd126", null ],
-    [ "SLTransferFunction", "class_s_l_transfer_function.html#ace4dc181c98b8b1f76f7999ec2261329", null ],
+    [ "SLTransferFunction", "class_s_l_transfer_function.html#a75a32b163ac475d1fbd83fce852cd7ae", null ],
+    [ "SLTransferFunction", "class_s_l_transfer_function.html#a5b2b16b64ce4aa2566f6b17bc510498d", null ],
     [ "~SLTransferFunction", "class_s_l_transfer_function.html#af8a8df7a2e9a12122d33a4990e679dff", null ],
     [ "allAlphas", "class_s_l_transfer_function.html#a0c22bf61417b7f9b06f63fc6336c2b40", null ],
     [ "alphas", "class_s_l_transfer_function.html#ab2facb8a76901104b049781e0404febc", null ],

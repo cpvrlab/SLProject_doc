@@ -1,7 +1,7 @@
 var class_c_v_aruco_params =
 [
     [ "CVArucoParams", "class_c_v_aruco_params.html#a4ab5ff32752ea27b008303eb99ab1fed", null ],
-    [ "loadFromFile", "class_c_v_aruco_params.html#a08f50692ece35d6e101042eedd79ec69", null ],
+    [ "loadFromFile", "class_c_v_aruco_params.html#a7bf133b05fbdbdede990b6e14c7e200f", null ],
     [ "arucoDetectorParams", "class_c_v_aruco_params.html#abf21b35fdfa7c7c7e9897f34eee6e7bc", null ],
     [ "arucoDictionaryId", "class_c_v_aruco_params.html#a310df7ea4b93a434bcb01461fe137559", null ],
     [ "arucoParams", "class_c_v_aruco_params.html#ab008ca8deaa9d002586a80488e359683", null ],
