@@ -47,6 +47,5 @@ var class_c_v_image =
     [ "_cvMat", "class_c_v_image.html#ac536e0d1b5f9166dc1e797d2b2e76da2", null ],
     [ "_format", "class_c_v_image.html#a71b63b84662933dd04bc1d11a7959d7c", null ],
     [ "_name", "class_c_v_image.html#afac5b9d16ffd1af56228970f08fcf83b", null ],
-    [ "_path", "class_c_v_image.html#abf793c3c2db51d8fb26dc1b54937d364", null ],
-    [ "defaultPath", "class_c_v_image.html#affdb4f7cb2fbf3f91c7698c64732ee8a", null ]
+    [ "_path", "class_c_v_image.html#abf793c3c2db51d8fb26dc1b54937d364", null ]
 ];

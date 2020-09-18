@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">3.0.0</span>
+   &#160;<span id="projectnumber">3.1.0</span>
    </div>
   </td>
  </tr>
@@ -71,6 +71,8 @@ $(document).ready(function(){initNavTree('functions_n.html',''); initResizable()
 <li>name
 : <a class="el" href="struct_average_timing_block.html#a1e855d7a23c2020bc069e6627711290f">AverageTimingBlock</a>
 , <a class="el" href="class_c_v_image.html#a8d208741a6a891e30272c3e4b3ab2171">CVImage</a>
+, <a class="el" href="struct_instrumentation_session.html#a20ac740022b4aaf629500e71a66ab490">InstrumentationSession</a>
+, <a class="el" href="struct_profile_result.html#a954195292da9d58454be1df1c8c8ab45">ProfileResult</a>
 , <a class="el" href="class_s_l_animation.html#aa39f33bfc313cb04e493cc76b2fea3ae">SLAnimation</a>
 , <a class="el" href="class_s_l_g_l_uniform.html#ac073a8b7037a3e92fd5f954d00fa0ccd">SLGLUniform&lt; T &gt;</a>
 , <a class="el" href="class_s_l_object.html#a801d395f3b263f7f06f6208461bdd096">SLObject</a>
@@ -86,7 +88,7 @@ $(document).ready(function(){initNavTree('functions_n.html',''); initResizable()
 : <a class="el" href="class_s_l_material.html#ab9cd6818a694e71726c040c92c70dfff">SLMaterial</a>
 </li>
 <li>needsUpdate()
-: <a class="el" href="class_s_l_g_l_texture.html#adfdb7ebe81868acb86b65559c097c864">SLGLTexture</a>
+: <a class="el" href="class_s_l_g_l_texture.html#a0d54acedef34997746fe9cf4f6346a8a">SLGLTexture</a>
 </li>
 <li>needUpdate()
 : <a class="el" href="class_s_l_joint.html#ad16f755f60b1356c06055445b93a250b">SLJoint</a>
@@ -100,9 +102,6 @@ $(document).ready(function(){initNavTree('functions_n.html',''); initResizable()
 </li>
 <li>nextKeyframeTime()
 : <a class="el" href="class_s_l_animation.html#ad13b924b0d459e3d558fcdc947e4856a">SLAnimation</a>
-</li>
-<li>nextPowerOf2()
-: <a class="el" href="class_s_l_g_l_texture.html#abcc587a4cfa87fdc17441e3337c10655">SLGLTexture</a>
 </li>
 <li>nfeatures
 : <a class="el" href="class_c_v_raul_mur_orb.html#aa9c1505ea27aec00eba2855a5419233a">CVRaulMurOrb</a>
@@ -125,17 +124,26 @@ $(document).ready(function(){initNavTree('functions_n.html',''); initResizable()
 <li>nodeReflectance()
 : <a class="el" href="class_s_l_ray.html#a4e2ea4de6e1d321dd1b19f65e5f13c92">SLRay</a>
 </li>
-<li>nodesBlended()
-: <a class="el" href="class_s_l_scene_view.html#ac65eca79385e6a209118952157172223">SLSceneView</a>
+<li>nodesBlended2D()
+: <a class="el" href="class_s_l_scene_view.html#a678eab43d38b75db3f15522ed5a6d10b">SLSceneView</a>
+</li>
+<li>nodesBlended3D()
+: <a class="el" href="class_s_l_scene_view.html#abbcb1eca5ab64bcefa4d906b61e38970">SLSceneView</a>
+</li>
+<li>nodesOpaque2D()
+: <a class="el" href="class_s_l_scene_view.html#a0d730b75c52c5a924536198cb4cc6433">SLSceneView</a>
+</li>
+<li>nodesOpaque3D()
+: <a class="el" href="class_s_l_scene_view.html#a62c960e39aeb4d97355004b17886f10d">SLSceneView</a>
 </li>
 <li>nodesOverdrawn()
-: <a class="el" href="class_s_l_scene_view.html#a83ace41f93d2d2c7be448799594b40f7">SLSceneView</a>
-</li>
-<li>nodesVisible()
-: <a class="el" href="class_s_l_scene_view.html#a7fa8e20bada79729db7b6df33071a071">SLSceneView</a>
+: <a class="el" href="class_s_l_scene_view.html#acfbcec20b5c296c6f3c13a54795b62c2">SLSceneView</a>
 </li>
 <li>nodesVisible2D()
-: <a class="el" href="class_s_l_scene_view.html#a5a9171167d8bfbb097922a0f6f4f88ca">SLSceneView</a>
+: <a class="el" href="class_s_l_material.html#a332949939af6952dda93b61c0e6ec74e">SLMaterial</a>
+</li>
+<li>nodesVisible3D()
+: <a class="el" href="class_s_l_material.html#aaead9efe0bdcd02899e9698b5bf3716b">SLMaterial</a>
 </li>
 <li>nodeTransparency()
 : <a class="el" href="class_s_l_ray.html#a98153f3790d46c5e9fe1f64f2708f541">SLRay</a>
@@ -185,17 +193,17 @@ $(document).ready(function(){initNavTree('functions_n.html',''); initResizable()
 <li>NumEvents
 : <a class="el" href="class_s_l_input_event.html#aa88b00108ecb4633bc34c3b8525d2854a016eccc86519157655058e5f5546efed">SLInputEvent</a>
 </li>
-<li>numGroupNodes
-: <a class="el" href="struct_s_l_node_stats.html#ac1c6a7251c7eb9c936bca6bfc1856d27">SLNodeStats</a>
-</li>
 <li>numI()
-: <a class="el" href="class_s_l_mesh.html#a0204e67308ccc93bd965d235329f0e4b">SLMesh</a>
+: <a class="el" href="class_s_l_mesh.html#af92e0d247566ab18e2870740fc5d5dca">SLMesh</a>
 </li>
 <li>numImgsToCapture()
 : <a class="el" href="class_c_v_calibration_estimator.html#abba04f53bdda36cefda928c27906a622">CVCalibrationEstimator</a>
 </li>
-<li>numIndices()
-: <a class="el" href="class_s_l_g_l_vertex_array.html#aa4526f973ddbc1dcbb30552e4651bf82">SLGLVertexArray</a>
+<li>numIndicesEdges()
+: <a class="el" href="class_s_l_g_l_vertex_array.html#afbedf077e18703e7dd0c9bfc9cce69fa">SLGLVertexArray</a>
+</li>
+<li>numIndicesElements()
+: <a class="el" href="class_s_l_g_l_vertex_array.html#ac476ed47b4d69edc8b8a3536b404391d">SLGLVertexArray</a>
 </li>
 <li>numJoints()
 : <a class="el" href="class_s_l_skeleton.html#ad216d92bc5197d0de944b44c39b1c960">SLSkeleton</a>
@@ -203,24 +211,29 @@ $(document).ready(function(){initNavTree('functions_n.html',''); initResizable()
 <li>numKeyframes()
 : <a class="el" href="class_s_l_anim_track.html#aaa4ae5e0d4277a85776c83a67e95d60c">SLAnimTrack</a>
 </li>
-<li>numLeafNodes
-: <a class="el" href="struct_s_l_node_stats.html#af5ec55ac5eb309c74f45f0bd9462dcb2">SLNodeStats</a>
-</li>
 <li>numLights
 : <a class="el" href="struct_s_l_node_stats.html#a8891c5e6e22775c6997b0a259bf0731d">SLNodeStats</a>
-</li>
-<li>numLightsUsed
-: <a class="el" href="class_s_l_g_l_state.html#ab35cc65ec948bb86cf4b9046ad8aaf79">SLGLState</a>
 </li>
 <li>numLines
 : <a class="el" href="struct_s_l_node_stats.html#ab7cc75f652c8526e785255aa0ab85204">SLNodeStats</a>
 </li>
-<li>numMeshes()
-: <a class="el" href="class_s_l_node.html#ab69a0e079c1a0236e8eeb55366389370">SLNode</a>
-, <a class="el" href="struct_s_l_node_stats.html#a752a1ef610ab2d7442db78cc0e0694a8">SLNodeStats</a>
+<li>numMeshes
+: <a class="el" href="struct_s_l_node_stats.html#a752a1ef610ab2d7442db78cc0e0694a8">SLNodeStats</a>
 </li>
 <li>numNodes
 : <a class="el" href="struct_s_l_node_stats.html#a837c38cc9126d2cd64bff42a7672c4f0">SLNodeStats</a>
+</li>
+<li>numNodesBlended
+: <a class="el" href="struct_s_l_node_stats.html#a9c86671c632d99e6798053baa00b93c3">SLNodeStats</a>
+</li>
+<li>numNodesGroup
+: <a class="el" href="struct_s_l_node_stats.html#ace5555743af5359c24b4d435a6250f96">SLNodeStats</a>
+</li>
+<li>numNodesLeaf
+: <a class="el" href="struct_s_l_node_stats.html#ab0254049b9ec38c9701504523fbb9272">SLNodeStats</a>
+</li>
+<li>numNodesOpaque
+: <a class="el" href="struct_s_l_node_stats.html#a66728104a82d93929c13b81221f76813">SLNodeStats</a>
 </li>
 <li>numSceneCameras()
 : <a class="el" href="class_s_l_scene.html#a3152119889d6d0988df5dba5f60d0473">SLScene</a>
@@ -252,7 +265,7 @@ $(document).ready(function(){initNavTree('functions_n.html',''); initResizable()
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue May 26 2020 10:23:34 for SLProject by
+    <li class="footer">Generated on Fri Sep 18 2020 14:31:39 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.18 </li>
   </ul>

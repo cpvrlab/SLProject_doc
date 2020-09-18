@@ -55,7 +55,7 @@ var class_s_l_raytracer =
     [ "_LR", "class_s_l_raytracer.html#a4713b84ad620113432fc22dd17e05356", null ],
     [ "_LU", "class_s_l_raytracer.html#aaf7d013406f91803d2ab9a153eb437c1", null ],
     [ "_maxDepth", "class_s_l_raytracer.html#a9c79e2907986971323c7c82b42d7622c", null ],
-    [ "_next", "class_s_l_raytracer.html#a079f0a690b2e99c458b193a4633d2170", null ],
+    [ "_nextLine", "class_s_l_raytracer.html#a6650121249ba6f5c2588028e13ab74c5", null ],
     [ "_oneOverGamma", "class_s_l_raytracer.html#a16eb24ff6d8f6e0923a3d9ab5c6df731", null ],
     [ "_progressPC", "class_s_l_raytracer.html#adf185496e2e783525c234ea3c07d3f84", null ],
     [ "_pxSize", "class_s_l_raytracer.html#ad9498fed343fea2c656db35434419fe8", null ],

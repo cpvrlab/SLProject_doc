@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">3.0.0</span>
+   &#160;<span id="projectnumber">3.1.0</span>
    </div>
   </td>
  </tr>
@@ -80,10 +80,11 @@ $(document).ready(function(){initNavTree('functions_a.html',''); initResizable()
 </li>
 <li>activate()
 : <a class="el" href="class_s_l_g_l_conetracer_tex3_d.html#ac571dff7f4acefefd75ed3ea8bf84d04">SLGLConetracerTex3D</a>
-, <a class="el" href="class_s_l_material.html#a54ac1805c44d2dd069d68b14e643a357">SLMaterial</a>
+, <a class="el" href="class_s_l_material.html#a9a80a71c8f8c66392a938fcf27409a5a">SLMaterial</a>
 </li>
 <li>activateAsTexture()
-: <a class="el" href="class_s_l_g_l_fbo.html#aeeb1444eeeb3c30f0f8602d5a97c0fbe">SLGLFbo</a>
+: <a class="el" href="class_s_l_g_l_depth_buffer.html#a52e808cc7ff4efd0d313619a01cc0a03">SLGLDepthBuffer</a>
+, <a class="el" href="class_s_l_g_l_fbo.html#a0b4cdd49ee5b5ab5f8ec36207e6cbdb5">SLGLFbo</a>
 </li>
 <li>activeTexture()
 : <a class="el" href="class_s_l_g_l_state.html#a1692a95845f102e095a7164b16e17238">SLGLState</a>
@@ -94,7 +95,7 @@ $(document).ready(function(){initNavTree('functions_a.html',''); initResizable()
 <li>add()
 : <a class="el" href="class_s_l_mat4.html#a44598a010371eb2c1520c8a0734e52c8">SLMat4&lt; T &gt;</a>
 , <a class="el" href="class_s_l_vec2.html#a8289039d948d3827a06eb9039d935aa3">SLVec2&lt; T &gt;</a>
-, <a class="el" href="class_s_l_vec3.html#a2c7889f500e8b2ae832ec0d6d903bd1a">SLVec3&lt; T &gt;</a>
+, <a class="el" href="class_s_l_vec3.html#a0ed2694af5653a199177ddc85df7d57b">SLVec3&lt; T &gt;</a>
 , <a class="el" href="class_s_l_vec4.html#a30d729fed432057cf1d0796b9096cf21">SLVec4&lt; T &gt;</a>
 </li>
 <li>addAnimation()
@@ -108,6 +109,16 @@ $(document).ready(function(){initNavTree('functions_a.html',''); initResizable()
 </li>
 <li>addNodeAnimation()
 : <a class="el" href="class_s_l_anim_manager.html#a6570097bb26dcd8a47302c3d6143ab98">SLAnimManager</a>
+</li>
+<li>addProfile()
+: <a class="el" href="class_instrumentor.html#a5bd1abfccdbcd8851bed0ddfb5450ae4">Instrumentor</a>
+</li>
+<li>addr
+: <a class="el" href="struct_d_n_s_request.html#ad7a6b0b8ddd7285a44e47be4cf353956">DNSRequest</a>
+, <a class="el" href="struct_http_utils_1_1_get_request.html#a0975c6ea7d0672b6300494cd30bd0d2b">HttpUtils::GetRequest</a>
+</li>
+<li>addrlen
+: <a class="el" href="struct_socket.html#ac07fff816650e1f8dd8ef9dc78b3abde">Socket</a>
 </li>
 <li>addShader()
 : <a class="el" href="class_s_l_g_l_program.html#a7dcaeaeedc4f33cf29b1a381d92462d6">SLGLProgram</a>
@@ -169,15 +180,28 @@ $(document).ready(function(){initNavTree('functions_a.html',''); initResizable()
 <li>altGpsM()
 : <a class="el" href="class_s_l_device_location.html#a3eaedfea22fc69b7284df52ee3b6906c">SLDeviceLocation</a>
 </li>
-<li>ambient()
-: <a class="el" href="class_s_l_light.html#a387ff9285c2946b1c77b2d78b6ebc0f0">SLLight</a>
+<li>ambiDiffColor()
+: <a class="el" href="class_s_l_light.html#ae84f6a0d02e77419fbce95d58c4eb7ef">SLLight</a>
+</li>
+<li>ambiDiffPowers()
+: <a class="el" href="class_s_l_light.html#a7c1331dd7b256f7d5c2e9206d1c3fbc5">SLLight</a>
+</li>
+<li>ambient
+: <a class="el" href="structlight_data_std140.html#a3af26aa5bd6b4939a840a1bda6fe7345">lightDataStd140</a>
+, <a class="el" href="class_s_l_light.html#a94ce392eec240a00718ffe5f83ca7175">SLLight</a>
 , <a class="el" href="class_s_l_material.html#a9f18336cbbaad5d94ff14fe37acefd23">SLMaterial</a>
+</li>
+<li>ambientColor()
+: <a class="el" href="class_s_l_light.html#a0af9e16561334f6314849e10a8e348a9">SLLight</a>
 </li>
 <li>ambientDiffuse()
 : <a class="el" href="class_s_l_material.html#aa07153400022ab91333781898c6fc77c">SLMaterial</a>
 </li>
+<li>ambientPower()
+: <a class="el" href="class_s_l_light.html#a6ff9c766f1448a238a6e331b5bcc31cb">SLLight</a>
+</li>
 <li>animatedNode()
-: <a class="el" href="class_s_l_node_anim_track.html#a1516b42978d19ab3034e8a8633342c89">SLNodeAnimTrack</a>
+: <a class="el" href="class_s_l_node_anim_track.html#a21bab9acff7be071e65b6ca42bd797f7">SLNodeAnimTrack</a>
 </li>
 <li>animation()
 : <a class="el" href="class_s_l_node.html#a2ffc2a50bf2de31f81ddd410bd9a7f8f">SLNode</a>
@@ -234,6 +258,9 @@ $(document).ready(function(){initNavTree('functions_a.html',''); initResizable()
 <li>attachment
 : <a class="el" href="class_s_l_g_l_fbo.html#a8813be408e7661f44e37a9d6909a4adf">SLGLFbo</a>
 </li>
+<li>attentuation
+: <a class="el" href="structlight_data_std140.html#a6d423bd7ad5f1325f7d45c10c8bb5baa">lightDataStd140</a>
+</li>
 <li>attenuation()
 : <a class="el" href="class_s_l_light.html#a1ebcb61ad38641a51fd35855be6b2ebe">SLLight</a>
 </li>
@@ -257,6 +284,9 @@ $(document).ready(function(){initNavTree('functions_a.html',''); initResizable()
 </li>
 <li>AverageTimingBlock()
 : <a class="el" href="struct_average_timing_block.html#a02a4735440977acdc269b5b7dc400036">AverageTimingBlock</a>
+</li>
+<li>avgColor()
+: <a class="el" href="class_s_l_background.html#a9a1862af22edb086e310de0c4d90f352">SLBackground</a>
 </li>
 <li>avgDepth
 : <a class="el" href="class_s_l_ray.html#aa762d7cf39da34f5bba83b14856777af">SLRay</a>
@@ -288,7 +318,7 @@ $(document).ready(function(){initNavTree('functions_a.html',''); initResizable()
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue May 26 2020 10:23:34 for SLProject by
+    <li class="footer">Generated on Fri Sep 18 2020 14:31:39 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.18 </li>
   </ul>

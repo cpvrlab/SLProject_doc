@@ -1,6 +1,6 @@
 var class_s_l_g_l_conetracer =
 [
-    [ "SLGLConetracer", "class_s_l_g_l_conetracer.html#a5254a791a0b4c720fedf52b6a294d681", null ],
+    [ "SLGLConetracer", "class_s_l_g_l_conetracer.html#ac1d9cf6c7ab9b11c437b48d86b97ac62", null ],
     [ "~SLGLConetracer", "class_s_l_g_l_conetracer.html#a4819798e2577a0a3f4b53d75aa22c6a9", null ],
     [ "calcWS2VoxelSpaceTransform", "class_s_l_g_l_conetracer.html#a8933637ae88bbf288bb413b8a06101a4", null ],
     [ "diffuseConeAngle", "class_s_l_g_l_conetracer.html#a2c6ef7c58147de334444191447779db5", null ],
@@ -28,7 +28,6 @@ var class_s_l_g_l_conetracer =
     [ "toggleShadows", "class_s_l_g_l_conetracer.html#a57d8ed104bd66bad18387b16d545447c", null ],
     [ "toggleSpecIllumination", "class_s_l_g_l_conetracer.html#a3af316db9335c151b7370e614e740755", null ],
     [ "toggleVoxels", "class_s_l_g_l_conetracer.html#a800b9e93b83b1fc1ffef594d14f7b989", null ],
-    [ "uploadLights", "class_s_l_g_l_conetracer.html#ae1cbdb582e795eaf1dc9dae585deb677", null ],
     [ "uploadRenderSettings", "class_s_l_g_l_conetracer.html#ab798cee864097918967aaa5e4a2d205b", null ],
     [ "visualizeVoxels", "class_s_l_g_l_conetracer.html#ae9b3422b306979cd3094c037e48975f0", null ],
     [ "voxelize", "class_s_l_g_l_conetracer.html#a9cbe71f99b09b61c1f39a483f1a16502", null ],
@@ -45,6 +44,7 @@ var class_s_l_g_l_conetracer =
     [ "_lightMeshSize", "class_s_l_g_l_conetracer.html#aecd139ca688a1659345bfd7a1e532213", null ],
     [ "_programs", "class_s_l_g_l_conetracer.html#a35ae40b7cb5d6037aaddd697d8c4ed3c", null ],
     [ "_quadMesh", "class_s_l_g_l_conetracer.html#a3fc6f2c7e3c94d1248250af11a2c5d62", null ],
+    [ "_shaderFilePath", "class_s_l_g_l_conetracer.html#a8d6ac3afef5a5953aeabeaf9dfd7d6f1", null ],
     [ "_shadowConeAngle", "class_s_l_g_l_conetracer.html#ac2b08dddc7b96331411e456003156ecc", null ],
     [ "_showVoxels", "class_s_l_g_l_conetracer.html#abed3b6a85f5478d0f319471067d58743", null ],
     [ "_specularConeAngle", "class_s_l_g_l_conetracer.html#ac3539ff1525f03e00b5289802588a076", null ],

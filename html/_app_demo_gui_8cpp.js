@@ -18,6 +18,7 @@ var _app_demo_gui_8cpp =
     [ "grab_t_dach", "_app_demo_gui_8cpp.html#ac5332a31cfe541de89aca0885e3414b1", null ],
     [ "grab_t_fahn", "_app_demo_gui_8cpp.html#ac1c91a33c57729ecf9f5eeaa84335353", null ],
     [ "grab_t_stein", "_app_demo_gui_8cpp.html#a8ba6cc7e86a8581d50f90b71bd3b812f", null ],
+    [ "gTexMRI3D", "_app_demo_gui_8cpp.html#a3910d87d1156a4dbe79306d6eb2c3a59", null ],
     [ "mauer_dach", "_app_demo_gui_8cpp.html#af4872e3919a8d5842286654bfd214655", null ],
     [ "mauer_turm", "_app_demo_gui_8cpp.html#a6208632f95156eed186880e08208b00a", null ],
     [ "mauer_wand", "_app_demo_gui_8cpp.html#a85e825660b763e2672b6840dff84c9d0", null ],

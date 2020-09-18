@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">3.0.0</span>
+   &#160;<span id="projectnumber">3.1.0</span>
    </div>
   </td>
  </tr>
@@ -75,8 +75,12 @@ $(document).ready(function(){initNavTree('functions_func_p.html',''); initResiza
 <li>parentAnimation()
 : <a class="el" href="class_s_l_anim_playback.html#af71fa0eb0b217b23b27a09a8103b0318">SLAnimPlayback</a>
 </li>
+<li>passLightsToUniforms()
+: <a class="el" href="class_s_l_g_l_program.html#a3028e9efe182f78253fc9d98c6b7aa46">SLGLProgram</a>
+</li>
 <li>passToUniforms()
-: <a class="el" href="class_s_l_material.html#ab8824625023964dc18caac4734278cde">SLMaterial</a>
+: <a class="el" href="class_s_l_camera.html#a5641983dd86bc4fdf6ad01824066b59d">SLCamera</a>
+, <a class="el" href="class_s_l_material.html#ab8824625023964dc18caac4734278cde">SLMaterial</a>
 </li>
 <li>path()
 : <a class="el" href="class_c_v_image.html#aef4e863cd995f52c412f3d3a44d90dc4">CVImage</a>
@@ -86,6 +90,9 @@ $(document).ready(function(){initNavTree('functions_func_p.html',''); initResiza
 </li>
 <li>pause()
 : <a class="el" href="class_s_l_anim_playback.html#a351d10dae3c83c0e40c2517d4ab4b6bc">SLAnimPlayback</a>
+</li>
+<li>pcfLevel()
+: <a class="el" href="class_s_l_light.html#a156698a17dba3764bf5676ddc0aea92f">SLLight</a>
 </li>
 <li>performInitialScan()
 : <a class="el" href="class_s_l_assimp_importer.html#a9825a097709f15198efd57f9cd1398c5">SLAssimpImporter</a>
@@ -172,11 +179,17 @@ $(document).ready(function(){initNavTree('functions_func_p.html',''); initResiza
 <li>postSceneLoad()
 : <a class="el" href="class_s_l_scene_view.html#a77f5fb1ded630f90af994899405fa3fe">SLSceneView</a>
 </li>
+<li>powers()
+: <a class="el" href="class_s_l_light.html#aef0c88b934dec320fa218d10a13161c4">SLLight</a>
+</li>
 <li>preDraw()
 : <a class="el" href="class_s_l_scene_view.html#a8bf107904dbd39cb991a243ad7437de6">SLSceneView</a>
 </li>
 <li>prepareImage()
 : <a class="el" href="class_s_l_raytracer.html#a1b592f9b1ba8291735cb34f79a65a67b">SLRaytracer</a>
+</li>
+<li>preprocessPragmas()
+: <a class="el" href="class_s_l_g_l_shader.html#aad06db6f7d900ecc75b91b5996bb8ae3">SLGLShader</a>
 </li>
 <li>preShade()
 : <a class="el" href="class_s_l_camera.html#a31f43d488f2b44f27fabcac02b27578c">SLCamera</a>
@@ -217,7 +230,7 @@ $(document).ready(function(){initNavTree('functions_func_p.html',''); initResiza
 : <a class="el" href="class_s_l_g_l_program.html#aea30921fa75f06bcb4081706fae0e06a">SLGLProgram</a>
 </li>
 <li>program()
-: <a class="el" href="class_s_l_material.html#a015268c23552b032d58e5f0bef0defda">SLMaterial</a>
+: <a class="el" href="class_s_l_material.html#adda4832e3354b173ebaba061bbcb7b2e">SLMaterial</a>
 </li>
 <li>programs()
 : <a class="el" href="class_s_l_asset_manager.html#a86265e44bc704fcbc53118a0b967b34d">SLAssetManager</a>
@@ -226,8 +239,9 @@ $(document).ready(function(){initNavTree('functions_func_p.html',''); initResiza
 : <a class="el" href="class_s_l_raytracer.html#aacd36682f1202fedf52c9a45a7afd1cf">SLRaytracer</a>
 </li>
 <li>projection()
-: <a class="el" href="class_s_l_camera.html#a0f29ab301fe3f2a570dff9a264668f90">SLCamera</a>
+: <a class="el" href="class_s_l_camera.html#a82772a34c2e96fb2857c1d992148eeaf">SLCamera</a>
 , <a class="el" href="class_s_l_g_l_oculus.html#a6be31775849457a08d520f6605cc3f2b">SLGLOculus</a>
+, <a class="el" href="class_s_l_shadow_map.html#aea55cd62be6ea11e1909f30bc377e05d">SLShadowMap</a>
 </li>
 <li>projectionStr()
 : <a class="el" href="class_s_l_camera.html#a81df71121f456fa8fe4eb3cd594ed98e">SLCamera</a>
@@ -250,7 +264,7 @@ $(document).ready(function(){initNavTree('functions_func_p.html',''); initResiza
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue May 26 2020 10:23:34 for SLProject by
+    <li class="footer">Generated on Fri Sep 18 2020 14:31:39 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.18 </li>
   </ul>

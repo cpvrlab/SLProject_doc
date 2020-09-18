@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">3.0.0</span>
+   &#160;<span id="projectnumber">3.1.0</span>
    </div>
   </td>
  </tr>
@@ -65,6 +65,7 @@ $(document).ready(function(){initNavTree('functions_vars_s.html',''); initResiza
 <h3><a id="index_s"></a>- s -</h3><ul>
 <li>sa
 : <a class="el" href="struct_s_l_kd_tria_a_a_b_b.html#a84eba1e123d4d9869fc789e45e4b2cd6">SLKdTriaAABB</a>
+, <a class="el" href="struct_socket.html#a17ec2396840ae1e11fc9d5064fdd9992">Socket</a>
 </li>
 <li>Scale
 : <a class="el" href="struct_scale_and_offset2_d.html#ad0e45f426b3764bcfce721a6f42f9b49">ScaleAndOffset2D</a>
@@ -97,6 +98,9 @@ $(document).ready(function(){initNavTree('functions_vars_s.html',''); initResiza
 <li>Shade
 : <a class="el" href="struct_distortion_mesh_vertex_data.html#a561b9bfca1aa5e447131d582cbf96407">DistortionMeshVertexData</a>
 </li>
+<li>shaderDir
+: <a class="el" href="class_s_l_g_l_program_manager.html#a19a91553e279a368c9685816677fa3b4">SLGLProgramManager</a>
+</li>
 <li>shadowRays
 : <a class="el" href="class_s_l_ray.html#adcff3edd2cea4db75c6282aae5fe2707">SLRay</a>
 </li>
@@ -118,11 +122,32 @@ $(document).ready(function(){initNavTree('functions_vars_s.html',''); initResiza
 <li>SLImGuiInfosMemoryStats
 : <a class="el" href="class_s_l_memory_stats.html#a0c40829a68f6189ffdc2b535074fae52">SLMemoryStats</a>
 </li>
+<li>space
+: <a class="el" href="structlight_data_std140.html#a5c90bec1c07c63ab25d79d03b54d8122">lightDataStd140</a>
+</li>
+<li>specular
+: <a class="el" href="structlight_data_std140.html#abfd250d37802403cab46d3805dc247ae">lightDataStd140</a>
+</li>
 <li>splitAxis
 : <a class="el" href="class_s_l_k_d_node.html#ab3efc5158839e1cf970c59bf2231c438">SLKDNode</a>
 </li>
 <li>splitDist
 : <a class="el" href="class_s_l_k_d_node.html#ad7dcc3eef384aeafeb0335a4000c8d35">SLKDNode</a>
+</li>
+<li>spotCosCut
+: <a class="el" href="structlight_data_std140.html#af2fc2632b08abfe2c0e4eef6e244aafa">lightDataStd140</a>
+</li>
+<li>spotCutoff
+: <a class="el" href="structlight_data_std140.html#a33da9440db8e618e2cf09a90fa8f135c">lightDataStd140</a>
+</li>
+<li>spotDirVS
+: <a class="el" href="structlight_data_std140.html#a0d4919435006bac77c046c60fd1268d1">lightDataStd140</a>
+</li>
+<li>spotDirWS
+: <a class="el" href="structlight_data_std140.html#ae920150a4e93d77a2e327cdaa5f30362">lightDataStd140</a>
+</li>
+<li>spotExp
+: <a class="el" href="structlight_data_std140.html#ac8d391e7f69a180839bf6d1ba49e5a41">lightDataStd140</a>
 </li>
 <li>srcMesh
 : <a class="el" href="class_s_l_ray.html#a5784f021c6b56ec8fda46525a07f206d">SLRay</a>
@@ -133,11 +158,20 @@ $(document).ready(function(){initNavTree('functions_vars_s.html',''); initResiza
 <li>srcTriangle
 : <a class="el" href="class_s_l_ray.html#a2659725a0613d65bc3ffc984e6e36594">SLRay</a>
 </li>
-<li>stereoColorFilter
-: <a class="el" href="class_s_l_g_l_state.html#afb7e63c6a61728a023c2d786eca39c62">SLGLState</a>
+<li>ssl
+: <a class="el" href="struct_secure_socket.html#a46289dd1018eb868fcae62ebdffb93e3">SecureSocket</a>
 </li>
-<li>stereoEye
-: <a class="el" href="class_s_l_g_l_state.html#a1f0493f2df80cdaab2fe0b5bd2e18b4e">SLGLState</a>
+<li>sslfd
+: <a class="el" href="struct_secure_socket.html#a11c317cb5100fab7215485d865f6d7eb">SecureSocket</a>
+</li>
+<li>start
+: <a class="el" href="struct_profile_result.html#a55679c12a6919106a69676165bbaea7d">ProfileResult</a>
+</li>
+<li>status
+: <a class="el" href="struct_http_utils_1_1_get_request.html#a3b8bc7f96113bbf711d0c9826b14688a">HttpUtils::GetRequest</a>
+</li>
+<li>statusCode
+: <a class="el" href="struct_http_utils_1_1_get_request.html#acd456092286b9160d2649af469134dc1">HttpUtils::GetRequest</a>
 </li>
 <li>subsampledPixels
 : <a class="el" href="class_s_l_ray.html#a8a900aa6c30eb09c88d8ef51badc0122">SLRay</a>
@@ -157,7 +191,7 @@ $(document).ready(function(){initNavTree('functions_vars_s.html',''); initResiza
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue May 26 2020 10:23:34 for SLProject by
+    <li class="footer">Generated on Fri Sep 18 2020 14:31:39 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.18 </li>
   </ul>

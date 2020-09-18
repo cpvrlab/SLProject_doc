@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">3.0.0</span>
+   &#160;<span id="projectnumber">3.1.0</span>
    </div>
   </td>
  </tr>
@@ -64,7 +64,7 @@ $(document).ready(function(){initNavTree('functions_func_c.html',''); initResiza
 
 <h3><a id="index_c"></a>- c -</h3><ul>
 <li>calc3DGradients()
-: <a class="el" href="class_s_l_g_l_texture.html#aff6d8d15c6c8f01ec6529fd3a6875dc4">SLGLTexture</a>
+: <a class="el" href="class_s_l_g_l_texture.html#a6495157c4dc4ea55e3023e419530988e">SLGLTexture</a>
 </li>
 <li>calcBoardCorners3D()
 : <a class="el" href="class_c_v_calibration_estimator.html#a914747a93e7879327a24e66a7b2e11db">CVCalibrationEstimator</a>
@@ -97,12 +97,6 @@ $(document).ready(function(){initNavTree('functions_func_c.html',''); initResiza
 <li>calcInterpolatedKeyframe()
 : <a class="el" href="class_s_l_anim_track.html#a2d151939c0cf6c61fd0acea1457006ee">SLAnimTrack</a>
 , <a class="el" href="class_s_l_node_anim_track.html#ace56090696711c75f571f5abc4668e56">SLNodeAnimTrack</a>
-</li>
-<li>calcLightDirVS()
-: <a class="el" href="class_s_l_g_l_state.html#a6d88e21d774aab540980a0262f29c63f">SLGLState</a>
-</li>
-<li>calcLightPosVS()
-: <a class="el" href="class_s_l_g_l_state.html#a264b6b717b34ec20ec3aef260dd702d3">SLGLState</a>
 </li>
 <li>calcMaxRadius()
 : <a class="el" href="class_s_l_joint.html#a75c1bf2dcccee7b66a161b899ca66177">SLJoint</a>
@@ -217,6 +211,9 @@ $(document).ready(function(){initNavTree('functions_func_c.html',''); initResiza
 <li>capacity()
 : <a class="el" href="class_s_l_vector.html#ad600ef17f828f9b3fafc6622f4f6298d">SLVector&lt; T, U &gt;</a>
 </li>
+<li>castsShadows()
+: <a class="el" href="class_s_l_node.html#a57f9261c6b410cace46e552f769ce5aa">SLNode</a>
+</li>
 <li>centerOS()
 : <a class="el" href="class_s_l_a_a_b_box.html#aff57e87e57e54b5760cb6ab955c06ea3">SLAABBox</a>
 </li>
@@ -231,7 +228,7 @@ $(document).ready(function(){initNavTree('functions_func_c.html',''); initResiza
 : <a class="el" href="class_s_l_input_event_interface.html#a571af2c7cfbd6edb3440ea7a56632ab5">SLInputEventInterface</a>
 </li>
 <li>checkFilePath()
-: <a class="el" href="class_s_l_assimp_importer.html#a71e1796f6c71a41c09b7f6de7051cc27">SLAssimpImporter</a>
+: <a class="el" href="class_s_l_assimp_importer.html#a79c9bcd77e8499b67eb8e4cfa37aa0c4">SLAssimpImporter</a>
 </li>
 <li>children()
 : <a class="el" href="class_s_l_node.html#a18aa8ec139d04fd4f0b6e26799a34dc7">SLNode</a>
@@ -274,12 +271,11 @@ $(document).ready(function(){initNavTree('functions_func_c.html',''); initResiza
 </li>
 <li>clipFar()
 : <a class="el" href="class_s_l_camera.html#a360ee01102556c6419995206e3420af3">SLCamera</a>
+, <a class="el" href="class_s_l_shadow_map.html#abb81ac737baf162dd650f96e51a4ddea">SLShadowMap</a>
 </li>
 <li>clipNear()
 : <a class="el" href="class_s_l_camera.html#a3735bd392c7e07f35dbe7d44f10e7070">SLCamera</a>
-</li>
-<li>closestPowerOf2()
-: <a class="el" href="class_s_l_g_l_texture.html#a3edab248ba32bbcbc0f9cfe7cf09c555">SLGLTexture</a>
+, <a class="el" href="class_s_l_shadow_map.html#a9f147c241c5b7e353b4da9555cca6e47">SLShadowMap</a>
 </li>
 <li>code()
 : <a class="el" href="class_s_l_g_l_shader.html#a22d29e216b1b83959b4908de28766423">SLGLShader</a>
@@ -297,11 +293,14 @@ $(document).ready(function(){initNavTree('functions_func_c.html',''); initResiza
 : <a class="el" href="class_s_l_g_l_state.html#a5fd6662b8b908cf184eea3cd4ecaca44">SLGLState</a>
 </li>
 <li>colors()
-: <a class="el" href="class_s_l_background.html#adfe68d687a2c0e1857e5323d1b289873">SLBackground</a>
+: <a class="el" href="class_s_l_background.html#a49423f1965637c5f57514c3962482f9c">SLBackground</a>
 , <a class="el" href="class_s_l_transfer_function.html#a7d519f399df261902037785ba859450d">SLTransferFunction</a>
 </li>
 <li>compose()
 : <a class="el" href="class_s_l_mat4.html#a83da8ca14723d3a2d193cae8fed386c6">SLMat4&lt; T &gt;</a>
+</li>
+<li>computeHardEdgesIndices()
+: <a class="el" href="class_s_l_mesh.html#a5f3efc520b6cc5a9ac8c3d9e418f6679">SLMesh</a>
 </li>
 <li>ComputeKeyPointsOctTree()
 : <a class="el" href="class_c_v_raul_mur_orb.html#ae92c41fd6d0d74d607760cb7b42b4cc2">CVRaulMurOrb</a>
@@ -321,14 +320,15 @@ $(document).ready(function(){initNavTree('functions_func_c.html',''); initResiza
 <li>conjugated()
 : <a class="el" href="class_s_l_quat4.html#a5b80e3d922bb41d9ef592aa1151f4719">SLQuat4&lt; T &gt;</a>
 </li>
+<li>connectTo()
+: <a class="el" href="struct_secure_socket.html#aa03067b1ed6c7f5ec500600bead171e6">SecureSocket</a>
+, <a class="el" href="struct_socket.html#a1d528049c7856f982e97533c44248199">Socket</a>
+</li>
 <li>containingVoxel()
 : <a class="el" href="class_s_l_compact_grid.html#ad616ad49a4aedbbc15f18162a3abe80a">SLCompactGrid</a>
 </li>
 <li>contains()
-: <a class="el" href="class_s_l_rect.html#a8b861c1f7210278e62d4e10bb361870d">SLRect&lt; T, V &gt;</a>
-</li>
-<li>containsMesh()
-: <a class="el" href="class_s_l_node.html#a33555c9cc810b9b4715cc4686729e149">SLNode</a>
+: <a class="el" href="class_s_l_rect.html#a9a0c30f77396db0e9fdec44852e1bae4">SLRect&lt; T, V &gt;</a>
 </li>
 <li>controls()
 : <a class="el" href="class_s_l_curve_bezier.html#a16f606ce5374c423a3ec287b530a44f5">SLCurveBezier</a>
@@ -337,13 +337,13 @@ $(document).ready(function(){initNavTree('functions_func_c.html',''); initResiza
 : <a class="el" href="class_s_l_node.html#a59dbe47fd7379abf46a127736ac002e1">SLNode</a>
 </li>
 <li>copyVideoImage()
-: <a class="el" href="class_s_l_g_l_texture.html#a6c2da0cf8e3ee8ff4b360395e4ea82dd">SLGLTexture</a>
+: <a class="el" href="class_s_l_g_l_texture.html#a700cef6cebf9b5dc719d644e0c9dd95e">SLGLTexture</a>
 </li>
 <li>create()
 : <a class="el" href="class_s_l_tex_font.html#a5b5a01d83bc7aeafe0ba4ecb2e18fdac">SLTexFont</a>
 </li>
 <li>createAndCompile()
-: <a class="el" href="class_s_l_g_l_shader.html#a41c638ff1e90565288602798f3fb9cec">SLGLShader</a>
+: <a class="el" href="class_s_l_g_l_shader.html#a964992f54eb4d7eab6e0c476e75e6d0f">SLGLShader</a>
 </li>
 <li>createAndCompileSimple()
 : <a class="el" href="class_s_l_g_l_shader.html#a54c98376e5098c37df4c637debe55fc6">SLGLShader</a>
@@ -367,7 +367,7 @@ $(document).ready(function(){initNavTree('functions_func_c.html',''); initResiza
 : <a class="el" href="class_c_v_tracked.html#a779241370ead0e7b35c1dc862e9e3258">CVTracked</a>
 </li>
 <li>createJoint()
-: <a class="el" href="class_s_l_skeleton.html#a1b93a43dc6c699b32df590a5ffa2cf9b">SLSkeleton</a>
+: <a class="el" href="class_s_l_skeleton.html#a2c3b47044070d97cbd080b93cc9f6156">SLSkeleton</a>
 </li>
 <li>createKeyframe()
 : <a class="el" href="class_s_l_anim_track.html#a1b2d3857734ca92664819d6fe5d6a0d3">SLAnimTrack</a>
@@ -377,10 +377,10 @@ $(document).ready(function(){initNavTree('functions_func_c.html',''); initResiza
 , <a class="el" href="class_s_l_node_anim_track.html#ae9dbf09ceb030cab5a19a0184e7e0ed3">SLNodeAnimTrack</a>
 </li>
 <li>createNodeAnimation()
-: <a class="el" href="class_s_l_anim_manager.html#ac4959b311f7918454ef346a4fcda9adb">SLAnimManager</a>
+: <a class="el" href="class_s_l_anim_manager.html#ada7e25f7a5a2867dce645934cb807507">SLAnimManager</a>
 </li>
 <li>createNodeAnimationTrack()
-: <a class="el" href="class_s_l_animation.html#a81e3c05ad2044568c9de55523f50f714">SLAnimation</a>
+: <a class="el" href="class_s_l_animation.html#ab752cbb25f57b07d6c653f2cb00b0b34">SLAnimation</a>
 </li>
 <li>createNodeKeyframe()
 : <a class="el" href="class_s_l_node_anim_track.html#a5bfd01ed46d4f5f7127187750b02b56f">SLNodeAnimTrack</a>
@@ -399,6 +399,9 @@ $(document).ready(function(){initNavTree('functions_func_c.html',''); initResiza
 </li>
 <li>createSimpleTranslationNodeTrack()
 : <a class="el" href="class_s_l_animation.html#a050a5770258fb822807b0a32badc25c7">SLAnimation</a>
+</li>
+<li>createsShadows()
+: <a class="el" href="class_s_l_light.html#a3149141616f5e2c9270478fb87ad1d5e">SLLight</a>
 </li>
 <li>crop()
 : <a class="el" href="class_c_v_image.html#aeb09d73cca11eff10320b10c005a8b31">CVImage</a>
@@ -426,7 +429,7 @@ $(document).ready(function(){initNavTree('functions_func_c.html',''); initResiza
 : <a class="el" href="class_s_l_scene_view.html#aa8a268a3c38d57f59da83c70a5a62e17">SLSceneView</a>
 </li>
 <li>currentMaterial()
-: <a class="el" href="class_s_l_g_l_state.html#af07e8dd280d5d42605b06de2cf1d6bf5">SLGLState</a>
+: <a class="el" href="class_s_l_g_l_state.html#a08561ccd172e04b4fa5f2f9a5ccaaa10">SLGLState</a>
 </li>
 <li>cv2glPixelFormat()
 : <a class="el" href="class_c_v_image.html#a51be32d0b8812fa4b01fabf14893803f">CVImage</a>
@@ -435,7 +438,7 @@ $(document).ready(function(){initNavTree('functions_func_c.html',''); initResiza
 : <a class="el" href="class_c_v_aruco_params.html#a4ab5ff32752ea27b008303eb99ab1fed">CVArucoParams</a>
 </li>
 <li>CVCalibration()
-: <a class="el" href="class_c_v_calibration.html#a411d029e7846ce10fae957b3a34499d3">CVCalibration</a>
+: <a class="el" href="class_c_v_calibration.html#a3b1dbf447caf624b7bee3873e95aad5f">CVCalibration</a>
 </li>
 <li>CVCalibrationEstimator()
 : <a class="el" href="class_c_v_calibration_estimator.html#a20b605f85f70f78033d481dd9faeaa49">CVCalibrationEstimator</a>
@@ -450,7 +453,7 @@ $(document).ready(function(){initNavTree('functions_func_c.html',''); initResiza
 : <a class="el" href="class_c_v_feature_manager.html#a06e8886fa60ff2735d34856b61180e69">CVFeatureManager</a>
 </li>
 <li>CVImage()
-: <a class="el" href="class_c_v_image.html#a1568a558412f93ed19c74159fcd5a248">CVImage</a>
+: <a class="el" href="class_c_v_image.html#a7d132bc91e843423e35ca9c6618ba8c7">CVImage</a>
 </li>
 <li>CVImageGeoTiff()
 : <a class="el" href="class_c_v_image_geo_tiff.html#ab37a751d8bf7c7cb92d46f27aab784ec">CVImageGeoTiff</a>
@@ -494,7 +497,7 @@ $(document).ready(function(){initNavTree('functions_func_c.html',''); initResiza
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue May 26 2020 10:23:34 for SLProject by
+    <li class="footer">Generated on Fri Sep 18 2020 14:31:39 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.18 </li>
   </ul>

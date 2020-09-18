@@ -1,6 +1,6 @@
 <map id="SLMaterial" name="SLMaterial">
-<area shape="rect" id="node1" title="Defines a standard CG material with textures and a shader program." alt="" coords="135,80,219,107"/>
-<area shape="rect" id="node3" href="$class_s_l_material_default_gray.html" title="Global default gray color material for meshes that don&#39;t define their own." alt="" coords="5,155,160,181"/>
-<area shape="rect" id="node4" href="$class_s_l_material_diffuse_attribute.html" title="Global diffuse reflection material for meshes with color vertex attributes." alt="" coords="185,155,359,181"/>
-<area shape="rect" id="node2" href="$class_s_l_object.html" title="Base class for all other classes." alt="" coords="139,5,215,32"/>
+<area shape="rect" id="node1" title="Defines a standard CG material with textures and a shader program." alt="" coords="169,80,253,107"/>
+<area shape="rect" id="node3" href="$class_s_l_material_default_color_attribute.html" title="Global default color attribute material for meshes that have colors per vertex." alt="" coords="5,155,212,181"/>
+<area shape="rect" id="node4" href="$class_s_l_material_default_gray.html" title="Global default gray color material for meshes that don&#39;t define their own." alt="" coords="237,155,391,181"/>
+<area shape="rect" id="node2" href="$class_s_l_object.html" title="Base class for all other classes." alt="" coords="173,5,249,32"/>
 </map>

@@ -1,0 +1,5 @@
+<map id="SLMaterialDefaultColorAttribute" name="SLMaterialDefaultColorAttribute">
+<area shape="rect" id="node1" title="Global default color attribute material for meshes that have colors per vertex." alt="" coords="5,155,212,181"/>
+<area shape="rect" id="node2" href="$class_s_l_material.html" title="Defines a standard CG material with textures and a shader program." alt="" coords="67,80,151,107"/>
+<area shape="rect" id="node3" href="$class_s_l_object.html" title="Base class for all other classes." alt="" coords="71,5,147,32"/>
+</map>

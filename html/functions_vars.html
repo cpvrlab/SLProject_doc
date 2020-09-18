@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">3.0.0</span>
+   &#160;<span id="projectnumber">3.1.0</span>
    </div>
   </td>
  </tr>
@@ -63,6 +63,15 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 &#160;
 
 <h3><a id="index__5F"></a>- _ -</h3><ul>
+<li>__pad25
+: <a class="el" href="structlight_data_std140.html#a401a5854cfb540609b6672e767a202c9">lightDataStd140</a>
+</li>
+<li>__pad29
+: <a class="el" href="structlight_data_std140.html#ab24a3cdad4fdad598ea969efd7925d08">lightDataStd140</a>
+</li>
+<li>__pad36
+: <a class="el" href="structlight_data_std140.html#a4e73f8fdaa59d989723d50a20474345a">lightDataStd140</a>
+</li>
 <li>_aabb
 : <a class="el" href="class_s_l_node.html#a446483481df422eb363ab0b4773f6a79">SLNode</a>
 </li>
@@ -103,8 +112,13 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 : <a class="el" href="class_s_l_device_location.html#ad53afc9d5bc24402724e8534824864e8">SLDeviceLocation</a>
 </li>
 <li>_ambient
-: <a class="el" href="class_s_l_light.html#a80b65669621dde8e5200b91cb5586ff5">SLLight</a>
-, <a class="el" href="class_s_l_material.html#a601bc5fa15c77172caf3ce97118b2ecc">SLMaterial</a>
+: <a class="el" href="class_s_l_material.html#a601bc5fa15c77172caf3ce97118b2ecc">SLMaterial</a>
+</li>
+<li>_ambientColor
+: <a class="el" href="class_s_l_light.html#a11e28a35043b6a4ad28ad999721cabef">SLLight</a>
+</li>
+<li>_ambientPower
+: <a class="el" href="class_s_l_light.html#ac72b69475ab5dff2df8213ba52d66684">SLLight</a>
 </li>
 <li>_animatedNode
 : <a class="el" href="class_s_l_node_anim_track.html#a6c209a39a76c85a28ce2116739f3efff">SLNodeAnimTrack</a>
@@ -180,6 +194,9 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 <li>_averageNumValues
 : <a class="el" href="class_average_timing.html#ad61e92ba6aea888f5fafaee751da1214">AverageTiming</a>
 </li>
+<li>_avgColor
+: <a class="el" href="class_s_l_background.html#a0db13e80be63c83cb811d16a2d22d4e6">SLBackground</a>
+</li>
 <li>_avgPosePoints2D
 : <a class="el" href="class_c_v_tracked_faces.html#a68954495ffe1a65705c0e53922918dc7">CVTrackedFaces</a>
 </li>
@@ -224,6 +241,12 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 </li>
 <li>_blend
 : <a class="el" href="class_s_l_g_l_state.html#a75d7b9c3c698754d199014e2d859c65e">SLGLState</a>
+</li>
+<li>_blendFuncDfactor
+: <a class="el" href="class_s_l_g_l_state.html#a60e53f93ea5cac769a588a4f130b4c57">SLGLState</a>
+</li>
+<li>_blendFuncSfactor
+: <a class="el" href="class_s_l_g_l_state.html#a58e11fb275c9b23bd3df29cb23e773e0">SLGLState</a>
 </li>
 <li>_boardPoints3D
 : <a class="el" href="class_c_v_tracked_chessboard.html#a2b5506f09f84c36c79757b04ecde22a8">CVTrackedChessboard</a>
@@ -348,6 +371,9 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 <li>_capacity
 : <a class="el" href="class_s_l_vector.html#a09e9480b626f80f59d992de3a02ecae2">SLVector&lt; T, U &gt;</a>
 </li>
+<li>_castsShadows
+: <a class="el" href="class_s_l_node.html#a8860ce7232cc87946fcc909565d31db4">SLNode</a>
+</li>
 <li>_cb
 : <a class="el" href="class_s_l_memory_stats.html#a95044665a3724612eacb47bc30cd292c">SLMemoryStats</a>
 </li>
@@ -383,9 +409,11 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 </li>
 <li>_clipFar
 : <a class="el" href="class_s_l_camera.html#a6171aed01df55455ea26e42cc2e8c998">SLCamera</a>
+, <a class="el" href="class_s_l_shadow_map.html#aedaa6ac89e2b1a882333fc02a5f15b3e">SLShadowMap</a>
 </li>
 <li>_clipNear
 : <a class="el" href="class_s_l_camera.html#a3cad6659b4365e6f6f54ac5ea5fbbd4c">SLCamera</a>
+, <a class="el" href="class_s_l_shadow_map.html#a74ea0aab3157cc0820c9815fdabf530c">SLShadowMap</a>
 </li>
 <li>_code
 : <a class="el" href="class_s_l_g_l_shader.html#a89c2656535bd8363e9de1f259ff3cc8a">SLGLShader</a>
@@ -415,6 +443,9 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 : <a class="el" href="class_s_l_background.html#a2a3e9c70eb4f3708511e099c551c9ea5">SLBackground</a>
 , <a class="el" href="class_s_l_transfer_function.html#ab1e95764ce178cf2c5e77aee15edf458">SLTransferFunction</a>
 </li>
+<li>_compileErrorTexFilePath
+: <a class="el" href="class_s_l_material.html#afbecc86127d6cabc089a282630a7f791">SLMaterial</a>
+</li>
 <li>_computerInfos
 : <a class="el" href="class_c_v_calibration.html#a75d5665fb908876b1fd907df5ef09ba4">CVCalibration</a>
 , <a class="el" href="class_c_v_calibration_estimator.html#ae4c079a36041ef21ec571c5b88e845fb">CVCalibrationEstimator</a>
@@ -423,7 +454,7 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 : <a class="el" href="class_s_l_g_l_conetracer.html#a6447c5835ba559623e82665a3097d5f2">SLGLConetracer</a>
 </li>
 <li>_conetracer
-: <a class="el" href="class_s_l_scene_view.html#ab9bad75e68d6bcbe272e7561e301f89c">SLSceneView</a>
+: <a class="el" href="class_s_l_scene_view.html#a2922e80c5db7df57df6eebd848a40d1e">SLSceneView</a>
 </li>
 <li>_contents
 : <a class="el" href="class_s_l_vector.html#a3e4cd2a83d6ed91e14f225a4b47b626a">SLVector&lt; T, U &gt;</a>
@@ -433,6 +464,9 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 </li>
 <li>_corners
 : <a class="el" href="class_s_l_polygon.html#a65a5b14e7bf1ec96cf93c8efd5130655">SLPolygon</a>
+</li>
+<li>_createsShadows
+: <a class="el" href="class_s_l_light.html#ac8d8e92dff124e14be46ca8f8b8d0f19">SLLight</a>
 </li>
 <li>_cubeMesh
 : <a class="el" href="class_s_l_g_l_conetracer.html#a1fc2248b72195c0a84cab970fe11f0f0">SLGLConetracer</a>
@@ -460,6 +494,9 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 </li>
 <li>_currentPosV
 : <a class="el" href="class_average_timing.html#a387153274c458df5a8ba46ff226a0599">AverageTiming</a>
+</li>
+<li>_currentSession
+: <a class="el" href="class_instrumentor.html#afc6e26d9b7926f239d280b000d462c13">Instrumentor</a>
 </li>
 <li>_currentValueNo
 : <a class="el" href="class_averaged.html#af0f229bbdddf9907a4d07ce3f2da65ef">Averaged&lt; T &gt;</a>
@@ -501,6 +538,9 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 : <a class="el" href="class_s_l_g_l_conetracer_tex3_d.html#a2ffc29f5220b8d2465e7b920c01fce3a">SLGLConetracerTex3D</a>
 , <a class="el" href="class_s_l_node.html#aec4e0911e33201f9e91ce1234944ca42">SLNode</a>
 </li>
+<li>_depthBuffer
+: <a class="el" href="class_s_l_shadow_map.html#ad87e4ad1ef43a9e2bade3834a7ef0f82">SLShadowMap</a>
+</li>
 <li>_depthMask
 : <a class="el" href="class_s_l_g_l_state.html#a0cb28bd46f59db4cc9dd52ddf941fbe3">SLGLState</a>
 </li>
@@ -512,6 +552,9 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 </li>
 <li>_descriptor
 : <a class="el" href="class_c_v_feature_manager.html#a8cdbdef1840be594c317f87410a06eda">CVFeatureManager</a>
+</li>
+<li>_deselectRect
+: <a class="el" href="class_s_l_camera.html#a8507ff4e2505b0476c34fa1c7a0f38d1">SLCamera</a>
 </li>
 <li>_detector
 : <a class="el" href="class_c_v_feature_manager.html#af2862badc278004520e673d4ba421e85">CVFeatureManager</a>
@@ -529,11 +572,19 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 : <a class="el" href="class_s_l_lens.html#a95f6616b14d7265b3ae105300857fc6a">SLLens</a>
 </li>
 <li>_diffuse
-: <a class="el" href="class_s_l_light.html#a631869967f0b524ed26f0c23a19ce86f">SLLight</a>
-, <a class="el" href="class_s_l_material.html#a608dd21b2e8ad5c280c8b8e927692b8b">SLMaterial</a>
+: <a class="el" href="class_s_l_material.html#a608dd21b2e8ad5c280c8b8e927692b8b">SLMaterial</a>
+</li>
+<li>_diffuseColor
+: <a class="el" href="class_s_l_light.html#aa57ab4695f5c4c3b2a50ee45b69a81b3">SLLight</a>
 </li>
 <li>_diffuseConeAngle
 : <a class="el" href="class_s_l_g_l_conetracer.html#a6100b65d63595bfb4e9593248762b2d4">SLGLConetracer</a>
+</li>
+<li>_diffusePower
+: <a class="el" href="class_s_l_light.html#a45d3868414e6b5ae1e6e0d7f6d0ab163">SLLight</a>
+</li>
+<li>_dimensions
+: <a class="el" href="class_s_l_g_l_depth_buffer.html#a9d2e52ae5d3283ebadd6cc18bea990dc">SLGLDepthBuffer</a>
 </li>
 <li>_diskB
 : <a class="el" href="class_s_l_transform_node.html#a518cdd1073f85616feba622ffef4df79">SLTransformNode</a>
@@ -570,6 +621,9 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 </li>
 <li>_doDistributed
 : <a class="el" href="class_s_l_raytracer.html#a24fce8c271535014aa005a588ac2786d">SLRaytracer</a>
+</li>
+<li>_doesPCF
+: <a class="el" href="class_s_l_light.html#ac761a11fb0e75d2554ec85464160db03">SLLight</a>
 </li>
 <li>_doFresnel
 : <a class="el" href="class_s_l_raytracer.html#a95258609508eeac608fa29a9fc8424b4">SLRaytracer</a>
@@ -626,8 +680,17 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 <li>_easing
 : <a class="el" href="class_s_l_anim_playback.html#a53d8340b44e740d7676aabf47f069896">SLAnimPlayback</a>
 </li>
+<li>_edgeAngleDEG
+: <a class="el" href="class_s_l_mesh.html#a4c0c703fe481231280c6324fb8d8dc2b">SLMesh</a>
+</li>
+<li>_edgeColor
+: <a class="el" href="class_s_l_mesh.html#ac020ccc44fd17dbd8610dc043e5070b1">SLMesh</a>
+</li>
 <li>_edgeLengthM
 : <a class="el" href="class_c_v_tracked_chessboard.html#adfc119633e2bd035449976f4844a64a9">CVTrackedChessboard</a>
+</li>
+<li>_edgeWidth
+: <a class="el" href="class_s_l_mesh.html#a81736a478eabc2982af190936777ab8c">SLMesh</a>
 </li>
 <li>_editMode
 : <a class="el" href="class_s_l_transform_node.html#a2b081ac075938928b722be1622498284">SLTransformNode</a>
@@ -656,9 +719,6 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 <li>_EYE
 : <a class="el" href="class_s_l_raytracer.html#abc2a299ff781253393561384fbf23941">SLRaytracer</a>
 </li>
-<li>_eyeSeparation
-: <a class="el" href="class_s_l_camera.html#a69ba584a9a6a26870402bab87bb3971f">SLCamera</a>
-</li>
 <li>_eyesHeightM
 : <a class="el" href="class_s_l_device_location.html#aba8281c2ffec238d4fa564375111cdca">SLDeviceLocation</a>
 </li>
@@ -671,11 +731,20 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 <li>_fbID
 : <a class="el" href="class_s_l_g_l_oculus_f_b.html#a6fdbdb2981ccd8b8afa7242e49c0f461">SLGLOculusFB</a>
 </li>
+<li>_fboID
+: <a class="el" href="class_s_l_g_l_depth_buffer.html#a545effa5b7509c21413c5700b964b81d">SLGLDepthBuffer</a>
+</li>
+<li>_fbRect
+: <a class="el" href="class_s_l_camera.html#a05812931d57f01dc338ea2659828b47d">SLCamera</a>
+</li>
 <li>_featureManager
 : <a class="el" href="class_c_v_tracked_features.html#a1d069e2fc121daabc7965891b99f8c9c">CVTrackedFeatures</a>
 </li>
 <li>_file
 : <a class="el" href="class_s_l_g_l_shader.html#a584329d1875c59a338d0943d2465bdbe">SLGLShader</a>
+</li>
+<li>_filePath
+: <a class="el" href="class_instrumentor.html#a675776136542c692bd48522bee136144">Instrumentor</a>
 </li>
 <li>_finalN
 : <a class="el" href="class_s_l_mesh.html#a81377a105bd2ce5f5722611ed897fea0">SLMesh</a>
@@ -686,8 +755,32 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 <li>_focalDist
 : <a class="el" href="class_s_l_camera.html#a7bcff9f2ab776609103d27f8eac9bf7b">SLCamera</a>
 </li>
+<li>_fogColor
+: <a class="el" href="class_s_l_camera.html#aaeb9f2849aaa9ba5dd4ed3ac2a62a3b3">SLCamera</a>
+</li>
+<li>_fogColorIsBack
+: <a class="el" href="class_s_l_camera.html#a93d5b3e20b0e3fe2f03b6a3e7a6c8dec">SLCamera</a>
+</li>
+<li>_fogDensity
+: <a class="el" href="class_s_l_camera.html#a5e770a85c2646e3f677ed964df9952b4">SLCamera</a>
+</li>
+<li>_fogEnd
+: <a class="el" href="class_s_l_camera.html#afe9c3018d71aa5b070b257bfcfe9e988">SLCamera</a>
+</li>
+<li>_fogIsOn
+: <a class="el" href="class_s_l_camera.html#a593906a5d9f82a6bde2fb2a221f212cf">SLCamera</a>
+</li>
+<li>_fogMode
+: <a class="el" href="class_s_l_camera.html#a734cf17dee3d0092e006ca2611cebb4e">SLCamera</a>
+</li>
+<li>_fogStart
+: <a class="el" href="class_s_l_camera.html#a6dec3ec8e1b0a6ea7f9c58c7c336b8bb">SLCamera</a>
+</li>
 <li>_font
 : <a class="el" href="class_s_l_text.html#ade419f0287809ace6339664fa9f8e88f">SLText</a>
+</li>
+<li>_fontDir
+: <a class="el" href="class_s_l_g_l_im_gui.html#a866cf6ffd3f8abdb8ea0bbacb5d71eef">SLGLImGui</a>
 </li>
 <li>_fontFixedDots
 : <a class="el" href="class_s_l_g_l_im_gui.html#a7435675d241782a4c16f4920f62ac30c">SLGLImGui</a>
@@ -734,6 +827,9 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 <li>_freeMemoryRT
 : <a class="el" href="class_s_l_memory_stats.html#ac8a71d571187d0656b6862b9fe1038e3">SLMemoryStats</a>
 </li>
+<li>_frustumVAO
+: <a class="el" href="class_s_l_shadow_map.html#a76ed887765987f0f433608bafeefc2b0">SLShadowMap</a>
+</li>
 <li>_fx
 : <a class="el" href="class_s_l_camera.html#a0e8bb5910feeb609ed32b9b8c406a68b">SLCamera</a>
 </li>
@@ -742,15 +838,20 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 </li>
 <li>_gamma
 : <a class="el" href="class_s_l_g_l_conetracer.html#a7d092022702a33c6fd3909f3dc9fce47">SLGLConetracer</a>
-, <a class="el" href="class_s_l_g_l_state.html#a61aacb889a40198e8ecc2cbf13c69d5f">SLGLState</a>
 , <a class="el" href="class_s_l_photon_mapper.html#a42dc03d4eeb269a31ebc4b3311c7ab3d">SLPhotonMapper</a>
 , <a class="el" href="class_s_l_raytracer.html#a898b8c5d014ddeaf36fa0c4f637bc66c">SLRaytracer</a>
 </li>
 <li>_generator
 : <a class="el" href="class_s_l_rnd3f.html#a5ab9ffd4df45b812ed22639889fb6b5d">SLRnd3f</a>
 </li>
+<li>_getsShadows
+: <a class="el" href="class_s_l_material.html#a60cd59db2ab0221324a04ea0a1d0ff84">SLMaterial</a>
+</li>
 <li>_gizmoScale
 : <a class="el" href="class_s_l_transform_node.html#acc26f463f82ddc427a647fe567e63cc9">SLTransformNode</a>
+</li>
+<li>_gizmosNode
+: <a class="el" href="class_s_l_transform_node.html#a0b4d5bdda0d6877e346f5aef8ffeddf4">SLTransformNode</a>
 </li>
 <li>_glExtensions
 : <a class="el" href="class_s_l_g_l_state.html#a6b682eb9ebd43c74b0fe7d547c75f243">SLGLState</a>
@@ -760,12 +861,6 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 </li>
 <li>_glIsES3
 : <a class="el" href="class_s_l_g_l_state.html#abae104ba93972d771ad3073932d61e6f">SLGLState</a>
-</li>
-<li>_globalAmbient
-: <a class="el" href="class_s_l_g_l_state.html#abc96b3e2495b4c5877ae11bd3252de5b">SLGLState</a>
-</li>
-<li>_globalAmbiLight
-: <a class="el" href="class_s_l_scene.html#aa7752cbd0f83d033f6f1d8a37d58c421">SLScene</a>
 </li>
 <li>_glRenderer
 : <a class="el" href="class_s_l_g_l_state.html#a73e7231560c5813bc9de05048cd5b702">SLGLState</a>
@@ -801,12 +896,12 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 : <a class="el" href="class_s_l_g_l_oculus_f_b.html#a4b2e35658812b41210694631b2d363c8">SLGLOculusFB</a>
 , <a class="el" href="class_s_l_light_rect.html#a4cdada5366cbaff99fa9ee65b4cc84a1">SLLightRect</a>
 </li>
+<li>_halfSize
+: <a class="el" href="class_s_l_shadow_map.html#a9310056a512d7e1a45387353241caecc">SLShadowMap</a>
+</li>
 <li>_halfWidth
 : <a class="el" href="class_s_l_g_l_oculus_f_b.html#af28f7c6a457490468cb0459c1eb9b01e">SLGLOculusFB</a>
 , <a class="el" href="class_s_l_light_rect.html#ad583edf1c02cdf3f5c2a3012271f77e4">SLLightRect</a>
-</li>
-<li>_hasAlpha
-: <a class="el" href="class_s_l_a_a_b_box.html#acded03067a4807e81efac556b4d56788">SLAABBox</a>
 </li>
 <li>_hasAsyncError
 : <a class="el" href="class_c_v_calibration_estimator.html#af9ddeb3664017f39a3aaea721a90c1ee">CVCalibrationEstimator</a>
@@ -873,8 +968,11 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 <li>_inc
 : <a class="el" href="class_s_l_g_l_uniform.html#ac2ee11da1a1e6e536f0c0763a6c5d093">SLGLUniform&lt; T &gt;</a>
 </li>
-<li>_indexData
-: <a class="el" href="class_s_l_g_l_vertex_array.html#a1dfdb211bbc10f18cbcc2fc289ba07ae">SLGLVertexArray</a>
+<li>_indexDataEdges
+: <a class="el" href="class_s_l_g_l_vertex_array.html#a4e852d693da1a04f79177321a70cf279">SLGLVertexArray</a>
+</li>
+<li>_indexDataElements
+: <a class="el" href="class_s_l_g_l_vertex_array.html#acd6cb133437af399af2b256a30ebfe9d">SLGLVertexArray</a>
 </li>
 <li>_indexDataType
 : <a class="el" href="class_s_l_g_l_vertex_array.html#a8f9ec3cd574191ff10912ca0e8cc274c">SLGLVertexArray</a>
@@ -894,9 +992,13 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 , <a class="el" href="class_s_l_scene_view.html#ac11549972e3843386f14085ffc0cbeef">SLSceneView</a>
 </li>
 <li>_instance
-: <a class="el" href="class_s_l_g_l_state.html#a09a549747f7a30ea2b0f914f3f22b6e5">SLGLState</a>
+: <a class="el" href="class_s_l_g_l_generic_program_default.html#a4762977c625921c3c7215196aa7468dc">SLGLGenericProgramDefault</a>
+, <a class="el" href="class_s_l_g_l_generic_program_default_color_attrib.html#a7d93208027186bfe25e60c6755af562c">SLGLGenericProgramDefaultColorAttrib</a>
+, <a class="el" href="class_s_l_g_l_generic_program_default_tex.html#af53c30eef781628e56ed3690b6ea26c0">SLGLGenericProgramDefaultTex</a>
+, <a class="el" href="class_s_l_g_l_generic_program_default_tex_normal.html#a6dba1e24567d9c3b4f9e7ea774354dd4">SLGLGenericProgramDefaultTexNormal</a>
+, <a class="el" href="class_s_l_g_l_state.html#a09a549747f7a30ea2b0f914f3f22b6e5">SLGLState</a>
+, <a class="el" href="class_s_l_material_default_color_attribute.html#aaa9b58507478a7edd416e61a6f794f3a">SLMaterialDefaultColorAttribute</a>
 , <a class="el" href="class_s_l_material_default_gray.html#ac4135b757905aaba58a29d82b31967ce">SLMaterialDefaultGray</a>
-, <a class="el" href="class_s_l_material_diffuse_attribute.html#ae10c3c0e176667bd0610bf80f1062906">SLMaterialDiffuseAttribute</a>
 </li>
 <li>_interpolationCurve
 : <a class="el" href="class_s_l_node_anim_track.html#a4b287c73582904d5c04e2184cca6b15c">SLNodeAnimTrack</a>
@@ -940,6 +1042,13 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 </li>
 <li>_isPositionTracked
 : <a class="el" href="class_s_l_g_l_oculus.html#aef03e5c3d386cef2c152965accc0d099">SLGLOculus</a>
+</li>
+<li>_isSelected
+: <a class="el" href="class_s_l_mesh.html#a5a238187b806616f1f3080f7b3908da1">SLMesh</a>
+, <a class="el" href="class_s_l_node.html#a7c8547c140d13adc5fee51ab2038fabf">SLNode</a>
+</li>
+<li>_isStopped
+: <a class="el" href="class_instrumentation_timer.html#a17c730ae3889d54ebcbf02176de8b132">InstrumentationTimer</a>
 </li>
 <li>_isTracking
 : <a class="el" href="class_c_v_tracked_features.html#a083653fe8468233802499fd5feabfeac">CVTrackedFeatures</a>
@@ -1040,17 +1149,14 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 <li>_lensSamples
 : <a class="el" href="class_s_l_camera.html#a4fc80ea131e022d49520973fb72200f8">SLCamera</a>
 </li>
+<li>_light
+: <a class="el" href="class_s_l_shadow_map.html#ae23ead687a975dabb5a512c802a28022">SLShadowMap</a>
+</li>
 <li>_lightMeshSize
 : <a class="el" href="class_s_l_g_l_conetracer.html#aecd139ca688a1659345bfd7a1e532213">SLGLConetracer</a>
 </li>
-<li>_lightPosVS
-: <a class="el" href="class_s_l_g_l_state.html#abc3298dcd63a23a56d2e92c068f49a3b">SLGLState</a>
-</li>
 <li>_lights
 : <a class="el" href="class_s_l_scene.html#a086b05e7a28aba49c9ed3e5c9e21b6df">SLScene</a>
-</li>
-<li>_lightSpotDirVS
-: <a class="el" href="class_s_l_g_l_state.html#aece41a371af63d4186ac28d754eb97a1">SLGLState</a>
 </li>
 <li>_linearLocalTime
 : <a class="el" href="class_s_l_anim_playback.html#a726ac5dbc2f953ed3e05b978fff9fdd0">SLAnimPlayback</a>
@@ -1141,6 +1247,7 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 </li>
 <li>_mat
 : <a class="el" href="class_s_l_mesh.html#afd22b1671cad9f01de4128548c3cdb67">SLMesh</a>
+, <a class="el" href="class_s_l_shadow_map.html#a3bdba30c7829d6f466a4bea04feba770">SLShadowMap</a>
 </li>
 <li>_matB
 : <a class="el" href="class_s_l_transform_node.html#a42df54a43659a3d936071f2ad5a324e0">SLTransformNode</a>
@@ -1149,7 +1256,7 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 : <a class="el" href="class_s_l_transform_node.html#a54a210ceffb88e31f8fb28b5582330fe">SLTransformNode</a>
 </li>
 <li>_matcher
-: <a class="el" href="class_c_v_tracked_features.html#a1d36c324b81edfe11338e2c0b93b84a8">CVTrackedFeatures</a>
+: <a class="el" href="class_c_v_tracked_features.html#a536a3d9ed2fc56cdb6d72ec7c17d20d9">CVTrackedFeatures</a>
 </li>
 <li>_materials
 : <a class="el" href="class_s_l_asset_manager.html#aa9e5a7e7ff08c2e7ec7d643396756854">SLAssetManager</a>
@@ -1224,10 +1331,12 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 <li>_maxWS
 : <a class="el" href="class_s_l_a_a_b_box.html#a59b975a218c5a761834fb4e881b97285">SLAABBox</a>
 </li>
+<li>_mesh
+: <a class="el" href="class_s_l_node.html#ac07266f2ba00194c15954d5b0b512bdf">SLNode</a>
+</li>
 <li>_meshes
 : <a class="el" href="class_s_l_asset_manager.html#ad85e0f6f08839289066a6c8a8b131b18">SLAssetManager</a>
 , <a class="el" href="class_s_l_importer.html#a621a817470e3893c47b06dcfd8c5ce3e">SLImporter</a>
-, <a class="el" href="class_s_l_node.html#a75db36b1e8e312de65b8cb2262cf3a58">SLNode</a>
 </li>
 <li>_metalness
 : <a class="el" href="class_s_l_material.html#a531fbdcafcf471f5f06410567ea99828">SLMaterial</a>
@@ -1308,11 +1417,19 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 <li>_multiSampleSamples
 : <a class="el" href="class_s_l_g_l_state.html#ae1061d2196277b1c59308a75f49a82f5">SLGLState</a>
 </li>
+<li>_mutex
+: <a class="el" href="class_instrumentor.html#ac3a79563273d69b36aadd8d61234e6f3">Instrumentor</a>
+, <a class="el" href="class_s_l_g_l_texture.html#a6c19193a0e1f18810b453dcb45e6acf7">SLGLTexture</a>
+</li>
+<li>_mvp
+: <a class="el" href="class_s_l_shadow_map.html#ae2a9add273d110cebc3de97c74352128">SLShadowMap</a>
+</li>
 <li>_mvpMatrix
 : <a class="el" href="class_s_l_g_l_state.html#af7a9bb6f78c4d1603754a7bac6467639">SLGLState</a>
 </li>
 <li>_name
 : <a class="el" href="class_c_v_image.html#afac5b9d16ffd1af56228970f08fcf83b">CVImage</a>
+, <a class="el" href="class_instrumentation_timer.html#ad35b7805691d8eb028589b6d90057417">InstrumentationTimer</a>
 , <a class="el" href="class_s_l_animation.html#a69f0c49408250ca23ce7524125cf3b11">SLAnimation</a>
 , <a class="el" href="class_s_l_g_l_uniform.html#a38d798e5bf1e603a08530846b970abf1">SLGLUniform&lt; T &gt;</a>
 , <a class="el" href="class_s_l_object.html#a8b2f66031607d40e0f2f1542215f147a">SLObject</a>
@@ -1320,8 +1437,8 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 <li>_needsUpdate
 : <a class="el" href="class_s_l_g_l_texture.html#abf90bc8f7c53070f10315df0ff361743">SLGLTexture</a>
 </li>
-<li>_next
-: <a class="el" href="class_s_l_raytracer.html#a079f0a690b2e99c458b193a4633d2170">SLRaytracer</a>
+<li>_nextLine
+: <a class="el" href="class_s_l_raytracer.html#a6650121249ba6f5c2588028e13ab74c5">SLRaytracer</a>
 </li>
 <li>_noDataValue
 : <a class="el" href="class_c_v_image_geo_tiff.html#a78c14b1d926e90bf7aa1b2e1b9d765fd">CVImageGeoTiff</a>
@@ -1339,17 +1456,26 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 <li>_nodeMap
 : <a class="el" href="class_s_l_assimp_importer.html#a3ffded5d78df70cf04982ba3afa85866">SLAssimpImporter</a>
 </li>
-<li>_nodesBlended
-: <a class="el" href="class_s_l_scene_view.html#aae053ea202a893b010224e053a878ca0">SLSceneView</a>
+<li>_nodesBlended2D
+: <a class="el" href="class_s_l_scene_view.html#a512fa4c265462db7ce274cb50ec426d3">SLSceneView</a>
+</li>
+<li>_nodesBlended3D
+: <a class="el" href="class_s_l_scene_view.html#a4096f8a646cd141623a47f25df12dcdc">SLSceneView</a>
+</li>
+<li>_nodesOpaque2D
+: <a class="el" href="class_s_l_scene_view.html#a4adc1a955b543e295433eff58502e39c">SLSceneView</a>
+</li>
+<li>_nodesOpaque3D
+: <a class="el" href="class_s_l_scene_view.html#a7fe9d6cf3ffae734938baca2ce63e53b">SLSceneView</a>
 </li>
 <li>_nodesOverdrawn
 : <a class="el" href="class_s_l_scene_view.html#a42b395695328dc21daf08bf9f64a73bd">SLSceneView</a>
 </li>
-<li>_nodesVisible
-: <a class="el" href="class_s_l_scene_view.html#ada49792b719ea431a14166884e891c42">SLSceneView</a>
-</li>
 <li>_nodesVisible2D
-: <a class="el" href="class_s_l_scene_view.html#a4718d7d9155ce29988e11ba149340c41">SLSceneView</a>
+: <a class="el" href="class_s_l_material.html#aaab41a835e16605740bcf48c4340cca0">SLMaterial</a>
+</li>
+<li>_nodesVisible3D
+: <a class="el" href="class_s_l_material.html#a5d3dc1dc1df37764b56e11f03d7e6c72">SLMaterial</a>
 </li>
 <li>_normalMatrix
 : <a class="el" href="class_s_l_g_l_state.html#ade67501c6e522fa2544df23c97f308be">SLGLState</a>
@@ -1358,8 +1484,11 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 : <a class="el" href="class_c_v_calibration.html#ad3696bc78ed342a64948428e7a9f081d">CVCalibration</a>
 , <a class="el" href="class_c_v_calibration_estimator.html#a5907576846bb1d294003e73e96cae5df">CVCalibrationEstimator</a>
 </li>
-<li>_numIndices
-: <a class="el" href="class_s_l_g_l_vertex_array.html#a38ac7097f289dd628af95857376d9dbe">SLGLVertexArray</a>
+<li>_numIndicesEdges
+: <a class="el" href="class_s_l_g_l_vertex_array.html#a98877d8322e1525ee2856ead4c54203d">SLGLVertexArray</a>
+</li>
+<li>_numIndicesElements
+: <a class="el" href="class_s_l_g_l_vertex_array.html#a19587cda279f7a2b72a71dcb7c50d5e9">SLGLVertexArray</a>
 </li>
 <li>_numMeasures
 : <a class="el" href="class_averaged.html#aaf421de7908a7ef6e768ad6a323374aa">Averaged&lt; T &gt;</a>
@@ -1378,7 +1507,7 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 : <a class="el" href="class_c_v_tracked.html#a1e0f2baff700ffb059d59b84935a4308">CVTracked</a>
 </li>
 <li>_oculus
-: <a class="el" href="class_s_l_scene.html#af3e463730ce80ee02dbbddba92c05cae">SLScene</a>
+: <a class="el" href="class_s_l_scene.html#a0aec96435161c5f5595239ced9a3c638">SLScene</a>
 </li>
 <li>_oculusFB
 : <a class="el" href="class_s_l_scene_view.html#a5b347a9bab788da12c366b177c179662">SLSceneView</a>
@@ -1431,6 +1560,12 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 <li>_outputRes
 : <a class="el" href="class_s_l_g_l_oculus.html#a8a65c739c226fc28fa17b47cbc5fe052">SLGLOculus</a>
 </li>
+<li>_outputStream
+: <a class="el" href="class_instrumentor.html#a4a216f6aaf02f40fc82acf67c7a5534e">Instrumentor</a>
+</li>
+<li>_p
+: <a class="el" href="class_s_l_shadow_map.html#afff9222dccb430e4c70a76c6c7147237">SLShadowMap</a>
+</li>
 <li>_params
 : <a class="el" href="class_c_v_calibration_estimator.html#a9658e55ceaf4e52068b029b6c49ce272">CVCalibrationEstimator</a>
 </li>
@@ -1448,6 +1583,9 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 </li>
 <li>_pathtracer
 : <a class="el" href="class_s_l_scene_view.html#a05f3d327ae0e7a1b6842a2dbafe7cd82">SLSceneView</a>
+</li>
+<li>_pcfLevel
+: <a class="el" href="class_s_l_light.html#a5fbce944c02ca71000092c0672ac96ac">SLLight</a>
 </li>
 <li>_percentAvail
 : <a class="el" href="class_s_l_memory_stats.html#acd1eccd32fdf7323fec330e849a6fcde">SLMemoryStats</a>
@@ -1501,6 +1639,12 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 <li>_primitive
 : <a class="el" href="class_s_l_mesh.html#a75038f543a0410e06fc326724f937de0">SLMesh</a>
 </li>
+<li>_profileCount
+: <a class="el" href="class_instrumentor.html#acb0bb11299daf5270b32a58c086914cc">Instrumentor</a>
+</li>
+<li>_profileResults
+: <a class="el" href="class_instrumentor.html#a5f6b053d37a5a9ebd3c8b33af339a685">Instrumentor</a>
+</li>
 <li>_prog
 : <a class="el" href="class_s_l_transform_node.html#a97c491d0451726f045c3e18bb2eecd61">SLTransformNode</a>
 </li>
@@ -1527,6 +1671,7 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 <li>_projection
 : <a class="el" href="class_s_l_camera.html#ac17fb86ef48378582cd43b999a12fe32">SLCamera</a>
 , <a class="el" href="class_s_l_g_l_oculus.html#aaabefadebc0e2a1d5facfc9ddbc6f7ac">SLGLOculus</a>
+, <a class="el" href="class_s_l_shadow_map.html#ae4f4312d8b5bf0f8405e58e737f0cab1">SLShadowMap</a>
 </li>
 <li>_pxSize
 : <a class="el" href="class_s_l_raytracer.html#ad9498fed343fea2c656db35434419fe8">SLRaytracer</a>
@@ -1565,6 +1710,9 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 <li>_random
 : <a class="el" href="class_s_l_photon_mapper.html#a466238f83050e7f736322a8213833a46">SLPhotonMapper</a>
 </li>
+<li>_rayCount
+: <a class="el" href="class_s_l_shadow_map.html#a480dcfb3040cf61ba3967f219f81f62e">SLShadowMap</a>
+</li>
 <li>_raysPerMS
 : <a class="el" href="class_s_l_raytracer.html#ae28bbd8c5bd8d5a08ce707a230877a6f">SLRaytracer</a>
 </li>
@@ -1582,6 +1730,9 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 </li>
 <li>_renderType
 : <a class="el" href="class_s_l_scene_view.html#a59307b4d628824b50895b3d706fa0579">SLSceneView</a>
+</li>
+<li>_repeatBlurred
+: <a class="el" href="class_s_l_background.html#a2e564b96e7ed1bebae6aea26acd44fda">SLBackground</a>
 </li>
 <li>_reprojectionError
 : <a class="el" href="class_c_v_calibration.html#a116ec9b58637eef55022842e4190c158">CVCalibration</a>
@@ -1626,9 +1777,6 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 <li>_root3D
 : <a class="el" href="class_s_l_scene.html#a41b766d0a543b71613e826f5607cd7b1">SLScene</a>
 </li>
-<li>_rootInitialized
-: <a class="el" href="class_s_l_scene.html#a3f4c253554b38c7006589ece13069ae6">SLScene</a>
-</li>
 <li>_rootJoint
 : <a class="el" href="class_s_l_skeleton.html#ab35472e35ee378cf4ff9ca910639f9b0">SLSkeleton</a>
 </li>
@@ -1656,6 +1804,9 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 </li>
 <li>_rotFactor
 : <a class="el" href="class_s_l_event_handler.html#aa8dce05c6f99698a4badcfa887755251">SLEventHandler</a>
+</li>
+<li>_rotGizmos
+: <a class="el" href="class_s_l_transform_node.html#a9b7c406498da34ad8eb7ce56da84f7bb">SLTransformNode</a>
 </li>
 <li>_roughness
 : <a class="el" href="class_s_l_material.html#a5b12c64640daccf52d2b5a0aa5cecf4a">SLMaterial</a>
@@ -1728,14 +1879,20 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 <li>_selectedGizmo
 : <a class="el" href="class_s_l_transform_node.html#a9f32c5f95e9e922ce6dc4d5321050183">SLTransformNode</a>
 </li>
-<li>_selectedMesh
-: <a class="el" href="class_s_l_scene.html#a7124f9118e366de7db3deae33412a961">SLScene</a>
+<li>_selectedMeshes
+: <a class="el" href="class_s_l_scene.html#a53e6550cbc3ddfd63edeec9929d4406c">SLScene</a>
 </li>
-<li>_selectedNode
-: <a class="el" href="class_s_l_scene.html#af5d0089259599ff236473c85e79c35e5">SLScene</a>
+<li>_selectedNodes
+: <a class="el" href="class_s_l_scene.html#a052061a27519f5eda3c3bb74c80e4399">SLScene</a>
 </li>
-<li>_selectedRect
-: <a class="el" href="class_s_l_camera.html#a83316ff0d95b71b9d0b6054f2f5dbabe">SLCamera</a>
+<li>_selectRect
+: <a class="el" href="class_s_l_camera.html#af3c2536ae265c6ddd0e0f22ddb61f8a6">SLCamera</a>
+</li>
+<li>_shaderFileDir
+: <a class="el" href="class_s_l_g_l_oculus.html#a3af94c3bd6341207b8cdb06dbb3ea1f5">SLGLOculus</a>
+</li>
+<li>_shaderFilePath
+: <a class="el" href="class_s_l_g_l_conetracer.html#a8d6ac3afef5a5953aeabeaf9dfd7d6f1">SLGLConetracer</a>
 </li>
 <li>_shaderID
 : <a class="el" href="class_s_l_g_l_shader.html#a0e308fd0d9dfd35975a8c8dc3fa509f7">SLGLShader</a>
@@ -1743,8 +1900,20 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 <li>_shaders
 : <a class="el" href="class_s_l_g_l_program.html#ab65a521a152f49076dbd641d853fc006">SLGLProgram</a>
 </li>
+<li>_shadowBias
+: <a class="el" href="class_s_l_material.html#a5d020347726b347217210c0c3ea557e7">SLMaterial</a>
+</li>
 <li>_shadowConeAngle
 : <a class="el" href="class_s_l_g_l_conetracer.html#ac2b08dddc7b96331411e456003156ecc">SLGLConetracer</a>
+</li>
+<li>_shadowMap
+: <a class="el" href="class_s_l_light.html#a2bc293f76b2236a9d7ae17e1f0d90023">SLLight</a>
+</li>
+<li>_shadowMapTimeMS
+: <a class="el" href="class_s_l_scene_view.html#ad293bbbac8863f3033a148f1c68075ed">SLSceneView</a>
+</li>
+<li>_shadowMapTimesMS
+: <a class="el" href="class_s_l_scene_view.html#a92f5327d7442007739f636b719f276fa">SLSceneView</a>
 </li>
 <li>_shininess
 : <a class="el" href="class_s_l_material.html#ae85e7fd7b07f020d204199371c9cb186">SLMaterial</a>
@@ -1757,6 +1926,7 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 </li>
 <li>_size
 : <a class="el" href="class_s_l_compact_grid.html#a89d1891e14a6d2d099900e1f4d8d3653">SLCompactGrid</a>
+, <a class="el" href="class_s_l_shadow_map.html#acc444785caf980c0b39d8e7c043922c1">SLShadowMap</a>
 , <a class="el" href="class_s_l_uniform_grid.html#a0c01e1d30430afa1b91966af71a2769f">SLUniformGrid</a>
 , <a class="el" href="class_s_l_vector.html#a49cfaecbaa567977f09c9f28bc886685">SLVector&lt; T, U &gt;</a>
 </li>
@@ -1796,11 +1966,16 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 : <a class="el" href="class_c_v_tracked_chessboard.html#a8ea98e6b2d86b555c5301950b26ca683">CVTrackedChessboard</a>
 </li>
 <li>_specular
-: <a class="el" href="class_s_l_light.html#a19d33fe111081ffe5326c1d637d0a587">SLLight</a>
-, <a class="el" href="class_s_l_material.html#a0f560a43110e75c08ebdad600f1b1654">SLMaterial</a>
+: <a class="el" href="class_s_l_material.html#a0f560a43110e75c08ebdad600f1b1654">SLMaterial</a>
+</li>
+<li>_specularColor
+: <a class="el" href="class_s_l_light.html#ae596ea6177c9b3f33b3d7ba4d6b752d7">SLLight</a>
 </li>
 <li>_specularConeAngle
 : <a class="el" href="class_s_l_g_l_conetracer.html#ac3539ff1525f03e00b5289802588a076">SLGLConetracer</a>
+</li>
+<li>_specularPower
+: <a class="el" href="class_s_l_light.html#a8c0c05ea1f1e2c5e8945d004858a6571">SLLight</a>
 </li>
 <li>_spotCosCutOffRAD
 : <a class="el" href="class_s_l_light.html#ad1737192a41686b7cb7d65e6482e39ac">SLLight</a>
@@ -1818,6 +1993,9 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 : <a class="el" href="class_s_l_revolver.html#aead376aa4433b8932810ea051bf009f5">SLRevolver</a>
 , <a class="el" href="class_s_l_volume.html#a2e0266a04992b20ef0e542f0ab7adaaf">SLVolume</a>
 </li>
+<li>_startTimepoint
+: <a class="el" href="class_instrumentation_timer.html#a522497c13842b73b9c3cea4ae75fd063">InstrumentationTimer</a>
+</li>
 <li>_startYawRAD
 : <a class="el" href="class_s_l_device_rotation.html#a6a99c193ea0c000dcded74fa04d0622a">SLDeviceRotation</a>
 </li>
@@ -1831,6 +2009,15 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 </li>
 <li>_stats3D
 : <a class="el" href="class_s_l_scene_view.html#a215f7beb5483ccf90f42e87be60d2e45">SLSceneView</a>
+</li>
+<li>_stereoColorFilter
+: <a class="el" href="class_s_l_camera.html#abed438364d3af5b37aacf35e3a913d1f">SLCamera</a>
+</li>
+<li>_stereoEye
+: <a class="el" href="class_s_l_camera.html#ab66a712993bd8028a449d96e247b507f">SLCamera</a>
+</li>
+<li>_stereoEyeSeparation
+: <a class="el" href="class_s_l_camera.html#a12b08a9c1eb245881dde8ff5ed95f21c">SLCamera</a>
 </li>
 <li>_stereoOculusDistProgram
 : <a class="el" href="class_s_l_g_l_oculus.html#ae3989bf7ac295900f037dedc953301c9">SLGLOculus</a>
@@ -1846,6 +2033,9 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 </li>
 <li>_storedPhotons
 : <a class="el" href="class_s_l_photon_map.html#ac962e85e52a4a85eb19563d4120a92cf">SLPhotonMap</a>
+</li>
+<li>_storeInMemory
+: <a class="el" href="class_instrumentor.html#aaf1ffbe6eacac49a82933162e940ffdf">Instrumentor</a>
 </li>
 <li>_strideBytes
 : <a class="el" href="class_s_l_g_l_vertex_buffer.html#ad833ef7b1dece5d696265e9922c18916">SLGLVertexBuffer</a>
@@ -1868,7 +2058,8 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 : <a class="el" href="class_s_l_input_manager.html#a91be5bf7589491941c723bb1755a6e78">SLInputManager</a>
 </li>
 <li>_target
-: <a class="el" href="class_s_l_g_l_texture.html#aba7712b0a8bbe3881cd18ca29f13b5a8">SLGLTexture</a>
+: <a class="el" href="class_s_l_g_l_depth_buffer.html#a872b2fe8e539fa678924c7fa8085033f">SLGLDepthBuffer</a>
+, <a class="el" href="class_s_l_g_l_texture.html#aba7712b0a8bbe3881cd18ca29f13b5a8">SLGLTexture</a>
 </li>
 <li>_targetNode
 : <a class="el" href="class_s_l_transform_node.html#a3107d09733aec1ff28254219101525a7">SLTransformNode</a>
@@ -1877,7 +2068,8 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 : <a class="el" href="class_s_l_polygon.html#a351e04e324077c487de09b53a2703a2c">SLPolygon</a>
 </li>
 <li>_texID
-: <a class="el" href="class_s_l_g_l_oculus_f_b.html#afdcb2342b3dc0422d05cb6ee4982638c">SLGLOculusFB</a>
+: <a class="el" href="class_s_l_g_l_depth_buffer.html#ae7cec4312caa9ca052828703c15e5f2f">SLGLDepthBuffer</a>
+, <a class="el" href="class_s_l_g_l_oculus_f_b.html#afdcb2342b3dc0422d05cb6ee4982638c">SLGLOculusFB</a>
 , <a class="el" href="class_s_l_g_l_texture.html#afdae99b6bddd78b373ca771fb4ff721f">SLGLTexture</a>
 </li>
 <li>_text
@@ -1898,6 +2090,9 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 <li>_textures
 : <a class="el" href="class_s_l_asset_manager.html#a045de06e51925458287ad1b4193b1fa8">SLAssetManager</a>
 , <a class="el" href="class_s_l_material.html#a87cf0399784a41dbe514238957921766">SLMaterial</a>
+</li>
+<li>_textureSize
+: <a class="el" href="class_s_l_shadow_map.html#a9bb5c0e1ed3eb05c90ec76ef842b3d31">SLShadowMap</a>
 </li>
 <li>_textureTarget
 : <a class="el" href="class_s_l_g_l_state.html#a5071dda43ec8da19a680fa3b08691ee2">SLGLState</a>
@@ -1972,14 +2167,8 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 <li>_trackingExtractor
 : <a class="el" href="class_c_v_tracked_w_a_i.html#a4013cde9280bbefcb89fbc29e39c28bf">CVTrackedWAI</a>
 </li>
-<li>_transAxisX
-: <a class="el" href="class_s_l_transform_node.html#ade34ff94b4fcc8bbab41c6adc26dda99">SLTransformNode</a>
-</li>
-<li>_transAxisY
-: <a class="el" href="class_s_l_transform_node.html#a61a17c14c003981e4aece5a4ab354074">SLTransformNode</a>
-</li>
-<li>_transAxisZ
-: <a class="el" href="class_s_l_transform_node.html#ad9b35d959637d7066e723cd55d39c806">SLTransformNode</a>
+<li>_transGizmos
+: <a class="el" href="class_s_l_transform_node.html#a75d163ca16113e7f78150b6da231a003">SLTransformNode</a>
 </li>
 <li>_translation
 : <a class="el" href="class_s_l_transform_keyframe.html#aed13f367503cbf8ef6df95da1993788b">SLTransformKeyframe</a>
@@ -2050,6 +2239,9 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 <li>_usage
 : <a class="el" href="class_s_l_g_l_vertex_buffer.html#a6b5aeb19d35318a76f824968ad706bfb">SLGLVertexBuffer</a>
 </li>
+<li>_useCubemap
+: <a class="el" href="class_s_l_shadow_map.html#af5f1bf52274044709e27851ca3885a15">SLShadowMap</a>
+</li>
 <li>_usedMemInMB
 : <a class="el" href="class_s_l_memory_stats.html#a0d052549c4d317dadcc2df01ebd28c66">SLMemoryStats</a>
 </li>
@@ -2058,6 +2250,9 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 </li>
 <li>_usingDebugHmd
 : <a class="el" href="class_s_l_g_l_oculus.html#a5d77502f8aaa50899625b899c4c8e70d">SLGLOculus</a>
+</li>
+<li>_v
+: <a class="el" href="class_s_l_shadow_map.html#a6d0c796a022ea7c4e5122b8186954b14">SLShadowMap</a>
 </li>
 <li>_value
 : <a class="el" href="class_s_l_g_l_uniform.html#ab9f4ff5e31d2d4dc84d0b396e1db80bb">SLGLUniform&lt; T &gt;</a>
@@ -2109,6 +2304,9 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 <li>_velocity
 : <a class="el" href="class_s_l_camera.html#adcd5a71bec3251d8a46484a7b7ea60fe">SLCamera</a>
 </li>
+<li>_vertexPosEpsilon
+: <a class="el" href="class_s_l_mesh.html#a5a4da0c25725a4bde48030b027efea8b">SLMesh</a>
+</li>
 <li>_vertHandle
 : <a class="el" href="class_s_l_g_l_im_gui.html#a9ebd69f313267e3f85f677659a682462">SLGLImGui</a>
 </li>
@@ -2136,6 +2334,12 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 </li>
 <li>_viewportW
 : <a class="el" href="class_s_l_camera.html#ab45090692b726d8374a5bf05e50868e4">SLCamera</a>
+</li>
+<li>_visibleMaterials2D
+: <a class="el" href="class_s_l_scene_view.html#ae68da7fd3fe559e72f6457937f770044">SLSceneView</a>
+</li>
+<li>_visibleMaterials3D
+: <a class="el" href="class_s_l_scene_view.html#ad63f53be2f6bd3b27a91a6356540b2a3">SLSceneView</a>
 </li>
 <li>_visualizeBackfaceFBO
 : <a class="el" href="class_s_l_g_l_conetracer.html#ae157100dd2d9ff6ee80590686a94e861">SLGLConetracer</a>
@@ -2254,7 +2458,7 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue May 26 2020 10:23:34 for SLProject by
+    <li class="footer">Generated on Fri Sep 18 2020 14:31:39 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.18 </li>
   </ul>

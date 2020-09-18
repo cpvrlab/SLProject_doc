@@ -1,6 +1,6 @@
 var class_s_l_g_l_oculus =
 [
-    [ "SLGLOculus", "class_s_l_g_l_oculus.html#a38ac8f96f3e862573e6e9057ff282157", null ],
+    [ "SLGLOculus", "class_s_l_g_l_oculus.html#ad8f9ca022352380d6314f8a9f32b17cc", null ],
     [ "~SLGLOculus", "class_s_l_g_l_oculus.html#a51800f1a52c81211ddc8311a07e3da4f", null ],
     [ "beginFrame", "class_s_l_g_l_oculus.html#a586c66e587538256329c17c576fbae13", null ],
     [ "calculateHmdValues", "class_s_l_g_l_oculus.html#ab81d68c69102b83d2bec5031335967e9", null ],
@@ -19,7 +19,7 @@ var class_s_l_g_l_oculus =
     [ "position", "class_s_l_g_l_oculus.html#a4c7581c5b4faa6bfce4f22c9dc3e488e", null ],
     [ "positionTracking", "class_s_l_g_l_oculus.html#a0b98caa0417c25cc95cd93fa5b0b4e9d", null ],
     [ "projection", "class_s_l_g_l_oculus.html#a6be31775849457a08d520f6605cc3f2b", null ],
-    [ "renderDistortion", "class_s_l_g_l_oculus.html#a224b32a926f8cb78e9641848264d389e", null ],
+    [ "renderDistortion", "class_s_l_g_l_oculus.html#a73262a6527a220d08645fa572721ecd8", null ],
     [ "renderResolution", "class_s_l_g_l_oculus.html#ae43a2f44eb8a5f2723e2c4aac91a74e8", null ],
     [ "resolutionScale", "class_s_l_g_l_oculus.html#a63b998d044b9d304e6cdc8625dd9d516", null ],
     [ "timeWarp", "class_s_l_g_l_oculus.html#ae2df3c30c664ce6d8b475480545f8d65", null ],
@@ -40,6 +40,7 @@ var class_s_l_g_l_oculus =
     [ "_resolution", "class_s_l_g_l_oculus.html#a5f1d0bfe43c1d5784ee5e92e2ccb8d7d", null ],
     [ "_resolutionScale", "class_s_l_g_l_oculus.html#adc8d0353e50d4b5559a354671db8da38", null ],
     [ "_rtSize", "class_s_l_g_l_oculus.html#aa62a6f26adf85c0eb3a0a6fb09f8233f", null ],
+    [ "_shaderFileDir", "class_s_l_g_l_oculus.html#a3af94c3bd6341207b8cdb06dbb3ea1f5", null ],
     [ "_stereoOculusDistProgram", "class_s_l_g_l_oculus.html#ae3989bf7ac295900f037dedc953301c9", null ],
     [ "_timeWarpEnabled", "class_s_l_g_l_oculus.html#abf7cec44ae126dfdb3a4a941ddbad0f0", null ],
     [ "_usingDebugHmd", "class_s_l_g_l_oculus.html#a5d77502f8aaa50899625b899c4c8e70d", null ],

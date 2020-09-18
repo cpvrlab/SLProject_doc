@@ -27,14 +27,21 @@ var hierarchy =
     ] ],
     [ "DistortionMeshVertexData", "struct_distortion_mesh_vertex_data.html", null ],
     [ "DistortionRenderDesc", "struct_distortion_render_desc.html", null ],
+    [ "DNSRequest", "struct_d_n_s_request.html", null ],
     [ "HmdRenderInfo::EyeConfig", "struct_hmd_render_info_1_1_eye_config.html", null ],
     [ "Utils::FileLog", "class_utils_1_1_file_log.html", null ],
+    [ "HttpUtils::GetRequest", "struct_http_utils_1_1_get_request.html", null ],
     [ "GlobalTimer", "class_global_timer.html", null ],
     [ "glUtils", "classgl_utils.html", null ],
     [ "HighResTimer", "class_high_res_timer.html", null ],
     [ "HmdRenderInfo", "struct_hmd_render_info.html", null ],
+    [ "HttpUtils::HTTPDownload", "struct_http_utils_1_1_h_t_t_p_download.html", null ],
+    [ "InstrumentationSession", "struct_instrumentation_session.html", null ],
+    [ "InstrumentationTimer", "class_instrumentation_timer.html", null ],
+    [ "Instrumentor", "class_instrumentor.html", null ],
     [ "join_threads", "classjoin__threads.html", null ],
     [ "LensConfig", "struct_lens_config.html", null ],
+    [ "lightDataStd140", "structlight_data_std140.html", null ],
     [ "map", null, [
       [ "AverageTiming", "class_average_timing.html", null ]
     ] ],
@@ -43,6 +50,7 @@ var hierarchy =
     [ "ovrFovPort_", "structovr_fov_port__.html", null ],
     [ "ovrSizef", "structovr_sizef.html", null ],
     [ "ovrSizei", "structovr_sizei.html", null ],
+    [ "ProfileResult", "struct_profile_result.html", null ],
     [ "runtime_error", null, [
       [ "CVCalibrationEstimatorException", "class_c_v_calibration_estimator_exception.html", null ]
     ] ],
@@ -95,6 +103,7 @@ var hierarchy =
     [ "SLGLAttribute", "struct_s_l_g_l_attribute.html", null ],
     [ "SLGLConetracer", "class_s_l_g_l_conetracer.html", null ],
     [ "SLGLConetracerTex3D", "class_s_l_g_l_conetracer_tex3_d.html", null ],
+    [ "SLGLDepthBuffer", "class_s_l_g_l_depth_buffer.html", null ],
     [ "SLGLFbo", "class_s_l_g_l_fbo.html", null ],
     [ "SLGLOculus", "class_s_l_g_l_oculus.html", null ],
     [ "SLGLOculusFB", "class_s_l_g_l_oculus_f_b.html", null ],
@@ -139,7 +148,12 @@ var hierarchy =
     [ "SLObject", "class_s_l_object.html", [
       [ "SLBackground", "class_s_l_background.html", null ],
       [ "SLGLProgram", "class_s_l_g_l_program.html", [
-        [ "SLGLGenericProgram", "class_s_l_g_l_generic_program.html", null ]
+        [ "SLGLGenericProgram", "class_s_l_g_l_generic_program.html", [
+          [ "SLGLGenericProgramDefault", "class_s_l_g_l_generic_program_default.html", null ],
+          [ "SLGLGenericProgramDefaultColorAttrib", "class_s_l_g_l_generic_program_default_color_attrib.html", null ],
+          [ "SLGLGenericProgramDefaultTex", "class_s_l_g_l_generic_program_default_tex.html", null ],
+          [ "SLGLGenericProgramDefaultTexNormal", "class_s_l_g_l_generic_program_default_tex_normal.html", null ]
+        ] ]
       ] ],
       [ "SLGLShader", "class_s_l_g_l_shader.html", null ],
       [ "SLGLTexture", "class_s_l_g_l_texture.html", [
@@ -148,8 +162,8 @@ var hierarchy =
         [ "SLTransferFunction", "class_s_l_transfer_function.html", null ]
       ] ],
       [ "SLMaterial", "class_s_l_material.html", [
-        [ "SLMaterialDefaultGray", "class_s_l_material_default_gray.html", null ],
-        [ "SLMaterialDiffuseAttribute", "class_s_l_material_diffuse_attribute.html", null ]
+        [ "SLMaterialDefaultColorAttribute", "class_s_l_material_default_color_attribute.html", null ],
+        [ "SLMaterialDefaultGray", "class_s_l_material_default_gray.html", null ]
       ] ],
       [ "SLMesh", "class_s_l_mesh.html", [
         [ "SLBox", "class_s_l_box.html", null ],
@@ -194,6 +208,7 @@ var hierarchy =
     ] ],
     [ "SLRTAAPixel", "struct_s_l_r_t_a_a_pixel.html", null ],
     [ "SLSamples2D", "class_s_l_samples2_d.html", null ],
+    [ "SLShadowMap", "class_s_l_shadow_map.html", null ],
     [ "SLSkeleton", "class_s_l_skeleton.html", null ],
     [ "SLTexFont::SLTexFontChar", "struct_s_l_tex_font_1_1_s_l_tex_font_char.html", null ],
     [ "SLTransferAlpha", "struct_s_l_transfer_alpha.html", null ],
@@ -213,5 +228,9 @@ var hierarchy =
     [ "SLVec4< SLfloat >", "class_s_l_vec4.html", null ],
     [ "SLVec4< SLint >", "class_s_l_vec4.html", null ],
     [ "SLVector< T, U >", "class_s_l_vector.html", null ],
-    [ "SLVertexOculus", "struct_s_l_vertex_oculus.html", null ]
+    [ "SLVertexOculus", "struct_s_l_vertex_oculus.html", null ],
+    [ "Socket", "struct_socket.html", [
+      [ "SecureSocket", "struct_secure_socket.html", null ]
+    ] ],
+    [ "Utils_iOS", "class_utils__i_o_s.html", null ]
 ];

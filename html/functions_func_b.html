@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">3.0.0</span>
+   &#160;<span id="projectnumber">3.1.0</span>
    </div>
   </td>
  </tr>
@@ -78,18 +78,27 @@ $(document).ready(function(){initNavTree('functions_func_b.html',''); initResiza
 <li>beginFrame()
 : <a class="el" href="class_s_l_g_l_oculus.html#a586c66e587538256329c17c576fbae13">SLGLOculus</a>
 </li>
+<li>beginSession()
+: <a class="el" href="class_instrumentor.html#a5e934af42163a3abde8603fef442d941">Instrumentor</a>
+</li>
 <li>beginShader()
-: <a class="el" href="class_s_l_g_l_generic_program.html#ab9f5a51f62a15e76e78db6ad974cdfa5">SLGLGenericProgram</a>
-, <a class="el" href="class_s_l_g_l_program.html#ad542d6d222cdd7890ca00a5471810ae8">SLGLProgram</a>
+: <a class="el" href="class_s_l_g_l_generic_program.html#af808ab0541169384cf6b3f6075e4235c">SLGLGenericProgram</a>
+, <a class="el" href="class_s_l_g_l_program.html#a33ac005e6b57d8861dc7efc317a9e4d1">SLGLProgram</a>
 </li>
 <li>beginUse()
-: <a class="el" href="class_s_l_g_l_program.html#abbc2b1a187eaccda33be59ac1e0aca1b">SLGLProgram</a>
+: <a class="el" href="class_s_l_g_l_program.html#a7ae05344d931e3a46dedcc1b3d4a6c5e">SLGLProgram</a>
+</li>
+<li>bind()
+: <a class="el" href="class_s_l_g_l_depth_buffer.html#a11c5437748e07cf9412376f5cf12c4d7">SLGLDepthBuffer</a>
 </li>
 <li>bindActive()
 : <a class="el" href="class_s_l_g_l_texture.html#a80d153fcac24c535d1af7ad179bdb071">SLGLTexture</a>
 </li>
 <li>bindAndEnableAttrib()
 : <a class="el" href="class_s_l_g_l_vertex_buffer.html#a50e9c92db2512301f3bf607f295d8f0f">SLGLVertexBuffer</a>
+</li>
+<li>bindFace()
+: <a class="el" href="class_s_l_g_l_depth_buffer.html#a4739ee5c9832b4416c08844aff43a29f">SLGLDepthBuffer</a>
 </li>
 <li>bindFramebuffer()
 : <a class="el" href="class_s_l_g_l_oculus_f_b.html#a76d0caf48a647c5bc96ce13da6b27648">SLGLOculusFB</a>
@@ -101,7 +110,10 @@ $(document).ready(function(){initNavTree('functions_func_b.html',''); initResiza
 : <a class="el" href="class_s_l_draw_bits.html#aee568aebe81fe24daa8f7bf338114a94">SLDrawBits</a>
 </li>
 <li>blend()
-: <a class="el" href="class_s_l_g_l_state.html#a74eb72d8f7c99233a140265d18b75444">SLGLState</a>
+: <a class="el" href="class_s_l_g_l_state.html#a74148ca9c6f414272a5a89bbdf18d8a4">SLGLState</a>
+</li>
+<li>blendFunc()
+: <a class="el" href="class_s_l_g_l_state.html#a5a7e5baa4369baed40e2f31adf240417">SLGLState</a>
 </li>
 <li>boardSize()
 : <a class="el" href="class_c_v_calibration.html#a0fceb1c67f2f6024683f82fe9c80141d">CVCalibration</a>
@@ -186,16 +198,16 @@ $(document).ready(function(){initNavTree('functions_func_b.html',''); initResiza
 : <a class="el" href="classgl_utils.html#a4e9210275cdb0a69b96c1fdca24f3fff">glUtils</a>
 </li>
 <li>bumpScale()
-: <a class="el" href="class_s_l_g_l_texture.html#a35f45090774c15ebeb78debd1b287efe">SLGLTexture</a>
+: <a class="el" href="class_s_l_g_l_texture.html#a931e3d4885b446ab3a11c35a6d867d96">SLGLTexture</a>
 </li>
 <li>bytesPerImage()
 : <a class="el" href="class_c_v_image.html#a9861ebf625c225592b524566ae0db64f">CVImage</a>
 </li>
 <li>bytesPerLine()
-: <a class="el" href="class_c_v_image.html#ac17ba500fa5ec3b97dff2eb1e91f8ec4">CVImage</a>
+: <a class="el" href="class_c_v_image.html#a797dbbb40255bbb1d6503b35b2a6cb5e">CVImage</a>
 </li>
 <li>bytesPerPixel()
-: <a class="el" href="class_c_v_image.html#a9d15e2048be4a49d097630a3a16abf14">CVImage</a>
+: <a class="el" href="class_c_v_image.html#a7a13e78646ce6b171b19b4f094d06ba3">CVImage</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -203,7 +215,7 @@ $(document).ready(function(){initNavTree('functions_func_b.html',''); initResiza
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue May 26 2020 10:23:34 for SLProject by
+    <li class="footer">Generated on Fri Sep 18 2020 14:31:39 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.18 </li>
   </ul>

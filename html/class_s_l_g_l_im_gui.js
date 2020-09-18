@@ -1,13 +1,13 @@
 var class_s_l_g_l_im_gui =
 [
-    [ "SLGLImGui", "class_s_l_g_l_im_gui.html#a673e5b004987a3dfcaa4b78272b85570", null ],
+    [ "SLGLImGui", "class_s_l_g_l_im_gui.html#ab968df280a0bf6eef7143db3c3dfa779", null ],
     [ "~SLGLImGui", "class_s_l_g_l_im_gui.html#a5bb19aa0938ea6004807f32346098158", null ],
     [ "createOpenGLObjects", "class_s_l_g_l_im_gui.html#ad2c6acffd05e92635b458eeae12fbe99", null ],
     [ "deleteOpenGLObjects", "class_s_l_g_l_im_gui.html#aca1be93c73380be5f6b27c259394d15a", null ],
     [ "doNotDispatchKeyboard", "class_s_l_g_l_im_gui.html#ab4d5359b0629f6e3089eecf41874738e", null ],
     [ "doNotDispatchMouse", "class_s_l_g_l_im_gui.html#aaab0128c74f13ef59e0bbb30639cb0c5", null ],
     [ "init", "class_s_l_g_l_im_gui.html#a9a48a1de8fd512f750f97cbdbff18008", null ],
-    [ "loadFonts", "class_s_l_g_l_im_gui.html#a01f59d2289c9f4cfffda6c29da3b5ff8", null ],
+    [ "loadFonts", "class_s_l_g_l_im_gui.html#a7a0529f6223fd940c630ecdb64984611", null ],
     [ "onCharInput", "class_s_l_g_l_im_gui.html#a5cf99e8f89af438a148fbc32bf29f223", null ],
     [ "onClose", "class_s_l_g_l_im_gui.html#a5afa628355f40552d866e4b0273aa756", null ],
     [ "onInitNewFrame", "class_s_l_g_l_im_gui.html#a0eaa5f36a60a883251c77deec3964eac", null ],
@@ -28,6 +28,7 @@ var class_s_l_g_l_im_gui =
     [ "_attribLocUV", "class_s_l_g_l_im_gui.html#a4da1da1dae4049ca984280a95e392a3f", null ],
     [ "_build", "class_s_l_g_l_im_gui.html#afcade65aceadf9a6b93ac6ed0ac4ff36", null ],
     [ "_elementsHandle", "class_s_l_g_l_im_gui.html#a5bdb7238929039bd0bf3ce5cb9d1dc2b", null ],
+    [ "_fontDir", "class_s_l_g_l_im_gui.html#a866cf6ffd3f8abdb8ea0bbacb5d71eef", null ],
     [ "_fontFixedDots", "class_s_l_g_l_im_gui.html#a7435675d241782a4c16f4920f62ac30c", null ],
     [ "_fontPropDots", "class_s_l_g_l_im_gui.html#aabc8692aa74623de8e0f5f2915587d46", null ],
     [ "_fontTexture", "class_s_l_g_l_im_gui.html#afe3227cec0be2a3c678ee8c669f9340c", null ],

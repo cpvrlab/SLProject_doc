@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">3.0.0</span>
+   &#160;<span id="projectnumber">3.1.0</span>
    </div>
   </td>
  </tr>
@@ -107,7 +107,8 @@ $(document).ready(function(){initNavTree('functions_func_i.html',''); initResiza
 , <a class="el" href="class_s_l_g_l_conetracer.html#a7396897e1977dc0bad9652f9c4d284fd">SLGLConetracer</a>
 , <a class="el" href="class_s_l_g_l_im_gui.html#a9a48a1de8fd512f750f97cbdbff18008">SLGLImGui</a>
 , <a class="el" href="class_s_l_g_l_oculus.html#a37e4a182960530525ca4b2780d836696">SLGLOculus</a>
-, <a class="el" href="class_s_l_g_l_program.html#ab2f07c51f46e056830826e11aef1626a">SLGLProgram</a>
+, <a class="el" href="class_s_l_g_l_program.html#ac388363328b328b0c158b9c0a29a3bc6">SLGLProgram</a>
+, <a class="el" href="class_s_l_g_l_program_manager.html#a793460a6a2defeb450122b78fba0f71b">SLGLProgramManager</a>
 , <a class="el" href="class_s_l_light_direct.html#adcd78c13344184a3b24864f35445305a">SLLightDirect</a>
 , <a class="el" href="class_s_l_light_rect.html#a11ba67ded66f2c5d4e39f9ed210dd468">SLLightRect</a>
 , <a class="el" href="class_s_l_light_spot.html#af81bb17376124e499107ea79619578a8">SLLightSpot</a>
@@ -119,6 +120,9 @@ $(document).ready(function(){initNavTree('functions_func_i.html',''); initResiza
 <li>initAll()
 : <a class="el" href="class_s_l_g_l_state.html#a5a63cf2fd8ce59d5b35f17b0e3140bd2">SLGLState</a>
 </li>
+<li>initConeTracer()
+: <a class="el" href="class_s_l_scene_view.html#a370c0f5e1ab6384301cab3c171d8868a">SLSceneView</a>
+</li>
 <li>initFeaturesOnMarker()
 : <a class="el" href="class_c_v_tracked_features.html#a7b9d3bd33c1e101a439cd6d4eb0cfe0a">CVTrackedFeatures</a>
 </li>
@@ -127,6 +131,9 @@ $(document).ready(function(){initNavTree('functions_func_i.html',''); initResiza
 </li>
 <li>initLens()
 : <a class="el" href="class_s_l_lens.html#a0c8d38a26304ac14d29bdd9e749fb450">SLLens</a>
+</li>
+<li>initOculus()
+: <a class="el" href="class_s_l_scene.html#a700edd4f827a08399327bbea697013fd">SLScene</a>
 </li>
 <li>initRaw()
 : <a class="el" href="class_s_l_g_l_program.html#ab416a76f9e6016f6442790a2f87ac170">SLGLProgram</a>
@@ -140,14 +147,21 @@ $(document).ready(function(){initNavTree('functions_func_i.html',''); initResiza
 <li>insertChild()
 : <a class="el" href="class_s_l_node.html#a5b8e717efa92f77414973e98c0de8a7f">SLNode</a>
 </li>
-<li>insertMesh()
-: <a class="el" href="class_s_l_node.html#a69775268a50fd00c0dfec7b127b6e2cf">SLNode</a>
-</li>
 <li>instance()
 : <a class="el" href="class_average_timing.html#ab05cb0415164b7554bc57332386af982">AverageTiming</a>
+, <a class="el" href="class_s_l_g_l_generic_program_default.html#a765c892592ee6f636d06bcd1d02ccb6b">SLGLGenericProgramDefault</a>
+, <a class="el" href="class_s_l_g_l_generic_program_default_color_attrib.html#a621b001e5cf0f363c217a86a5dbcd0ad">SLGLGenericProgramDefaultColorAttrib</a>
+, <a class="el" href="class_s_l_g_l_generic_program_default_tex.html#a8adc3540a68badc5279d2a6ac5bf2e8b">SLGLGenericProgramDefaultTex</a>
+, <a class="el" href="class_s_l_g_l_generic_program_default_tex_normal.html#ab30886315bc30d4b3584d920675f064e">SLGLGenericProgramDefaultTexNormal</a>
 , <a class="el" href="class_s_l_g_l_state.html#a31e87699014dd368ab5dabd790ddd9f0">SLGLState</a>
+, <a class="el" href="class_s_l_material_default_color_attribute.html#aab0fda0483d1c6cdc6d8ee54bcd02acc">SLMaterialDefaultColorAttribute</a>
 , <a class="el" href="class_s_l_material_default_gray.html#afd451d3814376bbdf3be053370402245">SLMaterialDefaultGray</a>
-, <a class="el" href="class_s_l_material_diffuse_attribute.html#ad6a644f79cd97a6f8efb76f3c06949c0">SLMaterialDiffuseAttribute</a>
+</li>
+<li>InstrumentationTimer()
+: <a class="el" href="class_instrumentation_timer.html#afbe6d6632ac2b01e347408e692db4f49">InstrumentationTimer</a>
+</li>
+<li>Instrumentor()
+: <a class="el" href="class_instrumentor.html#aefab1e2ee3c5c6383f18ceb56f4103f1">Instrumentor</a>
 </li>
 <li>interpolationCurve()
 : <a class="el" href="class_s_l_node_anim_track.html#a39ffee10dfa054b330f87920ddc0e98c">SLNodeAnimTrack</a>
@@ -175,7 +189,7 @@ $(document).ready(function(){initNavTree('functions_func_i.html',''); initResiza
 , <a class="el" href="class_s_l_quat4.html#a130d0884e7a9708e5e5d5ac156723a11">SLQuat4&lt; T &gt;</a>
 </li>
 <li>invModelViewMatrix()
-: <a class="el" href="class_s_l_g_l_state.html#a51c77fe7dd68ecb3a622353c6e52dac1">SLGLState</a>
+: <a class="el" href="class_s_l_g_l_state.html#a3cae87982b12d87fb5850a708f764298">SLGLState</a>
 </li>
 <li>irradianceEstimate()
 : <a class="el" href="class_s_l_photon_map.html#a818522db011d905182bea85c2e835799">SLPhotonMap</a>
@@ -230,7 +244,7 @@ $(document).ready(function(){initNavTree('functions_func_i.html',''); initResiza
 : <a class="el" href="class_c_v_calibration.html#a5fa29d85fcff622d0dfa18fa5c84a5bf">CVCalibration</a>
 </li>
 <li>isOn()
-: <a class="el" href="class_s_l_light.html#a095e8d429e5d09ca8d1fbcb3e7d70cfa">SLLight</a>
+: <a class="el" href="class_s_l_light.html#a8d3fa5b33b2dc5c55617a6adb1ef98fb">SLLight</a>
 </li>
 <li>isPaused()
 : <a class="el" href="class_s_l_anim_playback.html#a216cb428c90cc95772507dd10d7e8a9c">SLAnimPlayback</a>
@@ -250,6 +264,10 @@ $(document).ready(function(){initNavTree('functions_func_i.html',''); initResiza
 <li>isSceneViewCameraActive()
 : <a class="el" href="class_s_l_scene_view.html#a40708fb005f7ae1570ed419c5051ccd8">SLSceneView</a>
 </li>
+<li>isSelected()
+: <a class="el" href="class_s_l_mesh.html#ad3edc41cdee1d784b7726e3fe4ab3387">SLMesh</a>
+, <a class="el" href="class_s_l_node.html#a81430b693cd0be314fd6a6379ef4f0a8">SLNode</a>
+</li>
 <li>isShaded()
 : <a class="el" href="class_s_l_ray.html#a620bc714f3c8d5195ce6ed585dcd5e3d">SLRay</a>
 </li>
@@ -266,15 +284,15 @@ $(document).ready(function(){initNavTree('functions_func_i.html',''); initResiza
 : <a class="el" href="class_s_l_background.html#aff4f1dfa1c43d4413273f786104626fe">SLBackground</a>
 </li>
 <li>isUsed()
-: <a class="el" href="class_s_l_device_location.html#a7545fb5a51d3bdb33d4c17a9d9a073ea">SLDeviceLocation</a>
-, <a class="el" href="class_s_l_device_rotation.html#ac4f1673106cde9dfc05db404a05e6fb6">SLDeviceRotation</a>
+: <a class="el" href="class_s_l_device_location.html#a26339e6045d2b1dcb2b9457c35f75b21">SLDeviceLocation</a>
+, <a class="el" href="class_s_l_device_rotation.html#a3784cef5c858b6a31ac25ba7e4f6a543">SLDeviceRotation</a>
 </li>
 <li>isValid()
 : <a class="el" href="class_s_l_anim_keyframe.html#ad6c7ff9a332445d7a0ea32a7427030de">SLAnimKeyframe</a>
 </li>
 <li>isVisible()
 : <a class="el" href="class_c_v_tracked.html#a448ea166b35701ecbaaccc2c27459f61">CVTracked</a>
-, <a class="el" href="class_s_l_a_a_b_box.html#a8acada7158778c0f196409922f5aa104">SLAABBox</a>
+, <a class="el" href="class_s_l_a_a_b_box.html#a140f6dfbe14d24557a793d28ec661f43">SLAABBox</a>
 </li>
 <li>isZero()
 : <a class="el" href="class_s_l_rect.html#a9fb2212989b016a93a3203275748be5e">SLRect&lt; T, V &gt;</a>
@@ -288,7 +306,7 @@ $(document).ready(function(){initNavTree('functions_func_i.html',''); initResiza
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue May 26 2020 10:23:34 for SLProject by
+    <li class="footer">Generated on Fri Sep 18 2020 14:31:39 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.18 </li>
   </ul>

@@ -1,12 +1,13 @@
 <map id="SLDrawBits.h" name="SLDrawBits.h">
-<area shape="rect" id="node1" title=" " alt="" coords="133,5,236,32"/>
-<area shape="rect" id="node2" href="$_s_l_8h.html" title=" " alt="" coords="160,80,209,107"/>
-<area shape="rect" id="node3" href="$_utils_8h.html" title=" " alt="" coords="154,155,214,181"/>
-<area shape="rect" id="node4" title=" " alt="" coords="290,304,345,331"/>
-<area shape="rect" id="node5" title=" " alt="" coords="23,229,82,256"/>
-<area shape="rect" id="node6" title=" " alt="" coords="106,229,161,256"/>
-<area shape="rect" id="node7" title=" " alt="" coords="76,304,146,331"/>
-<area shape="rect" id="node8" href="$_file_log_8h.html" title=" " alt="" coords="360,229,435,256"/>
-<area shape="rect" id="node10" href="$_custom_log_8h.html" title=" " alt="" coords="185,229,285,256"/>
-<area shape="rect" id="node9" title=" " alt="" coords="370,304,436,331"/>
+<area shape="rect" id="node1" title=" " alt="" coords="184,5,287,32"/>
+<area shape="rect" id="node2" href="$_s_l_8h.html" title=" " alt="" coords="211,80,260,107"/>
+<area shape="rect" id="node3" href="$_utils_8h.html" title=" " alt="" coords="206,155,266,181"/>
+<area shape="rect" id="node4" title=" " alt="" coords="291,304,346,331"/>
+<area shape="rect" id="node5" title=" " alt="" coords="24,229,82,256"/>
+<area shape="rect" id="node6" title=" " alt="" coords="107,229,162,256"/>
+<area shape="rect" id="node7" title=" " alt="" coords="77,304,146,331"/>
+<area shape="rect" id="node8" href="$_file_log_8h.html" title=" " alt="" coords="361,229,436,256"/>
+<area shape="rect" id="node10" href="$_custom_log_8h.html" title=" " alt="" coords="186,229,286,256"/>
+<area shape="rect" id="node11" title=" " alt="" coords="460,229,539,256"/>
+<area shape="rect" id="node9" title=" " alt="" coords="370,304,437,331"/>
 </map>

@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">3.0.0</span>
+   &#160;<span id="projectnumber">3.1.0</span>
    </div>
   </td>
  </tr>
@@ -64,7 +64,8 @@ $(document).ready(function(){initNavTree('functions_func_t.html',''); initResiza
 
 <h3><a id="index_t"></a>- t -</h3><ul>
 <li>target()
-: <a class="el" href="class_s_l_g_l_texture.html#a559e2f73452b1e088cdedcd0c842396a">SLGLTexture</a>
+: <a class="el" href="class_s_l_g_l_depth_buffer.html#a0dff6f624eca5c02aae1ac3272d803c1">SLGLDepthBuffer</a>
+, <a class="el" href="class_s_l_g_l_texture.html#a559e2f73452b1e088cdedcd0c842396a">SLGLTexture</a>
 </li>
 <li>targetNode()
 : <a class="el" href="class_s_l_transform_node.html#a214627289b3c45ac5523d425f49ef1b6">SLTransformNode</a>
@@ -76,18 +77,22 @@ $(document).ready(function(){initNavTree('functions_func_t.html',''); initResiza
 : <a class="el" href="class_c_v_calibration.html#a01e33470c803d7b2147c30b29b5242bf">CVCalibration</a>
 </li>
 <li>texID()
-: <a class="el" href="class_s_l_g_l_oculus_f_b.html#a6110a3b7d1fea642becbdad6adda212f">SLGLOculusFB</a>
+: <a class="el" href="class_s_l_g_l_depth_buffer.html#a47e4b7f29ec51eedaefb3aa382c3a3a2">SLGLDepthBuffer</a>
+, <a class="el" href="class_s_l_g_l_oculus_f_b.html#a6110a3b7d1fea642becbdad6adda212f">SLGLOculusFB</a>
 , <a class="el" href="class_s_l_g_l_texture.html#ad888f987df67fc02271966c5ee74ca03">SLGLTexture</a>
 </li>
 <li>text()
 : <a class="el" href="class_s_l_text.html#a01a00428b587fba7b70bfb1669342530">SLText</a>
 </li>
 <li>texture()
-: <a class="el" href="class_s_l_background.html#aa621c06f47cb3d33d8805139f16b94a5">SLBackground</a>
+: <a class="el" href="class_s_l_background.html#a3c840ba5d74a9bbad04fb6715e82aa09">SLBackground</a>
 </li>
 <li>textures()
 : <a class="el" href="class_s_l_asset_manager.html#af48b00aaec8c1a79863d09414db3722c">SLAssetManager</a>
 , <a class="el" href="class_s_l_material.html#a2f4fd12746949392ed3971870f4c5b35">SLMaterial</a>
+</li>
+<li>textureSize()
+: <a class="el" href="class_s_l_shadow_map.html#ab733855b8f95854fc3301b60c399de6d">SLShadowMap</a>
 </li>
 <li>texType()
 : <a class="el" href="class_s_l_g_l_texture.html#ac150d08eba8a36fa429f2cb83f089187">SLGLTexture</a>
@@ -237,8 +242,8 @@ $(document).ready(function(){initNavTree('functions_func_t.html',''); initResiza
 : <a class="el" href="class_s_l_mesh.html#a58df882310c1d53a43d52c84ca83c530">SLMesh</a>
 </li>
 <li>translate()
-: <a class="el" href="class_s_l_mat4.html#ac19ca9bcd975bebf3d2fe2c5e76b8572">SLMat4&lt; T &gt;</a>
-, <a class="el" href="class_s_l_node.html#aff978eafae773d5eba3bcb0342191fa6">SLNode</a>
+: <a class="el" href="class_s_l_mat4.html#ad3e3b7ea4e640d0d03a29083d4004db3">SLMat4&lt; T &gt;</a>
+, <a class="el" href="class_s_l_node.html#a2ac06347f1267325c41ba2cc30a19567">SLNode</a>
 </li>
 <li>translation()
 : <a class="el" href="class_s_l_mat4.html#ab4c69ffe0891f93fbc01dc3506d814e7">SLMat4&lt; T &gt;</a>
@@ -255,10 +260,10 @@ $(document).ready(function(){initNavTree('functions_func_t.html',''); initResiza
 : <a class="el" href="class_s_l_node.html#a5e3ae4326a8dc16580f502d109c041c8">SLNode</a>
 </li>
 <li>translucency()
-: <a class="el" href="class_s_l_material.html#a26ec3ebf241b08da61c08d2ed3eb68bc">SLMaterial</a>
+: <a class="el" href="class_s_l_material.html#abd35d999b7aaa41f4051721e80426bd9">SLMaterial</a>
 </li>
-<li>transmissiv()
-: <a class="el" href="class_s_l_material.html#acc5864694ec7ec046ed9d7b05456a36c">SLMaterial</a>
+<li>transmissive()
+: <a class="el" href="class_s_l_material.html#a9f4e06cde7114e1ba939ee5ead000263">SLMaterial</a>
 </li>
 <li>transpose()
 : <a class="el" href="class_s_l_mat3.html#a36564aacbf12ab46cb689a8d957030b7">SLMat3&lt; T &gt;</a>
@@ -287,7 +292,7 @@ $(document).ready(function(){initNavTree('functions_func_t.html',''); initResiza
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue May 26 2020 10:23:34 for SLProject by
+    <li class="footer">Generated on Fri Sep 18 2020 14:31:39 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.18 </li>
   </ul>

@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">3.0.0</span>
+   &#160;<span id="projectnumber">3.1.0</span>
    </div>
   </td>
  </tr>
@@ -70,6 +70,9 @@ $(document).ready(function(){initNavTree('functions_h.html',''); initResizable()
 <li>halfWidth()
 : <a class="el" href="class_s_l_g_l_oculus_f_b.html#a685059161ff534b10951bfd270db0777">SLGLOculusFB</a>
 </li>
+<li>handleRectangleSelection()
+: <a class="el" href="class_s_l_mesh.html#a1047cec30300ea3e4c35c7322980da94">SLMesh</a>
+</li>
 <li>HARRIS_SCORE
 : <a class="el" href="class_c_v_raul_mur_orb.html#a89c79a0a08f9bebbe90594348ba0167da7e0f955e6689acf72a7f91fea4ea7890">CVRaulMurOrb</a>
 </li>
@@ -77,8 +80,7 @@ $(document).ready(function(){initNavTree('functions_h.html',''); initResizable()
 : <a class="el" href="class_s_l_material.html#a4e1d0dfae590e97793f7630860981eac">SLMaterial</a>
 </li>
 <li>hasAlpha()
-: <a class="el" href="class_s_l_a_a_b_box.html#a51e62dbbd2eeed3c4815fba249b97e59">SLAABBox</a>
-, <a class="el" href="class_s_l_g_l_texture.html#aa07971aa08140279f755bef58fb4e70c">SLGLTexture</a>
+: <a class="el" href="class_s_l_g_l_texture.html#aa07971aa08140279f755bef58fb4e70c">SLGLTexture</a>
 , <a class="el" href="class_s_l_material.html#a950870a76c5b6290d570572766e59dcd">SLMaterial</a>
 </li>
 <li>hasBottom()
@@ -95,13 +97,16 @@ $(document).ready(function(){initNavTree('functions_h.html',''); initResizable()
 : <a class="el" href="class_s_l_anim_manager.html#aa8f5193332c3f65eafbc5433c171aade">SLAnimManager</a>
 </li>
 <li>hasOrigin()
-: <a class="el" href="class_s_l_device_location.html#a52df5540c606abb9b5983f2da704f87b">SLDeviceLocation</a>
+: <a class="el" href="class_s_l_device_location.html#af477cf2a6ee1dfe9488fedd3e40adec6">SLDeviceLocation</a>
 </li>
 <li>hasStarted()
 : <a class="el" href="class_s_l_device_rotation.html#a39c437b50161e8a04ac9d39eba57bc6f">SLDeviceRotation</a>
 </li>
 <li>hasTop()
 : <a class="el" href="class_s_l_cylinder.html#a57b0da05befcc358ea9fbe2890b10fbb">SLCylinder</a>
+</li>
+<li>headers
+: <a class="el" href="struct_http_utils_1_1_get_request.html#ada45fb72746ce8f5531db8664d0fdda9">HttpUtils::GetRequest</a>
 </li>
 <li>height()
 : <a class="el" href="class_c_v_image.html#aa335bd33330d70f2bbf369ddda542458">CVImage</a>
@@ -152,7 +157,7 @@ $(document).ready(function(){initNavTree('functions_h.html',''); initResizable()
 , <a class="el" href="class_s_l_light_rect.html#ac92b9ac66f3ecb909208fdc363e059d6">SLLightRect</a>
 , <a class="el" href="class_s_l_light_spot.html#a072dd18c9873e51e9d54bfab0b5a4cd6">SLLightSpot</a>
 , <a class="el" href="class_s_l_node.html#af29c4c2dcd2cdca61ce6b25729e22b33">SLNode</a>
-, <a class="el" href="class_s_l_text.html#a51ffe6e909fe9a6dba030e5b2ed4f6a4">SLText</a>
+, <a class="el" href="class_s_l_text.html#a34b8bffbfe49ac9c6ccc88f5be15b43a">SLText</a>
 </li>
 <li>hitShape
 : <a class="el" href="class_s_l_ray.html#a78c38886e3cd3a0246125e45256284c8">SLRay</a>
@@ -161,7 +166,7 @@ $(document).ready(function(){initNavTree('functions_h.html',''); initResizable()
 : <a class="el" href="class_s_l_ray.html#a2f855d27e42f5317fa2bfc4df77770fd">SLRay</a>
 </li>
 <li>hitTriangle
-: <a class="el" href="class_s_l_ray.html#a0e4d20e0ca149ddefd932e5ee65a28be">SLRay</a>
+: <a class="el" href="class_s_l_ray.html#a52d09945e37a144f831e9a006bea6738">SLRay</a>
 </li>
 <li>hitTriangleOS()
 : <a class="el" href="class_s_l_mesh.html#ab244fa8efd13aaa393e716bfe3048d24">SLMesh</a>
@@ -178,11 +183,20 @@ $(document).ready(function(){initNavTree('functions_h.html',''); initResizable()
 <li>HmdType
 : <a class="el" href="struct_hmd_render_info.html#a5377a2024b292aabc252b6e46b9433d4">HmdRenderInfo</a>
 </li>
+<li>host
+: <a class="el" href="struct_http_utils_1_1_get_request.html#a9164cbe767c4275c5e6bf37dd5641078">HttpUtils::GetRequest</a>
+</li>
+<li>hostname
+: <a class="el" href="struct_d_n_s_request.html#a36524746e76b899f18cde13f3a21e750">DNSRequest</a>
+</li>
 <li>hsv2rgb()
 : <a class="el" href="class_s_l_vec3.html#af75c138f2b26ff8457b411a8736edbb3">SLVec3&lt; T &gt;</a>
 </li>
 <li>hsva2rgba()
 : <a class="el" href="class_s_l_vec4.html#a7902acb51ed588f4fbf442591d5c7a5c">SLVec4&lt; T &gt;</a>
+</li>
+<li>HTTPDownload()
+: <a class="el" href="struct_http_utils_1_1_h_t_t_p_download.html#aeb21a77da8512c88fcce4dc0098ffd5d">HttpUtils::HTTPDownload</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -190,7 +204,7 @@ $(document).ready(function(){initNavTree('functions_h.html',''); initResizable()
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue May 26 2020 10:23:34 for SLProject by
+    <li class="footer">Generated on Fri Sep 18 2020 14:31:39 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.18 </li>
   </ul>

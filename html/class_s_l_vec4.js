@@ -6,7 +6,7 @@ var class_s_l_vec4 =
     [ "SLVec4", "class_s_l_vec4.html#a4c69dac906cb30cbd79da23201502547", null ],
     [ "SLVec4", "class_s_l_vec4.html#abd49121e2f6c96cfae3a4fb3a179e598", null ],
     [ "SLVec4", "class_s_l_vec4.html#ae5e2313adebe833b501a50c562fb3acc", null ],
-    [ "SLVec4", "class_s_l_vec4.html#a45925a9d89a3140c13a1d8895034a33f", null ],
+    [ "SLVec4", "class_s_l_vec4.html#ab5eb72b04639273804461281ccabf82f", null ],
     [ "add", "class_s_l_vec4.html#a30d729fed432057cf1d0796b9096cf21", null ],
     [ "clampMinMax", "class_s_l_vec4.html#aedfd518756aab9c7551a3ccb7d1f3f52", null ],
     [ "cross", "class_s_l_vec4.html#a8d7a17493cc6ba30ded0420131c78b44", null ],

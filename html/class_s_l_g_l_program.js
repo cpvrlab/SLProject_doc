@@ -5,14 +5,14 @@ var class_s_l_g_l_program =
     [ "addShader", "class_s_l_g_l_program.html#a7dcaeaeedc4f33cf29b1a381d92462d6", null ],
     [ "addUniform1f", "class_s_l_g_l_program.html#a8f6ca243635e624b5fa48e75561ac7ac", null ],
     [ "addUniform1i", "class_s_l_g_l_program.html#a845f73fe5c92e729be6eae12d943d570", null ],
-    [ "beginShader", "class_s_l_g_l_program.html#ad542d6d222cdd7890ca00a5471810ae8", null ],
-    [ "beginUse", "class_s_l_g_l_program.html#abbc2b1a187eaccda33be59ac1e0aca1b", null ],
+    [ "beginShader", "class_s_l_g_l_program.html#a33ac005e6b57d8861dc7efc317a9e4d1", null ],
+    [ "beginUse", "class_s_l_g_l_program.html#a7ae05344d931e3a46dedcc1b3d4a6c5e", null ],
     [ "endShader", "class_s_l_g_l_program.html#ae2424ff1d6b14fd78074bdbcee97acfa", null ],
     [ "endUse", "class_s_l_g_l_program.html#afc01b0765a239eef68b9eb9342983864", null ],
-    [ "getAttribLocation", "class_s_l_g_l_program.html#ae5236456aac03fdffaa834bf9428763b", null ],
     [ "getUniformLocation", "class_s_l_g_l_program.html#a86cb3b62c8ef9b6c0980206557a1c464", null ],
-    [ "init", "class_s_l_g_l_program.html#ab2f07c51f46e056830826e11aef1626a", null ],
+    [ "init", "class_s_l_g_l_program.html#ac388363328b328b0c158b9c0a29a3bc6", null ],
     [ "initRaw", "class_s_l_g_l_program.html#ab416a76f9e6016f6442790a2f87ac170", null ],
+    [ "passLightsToUniforms", "class_s_l_g_l_program.html#a3028e9efe182f78253fc9d98c6b7aa46", null ],
     [ "progID", "class_s_l_g_l_program.html#aea30921fa75f06bcb4081706fae0e06a", null ],
     [ "shaders", "class_s_l_g_l_program.html#a8cec9a5d0e97412140959988e726bcd5", null ],
     [ "uniform1f", "class_s_l_g_l_program.html#a66f366a486c15c25be47d84214b9c3c4", null ],
@@ -42,6 +42,5 @@ var class_s_l_g_l_program =
     [ "_progID", "class_s_l_g_l_program.html#a85b2517409e5a5e484a2ca9493c6e845", null ],
     [ "_shaders", "class_s_l_g_l_program.html#ab65a521a152f49076dbd641d853fc006", null ],
     [ "_uniforms1f", "class_s_l_g_l_program.html#a87460e422863d65ce7f8b9513d277e14", null ],
-    [ "_uniforms1i", "class_s_l_g_l_program.html#ad32d27731f5d9bda37883caabd97a82f", null ],
-    [ "defaultPath", "class_s_l_g_l_program.html#a32a812153c9aab647af2c4e8c2197368", null ]
+    [ "_uniforms1i", "class_s_l_g_l_program.html#ad32d27731f5d9bda37883caabd97a82f", null ]
 ];

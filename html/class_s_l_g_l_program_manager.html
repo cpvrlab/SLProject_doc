@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">3.0.0</span>
+   &#160;<span id="projectnumber">3.1.0</span>
    </div>
   </td>
  </tr>
@@ -62,6 +62,7 @@ $(document).ready(function(){initNavTree('class_s_l_g_l_program_manager.html',''
 <div class="header">
   <div class="summary">
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pri-static-methods">Static Private Member Functions</a> &#124;
 <a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_s_l_g_l_program_manager-members.html">List of all members</a>  </div>
@@ -77,6 +78,9 @@ $(document).ready(function(){initNavTree('class_s_l_g_l_program_manager.html',''
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a793460a6a2defeb450122b78fba0f71b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_g_l_program_manager.html#a793460a6a2defeb450122b78fba0f71b">init</a> (std::string <a class="el" href="class_s_l_g_l_program_manager.html#a19a91553e279a368c9685816677fa3b4">shaderDir</a>)</td></tr>
+<tr class="memdesc:a793460a6a2defeb450122b78fba0f71b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Init by providing path to standard shader files.  <a href="class_s_l_g_l_program_manager.html#a793460a6a2defeb450122b78fba0f71b">More...</a><br /></td></tr>
+<tr class="separator:a793460a6a2defeb450122b78fba0f71b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afddc22a7647876215bdd8f5f8885be21"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_s_l_g_l_generic_program.html">SLGLGenericProgram</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_g_l_program_manager.html#afddc22a7647876215bdd8f5f8885be21">get</a> (<a class="el" href="_s_l_g_l_program_manager_8h.html#afa167686eb252712b1d5d8f9e2ccf82e">SLStdShaderProg</a> id)</td></tr>
 <tr class="memdesc:afddc22a7647876215bdd8f5f8885be21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get program reference for given id.  <a href="class_s_l_g_l_program_manager.html#afddc22a7647876215bdd8f5f8885be21">More...</a><br /></td></tr>
 <tr class="separator:afddc22a7647876215bdd8f5f8885be21"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -86,6 +90,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a5105a67198d58bbc0cff268eebf0338b"><td class="memItemLeft" align="right" valign="top">static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_g_l_program_manager.html#a5105a67198d58bbc0cff268eebf0338b">size</a> ()</td></tr>
 <tr class="memdesc:a5105a67198d58bbc0cff268eebf0338b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the size of the program map.  <a href="class_s_l_g_l_program_manager.html#a5105a67198d58bbc0cff268eebf0338b">More...</a><br /></td></tr>
 <tr class="separator:a5105a67198d58bbc0cff268eebf0338b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a19a91553e279a368c9685816677fa3b4"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_g_l_program_manager.html#a19a91553e279a368c9685816677fa3b4">shaderDir</a></td></tr>
+<tr class="memdesc:a19a91553e279a368c9685816677fa3b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains the global shader path.  <a href="class_s_l_g_l_program_manager.html#a19a91553e279a368c9685816677fa3b4">More...</a><br /></td></tr>
+<tr class="separator:a19a91553e279a368c9685816677fa3b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
@@ -101,7 +111,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Static container for standard shader programs. </p>
-<p>Static container for standard shader programs that are not deleted after scene deallocation. The shader program allocation and compilation will be done at the first use. All non standard shader programs will be attached to the asset manager. </p>
+<p>Static container for standard shader programs that are not deleted after scene deallocation. The shader program allocation and compilation will be done at the first use. ONLY shader programs that are scene independent should be stored here. Shader programs that depend e.g. on the number of lights must be created at scene loading time and deallocation at scene destruction. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ac8059a0369493eb534caab544b11cd62"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac8059a0369493eb534caab544b11cd62">&#9670;&nbsp;</a></span>deletePrograms()</h2>
@@ -155,6 +165,34 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get program reference for given id. </p>
+
+</div>
+</div>
+<a id="a793460a6a2defeb450122b78fba0f71b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a793460a6a2defeb450122b78fba0f71b">&#9670;&nbsp;</a></span>init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a> SLGLProgramManager::init </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>shaderDir</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Init by providing path to standard shader files. </p>
 
 </div>
 </div>
@@ -238,6 +276,30 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a19a91553e279a368c9685816677fa3b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19a91553e279a368c9685816677fa3b4">&#9670;&nbsp;</a></span>shaderDir</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string SLGLProgramManager::shaderDir</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Contains the global shader path. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="_s_l_g_l_program_manager_8h.html">SLGLProgramManager.h</a></li>
 <li><a class="el" href="_s_l_g_l_program_manager_8cpp.html">SLGLProgramManager.cpp</a></li>
@@ -248,7 +310,7 @@ Static Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_s_l_g_l_program_manager.html">SLGLProgramManager</a></li>
-    <li class="footer">Generated on Tue May 26 2020 10:23:34 for SLProject by
+    <li class="footer">Generated on Fri Sep 18 2020 14:31:38 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.18 </li>
   </ul>

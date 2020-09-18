@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">3.0.0</span>
+   &#160;<span id="projectnumber">3.1.0</span>
    </div>
   </td>
  </tr>
@@ -67,8 +67,7 @@ $(document).ready(function(){initNavTree('_app_demo_load_8cpp.html',''); initRes
 <div class="title">AppDemoLoad.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="stdafx_8h.html">stdafx.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_global_timer_8h.html">GlobalTimer.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="_global_timer_8h.html">GlobalTimer.h</a>&gt;</code><br />
 <code>#include &lt;CVCapture.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="_c_v_tracked_aruco_8h.html">CVTrackedAruco.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_c_v_tracked_chessboard_8h.html">CVTrackedChessboard.h</a>&gt;</code><br />
@@ -98,10 +97,12 @@ $(document).ready(function(){initNavTree('_app_demo_load_8cpp.html',''); initRes
 <code>#include &lt;<a class="el" href="_s_l_transfer_function_8h.html">SLTransferFunction.h</a>&gt;</code><br />
 <code>#include &lt;SLProjectScene.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="_s_l_g_l_program_manager_8h.html">SLGLProgramManager.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_instrumentor_8h.html">Instrumentor.h</a>&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for AppDemoLoad.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="_app_demo_load_8cpp__incl.svg" width="5236" height="262"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="_app_demo_load_8cpp__incl.svg" width="4048" height="411"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -112,8 +113,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a4e47aadcd1ad08dcce3dadce0496a63b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_s_l_node.html">SLNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_app_demo_load_8cpp.html#a4e47aadcd1ad08dcce3dadce0496a63b">BuildFigureGroup</a> (SLProjectScene *s, <a class="el" href="class_s_l_material.html">SLMaterial</a> *mat, <a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> withAnimation)</td></tr>
 <tr class="memdesc:a4e47aadcd1ad08dcce3dadce0496a63b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build a hierarchical figurine with arms and legs.  <a href="_app_demo_load_8cpp.html#a4e47aadcd1ad08dcce3dadce0496a63b">More...</a><br /></td></tr>
 <tr class="separator:a4e47aadcd1ad08dcce3dadce0496a63b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b7e390fcd3b74fc2ea815e90eb909cb"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_app_demo_load_8cpp.html#a7b7e390fcd3b74fc2ea815e90eb909cb">findModelFileName</a> (std::string file)</td></tr>
-<tr class="separator:a7b7e390fcd3b74fc2ea815e90eb909cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8458fb89d97a6b091104ef6236e809d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_app_demo_load_8cpp.html#a8458fb89d97a6b091104ef6236e809d5">appDemoLoadScene</a> (SLProjectScene *s, <a class="el" href="class_s_l_scene_view.html">SLSceneView</a> *<a class="el" href="_s_l_g_l_im_gui_8h.html#ac0dd312e5f0a445e35dcdc7d74e9ee50">sv</a>, <a class="el" href="_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71">SLSceneID</a> <a class="el" href="_s_l_scene_8h.html#a7a740f9b85333cd29c3132679a488707">sceneID</a>)</td></tr>
 <tr class="memdesc:a8458fb89d97a6b091104ef6236e809d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">appDemoLoadScene builds a scene from source code.  <a href="_app_demo_load_8cpp.html#a8458fb89d97a6b091104ef6236e809d5">More...</a><br /></td></tr>
 <tr class="separator:a8458fb89d97a6b091104ef6236e809d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -126,6 +125,9 @@ Variables</h2></td></tr>
 <tr class="separator:a386ca49e8a4aa42ea35ae60bf5f2e616"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0725e461a4d4f4ac2e5f1e25480f8c02"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_s_l_node.html">SLNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_app_demo_load_8cpp.html#a0725e461a4d4f4ac2e5f1e25480f8c02">trackedNode</a></td></tr>
 <tr class="separator:a0725e461a4d4f4ac2e5f1e25480f8c02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3910d87d1156a4dbe79306d6eb2c3a59"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_s_l_g_l_texture.html">SLGLTexture</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_app_demo_load_8cpp.html#a3910d87d1156a4dbe79306d6eb2c3a59">gTexMRI3D</a> = nullptr</td></tr>
+<tr class="memdesc:a3910d87d1156a4dbe79306d6eb2c3a59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global pointer to 3D MRI texture for volume rendering for threaded loading.  <a href="_app_demo_load_8cpp.html#a3910d87d1156a4dbe79306d6eb2c3a59">More...</a><br /></td></tr>
+<tr class="separator:a3910d87d1156a4dbe79306d6eb2c3a59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a8458fb89d97a6b091104ef6236e809d5"></a>
@@ -203,24 +205,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a7b7e390fcd3b74fc2ea815e90eb909cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b7e390fcd3b74fc2ea815e90eb909cb">&#9670;&nbsp;</a></span>findModelFileName()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string findModelFileName </td>
-          <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>file</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ad63eec26f53a90e60386a1a501550826"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad63eec26f53a90e60386a1a501550826">&#9670;&nbsp;</a></span>SphereGroup()</h2>
 
@@ -294,6 +278,22 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
+<a id="a3910d87d1156a4dbe79306d6eb2c3a59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3910d87d1156a4dbe79306d6eb2c3a59">&#9670;&nbsp;</a></span>gTexMRI3D</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_s_l_g_l_texture.html">SLGLTexture</a>* gTexMRI3D = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Global pointer to 3D MRI texture for volume rendering for threaded loading. </p>
+
+</div>
+</div>
 <a id="a0725e461a4d4f4ac2e5f1e25480f8c02"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0725e461a4d4f4ac2e5f1e25480f8c02">&#9670;&nbsp;</a></span>trackedNode</h2>
 
@@ -345,7 +345,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_9654b8d08f4bba4e84b362c5fd320bee.html">apps</a></li><li class="navelem"><a class="el" href="dir_5434dd98f57f66ee37886bc7d43ec358.html">app-Demo-SLProject</a></li><li class="navelem"><a class="el" href="dir_a0455474795fe140067dc812609444bd.html">source</a></li><li class="navelem"><a class="el" href="_app_demo_load_8cpp.html">AppDemoLoad.cpp</a></li>
-    <li class="footer">Generated on Tue May 26 2020 10:23:33 for SLProject by
+    <li class="footer">Generated on Fri Sep 18 2020 14:31:38 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.18 </li>
   </ul>

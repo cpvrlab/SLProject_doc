@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">3.0.0</span>
+   &#160;<span id="projectnumber">3.1.0</span>
    </div>
   </td>
  </tr>
@@ -67,7 +67,7 @@ $(document).ready(function(){initNavTree('functions_c.html',''); initResizable()
 : <a class="el" href="class_s_l_mesh.html#a5babf7f82655e688a41592bcbfc4c1de">SLMesh</a>
 </li>
 <li>calc3DGradients()
-: <a class="el" href="class_s_l_g_l_texture.html#aff6d8d15c6c8f01ec6529fd3a6875dc4">SLGLTexture</a>
+: <a class="el" href="class_s_l_g_l_texture.html#a6495157c4dc4ea55e3023e419530988e">SLGLTexture</a>
 </li>
 <li>calcBoardCorners3D()
 : <a class="el" href="class_c_v_calibration_estimator.html#a914747a93e7879327a24e66a7b2e11db">CVCalibrationEstimator</a>
@@ -100,12 +100,6 @@ $(document).ready(function(){initNavTree('functions_c.html',''); initResizable()
 <li>calcInterpolatedKeyframe()
 : <a class="el" href="class_s_l_anim_track.html#a2d151939c0cf6c61fd0acea1457006ee">SLAnimTrack</a>
 , <a class="el" href="class_s_l_node_anim_track.html#ace56090696711c75f571f5abc4668e56">SLNodeAnimTrack</a>
-</li>
-<li>calcLightDirVS()
-: <a class="el" href="class_s_l_g_l_state.html#a6d88e21d774aab540980a0262f29c63f">SLGLState</a>
-</li>
-<li>calcLightPosVS()
-: <a class="el" href="class_s_l_g_l_state.html#a264b6b717b34ec20ec3aef260dd702d3">SLGLState</a>
 </li>
 <li>calcMaxRadius()
 : <a class="el" href="class_s_l_joint.html#a75c1bf2dcccee7b66a161b899ca66177">SLJoint</a>
@@ -226,6 +220,9 @@ $(document).ready(function(){initNavTree('functions_c.html',''); initResizable()
 <li>capacity()
 : <a class="el" href="class_s_l_vector.html#ad600ef17f828f9b3fafc6622f4f6298d">SLVector&lt; T, U &gt;</a>
 </li>
+<li>castsShadows()
+: <a class="el" href="class_s_l_node.html#ace29cdc61e13c11a164ce8787b635ada">SLNode</a>
+</li>
 <li>CenterFromTopInMeters
 : <a class="el" href="struct_hmd_render_info.html#a2379c99cf8f22384464f3a18ba26be91">HmdRenderInfo</a>
 </li>
@@ -255,7 +252,7 @@ $(document).ready(function(){initNavTree('functions_c.html',''); initResizable()
 : <a class="el" href="class_s_l_tex_font.html#a56b7b03c884c2ab402065d0d51abd667">SLTexFont</a>
 </li>
 <li>checkFilePath()
-: <a class="el" href="class_s_l_assimp_importer.html#a71e1796f6c71a41c09b7f6de7051cc27">SLAssimpImporter</a>
+: <a class="el" href="class_s_l_assimp_importer.html#a79c9bcd77e8499b67eb8e4cfa37aa0c4">SLAssimpImporter</a>
 </li>
 <li>child1
 : <a class="el" href="class_s_l_k_d_node.html#aa482dda0f9ab2164b9702a280f25eb66">SLKDNode</a>
@@ -307,12 +304,11 @@ $(document).ready(function(){initNavTree('functions_c.html',''); initResizable()
 </li>
 <li>clipFar()
 : <a class="el" href="class_s_l_camera.html#a360ee01102556c6419995206e3420af3">SLCamera</a>
+, <a class="el" href="class_s_l_shadow_map.html#abb81ac737baf162dd650f96e51a4ddea">SLShadowMap</a>
 </li>
 <li>clipNear()
 : <a class="el" href="class_s_l_camera.html#a3735bd392c7e07f35dbe7d44f10e7070">SLCamera</a>
-</li>
-<li>closestPowerOf2()
-: <a class="el" href="class_s_l_g_l_texture.html#a3edab248ba32bbcbc0f9cfe7cf09c555">SLGLTexture</a>
+, <a class="el" href="class_s_l_shadow_map.html#a9f147c241c5b7e353b4da9555cca6e47">SLShadowMap</a>
 </li>
 <li>code()
 : <a class="el" href="class_s_l_g_l_shader.html#a22d29e216b1b83959b4908de28766423">SLGLShader</a>
@@ -345,6 +341,9 @@ $(document).ready(function(){initNavTree('functions_c.html',''); initResizable()
 <li>compose()
 : <a class="el" href="class_s_l_mat4.html#a83da8ca14723d3a2d193cae8fed386c6">SLMat4&lt; T &gt;</a>
 </li>
+<li>computeHardEdgesIndices()
+: <a class="el" href="class_s_l_mesh.html#a5f3efc520b6cc5a9ac8c3d9e418f6679">SLMesh</a>
+</li>
 <li>ComputeKeyPointsOctTree()
 : <a class="el" href="class_c_v_raul_mur_orb.html#ae92c41fd6d0d74d607760cb7b42b4cc2">CVRaulMurOrb</a>
 </li>
@@ -363,14 +362,24 @@ $(document).ready(function(){initNavTree('functions_c.html',''); initResizable()
 <li>conjugated()
 : <a class="el" href="class_s_l_quat4.html#a5b80e3d922bb41d9ef592aa1151f4719">SLQuat4&lt; T &gt;</a>
 </li>
+<li>connectTo()
+: <a class="el" href="struct_secure_socket.html#aa03067b1ed6c7f5ec500600bead171e6">SecureSocket</a>
+, <a class="el" href="struct_socket.html#a1d528049c7856f982e97533c44248199">Socket</a>
+</li>
 <li>containingVoxel()
 : <a class="el" href="class_s_l_compact_grid.html#ad616ad49a4aedbbc15f18162a3abe80a">SLCompactGrid</a>
 </li>
 <li>contains()
-: <a class="el" href="class_s_l_rect.html#a8b861c1f7210278e62d4e10bb361870d">SLRect&lt; T, V &gt;</a>
+: <a class="el" href="class_s_l_rect.html#a73c37fab7d87c45bad2152e099aee620">SLRect&lt; T, V &gt;</a>
 </li>
-<li>containsMesh()
-: <a class="el" href="class_s_l_node.html#a33555c9cc810b9b4715cc4686729e149">SLNode</a>
+<li>content
+: <a class="el" href="struct_http_utils_1_1_get_request.html#adb6ac72f3703e6e7e728b36ce68df5db">HttpUtils::GetRequest</a>
+</li>
+<li>contentLength
+: <a class="el" href="struct_http_utils_1_1_get_request.html#a2d89fa9671b7b93a2e108d8e6c7d5d71">HttpUtils::GetRequest</a>
+</li>
+<li>contentType
+: <a class="el" href="struct_http_utils_1_1_get_request.html#a32264af86c4260572d6db4ee1ace2b24">HttpUtils::GetRequest</a>
 </li>
 <li>contrib
 : <a class="el" href="class_s_l_ray.html#a88324d084c75c81ea4b40c603b70cccd">SLRay</a>
@@ -388,7 +397,7 @@ $(document).ready(function(){initNavTree('functions_c.html',''); initResizable()
 : <a class="el" href="class_s_l_tex_font.html#a5b5a01d83bc7aeafe0ba4ecb2e18fdac">SLTexFont</a>
 </li>
 <li>createAndCompile()
-: <a class="el" href="class_s_l_g_l_shader.html#a41c638ff1e90565288602798f3fb9cec">SLGLShader</a>
+: <a class="el" href="class_s_l_g_l_shader.html#a964992f54eb4d7eab6e0c476e75e6d0f">SLGLShader</a>
 </li>
 <li>createAndCompileSimple()
 : <a class="el" href="class_s_l_g_l_shader.html#a54c98376e5098c37df4c637debe55fc6">SLGLShader</a>
@@ -422,7 +431,7 @@ $(document).ready(function(){initNavTree('functions_c.html',''); initResizable()
 , <a class="el" href="class_s_l_node_anim_track.html#ae9dbf09ceb030cab5a19a0184e7e0ed3">SLNodeAnimTrack</a>
 </li>
 <li>createNodeAnimation()
-: <a class="el" href="class_s_l_anim_manager.html#ada7e25f7a5a2867dce645934cb807507">SLAnimManager</a>
+: <a class="el" href="class_s_l_anim_manager.html#a666b5fea34530b11ff2be8562af90074">SLAnimManager</a>
 </li>
 <li>createNodeAnimationTrack()
 : <a class="el" href="class_s_l_animation.html#ab752cbb25f57b07d6c653f2cb00b0b34">SLAnimation</a>
@@ -444,6 +453,10 @@ $(document).ready(function(){initNavTree('functions_c.html',''); initResizable()
 </li>
 <li>createSimpleTranslationNodeTrack()
 : <a class="el" href="class_s_l_animation.html#a050a5770258fb822807b0a32badc25c7">SLAnimation</a>
+</li>
+<li>createsShadows
+: <a class="el" href="structlight_data_std140.html#ae05102eb819b625db9acec91a352ba0d">lightDataStd140</a>
+, <a class="el" href="class_s_l_light.html#a259c15f599b326ed2f168d09d97588b3">SLLight</a>
 </li>
 <li>crop()
 : <a class="el" href="class_c_v_image.html#aeb09d73cca11eff10320b10c005a8b31">CVImage</a>
@@ -480,7 +493,7 @@ $(document).ready(function(){initNavTree('functions_c.html',''); initResizable()
 : <a class="el" href="class_s_l_camera.html#abef4a643eb2a96eba007d8fbc8744702">SLCamera</a>
 </li>
 <li>currentMaterial()
-: <a class="el" href="class_s_l_g_l_state.html#af07e8dd280d5d42605b06de2cf1d6bf5">SLGLState</a>
+: <a class="el" href="class_s_l_g_l_state.html#a08561ccd172e04b4fa5f2f9a5ccaaa10">SLGLState</a>
 </li>
 <li>currentProjection
 : <a class="el" href="class_s_l_camera.html#a482460c6eea45b3fd800ee04a8828cb7">SLCamera</a>
@@ -507,7 +520,7 @@ $(document).ready(function(){initNavTree('functions_c.html',''); initResizable()
 : <a class="el" href="class_c_v_feature_manager.html#a06e8886fa60ff2735d34856b61180e69">CVFeatureManager</a>
 </li>
 <li>CVImage()
-: <a class="el" href="class_c_v_image.html#a9f45c86a0bc3417e0b5af6d29b89fec0">CVImage</a>
+: <a class="el" href="class_c_v_image.html#a5c71ad8f514ca77f1e0d622b757f793a">CVImage</a>
 </li>
 <li>CVImageGeoTiff()
 : <a class="el" href="class_c_v_image_geo_tiff.html#ab37a751d8bf7c7cb92d46f27aab784ec">CVImageGeoTiff</a>
@@ -555,7 +568,7 @@ $(document).ready(function(){initNavTree('functions_c.html',''); initResizable()
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue May 26 2020 10:23:34 for SLProject by
+    <li class="footer">Generated on Fri Sep 18 2020 14:31:39 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.18 </li>
   </ul>

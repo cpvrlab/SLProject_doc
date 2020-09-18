@@ -27,6 +27,6 @@ var class_c_v_tracked_features =
     [ "_frameCount", "class_c_v_tracked_features.html#aa6f9856be528c68cad5b4875d599d5bc", null ],
     [ "_isTracking", "class_c_v_tracked_features.html#a083653fe8468233802499fd5feabfeac", null ],
     [ "_marker", "class_c_v_tracked_features.html#a3f2eec42c61b489dcbf1dce6222de7c2", null ],
-    [ "_matcher", "class_c_v_tracked_features.html#a1d36c324b81edfe11338e2c0b93b84a8", null ],
+    [ "_matcher", "class_c_v_tracked_features.html#a536a3d9ed2fc56cdb6d72ec7c17d20d9", null ],
     [ "_prevFrame", "class_c_v_tracked_features.html#a0d9e04c4ae8b10dd37f84e492b796740", null ]
 ];

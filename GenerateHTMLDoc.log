@@ -1,4 +1,4 @@
-/Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/source/CV/CVCalibration.cpp:34: warning: no matching class member found for 
+/Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/source/CV/CVCalibration.cpp:33: warning: no matching class member found for 
   CVCalibration::CVCalibration(CVCameraType type, string computerInfos)
 Possible candidates:
   'CVCalibration::CVCalibration(CVCameraType camType, std::string computerInfos)'
@@ -6,7 +6,7 @@ Possible candidates:
   'CVCalibration::CVCalibration(const cv::Size &imageSize, float fovH, bool mirroredH, bool mirroredV, CVCameraType type, std::string computerInfos)'
   'CVCalibration::CVCalibration(float sensorWMM, float sensorHMM, float focalLengthMM, const cv::Size &imageSize, bool mirroredH, bool mirroredV, CVCameraType camType, std::string computerInfos)'
 
-/Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/source/CV/CVCalibration.cpp:53: warning: no matching class member found for 
+/Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/source/CV/CVCalibration.cpp:52: warning: no matching class member found for 
   CVCalibration::CVCalibration(const cv::Mat &cameraMat, const cv::Mat &distortion, cv::Size imageSize, cv::Size boardSize, float boardSquareMM, float reprojectionError, int numCaptured, const string &calibrationTime, int camSizeIndex, bool mirroredH, bool mirroredV, CVCameraType camType, string computerInfos, int calibFlags, bool calcUndistortionMaps)
 Possible candidates:
   'CVCalibration::CVCalibration(CVCameraType camType, std::string computerInfos)'
@@ -14,7 +14,7 @@ Possible candidates:
   'CVCalibration::CVCalibration(const cv::Size &imageSize, float fovH, bool mirroredH, bool mirroredV, CVCameraType type, std::string computerInfos)'
   'CVCalibration::CVCalibration(float sensorWMM, float sensorHMM, float focalLengthMM, const cv::Size &imageSize, bool mirroredH, bool mirroredV, CVCameraType camType, std::string computerInfos)'
 
-/Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/source/CV/CVCalibration.cpp:93: warning: no matching class member found for 
+/Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/source/CV/CVCalibration.cpp:92: warning: no matching class member found for 
   CVCalibration::CVCalibration(const cv::Size &imageSize, float fovH, bool mirroredH, bool mirroredV, CVCameraType camType, string computerInfos)
 Possible candidates:
   'CVCalibration::CVCalibration(CVCameraType camType, std::string computerInfos)'
@@ -22,7 +22,7 @@ Possible candidates:
   'CVCalibration::CVCalibration(const cv::Size &imageSize, float fovH, bool mirroredH, bool mirroredV, CVCameraType type, std::string computerInfos)'
   'CVCalibration::CVCalibration(float sensorWMM, float sensorHMM, float focalLengthMM, const cv::Size &imageSize, bool mirroredH, bool mirroredV, CVCameraType camType, std::string computerInfos)'
 
-/Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/source/CV/CVCalibration.cpp:110: warning: no matching class member found for 
+/Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/source/CV/CVCalibration.cpp:109: warning: no matching class member found for 
   CVCalibration::CVCalibration(float sensorWMM, float sensorHMM, float focalLengthMM, const cv::Size &imageSize, bool mirroredH, bool mirroredV, CVCameraType camType, string computerInfos)
 Possible candidates:
   'CVCalibration::CVCalibration(CVCameraType camType, std::string computerInfos)'
@@ -39,7 +39,9 @@ Possible candidates:
 /Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/source/SL/SLApplication.cpp:29: warning: no uniquely matching class member found for 
   SLstring SLApplication::name
 
-/Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/source/SL/SLApplication.cpp:30: warning: documented symbol 'SLstring SLApplication::version' was not declared or defined.
+/Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/source/SL/SLApplication.cpp:30: warning: no matching class member found for 
+  SLstring SLApplication::version
+
 /Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/source/SL/SLApplication.cpp:31: warning: documented symbol 'SLstring SLApplication::computerUser' was not declared or defined.
 /Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/source/SL/SLApplication.cpp:32: warning: documented symbol 'SLstring SLApplication::computerName' was not declared or defined.
 /Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/source/SL/SLApplication.cpp:33: warning: documented symbol 'SLstring SLApplication::computerBrand' was not declared or defined.
@@ -73,65 +75,84 @@ Possible candidates:
 /Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/source/SL/SLApplication.cpp:176: warning: documented symbol 'void SLApplication::jobProgressMsg' was not declared or defined.
 /Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/source/SL/SLApplication.cpp:184: warning: documented symbol 'string SLApplication::jobProgressMsg' was not declared or defined.
 /Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/source/SL/SLApplication.cpp:190: warning: documented symbol 'SLstring SLApplication::getComputerInfos' was not declared or defined.
-/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:99: warning: documented symbol 'SLstring AppDemoGui::configTime' was not declared or defined.
-/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:100: warning: documented symbol 'SLbool AppDemoGui::showProgress' was not declared or defined.
-/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:101: warning: documented symbol 'SLbool AppDemoGui::showDockSpace' was not declared or defined.
-/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:102: warning: documented symbol 'SLbool AppDemoGui::showAbout' was not declared or defined.
-/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:103: warning: documented symbol 'SLbool AppDemoGui::showHelp' was not declared or defined.
-/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:104: warning: documented symbol 'SLbool AppDemoGui::showHelpCalibration' was not declared or defined.
-/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:105: warning: documented symbol 'SLbool AppDemoGui::showCredits' was not declared or defined.
-/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:106: warning: documented symbol 'SLbool AppDemoGui::showStatsTiming' was not declared or defined.
-/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:107: warning: documented symbol 'SLbool AppDemoGui::showStatsScene' was not declared or defined.
-/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:108: warning: documented symbol 'SLbool AppDemoGui::showStatsVideo' was not declared or defined.
-/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:109: warning: documented symbol 'SLbool AppDemoGui::showStatsWAI' was not declared or defined.
-/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:110: warning: documented symbol 'SLbool AppDemoGui::showImGuiMetrics' was not declared or defined.
-/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:111: warning: documented symbol 'SLbool AppDemoGui::showInfosScene' was not declared or defined.
-/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:112: warning: documented symbol 'SLbool AppDemoGui::showInfosSensors' was not declared or defined.
-/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:113: warning: documented symbol 'SLbool AppDemoGui::showInfosDevice' was not declared or defined.
-/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:114: warning: documented symbol 'SLbool AppDemoGui::showSceneGraph' was not declared or defined.
-/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:115: warning: documented symbol 'SLbool AppDemoGui::showProperties' was not declared or defined.
-/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:116: warning: documented symbol 'SLbool AppDemoGui::showChristoffel' was not declared or defined.
-/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:117: warning: documented symbol 'SLbool AppDemoGui::showUIPrefs' was not declared or defined.
-/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:118: warning: documented symbol 'SLbool AppDemoGui::showTransform' was not declared or defined.
-/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:143: warning: documented symbol 'SLstring AppDemoGui::infoAbout' was not declared or defined.
-/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:154: warning: documented symbol 'SLstring AppDemoGui::infoCredits' was not declared or defined.
-/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:169: warning: documented symbol 'SLstring AppDemoGui::infoHelp' was not declared or defined.
-/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:180: warning: documented symbol 'SLstring AppDemoGui::infoCalibrate' was not declared or defined.
-/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:219: warning: no uniquely matching class member found for 
+/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:102: warning: documented symbol 'SLstring AppDemoGui::configTime' was not declared or defined.
+/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:103: warning: documented symbol 'SLbool AppDemoGui::showProgress' was not declared or defined.
+/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:104: warning: documented symbol 'SLbool AppDemoGui::showDockSpace' was not declared or defined.
+/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:105: warning: documented symbol 'SLbool AppDemoGui::showAbout' was not declared or defined.
+/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:106: warning: documented symbol 'SLbool AppDemoGui::showHelp' was not declared or defined.
+/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:107: warning: documented symbol 'SLbool AppDemoGui::showHelpCalibration' was not declared or defined.
+/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:108: warning: documented symbol 'SLbool AppDemoGui::showCredits' was not declared or defined.
+/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:109: warning: documented symbol 'SLbool AppDemoGui::showStatsTiming' was not declared or defined.
+/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:110: warning: documented symbol 'SLbool AppDemoGui::showStatsScene' was not declared or defined.
+/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:111: warning: documented symbol 'SLbool AppDemoGui::showStatsVideo' was not declared or defined.
+/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:112: warning: documented symbol 'SLbool AppDemoGui::showStatsWAI' was not declared or defined.
+/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:113: warning: documented symbol 'SLbool AppDemoGui::showImGuiMetrics' was not declared or defined.
+/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:114: warning: documented symbol 'SLbool AppDemoGui::showInfosScene' was not declared or defined.
+/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:115: warning: documented symbol 'SLbool AppDemoGui::showInfosSensors' was not declared or defined.
+/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:116: warning: documented symbol 'SLbool AppDemoGui::showInfosDevice' was not declared or defined.
+/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:117: warning: documented symbol 'SLbool AppDemoGui::showSceneGraph' was not declared or defined.
+/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:118: warning: documented symbol 'SLbool AppDemoGui::showProperties' was not declared or defined.
+/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:119: warning: documented symbol 'SLbool AppDemoGui::showChristoffel' was not declared or defined.
+/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:120: warning: documented symbol 'SLbool AppDemoGui::showUIPrefs' was not declared or defined.
+/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:121: warning: documented symbol 'SLbool AppDemoGui::showTransform' was not declared or defined.
+/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:146: warning: documented symbol 'SLstring AppDemoGui::infoAbout' was not declared or defined.
+/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:157: warning: documented symbol 'SLstring AppDemoGui::infoCredits' was not declared or defined.
+/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:172: warning: documented symbol 'SLstring AppDemoGui::infoHelp' was not declared or defined.
+/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:183: warning: documented symbol 'SLstring AppDemoGui::infoCalibrate' was not declared or defined.
+/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:221: warning: no uniquely matching class member found for 
   void AppDemoGui::build(SLProjectScene *s, SLSceneView *sv)
 
-/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:1135: warning: documented symbol 'void AppDemoGui::buildMenuBar' was not declared or defined.
-/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:2337: warning: documented symbol 'void AppDemoGui::buildSceneGraph' was not declared or defined.
-/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:2350: warning: documented symbol 'void AppDemoGui::addSceneGraphNode' was not declared or defined.
-/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:2396: warning: documented symbol 'void AppDemoGui::buildProperties' was not declared or defined.
-/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:2883: warning: documented symbol 'void AppDemoGui::loadConfig' was not declared or defined.
-/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:2992: warning: documented symbol 'void AppDemoGui::saveConfig' was not declared or defined.
-/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:3038: warning: documented symbol 'void AppDemoGui::setTransformEditMode' was not declared or defined.
-/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:3055: warning: documented symbol 'void AppDemoGui::removeTransformNode' was not declared or defined.
+/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:1172: warning: documented symbol 'void AppDemoGui::buildMenuBar' was not declared or defined.
+/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:2493: warning: documented symbol 'void AppDemoGui::buildSceneGraph' was not declared or defined.
+/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:2511: warning: documented symbol 'void AppDemoGui::addSceneGraphNode' was not declared or defined.
+/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:2566: warning: documented symbol 'void AppDemoGui::buildProperties' was not declared or defined.
+/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:3180: warning: documented symbol 'void AppDemoGui::loadConfig' was not declared or defined.
+/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:3291: warning: documented symbol 'void AppDemoGui::saveConfig' was not declared or defined.
+/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:3341: warning: documented symbol 'void AppDemoGui::setTransformEditMode' was not declared or defined.
+/Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoGui.cpp:3358: warning: documented symbol 'void AppDemoGui::removeTransformNode' was not declared or defined.
 /Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoSceneView.cpp:16: warning: documented symbol 'AppDemoSceneView::AppDemoSceneView' was not declared or defined.
 /Users/hudrima1/Documents/GitHub/SLProject/apps/app-Demo-SLProject/source/AppDemoSceneView.cpp:32: warning: no uniquely matching class member found for 
   SLbool AppDemoSceneView::onMouseDown(SLMouseButton button, SLint x, SLint y, SLKey mod)
 
-warning: Included by graph for 'stdafx.h' not generated, too many nodes (80), threshold is 50. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Included by graph for 'stdafx.h' not generated, too many nodes (77), threshold is 50. Consider increasing DOT_GRAPH_MAX_NODES.
 /Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/include/CV/CVCalibration.h:190: warning: The following parameters of CVCalibration::createFromGuessedFOV(int imageWidthPX, int imageHeightPX, float fovH) are not documented:
   parameter 'imageWidthPX'
   parameter 'imageHeightPX'
-/Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/source/CV/CVTrackedFaces.cpp:24: warning: argument 'node' of command @param is not found in the argument list of CVTrackedFaces::CVTrackedFaces(string faceClassifierFilename, string faceMarkModelFilename, int smoothLenght=5)
-/Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/source/CV/CVTrackedFaces.cpp:24: warning: argument 'smoothlength' of command @param is not found in the argument list of CVTrackedFaces::CVTrackedFaces(string faceClassifierFilename, string faceMarkModelFilename, int smoothLenght=5)
+/Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/source/CV/CVTrackedFaces.cpp:25: warning: argument 'node' of command @param is not found in the argument list of CVTrackedFaces::CVTrackedFaces(string faceClassifierFilename, string faceMarkModelFilename, int smoothLenght=5)
+/Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/source/CV/CVTrackedFaces.cpp:25: warning: argument 'smoothlength' of command @param is not found in the argument list of CVTrackedFaces::CVTrackedFaces(string faceClassifierFilename, string faceMarkModelFilename, int smoothLenght=5)
 /Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/include/CV/CVTrackedFaces.h:37: warning: The following parameter of CVTrackedFaces::CVTrackedFaces(string faceClassifierFilename, string faceMarkModelFilename, int smoothLenght=5) is not documented:
   parameter 'smoothLenght'
-/Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/source/CV/CVTrackedFeatures.cpp:209: warning: argument 'drawDetection' of command @param is not found in the argument list of CVTrackedFeatures::track(CVMat imageGray, CVMat image, CVCalibration *calib)
-/Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/source/CV/CVTrackedFeatures.cpp:209: warning: argument 'sv' of command @param is not found in the argument list of CVTrackedFeatures::track(CVMat imageGray, CVMat image, CVCalibration *calib)
-/Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/include/SL/SLAssimpImporter.h:45: warning: The following parameters of SLAssimpImporter::load(SLAnimManager &aniMan, SLAssetManager *assetMgr, SLstring pathAndFile, SLbool loadMeshesOnly=true, SLMaterial *overrideMat=nullptr, float ambientFactor=0.0f, SLuint flags=SLProcess_Triangulate|SLProcess_JoinIdenticalVertices|SLProcess_RemoveRedundantMaterials|SLProcess_FindDegenerates|SLProcess_FindInvalidData|SLProcess_SplitLargeMeshes) are not documented:
+/Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/source/CV/CVTrackedFeatures.cpp:203: warning: argument 'drawDetection' of command @param is not found in the argument list of CVTrackedFeatures::track(CVMat imageGray, CVMat image, CVCalibration *calib)
+/Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/source/CV/CVTrackedFeatures.cpp:203: warning: argument 'sv' of command @param is not found in the argument list of CVTrackedFeatures::track(CVMat imageGray, CVMat image, CVCalibration *calib)
+/Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/include/SL/SLAssimpImporter.h:45: warning: The following parameters of SLAssimpImporter::load(SLAnimManager &aniMan, SLAssetManager *assetMgr, SLstring pathAndFile, SLstring texturePath, SLbool loadMeshesOnly=true, SLMaterial *overrideMat=nullptr, float ambientFactor=0.0f, SLuint flags=SLProcess_Triangulate|SLProcess_JoinIdenticalVertices|SLProcess_RemoveRedundantMaterials|SLProcess_FindDegenerates|SLProcess_FindInvalidData|SLProcess_SplitLargeMeshes) are not documented:
   parameter 'aniMan'
   parameter 'assetMgr'
+  parameter 'texturePath'
+/Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/source/GL/SLGLShader.cpp:243: warning: explicit link request to 'pragma' could not be resolved
+/Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/source/GL/SLGLShader.cpp:243: warning: explicit link request to 'pragma' could not be resolved
+/Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/include/GL/SLGLTexture.h:198: warning: The following parameter of SLGLTexture::calc3DGradients(SLint sampleRadius, function< void(int)> onUpdateProgress) is not documented:
+  parameter 'onUpdateProgress'
+/Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/include/GL/SLGLTexture.h:199: warning: The following parameter of SLGLTexture::smooth3DGradients(SLint smoothRadius, function< void(int)> onUpdateProgress) is not documented:
+  parameter 'onUpdateProgress'
 /Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/include/SLLens.h:37: warning: The following parameter of SLLens::SLLens(SLAssetManager *assetMgr, double sphere, double cylinder, SLfloat diameter, SLfloat thickness, SLuint stacks=32, SLuint slices=32, SLstring name="lens mesh", SLMaterial *mat=nullptr) is not documented:
   parameter 'assetMgr'
 /Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/include/SLLens.h:48: warning: The following parameter of SLLens::SLLens(SLAssetManager *assetMgr, SLfloat radiusBot, SLfloat radiusTop, SLfloat diameter, SLfloat thickness, SLuint stacks=32, SLuint slices=32, SLstring name="lens mesh", SLMaterial *mat=nullptr) is not documented:
   parameter 'assetMgr'
 /Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/source/SLLens.cpp:367: warning: image file Sagitta.png is not found in IMAGE_PATH: assuming external image.
+/Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/include/SLMaterial.h:44: warning: The following parameter of SLMaterial::SLMaterial(SLAssetManager *am, const SLchar *name, const SLCol4f &amdi=SLCol4f::WHITE, const SLCol4f &spec=SLCol4f::WHITE, SLfloat shininess=100.0f, SLfloat kr=0.0, SLfloat kt=0.0f, SLfloat kn=1.0f, SLGLProgram *program=nullptr, const SLstring &compileErrorTexFilePath="") is not documented:
+  parameter 'compileErrorTexFilePath'
+/Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/include/SLMaterial.h:56: warning: The following parameter of SLMaterial::SLMaterial(SLAssetManager *am, const SLchar *name, SLGLTexture *texture1, SLGLTexture *texture2=nullptr, SLGLTexture *texture3=nullptr, SLGLTexture *texture4=nullptr, SLGLProgram *shaderProg=nullptr, const SLstring &compileErrorTexFilePath="") is not documented:
+  parameter 'compileErrorTexFilePath'
+/Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/include/SLMaterial.h:66: warning: The following parameter of SLMaterial::SLMaterial(SLAssetManager *am, SLGLProgram *perPixCookTorranceProgram, const SLchar *name, const SLCol4f &diffuse, SLfloat roughness, SLfloat metalness, const SLstring &compileErrorTexFilePath="") is not documented:
+  parameter 'compileErrorTexFilePath'
+/Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/include/SLMaterial.h:75: warning: The following parameter of SLMaterial::SLMaterial(SLAssetManager *am, SLGLProgram *colorUniformProgram, const SLCol4f &uniformColor, const SLchar *name=(const char *)"Uniform color", const SLstring &compileErrorTexFilePath="") is not documented:
+  parameter 'compileErrorTexFilePath'
+/Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/include/SLMaterial.h:82: warning: The following parameter of SLMaterial::SLMaterial(SLAssetManager *am, const SLchar *name, SLGLProgram *shaderProg, const SLstring &compileErrorTexFilePath="") is not documented:
+  parameter 'compileErrorTexFilePath'
 /Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/include/SLMemoryStats.h:63: warning: unable to resolve link to '#availMem' for \link command
-/Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/source/SLSceneView.cpp:53: warning: argument 'SLUiInterface' of command @param is not found in the argument list of SLSceneView::init(SLstring name, SLint screenWidth, SLint screenHeight, void *onWndUpdateCallback, void *onSelectNodeMeshCallback, SLUiInterface *gui, const std::string &configPath)
-/Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/include/SLSceneView.h:76: warning: The following parameters of SLSceneView::init(SLstring name, SLint screenWidth, SLint screenHeight, void *onWndUpdateCallback, void *onSelectNodeMeshCallback, SLUiInterface *gui, const std::string &configPath) are not documented:
+/Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/source/SLSceneView.cpp:52: warning: argument 'SLUiInterface' of command @param is not found in the argument list of SLSceneView::init(SLstring name, SLint screenWidth, SLint screenHeight, void *onWndUpdateCallback, void *onSelectNodeMeshCallback, SLUiInterface *gui, const std::string &configPath)
+/Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/include/SLSceneView.h:77: warning: The following parameters of SLSceneView::init(SLstring name, SLint screenWidth, SLint screenHeight, void *onWndUpdateCallback, void *onSelectNodeMeshCallback, SLUiInterface *gui, const std::string &configPath) are not documented:
   parameter 'gui'
   parameter 'configPath'
+/Users/hudrima1/Documents/GitHub/SLProject/lib-SLProject/include/SLTransformNode.h:35: warning: The following parameter of SLTransformNode::SLTransformNode(SLSceneView *sv, SLNode *targetNode, SLstring shaderDir) is not documented:
+  parameter 'shaderDir'

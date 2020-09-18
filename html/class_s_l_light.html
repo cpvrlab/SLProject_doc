@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">3.0.0</span>
+   &#160;<span id="projectnumber">3.1.0</span>
    </div>
   </td>
  </tr>
@@ -62,6 +62,8 @@ $(document).ready(function(){initNavTree('class_s_l_light.html',''); initResizab
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="class_s_l_light-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -85,18 +87,31 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9be5a89a46953fec7ea37bfbff3729fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36d7d8b3caaf7926a2b8a75b0c0bb62b"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#a36d7d8b3caaf7926a2b8a75b0c0bb62b">~SLLight</a> ()=default</td></tr>
 <tr class="separator:a36d7d8b3caaf7926a2b8a75b0c0bb62b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8413b67602c9a27d5e13447114a854cb"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#a8413b67602c9a27d5e13447114a854cb">setState</a> ()=0</td></tr>
-<tr class="separator:a8413b67602c9a27d5e13447114a854cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a863954f5bb269c21ac7b03e008476a59"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#a863954f5bb269c21ac7b03e008476a59">id</a> (const <a class="el" href="_s_l_8h.html#affe860856ed283b0bac8c21583fb0ea5">SLint</a> id)</td></tr>
 <tr class="separator:a863954f5bb269c21ac7b03e008476a59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d3fa5b33b2dc5c55617a6adb1ef98fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#a8d3fa5b33b2dc5c55617a6adb1ef98fb">isOn</a> (const <a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> on)</td></tr>
 <tr class="separator:a8d3fa5b33b2dc5c55617a6adb1ef98fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a387ff9285c2946b1c77b2d78b6ebc0f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#a387ff9285c2946b1c77b2d78b6ebc0f0">ambient</a> (const <a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a> &amp;ambi)</td></tr>
-<tr class="separator:a387ff9285c2946b1c77b2d78b6ebc0f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90450ca6dc0d937d41f3343188d0e4e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#a90450ca6dc0d937d41f3343188d0e4e0">diffuse</a> (const <a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a> &amp;diff)</td></tr>
-<tr class="separator:a90450ca6dc0d937d41f3343188d0e4e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af210518e675df02aef36b82ff0f1e139"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#af210518e675df02aef36b82ff0f1e139">specular</a> (const <a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a> &amp;spec)</td></tr>
-<tr class="separator:af210518e675df02aef36b82ff0f1e139"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef0c88b934dec320fa218d10a13161c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#aef0c88b934dec320fa218d10a13161c4">powers</a> (<a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a> ambiPow, <a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a> diffPow, <a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a> specPow, const <a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a> &amp;ambiDiffSpecCol=<a class="el" href="class_s_l_vec4.html#a5ac96370f2e241f5116f4bd326fcec3e">SLCol4f::WHITE</a>)</td></tr>
+<tr class="memdesc:aef0c88b934dec320fa218d10a13161c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the ambient, diffuse and specular powers all with the same color.  <a href="class_s_l_light.html#aef0c88b934dec320fa218d10a13161c4">More...</a><br /></td></tr>
+<tr class="separator:aef0c88b934dec320fa218d10a13161c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c1331dd7b256f7d5c2e9206d1c3fbc5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#a7c1331dd7b256f7d5c2e9206d1c3fbc5">ambiDiffPowers</a> (<a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a> ambiPow, <a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a> diffPow, const <a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a> &amp;ambiDiffCol=<a class="el" href="class_s_l_vec4.html#a5ac96370f2e241f5116f4bd326fcec3e">SLCol4f::WHITE</a>)</td></tr>
+<tr class="memdesc:a7c1331dd7b256f7d5c2e9206d1c3fbc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the ambient and diffuse powers with the same color.  <a href="class_s_l_light.html#a7c1331dd7b256f7d5c2e9206d1c3fbc5">More...</a><br /></td></tr>
+<tr class="separator:a7c1331dd7b256f7d5c2e9206d1c3fbc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae84f6a0d02e77419fbce95d58c4eb7ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#ae84f6a0d02e77419fbce95d58c4eb7ef">ambiDiffColor</a> (const <a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a> &amp;ambiDiffCol)</td></tr>
+<tr class="memdesc:ae84f6a0d02e77419fbce95d58c4eb7ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the same color to the ambient and diffuse colors.  <a href="class_s_l_light.html#ae84f6a0d02e77419fbce95d58c4eb7ef">More...</a><br /></td></tr>
+<tr class="separator:ae84f6a0d02e77419fbce95d58c4eb7ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0af9e16561334f6314849e10a8e348a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#a0af9e16561334f6314849e10a8e348a9">ambientColor</a> (const <a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a> &amp;ambi)</td></tr>
+<tr class="separator:a0af9e16561334f6314849e10a8e348a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ff9c766f1448a238a6e331b5bcc31cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#a6ff9c766f1448a238a6e331b5bcc31cb">ambientPower</a> (const <a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a> ambPow)</td></tr>
+<tr class="separator:a6ff9c766f1448a238a6e331b5bcc31cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0c1f412f2f9d4720e818c63481c5550"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#ad0c1f412f2f9d4720e818c63481c5550">diffuseColor</a> (const <a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a> &amp;diff)</td></tr>
+<tr class="separator:ad0c1f412f2f9d4720e818c63481c5550"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad034628409603bf94da5307214ce17c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#ad034628409603bf94da5307214ce17c6">diffusePower</a> (const <a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a> diffPow)</td></tr>
+<tr class="separator:ad034628409603bf94da5307214ce17c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2e013da88de8b2cbcd9c9140c337603"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#ad2e013da88de8b2cbcd9c9140c337603">specularColor</a> (const <a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a> &amp;spec)</td></tr>
+<tr class="separator:ad2e013da88de8b2cbcd9c9140c337603"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d00fa3309425ab8434f102eaa16edbc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#a8d00fa3309425ab8434f102eaa16edbc">specularPower</a> (const <a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a> specPow)</td></tr>
+<tr class="separator:a8d00fa3309425ab8434f102eaa16edbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5d7b605898336f0486b9847af764882"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#af5d7b605898336f0486b9847af764882">spotExponent</a> (const <a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a> exp)</td></tr>
 <tr class="separator:af5d7b605898336f0486b9847af764882"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6d123035aed8ba175ff5c8cb193f785"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#ab6d123035aed8ba175ff5c8cb193f785">spotCutOffDEG</a> (<a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a> cutOffAngleDEG)</td></tr>
@@ -107,18 +122,41 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a76eae7b7f2b0f8da33b4011dd8b98e6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8094970a6b465f4c89955973e9a1915"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#ae8094970a6b465f4c89955973e9a1915">kq</a> (<a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a> kq)</td></tr>
 <tr class="separator:ae8094970a6b465f4c89955973e9a1915"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6520787af7a6a81c001bc36996e47389"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#a6520787af7a6a81c001bc36996e47389">attenuation</a> (const <a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a> kC, const <a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a> kL, const <a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a> kQ)</td></tr>
-<tr class="separator:a6520787af7a6a81c001bc36996e47389"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9449ad5ace2f80031e0ed5060dc2d18"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#ae9449ad5ace2f80031e0ed5060dc2d18">attenuation</a> (const <a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a> kConstant, const <a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a> kLinear, const <a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a> kQuadratic)</td></tr>
+<tr class="separator:ae9449ad5ace2f80031e0ed5060dc2d18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3149141616f5e2c9270478fb87ad1d5e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#a3149141616f5e2c9270478fb87ad1d5e">createsShadows</a> (<a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> createsShadows)</td></tr>
+<tr class="separator:a3149141616f5e2c9270478fb87ad1d5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41c21d6cb3d225b7a022cb2a96f6b84f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#a41c21d6cb3d225b7a022cb2a96f6b84f">shadowMap</a> (<a class="el" href="class_s_l_shadow_map.html">SLShadowMap</a> *shadowMap)</td></tr>
+<tr class="separator:a41c21d6cb3d225b7a022cb2a96f6b84f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ca6297374cf8e877431c64c7bab7f71"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#a4ca6297374cf8e877431c64c7bab7f71">doesPCF</a> (<a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> doesPCF)</td></tr>
+<tr class="separator:a4ca6297374cf8e877431c64c7bab7f71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a156698a17dba3764bf5676ddc0aea92f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#a156698a17dba3764bf5676ddc0aea92f">pcfLevel</a> (<a class="el" href="_s_l_8h.html#a44d61aad4f3be0082c963feb065af080">SLuint</a> pcfLevel)</td></tr>
+<tr class="separator:a156698a17dba3764bf5676ddc0aea92f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afbe0f27f5977e9254df82ce89c67e066"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#affe860856ed283b0bac8c21583fb0ea5">SLint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#afbe0f27f5977e9254df82ce89c67e066">id</a> () const</td></tr>
 <tr class="separator:afbe0f27f5977e9254df82ce89c67e066"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a095e8d429e5d09ca8d1fbcb3e7d70cfa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#a095e8d429e5d09ca8d1fbcb3e7d70cfa">isOn</a> () const</td></tr>
 <tr class="separator:a095e8d429e5d09ca8d1fbcb3e7d70cfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94ce392eec240a00718ffe5f83ca7175"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#a94ce392eec240a00718ffe5f83ca7175">ambient</a> ()</td></tr>
+<tr class="memdesc:a94ce392eec240a00718ffe5f83ca7175"><td class="mdescLeft">&#160;</td><td class="mdescRight">return ambientColor * ambientPower  <a href="class_s_l_light.html#a94ce392eec240a00718ffe5f83ca7175">More...</a><br /></td></tr>
 <tr class="separator:a94ce392eec240a00718ffe5f83ca7175"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a225233d4236ac25a1b7987651f254a3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#a225233d4236ac25a1b7987651f254a3e">ambientColor</a> ()</td></tr>
+<tr class="separator:a225233d4236ac25a1b7987651f254a3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6434e9b713420b46f360c18fad402dd7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#a6434e9b713420b46f360c18fad402dd7">ambientPower</a> () const</td></tr>
+<tr class="separator:a6434e9b713420b46f360c18fad402dd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4dcdf88c28d2700bb3bf750b8ea81794"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#a4dcdf88c28d2700bb3bf750b8ea81794">diffuse</a> ()</td></tr>
+<tr class="memdesc:a4dcdf88c28d2700bb3bf750b8ea81794"><td class="mdescLeft">&#160;</td><td class="mdescRight">return diffuseColor * diffusePower  <a href="class_s_l_light.html#a4dcdf88c28d2700bb3bf750b8ea81794">More...</a><br /></td></tr>
 <tr class="separator:a4dcdf88c28d2700bb3bf750b8ea81794"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e50eb4fdc098fc3c85455724a00051d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#a9e50eb4fdc098fc3c85455724a00051d">diffuseColor</a> ()</td></tr>
+<tr class="separator:a9e50eb4fdc098fc3c85455724a00051d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3375ec1614be666badc1a00f3f6ab5c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#a3375ec1614be666badc1a00f3f6ab5c0">diffusePower</a> () const</td></tr>
+<tr class="separator:a3375ec1614be666badc1a00f3f6ab5c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc6a30c224c4c838ffeebe548686768b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#afc6a30c224c4c838ffeebe548686768b">specular</a> ()</td></tr>
+<tr class="memdesc:afc6a30c224c4c838ffeebe548686768b"><td class="mdescLeft">&#160;</td><td class="mdescRight">return _specularColor * _specularPower  <a href="class_s_l_light.html#afc6a30c224c4c838ffeebe548686768b">More...</a><br /></td></tr>
 <tr class="separator:afc6a30c224c4c838ffeebe548686768b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ffb3b608643c459dd4f13758d272939"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#a9ffb3b608643c459dd4f13758d272939">specularColor</a> ()</td></tr>
+<tr class="separator:a9ffb3b608643c459dd4f13758d272939"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a917a48fc054b9c712609999fa94c5409"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#a917a48fc054b9c712609999fa94c5409">specularPower</a> () const</td></tr>
+<tr class="separator:a917a48fc054b9c712609999fa94c5409"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b48f2bc5a71f3953ea8251effa4f15b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#a4b48f2bc5a71f3953ea8251effa4f15b">spotCutOffDEG</a> () const</td></tr>
 <tr class="separator:a4b48f2bc5a71f3953ea8251effa4f15b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e63e14496fa639061e762a529d45fa6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#a7e63e14496fa639061e762a529d45fa6">spotCosCut</a> () const</td></tr>
@@ -135,6 +173,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a58e10728941788e01d1413bc567a1e07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ebcb61ad38641a51fd35855be6b2ebe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#a1ebcb61ad38641a51fd35855be6b2ebe">attenuation</a> (<a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a> dist) const</td></tr>
 <tr class="separator:a1ebcb61ad38641a51fd35855be6b2ebe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a259c15f599b326ed2f168d09d97588b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#a259c15f599b326ed2f168d09d97588b3">createsShadows</a> () const</td></tr>
+<tr class="separator:a259c15f599b326ed2f168d09d97588b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaec7691fe57df9c3c2195c06641f3c11"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_s_l_shadow_map.html">SLShadowMap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#aaec7691fe57df9c3c2195c06641f3c11">shadowMap</a> ()</td></tr>
+<tr class="separator:aaec7691fe57df9c3c2195c06641f3c11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09055ad7135f02642e5adbc460237a55"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#a09055ad7135f02642e5adbc460237a55">doesPCF</a> () const</td></tr>
+<tr class="separator:a09055ad7135f02642e5adbc460237a55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3d780c7058e0c8ae94e3943ea6238fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a44d61aad4f3be0082c963feb065af080">SLuint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#ae3d780c7058e0c8ae94e3943ea6238fe">pcfLevel</a> () const</td></tr>
+<tr class="separator:ae3d780c7058e0c8ae94e3943ea6238fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a618188491a1d52b31ea32279ebbfe9c9"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_s_l_vec4_8h.html#ac862c9d75b5e95a688371882dfbcf946">SLVec4f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#a618188491a1d52b31ea32279ebbfe9c9">positionWS</a> () const =0</td></tr>
 <tr class="separator:a618188491a1d52b31ea32279ebbfe9c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ee06fe6a764c4ae3d22049fb5453347"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_s_l_vec3_8h.html#a22a90ea5a9c12a50e5ce23324a383120">SLVec3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#a0ee06fe6a764c4ae3d22049fb5453347">spotDirWS</a> ()=0</td></tr>
@@ -143,6 +189,22 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0ff2d15a451c889b03fb047653b1bfa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9745a8229c77fc82be6bf8cabd14114"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#ad9745a8229c77fc82be6bf8cabd14114">shadowTestMC</a> (<a class="el" href="class_s_l_ray.html">SLRay</a> *ray, const <a class="el" href="_s_l_vec3_8h.html#a22a90ea5a9c12a50e5ce23324a383120">SLVec3f</a> &amp;L, <a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a> lightDist, <a class="el" href="class_s_l_node.html">SLNode</a> *root3D)=0</td></tr>
 <tr class="separator:ad9745a8229c77fc82be6bf8cabd14114"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3455a21dc5acd72209100d5b1672b21a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#a3455a21dc5acd72209100d5b1672b21a">renderShadowMap</a> (<a class="el" href="class_s_l_scene_view.html">SLSceneView</a> *<a class="el" href="_s_l_g_l_im_gui_8h.html#ac0dd312e5f0a445e35dcdc7d74e9ee50">sv</a>, <a class="el" href="class_s_l_node.html">SLNode</a> *root)=0</td></tr>
+<tr class="separator:a3455a21dc5acd72209100d5b1672b21a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a8c9190c462ba45431cd35b81434d8769"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#a8c9190c462ba45431cd35b81434d8769">oneOverGamma</a> ()</td></tr>
+<tr class="separator:a8c9190c462ba45431cd35b81434d8769"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a6a851c8469c73f2080411dfe34397abb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#a6a851c8469c73f2080411dfe34397abb">globalAmbient</a> = <a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a>(0.1f, 0.1f, 0.1f, 1.0f)</td></tr>
+<tr class="memdesc:a6a851c8469c73f2080411dfe34397abb"><td class="mdescLeft">&#160;</td><td class="mdescRight">static global ambient light intensity  <a href="class_s_l_light.html#a6a851c8469c73f2080411dfe34397abb">More...</a><br /></td></tr>
+<tr class="separator:a6a851c8469c73f2080411dfe34397abb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2da6bb621275c1cb32934f0b89d4686c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#a2da6bb621275c1cb32934f0b89d4686c">gamma</a> = 1.0f</td></tr>
+<tr class="memdesc:a2da6bb621275c1cb32934f0b89d4686c"><td class="mdescLeft">&#160;</td><td class="mdescRight">final output gamma value  <a href="class_s_l_light.html#a2da6bb621275c1cb32934f0b89d4686c">More...</a><br /></td></tr>
+<tr class="separator:a2da6bb621275c1cb32934f0b89d4686c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -152,15 +214,24 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a59385d39dc65a95aec0c135e7fd6264b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#a59385d39dc65a95aec0c135e7fd6264b">_isOn</a></td></tr>
 <tr class="memdesc:a59385d39dc65a95aec0c135e7fd6264b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag if light is on or off.  <a href="class_s_l_light.html#a59385d39dc65a95aec0c135e7fd6264b">More...</a><br /></td></tr>
 <tr class="separator:a59385d39dc65a95aec0c135e7fd6264b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80b65669621dde8e5200b91cb5586ff5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#a80b65669621dde8e5200b91cb5586ff5">_ambient</a></td></tr>
-<tr class="memdesc:a80b65669621dde8e5200b91cb5586ff5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ambient light intensity Ia.  <a href="class_s_l_light.html#a80b65669621dde8e5200b91cb5586ff5">More...</a><br /></td></tr>
-<tr class="separator:a80b65669621dde8e5200b91cb5586ff5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a631869967f0b524ed26f0c23a19ce86f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#a631869967f0b524ed26f0c23a19ce86f">_diffuse</a></td></tr>
-<tr class="memdesc:a631869967f0b524ed26f0c23a19ce86f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Diffuse light intensity Id.  <a href="class_s_l_light.html#a631869967f0b524ed26f0c23a19ce86f">More...</a><br /></td></tr>
-<tr class="separator:a631869967f0b524ed26f0c23a19ce86f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19d33fe111081ffe5326c1d637d0a587"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#a19d33fe111081ffe5326c1d637d0a587">_specular</a></td></tr>
-<tr class="memdesc:a19d33fe111081ffe5326c1d637d0a587"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specular light intensity Is.  <a href="class_s_l_light.html#a19d33fe111081ffe5326c1d637d0a587">More...</a><br /></td></tr>
-<tr class="separator:a19d33fe111081ffe5326c1d637d0a587"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11e28a35043b6a4ad28ad999721cabef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#a11e28a35043b6a4ad28ad999721cabef">_ambientColor</a></td></tr>
+<tr class="memdesc:a11e28a35043b6a4ad28ad999721cabef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ambient light color (RGB 0-1)  <a href="class_s_l_light.html#a11e28a35043b6a4ad28ad999721cabef">More...</a><br /></td></tr>
+<tr class="separator:a11e28a35043b6a4ad28ad999721cabef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac72b69475ab5dff2df8213ba52d66684"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#ac72b69475ab5dff2df8213ba52d66684">_ambientPower</a></td></tr>
+<tr class="memdesc:ac72b69475ab5dff2df8213ba52d66684"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ambient light power (0-N)  <a href="class_s_l_light.html#ac72b69475ab5dff2df8213ba52d66684">More...</a><br /></td></tr>
+<tr class="separator:ac72b69475ab5dff2df8213ba52d66684"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa57ab4695f5c4c3b2a50ee45b69a81b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#aa57ab4695f5c4c3b2a50ee45b69a81b3">_diffuseColor</a></td></tr>
+<tr class="memdesc:aa57ab4695f5c4c3b2a50ee45b69a81b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Diffuse light color (RGB 0-1)  <a href="class_s_l_light.html#aa57ab4695f5c4c3b2a50ee45b69a81b3">More...</a><br /></td></tr>
+<tr class="separator:aa57ab4695f5c4c3b2a50ee45b69a81b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45d3868414e6b5ae1e6e0d7f6d0ab163"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#a45d3868414e6b5ae1e6e0d7f6d0ab163">_diffusePower</a></td></tr>
+<tr class="memdesc:a45d3868414e6b5ae1e6e0d7f6d0ab163"><td class="mdescLeft">&#160;</td><td class="mdescRight">Diffuse light power (0-N)  <a href="class_s_l_light.html#a45d3868414e6b5ae1e6e0d7f6d0ab163">More...</a><br /></td></tr>
+<tr class="separator:a45d3868414e6b5ae1e6e0d7f6d0ab163"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae596ea6177c9b3f33b3d7ba4d6b752d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#ae596ea6177c9b3f33b3d7ba4d6b752d7">_specularColor</a></td></tr>
+<tr class="memdesc:ae596ea6177c9b3f33b3d7ba4d6b752d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specular light color (RGB 0-1)  <a href="class_s_l_light.html#ae596ea6177c9b3f33b3d7ba4d6b752d7">More...</a><br /></td></tr>
+<tr class="separator:ae596ea6177c9b3f33b3d7ba4d6b752d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c0c05ea1f1e2c5e8945d004858a6571"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#a8c0c05ea1f1e2c5e8945d004858a6571">_specularPower</a></td></tr>
+<tr class="memdesc:a8c0c05ea1f1e2c5e8945d004858a6571"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specular light power (0-N)  <a href="class_s_l_light.html#a8c0c05ea1f1e2c5e8945d004858a6571">More...</a><br /></td></tr>
+<tr class="separator:a8c0c05ea1f1e2c5e8945d004858a6571"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba4b500ada18016ca421b5367fd74a85"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#aba4b500ada18016ca421b5367fd74a85">_spotCutOffDEG</a></td></tr>
 <tr class="memdesc:aba4b500ada18016ca421b5367fd74a85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Half the spot cone angle.  <a href="class_s_l_light.html#aba4b500ada18016ca421b5367fd74a85">More...</a><br /></td></tr>
 <tr class="separator:aba4b500ada18016ca421b5367fd74a85"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -182,6 +253,18 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a4628fdf37c7adb918af1b1094fa14027"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#a4628fdf37c7adb918af1b1094fa14027">_isAttenuated</a></td></tr>
 <tr class="memdesc:a4628fdf37c7adb918af1b1094fa14027"><td class="mdescLeft">&#160;</td><td class="mdescRight">fast attenuation flag for ray tracing  <a href="class_s_l_light.html#a4628fdf37c7adb918af1b1094fa14027">More...</a><br /></td></tr>
 <tr class="separator:a4628fdf37c7adb918af1b1094fa14027"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8d8e92dff124e14be46ca8f8b8d0f19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#ac8d8e92dff124e14be46ca8f8b8d0f19">_createsShadows</a></td></tr>
+<tr class="memdesc:ac8d8e92dff124e14be46ca8f8b8d0f19"><td class="mdescLeft">&#160;</td><td class="mdescRight">flag if light creates shadows or not  <a href="class_s_l_light.html#ac8d8e92dff124e14be46ca8f8b8d0f19">More...</a><br /></td></tr>
+<tr class="separator:ac8d8e92dff124e14be46ca8f8b8d0f19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bc293f76b2236a9d7ae17e1f0d90023"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_s_l_shadow_map.html">SLShadowMap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#a2bc293f76b2236a9d7ae17e1f0d90023">_shadowMap</a></td></tr>
+<tr class="memdesc:a2bc293f76b2236a9d7ae17e1f0d90023"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used for shadow mapping.  <a href="class_s_l_light.html#a2bc293f76b2236a9d7ae17e1f0d90023">More...</a><br /></td></tr>
+<tr class="separator:a2bc293f76b2236a9d7ae17e1f0d90023"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac761a11fb0e75d2554ec85464160db03"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#ac761a11fb0e75d2554ec85464160db03">_doesPCF</a></td></tr>
+<tr class="memdesc:ac761a11fb0e75d2554ec85464160db03"><td class="mdescLeft">&#160;</td><td class="mdescRight">flag if percentage-closer filtering is enabled  <a href="class_s_l_light.html#ac761a11fb0e75d2554ec85464160db03">More...</a><br /></td></tr>
+<tr class="separator:ac761a11fb0e75d2554ec85464160db03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fbce944c02ca71000092c0672ac96ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a44d61aad4f3be0082c963feb065af080">SLuint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_light.html#a5fbce944c02ca71000092c0672ac96ac">_pcfLevel</a></td></tr>
+<tr class="memdesc:a5fbce944c02ca71000092c0672ac96ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Radius to sample pixels in (1 = 3 * 3; 2 = 5 * 5; ...)  <a href="class_s_l_light.html#a5fbce944c02ca71000092c0672ac96ac">More...</a><br /></td></tr>
+<tr class="separator:a5fbce944c02ca71000092c0672ac96ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Abstract Light class for OpenGL light sources. </p>
@@ -261,8 +344,80 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ae84f6a0d02e77419fbce95d58c4eb7ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae84f6a0d02e77419fbce95d58c4eb7ef">&#9670;&nbsp;</a></span>ambiDiffColor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a> SLLight::ambiDiffColor </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a> &amp;&#160;</td>
+          <td class="paramname"><em>ambiDiffCol</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the same color to the ambient and diffuse colors. </p>
+
+</div>
+</div>
+<a id="a7c1331dd7b256f7d5c2e9206d1c3fbc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c1331dd7b256f7d5c2e9206d1c3fbc5">&#9670;&nbsp;</a></span>ambiDiffPowers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a> SLLight::ambiDiffPowers </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a>&#160;</td>
+          <td class="paramname"><em>ambiPow</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a>&#160;</td>
+          <td class="paramname"><em>diffPow</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a> &amp;&#160;</td>
+          <td class="paramname"><em>ambiDiffCol</em> = <code><a class="el" href="class_s_l_vec4.html#a5ac96370f2e241f5116f4bd326fcec3e">SLCol4f::WHITE</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the ambient and diffuse powers with the same color. </p>
+
+</div>
+</div>
 <a id="a94ce392eec240a00718ffe5f83ca7175"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94ce392eec240a00718ffe5f83ca7175">&#9670;&nbsp;</a></span>ambient() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a94ce392eec240a00718ffe5f83ca7175">&#9670;&nbsp;</a></span>ambient()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -284,10 +439,12 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>return ambientColor * ambientPower </p>
+
 </div>
 </div>
-<a id="a387ff9285c2946b1c77b2d78b6ebc0f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a387ff9285c2946b1c77b2d78b6ebc0f0">&#9670;&nbsp;</a></span>ambient() <span class="overload">[2/2]</span></h2>
+<a id="a225233d4236ac25a1b7987651f254a3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a225233d4236ac25a1b7987651f254a3e">&#9670;&nbsp;</a></span>ambientColor() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -296,7 +453,32 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a> SLLight::ambient </td>
+          <td class="memname"><a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a> SLLight::ambientColor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0af9e16561334f6314849e10a8e348a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0af9e16561334f6314849e10a8e348a9">&#9670;&nbsp;</a></span>ambientColor() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a> SLLight::ambientColor </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a> &amp;&#160;</td>
           <td class="paramname"><em>ambi</em></td><td>)</td>
@@ -312,8 +494,59 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a6520787af7a6a81c001bc36996e47389"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6520787af7a6a81c001bc36996e47389">&#9670;&nbsp;</a></span>attenuation() <span class="overload">[1/2]</span></h2>
+<a id="a6434e9b713420b46f360c18fad402dd7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6434e9b713420b46f360c18fad402dd7">&#9670;&nbsp;</a></span>ambientPower() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a> SLLight::ambientPower </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6ff9c766f1448a238a6e331b5bcc31cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ff9c766f1448a238a6e331b5bcc31cb">&#9670;&nbsp;</a></span>ambientPower() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a> SLLight::ambientPower </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a>&#160;</td>
+          <td class="paramname"><em>ambPow</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae9449ad5ace2f80031e0ed5060dc2d18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9449ad5ace2f80031e0ed5060dc2d18">&#9670;&nbsp;</a></span>attenuation() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -325,19 +558,19 @@ Protected Attributes</h2></td></tr>
           <td class="memname"><a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a> SLLight::attenuation </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a>&#160;</td>
-          <td class="paramname"><em>kC</em>, </td>
+          <td class="paramname"><em>kConstant</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a>&#160;</td>
-          <td class="paramname"><em>kL</em>, </td>
+          <td class="paramname"><em>kLinear</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a>&#160;</td>
-          <td class="paramname"><em>kQ</em>&#160;</td>
+          <td class="paramname"><em>kQuadratic</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -380,8 +613,51 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a259c15f599b326ed2f168d09d97588b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a259c15f599b326ed2f168d09d97588b3">&#9670;&nbsp;</a></span>createsShadows() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> SLLight::createsShadows </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3149141616f5e2c9270478fb87ad1d5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3149141616f5e2c9270478fb87ad1d5e">&#9670;&nbsp;</a></span>createsShadows() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a> SLLight::createsShadows </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td>
+          <td class="paramname"><em>createsShadows</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a4dcdf88c28d2700bb3bf750b8ea81794"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4dcdf88c28d2700bb3bf750b8ea81794">&#9670;&nbsp;</a></span>diffuse() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4dcdf88c28d2700bb3bf750b8ea81794">&#9670;&nbsp;</a></span>diffuse()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -403,10 +679,12 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>return diffuseColor * diffusePower </p>
+
 </div>
 </div>
-<a id="a90450ca6dc0d937d41f3343188d0e4e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a90450ca6dc0d937d41f3343188d0e4e0">&#9670;&nbsp;</a></span>diffuse() <span class="overload">[2/2]</span></h2>
+<a id="a9e50eb4fdc098fc3c85455724a00051d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e50eb4fdc098fc3c85455724a00051d">&#9670;&nbsp;</a></span>diffuseColor() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -415,10 +693,137 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a> SLLight::diffuse </td>
+          <td class="memname"><a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a> SLLight::diffuseColor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad0c1f412f2f9d4720e818c63481c5550"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0c1f412f2f9d4720e818c63481c5550">&#9670;&nbsp;</a></span>diffuseColor() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a> SLLight::diffuseColor </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a> &amp;&#160;</td>
           <td class="paramname"><em>diff</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3375ec1614be666badc1a00f3f6ab5c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3375ec1614be666badc1a00f3f6ab5c0">&#9670;&nbsp;</a></span>diffusePower() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a> SLLight::diffusePower </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad034628409603bf94da5307214ce17c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad034628409603bf94da5307214ce17c6">&#9670;&nbsp;</a></span>diffusePower() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a> SLLight::diffusePower </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a>&#160;</td>
+          <td class="paramname"><em>diffPow</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a09055ad7135f02642e5adbc460237a55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09055ad7135f02642e5adbc460237a55">&#9670;&nbsp;</a></span>doesPCF() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> SLLight::doesPCF </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4ca6297374cf8e877431c64c7bab7f71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ca6297374cf8e877431c64c7bab7f71">&#9670;&nbsp;</a></span>doesPCF() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a> SLLight::doesPCF </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a>&#160;</td>
+          <td class="paramname"><em>doesPCF</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -687,6 +1092,82 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a8c9190c462ba45431cd35b81434d8769"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c9190c462ba45431cd35b81434d8769">&#9670;&nbsp;</a></span>oneOverGamma()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a> SLLight::oneOverGamma </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae3d780c7058e0c8ae94e3943ea6238fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3d780c7058e0c8ae94e3943ea6238fe">&#9670;&nbsp;</a></span>pcfLevel() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_8h.html#a44d61aad4f3be0082c963feb065af080">SLuint</a> SLLight::pcfLevel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a156698a17dba3764bf5676ddc0aea92f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a156698a17dba3764bf5676ddc0aea92f">&#9670;&nbsp;</a></span>pcfLevel() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a> SLLight::pcfLevel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_s_l_8h.html#a44d61aad4f3be0082c963feb065af080">SLuint</a>&#160;</td>
+          <td class="paramname"><em>pcfLevel</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a618188491a1d52b31ea32279ebbfe9c9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a618188491a1d52b31ea32279ebbfe9c9">&#9670;&nbsp;</a></span>positionWS()</h2>
 
@@ -714,8 +1195,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a8413b67602c9a27d5e13447114a854cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8413b67602c9a27d5e13447114a854cb">&#9670;&nbsp;</a></span>setState()</h2>
+<a id="aef0c88b934dec320fa218d10a13161c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef0c88b934dec320fa218d10a13161c4">&#9670;&nbsp;</a></span>powers()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -724,10 +1205,71 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a> SLLight::setState </td>
+          <td class="memname"><a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a> SLLight::powers </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a>&#160;</td>
+          <td class="paramname"><em>ambiPow</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a>&#160;</td>
+          <td class="paramname"><em>diffPow</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a>&#160;</td>
+          <td class="paramname"><em>specPow</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a> &amp;&#160;</td>
+          <td class="paramname"><em>ambiDiffSpecCol</em> = <code><a class="el" href="class_s_l_vec4.html#a5ac96370f2e241f5116f4bd326fcec3e">SLCol4f::WHITE</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the ambient, diffuse and specular powers all with the same color. </p>
+
+</div>
+</div>
+<a id="a3455a21dc5acd72209100d5b1672b21a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3455a21dc5acd72209100d5b1672b21a">&#9670;&nbsp;</a></span>renderShadowMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a> SLLight::renderShadowMap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_s_l_scene_view.html">SLSceneView</a> *&#160;</td>
+          <td class="paramname"><em>sv</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_s_l_node.html">SLNode</a> *&#160;</td>
+          <td class="paramname"><em>root</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -737,7 +1279,58 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="class_s_l_light_direct.html#ae9d9cc6ae5ed5b7f173d160dd16a6f34">SLLightDirect</a>, <a class="el" href="class_s_l_light_spot.html#ad590739b39938178ba29f44ad54f5f09">SLLightSpot</a>, and <a class="el" href="class_s_l_light_rect.html#a6e1615b26abe4deb8cba21dc42612e31">SLLightRect</a>.</p>
+<p>Implemented in <a class="el" href="class_s_l_light_direct.html#a7fb75591e98b1d79fbf569fc1b1f97f3">SLLightDirect</a>, <a class="el" href="class_s_l_light_spot.html#a45dadc8888252a3645340b647b3c4e96">SLLightSpot</a>, and <a class="el" href="class_s_l_light_rect.html#a96c3ac58990402498524329342176389">SLLightRect</a>.</p>
+
+</div>
+</div>
+<a id="aaec7691fe57df9c3c2195c06641f3c11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaec7691fe57df9c3c2195c06641f3c11">&#9670;&nbsp;</a></span>shadowMap() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_s_l_shadow_map.html">SLShadowMap</a>* SLLight::shadowMap </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a41c21d6cb3d225b7a022cb2a96f6b84f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41c21d6cb3d225b7a022cb2a96f6b84f">&#9670;&nbsp;</a></span>shadowMap() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a> SLLight::shadowMap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_s_l_shadow_map.html">SLShadowMap</a> *&#160;</td>
+          <td class="paramname"><em>shadowMap</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -842,7 +1435,7 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <a id="afc6a30c224c4c838ffeebe548686768b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afc6a30c224c4c838ffeebe548686768b">&#9670;&nbsp;</a></span>specular() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afc6a30c224c4c838ffeebe548686768b">&#9670;&nbsp;</a></span>specular()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -864,10 +1457,12 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>return _specularColor * _specularPower </p>
+
 </div>
 </div>
-<a id="af210518e675df02aef36b82ff0f1e139"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af210518e675df02aef36b82ff0f1e139">&#9670;&nbsp;</a></span>specular() <span class="overload">[2/2]</span></h2>
+<a id="a9ffb3b608643c459dd4f13758d272939"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ffb3b608643c459dd4f13758d272939">&#9670;&nbsp;</a></span>specularColor() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -876,10 +1471,86 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a> SLLight::specular </td>
+          <td class="memname"><a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a> SLLight::specularColor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad2e013da88de8b2cbcd9c9140c337603"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2e013da88de8b2cbcd9c9140c337603">&#9670;&nbsp;</a></span>specularColor() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a> SLLight::specularColor </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a> &amp;&#160;</td>
           <td class="paramname"><em>spec</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a917a48fc054b9c712609999fa94c5409"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a917a48fc054b9c712609999fa94c5409">&#9670;&nbsp;</a></span>specularPower() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a> SLLight::specularPower </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8d00fa3309425ab8434f102eaa16edbc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d00fa3309425ab8434f102eaa16edbc">&#9670;&nbsp;</a></span>specularPower() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a> SLLight::specularPower </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a>&#160;</td>
+          <td class="paramname"><em>specPow</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1039,8 +1710,8 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a80b65669621dde8e5200b91cb5586ff5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a80b65669621dde8e5200b91cb5586ff5">&#9670;&nbsp;</a></span>_ambient</h2>
+<a id="a11e28a35043b6a4ad28ad999721cabef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11e28a35043b6a4ad28ad999721cabef">&#9670;&nbsp;</a></span>_ambientColor</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1049,7 +1720,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a> SLLight::_ambient</td>
+          <td class="memname"><a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a> SLLight::_ambientColor</td>
         </tr>
       </table>
   </td>
@@ -1059,12 +1730,12 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Ambient light intensity Ia. </p>
+<p>Ambient light color (RGB 0-1) </p>
 
 </div>
 </div>
-<a id="a631869967f0b524ed26f0c23a19ce86f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a631869967f0b524ed26f0c23a19ce86f">&#9670;&nbsp;</a></span>_diffuse</h2>
+<a id="ac72b69475ab5dff2df8213ba52d66684"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac72b69475ab5dff2df8213ba52d66684">&#9670;&nbsp;</a></span>_ambientPower</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1073,7 +1744,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a> SLLight::_diffuse</td>
+          <td class="memname"><a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a> SLLight::_ambientPower</td>
         </tr>
       </table>
   </td>
@@ -1083,7 +1754,103 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Diffuse light intensity Id. </p>
+<p>Ambient light power (0-N) </p>
+
+</div>
+</div>
+<a id="ac8d8e92dff124e14be46ca8f8b8d0f19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8d8e92dff124e14be46ca8f8b8d0f19">&#9670;&nbsp;</a></span>_createsShadows</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> SLLight::_createsShadows</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>flag if light creates shadows or not </p>
+
+</div>
+</div>
+<a id="aa57ab4695f5c4c3b2a50ee45b69a81b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa57ab4695f5c4c3b2a50ee45b69a81b3">&#9670;&nbsp;</a></span>_diffuseColor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a> SLLight::_diffuseColor</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Diffuse light color (RGB 0-1) </p>
+
+</div>
+</div>
+<a id="a45d3868414e6b5ae1e6e0d7f6d0ab163"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45d3868414e6b5ae1e6e0d7f6d0ab163">&#9670;&nbsp;</a></span>_diffusePower</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a> SLLight::_diffusePower</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Diffuse light power (0-N) </p>
+
+</div>
+</div>
+<a id="ac761a11fb0e75d2554ec85464160db03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac761a11fb0e75d2554ec85464160db03">&#9670;&nbsp;</a></span>_doesPCF</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> SLLight::_doesPCF</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>flag if percentage-closer filtering is enabled </p>
 
 </div>
 </div>
@@ -1231,8 +1998,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a19d33fe111081ffe5326c1d637d0a587"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19d33fe111081ffe5326c1d637d0a587">&#9670;&nbsp;</a></span>_specular</h2>
+<a id="a5fbce944c02ca71000092c0672ac96ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fbce944c02ca71000092c0672ac96ac">&#9670;&nbsp;</a></span>_pcfLevel</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1241,7 +2008,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a> SLLight::_specular</td>
+          <td class="memname"><a class="el" href="_s_l_8h.html#a44d61aad4f3be0082c963feb065af080">SLuint</a> SLLight::_pcfLevel</td>
         </tr>
       </table>
   </td>
@@ -1251,7 +2018,79 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Specular light intensity Is. </p>
+<p>Radius to sample pixels in (1 = 3 * 3; 2 = 5 * 5; ...) </p>
+
+</div>
+</div>
+<a id="a2bc293f76b2236a9d7ae17e1f0d90023"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2bc293f76b2236a9d7ae17e1f0d90023">&#9670;&nbsp;</a></span>_shadowMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_s_l_shadow_map.html">SLShadowMap</a>* SLLight::_shadowMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Used for shadow mapping. </p>
+
+</div>
+</div>
+<a id="ae596ea6177c9b3f33b3d7ba4d6b752d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae596ea6177c9b3f33b3d7ba4d6b752d7">&#9670;&nbsp;</a></span>_specularColor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a> SLLight::_specularColor</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Specular light color (RGB 0-1) </p>
+
+</div>
+</div>
+<a id="a8c0c05ea1f1e2c5e8945d004858a6571"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c0c05ea1f1e2c5e8945d004858a6571">&#9670;&nbsp;</a></span>_specularPower</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a> SLLight::_specularPower</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Specular light power (0-N) </p>
 
 </div>
 </div>
@@ -1327,6 +2166,54 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a2da6bb621275c1cb32934f0b89d4686c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2da6bb621275c1cb32934f0b89d4686c">&#9670;&nbsp;</a></span>gamma</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a> SLLight::gamma = 1.0f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>final output gamma value </p>
+
+</div>
+</div>
+<a id="a6a851c8469c73f2080411dfe34397abb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a851c8469c73f2080411dfe34397abb">&#9670;&nbsp;</a></span>globalAmbient</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a> SLLight::globalAmbient = <a class="el" href="_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524">SLCol4f</a>(0.1f, 0.1f, 0.1f, 1.0f)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>static global ambient light intensity </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="_s_l_light_8h.html">SLLight.h</a></li>
 <li><a class="el" href="_s_l_light_8cpp.html">SLLight.cpp</a></li>
@@ -1337,7 +2224,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_s_l_light.html">SLLight</a></li>
-    <li class="footer">Generated on Tue May 26 2020 10:23:34 for SLProject by
+    <li class="footer">Generated on Fri Sep 18 2020 14:31:39 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.18 </li>
   </ul>
