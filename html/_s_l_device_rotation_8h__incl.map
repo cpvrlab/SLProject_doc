@@ -1,24 +1,17 @@
 <map id="SLDeviceRotation.h" name="SLDeviceRotation.h">
-<area shape="rect" id="node1" title=" " alt="" coords="563,5,701,32"/>
-<area shape="rect" id="node2" href="$_s_l_8h.html" title=" " alt="" coords="845,453,894,480"/>
-<area shape="rect" id="node12" href="$_s_l_mat3_8h.html" title=" " alt="" coords="65,229,143,256"/>
-<area shape="rect" id="node16" href="$_s_l_quat4_8h.html" title=" " alt="" coords="590,80,674,107"/>
-<area shape="rect" id="node3" href="$_utils_8h.html" title=" " alt="" coords="609,528,669,555"/>
-<area shape="rect" id="node4" title=" " alt="" coords="442,677,497,704"/>
-<area shape="rect" id="node5" title=" " alt="" coords="676,603,735,629"/>
-<area shape="rect" id="node6" title=" " alt="" coords="759,603,814,629"/>
-<area shape="rect" id="node7" title=" " alt="" coords="563,677,632,704"/>
-<area shape="rect" id="node8" href="$_file_log_8h.html" title=" " alt="" coords="351,603,425,629"/>
-<area shape="rect" id="node10" href="$_custom_log_8h.html" title=" " alt="" coords="501,603,601,629"/>
-<area shape="rect" id="node11" title=" " alt="" coords="838,603,917,629"/>
-<area shape="rect" id="node9" title=" " alt="" coords="351,677,417,704"/>
-<area shape="rect" id="node13" href="$_s_l_vec3_8h.html" title=" " alt="" coords="727,304,806,331"/>
-<area shape="rect" id="node15" title=" " alt="" coords="93,304,165,331"/>
-<area shape="rect" id="node14" href="$_s_l_vec2_8h.html" title=" " alt="" coords="983,379,1062,405"/>
-<area shape="rect" id="node17" href="$_s_l_mat4_8h.html" title=" " alt="" coords="535,155,614,181"/>
-<area shape="rect" id="node19" href="$_s_l_vec4_8h.html" title=" " alt="" coords="933,229,1011,256"/>
-<area shape="rect" id="node18" title=" " alt="" coords="219,229,274,256"/>
-<area shape="rect" id="node20" title=" " alt="" coords="299,229,368,256"/>
-<area shape="rect" id="node21" title=" " alt="" coords="393,229,562,256"/>
-<area shape="rect" id="node22" title=" " alt="" coords="586,229,755,256"/>
+<area shape="rect" id="node1" title=" " alt="" coords="288,5,428,32"/>
+<area shape="rect" id="node2" href="$_s_l_8h.html" title=" " alt="" coords="192,80,241,107"/>
+<area shape="rect" id="node12" title=" " alt="" coords="265,80,344,107"/>
+<area shape="rect" id="node13" title=" " alt="" coords="369,80,454,107"/>
+<area shape="rect" id="node14" href="$_averaged_8h.html" title=" " alt="" coords="478,80,569,107"/>
+<area shape="rect" id="node3" href="$_utils_8h.html" title=" " alt="" coords="205,155,263,181"/>
+<area shape="rect" id="node4" title=" " alt="" coords="207,304,261,331"/>
+<area shape="rect" id="node5" title=" " alt="" coords="490,229,549,256"/>
+<area shape="rect" id="node6" title=" " alt="" coords="23,229,77,256"/>
+<area shape="rect" id="node7" title=" " alt="" coords="33,304,104,331"/>
+<area shape="rect" id="node8" href="$_file_log_8h.html" title=" " alt="" coords="277,229,354,256"/>
+<area shape="rect" id="node10" href="$_custom_log_8h.html" title=" " alt="" coords="101,229,202,256"/>
+<area shape="rect" id="node11" title=" " alt="" coords="379,229,457,256"/>
+<area shape="rect" id="node9" title=" " alt="" coords="286,304,353,331"/>
+<area shape="rect" id="node15" title=" " alt="" coords="417,155,486,181"/>
 </map>

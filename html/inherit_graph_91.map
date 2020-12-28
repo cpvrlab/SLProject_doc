@@ -1,5 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_s_l_rnd3f.html" title="Abstract base class for random 3D point generator." alt="" coords="5,31,79,57"/>
-<area shape="rect" id="node2" href="$class_s_l_rnd3f_normal.html" title="Class for random generator for normal distributed 3D points." alt="" coords="129,5,243,32"/>
-<area shape="rect" id="node3" href="$class_s_l_rnd3f_uniform.html" title="Class for random generator for uniform distributed 3D points." alt="" coords="127,56,245,83"/>
+<area shape="rect" id="node1" href="$struct_s_l_vertex_oculus.html" title="Distorted vertex used to draw in the Oculus frame buffer." alt="" coords="5,5,124,32"/>
 </map>

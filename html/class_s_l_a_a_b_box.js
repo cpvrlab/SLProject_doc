@@ -5,7 +5,7 @@ var class_s_l_a_a_b_box =
     [ "centerWS", "class_s_l_a_a_b_box.html#a412d24fc68c291d0088487cdfa8fdd53", null ],
     [ "drawAxisWS", "class_s_l_a_a_b_box.html#aa743aef0f0f39e57358be4499653a065", null ],
     [ "drawBoneWS", "class_s_l_a_a_b_box.html#add6756ab646ce4fb0044a7b2e591d0b2", null ],
-    [ "drawWS", "class_s_l_a_a_b_box.html#aebd526d3234840f8923a3840c2b7b271", null ],
+    [ "drawWS", "class_s_l_a_a_b_box.html#abde4dbaeb9fc75a1b9a1314f23012d04", null ],
     [ "fromOStoWS", "class_s_l_a_a_b_box.html#a6a352b3aff4d2e3f156cea65c32dd6ca", null ],
     [ "fromWStoOS", "class_s_l_a_a_b_box.html#ac9c125a9594f3bd9cf01df2c73bef95c", null ],
     [ "generateVAO", "class_s_l_a_a_b_box.html#a17faa9ff10a5ca779da2724eda0e27de", null ],

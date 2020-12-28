@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_s_l_plane.html" title="Defines a plane in 3D space with the equation ax + by + cy + d = 0." alt="" coords="5,5,76,32"/>
+<area shape="rect" id="node1" href="$class_s_l_rnd3f.html" title="Abstract base class for random 3D point generator." alt="" coords="5,31,79,57"/>
+<area shape="rect" id="node2" href="$class_s_l_rnd3f_normal.html" title="Class for random generator for normal distributed 3D points." alt="" coords="128,5,245,32"/>
+<area shape="rect" id="node3" href="$class_s_l_rnd3f_uniform.html" title="Class for random generator for uniform distributed 3D points." alt="" coords="127,56,247,83"/>
 </map>

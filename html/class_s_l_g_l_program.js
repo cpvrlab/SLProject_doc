@@ -1,6 +1,6 @@
 var class_s_l_g_l_program =
 [
-    [ "SLGLProgram", "class_s_l_g_l_program.html#abb9569793577116318aa0156d89d8289", null ],
+    [ "SLGLProgram", "class_s_l_g_l_program.html#acd5cf3ae2b2fd0d951ffac70b8ea7ed4", null ],
     [ "~SLGLProgram", "class_s_l_g_l_program.html#a21563fe6573f172ff8cf70989ac59c73", null ],
     [ "addShader", "class_s_l_g_l_program.html#a7dcaeaeedc4f33cf29b1a381d92462d6", null ],
     [ "addUniform1f", "class_s_l_g_l_program.html#a8f6ca243635e624b5fa48e75561ac7ac", null ],
@@ -12,7 +12,7 @@ var class_s_l_g_l_program =
     [ "getUniformLocation", "class_s_l_g_l_program.html#a86cb3b62c8ef9b6c0980206557a1c464", null ],
     [ "init", "class_s_l_g_l_program.html#ac388363328b328b0c158b9c0a29a3bc6", null ],
     [ "initRaw", "class_s_l_g_l_program.html#ab416a76f9e6016f6442790a2f87ac170", null ],
-    [ "passLightsToUniforms", "class_s_l_g_l_program.html#a3028e9efe182f78253fc9d98c6b7aa46", null ],
+    [ "passLightsToUniforms", "class_s_l_g_l_program.html#a2954d6b9bec5ffb8eeb561493e9ac19b", null ],
     [ "progID", "class_s_l_g_l_program.html#aea30921fa75f06bcb4081706fae0e06a", null ],
     [ "shaders", "class_s_l_g_l_program.html#a8cec9a5d0e97412140959988e726bcd5", null ],
     [ "uniform1f", "class_s_l_g_l_program.html#a66f366a486c15c25be47d84214b9c3c4", null ],

@@ -1,52 +1,42 @@
 <map id="SLKDNode.h" name="SLKDNode.h">
-<area shape="rect" id="node1" title=" " alt="" coords="2008,5,2107,32"/>
-<area shape="rect" id="node2" href="$stdafx_8h.html" title=" " alt="" coords="2023,80,2092,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,155,80,181"/>
-<area shape="rect" id="node4" title=" " alt="" coords="104,155,165,181"/>
-<area shape="rect" id="node5" title=" " alt="" coords="189,155,251,181"/>
-<area shape="rect" id="node6" title=" " alt="" coords="275,155,341,181"/>
-<area shape="rect" id="node7" title=" " alt="" coords="365,155,419,181"/>
-<area shape="rect" id="node8" title=" " alt="" coords="823,752,889,779"/>
-<area shape="rect" id="node9" title=" " alt="" coords="1575,677,1654,704"/>
-<area shape="rect" id="node10" title=" " alt="" coords="2024,155,2091,181"/>
-<area shape="rect" id="node11" title=" " alt="" coords="648,379,720,405"/>
-<area shape="rect" id="node12" title=" " alt="" coords="2115,155,2154,181"/>
-<area shape="rect" id="node13" title=" " alt="" coords="2178,155,2225,181"/>
-<area shape="rect" id="node14" title=" " alt="" coords="2249,155,2306,181"/>
-<area shape="rect" id="node15" title=" " alt="" coords="2330,155,2395,181"/>
-<area shape="rect" id="node16" title=" " alt="" coords="2420,155,2489,181"/>
-<area shape="rect" id="node17" title=" " alt="" coords="1277,752,1331,779"/>
-<area shape="rect" id="node18" title=" " alt="" coords="2513,155,2572,181"/>
-<area shape="rect" id="node19" title=" " alt="" coords="2597,155,2665,181"/>
-<area shape="rect" id="node20" title=" " alt="" coords="1755,677,1813,704"/>
-<area shape="rect" id="node21" title=" " alt="" coords="1483,752,1552,779"/>
-<area shape="rect" id="node22" title=" " alt="" coords="2689,155,2754,181"/>
-<area shape="rect" id="node23" title=" " alt="" coords="1875,677,1930,704"/>
-<area shape="rect" id="node24" title=" " alt="" coords="2778,155,2838,181"/>
-<area shape="rect" id="node25" title=" " alt="" coords="2863,155,2921,181"/>
-<area shape="rect" id="node26" title=" " alt="" coords="2946,155,3003,181"/>
-<area shape="rect" id="node27" title=" " alt="" coords="3027,155,3087,181"/>
-<area shape="rect" id="node28" title=" " alt="" coords="3112,155,3173,181"/>
-<area shape="rect" id="node29" href="$_s_l_8h.html" title=" " alt="" coords="1342,528,1391,555"/>
-<area shape="rect" id="node33" href="$_s_l_enums_8h.html" title=" " alt="" coords="3197,155,3288,181"/>
-<area shape="rect" id="node34" href="$_s_l_mat3_8h.html" title=" " alt="" coords="647,304,726,331"/>
-<area shape="rect" id="node35" href="$_s_l_vec3_8h.html" title=" " alt="" coords="1238,379,1317,405"/>
-<area shape="rect" id="node36" href="$_s_l_vec2_8h.html" title=" " alt="" coords="1161,453,1239,480"/>
-<area shape="rect" id="node37" href="$_s_l_mat4_8h.html" title=" " alt="" coords="1337,229,1415,256"/>
-<area shape="rect" id="node39" href="$_s_l_vec4_8h.html" title=" " alt="" coords="1515,304,1594,331"/>
-<area shape="rect" id="node43" href="$_s_l_object_8h.html" title=" " alt="" coords="1659,229,1746,256"/>
-<area shape="rect" id="node44" href="$_s_l_quat4_8h.html" title=" " alt="" coords="1529,155,1613,181"/>
-<area shape="rect" id="node45" title=" " alt="" coords="3312,155,3467,181"/>
-<area shape="rect" id="node46" title=" " alt="" coords="3491,155,3650,181"/>
-<area shape="rect" id="node47" title=" " alt="" coords="3675,155,3816,181"/>
-<area shape="rect" id="node48" title=" " alt="" coords="3840,155,3987,181"/>
-<area shape="rect" id="node49" title=" " alt="" coords="4011,155,4152,181"/>
-<area shape="rect" id="node50" title=" " alt="" coords="4176,155,4357,181"/>
-<area shape="rect" id="node30" href="$_utils_8h.html" title=" " alt="" coords="1399,603,1459,629"/>
-<area shape="rect" id="node31" href="$_file_log_8h.html" title=" " alt="" coords="1229,677,1304,704"/>
-<area shape="rect" id="node32" href="$_custom_log_8h.html" title=" " alt="" coords="1379,677,1479,704"/>
-<area shape="rect" id="node38" title=" " alt="" coords="802,304,857,331"/>
-<area shape="rect" id="node40" title=" " alt="" coords="881,304,951,331"/>
-<area shape="rect" id="node41" title=" " alt="" coords="975,304,1145,331"/>
-<area shape="rect" id="node42" title=" " alt="" coords="1169,304,1338,331"/>
+<area shape="rect" id="node1" title=" " alt="" coords="1406,5,1506,32"/>
+<area shape="rect" id="node2" href="$stdafx_8h.html" title=" " alt="" coords="1421,80,1491,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,155,83,181"/>
+<area shape="rect" id="node4" title=" " alt="" coords="107,155,168,181"/>
+<area shape="rect" id="node5" title=" " alt="" coords="193,155,255,181"/>
+<area shape="rect" id="node6" title=" " alt="" coords="279,155,345,181"/>
+<area shape="rect" id="node7" title=" " alt="" coords="369,155,423,181"/>
+<area shape="rect" id="node8" title=" " alt="" coords="481,453,548,480"/>
+<area shape="rect" id="node9" title=" " alt="" coords="877,379,955,405"/>
+<area shape="rect" id="node10" title=" " alt="" coords="1100,155,1169,181"/>
+<area shape="rect" id="node11" title=" " alt="" coords="1194,155,1267,181"/>
+<area shape="rect" id="node12" title=" " alt="" coords="1291,155,1330,181"/>
+<area shape="rect" id="node13" title=" " alt="" coords="1355,155,1403,181"/>
+<area shape="rect" id="node14" title=" " alt="" coords="1427,155,1485,181"/>
+<area shape="rect" id="node15" title=" " alt="" coords="1509,155,1576,181"/>
+<area shape="rect" id="node16" title=" " alt="" coords="1600,155,1669,181"/>
+<area shape="rect" id="node17" title=" " alt="" coords="767,453,822,480"/>
+<area shape="rect" id="node18" title=" " alt="" coords="1694,155,1754,181"/>
+<area shape="rect" id="node19" title=" " alt="" coords="1779,155,1848,181"/>
+<area shape="rect" id="node20" title=" " alt="" coords="980,379,1039,405"/>
+<area shape="rect" id="node21" title=" " alt="" coords="627,453,698,480"/>
+<area shape="rect" id="node22" title=" " alt="" coords="1873,155,1938,181"/>
+<area shape="rect" id="node23" title=" " alt="" coords="1063,379,1116,405"/>
+<area shape="rect" id="node24" title=" " alt="" coords="1963,155,2021,181"/>
+<area shape="rect" id="node25" title=" " alt="" coords="2045,155,2104,181"/>
+<area shape="rect" id="node26" title=" " alt="" coords="2129,155,2186,181"/>
+<area shape="rect" id="node27" title=" " alt="" coords="2210,155,2270,181"/>
+<area shape="rect" id="node28" title=" " alt="" coords="2295,155,2356,181"/>
+<area shape="rect" id="node29" href="$_s_l_8h.html" title=" " alt="" coords="814,229,863,256"/>
+<area shape="rect" id="node33" href="$_s_l_enums_8h.html" title=" " alt="" coords="2380,155,2471,181"/>
+<area shape="rect" id="node34" href="$_s_l_object_8h.html" title=" " alt="" coords="735,155,823,181"/>
+<area shape="rect" id="node35" title=" " alt="" coords="2495,155,2652,181"/>
+<area shape="rect" id="node36" title=" " alt="" coords="2676,155,2839,181"/>
+<area shape="rect" id="node37" title=" " alt="" coords="2863,155,3009,181"/>
+<area shape="rect" id="node38" title=" " alt="" coords="3033,155,3183,181"/>
+<area shape="rect" id="node39" title=" " alt="" coords="3207,155,3351,181"/>
+<area shape="rect" id="node40" title=" " alt="" coords="3375,155,3559,181"/>
+<area shape="rect" id="node30" href="$_utils_8h.html" title=" " alt="" coords="809,304,868,331"/>
+<area shape="rect" id="node31" href="$_file_log_8h.html" title=" " alt="" coords="548,379,625,405"/>
+<area shape="rect" id="node32" href="$_custom_log_8h.html" title=" " alt="" coords="700,379,801,405"/>
 </map>

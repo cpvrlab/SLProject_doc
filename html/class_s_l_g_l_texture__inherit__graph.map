@@ -1,9 +1,9 @@
 <map id="SLGLTexture" name="SLGLTexture">
-<area shape="rect" id="node1" title="Texture object for OpenGL texturing." alt="" coords="187,79,285,104"/>
-<area shape="rect" id="node3" href="$class_s_l_raytracer.html" title="SLRaytracer hold all the methods for Whitted style Ray Tracing." alt="" coords="75,152,171,177"/>
-<area shape="rect" id="node6" href="$class_s_l_tex_font.html" title="Texture Font class inherits SLGLTexture for alpha blended font rendering." alt="" coords="194,152,278,177"/>
-<area shape="rect" id="node7" href="$class_s_l_transfer_function.html" title="A transfer function defines a 1D texture of 256 RGBA values." alt="" coords="302,152,439,177"/>
-<area shape="rect" id="node2" href="$class_s_l_object.html" title="Base class for all other classes." alt="" coords="198,5,274,31"/>
-<area shape="rect" id="node4" href="$class_s_l_pathtracer.html" title="Classic Monte Carlo Pathtracing algorithm for real global illumination." alt="" coords="5,225,104,251"/>
-<area shape="rect" id="node5" href="$class_s_l_photon_mapper.html" title=" " alt="" coords="128,225,253,251"/>
+<area shape="rect" id="node1" title="Texture object for OpenGL texturing." alt="" coords="123,80,224,107"/>
+<area shape="rect" id="node3" href="$class_s_l_color_l_u_t.html" title="SLColorLUT defines a lookup table as an 1D texture of (256) RGBA values." alt="" coords="5,155,101,181"/>
+<area shape="rect" id="node4" href="$class_s_l_raytracer.html" title="SLRaytracer hold all the methods for Whitted style Ray Tracing." alt="" coords="125,155,221,181"/>
+<area shape="rect" id="node7" href="$class_s_l_tex_font.html" title="Texture Font class inherits SLGLTexture for alpha blended font rendering." alt="" coords="246,155,333,181"/>
+<area shape="rect" id="node2" href="$class_s_l_object.html" title="Base class for all other classes." alt="" coords="135,5,212,32"/>
+<area shape="rect" id="node5" href="$class_s_l_pathtracer.html" title="Classic Monte Carlo Pathtracing algorithm for real global illumination." alt="" coords="55,229,155,256"/>
+<area shape="rect" id="node6" href="$class_s_l_photon_mapper.html" title=" " alt="" coords="180,229,305,256"/>
 </map>

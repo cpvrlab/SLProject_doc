@@ -22,7 +22,8 @@ var _s_l_enums_8h =
       [ "CA_walkingYUp", "_s_l_enums_8h.html#a0507d57d47609d67fb4ed245763cbf41a3f480ca4978ad7d827e07c371f08105e", null ],
       [ "CA_walkingZUp", "_s_l_enums_8h.html#a0507d57d47609d67fb4ed245763cbf41af7e63ddb08efb7689d015ed53a342c2f", null ],
       [ "CA_deviceRotYUp", "_s_l_enums_8h.html#a0507d57d47609d67fb4ed245763cbf41ae95763e2ea34ca43931a46bf7f5c5933", null ],
-      [ "CA_deviceRotLocYUp", "_s_l_enums_8h.html#a0507d57d47609d67fb4ed245763cbf41a51165596198c8502233a63aaca10373b", null ]
+      [ "CA_deviceRotLocYUp", "_s_l_enums_8h.html#a0507d57d47609d67fb4ed245763cbf41a51165596198c8502233a63aaca10373b", null ],
+      [ "CA_off", "_s_l_enums_8h.html#a0507d57d47609d67fb4ed245763cbf41a4be94e80c08f97eea635f1cb447ae43a", null ]
     ] ],
     [ "SLEasingCurve", "_s_l_enums_8h.html#a6bc396893938ccb2e48bd3e252d8faeb", [
       [ "EC_linear", "_s_l_enums_8h.html#a6bc396893938ccb2e48bd3e252d8faebaa144b95307a63ef2f826092240011dae", null ],
@@ -52,10 +53,10 @@ var _s_l_enums_8h =
       [ "ET_center", "_s_l_enums_8h.html#acf813a04880c85d4d868bce641503777a01830feea8ba5a6116fb738a1ff005ae", null ],
       [ "ET_right", "_s_l_enums_8h.html#acf813a04880c85d4d868bce641503777a1566eca64bbec6bbad0d54a1a0f6639b", null ]
     ] ],
-    [ "SLFogeMode", "_s_l_enums_8h.html#a37a51afd7817413486c6995f71c6fd93", [
-      [ "FM_linear", "_s_l_enums_8h.html#a37a51afd7817413486c6995f71c6fd93acfdb2d4bc09fb583dacb59c4c27b1ced", null ],
-      [ "FM_exp", "_s_l_enums_8h.html#a37a51afd7817413486c6995f71c6fd93a0f09c9b9f3f7ec4752414c833d10408b", null ],
-      [ "FM_exp2", "_s_l_enums_8h.html#a37a51afd7817413486c6995f71c6fd93a26644e96299e8de2c2aad0b1347e3cc7", null ]
+    [ "SLFogMode", "_s_l_enums_8h.html#aa268f3d6cecb0f9d46f75e84897673b2", [
+      [ "FM_linear", "_s_l_enums_8h.html#aa268f3d6cecb0f9d46f75e84897673b2acfdb2d4bc09fb583dacb59c4c27b1ced", null ],
+      [ "FM_exp", "_s_l_enums_8h.html#aa268f3d6cecb0f9d46f75e84897673b2a0f09c9b9f3f7ec4752414c833d10408b", null ],
+      [ "FM_exp2", "_s_l_enums_8h.html#aa268f3d6cecb0f9d46f75e84897673b2a26644e96299e8de2c2aad0b1347e3cc7", null ]
     ] ],
     [ "SLKey", "_s_l_enums_8h.html#afceaa9670aadae056dd2545c1be01e38", [
       [ "K_none", "_s_l_enums_8h.html#afceaa9670aadae056dd2545c1be01e38a42c35f5879ac8cf7f512f87fb1efdd78", null ],
@@ -107,6 +108,11 @@ var _s_l_enums_8h =
       [ "K_ctrl", "_s_l_enums_8h.html#afceaa9670aadae056dd2545c1be01e38ac17cf60d371a5d2c5c2e78824888e889", null ],
       [ "K_alt", "_s_l_enums_8h.html#afceaa9670aadae056dd2545c1be01e38aedba1c466798540d31563c0a631eda53", null ]
     ] ],
+    [ "SLLightModel", "_s_l_enums_8h.html#a72b071c51f5360b8c2775a2e4c840862", [
+      [ "LM_BlinnPhong", "_s_l_enums_8h.html#a72b071c51f5360b8c2775a2e4c840862ad6ae2d69890a63c7db027743c5d073df", null ],
+      [ "LM_CookTorrance", "_s_l_enums_8h.html#a72b071c51f5360b8c2775a2e4c840862a1f20f7a6339ff86a326f0126ec7f0a0b", null ],
+      [ "LM_Custom", "_s_l_enums_8h.html#a72b071c51f5360b8c2775a2e4c840862a4aa47abfc813c216d1dc308b8a4c8a68", null ]
+    ] ],
     [ "SLLogVerbosity", "_s_l_enums_8h.html#a1f3982f7d925669a9159b8d01effd992", [
       [ "LV_quiet", "_s_l_enums_8h.html#a1f3982f7d925669a9159b8d01effd992ada4034210a398d016e864da163705606", null ],
       [ "LV_minimal", "_s_l_enums_8h.html#a1f3982f7d925669a9159b8d01effd992ac00f0d5e68ac85f478a4f880a476f50e", null ],
@@ -155,8 +161,6 @@ var _s_l_enums_8h =
       [ "SID_FrustumCull", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71aec3e48a8efd74c49262e4905059feea0", null ],
       [ "SID_2Dand3DText", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71abbed08538aabb3955505dfbf9030d780", null ],
       [ "SID_PointClouds", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a3ae4a3217fe68bca423443c405be02a0", null ],
-      [ "SID_LargeModel", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a7d72d94c4388a51a8e6b7bfe56460c3e", null ],
-      [ "SID_MassiveScene", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71af8b7ef4d347691f8b9046f282f881e81", null ],
       [ "SID_ShaderPerVertexBlinn", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71aef7253feaf8e91b34cac4a4752579cee", null ],
       [ "SID_ShaderPerPixelBlinn", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a78e913e74921261da9b296b3e661351e", null ],
       [ "SID_ShaderPerVertexWave", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71aa889cecfedc7fbfdf15d2e7ebb4420a0", null ],
@@ -171,12 +175,26 @@ var _s_l_enums_8h =
       [ "SID_ShadowMappingLightTypes", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a6f719a088edf0eb0f99587460008210b", null ],
       [ "SID_ShadowMappingPointLights", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a9669f3896ecd98971538f5b5492b2010", null ],
       [ "SID_ShadowMappingSpotLights", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a2ea3ef1251b14ca496466d30abc39b5b", null ],
+      [ "SID_SuzannePerPixBlinn", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a958b1252d889ee47a91b0c8edc373b5f", null ],
+      [ "SID_SuzannePerPixBlinnTm", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a7c439802ba15f8fd5e0f6f42a126fcbe", null ],
+      [ "SID_SuzannePerPixBlinnNm", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a2cbc95c7dab90fbb2e7305fd5258427c", null ],
+      [ "SID_SuzannePerPixBlinnAo", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71adcc89e5cb513f98a1ecafc3ddf8b22e8", null ],
+      [ "SID_SuzannePerPixBlinnSm", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a6f6141f1d095b784bef3a48b5ca3287d", null ],
+      [ "SID_SuzannePerPixBlinnTmNm", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71ade6ed9e3b9889212fd99c35e586a00ae", null ],
+      [ "SID_SuzannePerPixBlinnTmAo", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a15c783433c596dec4ccf988d622752ca", null ],
+      [ "SID_SuzannePerPixBlinnNmAo", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a3f70d9eb4196feea813299abdf7d759c", null ],
+      [ "SID_SuzannePerPixBlinnTmSm", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a1b0ab1e0c36ae3def4aa7a5c458bba82", null ],
+      [ "SID_SuzannePerPixBlinnNmSm", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a04c61fd0c4fad85dc5f27c346b63e5f6", null ],
+      [ "SID_SuzannePerPixBlinnAoSm", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a1c9f03009f367c515fd6d57640786118", null ],
+      [ "SID_SuzannePerPixBlinnTmNmAo", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71aa48ac6ac51468ac4615d45ec97624268", null ],
+      [ "SID_SuzannePerPixBlinnTmNmSm", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a7840752ee0813b4a9395370688c04101", null ],
+      [ "SID_SuzannePerPixBlinnTmNmAoSm", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a90e1f5fa251a1dcea2f5397615bcade5", null ],
       [ "SID_VolumeRayCast", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a469de9218f9278221084720dcccbfb8a", null ],
       [ "SID_VolumeRayCastLighted", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71aaf939f4bc751a7634c55e48852fcb04f", null ],
       [ "SID_AnimationMass", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a951531f2818879c64a7e12b9ea2f1d95", null ],
       [ "SID_AnimationSkeletal", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a6f179682cef5b03f650688073e2d49d8", null ],
       [ "SID_AnimationNode", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a56de6b677d41546d774e563fb1306e4e", null ],
-      [ "SID_AnimationArmy", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a9fe10cf4cbaab4e4984bf5634f11ae06", null ],
+      [ "SID_AnimationAstroboyArmy", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71af0c5a4f6d47a709083716ea2ddc03262", null ],
       [ "SID_VideoTextureLive", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a477d316e04149b17f7ed8106dad7bbe6", null ],
       [ "SID_VideoTextureFile", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a75f5da8c167c4c678b42005220c65643", null ],
       [ "SID_VideoCalibrateMain", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71ac42c45e046aef51c74e7990eb68db99d", null ],
@@ -190,10 +208,12 @@ var _s_l_enums_8h =
       [ "SID_VideoTrackFaceMain", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71ac039b0546c89e65c031c2cbc5962beff", null ],
       [ "SID_VideoTrackFaceScnd", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a30b5de3546eb2c0abe79223fa667fd82", null ],
       [ "SID_VideoSensorAR", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a359b9d23e62f6e20a84295cf1f211d15", null ],
+      [ "SID_ErlebARBielBFH", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71abd387f434af8b6556705883c2ef1a96e", null ],
       [ "SID_ErlebARChristoffel", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71ad31cfe9db6e835f6a9450af23b84ba33", null ],
       [ "SID_ErlebARAugustaRaurica", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a4afa28549a17f5b979603888c25fcf97", null ],
-      [ "SID_ErlebARAventicumAmphi", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71ae25a190f3c08dd985d0c3688710d3841", null ],
+      [ "SID_ErlebARAventicumAmphiAO", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a4fc40b72cd3e429c8bbf359f10169f0d", null ],
       [ "SID_ErlebARAventicumCigognier", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71ae86cb9e71d3c83c7109b1559d67b94ce", null ],
+      [ "SID_ErlebARAventicumCigognierAO", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a6a6f57fbcdc24608daeaf0fd86bfa9ba", null ],
       [ "SID_ErlebARAventicumTheatre", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a3bb51aead3843aac03b09926e3bc74f7", null ],
       [ "SID_RTMuttenzerBox", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71af07424e34e95b709a4aa62329428da80", null ],
       [ "SID_RTSpheres", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a30ea896f0ba5b16faff1e828fac24a1f", null ],
@@ -201,6 +221,10 @@ var _s_l_enums_8h =
       [ "SID_RTDoF", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71af8686c105630f7e751974f1705ba8ec5", null ],
       [ "SID_RTLens", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a9d01b0c243290901bc089b3c61a65101", null ],
       [ "SID_RTTest", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a326fbccaf9f85aff3fed0ad6d575804a", null ],
+      [ "SID_Benchmark1_LargeModel", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a3b10a782788001c1169936a0e909ac71", null ],
+      [ "SID_Benchmark2_MassiveNodes", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71aea901aefff4845d9b1d2c5fd41499e11", null ],
+      [ "SID_Benchmark3_NodeAnimations", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a16a7c483632349f60a732b73b2fd48bd", null ],
+      [ "SID_Benchmark4_SkinnedAnimations", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a6231a8657a95262f53f574bb90c5aa6c", null ],
       [ "SID_Maximal", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71abbb9ee8f2fb7f818f6f7faf0ab48e3e4", null ]
     ] ],
     [ "SLShaderType", "_s_l_enums_8h.html#a5fa3763671bb522a817da51b17eaa1a5", [

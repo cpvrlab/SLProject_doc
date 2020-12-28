@@ -1,8 +1,8 @@
 var struct_d_n_s_request =
 [
-    [ "DNSRequest", "struct_d_n_s_request.html#a0427c17700102e9e14f12d17725295ab", null ],
-    [ "getAddr", "struct_d_n_s_request.html#a15c8fdbac37cb290e73e28b8aac0ef13", null ],
-    [ "getHostname", "struct_d_n_s_request.html#a21a881ccbf02d43923a27f033153eb66", null ],
-    [ "addr", "struct_d_n_s_request.html#ad7a6b0b8ddd7285a44e47be4cf353956", null ],
-    [ "hostname", "struct_d_n_s_request.html#a36524746e76b899f18cde13f3a21e750", null ]
+    [ "DNSRequest", "struct_d_n_s_request.html#ad1c507e438cf7b53f863fe8a7fff8954", null ],
+    [ "getAddr", "struct_d_n_s_request.html#a105ed4e0a8b50df9943652a9d7d0b207", null ],
+    [ "getHostname", "struct_d_n_s_request.html#ac33479b34ccefd3c3008c5a26c494e2b", null ],
+    [ "addr", "struct_d_n_s_request.html#a8921780f9c65f21a28abc168f6229f6b", null ],
+    [ "hostname", "struct_d_n_s_request.html#ac7a3506d42ab2345bcf57f7e7cc2a946", null ]
 ];

@@ -18,6 +18,7 @@ var class_c_v_image =
     [ "cv2glPixelFormat", "class_c_v_image.html#a51be32d0b8812fa4b01fabf14893803f", null ],
     [ "cvMat", "class_c_v_image.html#ad80fbb7ad2fc25875db6c97421d79b2c", null ],
     [ "data", "class_c_v_image.html#a415b91533aeb4f727aec14db477d94a5", null ],
+    [ "empty", "class_c_v_image.html#ac31a69b1514485ffa453741cf2cc7152", null ],
     [ "fill", "class_c_v_image.html#a23c68213bcb7e3b9cd4ba5f3def680f8", null ],
     [ "fill", "class_c_v_image.html#a55f5de77f630293b2ba71715c93385b4", null ],
     [ "flipX", "class_c_v_image.html#a31b4a7ea103b6121cfe489ec92792477", null ],

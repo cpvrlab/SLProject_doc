@@ -2,6 +2,7 @@ var hierarchy =
 [
     [ "Averaged< T >", "class_averaged.html", null ],
     [ "Averaged< float >", "class_averaged.html", null ],
+    [ "Averaged< SLMat3f >", "class_averaged.html", null ],
     [ "AverageTimingBlock", "struct_average_timing_block.html", null ],
     [ "Utils::ComputerInfos", "class_utils_1_1_computer_infos.html", null ],
     [ "Utils::CustomLog", "class_utils_1_1_custom_log.html", null ],
@@ -35,7 +36,6 @@ var hierarchy =
     [ "glUtils", "classgl_utils.html", null ],
     [ "HighResTimer", "class_high_res_timer.html", null ],
     [ "HmdRenderInfo", "struct_hmd_render_info.html", null ],
-    [ "HttpUtils::HTTPDownload", "struct_http_utils_1_1_h_t_t_p_download.html", null ],
     [ "InstrumentationSession", "struct_instrumentation_session.html", null ],
     [ "InstrumentationTimer", "class_instrumentation_timer.html", null ],
     [ "Instrumentor", "class_instrumentor.html", null ],
@@ -51,6 +51,9 @@ var hierarchy =
     [ "ovrSizef", "structovr_sizef.html", null ],
     [ "ovrSizei", "structovr_sizei.html", null ],
     [ "ProfileResult", "struct_profile_result.html", null ],
+    [ "ProgressHandler", null, [
+      [ "SLAssimpProgressHandler", "class_s_l_assimp_progress_handler.html", null ]
+    ] ],
     [ "runtime_error", null, [
       [ "CVCalibrationEstimatorException", "class_c_v_calibration_estimator_exception.html", null ]
     ] ],
@@ -62,6 +65,7 @@ var hierarchy =
       [ "SLKDTree", "class_s_l_k_d_tree.html", null ],
       [ "SLUniformGrid", "class_s_l_uniform_grid.html", null ]
     ] ],
+    [ "SLAlphaLUTPoint", "struct_s_l_alpha_l_u_t_point.html", null ],
     [ "SLAnimation", "class_s_l_animation.html", null ],
     [ "SLAnimKeyframe", "class_s_l_anim_keyframe.html", [
       [ "SLTransformKeyframe", "class_s_l_transform_keyframe.html", null ]
@@ -72,18 +76,21 @@ var hierarchy =
       [ "SLNodeAnimTrack", "class_s_l_node_anim_track.html", null ]
     ] ],
     [ "SLAssetManager", "class_s_l_asset_manager.html", null ],
-    [ "SLCurve", "class_s_l_curve.html", [
+    [ "SLColorLUTPoint", "struct_s_l_color_l_u_t_point.html", null ],
+    [ "SLCurve", null, [
       [ "SLCurveBezier", "class_s_l_curve_bezier.html", null ]
     ] ],
     [ "SLDeviceLocation", "class_s_l_device_location.html", null ],
     [ "SLDeviceRotation", "class_s_l_device_rotation.html", null ],
     [ "SLDrawBits", "class_s_l_draw_bits.html", null ],
     [ "SLEventHandler", "class_s_l_event_handler.html", [
+      [ "SLColorLUT", "class_s_l_color_l_u_t.html", null ],
       [ "SLGLUniform< T >", "class_s_l_g_l_uniform.html", null ],
       [ "SLNode", "class_s_l_node.html", [
         [ "SLCamera", "class_s_l_camera.html", [
           [ "SLKeyframeCamera", "class_s_l_keyframe_camera.html", null ]
         ] ],
+        [ "SLHorizonNode", "class_s_l_horizon_node.html", null ],
         [ "SLJoint", "class_s_l_joint.html", null ],
         [ "SLLightDirect", "class_s_l_light_direct.html", null ],
         [ "SLLightRect", "class_s_l_light_rect.html", null ],
@@ -95,15 +102,13 @@ var hierarchy =
       [ "SLRaytracer", "class_s_l_raytracer.html", [
         [ "SLPathtracer", "class_s_l_pathtracer.html", null ],
         [ "SLPhotonMapper", "class_s_l_photon_mapper.html", null ]
-      ] ],
-      [ "SLTransferFunction", "class_s_l_transfer_function.html", null ]
+      ] ]
     ] ],
     [ "CVTrackedFeatures::SLFeatureMarker2D", "struct_c_v_tracked_features_1_1_s_l_feature_marker2_d.html", null ],
     [ "CVTrackedFeatures::SLFrameData", "struct_c_v_tracked_features_1_1_s_l_frame_data.html", null ],
     [ "SLGLAttribute", "struct_s_l_g_l_attribute.html", null ],
     [ "SLGLConetracer", "class_s_l_g_l_conetracer.html", null ],
     [ "SLGLConetracerTex3D", "class_s_l_g_l_conetracer_tex3_d.html", null ],
-    [ "SLGLDepthBuffer", "class_s_l_g_l_depth_buffer.html", null ],
     [ "SLGLFbo", "class_s_l_g_l_fbo.html", null ],
     [ "SLGLOculus", "class_s_l_g_l_oculus.html", null ],
     [ "SLGLOculusFB", "class_s_l_g_l_oculus_f_b.html", null ],
@@ -137,29 +142,20 @@ var hierarchy =
       [ "SLLightRect", "class_s_l_light_rect.html", null ],
       [ "SLLightSpot", "class_s_l_light_spot.html", null ]
     ] ],
-    [ "SLMat3< T >", "class_s_l_mat3.html", null ],
-    [ "SLMat3< SLdouble >", "class_s_l_mat3.html", null ],
-    [ "SLMat3< SLfloat >", "class_s_l_mat3.html", null ],
-    [ "SLMat4< T >", "class_s_l_mat4.html", null ],
-    [ "SLMat4< SLfloat >", "class_s_l_mat4.html", null ],
-    [ "SLMemoryStats", "class_s_l_memory_stats.html", null ],
     [ "SLNearestPhotons", "struct_s_l_nearest_photons.html", null ],
     [ "SLNodeStats", "struct_s_l_node_stats.html", null ],
     [ "SLObject", "class_s_l_object.html", [
       [ "SLBackground", "class_s_l_background.html", null ],
+      [ "SLGLDepthBuffer", "class_s_l_g_l_depth_buffer.html", null ],
       [ "SLGLProgram", "class_s_l_g_l_program.html", [
-        [ "SLGLGenericProgram", "class_s_l_g_l_generic_program.html", [
-          [ "SLGLGenericProgramDefault", "class_s_l_g_l_generic_program_default.html", null ],
-          [ "SLGLGenericProgramDefaultColorAttrib", "class_s_l_g_l_generic_program_default_color_attrib.html", null ],
-          [ "SLGLGenericProgramDefaultTex", "class_s_l_g_l_generic_program_default_tex.html", null ],
-          [ "SLGLGenericProgramDefaultTexNormal", "class_s_l_g_l_generic_program_default_tex_normal.html", null ]
-        ] ]
+        [ "SLGLProgramGenerated", "class_s_l_g_l_program_generated.html", null ],
+        [ "SLGLProgramGeneric", "class_s_l_g_l_program_generic.html", null ]
       ] ],
       [ "SLGLShader", "class_s_l_g_l_shader.html", null ],
       [ "SLGLTexture", "class_s_l_g_l_texture.html", [
+        [ "SLColorLUT", "class_s_l_color_l_u_t.html", null ],
         [ "SLRaytracer", "class_s_l_raytracer.html", null ],
-        [ "SLTexFont", "class_s_l_tex_font.html", null ],
-        [ "SLTransferFunction", "class_s_l_transfer_function.html", null ]
+        [ "SLTexFont", "class_s_l_tex_font.html", null ]
       ] ],
       [ "SLMaterial", "class_s_l_material.html", [
         [ "SLMaterialDefaultColorAttribute", "class_s_l_material_default_color_attribute.html", null ],
@@ -195,9 +191,9 @@ var hierarchy =
     ] ],
     [ "SLPhoton", "struct_s_l_photon.html", null ],
     [ "SLPhotonMap", "class_s_l_photon_map.html", null ],
-    [ "SLPlane", "class_s_l_plane.html", null ],
-    [ "SLQuat4< T >", "class_s_l_quat4.html", null ],
-    [ "SLQuat4< SLfloat >", "class_s_l_quat4.html", null ],
+    [ "SLProgressHandler", "class_s_l_progress_handler.html", [
+      [ "SLAssimpProgressHandler", "class_s_l_assimp_progress_handler.html", null ]
+    ] ],
     [ "SLRay", "class_s_l_ray.html", null ],
     [ "SLRect< T, V >", "class_s_l_rect.html", null ],
     [ "SLRect< SLfloat, SLVec2f >", "class_s_l_rect.html", null ],
@@ -211,23 +207,9 @@ var hierarchy =
     [ "SLShadowMap", "class_s_l_shadow_map.html", null ],
     [ "SLSkeleton", "class_s_l_skeleton.html", null ],
     [ "SLTexFont::SLTexFontChar", "struct_s_l_tex_font_1_1_s_l_tex_font_char.html", null ],
-    [ "SLTransferAlpha", "struct_s_l_transfer_alpha.html", null ],
-    [ "SLTransferColor", "struct_s_l_transfer_color.html", null ],
     [ "SLUiInterface", "class_s_l_ui_interface.html", [
       [ "SLGLImGui", "class_s_l_g_l_im_gui.html", null ]
     ] ],
-    [ "SLVec2< T >", "class_s_l_vec2.html", null ],
-    [ "SLVec2< SLfloat >", "class_s_l_vec2.html", null ],
-    [ "SLVec2< SLint >", "class_s_l_vec2.html", null ],
-    [ "SLVec3< T >", "class_s_l_vec3.html", null ],
-    [ "SLVec3< double >", "class_s_l_vec3.html", null ],
-    [ "SLVec3< SLfloat >", "class_s_l_vec3.html", null ],
-    [ "SLVec3< SLint >", "class_s_l_vec3.html", null ],
-    [ "SLVec3< SLuint >", "class_s_l_vec3.html", null ],
-    [ "SLVec4< T >", "class_s_l_vec4.html", null ],
-    [ "SLVec4< SLfloat >", "class_s_l_vec4.html", null ],
-    [ "SLVec4< SLint >", "class_s_l_vec4.html", null ],
-    [ "SLVector< T, U >", "class_s_l_vector.html", null ],
     [ "SLVertexOculus", "struct_s_l_vertex_oculus.html", null ],
     [ "Socket", "struct_socket.html", [
       [ "SecureSocket", "struct_secure_socket.html", null ]

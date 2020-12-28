@@ -80,5 +80,6 @@ var class_s_l_mesh =
     [ "skinnedN", "class_s_l_mesh.html#a5bc427a102ec6a4ea6e44682f64da48c", null ],
     [ "skinnedP", "class_s_l_mesh.html#ada7115addaac6eb8e13baa9a14a7772e", null ],
     [ "T", "class_s_l_mesh.html#a3b102aa019de457a5e7c31c1315ee86a", null ],
-    [ "Tc", "class_s_l_mesh.html#a33e00c88f8536b06e27149284a043c70", null ]
+    [ "UV1", "class_s_l_mesh.html#a427d8525ccb66a74b41fae516b16b2d9", null ],
+    [ "UV2", "class_s_l_mesh.html#a5875b16decf223dc34f9b700dbefd869", null ]
 ];

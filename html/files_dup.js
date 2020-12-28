@@ -75,15 +75,8 @@ var files_dup =
     [ "glUtils.h", "gl_utils_8h.html", "gl_utils_8h" ],
     [ "HighResTimer.h", "_high_res_timer_8h.html", "_high_res_timer_8h" ],
     [ "HttpUtils.cpp", "_http_utils_8cpp.html", "_http_utils_8cpp" ],
-    [ "HttpUtils.h", "_http_utils_8h.html", [
-      [ "Socket", "struct_socket.html", "struct_socket" ],
-      [ "SecureSocket", "struct_secure_socket.html", "struct_secure_socket" ],
-      [ "DNSRequest", "struct_d_n_s_request.html", "struct_d_n_s_request" ],
-      [ "GetRequest", "struct_http_utils_1_1_get_request.html", "struct_http_utils_1_1_get_request" ],
-      [ "HTTPDownload", "struct_http_utils_1_1_h_t_t_p_download.html", "struct_http_utils_1_1_h_t_t_p_download" ]
-    ] ],
+    [ "HttpUtils.h", "_http_utils_8h.html", "_http_utils_8h" ],
     [ "Instrumentor.h", "_instrumentor_8h.html", "_instrumentor_8h" ],
-    [ "QuaternionTest.cpp", "_quaternion_test_8cpp.html", "_quaternion_test_8cpp" ],
     [ "SL.h", "_s_l_8h.html", "_s_l_8h" ],
     [ "SLAABBox.cpp", "_s_l_a_a_b_box_8cpp.html", null ],
     [ "SLAABBox.h", "_s_l_a_a_b_box_8h.html", [
@@ -104,7 +97,6 @@ var files_dup =
     [ "SLAnimPlayback.h", "_s_l_anim_playback_8h.html", "_s_l_anim_playback_8h" ],
     [ "SLAnimTrack.cpp", "_s_l_anim_track_8cpp.html", null ],
     [ "SLAnimTrack.h", "_s_l_anim_track_8h.html", "_s_l_anim_track_8h" ],
-    [ "SLApplication.cpp", "_s_l_application_8cpp.html", "_s_l_application_8cpp" ],
     [ "SLArrow.h", "_s_l_arrow_8h.html", [
       [ "SLArrow", "class_s_l_arrow.html", "class_s_l_arrow" ]
     ] ],
@@ -114,6 +106,10 @@ var files_dup =
     ] ],
     [ "SLAssimpImporter.cpp", "_s_l_assimp_importer_8cpp.html", "_s_l_assimp_importer_8cpp" ],
     [ "SLAssimpImporter.h", "_s_l_assimp_importer_8h.html", "_s_l_assimp_importer_8h" ],
+    [ "SLAssimpProgressHandler.h", "_s_l_assimp_progress_handler_8h.html", [
+      [ "SLProgressHandler", "class_s_l_progress_handler.html", "class_s_l_progress_handler" ],
+      [ "SLAssimpProgressHandler", "class_s_l_assimp_progress_handler.html", "class_s_l_assimp_progress_handler" ]
+    ] ],
     [ "SLBackground.cpp", "_s_l_background_8cpp.html", null ],
     [ "SLBackground.h", "_s_l_background_8h.html", [
       [ "SLBackground", "class_s_l_background.html", "class_s_l_background" ]
@@ -130,6 +126,8 @@ var files_dup =
     [ "SLCircle.h", "_s_l_circle_8h.html", [
       [ "SLCircle", "class_s_l_circle.html", "class_s_l_circle" ]
     ] ],
+    [ "SLColorLUT.cpp", "_s_l_color_l_u_t_8cpp.html", null ],
+    [ "SLColorLUT.h", "_s_l_color_l_u_t_8h.html", "_s_l_color_l_u_t_8h" ],
     [ "SLCompactGrid.cpp", "_s_l_compact_grid_8cpp.html", null ],
     [ "SLCompactGrid.h", "_s_l_compact_grid_8h.html", "_s_l_compact_grid_8h" ],
     [ "SLCone.cpp", "_s_l_cone_8cpp.html", null ],
@@ -145,9 +143,6 @@ var files_dup =
       [ "SLCoordAxisArrow", "class_s_l_coord_axis_arrow.html", "class_s_l_coord_axis_arrow" ]
     ] ],
     [ "SLCudaBuffer.h", "_s_l_cuda_buffer_8h.html", null ],
-    [ "SLCurve.h", "_s_l_curve_8h.html", [
-      [ "SLCurve", "class_s_l_curve.html", "class_s_l_curve" ]
-    ] ],
     [ "SLCurveBezier.cpp", "_s_l_curve_bezier_8cpp.html", null ],
     [ "SLCurveBezier.h", "_s_l_curve_bezier_8h.html", [
       [ "SLCurveBezier", "class_s_l_curve_bezier.html", "class_s_l_curve_bezier" ]
@@ -161,9 +156,7 @@ var files_dup =
       [ "SLDeviceLocation", "class_s_l_device_location.html", "class_s_l_device_location" ]
     ] ],
     [ "SLDeviceRotation.cpp", "_s_l_device_rotation_8cpp.html", null ],
-    [ "SLDeviceRotation.h", "_s_l_device_rotation_8h.html", [
-      [ "SLDeviceRotation", "class_s_l_device_rotation.html", "class_s_l_device_rotation" ]
-    ] ],
+    [ "SLDeviceRotation.h", "_s_l_device_rotation_8h.html", "_s_l_device_rotation_8h" ],
     [ "SLDisk.cpp", "_s_l_disk_8cpp.html", null ],
     [ "SLDisk.h", "_s_l_disk_8h.html", [
       [ "SLDisk", "class_s_l_disk.html", "class_s_l_disk" ]
@@ -188,13 +181,6 @@ var files_dup =
     [ "SLGLFbo.h", "_s_l_g_l_fbo_8h.html", [
       [ "SLGLFbo", "class_s_l_g_l_fbo.html", "class_s_l_g_l_fbo" ]
     ] ],
-    [ "SLGLGenericProgram.h", "_s_l_g_l_generic_program_8h.html", [
-      [ "SLGLGenericProgram", "class_s_l_g_l_generic_program.html", "class_s_l_g_l_generic_program" ],
-      [ "SLGLGenericProgramDefault", "class_s_l_g_l_generic_program_default.html", "class_s_l_g_l_generic_program_default" ],
-      [ "SLGLGenericProgramDefaultColorAttrib", "class_s_l_g_l_generic_program_default_color_attrib.html", "class_s_l_g_l_generic_program_default_color_attrib" ],
-      [ "SLGLGenericProgramDefaultTex", "class_s_l_g_l_generic_program_default_tex.html", "class_s_l_g_l_generic_program_default_tex" ],
-      [ "SLGLGenericProgramDefaultTexNormal", "class_s_l_g_l_generic_program_default_tex_normal.html", "class_s_l_g_l_generic_program_default_tex_normal" ]
-    ] ],
     [ "SLGLImGui.cpp", "_s_l_g_l_im_gui_8cpp.html", "_s_l_g_l_im_gui_8cpp" ],
     [ "SLGLImGui.h", "_s_l_g_l_im_gui_8h.html", "_s_l_g_l_im_gui_8h" ],
     [ "SLGLOculus.cpp", "_s_l_g_l_oculus_8cpp.html", null ],
@@ -206,6 +192,13 @@ var files_dup =
     [ "SLGLOVRWorkaround.h", "_s_l_g_l_o_v_r_workaround_8h.html", "_s_l_g_l_o_v_r_workaround_8h" ],
     [ "SLGLProgram.cpp", "_s_l_g_l_program_8cpp.html", "_s_l_g_l_program_8cpp" ],
     [ "SLGLProgram.h", "_s_l_g_l_program_8h.html", "_s_l_g_l_program_8h" ],
+    [ "SLGLProgramGenerated.cpp", "_s_l_g_l_program_generated_8cpp.html", "_s_l_g_l_program_generated_8cpp" ],
+    [ "SLGLProgramGenerated.h", "_s_l_g_l_program_generated_8h.html", [
+      [ "SLGLProgramGenerated", "class_s_l_g_l_program_generated.html", "class_s_l_g_l_program_generated" ]
+    ] ],
+    [ "SLGLProgramGeneric.h", "_s_l_g_l_program_generic_8h.html", [
+      [ "SLGLProgramGeneric", "class_s_l_g_l_program_generic.html", "class_s_l_g_l_program_generic" ]
+    ] ],
     [ "SLGLProgramManager.cpp", "_s_l_g_l_program_manager_8cpp.html", null ],
     [ "SLGLProgramManager.h", "_s_l_g_l_program_manager_8h.html", "_s_l_g_l_program_manager_8h" ],
     [ "SLGLShader.cpp", "_s_l_g_l_shader_8cpp.html", "_s_l_g_l_shader_8cpp" ],
@@ -230,6 +223,10 @@ var files_dup =
     [ "SLGrid.cpp", "_s_l_grid_8cpp.html", null ],
     [ "SLGrid.h", "_s_l_grid_8h.html", [
       [ "SLGrid", "class_s_l_grid.html", "class_s_l_grid" ]
+    ] ],
+    [ "SLHorizonNode.cpp", "_s_l_horizon_node_8cpp.html", null ],
+    [ "SLHorizonNode.h", "_s_l_horizon_node_8h.html", [
+      [ "SLHorizonNode", "class_s_l_horizon_node.html", "class_s_l_horizon_node" ]
     ] ],
     [ "SLImporter.cpp", "_s_l_importer_8cpp.html", null ],
     [ "SLImporter.h", "_s_l_importer_8h.html", "_s_l_importer_8h" ],
@@ -272,11 +269,8 @@ var files_dup =
     [ "SLLightSpot.h", "_s_l_light_spot_8h.html", [
       [ "SLLightSpot", "class_s_l_light_spot.html", "class_s_l_light_spot" ]
     ] ],
-    [ "SLMat3.h", "_s_l_mat3_8h.html", "_s_l_mat3_8h" ],
-    [ "SLMat4.h", "_s_l_mat4_8h.html", "_s_l_mat4_8h" ],
     [ "SLMaterial.cpp", "_s_l_material_8cpp.html", null ],
     [ "SLMaterial.h", "_s_l_material_8h.html", "_s_l_material_8h" ],
-    [ "SLMemoryStats.h", "_s_l_memory_stats_8h.html", "_s_l_memory_stats_8h" ],
     [ "SLMesh.cpp", "_s_l_mesh_8cpp.html", null ],
     [ "SLMesh.h", "_s_l_mesh_8h.html", "_s_l_mesh_8h" ],
     [ "SLNode.cpp", "_s_l_node_8cpp.html", null ],
@@ -302,10 +296,6 @@ var files_dup =
     ] ],
     [ "SLPhotonMap.h", "_s_l_photon_map_8h.html", "_s_l_photon_map_8h" ],
     [ "SLPhotonMapper.h", "_s_l_photon_mapper_8h.html", "_s_l_photon_mapper_8h" ],
-    [ "SLPlane.cpp", "_s_l_plane_8cpp.html", null ],
-    [ "SLPlane.h", "_s_l_plane_8h.html", [
-      [ "SLPlane", "class_s_l_plane.html", "class_s_l_plane" ]
-    ] ],
     [ "SLPoints.cpp", "_s_l_points_8cpp.html", null ],
     [ "SLPoints.h", "_s_l_points_8h.html", [
       [ "SLPoints", "class_s_l_points.html", "class_s_l_points" ]
@@ -317,7 +307,6 @@ var files_dup =
     [ "SLPolyline.h", "_s_l_polyline_8h.html", [
       [ "SLPolyline", "class_s_l_polyline.html", "class_s_l_polyline" ]
     ] ],
-    [ "SLQuat4.h", "_s_l_quat4_8h.html", "_s_l_quat4_8h" ],
     [ "SLRay.cpp", "_s_l_ray_8cpp.html", "_s_l_ray_8cpp" ],
     [ "SLRay.h", "_s_l_ray_8h.html", "_s_l_ray_8h" ],
     [ "SLRayMC.cpp", "_s_l_ray_m_c_8cpp.html", null ],
@@ -372,8 +361,6 @@ var files_dup =
     [ "SLText.h", "_s_l_text_8h.html", [
       [ "SLText", "class_s_l_text.html", "class_s_l_text" ]
     ] ],
-    [ "SLTransferFunction.cpp", "_s_l_transfer_function_8cpp.html", null ],
-    [ "SLTransferFunction.h", "_s_l_transfer_function_8h.html", "_s_l_transfer_function_8h" ],
     [ "SLTransformNode.cpp", "_s_l_transform_node_8cpp.html", null ],
     [ "SLTransformNode.h", "_s_l_transform_node_8h.html", "_s_l_transform_node_8h" ],
     [ "SLTriangle.cpp", "_s_l_triangle_8cpp.html", null ],
@@ -385,10 +372,6 @@ var files_dup =
     ] ],
     [ "SLUniformGrid.cpp", "_s_l_uniform_grid_8cpp.html", null ],
     [ "SLUniformGrid.h", "_s_l_uniform_grid_8h.html", "_s_l_uniform_grid_8h" ],
-    [ "SLVec2.h", "_s_l_vec2_8h.html", "_s_l_vec2_8h" ],
-    [ "SLVec3.h", "_s_l_vec3_8h.html", "_s_l_vec3_8h" ],
-    [ "SLVec4.h", "_s_l_vec4_8h.html", "_s_l_vec4_8h" ],
-    [ "SLVector.h", "_s_l_vector_8h.html", "_s_l_vector_8h" ],
     [ "SLVolume.h", "_s_l_volume_8h.html", [
       [ "SLVolume", "class_s_l_volume.html", "class_s_l_volume" ]
     ] ],

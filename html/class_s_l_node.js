@@ -86,7 +86,7 @@ var class_s_l_node =
     [ "updateAndGetWMI", "class_s_l_node.html#ab9e4213e52cdea82e4d159870b6c1cee", null ],
     [ "updateAndGetWMN", "class_s_l_node.html#aeff0b027d691f4845433fe3aaeb4f205", null ],
     [ "updateMeshAccelStructs", "class_s_l_node.html#aa07778efd556f3ebecb46622663508b1", null ],
-    [ "updateMeshMat", "class_s_l_node.html#a3566ae78cf656cff7cab6409aa355912", null ],
+    [ "updateMeshMat", "class_s_l_node.html#ac6b01faa027d2751bc3b86784a65763d", null ],
     [ "updateMeshSkins", "class_s_l_node.html#a37905aff87af711b344a0aea88b935fa", null ],
     [ "updateRec", "class_s_l_node.html#a7adbfc3a9492827e2b57ee7fd7961a56", null ],
     [ "updateWM", "class_s_l_node.html#a1f74c479455c25abf88ab66f50e39956", null ],

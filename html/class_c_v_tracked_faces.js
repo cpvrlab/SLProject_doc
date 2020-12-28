@@ -10,5 +10,5 @@ var class_c_v_tracked_faces =
     [ "_cvPosePoints3D", "class_c_v_tracked_faces.html#a9c467c2d460817020333093d98487684", null ],
     [ "_faceDetector", "class_c_v_tracked_faces.html#a4f6f7b97970c17ab23eb8b7ef603cf18", null ],
     [ "_facemark", "class_c_v_tracked_faces.html#a33fc5b8f0ec106e488fb68c423b45a5e", null ],
-    [ "_smoothLenght", "class_c_v_tracked_faces.html#a71ee922a13084331b4fe67c85a9fcde0", null ]
+    [ "_smoothLength", "class_c_v_tracked_faces.html#a076fd22ddcacc7c38679cc717bd955af", null ]
 ];

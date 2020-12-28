@@ -3,7 +3,8 @@ var _s_l_g_l_enums_8h =
     [ "SLGLAttributeType", "_s_l_g_l_enums_8h.html#a1c4ce10c8a033bc987d78c4405ec1072", [
       [ "AT_position", "_s_l_g_l_enums_8h.html#a1c4ce10c8a033bc987d78c4405ec1072a532398e697062898347f25f988492d58", null ],
       [ "AT_normal", "_s_l_g_l_enums_8h.html#a1c4ce10c8a033bc987d78c4405ec1072a597a011b44fc890eb3cd4e4b0328eb18", null ],
-      [ "AT_texCoord", "_s_l_g_l_enums_8h.html#a1c4ce10c8a033bc987d78c4405ec1072ae78416aa89eb49aed5fb677c9c057b09", null ],
+      [ "AT_uv1", "_s_l_g_l_enums_8h.html#a1c4ce10c8a033bc987d78c4405ec1072a882283dd443abd4f23524aad1883fb44", null ],
+      [ "AT_uv2", "_s_l_g_l_enums_8h.html#a1c4ce10c8a033bc987d78c4405ec1072ab3cccbb85ea3be6b223e520525589b5f", null ],
       [ "AT_color", "_s_l_g_l_enums_8h.html#a1c4ce10c8a033bc987d78c4405ec1072a70581d019dc37a621877cbbfb4a67c83", null ],
       [ "AT_tangent", "_s_l_g_l_enums_8h.html#a1c4ce10c8a033bc987d78c4405ec1072abf4d958f6addb0ba16bdebd044058b45", null ],
       [ "AT_jointIndex", "_s_l_g_l_enums_8h.html#a1c4ce10c8a033bc987d78c4405ec1072a375bb1ef97308b0812ef23c976d7111f", null ],

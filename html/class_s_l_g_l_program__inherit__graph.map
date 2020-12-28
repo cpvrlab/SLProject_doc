@@ -1,9 +1,6 @@
 <map id="SLGLProgram" name="SLGLProgram">
-<area shape="rect" id="node1" title="Encapsulation of an OpenGL shader program object." alt="" coords="129,93,233,120"/>
-<area shape="rect" id="node3" href="$class_s_l_g_l_generic_program.html" title="Generic Shader Program class inherited from SLGLProgram." alt="" coords="281,93,431,120"/>
-<area shape="rect" id="node2" href="$class_s_l_object.html" title="Base class for all other classes." alt="" coords="5,93,81,120"/>
-<area shape="rect" id="node4" href="$class_s_l_g_l_generic_program_default.html" title=" " alt="" coords="489,5,680,32"/>
-<area shape="rect" id="node5" href="$class_s_l_g_l_generic_program_default_color_attrib.html" title=" " alt="" coords="489,57,680,98"/>
-<area shape="rect" id="node6" href="$class_s_l_g_l_generic_program_default_tex.html" title=" " alt="" coords="479,123,691,149"/>
-<area shape="rect" id="node7" href="$class_s_l_g_l_generic_program_default_tex_normal.html" title=" " alt="" coords="489,174,680,215"/>
+<area shape="rect" id="node1" title="Encapsulation of an OpenGL shader program object." alt="" coords="131,80,237,107"/>
+<area shape="rect" id="node3" href="$class_s_l_g_l_program_generated.html" title="Generated Shader Program class inherited from SLGLProgram." alt="" coords="5,155,176,181"/>
+<area shape="rect" id="node4" href="$class_s_l_g_l_program_generic.html" title="Generic Shader Program class inherited from SLGLProgram." alt="" coords="201,155,354,181"/>
+<area shape="rect" id="node2" href="$class_s_l_object.html" title="Base class for all other classes." alt="" coords="145,5,223,32"/>
 </map>

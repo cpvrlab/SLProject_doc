@@ -1,10 +1,11 @@
 <map id="SLAssetManager.h" name="SLAssetManager.h">
-<area shape="rect" id="node1" title=" " alt="" coords="492,5,624,32"/>
-<area shape="rect" id="node2" href="$_s_l_g_l_program_8cpp.html" title=" " alt="" coords="5,80,135,107"/>
-<area shape="rect" id="node3" href="$_s_l_g_l_texture_8cpp.html" title=" " alt="" coords="159,80,282,107"/>
-<area shape="rect" id="node4" href="$_s_l_assimp_importer_8cpp.html" title=" " alt="" coords="306,80,461,107"/>
-<area shape="rect" id="node5" href="$_s_l_asset_manager_8cpp.html" title=" " alt="" coords="485,80,631,107"/>
-<area shape="rect" id="node6" href="$_s_l_material_8cpp.html" title=" " alt="" coords="655,80,765,107"/>
-<area shape="rect" id="node7" href="$_s_l_mesh_8cpp.html" title=" " alt="" coords="789,80,884,107"/>
-<area shape="rect" id="node8" href="$_s_l_transfer_function_8cpp.html" title=" " alt="" coords="909,80,1069,107"/>
+<area shape="rect" id="node1" title=" " alt="" coords="631,5,767,32"/>
+<area shape="rect" id="node2" href="$_s_l_g_l_program_8cpp.html" title=" " alt="" coords="5,80,137,107"/>
+<area shape="rect" id="node3" href="$_s_l_g_l_program_generated_8cpp.html" title=" " alt="" coords="161,80,357,107"/>
+<area shape="rect" id="node4" href="$_s_l_g_l_texture_8cpp.html" title=" " alt="" coords="381,80,508,107"/>
+<area shape="rect" id="node5" href="$_s_l_assimp_importer_8cpp.html" title=" " alt="" coords="533,80,690,107"/>
+<area shape="rect" id="node6" href="$_s_l_asset_manager_8cpp.html" title=" " alt="" coords="714,80,863,107"/>
+<area shape="rect" id="node7" href="$_s_l_color_l_u_t_8cpp.html" title=" " alt="" coords="887,80,1007,107"/>
+<area shape="rect" id="node8" href="$_s_l_material_8cpp.html" title=" " alt="" coords="1032,80,1143,107"/>
+<area shape="rect" id="node9" href="$_s_l_mesh_8cpp.html" title=" " alt="" coords="1167,80,1263,107"/>
 </map>

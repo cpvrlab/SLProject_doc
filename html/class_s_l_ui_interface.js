@@ -3,7 +3,7 @@ var class_s_l_ui_interface =
     [ "~SLUiInterface", "class_s_l_ui_interface.html#a7e9409c9b1b9395c85b4c810fa8ddb7a", null ],
     [ "doNotDispatchKeyboard", "class_s_l_ui_interface.html#a1f25dbc175fb86223c7cae6b683f3f5e", null ],
     [ "doNotDispatchMouse", "class_s_l_ui_interface.html#a528fdf602ca92193dccb99898e2eebde", null ],
-    [ "init", "class_s_l_ui_interface.html#ac927fa747271bcb4c88e495eb4583adf", null ],
+    [ "init", "class_s_l_ui_interface.html#a17d70e6421b3f08347b4a7dfd45c7d77", null ],
     [ "onCharInput", "class_s_l_ui_interface.html#a9926bfa04b78782c1bd57c678c918694", null ],
     [ "onClose", "class_s_l_ui_interface.html#a31b183ebfb7f3ccfe875387afda1213b", null ],
     [ "onInitNewFrame", "class_s_l_ui_interface.html#a983f76ba5e07f95bde4c633363c416d8", null ],

@@ -2,6 +2,7 @@ var class_s_l_asset_manager =
 [
     [ "~SLAssetManager", "class_s_l_asset_manager.html#a7b1bfb9915b58633f67d463e12c70e4a", null ],
     [ "clear", "class_s_l_asset_manager.html#a33f43f66a62b81e3e621d543fc1739c2", null ],
+    [ "getProgramByName", "class_s_l_asset_manager.html#a9683720598e1a2ff34f9f16c499d0e46", null ],
     [ "materials", "class_s_l_asset_manager.html#aedb4aba2674215814db24b592f3bf460", null ],
     [ "meshes", "class_s_l_asset_manager.html#a1c0c02d5e80aac404fcbc47dc9ded860", null ],
     [ "programs", "class_s_l_asset_manager.html#a86265e44bc704fcbc53118a0b967b34d", null ],

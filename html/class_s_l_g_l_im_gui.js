@@ -6,7 +6,7 @@ var class_s_l_g_l_im_gui =
     [ "deleteOpenGLObjects", "class_s_l_g_l_im_gui.html#aca1be93c73380be5f6b27c259394d15a", null ],
     [ "doNotDispatchKeyboard", "class_s_l_g_l_im_gui.html#ab4d5359b0629f6e3089eecf41874738e", null ],
     [ "doNotDispatchMouse", "class_s_l_g_l_im_gui.html#aaab0128c74f13ef59e0bbb30639cb0c5", null ],
-    [ "init", "class_s_l_g_l_im_gui.html#a9a48a1de8fd512f750f97cbdbff18008", null ],
+    [ "init", "class_s_l_g_l_im_gui.html#a4c4aa9d349b6a0f96f3b2522b1589362", null ],
     [ "loadFonts", "class_s_l_g_l_im_gui.html#a7a0529f6223fd940c630ecdb64984611", null ],
     [ "onCharInput", "class_s_l_g_l_im_gui.html#a5cf99e8f89af438a148fbc32bf29f223", null ],
     [ "onClose", "class_s_l_g_l_im_gui.html#a5afa628355f40552d866e4b0273aa756", null ],
