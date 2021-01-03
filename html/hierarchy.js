@@ -1,9 +1,8 @@
 var hierarchy =
 [
-    [ "Averaged< T >", "class_averaged.html", null ],
-    [ "Averaged< float >", "class_averaged.html", null ],
-    [ "Averaged< SLMat3f >", "class_averaged.html", null ],
-    [ "AverageTimingBlock", "struct_average_timing_block.html", null ],
+    [ "Utils::Averaged< T >", "class_utils_1_1_averaged.html", null ],
+    [ "Utils::Averaged< float >", "class_utils_1_1_averaged.html", null ],
+    [ "Utils::AverageTimingBlock", "struct_utils_1_1_average_timing_block.html", null ],
     [ "Utils::ComputerInfos", "class_utils_1_1_computer_infos.html", null ],
     [ "Utils::CustomLog", "class_utils_1_1_custom_log.html", null ],
     [ "CVArucoParams", "class_c_v_aruco_params.html", null ],
@@ -43,7 +42,7 @@ var hierarchy =
     [ "LensConfig", "struct_lens_config.html", null ],
     [ "lightDataStd140", "structlight_data_std140.html", null ],
     [ "map", null, [
-      [ "AverageTiming", "class_average_timing.html", null ]
+      [ "Utils::AverageTiming", "class_utils_1_1_average_timing.html", null ]
     ] ],
     [ "ovrDistortionMesh_", "structovr_distortion_mesh__.html", null ],
     [ "ovrDistortionVertex_", "structovr_distortion_vertex__.html", null ],

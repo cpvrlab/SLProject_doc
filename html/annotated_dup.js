@@ -2,9 +2,6 @@ var annotated_dup =
 [
     [ "HttpUtils", "namespace_http_utils.html", "namespace_http_utils" ],
     [ "Utils", "namespace_utils.html", "namespace_utils" ],
-    [ "Averaged", "class_averaged.html", "class_averaged" ],
-    [ "AverageTiming", "class_average_timing.html", "class_average_timing" ],
-    [ "AverageTimingBlock", "struct_average_timing_block.html", "struct_average_timing_block" ],
     [ "CVArucoParams", "class_c_v_aruco_params.html", "class_c_v_aruco_params" ],
     [ "CVCalibration", "class_c_v_calibration.html", "class_c_v_calibration" ],
     [ "CVCalibrationEstimator", "class_c_v_calibration_estimator.html", "class_c_v_calibration_estimator" ],

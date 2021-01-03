@@ -12,7 +12,7 @@
 <!-- Node0 -->
 <g id="node1" class="node">
 <title>Node0</title>
-<g id="a_node1"><a xlink:href="struct_c_v_tracked_features_1_1_s_l_feature_marker2_d.html" target="_top" xlink:title="Data of a 2D marker image.">
+<g id="a_node1"><a xlink:href="struct_c_v_tracked_features_1_1_s_l_feature_marker2_d.html" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" xlink:title="Data of a 2D marker image.">
 <polygon fill="#ffffff" stroke="#000000" points="0,-.5 0,-30.5 112,-30.5 112,-.5 0,-.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Arial.ttf" font-size="10.00" fill="#000000">CVTrackedFeatures::</text>
 <text text-anchor="middle" x="56" y="-7.5" font-family="Arial.ttf" font-size="10.00" fill="#000000">SLFeatureMarker2D</text>

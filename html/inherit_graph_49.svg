@@ -12,7 +12,7 @@
 <!-- Node0 -->
 <g id="node1" class="node">
 <title>Node0</title>
-<g id="a_node1"><a xlink:href="class_s_l_asset_manager.html" target="_top" xlink:title="Toplevel holder of the assets meshes, materials, textures and shader progs.">
+<g id="a_node1"><a xlink:href="class_s_l_asset_manager.html" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" xlink:title="Toplevel holder of the assets meshes, materials, textures and shader progs.">
 <polygon fill="#ffffff" stroke="#000000" points="0,-.5 0,-19.5 93,-19.5 93,-.5 0,-.5"/>
 <text text-anchor="middle" x="46.5" y="-7.5" font-family="Arial.ttf" font-size="10.00" fill="#000000">SLAssetManager</text>
 </a>

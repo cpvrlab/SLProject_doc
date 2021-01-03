@@ -1,0 +1,8 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Arial.ttf",fontsize="10",labelfontname="Arial.ttf",labelfontsize="10"];
+  node [fontname="Arial.ttf",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="Utils_iOS",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_utils__i_o_s.html",tooltip="SLFileSystem provides basic filesystem functions."];
+}

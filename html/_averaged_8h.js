@@ -1,5 +1,5 @@
 var _averaged_8h =
 [
-    [ "Averaged", "class_averaged.html", "class_averaged" ],
-    [ "AvgFloat", "_averaged_8h.html#a9d8dca063e4827656578a760736de5e4", null ]
+    [ "Averaged", "class_utils_1_1_averaged.html", "class_utils_1_1_averaged" ],
+    [ "AvgFloat", "_averaged_8h.html#af983cfa175692c946d307b0fed930ca0", null ]
 ];

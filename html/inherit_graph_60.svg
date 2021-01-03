@@ -12,7 +12,7 @@
 <!-- Node0 -->
 <g id="node1" class="node">
 <title>Node0</title>
-<g id="a_node1"><a xlink:href="class_s_l_g_l_oculus_f_b.html" target="_top" xlink:title="Wrapper around Oculus Rift and its Frame Buffer Objects.">
+<g id="a_node1"><a xlink:href="class_s_l_g_l_oculus_f_b.html" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" xlink:title="Wrapper around Oculus Rift and its Frame Buffer Objects.">
 <polygon fill="#ffffff" stroke="#000000" points="0,-.5 0,-19.5 86,-19.5 86,-.5 0,-.5"/>
 <text text-anchor="middle" x="43" y="-7.5" font-family="Arial.ttf" font-size="10.00" fill="#000000">SLGLOculusFB</text>
 </a>

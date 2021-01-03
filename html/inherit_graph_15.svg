@@ -12,7 +12,7 @@
 <!-- Node0 -->
 <g id="node1" class="node">
 <title>Node0</title>
-<g id="a_node1"><a xlink:href="class_c_v_tracked.html" target="_top" xlink:title="CVTracked is the pure virtual base class for tracking features in video.">
+<g id="a_node1"><a xlink:href="class_c_v_tracked.html" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" xlink:title="CVTracked is the pure virtual base class for tracking features in video.">
 <polygon fill="#ffffff" stroke="#000000" points="0,-76.5 0,-95.5 67,-95.5 67,-76.5 0,-76.5"/>
 <text text-anchor="middle" x="33.5" y="-83.5" font-family="Arial.ttf" font-size="10.00" fill="#000000">CVTracked</text>
 </a>
@@ -21,7 +21,7 @@
 <!-- Node1 -->
 <g id="node2" class="node">
 <title>Node1</title>
-<g id="a_node2"><a xlink:href="class_c_v_tracked_aruco.html" target="_top" xlink:title="OpenCV ArUco marker tracker class derived from CVTracked.">
+<g id="a_node2"><a xlink:href="class_c_v_tracked_aruco.html" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" xlink:title="OpenCV ArUco marker tracker class derived from CVTracked.">
 <polygon fill="#ffffff" stroke="#000000" points="116.5,-152.5 116.5,-171.5 209.5,-171.5 209.5,-152.5 116.5,-152.5"/>
 <text text-anchor="middle" x="163" y="-159.5" font-family="Arial.ttf" font-size="10.00" fill="#000000">CVTrackedAruco</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node2 -->
 <g id="node3" class="node">
 <title>Node2</title>
-<g id="a_node3"><a xlink:href="class_c_v_tracked_chessboard.html" target="_top" xlink:title="OpenCV chessboard tracker class derived from CVTracked.">
+<g id="a_node3"><a xlink:href="class_c_v_tracked_chessboard.html" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" xlink:title="OpenCV chessboard tracker class derived from CVTracked.">
 <polygon fill="#ffffff" stroke="#000000" points="103,-114.5 103,-133.5 223,-133.5 223,-114.5 103,-114.5"/>
 <text text-anchor="middle" x="163" y="-121.5" font-family="Arial.ttf" font-size="10.00" fill="#000000">CVTrackedChessboard</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- Node3 -->
 <g id="node4" class="node">
 <title>Node3</title>
-<g id="a_node4"><a xlink:href="class_c_v_tracked_faces.html" target="_top" xlink:title="OpenCV face &amp; facial landmark tracker class derived from CVTracked.">
+<g id="a_node4"><a xlink:href="class_c_v_tracked_faces.html" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" xlink:title="OpenCV face &amp; facial landmark tracker class derived from CVTracked.">
 <polygon fill="#ffffff" stroke="#000000" points="116,-76.5 116,-95.5 210,-95.5 210,-76.5 116,-76.5"/>
 <text text-anchor="middle" x="163" y="-83.5" font-family="Arial.ttf" font-size="10.00" fill="#000000">CVTrackedFaces</text>
 </a>
@@ -66,7 +66,7 @@
 <!-- Node4 -->
 <g id="node5" class="node">
 <title>Node4</title>
-<g id="a_node5"><a xlink:href="class_c_v_tracked_features.html" target="_top" xlink:title="CVTrackedFeatures is the main part of the AR Christoffelturm scene.">
+<g id="a_node5"><a xlink:href="class_c_v_tracked_features.html" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" xlink:title="CVTrackedFeatures is the main part of the AR Christoffelturm scene.">
 <polygon fill="#ffffff" stroke="#000000" points="110,-38.5 110,-57.5 216,-57.5 216,-38.5 110,-38.5"/>
 <text text-anchor="middle" x="163" y="-45.5" font-family="Arial.ttf" font-size="10.00" fill="#000000">CVTrackedFeatures</text>
 </a>
@@ -81,7 +81,7 @@
 <!-- Node5 -->
 <g id="node6" class="node">
 <title>Node5</title>
-<g id="a_node6"><a xlink:href="class_c_v_tracked_w_a_i.html" target="_top" xlink:title="Tracker that uses the ORB&#45;Slam based WAI library (Where Am I)">
+<g id="a_node6"><a xlink:href="class_c_v_tracked_w_a_i.html" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" xlink:title="Tracker that uses the ORB&#45;Slam based WAI library (Where Am I)">
 <polygon fill="#ffffff" stroke="#000000" points="120.5,-.5 120.5,-19.5 205.5,-19.5 205.5,-.5 120.5,-.5"/>
 <text text-anchor="middle" x="163" y="-7.5" font-family="Arial.ttf" font-size="10.00" fill="#000000">CVTrackedWAI</text>
 </a>

@@ -1,0 +1,22 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Arial.ttf",fontsize="10",labelfontname="Arial.ttf",labelfontsize="10"];
+  node [fontname="Arial.ttf",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="SLInputEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_s_l_input_event.html",tooltip="Baseclass for all system input events."];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Arial.ttf"];
+  Node1 [label="SLCharInputEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_s_l_char_input_event.html",tooltip="Specialized SLInput class for unicode character input."];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Arial.ttf"];
+  Node2 [label="SLKeyEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_s_l_key_event.html",tooltip="Specialized SLInput class for all keypress related input events."];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Arial.ttf"];
+  Node3 [label="SLMouseEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_s_l_mouse_event.html",tooltip="Specialized SLInput class for all mouse related input events."];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Arial.ttf"];
+  Node4 [label="SLResizeEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_s_l_resize_event.html",tooltip="Specialized SLInput class for window resize events."];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Arial.ttf"];
+  Node5 [label="SLRotationEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_s_l_rotation_event.html",tooltip="Specialized SLInput class for all device rotation related input events."];
+  Node0 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Arial.ttf"];
+  Node6 [label="SLTouchEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_s_l_touch_event.html",tooltip="Specialized SLInput class for touch related input events."];
+  Node0 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Arial.ttf"];
+  Node7 [label="SLUpdateScr2fbEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_s_l_update_scr2fb_event.html",tooltip="Specialized SLInput class for UpdateScr2fb events."];
+}

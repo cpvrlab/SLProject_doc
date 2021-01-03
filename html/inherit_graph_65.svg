@@ -12,7 +12,7 @@
 <!-- Node0 -->
 <g id="node1" class="node">
 <title>Node0</title>
-<g id="a_node1"><a xlink:href="class_s_l_importer.html" target="_top" xlink:title="Interface for 3D file format importer implementations.">
+<g id="a_node1"><a xlink:href="class_s_l_importer.html" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" xlink:title="Interface for 3D file format importer implementations.">
 <polygon fill="#ffffff" stroke="#000000" points="0,-.5 0,-19.5 66,-19.5 66,-.5 0,-.5"/>
 <text text-anchor="middle" x="33" y="-7.5" font-family="Arial.ttf" font-size="10.00" fill="#000000">SLImporter</text>
 </a>
@@ -21,7 +21,7 @@
 <!-- Node1 -->
 <g id="node2" class="node">
 <title>Node1</title>
-<g id="a_node2"><a xlink:href="class_s_l_assimp_importer.html" target="_top" xlink:title="Small class interface into the AssImp library for importing 3D assets.">
+<g id="a_node2"><a xlink:href="class_s_l_assimp_importer.html" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" xlink:title="Small class interface into the AssImp library for importing 3D assets.">
 <polygon fill="#ffffff" stroke="#000000" points="102,-.5 102,-19.5 201,-19.5 201,-.5 102,-.5"/>
 <text text-anchor="middle" x="151.5" y="-7.5" font-family="Arial.ttf" font-size="10.00" fill="#000000">SLAssimpImporter</text>
 </a>

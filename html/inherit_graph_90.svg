@@ -12,7 +12,7 @@
 <!-- Node0 -->
 <g id="node1" class="node">
 <title>Node0</title>
-<g id="a_node1"><a xlink:href="class_s_l_ui_interface.html" target="_top" xlink:title="Interface for ui integration in SLSceneView.">
+<g id="a_node1"><a xlink:href="class_s_l_ui_interface.html" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" xlink:title="Interface for ui integration in SLSceneView.">
 <polygon fill="#ffffff" stroke="#000000" points="0,-.5 0,-19.5 77,-19.5 77,-.5 0,-.5"/>
 <text text-anchor="middle" x="38.5" y="-7.5" font-family="Arial.ttf" font-size="10.00" fill="#000000">SLUiInterface</text>
 </a>
@@ -21,7 +21,7 @@
 <!-- Node1 -->
 <g id="node2" class="node">
 <title>Node1</title>
-<g id="a_node2"><a xlink:href="class_s_l_g_l_im_gui.html" target="_top" xlink:title="ImGui Interface class for forwarding all events to the ImGui Handlers.">
+<g id="a_node2"><a xlink:href="class_s_l_g_l_im_gui.html" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" xlink:title="ImGui Interface class for forwarding all events to the ImGui Handlers.">
 <polygon fill="#ffffff" stroke="#000000" points="113,-.5 113,-19.5 182,-19.5 182,-.5 113,-.5"/>
 <text text-anchor="middle" x="147.5" y="-7.5" font-family="Arial.ttf" font-size="10.00" fill="#000000">SLGLImGui</text>
 </a>

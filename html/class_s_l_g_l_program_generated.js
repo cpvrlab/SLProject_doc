@@ -25,5 +25,6 @@ var class_s_l_g_l_program_generated =
     [ "fragInputs_u_shadowMaps", "class_s_l_g_l_program_generated.html#a501eb831f952687493d1156c79f2b388", null ],
     [ "fragShadowTest", "class_s_l_g_l_program_generated.html#a1c3d2213d0eed663210dbc470176751c", null ],
     [ "lightsDoShadowMapping", "class_s_l_g_l_program_generated.html#a2572ad74982271511d1973e7ab6cde20", null ],
-    [ "shaderHeader", "class_s_l_g_l_program_generated.html#a9834c2aaf4598b94f85a79d42e621464", null ]
+    [ "shaderHeader", "class_s_l_g_l_program_generated.html#a9834c2aaf4598b94f85a79d42e621464", null ],
+    [ "generatedShaderPath", "class_s_l_g_l_program_generated.html#a5f1e4074e24526f385f1cd6ad6002d97", null ]
 ];

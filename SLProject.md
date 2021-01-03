@@ -10,8 +10,7 @@ The various applications show what you can learn in one semester about 3D comput
 graphics in real time rendering and ray tracing. The framework is built in C++ and 
 OpenGL ES and runs without changes on Windows, Linux, Mac OSX, Android and Apple iOS. 
 The framework can render alternatively with Ray Tracing and Path Tracing which provides 
-in addition high quality transparencies, reflections and soft shadows. You can find the 
-demo app also on the <a href="https://play.google.com/store/apps/details?id=ch.fhnw.comgr&amp;feature=search_result#?t=W251bGwsMSwyLDEsImNoLmZobncuY29tZ3IiXQ">Android Market</a>.
+in addition high quality transparencies, reflections and soft shadows.
 </p>
 
 <p>
@@ -27,17 +26,19 @@ The code is provided without any warranties whether expressed or implied.
 <li><a href="https://github.com/cpvrlab/SLProject/wiki">Wiki Home</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/How-to-clone-SLProject">How to get SLProject</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/SLProject-Features">SLProject Features</a></li>
-<li><a href="https://github.com/cpvrlab/SLProject/wiki/Version-History">Version History</a></li>
+<li><a href="https://github.com/cpvrlab/SLProject/wiki/Version-History">SLProject Version History</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/Build-on-Windows-with-VisualStudio">Build instructions for MS Visual Studio</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/Build-with-QtCreator">Build on any OS with QtCreator</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/Build-for-Android">Build for Android with Android Studio.</a></li>
-<li><a href="https://github.com/cpvrlab/SLProject/wiki/Build-on-MacOS-with-XCode">Build for iOS with Apple XCode</a></li>
+<li><a href="https://github.com/cpvrlab/SLProject/wiki/Build-on-MacOS-with-XCode-for-MacOS">Build for MacOS with Apple XCode</a></li>
+<li><a href="https://github.com/cpvrlab/SLProject/wiki/Build-on-MacOS-with-XCode-for-iOS">Build for iOS with Apple XCode</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/Build-on-Ubuntu-Linux">Build on Ubuntu Linux</a></li>
-<li><a href="https://github.com/cpvrlab/SLProject/wiki/Minimal-OpenGL-and-OpenCV-apps">Minimal OpenGL and OpenCV Applications</a></li>
+<li><a href="https://github.com/cpvrlab/SLProject/wiki/Minimal-OpenGL-Apps">Minimal OpenGL Applications</a></li>
+<li><a href="https://github.com/cpvrlab/SLProject/wiki/Minimal-OpenCV-Apps">Minimal OpenCV Applications</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/Folder-Structure">Repository folder structure</a></li>
 <li><a href="https://github.com/cpvrlab/SLProject/wiki/Coding-Style-Guidelines">Coding Style Guidelines for Contributors</a></li>
-<li><a href="https://github.com/cpvrlab/SLProject/wiki/Generate-the-Documentation">How to generate the HTML Documentation using Doxygen</a></li>
-<li><a href="https://github.com/cpvrlab/SLProject/wiki/Data-Protection-Declaration">Data Protection Declaration</a></li>
+<li><a href="https://github.com/cpvrlab/SLProject/wiki/How-to-Generate-the-Documentation">How to generate the HTML Documentation using Doxygen</a></li>
+<li><a href="https://github.com/cpvrlab/SLProject/wiki/SLProject-Demo-App:-Data-Protection-Declaration">Data Protection Declaration</a></li>
 <li><a href="http://cpvrlab.github.io/SLProject_doc/html/index.html">Online HTML Documentation</a></li>
 </ul>
 
@@ -47,13 +48,24 @@ Read the <a href="md__introduction.html"><b>Introduction Page</b></a> for an ove
 Read the <a href="md_on_paint.html"><b>onPaint Page</b></a> for an overview how on frame gets rendered.
 </p>
 
+<h3>Contributors:</h3>
+<p>
+Contributors since 2005 in alphabetic order:
+Martin Christen, Jan Dellsperger, Manuel Frischknecht, Luc Girod, Michael Goettlicher, Michael Schertenleib, Stefan Thoeni, Timo Tschanz, Marc Wacker, Pascal Zingg
+</p>
+
 <h3>Framework Dependencies:</h3>
 The framework uses beside OpenGL the following external libraries that are also included in the SLProject repository:
 <ul>
-    <li><a href="http://www.opengl.org/">OpenGL</a> platform independent realtime rendering.</li>
+    <li><a href="http://assimp.org/">assimp</a> for 3D file formats loading.</li>
+    <li><a href="https://github.com/skaslev/gl3w">GL3W</a> for OpenGL function binding.</li>
+    <li><a href="http://www.glfw.org/">GLFW</a> for window and OpenGL context creation.</li>
     <li><a href="http://www.opencv.org/">OpenCV</a> for image processing.</li>
+    <li><a href="http://www.opengl.org/">OpenGL</a> platform independent realtime rendering.</li>
+    <li><a href="http://www.openssl.org/">OpenSSL</a> for secure sochet layer networking in HTTPS</li>
     <li><a href="https://github.com/ocornut/imgui">ImGUI</a> for an easy to use GUI.</li>
-    <li><a href="http://assimp.sourceforge.net/">assimp</a> for 3D file formats loading.</li>
+    <li><a href="https://midcdmz.nrel.gov/solpos/spa.html">SPA</a> Solar Positioning Algorithm</li>
+    <li><a href="https://zlib.net">zlib</a> for data compression and decompression</li>
 </ul>
 
 <h3>Support:</h3>
@@ -72,6 +84,6 @@ The framework uses beside OpenGL the following external libraries that are also 
 
 <p>
 Authors: marcus.hudritsch@bfh.ch<br>
-Date: November 2019<br>
-Copyright (c): 2002-2019 Marcus Hudritsch, Kirchrain 18, 2572 Sutz, Switzerland
+Date: January 2021<br>
+Copyright (c): 2002-2021 Marcus Hudritsch, Kirchrain 18, 2572 Sutz, Switzerland
 </p>

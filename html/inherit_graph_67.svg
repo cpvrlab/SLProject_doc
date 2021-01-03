@@ -12,7 +12,7 @@
 <!-- Node0 -->
 <g id="node1" class="node">
 <title>Node0</title>
-<g id="a_node1"><a xlink:href="class_s_l_input_device.html" target="_top" xlink:title="Interface for input devices that have to be pollsed.">
+<g id="a_node1"><a xlink:href="class_s_l_input_device.html" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" xlink:title="Interface for input devices that have to be pollsed.">
 <polygon fill="#ffffff" stroke="#000000" points="0,-.5 0,-19.5 82,-19.5 82,-.5 0,-.5"/>
 <text text-anchor="middle" x="41" y="-7.5" font-family="Arial.ttf" font-size="10.00" fill="#000000">SLInputDevice</text>
 </a>

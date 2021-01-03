@@ -12,7 +12,7 @@
 <!-- Node0 -->
 <g id="node1" class="node">
 <title>Node0</title>
-<g id="a_node1"><a xlink:href="struct_s_l_color_l_u_t_point.html" target="_top" xlink:title="Color point with color and position value between 0&#45;1.">
+<g id="a_node1"><a xlink:href="struct_s_l_color_l_u_t_point.html" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" xlink:title="Color point with color and position value between 0&#45;1.">
 <polygon fill="#ffffff" stroke="#000000" points="0,-.5 0,-19.5 94,-19.5 94,-.5 0,-.5"/>
 <text text-anchor="middle" x="47" y="-7.5" font-family="Arial.ttf" font-size="10.00" fill="#000000">SLColorLUTPoint</text>
 </a>

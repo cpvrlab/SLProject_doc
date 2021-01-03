@@ -54,7 +54,8 @@ var NAVTREE =
       [ "Namespace Members", "namespacemembers.html", [
         [ "All", "namespacemembers.html", null ],
         [ "Functions", "namespacemembers_func.html", null ],
-        [ "Variables", "namespacemembers_vars.html", null ]
+        [ "Variables", "namespacemembers_vars.html", null ],
+        [ "Typedefs", "namespacemembers_type.html", null ]
       ] ]
     ] ],
     [ "Classes", "annotated.html", [
@@ -91,23 +92,23 @@ var NAVTREEINDEX =
 "_app_demo_gui_8cpp.html",
 "_file_log_8h.html",
 "_s_l_enums_8h.html#a70e4993b9e12800feca0f1059602ea58a98dca78080194c11860111b335ea35dd",
-"_s_l_g_l_o_v_r_workaround_8h.html#a495a2078212e6b5715f637f3b85154c4a7fa8d5268c0671dd3b010c8b65723264",
+"_s_l_g_l_o_v_r_workaround_8h.html#a495a2078212e6b5715f637f3b85154c4a810af640dd65a0345582b37dc6203be3",
 "_s_l_optix_pathtracer_8cpp.html",
-"_utils_8h.html#ad4951854b51e485b0bc21c778ad14c81",
-"class_c_v_image.html",
-"class_s_l_a_a_b_box.html#a6a352b3aff4d2e3f156cea65c32dd6ca",
-"class_s_l_camera.html#a0f5b04057bfe5900db6f8693caa7600e",
-"class_s_l_device_location.html#a4fa9b35e62778e5aa58bc7711cf74b57",
-"class_s_l_g_l_im_gui.html#acca08dee41f0bb704801e80c42052cd3",
-"class_s_l_g_l_state.html#abaa080ab228f730b61876522a1288fba",
-"class_s_l_input_event.html#aa88b00108ecb4633bc34c3b8525d2854acc04866ba0723dae70fb2ec34e4037dc",
-"class_s_l_light_spot.html#ad5aaa80cb4479e795a3c14e0d6fed9b4",
-"class_s_l_node.html#aa48983e00af8fa9c30c287c491aa2dce",
-"class_s_l_ray.html#aee72d21238d3a6867342fa0428ae7941",
-"class_s_l_scene_view.html#a29889aa913b04460aade44bc24404627",
-"class_s_l_text.html#aab289ac9d4709dd7d3f90d83491d78a3",
-"functions_vars_s.html",
-"struct_s_l_nearest_photons.html#a25775788bde0b20656909a303d1ba0ce"
+"_utils_8h.html#ae046b49b33d8efad05c6de92c18a34b2",
+"class_c_v_image.html#aae262f4a7cfa9e80fb3423ecca82fa6c",
+"class_s_l_accel_struct.html#a24e8725f9349066867db4f8fd53e25ab",
+"class_s_l_camera.html#a480ef6d13efe6d1b249b971bf301ebfd",
+"class_s_l_device_location.html#ac059f69be801e064951ddfef570fd0a8",
+"class_s_l_g_l_oculus.html#aa27f62c8162ddd705783242193644e35",
+"class_s_l_g_l_texture.html#a0026ab0fea0896ce074c98093d81f7d2",
+"class_s_l_input_manager.html#afe81b2ddd4ab2732dae6d66eacbd30ad",
+"class_s_l_material.html#a56d6a506aa06b77c34487e2a7814d814",
+"class_s_l_node.html#aef2e979d901bfc83a3a79ff8448aedb0",
+"class_s_l_raytracer.html#a5f53b2d865769084a0c2ef6ea8911111",
+"class_s_l_scene_view.html#a62c960e39aeb4d97355004b17886f10d",
+"class_s_l_transform_node.html#a058f85ed93dfac692ef9056dcef56f2b",
+"functions_vars_t.html",
+"struct_s_l_node_stats.html#a2002d549f2b62962ddfe540bae4605b1"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

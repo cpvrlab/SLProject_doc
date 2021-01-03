@@ -12,7 +12,7 @@
 <!-- Node0 -->
 <g id="node1" class="node">
 <title>Node0</title>
-<g id="a_node1"><a xlink:href="class_s_l_anim_keyframe.html" target="_top" xlink:title="Base class for all animation keyframes.">
+<g id="a_node1"><a xlink:href="class_s_l_anim_keyframe.html" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" xlink:title="Base class for all animation keyframes.">
 <polygon fill="#ffffff" stroke="#000000" points="0,-.5 0,-19.5 94,-19.5 94,-.5 0,-.5"/>
 <text text-anchor="middle" x="47" y="-7.5" font-family="Arial.ttf" font-size="10.00" fill="#000000">SLAnimKeyframe</text>
 </a>
@@ -21,7 +21,7 @@
 <!-- Node1 -->
 <g id="node2" class="node">
 <title>Node1</title>
-<g id="a_node2"><a xlink:href="class_s_l_transform_keyframe.html" target="_top" xlink:title="SLTransformKeyframe is a specialized SLKeyframe for node transformations.">
+<g id="a_node2"><a xlink:href="class_s_l_transform_keyframe.html" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" xlink:title="SLTransformKeyframe is a specialized SLKeyframe for node transformations.">
 <polygon fill="#ffffff" stroke="#000000" points="130,-.5 130,-19.5 247,-19.5 247,-.5 130,-.5"/>
 <text text-anchor="middle" x="188.5" y="-7.5" font-family="Arial.ttf" font-size="10.00" fill="#000000">SLTransformKeyframe</text>
 </a>

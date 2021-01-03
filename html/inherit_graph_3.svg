@@ -21,7 +21,7 @@
 <!-- Node0 -->
 <g id="node2" class="node">
 <title>Node0</title>
-<g id="a_node2"><a xlink:href="class_average_timing.html" target="_top" xlink:title="Singleton timing class for average measurement of different timing blocks in loops.">
+<g id="a_node2"><a xlink:href="class_average_timing.html" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" target="_top" xlink:title="Singleton timing class for average measurement of different timing blocks in loops.">
 <polygon fill="#ffffff" stroke="#000000" points="72,-.5 72,-19.5 156,-19.5 156,-.5 72,-.5"/>
 <text text-anchor="middle" x="114" y="-7.5" font-family="Arial.ttf" font-size="10.00" fill="#000000">AverageTiming</text>
 </a>
