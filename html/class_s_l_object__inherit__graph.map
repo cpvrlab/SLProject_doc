@@ -1,51 +1,50 @@
 <map id="SLObject" name="SLObject">
-<area shape="rect" id="node1" title="Base class for all other classes." alt="" coords="5,233,83,260"/>
-<area shape="rect" id="node2" href="$class_s_l_background.html" title="Defines a 2D&#45;Background for the OpenGL framebuffer background." alt="" coords="139,5,249,32"/>
-<area shape="rect" id="node3" href="$class_s_l_g_l_depth_buffer.html" title=" " alt="" coords="131,56,257,83"/>
-<area shape="rect" id="node4" href="$class_s_l_g_l_program.html" title="Encapsulation of an OpenGL shader program object." alt="" coords="141,107,247,133"/>
-<area shape="rect" id="node7" href="$class_s_l_g_l_shader.html" title="Encapsulation of an OpenGL shader object." alt="" coords="145,157,243,184"/>
-<area shape="rect" id="node8" href="$class_s_l_g_l_texture.html" title="Texture object for OpenGL texturing." alt="" coords="143,208,245,235"/>
-<area shape="rect" id="node14" href="$class_s_l_material.html" title="Defines a standard CG material with textures and a shader program." alt="" coords="151,259,237,285"/>
-<area shape="rect" id="node17" href="$class_s_l_mesh.html" title="An SLMesh object is a triangulated mesh that is drawn with one draw call." alt="" coords="159,563,229,589"/>
-<area shape="rect" id="node37" href="$class_s_l_node.html" title="SLNode represents a node in a hierarchical scene graph." alt="" coords="159,993,229,1020"/>
-<area shape="rect" id="node48" href="$class_s_l_scene.html" title="The SLScene class represents the top level instance holding the scene structure." alt="" coords="156,1044,232,1071"/>
-<area shape="rect" id="node49" href="$class_s_l_scene_view.html" title="SceneView class represents a dynamic real time 3D view onto the scene." alt="" coords="141,1095,247,1121"/>
+<area shape="rect" id="node1" title="Base class for all other classes." alt="" coords="5,284,83,311"/>
+<area shape="rect" id="node2" href="$class_s_l_background.html" title="Defines a 2D&#45;Background for the OpenGL framebuffer background." alt="" coords="139,56,249,83"/>
+<area shape="rect" id="node3" href="$class_s_l_g_l_depth_buffer.html" title=" " alt="" coords="131,107,257,133"/>
+<area shape="rect" id="node4" href="$class_s_l_g_l_program.html" title="Encapsulation of an OpenGL shader program object." alt="" coords="141,157,247,184"/>
+<area shape="rect" id="node7" href="$class_s_l_g_l_shader.html" title="Encapsulation of an OpenGL shader object." alt="" coords="145,208,243,235"/>
+<area shape="rect" id="node8" href="$class_s_l_g_l_texture.html" title="Texture object for OpenGL texturing." alt="" coords="143,259,245,285"/>
+<area shape="rect" id="node14" href="$class_s_l_material.html" title="Defines a standard CG material with textures and a shader program." alt="" coords="151,309,237,336"/>
+<area shape="rect" id="node17" href="$class_s_l_mesh.html" title="An SLMesh object is a triangulated mesh that is drawn with one draw call." alt="" coords="159,613,229,640"/>
+<area shape="rect" id="node36" href="$class_s_l_node.html" title="SLNode represents a node in a hierarchical scene graph." alt="" coords="159,1044,229,1071"/>
+<area shape="rect" id="node47" href="$class_s_l_scene.html" title="The SLScene class represents the top level instance holding the scene structure." alt="" coords="156,1095,232,1121"/>
+<area shape="rect" id="node48" href="$class_s_l_scene_view.html" title="SceneView class represents a dynamic real time 3D view onto the scene." alt="" coords="141,1145,247,1172"/>
 <area shape="rect" id="node5" href="$class_s_l_g_l_program_generated.html" title="Generated Shader Program class inherited from SLGLProgram." alt="" coords="325,5,495,32"/>
 <area shape="rect" id="node6" href="$class_s_l_g_l_program_generic.html" title="Generic Shader Program class inherited from SLGLProgram." alt="" coords="333,56,487,83"/>
-<area shape="rect" id="node9" href="$class_s_l_color_l_u_t.html" title="SLColorLUT defines a lookup table as an 1D texture of (256) RGBA values." alt="" coords="362,107,458,133"/>
+<area shape="rect" id="node9" href="$class_s_l_g_l_texture_i_b_l.html" title="Texture object generated in run time from another texture." alt="" coords="349,107,471,133"/>
 <area shape="rect" id="node10" href="$class_s_l_raytracer.html" title="SLRaytracer hold all the methods for Whitted style Ray Tracing." alt="" coords="362,157,458,184"/>
-<area shape="rect" id="node13" href="$class_s_l_tex_font.html" title="Texture Font class inherits SLGLTexture for alpha blended font rendering." alt="" coords="367,208,453,235"/>
-<area shape="rect" id="node11" href="$class_s_l_pathtracer.html" title="Classic Monte Carlo Pathtracing algorithm for real global illumination." alt="" coords="584,132,684,159"/>
-<area shape="rect" id="node12" href="$class_s_l_photon_mapper.html" title=" " alt="" coords="571,183,697,209"/>
-<area shape="rect" id="node15" href="$class_s_l_material_default_color_attribute.html" title="Global default color attribute material for meshes that have colors per vertex." alt="" coords="305,259,515,285"/>
-<area shape="rect" id="node16" href="$class_s_l_material_default_gray.html" title="Global default gray color material for meshes that don&#39;t define their own." alt="" coords="331,309,489,336"/>
-<area shape="rect" id="node18" href="$class_s_l_box.html" title="Axis aligned box mesh." alt="" coords="379,360,441,387"/>
-<area shape="rect" id="node19" href="$class_s_l_coord_axis.html" title="Axis aligned coordinate axis mesh." alt="" coords="360,411,460,437"/>
-<area shape="rect" id="node20" href="$class_s_l_coord_axis_arrow.html" title="Single arrow for coordinate axis." alt="" coords="343,461,477,488"/>
-<area shape="rect" id="node21" href="$class_s_l_grid.html" title="SLGrid creates a rectangular grid with lines with a certain resolution." alt="" coords="378,512,442,539"/>
-<area shape="rect" id="node22" href="$class_s_l_points.html" title="SLPoints creates." alt="" coords="372,563,448,589"/>
-<area shape="rect" id="node23" href="$class_s_l_polygon.html" title="SLPolygon creates a convex polyon mesh." alt="" coords="367,613,453,640"/>
-<area shape="rect" id="node24" href="$class_s_l_polyline.html" title="SLPolyline creates a polyline object." alt="" coords="367,664,453,691"/>
-<area shape="rect" id="node26" href="$class_s_l_rectangle.html" title="SLRectangle creates a rectangular mesh with a certain resolution." alt="" coords="361,715,459,741"/>
-<area shape="rect" id="node27" href="$class_s_l_revolver.html" title="SLRevolver is an SLMesh object built out of revolving points." alt="" coords="365,765,455,792"/>
-<area shape="rect" id="node36" href="$class_s_l_triangle.html" title="A triangle class as the most simplest mesh." alt="" coords="367,816,453,843"/>
-<area shape="rect" id="node25" href="$class_s_l_circle.html" title=" " alt="" coords="598,563,670,589"/>
-<area shape="rect" id="node28" href="$class_s_l_arrow.html" title="SLArrow is creates an arrow mesh based on its SLRevolver methods." alt="" coords="597,613,671,640"/>
-<area shape="rect" id="node29" href="$class_s_l_cone.html" title="SLCone creates a cone mesh based on SLRevolver." alt="" coords="599,664,669,691"/>
-<area shape="rect" id="node30" href="$class_s_l_cylinder.html" title="SLCylinder is creates sphere mesh based on its SLRevolver methods." alt="" coords="591,715,677,741"/>
-<area shape="rect" id="node31" href="$class_s_l_disk.html" title="SLDisk creates a disk mesh based on SLRevolver." alt="" coords="602,765,666,792"/>
-<area shape="rect" id="node32" href="$class_s_l_lens.html" title="SLLens creates a lens mesh based on SLRevolver." alt="" coords="601,816,667,843"/>
-<area shape="rect" id="node33" href="$class_s_l_spheric.html" title="SLSphere creates a sphere mesh based on SLRevolver." alt="" coords="592,867,676,893"/>
-<area shape="rect" id="node35" href="$class_s_l_volume.html" title="SLSphere creates a sphere mesh based on SLRevolver" alt="" coords="592,917,676,944"/>
-<area shape="rect" id="node34" href="$class_s_l_sphere.html" title="SLSphere creates a sphere mesh based on SLSpheric w. 180 deg polar angle." alt="" coords="753,867,835,893"/>
-<area shape="rect" id="node38" href="$class_s_l_camera.html" title="Active or visible camera node class." alt="" coords="367,867,453,893"/>
-<area shape="rect" id="node40" href="$class_s_l_horizon_node.html" title=" " alt="" coords="352,917,468,944"/>
-<area shape="rect" id="node41" href="$class_s_l_joint.html" title="Specialized SLNode that represents a single joint (or bone) in a skeleton." alt="" coords="377,968,443,995"/>
-<area shape="rect" id="node42" href="$class_s_l_light_direct.html" title="SLLightDirect class for a directional light source." alt="" coords="359,1019,461,1045"/>
-<area shape="rect" id="node43" href="$class_s_l_light_rect.html" title="Light node class for a rectangular light source." alt="" coords="363,1069,457,1096"/>
-<area shape="rect" id="node44" href="$class_s_l_light_spot.html" title="SLLightSpot class for a spot light source." alt="" coords="363,1120,457,1147"/>
-<area shape="rect" id="node45" href="$class_s_l_skybox.html" title="Skybox node class with a SLBox mesh." alt="" coords="369,1171,451,1197"/>
-<area shape="rect" id="node46" href="$class_s_l_text.html" title="SLText creates a mesh using a textured font from SLTexFont." alt="" coords="378,1221,442,1248"/>
-<area shape="rect" id="node47" href="$class_s_l_transform_node.html" title="Class that holds all visible gizmo node during mouse transforms." alt="" coords="345,1272,475,1299"/>
-<area shape="rect" id="node39" href="$class_s_l_keyframe_camera.html" title=" " alt="" coords="563,968,705,995"/>
+<area shape="rect" id="node12" href="$class_s_l_tex_color_l_u_t.html" title="SLTexColorLUT defines a lookup table as an 1D texture of (256) RGBA values." alt="" coords="351,208,469,235"/>
+<area shape="rect" id="node13" href="$class_s_l_tex_font.html" title="Texture Font class inherits SLGLTexture for alpha blended font rendering." alt="" coords="367,259,453,285"/>
+<area shape="rect" id="node11" href="$class_s_l_pathtracer.html" title="Classic Monte Carlo Pathtracing algorithm for real global illumination." alt="" coords="584,157,684,184"/>
+<area shape="rect" id="node15" href="$class_s_l_material_default_color_attribute.html" title="Global default color attribute material for meshes that have colors per vertex." alt="" coords="305,309,515,336"/>
+<area shape="rect" id="node16" href="$class_s_l_material_default_gray.html" title="Global default gray color material for meshes that don&#39;t define their own." alt="" coords="331,360,489,387"/>
+<area shape="rect" id="node18" href="$class_s_l_box.html" title="Axis aligned box mesh." alt="" coords="379,411,441,437"/>
+<area shape="rect" id="node19" href="$class_s_l_coord_axis.html" title="Axis aligned coordinate axis mesh." alt="" coords="360,461,460,488"/>
+<area shape="rect" id="node20" href="$class_s_l_coord_axis_arrow.html" title="Single arrow for coordinate axis." alt="" coords="343,512,477,539"/>
+<area shape="rect" id="node21" href="$class_s_l_grid.html" title="SLGrid creates a rectangular grid with lines with a certain resolution." alt="" coords="378,563,442,589"/>
+<area shape="rect" id="node22" href="$class_s_l_points.html" title="SLPoints creates." alt="" coords="372,613,448,640"/>
+<area shape="rect" id="node23" href="$class_s_l_polygon.html" title="SLPolygon creates a convex polyon mesh." alt="" coords="367,664,453,691"/>
+<area shape="rect" id="node24" href="$class_s_l_polyline.html" title="SLPolyline creates a polyline object." alt="" coords="367,715,453,741"/>
+<area shape="rect" id="node26" href="$class_s_l_rectangle.html" title="SLRectangle creates a rectangular mesh with a certain resolution." alt="" coords="361,765,459,792"/>
+<area shape="rect" id="node27" href="$class_s_l_revolver.html" title="SLRevolver is an SLMesh object built out of revolving points." alt="" coords="365,816,455,843"/>
+<area shape="rect" id="node35" href="$class_s_l_triangle.html" title="A triangle class as the most simplest mesh." alt="" coords="367,867,453,893"/>
+<area shape="rect" id="node25" href="$class_s_l_circle.html" title=" " alt="" coords="598,639,670,665"/>
+<area shape="rect" id="node28" href="$class_s_l_arrow.html" title="SLArrow is creates an arrow mesh based on its SLRevolver methods." alt="" coords="597,689,671,716"/>
+<area shape="rect" id="node29" href="$class_s_l_cone.html" title="SLCone creates a cone mesh based on SLRevolver." alt="" coords="599,740,669,767"/>
+<area shape="rect" id="node30" href="$class_s_l_cylinder.html" title="SLCylinder is creates sphere mesh based on its SLRevolver methods." alt="" coords="591,791,677,817"/>
+<area shape="rect" id="node31" href="$class_s_l_disk.html" title="SLDisk creates a disk mesh based on SLRevolver." alt="" coords="602,841,666,868"/>
+<area shape="rect" id="node32" href="$class_s_l_lens.html" title="SLLens creates a lens mesh based on SLRevolver." alt="" coords="601,892,667,919"/>
+<area shape="rect" id="node33" href="$class_s_l_spheric.html" title="SLSphere creates a sphere mesh based on SLRevolver." alt="" coords="592,943,676,969"/>
+<area shape="rect" id="node34" href="$class_s_l_sphere.html" title="SLSphere creates a sphere mesh based on SLSpheric w. 180 deg polar angle." alt="" coords="753,943,835,969"/>
+<area shape="rect" id="node37" href="$class_s_l_camera.html" title="Active or visible camera node class." alt="" coords="367,917,453,944"/>
+<area shape="rect" id="node39" href="$class_s_l_horizon_node.html" title=" " alt="" coords="352,968,468,995"/>
+<area shape="rect" id="node40" href="$class_s_l_joint.html" title="Specialized SLNode that represents a single joint (or bone) in a skeleton." alt="" coords="377,1019,443,1045"/>
+<area shape="rect" id="node41" href="$class_s_l_light_direct.html" title="SLLightDirect class for a directional light source." alt="" coords="359,1069,461,1096"/>
+<area shape="rect" id="node42" href="$class_s_l_light_rect.html" title="Light node class for a rectangular light source." alt="" coords="363,1120,457,1147"/>
+<area shape="rect" id="node43" href="$class_s_l_light_spot.html" title="SLLightSpot class for a spot light source." alt="" coords="363,1171,457,1197"/>
+<area shape="rect" id="node44" href="$class_s_l_skybox.html" title="Skybox node class with a SLBox mesh." alt="" coords="369,1221,451,1248"/>
+<area shape="rect" id="node45" href="$class_s_l_text.html" title="SLText creates a mesh using a textured font from SLTexFont." alt="" coords="378,1272,442,1299"/>
+<area shape="rect" id="node46" href="$class_s_l_transform_node.html" title="Class that holds all visible gizmo node during mouse transforms." alt="" coords="345,1323,475,1349"/>
+<area shape="rect" id="node38" href="$class_s_l_keyframe_camera.html" title=" " alt="" coords="563,993,705,1020"/>
 </map>

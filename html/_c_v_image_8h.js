@@ -18,6 +18,7 @@ var _c_v_image_8h =
       [ "PF_rgba", "_c_v_image_8h.html#ac47ec6151ecf8b8f0c6aee8084a90fd7a80b1f772ec642655aa03cd2eee310acd", null ],
       [ "PF_bgr", "_c_v_image_8h.html#ac47ec6151ecf8b8f0c6aee8084a90fd7aab3ce2b217d866eba6cea3192dadf409", null ],
       [ "PF_bgra", "_c_v_image_8h.html#ac47ec6151ecf8b8f0c6aee8084a90fd7a7cc018fc72abc78901eb2c158cb3a14c", null ],
+      [ "PF_hdr", "_c_v_image_8h.html#ac47ec6151ecf8b8f0c6aee8084a90fd7ae947ba61740e6076abcc6bb870af3ac1", null ],
       [ "PF_rg_integer", "_c_v_image_8h.html#ac47ec6151ecf8b8f0c6aee8084a90fd7a4a0ff54734c55ec07bce5251d451942d", null ],
       [ "PF_red_integer", "_c_v_image_8h.html#ac47ec6151ecf8b8f0c6aee8084a90fd7ac33ddb89e5e1084537eeee7da4382efa", null ],
       [ "PF_rgb_integer", "_c_v_image_8h.html#ac47ec6151ecf8b8f0c6aee8084a90fd7a03a931fffceb4102b134a2703db6eb84", null ],

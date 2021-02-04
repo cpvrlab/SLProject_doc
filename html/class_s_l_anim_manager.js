@@ -2,7 +2,7 @@ var class_s_l_anim_manager =
 [
     [ "~SLAnimManager", "class_s_l_anim_manager.html#a4ee9b7dfdc3bbe64a9ea97e1b236bf8e", null ],
     [ "addNodeAnimation", "class_s_l_anim_manager.html#a6570097bb26dcd8a47302c3d6143ab98", null ],
-    [ "addSkeleton", "class_s_l_anim_manager.html#a2552dd05de40ad73e1c9bddeb0c2b3be", null ],
+    [ "addSkeleton", "class_s_l_anim_manager.html#a7871b50caaebc492baa500c0e2eb953b", null ],
     [ "allAnimNames", "class_s_l_anim_manager.html#ac3c7917fe649574ea8cc7e239d4409ac", null ],
     [ "allAnimPlayback", "class_s_l_anim_manager.html#a84a7c3f259b4da3c0451f53c817556d7", null ],
     [ "allAnimPlaybacks", "class_s_l_anim_manager.html#a6efcee63ec3ad2fbf0962029692fd7c8", null ],

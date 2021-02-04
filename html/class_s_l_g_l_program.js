@@ -7,6 +7,7 @@ var class_s_l_g_l_program =
     [ "addUniform1i", "class_s_l_g_l_program.html#a845f73fe5c92e729be6eae12d943d570", null ],
     [ "beginShader", "class_s_l_g_l_program.html#a33ac005e6b57d8861dc7efc317a9e4d1", null ],
     [ "beginUse", "class_s_l_g_l_program.html#a7ae05344d931e3a46dedcc1b3d4a6c5e", null ],
+    [ "deleteDataGpu", "class_s_l_g_l_program.html#a0fd0bf545b3c32e52af2494112af0970", null ],
     [ "endShader", "class_s_l_g_l_program.html#ae2424ff1d6b14fd78074bdbcee97acfa", null ],
     [ "endUse", "class_s_l_g_l_program.html#afc01b0765a239eef68b9eb9342983864", null ],
     [ "getUniformLocation", "class_s_l_g_l_program.html#a86cb3b62c8ef9b6c0980206557a1c464", null ],

@@ -1,13 +1,17 @@
 var files_dup =
 [
-    [ "AppDemoGui.cpp", "_app_demo_gui_8cpp.html", "_app_demo_gui_8cpp" ],
-    [ "AppDemoLoad.cpp", "_app_demo_load_8cpp.html", "_app_demo_load_8cpp" ],
-    [ "AppDemoMainGLFW.cpp", "_app_demo_main_g_l_f_w_8cpp.html", "_app_demo_main_g_l_f_w_8cpp" ],
-    [ "AppDemoSceneView.cpp", "_app_demo_scene_view_8cpp.html", null ],
-    [ "AppDemoVideo.cpp", "_app_demo_video_8cpp.html", "_app_demo_video_8cpp" ],
     [ "Averaged.h", "_averaged_8h.html", "_averaged_8h" ],
     [ "AverageTiming.cpp", "_average_timing_8cpp.html", null ],
     [ "AverageTiming.h", "_average_timing_8h.html", "_average_timing_8h" ],
+    [ "BRIEFextractor.cpp", "_b_r_i_e_fextractor_8cpp.html", "_b_r_i_e_fextractor_8cpp" ],
+    [ "BRIEFextractor.h", "_b_r_i_e_fextractor_8h.html", [
+      [ "BRIEFextractor", "class_o_r_b___s_l_a_m2_1_1_b_r_i_e_fextractor.html", "class_o_r_b___s_l_a_m2_1_1_b_r_i_e_fextractor" ]
+    ] ],
+    [ "BRIEFPattern.h", "_b_r_i_e_f_pattern_8h.html", "_b_r_i_e_f_pattern_8h" ],
+    [ "Converter.cpp", "_converter_8cpp.html", null ],
+    [ "Converter.h", "_converter_8h.html", [
+      [ "Converter", "class_o_r_b___s_l_a_m2_1_1_converter.html", "class_o_r_b___s_l_a_m2_1_1_converter" ]
+    ] ],
     [ "CustomLog.h", "_custom_log_8h.html", [
       [ "CustomLog", "class_utils_1_1_custom_log.html", "class_utils_1_1_custom_log" ]
     ] ],
@@ -61,6 +65,14 @@ var files_dup =
     ] ],
     [ "CVTypedefs.h", "_c_v_typedefs_8h.html", "_c_v_typedefs_8h" ],
     [ "CVTypes.h", "_c_v_types_8h.html", "_c_v_types_8h" ],
+    [ "ExtractorNode.cpp", "_extractor_node_8cpp.html", null ],
+    [ "ExtractorNode.h", "_extractor_node_8h.html", [
+      [ "ExtractorNode", "class_o_r_b___s_l_a_m2_1_1_extractor_node.html", "class_o_r_b___s_l_a_m2_1_1_extractor_node" ]
+    ] ],
+    [ "F2FTransform.cpp", "_f2_f_transform_8cpp.html", null ],
+    [ "F2FTransform.h", "_f2_f_transform_8h.html", [
+      [ "F2FTransform", "class_f2_f_transform.html", "class_f2_f_transform" ]
+    ] ],
     [ "FileLog.cpp", "_file_log_8cpp.html", null ],
     [ "FileLog.h", "_file_log_8h.html", [
       [ "FileLog", "class_utils_1_1_file_log.html", "class_utils_1_1_file_log" ]
@@ -76,7 +88,48 @@ var files_dup =
     [ "HighResTimer.h", "_high_res_timer_8h.html", "_high_res_timer_8h" ],
     [ "HttpUtils.cpp", "_http_utils_8cpp.html", "_http_utils_8cpp" ],
     [ "HttpUtils.h", "_http_utils_8h.html", "_http_utils_8h" ],
+    [ "Initializer.cpp", "_initializer_8cpp.html", null ],
+    [ "Initializer.h", "_initializer_8h.html", [
+      [ "Initializer", "class_o_r_b___s_l_a_m2_1_1_initializer.html", "class_o_r_b___s_l_a_m2_1_1_initializer" ]
+    ] ],
     [ "Instrumentor.h", "_instrumentor_8h.html", "_instrumentor_8h" ],
+    [ "KPextractor.h", "_k_pextractor_8h.html", [
+      [ "KPextractor", "class_o_r_b___s_l_a_m2_1_1_k_pextractor.html", "class_o_r_b___s_l_a_m2_1_1_k_pextractor" ]
+    ] ],
+    [ "LocalMap.h", "_local_map_8h.html", [
+      [ "LocalMap", "struct_local_map.html", "struct_local_map" ]
+    ] ],
+    [ "LocalMapping.cpp", "_local_mapping_8cpp.html", null ],
+    [ "LocalMapping.h", "_local_mapping_8h.html", [
+      [ "LocalMapping", "class_o_r_b___s_l_a_m2_1_1_local_mapping.html", "class_o_r_b___s_l_a_m2_1_1_local_mapping" ]
+    ] ],
+    [ "LoopClosing.cpp", "_loop_closing_8cpp.html", null ],
+    [ "LoopClosing.h", "_loop_closing_8h.html", [
+      [ "LoopClosing", "class_o_r_b___s_l_a_m2_1_1_loop_closing.html", "class_o_r_b___s_l_a_m2_1_1_loop_closing" ]
+    ] ],
+    [ "Optimizer.cpp", "_optimizer_8cpp.html", "_optimizer_8cpp" ],
+    [ "Optimizer.h", "_optimizer_8h.html", [
+      [ "OptimizerStruct", "struct_o_r_b___s_l_a_m2_1_1_optimizer_struct.html", "struct_o_r_b___s_l_a_m2_1_1_optimizer_struct" ],
+      [ "Optimizer", "class_o_r_b___s_l_a_m2_1_1_optimizer.html", "class_o_r_b___s_l_a_m2_1_1_optimizer" ]
+    ] ],
+    [ "ORBextractor.cpp", "_o_r_bextractor_8cpp.html", "_o_r_bextractor_8cpp" ],
+    [ "ORBextractor.h", "_o_r_bextractor_8h.html", [
+      [ "ORBextractor", "class_o_r_b___s_l_a_m2_1_1_o_r_bextractor.html", "class_o_r_b___s_l_a_m2_1_1_o_r_bextractor" ]
+    ] ],
+    [ "ORBmatcher.cpp", "_o_r_bmatcher_8cpp.html", null ],
+    [ "ORBmatcher.h", "_o_r_bmatcher_8h.html", [
+      [ "ORBmatcher", "class_o_r_b___s_l_a_m2_1_1_o_r_bmatcher.html", "class_o_r_b___s_l_a_m2_1_1_o_r_bmatcher" ]
+    ] ],
+    [ "ORBVocabulary.h", "_o_r_b_vocabulary_8h.html", "_o_r_b_vocabulary_8h" ],
+    [ "PnPsolver.cpp", "_pn_psolver_8cpp.html", null ],
+    [ "PnPsolver.h", "_pn_psolver_8h.html", [
+      [ "PnPsolver", "class_o_r_b___s_l_a_m2_1_1_pn_psolver.html", "class_o_r_b___s_l_a_m2_1_1_pn_psolver" ]
+    ] ],
+    [ "QuaternionTest.cpp", "_quaternion_test_8cpp.html", "_quaternion_test_8cpp" ],
+    [ "Sim3Solver.cpp", "_sim3_solver_8cpp.html", null ],
+    [ "Sim3Solver.h", "_sim3_solver_8h.html", [
+      [ "Sim3Solver", "class_o_r_b___s_l_a_m2_1_1_sim3_solver.html", "class_o_r_b___s_l_a_m2_1_1_sim3_solver" ]
+    ] ],
     [ "SL.h", "_s_l_8h.html", "_s_l_8h" ],
     [ "SLAABBox.cpp", "_s_l_a_a_b_box_8cpp.html", null ],
     [ "SLAABBox.h", "_s_l_a_a_b_box_8h.html", [
@@ -85,6 +138,8 @@ var files_dup =
     [ "SLAccelStruct.h", "_s_l_accel_struct_8h.html", [
       [ "SLAccelStruct", "class_s_l_accel_struct.html", "class_s_l_accel_struct" ]
     ] ],
+    [ "SLAlgo.cpp", "_s_l_algo_8cpp.html", "_s_l_algo_8cpp" ],
+    [ "SLAlgo.h", "_s_l_algo_8h.html", "_s_l_algo_8h" ],
     [ "SLAnimation.cpp", "_s_l_animation_8cpp.html", null ],
     [ "SLAnimation.h", "_s_l_animation_8h.html", "_s_l_animation_8h" ],
     [ "SLAnimKeyframe.cpp", "_s_l_anim_keyframe_8cpp.html", null ],
@@ -95,6 +150,8 @@ var files_dup =
     ] ],
     [ "SLAnimPlayback.cpp", "_s_l_anim_playback_8cpp.html", null ],
     [ "SLAnimPlayback.h", "_s_l_anim_playback_8h.html", "_s_l_anim_playback_8h" ],
+    [ "SLAnimSkeleton.cpp", "_s_l_anim_skeleton_8cpp.html", null ],
+    [ "SLAnimSkeleton.h", "_s_l_anim_skeleton_8h.html", "_s_l_anim_skeleton_8h" ],
     [ "SLAnimTrack.cpp", "_s_l_anim_track_8cpp.html", null ],
     [ "SLAnimTrack.h", "_s_l_anim_track_8h.html", "_s_l_anim_track_8h" ],
     [ "SLArrow.h", "_s_l_arrow_8h.html", [
@@ -126,8 +183,6 @@ var files_dup =
     [ "SLCircle.h", "_s_l_circle_8h.html", [
       [ "SLCircle", "class_s_l_circle.html", "class_s_l_circle" ]
     ] ],
-    [ "SLColorLUT.cpp", "_s_l_color_l_u_t_8cpp.html", null ],
-    [ "SLColorLUT.h", "_s_l_color_l_u_t_8h.html", "_s_l_color_l_u_t_8h" ],
     [ "SLCompactGrid.cpp", "_s_l_compact_grid_8cpp.html", null ],
     [ "SLCompactGrid.h", "_s_l_compact_grid_8h.html", "_s_l_compact_grid_8h" ],
     [ "SLCone.cpp", "_s_l_cone_8cpp.html", null ],
@@ -142,7 +197,9 @@ var files_dup =
     [ "SLCoordAxisArrow.h", "_s_l_coord_axis_arrow_8h.html", [
       [ "SLCoordAxisArrow", "class_s_l_coord_axis_arrow.html", "class_s_l_coord_axis_arrow" ]
     ] ],
-    [ "SLCudaBuffer.h", "_s_l_cuda_buffer_8h.html", null ],
+    [ "SLCurve.h", "_s_l_curve_8h.html", [
+      [ "SLCurve", "class_s_l_curve.html", "class_s_l_curve" ]
+    ] ],
     [ "SLCurveBezier.cpp", "_s_l_curve_bezier_8cpp.html", null ],
     [ "SLCurveBezier.h", "_s_l_curve_bezier_8h.html", [
       [ "SLCurveBezier", "class_s_l_curve_bezier.html", "class_s_l_curve_bezier" ]
@@ -181,6 +238,10 @@ var files_dup =
     [ "SLGLFbo.h", "_s_l_g_l_fbo_8h.html", [
       [ "SLGLFbo", "class_s_l_g_l_fbo.html", "class_s_l_g_l_fbo" ]
     ] ],
+    [ "SLGLFrameBuffer.cpp", "_s_l_g_l_frame_buffer_8cpp.html", null ],
+    [ "SLGLFrameBuffer.h", "_s_l_g_l_frame_buffer_8h.html", [
+      [ "SLGLFrameBuffer", "class_s_l_g_l_frame_buffer.html", "class_s_l_g_l_frame_buffer" ]
+    ] ],
     [ "SLGLImGui.cpp", "_s_l_g_l_im_gui_8cpp.html", "_s_l_g_l_im_gui_8cpp" ],
     [ "SLGLImGui.h", "_s_l_g_l_im_gui_8h.html", "_s_l_g_l_im_gui_8h" ],
     [ "SLGLOculus.cpp", "_s_l_g_l_oculus_8cpp.html", null ],
@@ -209,6 +270,10 @@ var files_dup =
     [ "SLGLState.h", "_s_l_g_l_state_8h.html", "_s_l_g_l_state_8h" ],
     [ "SLGLTexture.cpp", "_s_l_g_l_texture_8cpp.html", null ],
     [ "SLGLTexture.h", "_s_l_g_l_texture_8h.html", "_s_l_g_l_texture_8h" ],
+    [ "SLGLTextureIBL.cpp", "_s_l_g_l_texture_i_b_l_8cpp.html", null ],
+    [ "SLGLTextureIBL.h", "_s_l_g_l_texture_i_b_l_8h.html", [
+      [ "SLGLTextureIBL", "class_s_l_g_l_texture_i_b_l.html", "class_s_l_g_l_texture_i_b_l" ]
+    ] ],
     [ "SLGLUniform.h", "_s_l_g_l_uniform_8h.html", "_s_l_g_l_uniform_8h" ],
     [ "SLGLVertexArray.cpp", "_s_l_g_l_vertex_array_8cpp.html", null ],
     [ "SLGLVertexArray.h", "_s_l_g_l_vertex_array_8h.html", [
@@ -243,10 +308,6 @@ var files_dup =
     ] ],
     [ "SLJoint.cpp", "_s_l_joint_8cpp.html", null ],
     [ "SLJoint.h", "_s_l_joint_8h.html", "_s_l_joint_8h" ],
-    [ "SLKDNode.h", "_s_l_k_d_node_8h.html", "_s_l_k_d_node_8h" ],
-    [ "SLKDTree.h", "_s_l_k_d_tree_8h.html", [
-      [ "SLKDTree", "class_s_l_k_d_tree.html", "class_s_l_k_d_tree" ]
-    ] ],
     [ "SLKeyframeCamera.cpp", "_s_l_keyframe_camera_8cpp.html", null ],
     [ "SLKeyframeCamera.h", "_s_l_keyframe_camera_8h.html", [
       [ "SLKeyframeCamera", "class_s_l_keyframe_camera.html", "class_s_l_keyframe_camera" ]
@@ -269,8 +330,11 @@ var files_dup =
     [ "SLLightSpot.h", "_s_l_light_spot_8h.html", [
       [ "SLLightSpot", "class_s_l_light_spot.html", "class_s_l_light_spot" ]
     ] ],
+    [ "SLMat3.h", "_s_l_mat3_8h.html", "_s_l_mat3_8h" ],
+    [ "SLMat4.h", "_s_l_mat4_8h.html", "_s_l_mat4_8h" ],
     [ "SLMaterial.cpp", "_s_l_material_8cpp.html", null ],
     [ "SLMaterial.h", "_s_l_material_8h.html", "_s_l_material_8h" ],
+    [ "SLMath.h", "_s_l_math_8h.html", "_s_l_math_8h" ],
     [ "SLMesh.cpp", "_s_l_mesh_8cpp.html", null ],
     [ "SLMesh.h", "_s_l_mesh_8h.html", "_s_l_mesh_8h" ],
     [ "SLNode.cpp", "_s_l_node_8cpp.html", null ],
@@ -282,6 +346,7 @@ var files_dup =
     [ "SLOptix.h", "_s_l_optix_8h.html", null ],
     [ "SLOptixAccelStruct.cpp", "_s_l_optix_accel_struct_8cpp.html", null ],
     [ "SLOptixAccelStruct.h", "_s_l_optix_accel_struct_8h.html", null ],
+    [ "SLOptixCudaBuffer.h", "_s_l_optix_cuda_buffer_8h.html", null ],
     [ "SLOptixDefinitions.h", "_s_l_optix_definitions_8h.html", null ],
     [ "SLOptixHelper.cpp", "_s_l_optix_helper_8cpp.html", null ],
     [ "SLOptixHelper.h", "_s_l_optix_helper_8h.html", null ],
@@ -289,13 +354,15 @@ var files_dup =
     [ "SLOptixPathtracer.h", "_s_l_optix_pathtracer_8h.html", null ],
     [ "SLOptixRaytracer.cpp", "_s_l_optix_raytracer_8cpp.html", null ],
     [ "SLOptixRaytracer.h", "_s_l_optix_raytracer_8h.html", null ],
-    [ "SLParallel.h", "_s_l_parallel_8h.html", "_s_l_parallel_8h" ],
+    [ "SLOptixVectorMath.h", "_s_l_optix_vector_math_8h.html", "_s_l_optix_vector_math_8h" ],
     [ "SLPathtracer.cpp", "_s_l_pathtracer_8cpp.html", "_s_l_pathtracer_8cpp" ],
     [ "SLPathtracer.h", "_s_l_pathtracer_8h.html", [
       [ "SLPathtracer", "class_s_l_pathtracer.html", "class_s_l_pathtracer" ]
     ] ],
-    [ "SLPhotonMap.h", "_s_l_photon_map_8h.html", "_s_l_photon_map_8h" ],
-    [ "SLPhotonMapper.h", "_s_l_photon_mapper_8h.html", "_s_l_photon_mapper_8h" ],
+    [ "SLPlane.cpp", "_s_l_plane_8cpp.html", null ],
+    [ "SLPlane.h", "_s_l_plane_8h.html", [
+      [ "SLPlane", "class_s_l_plane.html", "class_s_l_plane" ]
+    ] ],
     [ "SLPoints.cpp", "_s_l_points_8cpp.html", null ],
     [ "SLPoints.h", "_s_l_points_8h.html", [
       [ "SLPoints", "class_s_l_points.html", "class_s_l_points" ]
@@ -307,10 +374,15 @@ var files_dup =
     [ "SLPolyline.h", "_s_l_polyline_8h.html", [
       [ "SLPolyline", "class_s_l_polyline.html", "class_s_l_polyline" ]
     ] ],
+    [ "SLQuat4.h", "_s_l_quat4_8h.html", "_s_l_quat4_8h" ],
     [ "SLRay.cpp", "_s_l_ray_8cpp.html", "_s_l_ray_8cpp" ],
     [ "SLRay.h", "_s_l_ray_8h.html", "_s_l_ray_8h" ],
     [ "SLRayMC.cpp", "_s_l_ray_m_c_8cpp.html", null ],
     [ "SLRayMC.h", "_s_l_ray_m_c_8h.html", "_s_l_ray_m_c_8h" ],
+    [ "SLRaySamples2D.cpp", "_s_l_ray_samples2_d_8cpp.html", null ],
+    [ "SLRaySamples2D.h", "_s_l_ray_samples2_d_8h.html", [
+      [ "SLRaySamples2D", "class_s_l_ray_samples2_d.html", "class_s_l_ray_samples2_d" ]
+    ] ],
     [ "SLRaytracer.cpp", "_s_l_raytracer_8cpp.html", null ],
     [ "SLRaytracer.h", "_s_l_raytracer_8h.html", "_s_l_raytracer_8h" ],
     [ "SLRect.h", "_s_l_rect_8h.html", "_s_l_rect_8h" ],
@@ -327,10 +399,6 @@ var files_dup =
       [ "SLRnd3fNormal", "class_s_l_rnd3f_normal.html", "class_s_l_rnd3f_normal" ],
       [ "SLRnd3fUniform", "class_s_l_rnd3f_uniform.html", "class_s_l_rnd3f_uniform" ]
     ] ],
-    [ "SLSamples2D.cpp", "_s_l_samples2_d_8cpp.html", null ],
-    [ "SLSamples2D.h", "_s_l_samples2_d_8h.html", [
-      [ "SLSamples2D", "class_s_l_samples2_d.html", "class_s_l_samples2_d" ]
-    ] ],
     [ "SLScene.cpp", "_s_l_scene_8cpp.html", null ],
     [ "SLScene.h", "_s_l_scene_8h.html", "_s_l_scene_8h" ],
     [ "SLSceneView.cpp", "_s_l_scene_view_8cpp.html", null ],
@@ -339,8 +407,6 @@ var files_dup =
     [ "SLShadowMap.h", "_s_l_shadow_map_8h.html", [
       [ "SLShadowMap", "class_s_l_shadow_map.html", "class_s_l_shadow_map" ]
     ] ],
-    [ "SLSkeleton.cpp", "_s_l_skeleton_8cpp.html", null ],
-    [ "SLSkeleton.h", "_s_l_skeleton_8h.html", "_s_l_skeleton_8h" ],
     [ "SLSkybox.cpp", "_s_l_skybox_8cpp.html", null ],
     [ "SLSkybox.h", "_s_l_skybox_8h.html", [
       [ "SLSkybox", "class_s_l_skybox.html", "class_s_l_skybox" ]
@@ -352,6 +418,8 @@ var files_dup =
     [ "SLSpheric.h", "_s_l_spheric_8h.html", [
       [ "SLSpheric", "class_s_l_spheric.html", "class_s_l_spheric" ]
     ] ],
+    [ "SLTexColorLUT.cpp", "_s_l_tex_color_l_u_t_8cpp.html", null ],
+    [ "SLTexColorLUT.h", "_s_l_tex_color_l_u_t_8h.html", "_s_l_tex_color_l_u_t_8h" ],
     [ "SLTexFont.cpp", "_s_l_tex_font_8cpp.html", null ],
     [ "SLTexFont.h", "_s_l_tex_font_8h.html", [
       [ "SLTexFont", "class_s_l_tex_font.html", "class_s_l_tex_font" ],
@@ -370,17 +438,67 @@ var files_dup =
     [ "SLUiInterface.h", "_s_l_ui_interface_8h.html", [
       [ "SLUiInterface", "class_s_l_ui_interface.html", "class_s_l_ui_interface" ]
     ] ],
-    [ "SLUniformGrid.cpp", "_s_l_uniform_grid_8cpp.html", null ],
-    [ "SLUniformGrid.h", "_s_l_uniform_grid_8h.html", "_s_l_uniform_grid_8h" ],
-    [ "SLVolume.h", "_s_l_volume_8h.html", [
-      [ "SLVolume", "class_s_l_volume.html", "class_s_l_volume" ]
+    [ "SLVec2.h", "_s_l_vec2_8h.html", "_s_l_vec2_8h" ],
+    [ "SLVec3.h", "_s_l_vec3_8h.html", "_s_l_vec3_8h" ],
+    [ "SLVec4.h", "_s_l_vec4_8h.html", "_s_l_vec4_8h" ],
+    [ "SLVector.h", "_s_l_vector_8h.html", "_s_l_vector_8h" ],
+    [ "SURFextractor.cpp", "_s_u_r_fextractor_8cpp.html", "_s_u_r_fextractor_8cpp" ],
+    [ "SURFextractor.h", "_s_u_r_fextractor_8h.html", [
+      [ "SURFextractor", "class_o_r_b___s_l_a_m2_1_1_s_u_r_fextractor.html", "class_o_r_b___s_l_a_m2_1_1_s_u_r_fextractor" ]
     ] ],
-    [ "stdafx.h", "stdafx_8h.html", "stdafx_8h" ],
-    [ "TriangleBoxIntersect.h", "_triangle_box_intersect_8h.html", "_triangle_box_intersect_8h" ],
     [ "Utils.cpp", "_utils_8cpp.html", "_utils_8cpp" ],
     [ "Utils.h", "_utils_8h.html", "_utils_8h" ],
     [ "Utils_iOS.h", "_utils__i_o_s_8h.html", [
       [ "Utils_iOS", "class_utils__i_o_s.html", "class_utils__i_o_s" ]
+    ] ],
+    [ "WAICompassAlignment.cpp", "_w_a_i_compass_alignment_8cpp.html", null ],
+    [ "WAICompassAlignment.h", "_w_a_i_compass_alignment_8h.html", [
+      [ "WAICompassAlignment", "class_w_a_i_compass_alignment.html", "class_w_a_i_compass_alignment" ],
+      [ "Template", "struct_w_a_i_compass_alignment_1_1_template.html", "struct_w_a_i_compass_alignment_1_1_template" ]
+    ] ],
+    [ "WAIFrame.cpp", "_w_a_i_frame_8cpp.html", null ],
+    [ "WAIFrame.h", "_w_a_i_frame_8h.html", "_w_a_i_frame_8h" ],
+    [ "WAIHelper.cpp", "_w_a_i_helper_8cpp.html", null ],
+    [ "WAIHelper.h", "_w_a_i_helper_8h.html", "_w_a_i_helper_8h" ],
+    [ "WAIImageStabilizedOrientation.cpp", "_w_a_i_image_stabilized_orientation_8cpp.html", null ],
+    [ "WAIImageStabilizedOrientation.h", "_w_a_i_image_stabilized_orientation_8h.html", [
+      [ "WAIImageStabilizedOrientation", "class_w_a_i_image_stabilized_orientation.html", "class_w_a_i_image_stabilized_orientation" ]
+    ] ],
+    [ "WAIInterface.cpp", "_w_a_i_interface_8cpp.html", "_w_a_i_interface_8cpp" ],
+    [ "WAIKeyFrame.cpp", "_w_a_i_key_frame_8cpp.html", null ],
+    [ "WAIKeyFrame.h", "_w_a_i_key_frame_8h.html", [
+      [ "WAIKeyFrame", "class_w_a_i_key_frame.html", "class_w_a_i_key_frame" ]
+    ] ],
+    [ "WAIKeyFrameDB.cpp", "_w_a_i_key_frame_d_b_8cpp.html", null ],
+    [ "WAIKeyFrameDB.h", "_w_a_i_key_frame_d_b_8h.html", [
+      [ "WAIKeyFrameDB", "class_w_a_i_key_frame_d_b.html", "class_w_a_i_key_frame_d_b" ]
+    ] ],
+    [ "WAIMap.cpp", "_w_a_i_map_8cpp.html", null ],
+    [ "WAIMap.h", "_w_a_i_map_8h.html", [
+      [ "WAIMap", "class_w_a_i_map.html", "class_w_a_i_map" ]
+    ] ],
+    [ "WAIMapPoint.cpp", "_w_a_i_map_point_8cpp.html", null ],
+    [ "WAIMapPoint.h", "_w_a_i_map_point_8h.html", "_w_a_i_map_point_8h" ],
+    [ "WAIMath.h", "_w_a_i_math_8h.html", "_w_a_i_math_8h" ],
+    [ "WAIModeOrbSlam2.cpp", "_w_a_i_mode_orb_slam2_8cpp.html", null ],
+    [ "WAIModeOrbSlam2.h", "_w_a_i_mode_orb_slam2_8h.html", "_w_a_i_mode_orb_slam2_8h" ],
+    [ "WAIOrbVocabulary.cpp", "_w_a_i_orb_vocabulary_8cpp.html", null ],
+    [ "WAIOrbVocabulary.h", "_w_a_i_orb_vocabulary_8h.html", "_w_a_i_orb_vocabulary_8h" ],
+    [ "WAISlam.cpp", "_w_a_i_slam_8cpp.html", "_w_a_i_slam_8cpp" ],
+    [ "WAISlam.h", "_w_a_i_slam_8h.html", [
+      [ "WAISlam", "class_w_a_i_slam.html", "class_w_a_i_slam" ],
+      [ "Params", "struct_w_a_i_slam_1_1_params.html", "struct_w_a_i_slam_1_1_params" ]
+    ] ],
+    [ "WAISlamTools.cpp", "_w_a_i_slam_tools_8cpp.html", "_w_a_i_slam_tools_8cpp" ],
+    [ "WAISlamTools.h", "_w_a_i_slam_tools_8h.html", "_w_a_i_slam_tools_8h" ],
+    [ "WAISlamTrackPool.cpp", "_w_a_i_slam_track_pool_8cpp.html", null ],
+    [ "WAISlamTrackPool.h", "_w_a_i_slam_track_pool_8h.html", [
+      [ "WAISlamTrackPool", "class_w_a_i_slam_track_pool.html", "class_w_a_i_slam_track_pool" ],
+      [ "Params", "struct_w_a_i_slam_track_pool_1_1_params.html", "struct_w_a_i_slam_track_pool_1_1_params" ]
+    ] ],
+    [ "WorkingSet.cpp", "_working_set_8cpp.html", null ],
+    [ "WorkingSet.h", "_working_set_8h.html", [
+      [ "WorkingSet", "struct_working_set.html", "struct_working_set" ]
     ] ],
     [ "ZipUtils.cpp", "_zip_utils_8cpp.html", "_zip_utils_8cpp" ],
     [ "ZipUtils.h", "_zip_utils_8h.html", "_zip_utils_8h" ]

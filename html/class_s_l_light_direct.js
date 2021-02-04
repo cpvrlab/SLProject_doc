@@ -20,11 +20,11 @@ var class_s_l_light_direct =
     [ "specular", "class_s_l_light_direct.html#a60c5f508f4f405bbf9ab5aa24e74edc5", null ],
     [ "spotDirWS", "class_s_l_light_direct.html#a78434212506ef19295e53c50c7c2e9e3", null ],
     [ "statsRec", "class_s_l_light_direct.html#afb9cbc46e8be9d21354ba126374f4118", null ],
-    [ "sunLightColorLUT", "class_s_l_light_direct.html#a3060e5198ea797fa933d2c50360cb4fd", null ],
+    [ "sunLightColorLUT", "class_s_l_light_direct.html#af6fba93bd00c249a46b7015beb236d70", null ],
     [ "sunLightPowerMin", "class_s_l_light_direct.html#a1cb3af814752673bf929ad30eb070460", null ],
     [ "_arrowLength", "class_s_l_light_direct.html#a9a16eb2b29af246c48b5e3383398f2b7", null ],
     [ "_arrowRadius", "class_s_l_light_direct.html#aa419209975f1b43c505f14bd0401e199", null ],
     [ "_doSunPowerAdaptation", "class_s_l_light_direct.html#a0f8131853f797f9feeefcdac4988d395", null ],
-    [ "_sunLightColorLUT", "class_s_l_light_direct.html#a998fe3188f67a34f9845607f14ace4de", null ],
+    [ "_sunLightColorLUT", "class_s_l_light_direct.html#ae3bb74c3a3d7ea7eb3e14897fef710c1", null ],
     [ "_sunLightPowerMin", "class_s_l_light_direct.html#a560475daaa90f1acef64054c0188a6f1", null ]
 ];

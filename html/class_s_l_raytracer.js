@@ -18,7 +18,7 @@ var class_s_l_raytracer =
     [ "initStats", "class_s_l_raytracer.html#acd3966335c761d756bee9f6402e04772", null ],
     [ "maxDepth", "class_s_l_raytracer.html#a1162fce9476aecbe20507367c7913a1e", null ],
     [ "maxDepth", "class_s_l_raytracer.html#aabb10d38929bf4729b51a079773ee55c", null ],
-    [ "numThreads", "class_s_l_raytracer.html#a609382857767dc71978d9a0b6916f683", null ],
+    [ "numThreads", "class_s_l_raytracer.html#a89569234fd977405dfe117782415daaa", null ],
     [ "oneOverGamma", "class_s_l_raytracer.html#a92bd77ed19111d8307bea40fdd1b32e4", null ],
     [ "prepareImage", "class_s_l_raytracer.html#a1b592f9b1ba8291735cb34f79a65a67b", null ],
     [ "printStats", "class_s_l_raytracer.html#a5f53b2d865769084a0c2ef6ea8911111", null ],

@@ -1,0 +1,8 @@
+<map id="SENSCameraBase" name="SENSCameraBase">
+<area shape="rect" id="node1" title="Implementation of common functionality and members." alt="" coords="240,80,376,107"/>
+<area shape="rect" id="node3" href="$class_s_e_n_si_o_s_camera.html" title=" " alt="" coords="5,155,133,181"/>
+<area shape="rect" id="node4" href="$class_s_e_n_s_ndk_camera.html" title=" " alt="" coords="158,155,287,181"/>
+<area shape="rect" id="node5" href="$class_s_e_n_s_simulated_camera.html" title=" " alt="" coords="312,155,477,181"/>
+<area shape="rect" id="node6" href="$class_s_e_n_s_web_camera.html" title=" " alt="" coords="501,155,635,181"/>
+<area shape="rect" id="node2" href="$class_s_e_n_s_camera.html" title="Pure abstract camera class." alt="" coords="255,5,361,32"/>
+</map>

@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_s_l_vec2.html" title=" " alt="" coords="5,5,127,32"/>
+<area shape="rect" id="node1" href="$class_s_l_ui_interface.html" title="Interface for ui integration in SLSceneView." alt="" coords="5,5,108,32"/>
+<area shape="rect" id="node2" href="$class_s_l_g_l_im_gui.html" title="ImGui Interface class for forwarding all events to the ImGui Handlers." alt="" coords="156,5,248,32"/>
 </map>

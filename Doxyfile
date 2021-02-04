@@ -844,11 +844,12 @@ WARN_LOGFILE           = GenerateHTMLDoc.log
 # spaces. See also FILE_PATTERNS and EXTENSION_MAPPING
 # Note: If this tag is empty the current directory is searched.
 
-INPUT                  = ../lib-SLProject/source \
-                         ../lib-SLProject/include \
+INPUT                  = ../modules/sl/source \
+                         ../modules/wai/source \
+                         ../modules/utils/source \
+                         ../modules/math/source \
                          ../apps/app-Demo-SLProject/source \
                          ../apps/app-Demo-SLProject/GLFW \
-                         ../externals/utils/lib-Utils/source \
                          SLProject.md \
                          Introduction.md \
                          onPaint.md \
@@ -897,17 +898,7 @@ RECURSIVE              = YES
 # Note that relative paths are relative to the directory from which doxygen is
 # run.
 
-EXCLUDE                = ../include/SLGLOVRWorkaround.h \
-                         ../include/SLParallel.h \
-                         ../include/stdafx.h \
-                         ../include/SLKDNode.h \
-                         ../include/SLKDTree.h \
-                         ../include/SLPhotonMap.h \
-                         ../include/SLPhotonMapper.h \
-                         ../lib-SLProject/source/SLKDTree.cpp \
-                         ../lib-SLProject/source/SLPhotonMapper.cpp \
-                         ../lib-SLProject/source/SL/stdafx.cpp \
-                         ../lib-SLProject/source/SLPhotonMap.cpp
+EXCLUDE                = ../modules/sl/_old
 
 # The EXCLUDE_SYMLINKS tag can be used to select whether or not files or
 # directories that are symbolic links (a Unix file system feature) are excluded

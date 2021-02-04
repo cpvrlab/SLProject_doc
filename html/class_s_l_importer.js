@@ -11,7 +11,7 @@ var class_s_l_importer =
     [ "meshes", "class_s_l_importer.html#ae8150b29bdd26fad87c407e06b9c3a30", null ],
     [ "nodeAnimations", "class_s_l_importer.html#abebc7a4f5139ef67ef7101cdbb960303", null ],
     [ "rootNode", "class_s_l_importer.html#a01a1a48a8115379207ae32608867b4cd", null ],
-    [ "skeleton", "class_s_l_importer.html#a32f34c5be6ede4994e35a0bca28597b0", null ],
+    [ "skeleton", "class_s_l_importer.html#a576e81973e58ac8b0be19c4ef4053875", null ],
     [ "_log", "class_s_l_importer.html#af036022c9a5cba86ef5719e2b4d5e733", null ],
     [ "_logConsoleVerbosity", "class_s_l_importer.html#a58117075c5882fa663f921a5f5324042", null ],
     [ "_logFile", "class_s_l_importer.html#afb593fa9f2ac6253c0f94c89ce6f77e2", null ],
@@ -19,5 +19,5 @@ var class_s_l_importer =
     [ "_meshes", "class_s_l_importer.html#a621a817470e3893c47b06dcfd8c5ce3e", null ],
     [ "_nodeAnimations", "class_s_l_importer.html#a16a34dbf3553ae97a1260cdb0b50e2ac", null ],
     [ "_sceneRoot", "class_s_l_importer.html#ad207f4c9e98788c3c7aa6220dde74de4", null ],
-    [ "_skeleton", "class_s_l_importer.html#aa219e9e4a761421efbdc9166a67e3a20", null ]
+    [ "_skeleton", "class_s_l_importer.html#a0f490a91e8e4c8860aeb89282778cf73", null ]
 ];

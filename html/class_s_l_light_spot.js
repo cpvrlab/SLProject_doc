@@ -19,5 +19,5 @@ var class_s_l_light_spot =
     [ "spotDirWS", "class_s_l_light_spot.html#a0f1d2fb474afce49b52ccb0266d15d32", null ],
     [ "statsRec", "class_s_l_light_spot.html#aaf2b67f814b2eec7b0c856caa3660b24", null ],
     [ "_radius", "class_s_l_light_spot.html#ad6ddc3d9917766c98b4f36d7b6e98e90", null ],
-    [ "_samples", "class_s_l_light_spot.html#ade7979bc9053c45eeb718eb27d8c86cc", null ]
+    [ "_samples", "class_s_l_light_spot.html#a282d9b3875ce0e601d667452d4ca8d60", null ]
 ];

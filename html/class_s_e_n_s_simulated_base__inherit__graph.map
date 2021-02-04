@@ -1,0 +1,10 @@
+<map id="SENSSimulatedBase" name="SENSSimulatedBase">
+<area shape="rect" id="node1" title=" " alt="" coords="5,85,153,112"/>
+<area shape="rect" id="node2" href="$class_s_e_n_s_simulated.html" title=" " alt="" coords="242,5,391,32"/>
+<area shape="rect" id="node3" href="$class_s_e_n_s_simulated.html" title=" " alt="" coords="239,56,394,83"/>
+<area shape="rect" id="node5" href="$class_s_e_n_s_simulated.html" title=" " alt="" coords="222,107,411,149"/>
+<area shape="rect" id="node7" href="$class_s_e_n_s_simulated.html" title=" " alt="" coords="201,173,432,214"/>
+<area shape="rect" id="node4" href="$class_s_e_n_s_simulated_camera.html" title=" " alt="" coords="489,56,654,83"/>
+<area shape="rect" id="node6" href="$class_s_e_n_s_simulated_gps.html" title=" " alt="" coords="500,115,643,141"/>
+<area shape="rect" id="node8" href="$class_s_e_n_s_simulated_orientation.html" title=" " alt="" coords="480,180,663,207"/>
+</map>

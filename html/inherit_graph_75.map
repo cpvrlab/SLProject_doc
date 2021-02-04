@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$struct_s_l_node_stats.html" title="Struct for scene graph statistics." alt="" coords="5,5,105,32"/>
+<area shape="rect" id="node1" href="$class_s_l_importer.html" title="Interface for 3D file format importer implementations." alt="" coords="5,5,93,32"/>
+<area shape="rect" id="node2" href="$class_s_l_assimp_importer.html" title="Small class interface into the AssImp library for importing 3D assets." alt="" coords="141,5,273,32"/>
 </map>

@@ -1,7 +1,7 @@
 var class_s_l_joint =
 [
-    [ "SLJoint", "class_s_l_joint.html#a26bb40db9ca535dc86b269e445d06e57", null ],
-    [ "SLJoint", "class_s_l_joint.html#a929bd4119d076aec92d05d1fc3535f17", null ],
+    [ "SLJoint", "class_s_l_joint.html#a35bfc047a6fd2d05b861f4ed722b72c5", null ],
+    [ "SLJoint", "class_s_l_joint.html#a998f09c4d1b8dd4989732920ff58d7f3", null ],
     [ "calcFinalMat", "class_s_l_joint.html#a01754c9c304418cbda10a3056164226e", null ],
     [ "calcMaxRadius", "class_s_l_joint.html#a75c1bf2dcccee7b66a161b899ca66177", null ],
     [ "createChild", "class_s_l_joint.html#af4b82d6631e878928b90873915e13e7b", null ],
@@ -14,5 +14,5 @@ var class_s_l_joint =
     [ "_id", "class_s_l_joint.html#af18e0d68ddc0b6fa4c74b5229397366c", null ],
     [ "_offsetMat", "class_s_l_joint.html#a3df46d598bd6c906ce0252a1b61dd966", null ],
     [ "_radius", "class_s_l_joint.html#af19188af1709d8a07e7ee4975213ad8f", null ],
-    [ "_skeleton", "class_s_l_joint.html#ae11d97b119e7355b8e2d27d9d74988e2", null ]
+    [ "_skeleton", "class_s_l_joint.html#a51a770349ee335eec97fb1df81aa1d4a", null ]
 ];

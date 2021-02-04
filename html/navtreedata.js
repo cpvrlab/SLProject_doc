@@ -55,7 +55,9 @@ var NAVTREE =
         [ "All", "namespacemembers.html", null ],
         [ "Functions", "namespacemembers_func.html", null ],
         [ "Variables", "namespacemembers_vars.html", null ],
-        [ "Typedefs", "namespacemembers_type.html", null ]
+        [ "Typedefs", "namespacemembers_type.html", null ],
+        [ "Enumerations", "namespacemembers_enum.html", null ],
+        [ "Enumerator", "namespacemembers_eval.html", null ]
       ] ]
     ] ],
     [ "Classes", "annotated.html", [
@@ -76,9 +78,9 @@ var NAVTREE =
       [ "File List", "files.html", "files_dup" ],
       [ "File Members", "globals.html", [
         [ "All", "globals.html", "globals_dup" ],
-        [ "Functions", "globals_func.html", null ],
+        [ "Functions", "globals_func.html", "globals_func" ],
         [ "Variables", "globals_vars.html", null ],
-        [ "Typedefs", "globals_type.html", null ],
+        [ "Typedefs", "globals_type.html", "globals_type" ],
         [ "Enumerations", "globals_enum.html", null ],
         [ "Enumerator", "globals_eval.html", "globals_eval" ],
         [ "Macros", "globals_defs.html", null ]
@@ -89,26 +91,35 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_app_demo_gui_8cpp.html",
-"_file_log_8h.html",
-"_s_l_enums_8h.html#a70e4993b9e12800feca0f1059602ea58a98dca78080194c11860111b335ea35dd",
-"_s_l_g_l_o_v_r_workaround_8h.html#a495a2078212e6b5715f637f3b85154c4a810af640dd65a0345582b37dc6203be3",
-"_s_l_optix_pathtracer_8cpp.html",
-"_utils_8h.html#ae046b49b33d8efad05c6de92c18a34b2",
-"class_c_v_image.html#aae262f4a7cfa9e80fb3423ecca82fa6c",
-"class_s_l_accel_struct.html#a24e8725f9349066867db4f8fd53e25ab",
-"class_s_l_camera.html#a480ef6d13efe6d1b249b971bf301ebfd",
-"class_s_l_device_location.html#ac059f69be801e064951ddfef570fd0a8",
-"class_s_l_g_l_oculus.html#aa27f62c8162ddd705783242193644e35",
-"class_s_l_g_l_texture.html#a0026ab0fea0896ce074c98093d81f7d2",
-"class_s_l_input_manager.html#afe81b2ddd4ab2732dae6d66eacbd30ad",
-"class_s_l_material.html#a56d6a506aa06b77c34487e2a7814d814",
-"class_s_l_node.html#aef2e979d901bfc83a3a79ff8448aedb0",
-"class_s_l_raytracer.html#a5f53b2d865769084a0c2ef6ea8911111",
-"class_s_l_scene_view.html#a62c960e39aeb4d97355004b17886f10d",
-"class_s_l_transform_node.html#a058f85ed93dfac692ef9056dcef56f2b",
-"functions_vars_t.html",
-"struct_s_l_node_stats.html#a2002d549f2b62962ddfe540bae4605b1"
+"_average_timing_8cpp.html",
+"_o_r_bextractor_8h.html",
+"_s_l_enums_8h.html#aa268f3d6cecb0f9d46f75e84897673b2",
+"_s_l_g_l_o_v_r_workaround_8h.html#aad4b8d1b44738cb717f1fd4f4298dc6ba6970ff9fa21863206f67558251dcf814",
+"_s_l_math_8h.html#acc7599c3806601eb3c65d1a95802d5b3",
+"_s_l_optix_vector_math_8h.html#a7e554ada842ee0bfeef5f69dbb2077b3",
+"_s_l_ray_8h.html#ae91cd3303629843fb1c44fe36b50a390a549fe49108cc2db68ebe9757a50154d2",
+"_utils_8h.html#af1c107f9c5ec17df1821adb5ac19d10b",
+"class_c_v_calibration_estimator.html#ac5400fef5df4ad6ec7321461d5fff5f8aac21d502848247aa2f578d0f718f5d1d",
+"class_c_v_tracked_features.html#ad8eea9b4b2b1d5fc60b91efc314ab134",
+"class_o_r_b___s_l_a_m2_1_1_loop_closing.html#a3a6ee85b38f2ff2bc5cb2a5d71cb6261af8f511a9406c2af9adc1b3ffb6b6ce9f",
+"class_s_l_a_a_b_box.html#a14c359c10873bc51186877fea9f5c78f",
+"class_s_l_assimp_importer.html#ad53315ba1386b95a375bd5d16b5596ac",
+"class_s_l_curve_bezier.html#a1aa43be8aba9fd06d0ef9f73f398d98d",
+"class_s_l_g_l_fbo.html#a7548cf338c975a696623b3b2d5837cff",
+"class_s_l_g_l_state.html#a03b1c59d6c226da7c3160ceedfbcd640",
+"class_s_l_g_l_vertex_buffer.html",
+"class_s_l_light_direct.html#a0de32bab5d13e26304720eaa681bd780",
+"class_s_l_material.html#a87cf0399784a41dbe514238957921766",
+"class_s_l_node.html#afc6e8bc4543cc51736a7bdddbfcaa53b",
+"class_s_l_raytracer.html#a1c570779a35b0d517dbae112d8075ee7",
+"class_s_l_scene_view.html#a6152818741476db70a80d553d154a292",
+"class_s_l_transform_node.html#a3107d09733aec1ff28254219101525a7",
+"class_s_l_vec4.html#a497cfbae9297cf99d2334efde4bdbd6f",
+"class_w_a_i_1_1_mode_orb_slam2.html#aa45d75081f0d423e20eda34cf1ecffc3",
+"class_w_a_i_key_frame.html#ada2170c489abfbbdc790322f2f24f0e0",
+"class_w_a_i_slam_tools.html#a16117dbc2d281be3464577c1b26b70c8",
+"md__introduction.html#material",
+"struct_w_a_i_map_point_coordinate.html#af88fbc9383afe6e6245b642cb54e2e87"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

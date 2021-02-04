@@ -47,7 +47,7 @@ var class_s_l_vec2 =
     [ "sub", "class_s_l_vec2.html#a169bcebda20572084f778478c46e2021", null ],
     [ "toPolar", "class_s_l_vec2.html#a7bd34c91d3608794e9bd3c2155e6612c", null ],
     [ "operator*", "class_s_l_vec2.html#a2fc9204c2f18745182545437f9a80360", null ],
-    [ "operator<<", "class_s_l_vec2.html#af035c8090b53a87ca7c6f1634eeb4b23", null ],
+    [ "operator<<", "class_s_l_vec2.html#ae012ffd7ae0ebaf65ef77511ecc790de", null ],
     [ "comp", "class_s_l_vec2.html#a0f8619a6320a0b2f83bb8147d59734be", null ],
     [ "x", "class_s_l_vec2.html#ac54377d5a9468a64673ff693019742a6", null ],
     [ "y", "class_s_l_vec2.html#a7c647c7314ddedf6a6e5a03a315df710", null ],

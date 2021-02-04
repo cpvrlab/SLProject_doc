@@ -2,8 +2,10 @@ var class_s_l_asset_manager =
 [
     [ "~SLAssetManager", "class_s_l_asset_manager.html#a7b1bfb9915b58633f67d463e12c70e4a", null ],
     [ "clear", "class_s_l_asset_manager.html#a33f43f66a62b81e3e621d543fc1739c2", null ],
-    [ "getProgramByName", "class_s_l_asset_manager.html#a9683720598e1a2ff34f9f16c499d0e46", null ],
+    [ "deleteDataGpu", "class_s_l_asset_manager.html#ac11be1626272739942d7971da57878aa", null ],
+    [ "getProgramByName", "class_s_l_asset_manager.html#aa38d4117c4be56f100c61e41a0e666f5", null ],
     [ "materials", "class_s_l_asset_manager.html#aedb4aba2674215814db24b592f3bf460", null ],
+    [ "merge", "class_s_l_asset_manager.html#aa8e91a35f42e7c02b479bd87250b759e", null ],
     [ "meshes", "class_s_l_asset_manager.html#a1c0c02d5e80aac404fcbc47dc9ded860", null ],
     [ "programs", "class_s_l_asset_manager.html#a86265e44bc704fcbc53118a0b967b34d", null ],
     [ "removeMesh", "class_s_l_asset_manager.html#a20e1e2ecbdad25352588fd88efabb908", null ],
