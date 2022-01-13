@@ -2,6 +2,8 @@ var class_s_l_event_handler =
 [
     [ "SLEventHandler", "class_s_l_event_handler.html#aef33686d40836d8aa70486094f9f9f4d", null ],
     [ "~SLEventHandler", "class_s_l_event_handler.html#a1243ee08702e9daca3dc27a521b14a4f", null ],
+    [ "mouseRotationFactor", "class_s_l_event_handler.html#af8cb1e0e06a8e8c738cc0b88127cc18a", null ],
+    [ "mouseRotationFactor", "class_s_l_event_handler.html#ae81eb7f0300431c2a78acb9d7ce3798e", null ],
     [ "onDoubleClick", "class_s_l_event_handler.html#abf8906eb78b2a010d2153808e1af31f7", null ],
     [ "onKeyPress", "class_s_l_event_handler.html#a426cd7aa2f2984d593093606b63c603a", null ],
     [ "onKeyRelease", "class_s_l_event_handler.html#a1361219db4d359fd52497762fba0aa88", null ],
@@ -13,6 +15,9 @@ var class_s_l_event_handler =
     [ "onTouch2Down", "class_s_l_event_handler.html#adde9a70f90458b3d75d3ee17bae75da3", null ],
     [ "onTouch2Move", "class_s_l_event_handler.html#ad3ba5841522796b77804bd7358f39b17", null ],
     [ "onTouch2Up", "class_s_l_event_handler.html#a2cf9657e83373dc77900343a7c40b1a2", null ],
-    [ "_dPos", "class_s_l_event_handler.html#ae89ec3f2bf780158654704c6a82d67f7", null ],
-    [ "_rotFactor", "class_s_l_event_handler.html#aa8dce05c6f99698a4badcfa887755251", null ]
+    [ "onTouch3Down", "class_s_l_event_handler.html#a67c17da5fc36925037da1e1f96608dc7", null ],
+    [ "onTouch3Move", "class_s_l_event_handler.html#a01a6f21f7009bd48ac71275cd209c2ca", null ],
+    [ "onTouch3Up", "class_s_l_event_handler.html#a260528dd1ffac92da82e19cb1ae0087d", null ],
+    [ "_keyboardDeltaPos", "class_s_l_event_handler.html#a40d2ad25d397319d0b6775f1e4111c03", null ],
+    [ "_mouseRotationFactor", "class_s_l_event_handler.html#a5fdc1c5518a3754265d30d40ba94d474", null ]
 ];

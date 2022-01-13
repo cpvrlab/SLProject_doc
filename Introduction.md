@@ -31,10 +31,10 @@ There are 5 code sections in an SLProject application:
 <br><br>
 \section diagram Class Diagram
 <p>
-The following class diagram gives you an overview of the major classes with its important variables and methods:
+The following class diagram gives you an overview of the major classes with its important attributes and methods:
 <ul>
-    <li>The <b>grey boxes</b> on top contain the application code that depend on the OS and do the GUI, the scene assembly and the video processing.</li>
-    <li>The <b>light blue classes</b> are the central classes with the top-level instances of SLApplication and SLInputManager. The core classes for the scene are SLScene and SLSceneView.</li>
+    <li>The <b>gray boxes</b> on top contain the application code that depend on the OS and do the GUI, the scene assembly and the video processing.</li>
+    <li>The <b>light blue classes</b> are the central classes with the top-level instances of SLAssetManager and SLInputManager. The core classes for the scene are SLScene and SLSceneView.</li>
    <li>The <b>dark blue classes</b> are the alternative renderers for ray tracing and path tracing.</li>
     <li>The <b>yellow classes</b> define the materials that are responsible for the visual appearances of the mesh objects.</li>
     <li>The <b>green classes</b> build the scene graph that defines the spacial structure of the visible objects.</li>
@@ -84,7 +84,7 @@ The applications code (grey boxes at the top of the diagram) contains the code f
     <li>
         SLInterface.h and SLInterface.cpp define the C-Interface of the SLProject library.
         We use a C-interface because this type can be called from any higher level language.
-        The SLInterface talks only to the SLApplication, SLScene and SLSceneView classes.
+        The SLInterface talks only to the SLInputManager, SLScene and SLSceneView classes.
     </li>
 </ul>
 </p>
@@ -94,7 +94,7 @@ The applications code (grey boxes at the top of the diagram) contains the code f
 The light blue classes form the center of the SLProject framework:
 <ul>
     <li>
-        The SLApplication holds static instances of top-level items such as the input manager, the scene pointer and the device rotation and location information.
+        SLAssetManager holds the expensive resources such as meshes, materials, textures and shader programs in vectors.
     </li>
     <li>
         SLInputManager collects all user events from the mouse and keyboard as well as from additional input devices such as a LeapMotion or Kinect sensor.
@@ -121,6 +121,9 @@ A node can be transformed (translated, rotated and scaled) in 3D-space.
     <li>
         SLLightDirect, SLLightSpot and SLLightRect are from SLNode derived and define lights 
         that can be placed and directed in space.
+    </li>
+    <li>
+        SLNodeLOD implements the level of detail functionality.
     </li>
     <li>
         SLCamera that defines the view to the scene. The scene can have multiple cameras
@@ -168,6 +171,9 @@ in the OpenGL shading language (GLSL).
     </li>
     <li>
         SLGLProgram defines a shader program with at least one vertex and one fragment shader program.
+    </li>
+    <li>
+        SLGLProgramGenerated implements the automatic GLSL shader generation based on the material parameters, the lights and if shadow mapping is used.
     </li>
     <li>
         SLGLShader defines a vertex or fragment shader where the source code is read from a file.
@@ -270,6 +276,6 @@ that can be used as a texture on an objects material or as the scenes background
 
 <p>
 Authors: marcus.hudritsch@bfh.ch<br>
-Date: February 2018<br>
-Copyright (c): 2002-2018 Marcus Hudritsch, Kirchrain 18, 2572 Sutz, Switzerland
+Date: January 2022<br>
+Copyright (c): 2002-2022 Marcus Hudritsch, Kirchrain 18, 2572 Sutz, Switzerland
 </p>

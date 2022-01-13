@@ -7,7 +7,7 @@ var class_s_l_pathtracer =
     [ "calcIndirect", "class_s_l_pathtracer.html#a37bcc25ed2095cc0c0762da9d1bbc3e9", null ],
     [ "calcIndirect", "class_s_l_pathtracer.html#a7d60c75049d01d2ff651c6dce2c8cbeb", null ],
     [ "render", "class_s_l_pathtracer.html#a1eef41926cb6f15859a39da313491cd8", null ],
-    [ "renderSlices", "class_s_l_pathtracer.html#a8825b211567e5ef9c78d4f32c3716095", null ],
+    [ "renderSlices", "class_s_l_pathtracer.html#a7c43fa38cc01b15e3d9a9e8d22dfd02b", null ],
     [ "saveImage", "class_s_l_pathtracer.html#aa6df4c7a35fef51bc5b14966f78b5dc1", null ],
     [ "shade", "class_s_l_pathtracer.html#a1e6e5a50ac305f1b7c41ecfd8eddfd51", null ],
     [ "trace", "class_s_l_pathtracer.html#aef6276a667cde8c51c9b3679543ad694", null ],

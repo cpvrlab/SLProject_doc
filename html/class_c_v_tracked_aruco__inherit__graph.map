@@ -1,4 +1,4 @@
 <map id="CVTrackedAruco" name="CVTrackedAruco">
-<area shape="rect" id="node1" title="OpenCV ArUco marker tracker class derived from CVTracked." alt="" coords="5,79,128,104"/>
-<area shape="rect" id="node2" href="$class_c_v_tracked.html" title="CVTracked is the pure virtual base class for tracking features in video." alt="" coords="23,5,110,31"/>
+<area shape="rect" id="node1" title="OpenCV ArUco marker tracker class derived from CVTracked." alt="" coords="5,80,128,107"/>
+<area shape="rect" id="node2" href="$class_c_v_tracked.html" title="CVTracked is the pure virtual base class for tracking features in video." alt="" coords="23,5,111,32"/>
 </map>

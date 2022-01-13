@@ -1,16 +1,13 @@
 <map id="WAIFrame.h" name="WAIFrame.h">
-<area shape="rect" id="node1" title=" " alt="" coords="657,5,754,32"/>
-<area shape="rect" id="node2" href="$_w_a_i_helper_8h.html" title=" " alt="" coords="407,304,505,331"/>
-<area shape="rect" id="node5" title=" " alt="" coords="779,304,925,331"/>
-<area shape="rect" id="node6" href="$_w_a_i_orb_vocabulary_8h.html" title=" " alt="" coords="213,80,360,107"/>
-<area shape="rect" id="node10" href="$_o_r_bextractor_8h.html" title=" " alt="" coords="619,80,791,107"/>
-<area shape="rect" id="node11" title=" " alt="" coords="961,304,1020,331"/>
-<area shape="rect" id="node3" title=" " alt="" coords="381,379,446,405"/>
-<area shape="rect" id="node4" title=" " alt="" coords="470,379,527,405"/>
-<area shape="rect" id="node7" title=" " alt="" coords="177,155,231,181"/>
-<area shape="rect" id="node8" title=" " alt="" coords="256,155,317,181"/>
-<area shape="rect" id="node9" title=" " alt="" coords="5,155,152,181"/>
-<area shape="rect" id="node12" title=" " alt="" coords="657,304,695,331"/>
-<area shape="rect" id="node13" href="$_k_pextractor_8h.html" title=" " alt="" coords="595,229,757,256"/>
-<area shape="rect" id="node14" href="$_extractor_node_8h.html" title=" " alt="" coords="681,155,858,181"/>
+<area shape="rect" id="node1" title=" " alt="" coords="261,5,356,32"/>
+<area shape="rect" id="node2" href="$_w_a_i_helper_8h.html" title=" " alt="" coords="33,155,129,181"/>
+<area shape="rect" id="node5" title=" " alt="" coords="71,80,213,107"/>
+<area shape="rect" id="node6" href="$_w_a_i_orb_vocabulary_8h.html" title=" " alt="" coords="237,80,380,107"/>
+<area shape="rect" id="node10" title=" " alt="" coords="405,80,575,107"/>
+<area shape="rect" id="node11" title=" " alt="" coords="599,80,658,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,229,71,256"/>
+<area shape="rect" id="node4" title=" " alt="" coords="95,229,152,256"/>
+<area shape="rect" id="node7" title=" " alt="" coords="200,155,255,181"/>
+<area shape="rect" id="node8" title=" " alt="" coords="279,155,339,181"/>
+<area shape="rect" id="node9" title=" " alt="" coords="363,155,505,181"/>
 </map>

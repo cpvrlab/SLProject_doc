@@ -16,14 +16,19 @@ var _s_l_g_l_texture_8h =
       [ "TT_normal", "_s_l_g_l_texture_8h.html#a0a528bf535c89d9227e20b41e9135bcca98778527b6a8bbe38811d0d5346cac80", null ],
       [ "TT_height", "_s_l_g_l_texture_8h.html#a0a528bf535c89d9227e20b41e9135bcca247a81e56ae7acb5cf0bb9cabd69dce8", null ],
       [ "TT_specular", "_s_l_g_l_texture_8h.html#a0a528bf535c89d9227e20b41e9135bcca7a6fa40d21d4b0558b3d37ba20d12a1a", null ],
-      [ "TT_ambientOcclusion", "_s_l_g_l_texture_8h.html#a0a528bf535c89d9227e20b41e9135bcca84d3acb5f47913f47514a8dbcd184159", null ],
+      [ "TT_emissive", "_s_l_g_l_texture_8h.html#a0a528bf535c89d9227e20b41e9135bccada130117da7755956cf0d564fb5e99d9", null ],
+      [ "TT_occlusion", "_s_l_g_l_texture_8h.html#a0a528bf535c89d9227e20b41e9135bccad1915506dbacf1fdf92d810c9d7baff4", null ],
       [ "TT_roughness", "_s_l_g_l_texture_8h.html#a0a528bf535c89d9227e20b41e9135bcca74bc269097b363373fa656f6a48b83e8", null ],
       [ "TT_metallic", "_s_l_g_l_texture_8h.html#a0a528bf535c89d9227e20b41e9135bcca35163b5ad4f06616bd6260c8067397f3", null ],
+      [ "TT_roughMetal", "_s_l_g_l_texture_8h.html#a0a528bf535c89d9227e20b41e9135bcca7076e7223ed199fe12dc4df33dd3f6fd", null ],
+      [ "TT_occluRoughMetal", "_s_l_g_l_texture_8h.html#a0a528bf535c89d9227e20b41e9135bcca178b9d37cad960c71c92a85478cb7198", null ],
       [ "TT_font", "_s_l_g_l_texture_8h.html#a0a528bf535c89d9227e20b41e9135bccafda2a0dbf519f7d2b7b21939c51495ca", null ],
       [ "TT_hdr", "_s_l_g_l_texture_8h.html#a0a528bf535c89d9227e20b41e9135bccad88ed665d381541073936a2e61a26643", null ],
       [ "TT_environmentCubemap", "_s_l_g_l_texture_8h.html#a0a528bf535c89d9227e20b41e9135bcca4ebdc88753bd2547412515ee08976205", null ],
       [ "TT_irradianceCubemap", "_s_l_g_l_texture_8h.html#a0a528bf535c89d9227e20b41e9135bcca3ee1277c4bc9851fb4c56c100bf3485b", null ],
       [ "TT_roughnessCubemap", "_s_l_g_l_texture_8h.html#a0a528bf535c89d9227e20b41e9135bcca62aa66d69b0a4658097b6819bf5619f0", null ],
-      [ "TT_brdfLUT", "_s_l_g_l_texture_8h.html#a0a528bf535c89d9227e20b41e9135bcca1fe38b92686ddeb30a64cc2dffdde822", null ]
+      [ "TT_brdfLUT", "_s_l_g_l_texture_8h.html#a0a528bf535c89d9227e20b41e9135bcca1fe38b92686ddeb30a64cc2dffdde822", null ],
+      [ "TT_videoBkgd", "_s_l_g_l_texture_8h.html#a0a528bf535c89d9227e20b41e9135bcca2981b9b3f9b56ae55e44c7959f7adc2b", null ],
+      [ "TT_numTextureType", "_s_l_g_l_texture_8h.html#a0a528bf535c89d9227e20b41e9135bcca7f5b11a6455ee1e6d7746f3c98a98e70", null ]
     ] ]
 ];

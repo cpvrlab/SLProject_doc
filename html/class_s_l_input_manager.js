@@ -7,6 +7,5 @@ var class_s_l_input_manager =
     [ "queueEvent", "class_s_l_input_manager.html#af2bc553afaa7d1c43bf965720bcd63c5", null ],
     [ "SLInputDevice", "class_s_l_input_manager.html#a9a8cf2b44f1c2ff8b4dd3e18c87c7212", null ],
     [ "_devices", "class_s_l_input_manager.html#a397816818c23e7667854e1012cc913ac", null ],
-    [ "_queueMutex", "class_s_l_input_manager.html#afe81b2ddd4ab2732dae6d66eacbd30ad", null ],
     [ "_systemEvents", "class_s_l_input_manager.html#a91be5bf7589491941c723bb1755a6e78", null ]
 ];

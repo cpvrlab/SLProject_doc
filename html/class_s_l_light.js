@@ -11,7 +11,8 @@ var class_s_l_light =
     [ "ambientPower", "class_s_l_light.html#a6ff9c766f1448a238a6e331b5bcc31cb", null ],
     [ "attenuation", "class_s_l_light.html#ae9449ad5ace2f80031e0ed5060dc2d18", null ],
     [ "attenuation", "class_s_l_light.html#a1ebcb61ad38641a51fd35855be6b2ebe", null ],
-    [ "createShadowMap", "class_s_l_light.html#a61556b7c9d36d982fd64fc0b37b664af", null ],
+    [ "createShadowMap", "class_s_l_light.html#a93170fbb344d2c052b85bc15a33e87b1", null ],
+    [ "createShadowMapAutoSize", "class_s_l_light.html#a9c5ae3e9f8bbb74469dad207269313c2", null ],
     [ "createsShadows", "class_s_l_light.html#a259c15f599b326ed2f168d09d97588b3", null ],
     [ "createsShadows", "class_s_l_light.html#a3149141616f5e2c9270478fb87ad1d5e", null ],
     [ "diffuse", "class_s_l_light.html#ab88cd04103b79071da5bbf85b2991e5d", null ],
@@ -19,6 +20,7 @@ var class_s_l_light =
     [ "diffuseColor", "class_s_l_light.html#ad0c1f412f2f9d4720e818c63481c5550", null ],
     [ "diffusePower", "class_s_l_light.html#a3375ec1614be666badc1a00f3f6ab5c0", null ],
     [ "diffusePower", "class_s_l_light.html#ad034628409603bf94da5307214ce17c6", null ],
+    [ "doCascadedShadows", "class_s_l_light.html#a2b5dcca36eb6581a9de44d75ee2008d7", null ],
     [ "doSmoothShadows", "class_s_l_light.html#a7eedb27bb93e83bbae6eed31bdbf6c01", null ],
     [ "doSoftShadows", "class_s_l_light.html#a3b41d5fc4ff6eaaca5733fa58976fbb7", null ],
     [ "id", "class_s_l_light.html#afbe0f27f5977e9254df82ce89c67e066", null ],
@@ -78,6 +80,7 @@ var class_s_l_light =
     [ "_spotCosCutOffRAD", "class_s_l_light.html#ad1737192a41686b7cb7d65e6482e39ac", null ],
     [ "_spotCutOffDEG", "class_s_l_light.html#aba4b500ada18016ca421b5367fd74a85", null ],
     [ "_spotExponent", "class_s_l_light.html#aa24b6e229c3425687a01c0fa227f03bc", null ],
+    [ "doColoredShadows", "class_s_l_light.html#a674b0a264b37dd24a8408a5f4cc1b9b2", null ],
     [ "gamma", "class_s_l_light.html#a2da6bb621275c1cb32934f0b89d4686c", null ],
     [ "globalAmbient", "class_s_l_light.html#a6a851c8469c73f2080411dfe34397abb", null ]
 ];

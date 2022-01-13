@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SLProject
-   &#160;<span id="projectnumber">3.1.0</span>
+   &#160;<span id="projectnumber">3.2.0</span>
    </div>
   </td>
  </tr>
@@ -69,12 +69,14 @@ $(document).ready(function(){initNavTree('_app_demo_load_8cpp.html',''); initRes
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="_global_timer_8h.html">GlobalTimer.h</a>&gt;</code><br />
 <code>#include &lt;CVCapture.h&gt;</code><br />
-<code>#include &lt;<a class="el" href="_c_v_tracked_aruco_8h.html">CVTrackedAruco.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_c_v_tracked_chessboard_8h.html">CVTrackedChessboard.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_c_v_tracked_faces_8h.html">CVTrackedFaces.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_c_v_tracked_features_8h.html">CVTrackedFeatures.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_c_v_calibration_estimator_8h.html">CVCalibrationEstimator.h</a>&gt;</code><br />
-<code>#include &lt;SLApplication.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="_c_v_tracked_aruco_8h.html">cv/CVTrackedAruco.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_c_v_tracked_chessboard_8h.html">cv/CVTrackedChessboard.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_c_v_tracked_faces_8h.html">cv/CVTrackedFaces.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_c_v_tracked_features_8h.html">cv/CVTrackedFeatures.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_c_v_calibration_estimator_8h.html">cv/CVCalibrationEstimator.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_s_l_algo_8h.html">SLAlgo.h</a>&gt;</code><br />
+<code>#include &lt;AppDemo.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="_s_l_asset_manager_8h.html">SLAssetManager.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_s_l_assimp_importer_8h.html">SLAssimpImporter.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_s_l_scene_8h.html">SLScene.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_s_l_scene_view_8h.html">SLSceneView.h</a>&gt;</code><br />
@@ -94,32 +96,33 @@ $(document).ready(function(){initNavTree('_app_demo_load_8cpp.html',''); initRes
 <code>#include &lt;<a class="el" href="_s_l_skybox_8h.html">SLSkybox.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_s_l_sphere_8h.html">SLSphere.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_s_l_text_8h.html">SLText.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_s_l_color_l_u_t_8h.html">SLColorLUT.h</a>&gt;</code><br />
-<code>#include &lt;SLProjectScene.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="_s_l_tex_color_l_u_t_8h.html">SLTexColorLUT.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_s_l_g_l_program_manager_8h.html">SLGLProgramManager.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_instrumentor_8h.html">Instrumentor.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_s_l_arrow_8h.html">SLArrow.h</a>&gt;</code><br />
-<code>#include &lt;AppDemoGui.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="_s_l_g_l_texture_8h.html">SLGLTexture.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_profiler_8h.html">Profiler.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_app_demo_gui_8h.html">AppDemoGui.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_s_l_device_location_8h.html">SLDeviceLocation.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_s_l_node_l_o_d_8h.html">SLNodeLOD.h</a>&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for AppDemoLoad.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="_app_demo_load_8cpp__incl.svg" width="4079" height="411"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="_app_demo_load_8cpp__incl.svg" width="4038" height="486"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ab63c8c20e113b804fcc8af75530adf04"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_s_l_node.html">SLNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_app_demo_load_8cpp.html#ab63c8c20e113b804fcc8af75530adf04">SphereGroupRT</a> (SLProjectScene *s, <a class="el" href="_s_l_8h.html#affe860856ed283b0bac8c21583fb0ea5">SLint</a> depth, <a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a> x, <a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a> y, <a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a> z, <a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a> scale, <a class="el" href="_s_l_8h.html#a44d61aad4f3be0082c963feb065af080">SLuint</a> resolution, <a class="el" href="class_s_l_material.html">SLMaterial</a> *matGlass, <a class="el" href="class_s_l_material.html">SLMaterial</a> *matRed)</td></tr>
-<tr class="memdesc:ab63c8c20e113b804fcc8af75530adf04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a recursive sphere group used for the ray tracing scenes.  <a href="_app_demo_load_8cpp.html#ab63c8c20e113b804fcc8af75530adf04">More...</a><br /></td></tr>
-<tr class="separator:ab63c8c20e113b804fcc8af75530adf04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abdc01131fe5eb5a7d43a2b4ee9662885"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_s_l_node.html">SLNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_app_demo_load_8cpp.html#abdc01131fe5eb5a7d43a2b4ee9662885">RotatingSphereGroup</a> (SLProjectScene *s, <a class="el" href="_s_l_8h.html#affe860856ed283b0bac8c21583fb0ea5">SLint</a> depth, <a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a> x, <a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a> y, <a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a> z, <a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a> scale, <a class="el" href="_s_l_8h.html#a44d61aad4f3be0082c963feb065af080">SLuint</a> resolution, <a class="el" href="_s_l_material_8h.html#aaa77b8e4468133abadf42b70900b0272">SLVMaterial</a> &amp;mat)</td></tr>
-<tr class="memdesc:abdc01131fe5eb5a7d43a2b4ee9662885"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a recursive rotating sphere group used for performance test.  <a href="_app_demo_load_8cpp.html#abdc01131fe5eb5a7d43a2b4ee9662885">More...</a><br /></td></tr>
-<tr class="separator:abdc01131fe5eb5a7d43a2b4ee9662885"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a754a05edfedca2c9d82f28852cc3e04d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_s_l_node.html">SLNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_app_demo_load_8cpp.html#a754a05edfedca2c9d82f28852cc3e04d">BuildFigureGroup</a> (SLProjectScene *s, <a class="el" href="class_s_l_material.html">SLMaterial</a> *mat, <a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> withAnimation)</td></tr>
-<tr class="memdesc:a754a05edfedca2c9d82f28852cc3e04d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build a hierarchical figurine with arms and legs.  <a href="_app_demo_load_8cpp.html#a754a05edfedca2c9d82f28852cc3e04d">More...</a><br /></td></tr>
-<tr class="separator:a754a05edfedca2c9d82f28852cc3e04d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8458fb89d97a6b091104ef6236e809d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_app_demo_load_8cpp.html#a8458fb89d97a6b091104ef6236e809d5">appDemoLoadScene</a> (SLProjectScene *s, <a class="el" href="class_s_l_scene_view.html">SLSceneView</a> *<a class="el" href="_s_l_g_l_im_gui_8h.html#ac0dd312e5f0a445e35dcdc7d74e9ee50">sv</a>, <a class="el" href="_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71">SLSceneID</a> <a class="el" href="_s_l_scene_8h.html#abdb74ee4b29cd32b518cf8daaef63091">sceneID</a>)</td></tr>
-<tr class="memdesc:a8458fb89d97a6b091104ef6236e809d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">appDemoLoadScene builds a scene from source code.  <a href="_app_demo_load_8cpp.html#a8458fb89d97a6b091104ef6236e809d5">More...</a><br /></td></tr>
-<tr class="separator:a8458fb89d97a6b091104ef6236e809d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe523413ac857e3b3ff40f55e261c27a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_s_l_node.html">SLNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_app_demo_load_8cpp.html#abe523413ac857e3b3ff40f55e261c27a">SphereGroupRT</a> (<a class="el" href="class_s_l_asset_manager.html">SLAssetManager</a> *am, <a class="el" href="_s_l_8h.html#affe860856ed283b0bac8c21583fb0ea5">SLint</a> depth, <a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a> x, <a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a> y, <a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a> z, <a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a> scale, <a class="el" href="_s_l_8h.html#a44d61aad4f3be0082c963feb065af080">SLuint</a> resolution, <a class="el" href="class_s_l_material.html">SLMaterial</a> *matGlass, <a class="el" href="class_s_l_material.html">SLMaterial</a> *matRed)</td></tr>
+<tr class="memdesc:abe523413ac857e3b3ff40f55e261c27a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a recursive sphere group used for the ray tracing scenes.  <a href="_app_demo_load_8cpp.html#abe523413ac857e3b3ff40f55e261c27a">More...</a><br /></td></tr>
+<tr class="separator:abe523413ac857e3b3ff40f55e261c27a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96102060785ce0ee54e03411f4ca02b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_s_l_node.html">SLNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_app_demo_load_8cpp.html#a96102060785ce0ee54e03411f4ca02b6">RotatingSphereGroup</a> (<a class="el" href="class_s_l_asset_manager.html">SLAssetManager</a> *am, <a class="el" href="class_s_l_scene.html">SLScene</a> *<a class="el" href="_s_l_scene_8h.html#a78d31a01ff8500bb1476dd5008d16dfe">s</a>, <a class="el" href="_s_l_8h.html#affe860856ed283b0bac8c21583fb0ea5">SLint</a> depth, <a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a> x, <a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a> y, <a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a> z, <a class="el" href="_s_l_8h.html#a03f3cbaa35703c7bbba45ed28f9cdbeb">SLfloat</a> scale, <a class="el" href="_s_l_8h.html#a44d61aad4f3be0082c963feb065af080">SLuint</a> resolution, <a class="el" href="_s_l_material_8h.html#aaa77b8e4468133abadf42b70900b0272">SLVMaterial</a> &amp;mat)</td></tr>
+<tr class="memdesc:a96102060785ce0ee54e03411f4ca02b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a recursive rotating sphere group used for performance test.  <a href="_app_demo_load_8cpp.html#a96102060785ce0ee54e03411f4ca02b6">More...</a><br /></td></tr>
+<tr class="separator:a96102060785ce0ee54e03411f4ca02b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5b2b8b4bb8c79a7067a8b030c15f28f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_s_l_node.html">SLNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_app_demo_load_8cpp.html#ab5b2b8b4bb8c79a7067a8b030c15f28f">BuildFigureGroup</a> (<a class="el" href="class_s_l_asset_manager.html">SLAssetManager</a> *am, <a class="el" href="class_s_l_scene.html">SLScene</a> *<a class="el" href="_s_l_scene_8h.html#a78d31a01ff8500bb1476dd5008d16dfe">s</a>, <a class="el" href="class_s_l_material.html">SLMaterial</a> *mat, <a class="el" href="_s_l_8h.html#a6eb6bdf37149321094e71ed06120392e">SLbool</a> withAnimation)</td></tr>
+<tr class="memdesc:ab5b2b8b4bb8c79a7067a8b030c15f28f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build a hierarchical figurine with arms and legs.  <a href="_app_demo_load_8cpp.html#ab5b2b8b4bb8c79a7067a8b030c15f28f">More...</a><br /></td></tr>
+<tr class="separator:ab5b2b8b4bb8c79a7067a8b030c15f28f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4fbe426fd2d92f6f4818afdc95da202"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_scene_8h.html#a2c52668c5352f244542d301b3bbfe302">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_app_demo_load_8cpp.html#af4fbe426fd2d92f6f4818afdc95da202">appDemoLoadScene</a> (<a class="el" href="class_s_l_asset_manager.html">SLAssetManager</a> *am, <a class="el" href="class_s_l_scene.html">SLScene</a> *<a class="el" href="_s_l_scene_8h.html#a78d31a01ff8500bb1476dd5008d16dfe">s</a>, <a class="el" href="class_s_l_scene_view.html">SLSceneView</a> *<a class="el" href="_s_l_g_l_im_gui_8h.html#ac0dd312e5f0a445e35dcdc7d74e9ee50">sv</a>, <a class="el" href="_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71">SLSceneID</a> <a class="el" href="_s_l_scene_8h.html#acad538d4bffd2fbd901a9cf3ca61a01f">sceneID</a>)</td></tr>
+<tr class="memdesc:af4fbe426fd2d92f6f4818afdc95da202"><td class="mdescLeft">&#160;</td><td class="mdescRight">appDemoLoadScene builds a scene from source code.  <a href="_app_demo_load_8cpp.html#af4fbe426fd2d92f6f4818afdc95da202">More...</a><br /></td></tr>
+<tr class="separator:af4fbe426fd2d92f6f4818afdc95da202"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -137,16 +140,22 @@ Variables</h2></td></tr>
 <tr class="separator:a6453b187bd256e93214784fadc49a95a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a8458fb89d97a6b091104ef6236e809d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8458fb89d97a6b091104ef6236e809d5">&#9670;&nbsp;</a></span>appDemoLoadScene()</h2>
+<a id="af4fbe426fd2d92f6f4818afdc95da202"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4fbe426fd2d92f6f4818afdc95da202">&#9670;&nbsp;</a></span>appDemoLoadScene()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_s_l_scene_8h.html#ad67f14166636172292e4b9c4d1438226">void</a> appDemoLoadScene </td>
+          <td class="memname"><a class="el" href="_s_l_scene_8h.html#a2c52668c5352f244542d301b3bbfe302">void</a> appDemoLoadScene </td>
           <td>(</td>
-          <td class="paramtype">SLProjectScene *&#160;</td>
+          <td class="paramtype"><a class="el" href="class_s_l_asset_manager.html">SLAssetManager</a> *&#160;</td>
+          <td class="paramname"><em>am</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_s_l_scene.html">SLScene</a> *&#160;</td>
           <td class="paramname"><em>s</em>, </td>
         </tr>
         <tr>
@@ -176,8 +185,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a754a05edfedca2c9d82f28852cc3e04d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a754a05edfedca2c9d82f28852cc3e04d">&#9670;&nbsp;</a></span>BuildFigureGroup()</h2>
+<a id="ab5b2b8b4bb8c79a7067a8b030c15f28f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5b2b8b4bb8c79a7067a8b030c15f28f">&#9670;&nbsp;</a></span>BuildFigureGroup()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -185,7 +194,13 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="class_s_l_node.html">SLNode</a>* BuildFigureGroup </td>
           <td>(</td>
-          <td class="paramtype">SLProjectScene *&#160;</td>
+          <td class="paramtype"><a class="el" href="class_s_l_asset_manager.html">SLAssetManager</a> *&#160;</td>
+          <td class="paramname"><em>am</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_s_l_scene.html">SLScene</a> *&#160;</td>
           <td class="paramname"><em>s</em>, </td>
         </tr>
         <tr>
@@ -212,8 +227,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="abdc01131fe5eb5a7d43a2b4ee9662885"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abdc01131fe5eb5a7d43a2b4ee9662885">&#9670;&nbsp;</a></span>RotatingSphereGroup()</h2>
+<a id="a96102060785ce0ee54e03411f4ca02b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96102060785ce0ee54e03411f4ca02b6">&#9670;&nbsp;</a></span>RotatingSphereGroup()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -221,7 +236,13 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="class_s_l_node.html">SLNode</a>* RotatingSphereGroup </td>
           <td>(</td>
-          <td class="paramtype">SLProjectScene *&#160;</td>
+          <td class="paramtype"><a class="el" href="class_s_l_asset_manager.html">SLAssetManager</a> *&#160;</td>
+          <td class="paramname"><em>am</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_s_l_scene.html">SLScene</a> *&#160;</td>
           <td class="paramname"><em>s</em>, </td>
         </tr>
         <tr>
@@ -277,6 +298,7 @@ Variables</h2></td></tr>
 <p>Creates a recursive rotating sphere group used for performance test. </p>
 <p>This performance benchmark is expensive in terms of world matrix updates because all sphere groups rotate. Therefore all children need to update their wm every frame. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">am</td><td>Pointer to the asset manager </td></tr>
     <tr><td class="paramname">s</td><td>Pointer to project scene aka asset manager </td></tr>
     <tr><td class="paramname">depth</td><td>Max. allowed recursion depth </td></tr>
     <tr><td class="paramname">x</td><td>Position in x direction </td></tr>
@@ -292,8 +314,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ab63c8c20e113b804fcc8af75530adf04"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab63c8c20e113b804fcc8af75530adf04">&#9670;&nbsp;</a></span>SphereGroupRT()</h2>
+<a id="abe523413ac857e3b3ff40f55e261c27a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe523413ac857e3b3ff40f55e261c27a">&#9670;&nbsp;</a></span>SphereGroupRT()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -301,8 +323,8 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="class_s_l_node.html">SLNode</a>* SphereGroupRT </td>
           <td>(</td>
-          <td class="paramtype">SLProjectScene *&#160;</td>
-          <td class="paramname"><em>s</em>, </td>
+          <td class="paramtype"><a class="el" href="class_s_l_asset_manager.html">SLAssetManager</a> *&#160;</td>
+          <td class="paramname"><em>am</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -447,8 +469,8 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_9654b8d08f4bba4e84b362c5fd320bee.html">apps</a></li><li class="navelem"><a class="el" href="dir_5434dd98f57f66ee37886bc7d43ec358.html">app-Demo-SLProject</a></li><li class="navelem"><a class="el" href="dir_a0455474795fe140067dc812609444bd.html">source</a></li><li class="navelem"><a class="el" href="_app_demo_load_8cpp.html">AppDemoLoad.cpp</a></li>
-    <li class="footer">Generated on Sat Jan 2 2021 13:42:16 for SLProject by
+    <li class="navelem"><a class="el" href="dir_9654b8d08f4bba4e84b362c5fd320bee.html">apps</a></li><li class="navelem"><a class="el" href="dir_1fa6a921f0f4c6e5efae469eabba5068.html">app_demo_slproject</a></li><li class="navelem"><a class="el" href="dir_0044274101439139e21f9c5b5e18dcfb.html">source</a></li><li class="navelem"><a class="el" href="_app_demo_load_8cpp.html">AppDemoLoad.cpp</a></li>
+    <li class="footer">Generated on Thu Jan 13 2022 11:29:59 for SLProject by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.18 </li>
   </ul>

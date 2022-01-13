@@ -46,6 +46,7 @@ var class_s_l_vec2 =
     [ "setMin", "class_s_l_vec2.html#a76bf5f639711d3bfb9ef03993e3b1be1", null ],
     [ "sub", "class_s_l_vec2.html#a169bcebda20572084f778478c46e2021", null ],
     [ "toPolar", "class_s_l_vec2.html#a7bd34c91d3608794e9bd3c2155e6612c", null ],
+    [ "toString", "class_s_l_vec2.html#a4cdf821348e16bc889284c1ced626d41", null ],
     [ "operator*", "class_s_l_vec2.html#a2fc9204c2f18745182545437f9a80360", null ],
     [ "operator<<", "class_s_l_vec2.html#ae012ffd7ae0ebaf65ef77511ecc790de", null ],
     [ "comp", "class_s_l_vec2.html#a0f8619a6320a0b2f83bb8147d59734be", null ],

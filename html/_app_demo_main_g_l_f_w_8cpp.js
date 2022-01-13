@@ -1,7 +1,7 @@
 var _app_demo_main_g_l_f_w_8cpp =
 [
-    [ "appDemoLoadScene", "_app_demo_main_g_l_f_w_8cpp.html#a8458fb89d97a6b091104ef6236e809d5", null ],
-    [ "createAppDemoSceneView", "_app_demo_main_g_l_f_w_8cpp.html#a061429dc320a0f0b08698fea68366218", null ],
+    [ "appDemoLoadScene", "_app_demo_main_g_l_f_w_8cpp.html#af4fbe426fd2d92f6f4818afdc95da202", null ],
+    [ "createAppDemoSceneView", "_app_demo_main_g_l_f_w_8cpp.html#a8f144c1a2ca152a4ab00b2ec02000b0a", null ],
     [ "initGLFW", "_app_demo_main_g_l_f_w_8cpp.html#ab0ccc0cfccda57642f014ac7ffea7b10", null ],
     [ "initSL", "_app_demo_main_g_l_f_w_8cpp.html#a479d98bdefeb01ac0c7ecd6e63e79916", null ],
     [ "main", "_app_demo_main_g_l_f_w_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97", null ],
@@ -10,7 +10,6 @@ var _app_demo_main_g_l_f_w_8cpp =
     [ "onClose", "_app_demo_main_g_l_f_w_8cpp.html#a430a98907d6c228c8a0293410071d550", null ],
     [ "onGLFWError", "_app_demo_main_g_l_f_w_8cpp.html#af54804d29a9c257a4b5964fe432c8fda", null ],
     [ "onKeyPress", "_app_demo_main_g_l_f_w_8cpp.html#a4cc46356905b19632878b02408215df8", null ],
-    [ "onLongTouch", "_app_demo_main_g_l_f_w_8cpp.html#a038c0fa4cddf5401ac8250788356c310", null ],
     [ "onMouseButton", "_app_demo_main_g_l_f_w_8cpp.html#a589cdeb7073386db26024d2475800ad9", null ],
     [ "onMouseMove", "_app_demo_main_g_l_f_w_8cpp.html#ae70f30ec861f3fee7f7bd13cf82bcdeb", null ],
     [ "onMouseWheel", "_app_demo_main_g_l_f_w_8cpp.html#a8a343d9d5219c7651ac4dffff3ae0eee", null ],

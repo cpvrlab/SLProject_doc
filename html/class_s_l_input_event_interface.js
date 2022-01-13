@@ -11,9 +11,10 @@ var class_s_l_input_event_interface =
     [ "mouseUp", "class_s_l_input_event_interface.html#adc57f57863d142a60a7076bd95c505ae", null ],
     [ "mouseWheel", "class_s_l_input_event_interface.html#a5c19c5abf1f04190548b2ebbb01f208e", null ],
     [ "resize", "class_s_l_input_event_interface.html#a59cdc70aef96e2c7ce7644da0fc937fc", null ],
+    [ "scrCaptureRequest", "class_s_l_input_event_interface.html#aab5ab6ba364548541a5961224fcb42fe", null ],
     [ "touch2Down", "class_s_l_input_event_interface.html#aa170f6bb505341e0b6bf7744de018c79", null ],
     [ "touch2Move", "class_s_l_input_event_interface.html#a1990b9b5862e881a6b8a346dacc99de2", null ],
     [ "touch2Up", "class_s_l_input_event_interface.html#aacd2cf6c3a54aaf27ddfbc1c5ed7b78e", null ],
-    [ "updateScr2fb", "class_s_l_input_event_interface.html#a8cfd48c5539d7a61597b907d58b91575", null ],
+    [ "updateScr2fb", "class_s_l_input_event_interface.html#a526e99e79d25b3d6bd56939eb0119509", null ],
     [ "_inputManager", "class_s_l_input_event_interface.html#a66a267aed93eefcfc72dc6a8231614bd", null ]
 ];

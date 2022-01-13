@@ -1,6 +1,0 @@
-<map id="SENSRecorder" name="SENSRecorder">
-<area shape="rect" id="node1" title=" " alt="" coords="189,80,302,107"/>
-<area shape="rect" id="node2" href="$class_s_e_n_s_gps_listener.html" title=" " alt="" coords="5,5,136,32"/>
-<area shape="rect" id="node3" href="$class_s_e_n_s_orientation_listener.html" title=" " alt="" coords="160,5,331,32"/>
-<area shape="rect" id="node4" href="$class_s_e_n_s_camera_listener.html" title=" " alt="" coords="355,5,509,32"/>
-</map>

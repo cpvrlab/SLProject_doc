@@ -1,6 +1,7 @@
 var class_s_l_a_a_b_box =
 [
     [ "SLAABBox", "class_s_l_a_a_b_box.html#a664ff4ede97e86d268341d7205b65fb0", null ],
+    [ "calculateRectSS", "class_s_l_a_a_b_box.html#a6a87a47dfa9ce5c9c05cf5aae2e51c71", null ],
     [ "centerOS", "class_s_l_a_a_b_box.html#aff57e87e57e54b5760cb6ab955c06ea3", null ],
     [ "centerWS", "class_s_l_a_a_b_box.html#a412d24fc68c291d0088487cdfa8fdd53", null ],
     [ "drawAxisWS", "class_s_l_a_a_b_box.html#aa743aef0f0f39e57358be4499653a065", null ],
@@ -24,6 +25,8 @@ var class_s_l_a_a_b_box =
     [ "minWS", "class_s_l_a_a_b_box.html#a93ab566725d3bea471756869fc0a9879", null ],
     [ "radiusOS", "class_s_l_a_a_b_box.html#acaf8352f82aa5b56f0b3e62225c0555f", null ],
     [ "radiusWS", "class_s_l_a_a_b_box.html#a990ad0f36cc0ad085e54ae0a833b5098", null ],
+    [ "rectCoverageInSS", "class_s_l_a_a_b_box.html#a10d58f1be287788781e349bfacc96048", null ],
+    [ "rectSS", "class_s_l_a_a_b_box.html#a67293c225321a0fa037ec889daf60eb5", null ],
     [ "reset", "class_s_l_a_a_b_box.html#a2ee9055bd36073375b23d41cbeea7edf", null ],
     [ "setCenterAndRadius", "class_s_l_a_a_b_box.html#a9645c8bb5372ae174891ac332a753fca", null ],
     [ "sqrViewDist", "class_s_l_a_a_b_box.html#a193778e937571ca69b8d59bedaa86fad", null ],
@@ -45,6 +48,7 @@ var class_s_l_a_a_b_box =
     [ "_parent0WS", "class_s_l_a_a_b_box.html#a4b5927b37442a5b9029e35c5688dd5d8", null ],
     [ "_radiusOS", "class_s_l_a_a_b_box.html#ab1a00acec2130121f43af798f2a24a6a", null ],
     [ "_radiusWS", "class_s_l_a_a_b_box.html#a3e9b9fcc123bb51cbc8f562088ce87fa", null ],
+    [ "_rectSS", "class_s_l_a_a_b_box.html#a559b634356810942c920a97b8f9d6c29", null ],
     [ "_sqrViewDist", "class_s_l_a_a_b_box.html#a72e0344ffd8a9bf2fa856f172ebb5dd7", null ],
     [ "_vao", "class_s_l_a_a_b_box.html#a14c359c10873bc51186877fea9f5c78f", null ]
 ];

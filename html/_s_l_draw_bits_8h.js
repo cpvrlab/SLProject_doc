@@ -3,6 +3,7 @@ var _s_l_draw_bits_8h =
     [ "SLDrawBits", "class_s_l_draw_bits.html", "class_s_l_draw_bits" ],
     [ "SL_DB_AXIS", "_s_l_draw_bits_8h.html#a2e32200e7f04c6b1c489188b17d4b267", null ],
     [ "SL_DB_BBOX", "_s_l_draw_bits_8h.html#a823cb382fd6c18de2e49a6d2773e8127", null ],
+    [ "SL_DB_BRECT", "_s_l_draw_bits_8h.html#a4feb0d95333dcd3871d327a2546fc7a7", null ],
     [ "SL_DB_CULLOFF", "_s_l_draw_bits_8h.html#a770d5bab162bfaa67d817e7e70aab757", null ],
     [ "SL_DB_HIDDEN", "_s_l_draw_bits_8h.html#aa60399e9985787aa14844bda6c7b302f", null ],
     [ "SL_DB_MESHWIRED", "_s_l_draw_bits_8h.html#a77a61e58162eb53cce0ec149c7eaa6a9", null ],

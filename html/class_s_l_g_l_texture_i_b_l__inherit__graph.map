@@ -1,5 +1,5 @@
 <map id="SLGLTextureIBL" name="SLGLTextureIBL">
-<area shape="rect" id="node1" title="Texture object generated in run time from another texture." alt="" coords="5,155,127,181"/>
-<area shape="rect" id="node2" href="$class_s_l_g_l_texture.html" title="Texture object for OpenGL texturing." alt="" coords="15,80,117,107"/>
-<area shape="rect" id="node3" href="$class_s_l_object.html" title="Base class for all other classes." alt="" coords="27,5,105,32"/>
+<area shape="rect" id="node1" title="Texture object generated in run time from another texture." alt="" coords="5,155,123,181"/>
+<area shape="rect" id="node2" href="$class_s_l_g_l_texture.html" title="Texture object for OpenGL texturing." alt="" coords="15,80,113,107"/>
+<area shape="rect" id="node3" href="$class_s_l_object.html" title="Base class for all other classes." alt="" coords="26,5,102,32"/>
 </map>

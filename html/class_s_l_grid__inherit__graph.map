@@ -1,5 +1,5 @@
 <map id="SLGrid" name="SLGrid">
-<area shape="rect" id="node1" title="SLGrid creates a rectangular grid with lines with a certain resolution." alt="" coords="12,152,75,177"/>
-<area shape="rect" id="node2" href="$class_s_l_mesh.html" title="An SLMesh object is a triangulated mesh that is drawn with one draw call." alt="" coords="8,79,79,104"/>
-<area shape="rect" id="node3" href="$class_s_l_object.html" title="Base class for all other classes." alt="" coords="5,5,82,31"/>
+<area shape="rect" id="node1" title="SLGrid creates a rectangular grid with lines with a certain resolution." alt="" coords="12,155,75,181"/>
+<area shape="rect" id="node2" href="$class_s_l_mesh.html" title="An SLMesh object is a triangulated mesh that is drawn with one draw call." alt="" coords="8,80,79,107"/>
+<area shape="rect" id="node3" href="$class_s_l_object.html" title="Base class for all other classes." alt="" coords="5,5,81,32"/>
 </map>

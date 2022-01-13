@@ -21,7 +21,7 @@ var class_s_l_mesh =
     [ "edgeAngleDEG", "class_s_l_mesh.html#acaa86215afe0d237faa70033a67fa610", null ],
     [ "edgeAngleDEG", "class_s_l_mesh.html#a682109db7c5685b8e4115d734c97e8cc", null ],
     [ "edgeColor", "class_s_l_mesh.html#a8b8b5065b74fe70ffe31d864db2659ab", null ],
-    [ "edgeColor", "class_s_l_mesh.html#a0191938cbf0275e83b2335fb95bb50cd", null ],
+    [ "edgeColor", "class_s_l_mesh.html#af830eb301ce0a8bab2a08f0f92e12e4d", null ],
     [ "edgeWidth", "class_s_l_mesh.html#a08b34d10189c95f18737858810f19915", null ],
     [ "edgeWidth", "class_s_l_mesh.html#ab95ec2e726b4affd8ac10c887908366f", null ],
     [ "finalN", "class_s_l_mesh.html#ae48a0e28c9316daa03a6c74d7ca4f1d5", null ],
@@ -81,6 +81,5 @@ var class_s_l_mesh =
     [ "skinnedN", "class_s_l_mesh.html#a5bc427a102ec6a4ea6e44682f64da48c", null ],
     [ "skinnedP", "class_s_l_mesh.html#ada7115addaac6eb8e13baa9a14a7772e", null ],
     [ "T", "class_s_l_mesh.html#a3b102aa019de457a5e7c31c1315ee86a", null ],
-    [ "UV1", "class_s_l_mesh.html#a427d8525ccb66a74b41fae516b16b2d9", null ],
-    [ "UV2", "class_s_l_mesh.html#a5875b16decf223dc34f9b700dbefd869", null ]
+    [ "UV", "class_s_l_mesh.html#a9b52c7e0e2288ce5fda9abd476410455", null ]
 ];

@@ -35,5 +35,6 @@ var class_s_l_g_l_vertex_array =
     [ "_numVertices", "class_s_l_g_l_vertex_array.html#ab25cdc6cd6ee6b7f9ffe1a64cf3589dd", null ],
     [ "_vaoID", "class_s_l_g_l_vertex_array.html#a5a57cfcd43665a23709198b8458314be", null ],
     [ "_VBOf", "class_s_l_g_l_vertex_array.html#a40c9f7de780a3544928f80b559e176e2", null ],
-    [ "totalDrawCalls", "class_s_l_g_l_vertex_array.html#a62086ca18af06d2c790096a43300faa0", null ]
+    [ "totalDrawCalls", "class_s_l_g_l_vertex_array.html#a62086ca18af06d2c790096a43300faa0", null ],
+    [ "totalPrimitivesRendered", "class_s_l_g_l_vertex_array.html#a857cf40051052f1fa61652b9562beb44", null ]
 ];

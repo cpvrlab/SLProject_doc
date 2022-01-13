@@ -1,7 +1,7 @@
 var class_o_r_b___s_l_a_m2_1_1_b_r_i_e_fextractor =
 [
-    [ "HARRIS_SCORE", "class_o_r_b___s_l_a_m2_1_1_b_r_i_e_fextractor.html#a88f6e1e7403c8612661c0a0e02ba3d07acacdf0f54af540bffc32fae8655bc974", null ],
-    [ "FAST_SCORE", "class_o_r_b___s_l_a_m2_1_1_b_r_i_e_fextractor.html#a88f6e1e7403c8612661c0a0e02ba3d07a5f7073339f253a13c454a378bcbb6004", null ],
+    [ "HARRIS_SCORE", "class_o_r_b___s_l_a_m2_1_1_b_r_i_e_fextractor.html#ac21eaa4c701816fcab9cf01f742fa0a8acacdf0f54af540bffc32fae8655bc974", null ],
+    [ "FAST_SCORE", "class_o_r_b___s_l_a_m2_1_1_b_r_i_e_fextractor.html#ac21eaa4c701816fcab9cf01f742fa0a8a5f7073339f253a13c454a378bcbb6004", null ],
     [ "BRIEFextractor", "class_o_r_b___s_l_a_m2_1_1_b_r_i_e_fextractor.html#a4e76123f34fd6286492aa4f3cb3f0c0e", null ],
     [ "~BRIEFextractor", "class_o_r_b___s_l_a_m2_1_1_b_r_i_e_fextractor.html#a945b3c37d3bb237dc838d6ed4abb9274", null ],
     [ "computeKeyPointDescriptors", "class_o_r_b___s_l_a_m2_1_1_b_r_i_e_fextractor.html#a87977ffb5bd83eef92b0374b9adc1967", null ],

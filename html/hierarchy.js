@@ -1,11 +1,11 @@
 var hierarchy =
 [
+    [ "AppDemoGui", "class_app_demo_gui.html", null ],
     [ "Utils::Averaged< T >", "class_utils_1_1_averaged.html", null ],
     [ "Utils::Averaged< float >", "class_utils_1_1_averaged.html", null ],
     [ "Utils::Averaged< SLMat3 >", "class_utils_1_1_averaged.html", null ],
     [ "Utils::AverageTimingBlock", "struct_utils_1_1_average_timing_block.html", null ],
     [ "Utils::ComputerInfos", "class_utils_1_1_computer_infos.html", null ],
-    [ "ORB_SLAM2::Converter", "class_o_r_b___s_l_a_m2_1_1_converter.html", null ],
     [ "Utils::CustomLog", "class_utils_1_1_custom_log.html", null ],
     [ "CVArucoParams", "class_c_v_aruco_params.html", null ],
     [ "CVCalibration", "class_c_v_calibration.html", null ],
@@ -29,40 +29,25 @@ var hierarchy =
     ] ],
     [ "DistortionMeshVertexData", "struct_distortion_mesh_vertex_data.html", null ],
     [ "DistortionRenderDesc", "struct_distortion_render_desc.html", null ],
-    [ "DNSRequest", "struct_d_n_s_request.html", null ],
-    [ "ORB_SLAM2::ExtractorNode", "class_o_r_b___s_l_a_m2_1_1_extractor_node.html", null ],
     [ "HmdRenderInfo::EyeConfig", "struct_hmd_render_info_1_1_eye_config.html", null ],
     [ "F2FTransform", "class_f2_f_transform.html", null ],
     [ "Utils::FileLog", "class_utils_1_1_file_log.html", null ],
-    [ "HttpUtils::GetRequest", "class_http_utils_1_1_get_request.html", null ],
     [ "GlobalTimer", "class_global_timer.html", null ],
     [ "glUtils", "classgl_utils.html", null ],
     [ "HighResTimer", "class_high_res_timer.html", null ],
     [ "HmdRenderInfo", "struct_hmd_render_info.html", null ],
-    [ "ORB_SLAM2::Initializer", "class_o_r_b___s_l_a_m2_1_1_initializer.html", null ],
     [ "InitializerData", "struct_initializer_data.html", null ],
     [ "InstrumentationSession", "struct_instrumentation_session.html", null ],
     [ "InstrumentationTimer", "class_instrumentation_timer.html", null ],
     [ "Instrumentor", "class_instrumentor.html", null ],
-    [ "ORB_SLAM2::KPextractor", "class_o_r_b___s_l_a_m2_1_1_k_pextractor.html", [
-      [ "ORB_SLAM2::BRIEFextractor", "class_o_r_b___s_l_a_m2_1_1_b_r_i_e_fextractor.html", null ],
-      [ "ORB_SLAM2::ORBextractor", "class_o_r_b___s_l_a_m2_1_1_o_r_bextractor.html", null ],
-      [ "ORB_SLAM2::SURFextractor", "class_o_r_b___s_l_a_m2_1_1_s_u_r_fextractor.html", null ]
-    ] ],
     [ "LensConfig", "struct_lens_config.html", null ],
     [ "lightDataStd140", "structlight_data_std140.html", null ],
-    [ "LocalMap", "struct_local_map.html", null ],
-    [ "ORB_SLAM2::LocalMapping", "class_o_r_b___s_l_a_m2_1_1_local_mapping.html", null ],
-    [ "ORB_SLAM2::LoopClosing", "class_o_r_b___s_l_a_m2_1_1_loop_closing.html", null ],
     [ "WAI::M3x3", "struct_w_a_i_1_1_m3x3.html", null ],
     [ "WAI::M4x4", "struct_w_a_i_1_1_m4x4.html", null ],
     [ "map", null, [
       [ "Utils::AverageTiming", "class_utils_1_1_average_timing.html", null ]
     ] ],
     [ "WAI::ModeOrbSlam2", "class_w_a_i_1_1_mode_orb_slam2.html", null ],
-    [ "ORB_SLAM2::Optimizer", "class_o_r_b___s_l_a_m2_1_1_optimizer.html", null ],
-    [ "ORB_SLAM2::OptimizerStruct", "struct_o_r_b___s_l_a_m2_1_1_optimizer_struct.html", null ],
-    [ "ORB_SLAM2::ORBmatcher", "class_o_r_b___s_l_a_m2_1_1_o_r_bmatcher.html", null ],
     [ "ovrDistortionMesh_", "structovr_distortion_mesh__.html", null ],
     [ "ovrDistortionVertex_", "structovr_distortion_vertex__.html", null ],
     [ "ovrFovPort_", "structovr_fov_port__.html", null ],
@@ -71,17 +56,15 @@ var hierarchy =
     [ "WAI::ModeOrbSlam2::Params", "struct_w_a_i_1_1_mode_orb_slam2_1_1_params.html", null ],
     [ "WAISlam::Params", "struct_w_a_i_slam_1_1_params.html", null ],
     [ "WAISlamTrackPool::Params", "struct_w_a_i_slam_track_pool_1_1_params.html", null ],
-    [ "ORB_SLAM2::PnPsolver", "class_o_r_b___s_l_a_m2_1_1_pn_psolver.html", null ],
+    [ "Profiler", "class_profiler.html", null ],
     [ "ProfileResult", "struct_profile_result.html", null ],
-    [ "ProgressHandler", null, [
-      [ "SLAssimpProgressHandler", "class_s_l_assimp_progress_handler.html", null ]
-    ] ],
+    [ "ProfilerTimer", "class_profiler_timer.html", null ],
+    [ "ProfilingResult", "struct_profiling_result.html", null ],
     [ "runtime_error", null, [
       [ "CVCalibrationEstimatorException", "class_c_v_calibration_estimator_exception.html", null ]
     ] ],
     [ "ScaleAndOffset2D", "struct_scale_and_offset2_d.html", null ],
     [ "HmdRenderInfo::ShutterInfo", "struct_hmd_render_info_1_1_shutter_info.html", null ],
-    [ "ORB_SLAM2::Sim3Solver", "class_o_r_b___s_l_a_m2_1_1_sim3_solver.html", null ],
     [ "SLAABBox", "class_s_l_a_a_b_box.html", null ],
     [ "SLAccelStruct", "class_s_l_accel_struct.html", [
       [ "SLCompactGrid", "class_s_l_compact_grid.html", null ]
@@ -116,6 +99,7 @@ var hierarchy =
         [ "SLLightDirect", "class_s_l_light_direct.html", null ],
         [ "SLLightRect", "class_s_l_light_rect.html", null ],
         [ "SLLightSpot", "class_s_l_light_spot.html", null ],
+        [ "SLNodeLOD", "class_s_l_node_l_o_d.html", null ],
         [ "SLSkybox", "class_s_l_skybox.html", null ],
         [ "SLText", "class_s_l_text.html", null ],
         [ "SLTransformNode", "class_s_l_transform_node.html", null ]
@@ -127,6 +111,7 @@ var hierarchy =
     ] ],
     [ "CVTrackedFeatures::SLFeatureMarker2D", "struct_c_v_tracked_features_1_1_s_l_feature_marker2_d.html", null ],
     [ "CVTrackedFeatures::SLFrameData", "struct_c_v_tracked_features_1_1_s_l_frame_data.html", null ],
+    [ "SLFrustum", "class_s_l_frustum.html", null ],
     [ "SLGLAttribute", "struct_s_l_g_l_attribute.html", null ],
     [ "SLGLConetracer", "class_s_l_g_l_conetracer.html", null ],
     [ "SLGLConetracerTex3D", "class_s_l_g_l_conetracer_tex3_d.html", null ],
@@ -140,10 +125,7 @@ var hierarchy =
       [ "SLGLVertexArrayExt", "class_s_l_g_l_vertex_array_ext.html", null ]
     ] ],
     [ "SLGLVertexBuffer", "class_s_l_g_l_vertex_buffer.html", null ],
-    [ "SLImporter", "class_s_l_importer.html", [
-      [ "SLAssimpImporter", "class_s_l_assimp_importer.html", null ]
-    ] ],
-    [ "SLImportKeyframe", "struct_s_l_import_keyframe.html", null ],
+    [ "SLImporter", "class_s_l_importer.html", null ],
     [ "SLInputDevice", "class_s_l_input_device.html", null ],
     [ "SLInputEvent", "class_s_l_input_event.html", [
       [ "SLCharInputEvent", "class_s_l_char_input_event.html", null ],
@@ -151,8 +133,8 @@ var hierarchy =
       [ "SLMouseEvent", "class_s_l_mouse_event.html", null ],
       [ "SLResizeEvent", "class_s_l_resize_event.html", null ],
       [ "SLRotationEvent", "class_s_l_rotation_event.html", null ],
-      [ "SLTouchEvent", "class_s_l_touch_event.html", null ],
-      [ "SLUpdateScr2fbEvent", "class_s_l_update_scr2fb_event.html", null ]
+      [ "SLScrCaptureRequestEvent", "class_s_l_scr_capture_request_event.html", null ],
+      [ "SLTouchEvent", "class_s_l_touch_event.html", null ]
     ] ],
     [ "SLInputEventInterface", "class_s_l_input_event_interface.html", null ],
     [ "SLInputManager", "class_s_l_input_manager.html", null ],
@@ -161,6 +143,7 @@ var hierarchy =
       [ "SLLightRect", "class_s_l_light_rect.html", null ],
       [ "SLLightSpot", "class_s_l_light_spot.html", null ]
     ] ],
+    [ "SLLocation", "class_s_l_location.html", null ],
     [ "SLMat3< T >", "class_s_l_mat3.html", null ],
     [ "SLMat3< SLdouble >", "class_s_l_mat3.html", null ],
     [ "SLMat3< SLfloat >", "class_s_l_mat3.html", null ],
@@ -210,12 +193,11 @@ var hierarchy =
       ] ],
       [ "SLNode", "class_s_l_node.html", null ],
       [ "SLScene", "class_s_l_scene.html", null ],
-      [ "SLSceneView", "class_s_l_scene_view.html", null ]
+      [ "SLSceneView", "class_s_l_scene_view.html", [
+        [ "AppDemoSceneView", "class_app_demo_scene_view.html", null ]
+      ] ]
     ] ],
     [ "SLPlane", "class_s_l_plane.html", null ],
-    [ "SLProgressHandler", "class_s_l_progress_handler.html", [
-      [ "SLAssimpProgressHandler", "class_s_l_assimp_progress_handler.html", null ]
-    ] ],
     [ "SLQuat4< T >", "class_s_l_quat4.html", null ],
     [ "SLQuat4< SLfloat >", "class_s_l_quat4.html", null ],
     [ "SLRay", "class_s_l_ray.html", null ],
@@ -245,9 +227,6 @@ var hierarchy =
     [ "SLVec4< SLint >", "class_s_l_vec4.html", null ],
     [ "SLVector< T, U >", "class_s_l_vector.html", null ],
     [ "SLVertexOculus", "struct_s_l_vertex_oculus.html", null ],
-    [ "Socket", "class_socket.html", [
-      [ "SecureSocket", "class_secure_socket.html", null ]
-    ] ],
     [ "WAICompassAlignment::Template", "struct_w_a_i_compass_alignment_1_1_template.html", null ],
     [ "Utils_iOS", "class_utils__i_o_s.html", null ],
     [ "WAI::V2", "struct_w_a_i_1_1_v2.html", null ],
@@ -266,6 +245,5 @@ var hierarchy =
     [ "WAISlamTools", "class_w_a_i_slam_tools.html", [
       [ "WAISlam", "class_w_a_i_slam.html", null ],
       [ "WAISlamTrackPool", "class_w_a_i_slam_track_pool.html", null ]
-    ] ],
-    [ "WorkingSet", "struct_working_set.html", null ]
+    ] ]
 ];

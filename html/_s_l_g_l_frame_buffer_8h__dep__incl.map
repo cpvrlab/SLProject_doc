@@ -1,7 +1,7 @@
 <map id="SLGLFrameBuffer.h" name="SLGLFrameBuffer.h">
-<area shape="rect" id="node1" title=" " alt="" coords="181,5,322,32"/>
-<area shape="rect" id="node2" href="$_s_l_g_l_frame_buffer_8cpp.html" title=" " alt="" coords="5,80,161,107"/>
-<area shape="rect" id="node3" href="$_s_l_g_l_texture_i_b_l_8h.html" title=" " alt="" coords="185,80,317,107"/>
-<area shape="rect" id="node5" href="$_s_l_skybox_8cpp.html" title=" " alt="" coords="302,155,409,181"/>
-<area shape="rect" id="node4" href="$_s_l_g_l_texture_i_b_l_8cpp.html" title=" " alt="" coords="131,155,278,181"/>
+<area shape="rect" id="node1" title=" " alt="" coords="93,5,231,32"/>
+<area shape="rect" id="node2" href="$_s_l_g_l_frame_buffer_8cpp.html" title=" " alt="" coords="5,80,156,107"/>
+<area shape="rect" id="node3" href="$_s_l_g_l_texture_i_b_l_8h.html" title=" " alt="" coords="181,80,309,107"/>
+<area shape="rect" id="node4" href="$_s_l_g_l_texture_i_b_l_8cpp.html" title=" " alt="" coords="99,155,241,181"/>
+<area shape="rect" id="node5" href="$_s_l_skybox_8cpp.html" title=" " alt="" coords="266,155,373,181"/>
 </map>
