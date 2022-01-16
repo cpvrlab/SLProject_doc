@@ -1,9 +1,9 @@
 var _w_a_i_math_8h =
 [
-    [ "V2", "struct_w_a_i_1_1_v2.html", "struct_w_a_i_1_1_v2" ],
-    [ "V3", "struct_w_a_i_1_1_v3.html", "struct_w_a_i_1_1_v3" ],
-    [ "M3x3", "struct_w_a_i_1_1_m3x3.html", "struct_w_a_i_1_1_m3x3" ],
-    [ "M4x4", "struct_w_a_i_1_1_m4x4.html", "struct_w_a_i_1_1_m4x4" ],
+    [ "WAI::V2", "struct_w_a_i_1_1_v2.html", "struct_w_a_i_1_1_v2" ],
+    [ "WAI::V3", "struct_w_a_i_1_1_v3.html", "struct_w_a_i_1_1_v3" ],
+    [ "WAI::M3x3", "struct_w_a_i_1_1_m3x3.html", "struct_w_a_i_1_1_m3x3" ],
+    [ "WAI::M4x4", "struct_w_a_i_1_1_m4x4.html", "struct_w_a_i_1_1_m4x4" ],
     [ "identityM3x3", "_w_a_i_math_8h.html#a47cb274780cafcbd3e29ed2e44cda6cd", null ],
     [ "multM3x3", "_w_a_i_math_8h.html#a1cc27364072bc62c7b7500d764b50acc", null ],
     [ "multM3x3V3", "_w_a_i_math_8h.html#ae58849b866b64f23a8bd714aabdbe78c", null ],

@@ -3,7 +3,7 @@ var class_s_l_g_l_vertex_buffer =
     [ "SLGLVertexBuffer", "class_s_l_g_l_vertex_buffer.html#a91218a8577ce6491adb89131559a43ad", null ],
     [ "~SLGLVertexBuffer", "class_s_l_g_l_vertex_buffer.html#abeb229c6f1169148d2ffbd6b0dfda6af", null ],
     [ "attribIndex", "class_s_l_g_l_vertex_buffer.html#a0985dd7570461713d48aeceeafaba4b2", null ],
-    [ "attribs", "class_s_l_g_l_vertex_buffer.html#adf214ce6e57ffdf2048aa81ee76c4284", null ],
+    [ "attribs", "class_s_l_g_l_vertex_buffer.html#a0d5e042f13b9a54bb94879aa49394d31", null ],
     [ "bindAndEnableAttrib", "class_s_l_g_l_vertex_buffer.html#a50e9c92db2512301f3bf607f295d8f0f", null ],
     [ "clear", "class_s_l_g_l_vertex_buffer.html#aa2be2ce569a9058fb01c946685a2381f", null ],
     [ "dataType", "class_s_l_g_l_vertex_buffer.html#aec7cad6d1ef1d09e30a0dc0877fe9588", null ],

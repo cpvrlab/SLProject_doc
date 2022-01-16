@@ -1,6 +1,6 @@
 var _s_l_vec4_8h =
 [
-    [ "SLVec4", "class_s_l_vec4.html", "class_s_l_vec4" ],
+    [ "SLVec4< T >", "class_s_l_vec4.html", "class_s_l_vec4" ],
     [ "SLCol4f", "_s_l_vec4_8h.html#afecaf19d370d6eb9da33fd8ebfde6524", null ],
     [ "SLVCol4f", "_s_l_vec4_8h.html#aa558de76b10730c490cfbe6803213941", null ],
     [ "SLVec4f", "_s_l_vec4_8h.html#ac862c9d75b5e95a688371882dfbcf946", null ],

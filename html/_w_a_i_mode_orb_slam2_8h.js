@@ -1,7 +1,7 @@
 var _w_a_i_mode_orb_slam2_8h =
 [
-    [ "ModeOrbSlam2", "class_w_a_i_1_1_mode_orb_slam2.html", "class_w_a_i_1_1_mode_orb_slam2" ],
-    [ "Params", "struct_w_a_i_1_1_mode_orb_slam2_1_1_params.html", "struct_w_a_i_1_1_mode_orb_slam2_1_1_params" ],
+    [ "WAI::ModeOrbSlam2", "class_w_a_i_1_1_mode_orb_slam2.html", "class_w_a_i_1_1_mode_orb_slam2" ],
+    [ "WAI::ModeOrbSlam2::Params", "struct_w_a_i_1_1_mode_orb_slam2_1_1_params.html", "struct_w_a_i_1_1_mode_orb_slam2_1_1_params" ],
     [ "OPTFLOW_GRID_COLS", "_w_a_i_mode_orb_slam2_8h.html#aa00215c798df102ad5262411447f6a47", null ],
     [ "OPTFLOW_GRID_ROWS", "_w_a_i_mode_orb_slam2_8h.html#aafcf6c57ea3c9b271fb8581eca65133c", null ],
     [ "TrackingState", "_w_a_i_mode_orb_slam2_8h.html#a529298f994f671de807a41e15b0cf3b6", [

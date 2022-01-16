@@ -1,7 +1,20 @@
 var annotated_dup =
 [
-    [ "Utils", "namespace_utils.html", "namespace_utils" ],
-    [ "WAI", "namespace_w_a_i.html", "namespace_w_a_i" ],
+    [ "Utils", "namespace_utils.html", [
+      [ "Averaged", "class_utils_1_1_averaged.html", "class_utils_1_1_averaged" ],
+      [ "AverageTiming", "class_utils_1_1_average_timing.html", "class_utils_1_1_average_timing" ],
+      [ "AverageTimingBlock", "struct_utils_1_1_average_timing_block.html", "struct_utils_1_1_average_timing_block" ],
+      [ "ComputerInfos", "class_utils_1_1_computer_infos.html", "class_utils_1_1_computer_infos" ],
+      [ "CustomLog", "class_utils_1_1_custom_log.html", "class_utils_1_1_custom_log" ],
+      [ "FileLog", "class_utils_1_1_file_log.html", "class_utils_1_1_file_log" ]
+    ] ],
+    [ "WAI", "namespace_w_a_i.html", [
+      [ "M3x3", "struct_w_a_i_1_1_m3x3.html", "struct_w_a_i_1_1_m3x3" ],
+      [ "M4x4", "struct_w_a_i_1_1_m4x4.html", "struct_w_a_i_1_1_m4x4" ],
+      [ "ModeOrbSlam2", "class_w_a_i_1_1_mode_orb_slam2.html", "class_w_a_i_1_1_mode_orb_slam2" ],
+      [ "V2", "struct_w_a_i_1_1_v2.html", "struct_w_a_i_1_1_v2" ],
+      [ "V3", "struct_w_a_i_1_1_v3.html", "struct_w_a_i_1_1_v3" ]
+    ] ],
     [ "AppDemoGui", "class_app_demo_gui.html", "class_app_demo_gui" ],
     [ "AppDemoSceneView", "class_app_demo_scene_view.html", "class_app_demo_scene_view" ],
     [ "CVArucoParams", "class_c_v_aruco_params.html", "class_c_v_aruco_params" ],

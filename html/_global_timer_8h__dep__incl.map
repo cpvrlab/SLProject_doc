@@ -1,11 +1,11 @@
 <map id="GlobalTimer.h" name="GlobalTimer.h">
-<area shape="rect" id="node1" title=" " alt="" coords="503,5,606,32"/>
-<area shape="rect" id="node2" href="$_s_l_g_l_im_gui_8cpp.html" title=" " alt="" coords="5,80,120,107"/>
-<area shape="rect" id="node3" href="$_s_l_pathtracer_8cpp.html" title=" " alt="" coords="144,80,267,107"/>
-<area shape="rect" id="node4" href="$_s_l_raytracer_8cpp.html" title=" " alt="" coords="291,80,411,107"/>
-<area shape="rect" id="node5" href="$_s_l_scene_8cpp.html" title=" " alt="" coords="435,80,535,107"/>
-<area shape="rect" id="node6" href="$_s_l_scene_view_8cpp.html" title=" " alt="" coords="560,80,688,107"/>
-<area shape="rect" id="node7" href="$_global_timer_8cpp.html" title=" " alt="" coords="712,80,829,107"/>
-<area shape="rect" id="node8" href="$_app_demo_load_8cpp.html" title=" " alt="" coords="853,80,987,107"/>
-<area shape="rect" id="node9" href="$_app_demo_video_8cpp.html" title=" " alt="" coords="1011,80,1149,107"/>
+<area shape="rect" id="node1" title=" " alt="" coords="543,5,646,32"/>
+<area shape="rect" id="node2" href="$_app_demo_load_8cpp.html" title=" " alt="" coords="5,80,139,107"/>
+<area shape="rect" id="node3" href="$_app_demo_video_8cpp.html" title=" " alt="" coords="163,80,301,107"/>
+<area shape="rect" id="node4" href="$_global_timer_8cpp.html" title=" " alt="" coords="325,80,443,107"/>
+<area shape="rect" id="node5" href="$_s_l_g_l_im_gui_8cpp.html" title=" " alt="" coords="467,80,581,107"/>
+<area shape="rect" id="node6" href="$_s_l_pathtracer_8cpp.html" title=" " alt="" coords="605,80,728,107"/>
+<area shape="rect" id="node7" href="$_s_l_raytracer_8cpp.html" title=" " alt="" coords="752,80,872,107"/>
+<area shape="rect" id="node8" href="$_s_l_scene_8cpp.html" title=" " alt="" coords="897,80,997,107"/>
+<area shape="rect" id="node9" href="$_s_l_scene_view_8cpp.html" title=" " alt="" coords="1021,80,1149,107"/>
 </map>

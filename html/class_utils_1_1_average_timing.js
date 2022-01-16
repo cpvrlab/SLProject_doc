@@ -10,7 +10,7 @@ var class_utils_1_1_average_timing =
     [ "getTime", "class_utils_1_1_average_timing.html#a20f3c93968e4b1947fee1a0403576bb1", null ],
     [ "getTime", "class_utils_1_1_average_timing.html#aa862e21e67dec35f19f579dee3f0ed95", null ],
     [ "getTimingMessage", "class_utils_1_1_average_timing.html#af92e74afd2a30308ffed6a73485f5e0e", null ],
-    [ "instance", "class_utils_1_1_average_timing.html#aa719d9191cfc64dfbf381898afa729df", null ],
+    [ "instance", "class_utils_1_1_average_timing.html#a84d78962b1f30465376ea605c93aa2c2", null ],
     [ "start", "class_utils_1_1_average_timing.html#afa28a49901fd103e5b9b621306529396", null ],
     [ "stop", "class_utils_1_1_average_timing.html#a78a10b523f0e31936bf529b00b2e897b", null ],
     [ "_averageNumValues", "class_utils_1_1_average_timing.html#a4d7f4b738a28269521fbd8b7f27fae80", null ],

@@ -5,7 +5,7 @@ var class_s_l_curve_bezier =
     [ "~SLCurveBezier", "class_s_l_curve_bezier.html#a96228c5a8dc80cdb081e8a263eedde28", null ],
     [ "acceleration", "class_s_l_curve_bezier.html#a35cc38ea1b7fd1308872e83c790cf012", null ],
     [ "arcLength", "class_s_l_curve_bezier.html#a775af24d445ea14badfc82104a14b9e5", null ],
-    [ "controls", "class_s_l_curve_bezier.html#a16f606ce5374c423a3ec287b530a44f5", null ],
+    [ "controls", "class_s_l_curve_bezier.html#a0523982a3c3e90bc0f3da230d3bf17b4", null ],
     [ "dispose", "class_s_l_curve_bezier.html#aaf977d1eef4f3af118ee5560a1b92cf1", null ],
     [ "draw", "class_s_l_curve_bezier.html#aac7771c999ac540d46e48b3f0c80f44e", null ],
     [ "evaluate", "class_s_l_curve_bezier.html#aa4a3763c77e443cc6c9aae5321dcd5b7", null ],

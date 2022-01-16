@@ -6,7 +6,7 @@ var class_w_a_i_slam_track_pool =
     [ "changeIntrinsic", "class_w_a_i_slam_track_pool.html#a170bb7c349afd1fe82840c72100efe92", null ],
     [ "createFrame", "class_w_a_i_slam_track_pool.html#a1ba7eb544ac7ae6f2879e61b096bc731", null ],
     [ "drawInfo", "class_w_a_i_slam_track_pool.html#a2dd4acc0235ce870155499223d8db4e8", null ],
-    [ "getMapPoints", "class_w_a_i_slam_track_pool.html#a97759fe47838d2ee1211e75155efde62", null ],
+    [ "getMapPoints", "class_w_a_i_slam_track_pool.html#a86ac21de18d4c51e7820d389e5402c34", null ],
     [ "getMatchedMapPoints", "class_w_a_i_slam_track_pool.html#a6e9aa5e18ea0a740ba050f94a93f4013", null ],
     [ "getPose", "class_w_a_i_slam_track_pool.html#a77411c163865b1be4badbb3d3a0f2526", null ],
     [ "getTrackingState", "class_w_a_i_slam_track_pool.html#ad53b71e2f7f055df6b814a8347e62300", null ],

@@ -8,7 +8,7 @@ var class_s_l_joint =
     [ "createChild", "class_s_l_joint.html#a8d817bea94017c8eb2f5b446e4420bd3", null ],
     [ "id", "class_s_l_joint.html#a179ee778fafb625e62cfb119581f63bc", null ],
     [ "needUpdate", "class_s_l_joint.html#ad16f755f60b1356c06055445b93a250b", null ],
-    [ "offsetMat", "class_s_l_joint.html#aacfdca0fa8a4d5152bc41b1eb1e88438", null ],
+    [ "offsetMat", "class_s_l_joint.html#a3a812a9494eff840b69a30e7ebcc889c", null ],
     [ "offsetMat", "class_s_l_joint.html#a2bd9a3a6650c0b24e5d2aabee6078abd", null ],
     [ "radius", "class_s_l_joint.html#aa80594b3519d82dac97d0a0abb2fbfbd", null ],
     [ "_id", "class_s_l_joint.html#af18e0d68ddc0b6fa4c74b5229397366c", null ],

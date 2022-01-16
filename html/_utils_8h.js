@@ -1,6 +1,6 @@
 var _utils_8h =
 [
-    [ "ComputerInfos", "class_utils_1_1_computer_infos.html", "class_utils_1_1_computer_infos" ],
+    [ "Utils::ComputerInfos", "class_utils_1_1_computer_infos.html", "class_utils_1_1_computer_infos" ],
     [ "abs", "_utils_8h.html#a2391cfc122a83a687dd7e77702a4a171", null ],
     [ "ceil", "_utils_8h.html#a8c180fc4e2447d5d98a79ff036d3b7c1", null ],
     [ "clamp", "_utils_8h.html#a5049e1eb69b0b0d330e9237af9bfbdb6", null ],

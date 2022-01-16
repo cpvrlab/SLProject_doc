@@ -1,7 +1,7 @@
 var class_s_l_input_manager =
 [
     [ "SLInputManager", "class_s_l_input_manager.html#ac06cc49eadd0359b41a86ae7bc226751", null ],
-    [ "devices", "class_s_l_input_manager.html#a385a411425c1d400b8fa6e9a434db68a", null ],
+    [ "devices", "class_s_l_input_manager.html#a6e659b0dfc63d3b0f6fcbfb8e844cc61", null ],
     [ "pollAndProcessEvents", "class_s_l_input_manager.html#a0064ab1b3d7f98be05cd23f201fbcf35", null ],
     [ "processQueuedEvents", "class_s_l_input_manager.html#ace28614a773f270ff54e36c915904001", null ],
     [ "queueEvent", "class_s_l_input_manager.html#af2bc553afaa7d1c43bf965720bcd63c5", null ],

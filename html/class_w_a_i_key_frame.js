@@ -34,7 +34,7 @@ var class_w_a_i_key_frame =
     [ "GetRotation", "class_w_a_i_key_frame.html#ac5ae4f27375c6fde0122defbcfae9e8a", null ],
     [ "getSizeOf", "class_w_a_i_key_frame.html#aa296bd1257692d13b1c10a3f78bbe8da", null ],
     [ "getSizeOfCvMat", "class_w_a_i_key_frame.html#abf7dff3b39206320eab6cee6a5d4acb9", null ],
-    [ "getTexturePath", "class_w_a_i_key_frame.html#aedae72cefd190c1ccb929a41d1d59b74", null ],
+    [ "getTexturePath", "class_w_a_i_key_frame.html#ac577cd606ccb70387a676b8dca1e3015", null ],
     [ "GetTranslation", "class_w_a_i_key_frame.html#a60c0bc035b172bb344ac340560e2fc09", null ],
     [ "GetVectorCovisibleKeyFrames", "class_w_a_i_key_frame.html#aeb3761e22f5488ef8c1c9baae49af511", null ],
     [ "GetWeight", "class_w_a_i_key_frame.html#afafe51c75d4133bf13b83a98e7712aa9", null ],

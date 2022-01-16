@@ -12,9 +12,9 @@
 <!-- Node0 -->
 <g id="node1" class="node">
 <title>Node0</title>
-<g id="a_node1"><a xlink:href="class_s_l_device_location.html" target="_top" xlink:title="Encapsulation of a mobile device location set by the device&#39;s GPS sensor.">
+<g id="a_node1"><a xlink:href="class_s_l_device_rotation.html" target="_top" xlink:title="Encapsulation of a mobile device rotation set by the device&#39;s IMU sensor.">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-19.5 96,-19.5 96,-0.5 0,-0.5"/>
-<text text-anchor="middle" x="48" y="-7.5" font-family="Arial" font-size="10.00">SLDeviceLocation</text>
+<text text-anchor="middle" x="48" y="-7.5" font-family="Arial" font-size="10.00">SLDeviceRotation</text>
 </a>
 </g>
 </g>

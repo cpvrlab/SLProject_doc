@@ -13,100 +13,100 @@
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title=" ">
-<polygon fill="#bfbfbf" stroke="black" points="287,-56.5 287,-75.5 377,-75.5 377,-56.5 287,-56.5"/>
-<text text-anchor="middle" x="332" y="-63.5" font-family="Arial" font-size="10.00">AverageTiming.h</text>
+<polygon fill="#bfbfbf" stroke="black" points="288,-56.5 288,-75.5 378,-75.5 378,-56.5 288,-56.5"/>
+<text text-anchor="middle" x="333" y="-63.5" font-family="Arial" font-size="10.00">AverageTiming.h</text>
 </a>
 </g>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="_w_a_i_frame_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="0,-0.5 0,-19.5 82,-19.5 82,-0.5 0,-0.5"/>
-<text text-anchor="middle" x="41" y="-7.5" font-family="Arial" font-size="10.00">WAIFrame.cpp</text>
+<g id="a_node2"><a xlink:href="_app_demo_gui_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="0,-0.5 0,-19.5 94,-19.5 94,-0.5 0,-0.5"/>
+<text text-anchor="middle" x="47" y="-7.5" font-family="Arial" font-size="10.00">AppDemoGui.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
 <title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M276.97,-54.79C220.21,-44.26 133.01,-28.07 82.02,-18.61"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="276.38,-58.24 286.85,-56.62 277.66,-51.36 276.38,-58.24"/>
+<path fill="none" stroke="midnightblue" d="M277.91,-54.6C223.9,-44.4 142.54,-29.04 92.21,-19.54"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="277.52,-58.09 288,-56.5 278.82,-51.21 277.52,-58.09"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="_w_a_i_mode_orb_slam2_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="100,-0.5 100,-19.5 222,-19.5 222,-0.5 100,-0.5"/>
-<text text-anchor="middle" x="161" y="-7.5" font-family="Arial" font-size="10.00">WAIModeOrbSlam2.cpp</text>
+<g id="a_node3"><a xlink:href="_average_timing_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="112.5,-0.5 112.5,-19.5 213.5,-19.5 213.5,-0.5 112.5,-0.5"/>
+<text text-anchor="middle" x="163" y="-7.5" font-family="Arial" font-size="10.00">AverageTiming.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node3 -->
 <g id="edge2" class="edge">
 <title>Node1&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M294.96,-53.3C262.74,-43.13 216.81,-28.62 187.97,-19.52"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="294.31,-56.77 304.9,-56.44 296.42,-50.09 294.31,-56.77"/>
+<path fill="none" stroke="midnightblue" d="M296.18,-53.3C264.15,-43.13 218.48,-28.62 189.81,-19.52"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="295.47,-56.75 306.06,-56.44 297.59,-50.08 295.47,-56.75"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="_w_a_i_slam_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="240.5,-0.5 240.5,-19.5 317.5,-19.5 317.5,-0.5 240.5,-0.5"/>
-<text text-anchor="middle" x="279" y="-7.5" font-family="Arial" font-size="10.00">WAISlam.cpp</text>
+<g id="a_node4"><a xlink:href="_w_a_i_frame_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="232,-0.5 232,-19.5 314,-19.5 314,-0.5 232,-0.5"/>
+<text text-anchor="middle" x="273" y="-7.5" font-family="Arial" font-size="10.00">WAIFrame.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
 <title>Node1&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M316.02,-48.72C306.68,-39.2 295.25,-27.56 287.59,-19.75"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="313.75,-51.4 323.25,-56.08 318.74,-46.49 313.75,-51.4"/>
+<path fill="none" stroke="midnightblue" d="M315.82,-49.54C305.12,-39.91 291.74,-27.87 282.82,-19.83"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="313.59,-52.24 323.36,-56.32 318.27,-47.03 313.59,-52.24"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="_w_a_i_slam_tools_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="336,-0.5 336,-19.5 436,-19.5 436,-0.5 336,-0.5"/>
-<text text-anchor="middle" x="386" y="-7.5" font-family="Arial" font-size="10.00">WAISlamTools.cpp</text>
+<g id="a_node5"><a xlink:href="_w_a_i_mode_orb_slam2_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="332,-0.5 332,-19.5 454,-19.5 454,-0.5 332,-0.5"/>
+<text text-anchor="middle" x="393" y="-7.5" font-family="Arial" font-size="10.00">WAIModeOrbSlam2.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node5 -->
 <g id="edge4" class="edge">
 <title>Node1&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M348,-49C357.57,-39.43 369.36,-27.64 377.25,-19.75"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="345.51,-46.54 340.92,-56.08 350.46,-51.49 345.51,-46.54"/>
+<path fill="none" stroke="midnightblue" d="M350.18,-49.54C360.88,-39.91 374.26,-27.87 383.18,-19.83"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="347.73,-47.03 342.64,-56.32 352.41,-52.24 347.73,-47.03"/>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="_average_timing_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="454.5,-0.5 454.5,-19.5 555.5,-19.5 555.5,-0.5 454.5,-0.5"/>
-<text text-anchor="middle" x="505" y="-7.5" font-family="Arial" font-size="10.00">AverageTiming.cpp</text>
+<g id="a_node6"><a xlink:href="_w_a_i_slam_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="472.5,-0.5 472.5,-19.5 549.5,-19.5 549.5,-0.5 472.5,-0.5"/>
+<text text-anchor="middle" x="511" y="-7.5" font-family="Arial" font-size="10.00">WAISlam.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node6 -->
 <g id="edge5" class="edge">
 <title>Node1&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M369.05,-53.44C401.66,-43.26 448.41,-28.66 477.72,-19.52"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="367.92,-50.12 359.41,-56.44 370,-56.8 367.92,-50.12"/>
+<path fill="none" stroke="midnightblue" d="M371.12,-53.44C404.68,-43.26 452.77,-28.66 482.93,-19.52"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="369.76,-50.19 361.2,-56.44 371.79,-56.89 369.76,-50.19"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="_app_demo_gui_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="574,-0.5 574,-19.5 668,-19.5 668,-0.5 574,-0.5"/>
-<text text-anchor="middle" x="621" y="-7.5" font-family="Arial" font-size="10.00">AppDemoGui.cpp</text>
+<g id="a_node7"><a xlink:href="_w_a_i_slam_tools_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="568,-0.5 568,-19.5 668,-19.5 668,-0.5 568,-0.5"/>
+<text text-anchor="middle" x="618" y="-7.5" font-family="Arial" font-size="10.00">WAISlamTools.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node7 -->
 <g id="edge6" class="edge">
 <title>Node1&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M387,-54.72C441.54,-44.53 524.13,-29.1 575.21,-19.56"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="386.34,-51.29 377.16,-56.56 387.63,-58.17 386.34,-51.29"/>
+<path fill="none" stroke="midnightblue" d="M388.22,-54.54C442.08,-44.33 523,-29 573.05,-19.52"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="387.33,-51.14 378.16,-56.44 388.64,-58.02 387.33,-51.14"/>
 </g>
 </g>
 </svg>

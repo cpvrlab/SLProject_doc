@@ -18,7 +18,7 @@ var class_c_v_image =
     [ "crop", "class_c_v_image.html#aeb09d73cca11eff10320b10c005a8b31", null ],
     [ "cv2glPixelFormat", "class_c_v_image.html#a51be32d0b8812fa4b01fabf14893803f", null ],
     [ "cvMat", "class_c_v_image.html#a69638fca501b044534424f1b7da4eaf3", null ],
-    [ "data", "class_c_v_image.html#a415b91533aeb4f727aec14db477d94a5", null ],
+    [ "data", "class_c_v_image.html#a56eba1a9e71daa4d1120e3d63fd83bd6", null ],
     [ "empty", "class_c_v_image.html#a6ba0ce17a13df4a2e67babfb7a09faa5", null ],
     [ "fill", "class_c_v_image.html#a23c68213bcb7e3b9cd4ba5f3def680f8", null ],
     [ "fill", "class_c_v_image.html#a55f5de77f630293b2ba71715c93385b4", null ],

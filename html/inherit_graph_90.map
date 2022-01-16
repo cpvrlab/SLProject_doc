@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$struct_s_l_tex_font_1_1_s_l_tex_font_char.html" title="Single Character info struct w. min. and max. texcoords." alt="" coords="5,5,188,32"/>
+<area shape="rect" id="node1" href="$class_s_l_ui_interface.html" title="Interface for ui integration in SLSceneView." alt="" coords="5,5,108,32"/>
+<area shape="rect" id="node2" href="$class_s_l_g_l_im_gui.html" title="ImGui Interface class for forwarding all events to the ImGui Handlers." alt="" coords="156,5,247,32"/>
 </map>

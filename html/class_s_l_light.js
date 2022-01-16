@@ -38,7 +38,7 @@ var class_s_l_light =
     [ "positionWS", "class_s_l_light.html#a618188491a1d52b31ea32279ebbfe9c9", null ],
     [ "powers", "class_s_l_light.html#aef0c88b934dec320fa218d10a13161c4", null ],
     [ "renderShadowMap", "class_s_l_light.html#a92b85f38ebe1225554ccab98a4daf21e", null ],
-    [ "shadowMap", "class_s_l_light.html#aaec7691fe57df9c3c2195c06641f3c11", null ],
+    [ "shadowMap", "class_s_l_light.html#a1f6053c160c1d64645aac60cf23e77d2", null ],
     [ "shadowMap", "class_s_l_light.html#a41c21d6cb3d225b7a022cb2a96f6b84f", null ],
     [ "shadowMaxBias", "class_s_l_light.html#adf81874bcec985c43ff7a9be2745beca", null ],
     [ "shadowMaxBias", "class_s_l_light.html#a3a288019b42c0d5c9c86452f4ea2e3a6", null ],

@@ -26,7 +26,7 @@ var class_s_l_a_a_b_box =
     [ "radiusOS", "class_s_l_a_a_b_box.html#acaf8352f82aa5b56f0b3e62225c0555f", null ],
     [ "radiusWS", "class_s_l_a_a_b_box.html#a990ad0f36cc0ad085e54ae0a833b5098", null ],
     [ "rectCoverageInSS", "class_s_l_a_a_b_box.html#a10d58f1be287788781e349bfacc96048", null ],
-    [ "rectSS", "class_s_l_a_a_b_box.html#a67293c225321a0fa037ec889daf60eb5", null ],
+    [ "rectSS", "class_s_l_a_a_b_box.html#ab839e6837b3da6942d250274e9470575", null ],
     [ "reset", "class_s_l_a_a_b_box.html#a2ee9055bd36073375b23d41cbeea7edf", null ],
     [ "setCenterAndRadius", "class_s_l_a_a_b_box.html#a9645c8bb5372ae174891ac332a753fca", null ],
     [ "sqrViewDist", "class_s_l_a_a_b_box.html#a193778e937571ca69b8d59bedaa86fad", null ],

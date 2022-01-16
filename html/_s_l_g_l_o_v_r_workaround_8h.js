@@ -4,8 +4,8 @@ var _s_l_g_l_o_v_r_workaround_8h =
     [ "ovrSizei", "structovr_sizei.html", "structovr_sizei" ],
     [ "ovrSizef", "structovr_sizef.html", "structovr_sizef" ],
     [ "HmdRenderInfo", "struct_hmd_render_info.html", "struct_hmd_render_info" ],
-    [ "ShutterInfo", "struct_hmd_render_info_1_1_shutter_info.html", "struct_hmd_render_info_1_1_shutter_info" ],
-    [ "EyeConfig", "struct_hmd_render_info_1_1_eye_config.html", "struct_hmd_render_info_1_1_eye_config" ],
+    [ "HmdRenderInfo::ShutterInfo", "struct_hmd_render_info_1_1_shutter_info.html", "struct_hmd_render_info_1_1_shutter_info" ],
+    [ "HmdRenderInfo::EyeConfig", "struct_hmd_render_info_1_1_eye_config.html", "struct_hmd_render_info_1_1_eye_config" ],
     [ "DistortionRenderDesc", "struct_distortion_render_desc.html", "struct_distortion_render_desc" ],
     [ "ovrDistortionVertex_", "structovr_distortion_vertex__.html", "structovr_distortion_vertex__" ],
     [ "ovrDistortionMesh_", "structovr_distortion_mesh__.html", "structovr_distortion_mesh__" ],
@@ -16,7 +16,6 @@ var _s_l_g_l_o_v_r_workaround_8h =
     [ "ovrDistortionMesh", "_s_l_g_l_o_v_r_workaround_8h.html#af4a55a7c17ff6e232a0df11c39299834", null ],
     [ "ovrDistortionVertex", "_s_l_g_l_o_v_r_workaround_8h.html#add3062159162dc815722431fc4787f41", null ],
     [ "ovrFovPort", "_s_l_g_l_o_v_r_workaround_8h.html#a784e7a05354e59e2535a4efda8890b65", null ],
-    [ "NumCoefficients", "_s_l_g_l_o_v_r_workaround_8h.html#adf764cbdea00d65edcd07bb9953ad2b7a4ba356cad4dc9acd53444d8ebb943df1", null ],
     [ "DistortionEqnType", "_s_l_g_l_o_v_r_workaround_8h.html#aa51426e4008154972e9d891b84b925aa", [
       [ "Distortion_No_Override", "_s_l_g_l_o_v_r_workaround_8h.html#aa51426e4008154972e9d891b84b925aaaacb208570b14de904ac328a1f05c0e16", null ],
       [ "Distortion_Poly4", "_s_l_g_l_o_v_r_workaround_8h.html#aa51426e4008154972e9d891b84b925aaaa6836e6c35f3bb2e14c57e4eb1466e28", null ],

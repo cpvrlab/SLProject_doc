@@ -3,7 +3,7 @@ var class_profiler =
     [ "beginSession", "class_profiler.html#af74e37e9dea0c903354b6dd092c3c224", null ],
     [ "endSession", "class_profiler.html#a34f00163bb62d1085e18f5f4562bcd47", null ],
     [ "filePath", "class_profiler.html#ac4258639da9e3ecfcbc286509f97c666", null ],
-    [ "instance", "class_profiler.html#a42628a38ff5d1add8522349c5d6c8c14", null ],
+    [ "instance", "class_profiler.html#a6b9da9adf82608e486e85e971d729df6", null ],
     [ "isLittleEndian", "class_profiler.html#a9b0eacf9419f1e8350aa9e82ff4518f4", null ],
     [ "profileThread", "class_profiler.html#aa59feff4cd072c05ff39235aab04d32c", null ],
     [ "recordResult", "class_profiler.html#ae16ddbcf8272472e37a95dc20af51c14", null ],

@@ -2,7 +2,7 @@ var class_s_l_g_l_uniform =
 [
     [ "SLGLUniform", "class_s_l_g_l_uniform.html#a8783864ce68f915f9cbf60dc334b1835", null ],
     [ "SLGLUniform", "class_s_l_g_l_uniform.html#ab35ff2ad78405443d156e850d5888615", null ],
-    [ "name", "class_s_l_g_l_uniform.html#ac073a8b7037a3e92fd5f954d00fa0ccd", null ],
+    [ "name", "class_s_l_g_l_uniform.html#a3eb657047cfae5154ec3a598ef25e213", null ],
     [ "onKeyPress", "class_s_l_g_l_uniform.html#a42376402c9341b5c8b94f0d74f73f944", null ],
     [ "value", "class_s_l_g_l_uniform.html#ab1b151be686ccd6fa04e7f57f459e21d", null ],
     [ "_inc", "class_s_l_g_l_uniform.html#ac2ee11da1a1e6e536f0c0763a6c5d093", null ],

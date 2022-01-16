@@ -21,7 +21,7 @@ var class_w_a_i_map =
     [ "EraseMapPoint", "class_w_a_i_map.html#ad017e5d8450deda2b1cc8dbd08111f6b", null ],
     [ "GetAllKeyFrames", "class_w_a_i_map.html#ad6afccd742d129135e266b60636563a6", null ],
     [ "GetAllMapPoints", "class_w_a_i_map.html#aeb52c7c42b650a320e8abd793104d155", null ],
-    [ "GetKeyFrameDB", "class_w_a_i_map.html#ade8cddc1a81030e3366f806bb0f56330", null ],
+    [ "GetKeyFrameDB", "class_w_a_i_map.html#ad1e796a0bbe8bd0fb7e9d0bb28bd8b4b", null ],
     [ "GetLastBigChangeIdx", "class_w_a_i_map.html#aebd97c46f41e11cadc7d62ca686d3daf", null ],
     [ "GetMaxKFid", "class_w_a_i_map.html#a2110a49cb6f91e7c3268a676286c1d8b", null ],
     [ "getNumLoopClosings", "class_w_a_i_map.html#aa7fc7a6966fab61cde268250ebc36bc2", null ],

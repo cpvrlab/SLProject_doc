@@ -44,7 +44,7 @@ var hierarchy =
     [ "lightDataStd140", "structlight_data_std140.html", null ],
     [ "WAI::M3x3", "struct_w_a_i_1_1_m3x3.html", null ],
     [ "WAI::M4x4", "struct_w_a_i_1_1_m4x4.html", null ],
-    [ "map", null, [
+    [ "std::map", null, [
       [ "Utils::AverageTiming", "class_utils_1_1_average_timing.html", null ]
     ] ],
     [ "WAI::ModeOrbSlam2", "class_w_a_i_1_1_mode_orb_slam2.html", null ],
@@ -60,7 +60,7 @@ var hierarchy =
     [ "ProfileResult", "struct_profile_result.html", null ],
     [ "ProfilerTimer", "class_profiler_timer.html", null ],
     [ "ProfilingResult", "struct_profiling_result.html", null ],
-    [ "runtime_error", null, [
+    [ "std::runtime_error", null, [
       [ "CVCalibrationEstimatorException", "class_c_v_calibration_estimator_exception.html", null ]
     ] ],
     [ "ScaleAndOffset2D", "struct_scale_and_offset2_d.html", null ],

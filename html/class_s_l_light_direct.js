@@ -24,7 +24,7 @@ var class_s_l_light_direct =
     [ "specular", "class_s_l_light_direct.html#a60c5f508f4f405bbf9ab5aa24e74edc5", null ],
     [ "spotDirWS", "class_s_l_light_direct.html#a78434212506ef19295e53c50c7c2e9e3", null ],
     [ "statsRec", "class_s_l_light_direct.html#afb9cbc46e8be9d21354ba126374f4118", null ],
-    [ "sunLightColorLUT", "class_s_l_light_direct.html#af6fba93bd00c249a46b7015beb236d70", null ],
+    [ "sunLightColorLUT", "class_s_l_light_direct.html#ad524fc9ce42ac419bb93b0e560f4765f", null ],
     [ "sunLightPowerMin", "class_s_l_light_direct.html#a1cb3af814752673bf929ad30eb070460", null ],
     [ "_arrowLength", "class_s_l_light_direct.html#a9a16eb2b29af246c48b5e3383398f2b7", null ],
     [ "_arrowRadius", "class_s_l_light_direct.html#aa419209975f1b43c505f14bd0401e199", null ],

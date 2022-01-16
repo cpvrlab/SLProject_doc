@@ -36,7 +36,7 @@ var class_s_l_g_l_texture =
     [ "getTexelf", "class_s_l_g_l_texture.html#afe9f50aa951e9ffa3bae4021462af950", null ],
     [ "hasAlpha", "class_s_l_g_l_texture.html#aa07971aa08140279f755bef58fb4e70c", null ],
     [ "height", "class_s_l_g_l_texture.html#a4010e1c39af1c84be811b3601100e31e", null ],
-    [ "images", "class_s_l_g_l_texture.html#a4fd852b255603589d7ec775301a601d0", null ],
+    [ "images", "class_s_l_g_l_texture.html#a767055d87c3763dedc927208f5f9806f", null ],
     [ "internalFormatStr", "class_s_l_g_l_texture.html#a1f7844762a3b80bda63e90171b5dcdf9", null ],
     [ "isTexture", "class_s_l_g_l_texture.html#af622d83d8629928ac1bdcc7843961560", null ],
     [ "load", "class_s_l_g_l_texture.html#a6f5dfc3c69077897fa168329733eb940", null ],

@@ -108,11 +108,6 @@ var _s_l_enums_8h =
       [ "K_ctrl", "_s_l_enums_8h.html#afceaa9670aadae056dd2545c1be01e38ac17cf60d371a5d2c5c2e78824888e889", null ],
       [ "K_alt", "_s_l_enums_8h.html#afceaa9670aadae056dd2545c1be01e38aedba1c466798540d31563c0a631eda53", null ]
     ] ],
-    [ "SLLightModel", "_s_l_enums_8h.html#a72b071c51f5360b8c2775a2e4c840862", [
-      [ "LM_BlinnPhong", "_s_l_enums_8h.html#a72b071c51f5360b8c2775a2e4c840862ad6ae2d69890a63c7db027743c5d073df", null ],
-      [ "LM_CookTorrance", "_s_l_enums_8h.html#a72b071c51f5360b8c2775a2e4c840862a1f20f7a6339ff86a326f0126ec7f0a0b", null ],
-      [ "LM_Custom", "_s_l_enums_8h.html#a72b071c51f5360b8c2775a2e4c840862a4aa47abfc813c216d1dc308b8a4c8a68", null ]
-    ] ],
     [ "SLLogVerbosity", "_s_l_enums_8h.html#a1f3982f7d925669a9159b8d01effd992", [
       [ "LV_quiet", "_s_l_enums_8h.html#a1f3982f7d925669a9159b8d01effd992ada4034210a398d016e864da163705606", null ],
       [ "LV_minimal", "_s_l_enums_8h.html#a1f3982f7d925669a9159b8d01effd992ac00f0d5e68ac85f478a4f880a476f50e", null ],
@@ -140,6 +135,11 @@ var _s_l_enums_8h =
       [ "P_stereoColorRG", "_s_l_enums_8h.html#a70e4993b9e12800feca0f1059602ea58a634c39aded4e7778f403638d3a908ea2", null ],
       [ "P_stereoColorRB", "_s_l_enums_8h.html#a70e4993b9e12800feca0f1059602ea58aa50958defa133a37e18a6a834a5fa3c5", null ],
       [ "P_stereoColorYB", "_s_l_enums_8h.html#a70e4993b9e12800feca0f1059602ea58a9df2f8aa0d56e5c1ec77c576f8dcf3be", null ]
+    ] ],
+    [ "SLReflectionModel", "_s_l_enums_8h.html#a9686bbf1c0ab5be295d6ce3552ad8b3b", [
+      [ "RM_BlinnPhong", "_s_l_enums_8h.html#a9686bbf1c0ab5be295d6ce3552ad8b3ba35e3ec2684326d887710006a82261544", null ],
+      [ "RM_CookTorrance", "_s_l_enums_8h.html#a9686bbf1c0ab5be295d6ce3552ad8b3bab0c3bb5fa11af4b2490704efa483be47", null ],
+      [ "RM_Custom", "_s_l_enums_8h.html#a9686bbf1c0ab5be295d6ce3552ad8b3ba5a3fd23fbaa1275ca9e31b4c5df5b0d1", null ]
     ] ],
     [ "SLRenderType", "_s_l_enums_8h.html#a52a22949ac9930a950f25914c096dd57", [
       [ "RT_gl", "_s_l_enums_8h.html#a52a22949ac9930a950f25914c096dd57a1a5ce19eeca276186737d04767d12937", null ],
@@ -232,7 +232,8 @@ var _s_l_enums_8h =
       [ "SID_Benchmark2_MassiveNodes", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71aea901aefff4845d9b1d2c5fd41499e11", null ],
       [ "SID_Benchmark3_NodeAnimations", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a16a7c483632349f60a732b73b2fd48bd", null ],
       [ "SID_Benchmark4_SkinnedAnimations", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a6231a8657a95262f53f574bb90c5aa6c", null ],
-      [ "SID_Benchmark5_LevelOfDetail", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a97664744b1b2ac512aee70cb433f9b39", null ],
+      [ "SID_Benchmark5_ColumnsNoLOD", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71aa6236ac59d32364c0b096f744cbd039f", null ],
+      [ "SID_Benchmark6_ColumnsLOD", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71aaf3e1f2ff0e514a58be76f09e70ada93", null ],
       [ "SID_Maximal", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71abbb9ee8f2fb7f818f6f7faf0ab48e3e4", null ]
     ] ],
     [ "SLShaderType", "_s_l_enums_8h.html#a5fa3763671bb522a817da51b17eaa1a5", [

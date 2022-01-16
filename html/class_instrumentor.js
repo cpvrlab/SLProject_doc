@@ -5,7 +5,7 @@ var class_instrumentor =
     [ "beginSession", "class_instrumentor.html#a5e934af42163a3abde8603fef442d941", null ],
     [ "endSession", "class_instrumentor.html#a0422729e885ec6dbf9f5bb2a201cbd9f", null ],
     [ "filePath", "class_instrumentor.html#a5430e300c9a58f906ba05695f51697e9", null ],
-    [ "get", "class_instrumentor.html#a8793c93dc5f35884e825eb6c26894158", null ],
+    [ "get", "class_instrumentor.html#a5cb8a1c263e2de917600ec17205c04b3", null ],
     [ "writeFooter", "class_instrumentor.html#a10e64bc7ba1f480817f8fe4c378b76fe", null ],
     [ "writeHeader", "class_instrumentor.html#abf0e8e4528d1ddd3d6f8eb026032065c", null ],
     [ "writeProfile", "class_instrumentor.html#aad96a49c8aaf6c3462e8a6b107141fdb", null ],

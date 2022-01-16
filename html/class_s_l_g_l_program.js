@@ -15,7 +15,7 @@ var class_s_l_g_l_program =
     [ "initRaw", "class_s_l_g_l_program.html#ab416a76f9e6016f6442790a2f87ac170", null ],
     [ "passLightsToUniforms", "class_s_l_g_l_program.html#ad0096794d4d5d0e2daaf5e149759652a", null ],
     [ "progID", "class_s_l_g_l_program.html#aea30921fa75f06bcb4081706fae0e06a", null ],
-    [ "shaders", "class_s_l_g_l_program.html#a8cec9a5d0e97412140959988e726bcd5", null ],
+    [ "shaders", "class_s_l_g_l_program.html#a6a2e2214a730dea9e8df72ea14c5fc4e", null ],
     [ "uniform1f", "class_s_l_g_l_program.html#a66f366a486c15c25be47d84214b9c3c4", null ],
     [ "uniform1fv", "class_s_l_g_l_program.html#a85f43c2d47c640305878ba78328a9c36", null ],
     [ "uniform1i", "class_s_l_g_l_program.html#ae148054e6e610c58b6f5a4c2e5fcf334", null ],

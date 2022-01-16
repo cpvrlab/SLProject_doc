@@ -12,7 +12,7 @@ var class_w_a_i_key_frame_d_b =
     [ "DetectRelocalizationCandidates", "class_w_a_i_key_frame_d_b.html#a4ee282f201c751dac39b8bdc84ce0f4e", null ],
     [ "DetectRelocalizationCandidates", "class_w_a_i_key_frame_d_b.html#af02ecbcbe37a0d904d75aed5b7de08ff", null ],
     [ "erase", "class_w_a_i_key_frame_d_b.html#aed628348fdb15bfdfd3411dc58e556f8", null ],
-    [ "getInvertedFile", "class_w_a_i_key_frame_d_b.html#a71b1faff85fa881a19ba1009b3cb12d1", null ],
+    [ "getInvertedFile", "class_w_a_i_key_frame_d_b.html#a510407a328e81d84462e57a92e7df362", null ],
     [ "mMutex", "class_w_a_i_key_frame_d_b.html#a38b974e65187a95002fde1c9f5fd2b65", null ],
     [ "mpVoc", "class_w_a_i_key_frame_d_b.html#a4c8ce17e02d7f7a6ca95d7abe8d005aa", null ],
     [ "mvInvertedFile", "class_w_a_i_key_frame_d_b.html#acce5668d648065c34576e7acc4e87ede", null ]

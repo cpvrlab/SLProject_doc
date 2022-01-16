@@ -16,7 +16,7 @@ var class_s_l_animation =
     [ "drawNodeVisuals", "class_s_l_animation.html#a08d892fee4771d6174ccfcff0cb99e80", null ],
     [ "lengthSec", "class_s_l_animation.html#a610708f4cc1378a6bf63578df7592eef", null ],
     [ "lengthSec", "class_s_l_animation.html#ad853dca24d42845dfc6a1e141766f056", null ],
-    [ "name", "class_s_l_animation.html#aa39f33bfc313cb04e493cc76b2fea3ae", null ],
+    [ "name", "class_s_l_animation.html#a0cba60a94210983629d90152e4a82a7e", null ],
     [ "name", "class_s_l_animation.html#a5de8940b9237055d74db8032c0903d8e", null ],
     [ "nextKeyframeTime", "class_s_l_animation.html#ad13b924b0d459e3d558fcdc947e4856a", null ],
     [ "prevKeyframeTime", "class_s_l_animation.html#a625e2df2f8d355b9206b16922d84c43c", null ],

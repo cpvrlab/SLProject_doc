@@ -34,7 +34,7 @@ var class_w_a_i_map_point =
     [ "Observations", "class_w_a_i_map_point.html#a33bc1e76eafeb0118bc4f2abc7700bfc", null ],
     [ "PredictScale", "class_w_a_i_map_point.html#ab1d965bb6c17c9cc5792179be4d57566", null ],
     [ "PredictScale", "class_w_a_i_map_point.html#a56420faac7b7745f669ade694270a36a", null ],
-    [ "refKf", "class_w_a_i_map_point.html#aea5663f10e2b878aec6cf76d46842ce0", null ],
+    [ "refKf", "class_w_a_i_map_point.html#ab5f93afe514dfabca722fd4d18c157a4", null ],
     [ "refKf", "class_w_a_i_map_point.html#ac3a845bf9b326209f1932a141d06a92e", null ],
     [ "Replace", "class_w_a_i_map_point.html#a7388179c00d83df85f4a59ca6fb34b5b", null ],
     [ "SetBadFlag", "class_w_a_i_map_point.html#a1f5623cf1e964367a181be345539a994", null ],

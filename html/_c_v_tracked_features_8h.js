@@ -1,8 +1,8 @@
 var _c_v_tracked_features_8h =
 [
     [ "CVTrackedFeatures", "class_c_v_tracked_features.html", "class_c_v_tracked_features" ],
-    [ "SLFeatureMarker2D", "struct_c_v_tracked_features_1_1_s_l_feature_marker2_d.html", "struct_c_v_tracked_features_1_1_s_l_feature_marker2_d" ],
-    [ "SLFrameData", "struct_c_v_tracked_features_1_1_s_l_frame_data.html", "struct_c_v_tracked_features_1_1_s_l_frame_data" ],
+    [ "CVTrackedFeatures::SLFeatureMarker2D", "struct_c_v_tracked_features_1_1_s_l_feature_marker2_d.html", "struct_c_v_tracked_features_1_1_s_l_feature_marker2_d" ],
+    [ "CVTrackedFeatures::SLFrameData", "struct_c_v_tracked_features_1_1_s_l_frame_data.html", "struct_c_v_tracked_features_1_1_s_l_frame_data" ],
     [ "SL_DO_FEATURE_BENCHMARKING", "_c_v_tracked_features_8h.html#a53116e455e1072ee2d770988138d4c68", null ],
     [ "SL_DRAW_PATCHES", "_c_v_tracked_features_8h.html#ac607f894381969e0b3f743d51f3cb921", null ],
     [ "SL_DRAW_REPROJECTION_ERROR", "_c_v_tracked_features_8h.html#a30f46094d1048c38226828a43cf4a5e2", null ],
