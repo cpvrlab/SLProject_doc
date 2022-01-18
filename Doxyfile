@@ -880,11 +880,11 @@ INPUT                  = ../modules/sl/source \
                          ../modules/math/source \
                          ../apps/app_demo_slproject/include \
                          ../apps/app_demo_slproject/glfw \
+                         ../apps/app_demo_slproject/source \
                          SLProject.md \
                          Introduction.md \
                          onPaint.md \
-                         blender_to_sl.md \
-                         ../apps/app_demo_slproject/source
+                         blender_to_sl.md
 
 # This tag can be used to specify the character encoding of the source files
 # that doxygen parses. Internally doxygen uses the UTF-8 encoding. Doxygen uses
