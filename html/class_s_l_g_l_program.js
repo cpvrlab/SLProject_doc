@@ -12,7 +12,7 @@ var class_s_l_g_l_program =
     [ "endUse", "class_s_l_g_l_program.html#afc01b0765a239eef68b9eb9342983864", null ],
     [ "getUniformLocation", "class_s_l_g_l_program.html#a86cb3b62c8ef9b6c0980206557a1c464", null ],
     [ "init", "class_s_l_g_l_program.html#ac388363328b328b0c158b9c0a29a3bc6", null ],
-    [ "initRaw", "class_s_l_g_l_program.html#ab416a76f9e6016f6442790a2f87ac170", null ],
+    [ "initTF", "class_s_l_g_l_program.html#a6e62b1223b8d85ec1b3b813a192138b1", null ],
     [ "passLightsToUniforms", "class_s_l_g_l_program.html#ad0096794d4d5d0e2daaf5e149759652a", null ],
     [ "progID", "class_s_l_g_l_program.html#aea30921fa75f06bcb4081706fae0e06a", null ],
     [ "shaders", "class_s_l_g_l_program.html#a6a2e2214a730dea9e8df72ea14c5fc4e", null ],

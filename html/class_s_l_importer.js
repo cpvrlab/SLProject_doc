@@ -4,7 +4,7 @@ var class_s_l_importer =
     [ "SLImporter", "class_s_l_importer.html#a71cdea34c952dff98cd5cab31efb942a", null ],
     [ "SLImporter", "class_s_l_importer.html#a4ff48c993fa40fe5fbfc7e2181073d38", null ],
     [ "~SLImporter", "class_s_l_importer.html#ae10dab69d2130fd631ce8edfa1b4bb3c", null ],
-    [ "load", "class_s_l_importer.html#a737a0301d7aded4da165456a96ac1fb4", null ],
+    [ "load", "class_s_l_importer.html#aeb1056242072897dfcf5261e4fccf009", null ],
     [ "logConsoleVerbosity", "class_s_l_importer.html#a11f624c335d31ca093257da3cf6243f0", null ],
     [ "logFileVerbosity", "class_s_l_importer.html#a9a17b409737a38627d8349b9e14adc03", null ],
     [ "logMessage", "class_s_l_importer.html#aeb7253457e7d1676bb4615a957ec9795", null ],

@@ -28,7 +28,7 @@ var class_s_l_a_a_b_box =
     [ "rectCoverageInSS", "class_s_l_a_a_b_box.html#a10d58f1be287788781e349bfacc96048", null ],
     [ "rectSS", "class_s_l_a_a_b_box.html#ab839e6837b3da6942d250274e9470575", null ],
     [ "reset", "class_s_l_a_a_b_box.html#a2ee9055bd36073375b23d41cbeea7edf", null ],
-    [ "setCenterAndRadius", "class_s_l_a_a_b_box.html#a9645c8bb5372ae174891ac332a753fca", null ],
+    [ "setCenterAndRadiusWS", "class_s_l_a_a_b_box.html#ae77c310f4be205616a8b6baa4628df14", null ],
     [ "sqrViewDist", "class_s_l_a_a_b_box.html#a193778e937571ca69b8d59bedaa86fad", null ],
     [ "sqrViewDist", "class_s_l_a_a_b_box.html#ab43507ff43fd9d6a206fcd116c466740", null ],
     [ "updateAxisWS", "class_s_l_a_a_b_box.html#ad806e4e2e025ddd4e07a19a9cb947c7a", null ],

@@ -28,7 +28,7 @@ var class_w_a_i_slam =
     [ "getNumKeyFrames", "class_w_a_i_slam.html#a12f9658236eba146f8c49fa1b9b22a62", null ],
     [ "getPose", "class_w_a_i_slam.html#a9e7fd4e9c7e0c746891192ee4ad74c3f", null ],
     [ "getPrintableState", "class_w_a_i_slam.html#a9cae421fe8a5db43fc988ae6caf9cbaf", null ],
-    [ "getTrackingState", "class_w_a_i_slam.html#a97514b9bc530a2d1383b491ddb417d74", null ],
+    [ "getTrackingState", "class_w_a_i_slam.html#a934417126cef3d8f7c6613ec40c18706", null ],
     [ "hasStateIdle", "class_w_a_i_slam.html#ac776b2bbe50d1a816699b442aac1d90f", null ],
     [ "isFinished", "class_w_a_i_slam.html#ad5942655da40e5d2542115378648290d", null ],
     [ "isInitialized", "class_w_a_i_slam.html#a354acd35861319d7b1c907e6293c2f90", null ],
@@ -46,7 +46,7 @@ var class_w_a_i_slam =
     [ "updatePose", "class_w_a_i_slam.html#af199e12688ea9bd9ddf5e2f0d0016b92", null ],
     [ "updatePoseKFIntegration", "class_w_a_i_slam.html#ad7eef3731a38768937a9c8e4e600fc5e", null ],
     [ "updatePoseThread", "class_w_a_i_slam.html#ae7757a3b5ff2bb3970b8fa06e296a9fb", null ],
-    [ "updateState", "class_w_a_i_slam.html#a7d1d65d3e7245f5874bf9a580469f017", null ],
+    [ "updateState", "class_w_a_i_slam.html#ab2605e62cc29cc422bc47bbeb40ab6e1", null ],
     [ "_cameraExtrinsicGuessMutex", "class_w_a_i_slam.html#a0d3575d0c151037efc3eb051b12c64a0", null ],
     [ "_cameraExtrinsicMutex", "class_w_a_i_slam.html#af93967690dd4acfc64d6710b65889e7e", null ],
     [ "_extractor", "class_w_a_i_slam.html#a52ce8b63174203897eba32272ab3e508", null ],
@@ -65,6 +65,6 @@ var class_w_a_i_slam =
     [ "_relocExtractor", "class_w_a_i_slam.html#aeb01235701a5fe995abaa738f3e533da", null ],
     [ "_relocFrameCounter", "class_w_a_i_slam.html#aff3a6ead9fb0adeeff6a379714d1c5b0", null ],
     [ "_requestFinish", "class_w_a_i_slam.html#a2ded1257584a466d96f864eb52527f0d", null ],
-    [ "_state", "class_w_a_i_slam.html#a4ab901c6542e76335ab6a6bd1f502556", null ],
+    [ "_state", "class_w_a_i_slam.html#a944096f9f9ed1c9abab513db77cf3ab2", null ],
     [ "_stateMutex", "class_w_a_i_slam.html#a74c2dc7ddefcdf5dd26bbceeec4ed719", null ]
 ];

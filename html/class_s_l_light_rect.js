@@ -7,7 +7,6 @@ var class_s_l_light_rect =
     [ "createShadowMapAutoSize", "class_s_l_light_rect.html#a9128a0be14b420c62b9835f8f609a352", null ],
     [ "diffuse", "class_s_l_light_rect.html#aeb142362965f00acf9f6ebce0482e9ee", null ],
     [ "drawMesh", "class_s_l_light_rect.html#a8533e5825f5f8711de329b9b62e6521d", null ],
-    [ "drawRec", "class_s_l_light_rect.html#a625f7b0357973283fc51106b5394c433", null ],
     [ "height", "class_s_l_light_rect.html#a2075f2ae54cc9e37d87b3b331ff7c715", null ],
     [ "height", "class_s_l_light_rect.html#a133eb82c3f537de506de913bd90f6395", null ],
     [ "hitRec", "class_s_l_light_rect.html#ac92b9ac66f3ecb909208fdc363e059d6", null ],

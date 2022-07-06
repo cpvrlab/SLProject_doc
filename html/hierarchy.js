@@ -2,8 +2,10 @@ var hierarchy =
 [
     [ "AppDemoGui", "class_app_demo_gui.html", null ],
     [ "Utils::Averaged< T >", "class_utils_1_1_averaged.html", null ],
+    [ "Utils::Averaged< CVVec3f >", "class_utils_1_1_averaged.html", null ],
     [ "Utils::Averaged< float >", "class_utils_1_1_averaged.html", null ],
     [ "Utils::Averaged< SLMat3 >", "class_utils_1_1_averaged.html", null ],
+    [ "AveragedQuat4f", "class_averaged_quat4f.html", null ],
     [ "Utils::AverageTimingBlock", "struct_utils_1_1_average_timing_block.html", null ],
     [ "Utils::ComputerInfos", "class_utils_1_1_computer_infos.html", null ],
     [ "Utils::CustomLog", "class_utils_1_1_custom_log.html", null ],
@@ -21,7 +23,9 @@ var hierarchy =
     ] ],
     [ "CVRaulMurExtNode", "class_c_v_raul_mur_ext_node.html", null ],
     [ "CVTracked", "class_c_v_tracked.html", [
-      [ "CVTrackedAruco", "class_c_v_tracked_aruco.html", null ],
+      [ "CVTrackedAruco", "class_c_v_tracked_aruco.html", [
+        [ "CVTrackedArucoCube", "class_c_v_tracked_aruco_cube.html", null ]
+      ] ],
       [ "CVTrackedChessboard", "class_c_v_tracked_chessboard.html", null ],
       [ "CVTrackedFaces", "class_c_v_tracked_faces.html", null ],
       [ "CVTrackedFeatures", "class_c_v_tracked_features.html", null ],
@@ -36,7 +40,6 @@ var hierarchy =
     [ "glUtils", "classgl_utils.html", null ],
     [ "HighResTimer", "class_high_res_timer.html", null ],
     [ "HmdRenderInfo", "struct_hmd_render_info.html", null ],
-    [ "InitializerData", "struct_initializer_data.html", null ],
     [ "InstrumentationSession", "struct_instrumentation_session.html", null ],
     [ "InstrumentationTimer", "class_instrumentation_timer.html", null ],
     [ "Instrumentor", "class_instrumentor.html", null ],
@@ -88,6 +91,8 @@ var hierarchy =
     [ "SLDeviceLocation", "class_s_l_device_location.html", null ],
     [ "SLDeviceRotation", "class_s_l_device_rotation.html", null ],
     [ "SLDrawBits", "class_s_l_draw_bits.html", null ],
+    [ "SLEntities", "class_s_l_entities.html", null ],
+    [ "SLEntity", "struct_s_l_entity.html", null ],
     [ "SLEventHandler", "class_s_l_event_handler.html", [
       [ "SLGLUniform< T >", "class_s_l_g_l_uniform.html", null ],
       [ "SLNode", "class_s_l_node.html", [
@@ -113,8 +118,6 @@ var hierarchy =
     [ "CVTrackedFeatures::SLFrameData", "struct_c_v_tracked_features_1_1_s_l_frame_data.html", null ],
     [ "SLFrustum", "class_s_l_frustum.html", null ],
     [ "SLGLAttribute", "struct_s_l_g_l_attribute.html", null ],
-    [ "SLGLConetracer", "class_s_l_g_l_conetracer.html", null ],
-    [ "SLGLConetracerTex3D", "class_s_l_g_l_conetracer_tex3_d.html", null ],
     [ "SLGLFbo", "class_s_l_g_l_fbo.html", null ],
     [ "SLGLFrameBuffer", "class_s_l_g_l_frame_buffer.html", null ],
     [ "SLGLOculus", "class_s_l_g_l_oculus.html", null ],
@@ -173,6 +176,7 @@ var hierarchy =
         [ "SLCoordAxis", "class_s_l_coord_axis.html", null ],
         [ "SLCoordAxisArrow", "class_s_l_coord_axis_arrow.html", null ],
         [ "SLGrid", "class_s_l_grid.html", null ],
+        [ "SLParticleSystem", "class_s_l_particle_system.html", null ],
         [ "SLPoints", "class_s_l_points.html", null ],
         [ "SLPolygon", "class_s_l_polygon.html", null ],
         [ "SLPolyline", "class_s_l_polyline.html", [
@@ -236,6 +240,7 @@ var hierarchy =
     [ "WAIFeatVector", "struct_w_a_i_feat_vector.html", null ],
     [ "WAIFrame", "class_w_a_i_frame.html", null ],
     [ "WAIImageStabilizedOrientation", "class_w_a_i_image_stabilized_orientation.html", null ],
+    [ "WAIInitializerData", "struct_w_a_i_initializer_data.html", null ],
     [ "WAIKeyFrame", "class_w_a_i_key_frame.html", null ],
     [ "WAIKeyFrameDB", "class_w_a_i_key_frame_d_b.html", null ],
     [ "WAIMap", "class_w_a_i_map.html", null ],

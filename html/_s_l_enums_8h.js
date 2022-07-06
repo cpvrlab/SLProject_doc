@@ -15,6 +15,11 @@ var _s_l_enums_8h =
       [ "A_Y", "_s_l_enums_8h.html#a25c907d9ca012680ab2ac0f3104a0c7aa0a2eb17df6d5c38aec6c371f50db6946", null ],
       [ "A_z", "_s_l_enums_8h.html#a25c907d9ca012680ab2ac0f3104a0c7aa315af34d0cde450f68bd2d19a7d342bd", null ]
     ] ],
+    [ "SLBillboardType", "_s_l_enums_8h.html#ac9a1fff4dc45c435dd467184c5c244f0", [
+      [ "BT_Camera", "_s_l_enums_8h.html#ac9a1fff4dc45c435dd467184c5c244f0a3307c80914d92c30f7bd648b366b7ebd", null ],
+      [ "BT_Vertical", "_s_l_enums_8h.html#ac9a1fff4dc45c435dd467184c5c244f0acf4ed9168a8406a22c03a9b933822b5d", null ],
+      [ "BT_Horizontal", "_s_l_enums_8h.html#ac9a1fff4dc45c435dd467184c5c244f0a83753ffc9d6927b4332c00d17256037e", null ]
+    ] ],
     [ "SLCamAnim", "_s_l_enums_8h.html#a0507d57d47609d67fb4ed245763cbf41", [
       [ "CA_turntableYUp", "_s_l_enums_8h.html#a0507d57d47609d67fb4ed245763cbf41a2086bb04e40a88194c81bdf14a8e6d56", null ],
       [ "CA_turntableZUp", "_s_l_enums_8h.html#a0507d57d47609d67fb4ed245763cbf41aec598e78ad3c3e1caad770645b5b505d", null ],
@@ -121,31 +126,31 @@ var _s_l_enums_8h =
       [ "MB_middle", "_s_l_enums_8h.html#aa0d4a64ab52b958b6230e389aec788dea78c73fbce82168b94c33fc7143ce104f", null ],
       [ "MB_right", "_s_l_enums_8h.html#aa0d4a64ab52b958b6230e389aec788dea4302dc32995cec9a1f19a0606438f46a", null ]
     ] ],
-    [ "SLProjection", "_s_l_enums_8h.html#a70e4993b9e12800feca0f1059602ea58", [
-      [ "P_monoPerspective", "_s_l_enums_8h.html#a70e4993b9e12800feca0f1059602ea58a16e9db1d5e24d2f91cfc64d10ea7a987", null ],
-      [ "P_monoIntrinsic", "_s_l_enums_8h.html#a70e4993b9e12800feca0f1059602ea58a3ba658fc637cd3064f3d14875e7179a2", null ],
-      [ "P_monoOrthographic", "_s_l_enums_8h.html#a70e4993b9e12800feca0f1059602ea58ad4a70a61e3b7faf9786b49ba98694b54", null ],
-      [ "P_stereoSideBySide", "_s_l_enums_8h.html#a70e4993b9e12800feca0f1059602ea58a98dca78080194c11860111b335ea35dd", null ],
-      [ "P_stereoSideBySideP", "_s_l_enums_8h.html#a70e4993b9e12800feca0f1059602ea58a2c029eb25e4873d337e9adbd9b531b89", null ],
-      [ "P_stereoSideBySideD", "_s_l_enums_8h.html#a70e4993b9e12800feca0f1059602ea58a91063c0d49d20033fb8831faa99df70d", null ],
-      [ "P_stereoLineByLine", "_s_l_enums_8h.html#a70e4993b9e12800feca0f1059602ea58aa27664c13851e4feed0710c46950b13a", null ],
-      [ "P_stereoColumnByColumn", "_s_l_enums_8h.html#a70e4993b9e12800feca0f1059602ea58a61bd38a8ae513e6a0e2094a45cd8a236", null ],
-      [ "P_stereoPixelByPixel", "_s_l_enums_8h.html#a70e4993b9e12800feca0f1059602ea58a60afd34f09f33056d3844e3a2f4bf377", null ],
-      [ "P_stereoColorRC", "_s_l_enums_8h.html#a70e4993b9e12800feca0f1059602ea58acb2213f123e5c58964b07b9cb8511ec4", null ],
-      [ "P_stereoColorRG", "_s_l_enums_8h.html#a70e4993b9e12800feca0f1059602ea58a634c39aded4e7778f403638d3a908ea2", null ],
-      [ "P_stereoColorRB", "_s_l_enums_8h.html#a70e4993b9e12800feca0f1059602ea58aa50958defa133a37e18a6a834a5fa3c5", null ],
-      [ "P_stereoColorYB", "_s_l_enums_8h.html#a70e4993b9e12800feca0f1059602ea58a9df2f8aa0d56e5c1ec77c576f8dcf3be", null ]
+    [ "SLProjType", "_s_l_enums_8h.html#a127962282a571fd1c7bf12d6e1c2e161", [
+      [ "P_monoPerspective", "_s_l_enums_8h.html#a127962282a571fd1c7bf12d6e1c2e161a16e9db1d5e24d2f91cfc64d10ea7a987", null ],
+      [ "P_monoIntrinsic", "_s_l_enums_8h.html#a127962282a571fd1c7bf12d6e1c2e161a3ba658fc637cd3064f3d14875e7179a2", null ],
+      [ "P_monoOrthographic", "_s_l_enums_8h.html#a127962282a571fd1c7bf12d6e1c2e161ad4a70a61e3b7faf9786b49ba98694b54", null ],
+      [ "P_stereoSideBySide", "_s_l_enums_8h.html#a127962282a571fd1c7bf12d6e1c2e161a98dca78080194c11860111b335ea35dd", null ],
+      [ "P_stereoSideBySideP", "_s_l_enums_8h.html#a127962282a571fd1c7bf12d6e1c2e161a2c029eb25e4873d337e9adbd9b531b89", null ],
+      [ "P_stereoSideBySideD", "_s_l_enums_8h.html#a127962282a571fd1c7bf12d6e1c2e161a91063c0d49d20033fb8831faa99df70d", null ],
+      [ "P_stereoLineByLine", "_s_l_enums_8h.html#a127962282a571fd1c7bf12d6e1c2e161aa27664c13851e4feed0710c46950b13a", null ],
+      [ "P_stereoColumnByColumn", "_s_l_enums_8h.html#a127962282a571fd1c7bf12d6e1c2e161a61bd38a8ae513e6a0e2094a45cd8a236", null ],
+      [ "P_stereoPixelByPixel", "_s_l_enums_8h.html#a127962282a571fd1c7bf12d6e1c2e161a60afd34f09f33056d3844e3a2f4bf377", null ],
+      [ "P_stereoColorRC", "_s_l_enums_8h.html#a127962282a571fd1c7bf12d6e1c2e161acb2213f123e5c58964b07b9cb8511ec4", null ],
+      [ "P_stereoColorRG", "_s_l_enums_8h.html#a127962282a571fd1c7bf12d6e1c2e161a634c39aded4e7778f403638d3a908ea2", null ],
+      [ "P_stereoColorRB", "_s_l_enums_8h.html#a127962282a571fd1c7bf12d6e1c2e161aa50958defa133a37e18a6a834a5fa3c5", null ],
+      [ "P_stereoColorYB", "_s_l_enums_8h.html#a127962282a571fd1c7bf12d6e1c2e161a9df2f8aa0d56e5c1ec77c576f8dcf3be", null ]
     ] ],
     [ "SLReflectionModel", "_s_l_enums_8h.html#a9686bbf1c0ab5be295d6ce3552ad8b3b", [
       [ "RM_BlinnPhong", "_s_l_enums_8h.html#a9686bbf1c0ab5be295d6ce3552ad8b3ba35e3ec2684326d887710006a82261544", null ],
       [ "RM_CookTorrance", "_s_l_enums_8h.html#a9686bbf1c0ab5be295d6ce3552ad8b3bab0c3bb5fa11af4b2490704efa483be47", null ],
+      [ "RM_Particle", "_s_l_enums_8h.html#a9686bbf1c0ab5be295d6ce3552ad8b3ba9baf6776de55be91f8df89a941e8a26f", null ],
       [ "RM_Custom", "_s_l_enums_8h.html#a9686bbf1c0ab5be295d6ce3552ad8b3ba5a3fd23fbaa1275ca9e31b4c5df5b0d1", null ]
     ] ],
     [ "SLRenderType", "_s_l_enums_8h.html#a52a22949ac9930a950f25914c096dd57", [
       [ "RT_gl", "_s_l_enums_8h.html#a52a22949ac9930a950f25914c096dd57a1a5ce19eeca276186737d04767d12937", null ],
       [ "RT_rt", "_s_l_enums_8h.html#a52a22949ac9930a950f25914c096dd57a0b3e878ff7d9d9fd5e659874fa2c1766", null ],
       [ "RT_pt", "_s_l_enums_8h.html#a52a22949ac9930a950f25914c096dd57a149ec60657c3930ee2c68f17ae24fa0c", null ],
-      [ "RT_ct", "_s_l_enums_8h.html#a52a22949ac9930a950f25914c096dd57a6e145b6fdc967699ede7f83557141824", null ],
       [ "RT_optix_rt", "_s_l_enums_8h.html#a52a22949ac9930a950f25914c096dd57a3957e4c50fdcc33dfa4a504fa1327dd1", null ],
       [ "RT_optix_pt", "_s_l_enums_8h.html#a52a22949ac9930a950f25914c096dd57a2cdd412667c27b7832ec316720459ac9", null ]
     ] ],
@@ -170,7 +175,6 @@ var _s_l_enums_8h =
       [ "SID_ShaderBumpParallax", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71ac86fc5c754c0ab58515fb865fc95668b", null ],
       [ "SID_ShaderSkyBox", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a82cba8359425f8251075996a9be3fced", null ],
       [ "SID_ShaderEarth", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a44e8ce53bcfcbd26882985cd3b54b16d", null ],
-      [ "SID_ShaderVoxelConeDemo", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a1ca71a06f9d65ea358dddbadd1fef398", null ],
       [ "SID_ShadowMappingBasicScene", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71ab41055d92c9ad025349094d2cffd27aa", null ],
       [ "SID_ShadowMappingLightTypes", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a6f719a088edf0eb0f99587460008210b", null ],
       [ "SID_ShadowMappingPointLights", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a9669f3896ecd98971538f5b5492b2010", null ],
@@ -228,12 +232,22 @@ var _s_l_enums_8h =
       [ "SID_ErlebARAventicumCigognier", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71ae86cb9e71d3c83c7109b1559d67b94ce", null ],
       [ "SID_ErlebARAventicumTheatre", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a3bb51aead3843aac03b09926e3bc74f7", null ],
       [ "SID_ErlebARSutzKirchrain18", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71afda9708955ee57fdd81db42b42c66593", null ],
+      [ "SID_ParticleSystem_First", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a18582ab67ebe7d1e51b56c6c69376b4b", null ],
+      [ "SID_ParticleSystem_Demo", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a2997da5ef0291ef2f362765984cb8307", null ],
+      [ "SID_ParticleSystem_DustStorm", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a3b393db4c9698e022e0bf54f99a71441", null ],
+      [ "SID_ParticleSystem_Fountain", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a6218dfab48ec6479bf3a0c94147d19b9", null ],
+      [ "SID_ParticleSystem_Sun", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71aa8f4b7c5905156f16b6e798d67a8c062", null ],
+      [ "SID_ParticleSystem_RingOfFire", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a2126ccb112d7763db6506795cdc9d212", null ],
+      [ "SID_ParticleSystem_FireComplex", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a11786a946f57f67125b5cae389918f32", null ],
       [ "SID_Benchmark1_LargeModel", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a3b10a782788001c1169936a0e909ac71", null ],
       [ "SID_Benchmark2_MassiveNodes", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71aea901aefff4845d9b1d2c5fd41499e11", null ],
       [ "SID_Benchmark3_NodeAnimations", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a16a7c483632349f60a732b73b2fd48bd", null ],
       [ "SID_Benchmark4_SkinnedAnimations", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a6231a8657a95262f53f574bb90c5aa6c", null ],
       [ "SID_Benchmark5_ColumnsNoLOD", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71aa6236ac59d32364c0b096f744cbd039f", null ],
       [ "SID_Benchmark6_ColumnsLOD", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71aaf3e1f2ff0e514a58be76f09e70ada93", null ],
+      [ "SID_Benchmark7_JansUniverse", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a996a2f69bbbb05d0de6b209083f15e8a", null ],
+      [ "SID_Benchmark8_ParticleSystemFireComplex", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a1caa6752c5be686a2a7f09318e9932f8", null ],
+      [ "SID_Benchmark9_ParticleSystemManyParticles", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71a0d7ba849ae0a42627bd1996439c5b5fa", null ],
       [ "SID_Maximal", "_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71abbb9ee8f2fb7f818f6f7faf0ab48e3e4", null ]
     ] ],
     [ "SLShaderType", "_s_l_enums_8h.html#a5fa3763671bb522a817da51b17eaa1a5", [
@@ -242,6 +256,12 @@ var _s_l_enums_8h =
       [ "ST_fragment", "_s_l_enums_8h.html#a5fa3763671bb522a817da51b17eaa1a5a9743bba9e7665eeecf9251a440b4a253", null ],
       [ "ST_geometry", "_s_l_enums_8h.html#a5fa3763671bb522a817da51b17eaa1a5a5248d031265842ad2a75a6247aeaae90", null ],
       [ "ST_tesselation", "_s_l_enums_8h.html#a5fa3763671bb522a817da51b17eaa1a5a46b69f877a122ada39d8f81caa0d082b", null ]
+    ] ],
+    [ "SLShapeType", "_s_l_enums_8h.html#a8c8babb222e9f49447217d496968179d", [
+      [ "ST_Sphere", "_s_l_enums_8h.html#a8c8babb222e9f49447217d496968179da1ffa0da00239f90c5ea1432a9b345d5f", null ],
+      [ "ST_Box", "_s_l_enums_8h.html#a8c8babb222e9f49447217d496968179dabdb67620da0b8be785665a9c7bc0e2b5", null ],
+      [ "ST_Cone", "_s_l_enums_8h.html#a8c8babb222e9f49447217d496968179daff22f4aca95e8bb52f82718c4090a6a2", null ],
+      [ "ST_Pyramid", "_s_l_enums_8h.html#a8c8babb222e9f49447217d496968179dabbc528ebc11ee14a6ae96da9b087079d", null ]
     ] ],
     [ "SLSkinMethod", "_s_l_enums_8h.html#ae3cb438ae42eecf494da3576a693f038", [
       [ "SM_hardware", "_s_l_enums_8h.html#ae3cb438ae42eecf494da3576a693f038a9f7d847f1defff974b297a18c5b27b22", null ],

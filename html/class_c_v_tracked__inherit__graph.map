@@ -1,8 +1,9 @@
 <map id="CVTracked" name="CVTracked">
-<area shape="rect" id="node1" title="CVTracked is the pure virtual base class for tracking features in video." alt="" coords="353,5,441,32"/>
-<area shape="rect" id="node2" href="$class_c_v_tracked_aruco.html" title="OpenCV ArUco marker tracker class derived from CVTracked." alt="" coords="5,80,128,107"/>
-<area shape="rect" id="node3" href="$class_c_v_tracked_chessboard.html" title="OpenCV chessboard tracker class derived from CVTracked." alt="" coords="153,80,311,107"/>
-<area shape="rect" id="node4" href="$class_c_v_tracked_faces.html" title="OpenCV face &amp; facial landmark tracker class derived from CVTracked." alt="" coords="335,80,459,107"/>
-<area shape="rect" id="node5" href="$class_c_v_tracked_features.html" title="CVTrackedFeatures is the main part of the AR Christoffelturm scene." alt="" coords="484,80,623,107"/>
-<area shape="rect" id="node6" href="$class_c_v_tracked_w_a_i.html" title="Tracker that uses the ORB&#45;Slam based WAI library (Where Am I)" alt="" coords="647,80,761,107"/>
+<area shape="rect" id="node1" title="CVTracked is the pure virtual base class for tracking features in video." alt="" coords="369,5,457,32"/>
+<area shape="rect" id="node2" href="$class_c_v_tracked_aruco.html" title="OpenCV ArUco marker tracker class derived from CVTracked." alt="" coords="21,80,143,107"/>
+<area shape="rect" id="node4" href="$class_c_v_tracked_chessboard.html" title="OpenCV chessboard tracker class derived from CVTracked." alt="" coords="168,80,327,107"/>
+<area shape="rect" id="node5" href="$class_c_v_tracked_faces.html" title="OpenCV face &amp; facial landmark tracker class derived from CVTracked." alt="" coords="351,80,475,107"/>
+<area shape="rect" id="node6" href="$class_c_v_tracked_features.html" title="CVTrackedFeatures is the main part of the AR Christoffelturm scene." alt="" coords="499,80,638,107"/>
+<area shape="rect" id="node7" href="$class_c_v_tracked_w_a_i.html" title="Tracker that uses the ORB&#45;Slam based WAI library (Where Am I)" alt="" coords="663,80,776,107"/>
+<area shape="rect" id="node3" href="$class_c_v_tracked_aruco_cube.html" title="OpenCV ArUco cube marker tracker class derived from CVTrackedAruco." alt="" coords="5,155,159,181"/>
 </map>

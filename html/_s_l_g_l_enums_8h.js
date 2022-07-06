@@ -18,7 +18,14 @@ var _s_l_g_l_enums_8h =
       [ "AT_custom6", "_s_l_g_l_enums_8h.html#a1c4ce10c8a033bc987d78c4405ec1072a985d4ca869457bd803cac0b18e4bfbc4", null ],
       [ "AT_custom7", "_s_l_g_l_enums_8h.html#a1c4ce10c8a033bc987d78c4405ec1072a5dede72562f35632017b75c1c1360500", null ],
       [ "AT_custom8", "_s_l_g_l_enums_8h.html#a1c4ce10c8a033bc987d78c4405ec1072adc46f06c2431613e35d7a21fc3976554", null ],
-      [ "AT_custom9", "_s_l_g_l_enums_8h.html#a1c4ce10c8a033bc987d78c4405ec1072a66920f85334253a7940c4b6c86ad6d7b", null ]
+      [ "AT_custom9", "_s_l_g_l_enums_8h.html#a1c4ce10c8a033bc987d78c4405ec1072a66920f85334253a7940c4b6c86ad6d7b", null ],
+      [ "AT_velocity", "_s_l_g_l_enums_8h.html#a1c4ce10c8a033bc987d78c4405ec1072aab5f61a33780c596f4f5ed0cf0a316cf", null ],
+      [ "AT_startTime", "_s_l_g_l_enums_8h.html#a1c4ce10c8a033bc987d78c4405ec1072a9490be7dad7d3e2ba1e868cf968dd0d3", null ],
+      [ "AT_initialVelocity", "_s_l_g_l_enums_8h.html#a1c4ce10c8a033bc987d78c4405ec1072ae69d707ac427d33430ea981328f9a19a", null ],
+      [ "AT_rotation", "_s_l_g_l_enums_8h.html#a1c4ce10c8a033bc987d78c4405ec1072a61204d160090781473fc0218803ab761", null ],
+      [ "AT_angularVelo", "_s_l_g_l_enums_8h.html#a1c4ce10c8a033bc987d78c4405ec1072a2ac9e729f54c2141489dc7cff59e887d", null ],
+      [ "AT_texNum", "_s_l_g_l_enums_8h.html#a1c4ce10c8a033bc987d78c4405ec1072a2e2b8feb69a9aa5c36b3ba65e10792f2", null ],
+      [ "AT_initialPosition", "_s_l_g_l_enums_8h.html#a1c4ce10c8a033bc987d78c4405ec1072aa5a45a4a89b55d3815130b0261536f95", null ]
     ] ],
     [ "SLGLBufferType", "_s_l_g_l_enums_8h.html#af2a4734548d7c452a449938c9770d0d9", [
       [ "BT_float", "_s_l_g_l_enums_8h.html#af2a4734548d7c452a449938c9770d0d9a8cfe99b751f1ad59cd77a6aa863d2f1a", null ],

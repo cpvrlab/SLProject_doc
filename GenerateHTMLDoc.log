@@ -1,1 +1,16 @@
-/Users/hudrima1/Documents/GitHub/SLProject/modules/sl/source/SLTexFont.h:25: warning: explicit link request to '$' could not be resolved
+/Users/marcushudritsch/Documents/GitHub/SLProject/modules/sl/source/SLEntities.cpp:14: warning: argument 'scenegraph' of command @param is not found in the argument list of SLEntities::addChildEntity(SLint myParentID, SLEntity entity)
+/Users/marcushudritsch/Documents/GitHub/SLProject/modules/sl/source/SLEntities.cpp:14: warning: argument 'node' of command @param is not found in the argument list of SLEntities::addChildEntity(SLint myParentID, SLEntity entity)
+/Users/marcushudritsch/Documents/GitHub/SLProject/modules/sl/source/SLEntities.cpp:14: warning: The following parameter of SLEntities::addChildEntity(SLint myParentID, SLEntity entity) is not documented:
+  parameter 'entity'
+/Users/marcushudritsch/Documents/GitHub/SLProject/modules/sl/source/SLEntities.cpp:243: warning: argument 'scenegraph' of command @param is not found in the argument list of SLEntities::deleteEntity(SLint id)
+/Users/marcushudritsch/Documents/GitHub/SLProject/modules/sl/source/SLEntities.cpp:174: warning: argument 'scenegraph' of command @param is not found in the argument list of SLEntities::dump(SLbool doTreeDump)
+/Users/marcushudritsch/Documents/GitHub/SLProject/modules/sl/source/SLEntities.cpp:85: warning: argument 'scenegraph' of command @param is not found in the argument list of SLEntities::getEntity(SLint id)
+/Users/marcushudritsch/Documents/GitHub/SLProject/modules/sl/source/SLEntities.cpp:108: warning: argument 'scenegraph' of command @param is not found in the argument list of SLEntities::getParent(SLint id)
+/Users/marcushudritsch/Documents/GitHub/SLProject/modules/sl/source/gl/SLGLProgramGenerated.cpp:1730: warning: The following parameter of SLGLProgramGenerated::buildProgramCodePS(SLMaterial *mat, bool isDrawProg) is not documented:
+  parameter 'isDrawProg'
+/Users/marcushudritsch/Documents/GitHub/SLProject/modules/sl/source/gl/SLGLProgramGenerated.cpp:1597: warning: The following parameter of SLGLProgramGenerated::buildProgramNamePS(SLMaterial *mat, string &programName, bool isDrawProg) is not documented:
+  parameter 'isDrawProg'
+/Users/marcushudritsch/Documents/GitHub/SLProject/modules/sl/source/SLMaterial.cpp:236: warning: The following parameter of SLMaterial::SLMaterial(SLAssetManager *am, const SLchar *name, SLParticleSystem *ps, SLGLTexture *texture, SLGLProgram *program=nullptr, SLGLProgram *programTF=nullptr) is not documented:
+  parameter 'programTF'
+/Users/marcushudritsch/Documents/GitHub/SLProject/modules/sl/source/SLTexFont.h:25: warning: explicit link request to '$' could not be resolved
+/Users/marcushudritsch/Documents/GitHub/SLProject/modules/utils/source/ByteOrder.cpp:41: warning: Unsupported symbol &src; found

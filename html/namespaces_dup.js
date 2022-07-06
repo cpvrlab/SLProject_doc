@@ -1,5 +1,13 @@
 var namespaces_dup =
 [
+    [ "ByteOrder", "namespace_byte_order.html", [
+      [ "toBigEndian16", "namespace_byte_order.html#a5e63526a4dcbb9419e576f65520449b6", null ],
+      [ "toBigEndian32", "namespace_byte_order.html#a58c5c7345130dc9f789515acb45e1262", null ],
+      [ "toBigEndian64", "namespace_byte_order.html#a84482fb7859a9fd3679a5686b65199c9", null ],
+      [ "writeBigEndian16", "namespace_byte_order.html#a6c4a2164757f613d134f258ec5ba5d8c", null ],
+      [ "writeBigEndian32", "namespace_byte_order.html#a68b52bb61a69da46e6314fae598b4595", null ],
+      [ "writeBigEndian64", "namespace_byte_order.html#a7a394738d4878b2253c8988711149e02", null ]
+    ] ],
     [ "FtpUtils", "namespace_ftp_utils.html", [
       [ "downloadAllFilesFromDir", "namespace_ftp_utils.html#a44380d6a9f2ef9eaa187b70c518097ae", null ],
       [ "downloadFile", "namespace_ftp_utils.html#aaee4c1e1a2b02bd590eca4a31f144f49", null ],

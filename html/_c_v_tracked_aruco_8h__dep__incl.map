@@ -1,6 +1,8 @@
 <map id="CVTrackedAruco.h" name="CVTrackedAruco.h">
-<area shape="rect" id="node1" title=" " alt="" coords="165,5,299,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="248,5,381,32"/>
 <area shape="rect" id="node2" href="$_app_demo_load_8cpp.html" title=" " alt="" coords="5,80,139,107"/>
 <area shape="rect" id="node3" href="$_app_demo_video_8cpp.html" title=" " alt="" coords="163,80,301,107"/>
 <area shape="rect" id="node4" href="$_c_v_tracked_aruco_8cpp.html" title=" " alt="" coords="325,80,472,107"/>
+<area shape="rect" id="node5" href="$_c_v_tracked_aruco_cube_8h.html" title=" " alt="" coords="497,80,661,107"/>
+<area shape="rect" id="node6" href="$_c_v_tracked_aruco_cube_8cpp.html" title=" " alt="" coords="489,155,668,181"/>
 </map>

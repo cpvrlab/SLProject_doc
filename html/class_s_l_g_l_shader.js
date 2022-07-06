@@ -6,7 +6,6 @@ var class_s_l_g_l_shader =
     [ "code", "class_s_l_g_l_shader.html#a22d29e216b1b83959b4908de28766423", null ],
     [ "code", "class_s_l_g_l_shader.html#a5a6e276abaf250b09fe91faa8ee31a6b", null ],
     [ "createAndCompile", "class_s_l_g_l_shader.html#a964992f54eb4d7eab6e0c476e75e6d0f", null ],
-    [ "createAndCompileSimple", "class_s_l_g_l_shader.html#a54c98376e5098c37df4c637debe55fc6", null ],
     [ "file", "class_s_l_g_l_shader.html#a6d740c22c920e33abe195d0e341c2ee7", null ],
     [ "load", "class_s_l_g_l_shader.html#a3f30191eebfa2d7b935196ee46d68506", null ],
     [ "loadFromMemory", "class_s_l_g_l_shader.html#ab932c81e401d86d6d9bfc43d3ea5aebd", null ],

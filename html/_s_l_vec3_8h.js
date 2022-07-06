@@ -8,6 +8,7 @@ var _s_l_vec3_8h =
     [ "SLVec3i", "_s_l_vec3_8h.html#a9b7119cb7b1879429e7c656166bcb72a", null ],
     [ "SLVec3s", "_s_l_vec3_8h.html#a9c8de1150d632d4b4d3ae83cb7a0f4e9", null ],
     [ "SLVec3ui", "_s_l_vec3_8h.html#af9128104cf66127fddebc31a8a01e28e", null ],
+    [ "SLVfloat", "_s_l_vec3_8h.html#a83e5753d0ce99c8f940a5253103d1fdf", null ],
     [ "SLVVec3d", "_s_l_vec3_8h.html#a21135b2e111cf14afe5ad4029db2a763", null ],
     [ "SLVVec3f", "_s_l_vec3_8h.html#a1aca18d22302e0fe827101f1ee0eb667", null ],
     [ "EARTH_ECCENTRICTIY", "_s_l_vec3_8h.html#aab012a4cbd6f6a4500a2fb64ab5729be", null ],

@@ -26,6 +26,7 @@ var class_s_l_mat4 =
     [ "inverseTransposed", "class_s_l_mat4.html#af23cf0516a922f6edb6cfdb972e7f28f", null ],
     [ "invert", "class_s_l_mat4.html#a7e501108ada33d94a8286dabe840902f", null ],
     [ "inverted", "class_s_l_mat4.html#ab76d143cbeb96cacdb0c68675d9cf5e7", null ],
+    [ "isEqual", "class_s_l_mat4.html#a03a4a36f269fcdf8196b6e5b6905410f", null ],
     [ "lightAt", "class_s_l_mat4.html#aa934b7aa0d616df6f4baa9b10657faf2", null ],
     [ "lightAt", "class_s_l_mat4.html#aedb22bcec93d7efa2a0b3c17702052b4", null ],
     [ "lookAt", "class_s_l_mat4.html#a978ff1bfe9c0c8ef0a7aa6251400b923", null ],

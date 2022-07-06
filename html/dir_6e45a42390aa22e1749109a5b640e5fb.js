@@ -13,14 +13,8 @@ var dir_6e45a42390aa22e1749109a5b640e5fb =
     [ "SLInputDevice.h", "_s_l_input_device_8h.html", "_s_l_input_device_8h" ],
     [ "SLInputEvent.h", "_s_l_input_event_8h.html", "_s_l_input_event_8h" ],
     [ "SLInputEventInterface.cpp", "_s_l_input_event_interface_8cpp.html", null ],
-    [ "SLInputEventInterface.h", "_s_l_input_event_interface_8h.html", [
-      [ "SLInputEventInterface", "class_s_l_input_event_interface.html", "class_s_l_input_event_interface" ]
-    ] ],
+    [ "SLInputEventInterface.h", "_s_l_input_event_interface_8h.html", "_s_l_input_event_interface_8h" ],
     [ "SLInputManager.cpp", "_s_l_input_manager_8cpp.html", null ],
-    [ "SLInputManager.h", "_s_l_input_manager_8h.html", [
-      [ "SLInputManager", "class_s_l_input_manager.html", "class_s_l_input_manager" ]
-    ] ],
-    [ "SLUiInterface.h", "_s_l_ui_interface_8h.html", [
-      [ "SLUiInterface", "class_s_l_ui_interface.html", "class_s_l_ui_interface" ]
-    ] ]
+    [ "SLInputManager.h", "_s_l_input_manager_8h.html", "_s_l_input_manager_8h" ],
+    [ "SLUiInterface.h", "_s_l_ui_interface_8h.html", "_s_l_ui_interface_8h" ]
 ];

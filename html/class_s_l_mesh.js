@@ -2,6 +2,7 @@ var class_s_l_mesh =
 [
     [ "SLMesh", "class_s_l_mesh.html#a00ec03a1027b3c5acd93c63604a19994", null ],
     [ "~SLMesh", "class_s_l_mesh.html#ad8811ecc5f1f935a423c14f1d5620a23", null ],
+    [ "accelStructIsOutOfDate", "class_s_l_mesh.html#a580ea4db67c4bf05316c777dee412c31", null ],
     [ "addStats", "class_s_l_mesh.html#a6d2e3ee7dfea1198d1b37723c402f946", null ],
     [ "buildAABB", "class_s_l_mesh.html#ac8d3eb0b88d2fc83f49c30ff1a6445d9", null ],
     [ "calcCenterRad", "class_s_l_mesh.html#a588bcfd12afb6db52242e797ebc0ff42", null ],
@@ -48,7 +49,7 @@ var class_s_l_mesh =
     [ "vao", "class_s_l_mesh.html#a5bea8477913120c00c06b37b33c84e25", null ],
     [ "vertexPosEpsilon", "class_s_l_mesh.html#a3080295c05b7d36115c6e7878f1bd71f", null ],
     [ "_accelStruct", "class_s_l_mesh.html#ae6cf31becdd80b61f045105714187c9f", null ],
-    [ "_accelStructOutOfDate", "class_s_l_mesh.html#a39ce66dcb88b63b7031faa33867bfd76", null ],
+    [ "_accelStructIsOutOfDate", "class_s_l_mesh.html#ad3b4b5f607db6cc13f0d232aaa4487fc", null ],
     [ "_edgeAngleDEG", "class_s_l_mesh.html#a4c0c703fe481231280c6324fb8d8dc2b", null ],
     [ "_edgeColor", "class_s_l_mesh.html#ac020ccc44fd17dbd8610dc043e5070b1", null ],
     [ "_edgeWidth", "class_s_l_mesh.html#a81736a478eabc2982af190936777ab8c", null ],

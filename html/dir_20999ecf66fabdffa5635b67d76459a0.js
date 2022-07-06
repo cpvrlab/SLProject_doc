@@ -5,9 +5,7 @@ var dir_20999ecf66fabdffa5635b67d76459a0 =
     [ "SLAnimKeyframe.cpp", "_s_l_anim_keyframe_8cpp.html", null ],
     [ "SLAnimKeyframe.h", "_s_l_anim_keyframe_8h.html", "_s_l_anim_keyframe_8h" ],
     [ "SLAnimManager.cpp", "_s_l_anim_manager_8cpp.html", null ],
-    [ "SLAnimManager.h", "_s_l_anim_manager_8h.html", [
-      [ "SLAnimManager", "class_s_l_anim_manager.html", "class_s_l_anim_manager" ]
-    ] ],
+    [ "SLAnimManager.h", "_s_l_anim_manager_8h.html", "_s_l_anim_manager_8h" ],
     [ "SLAnimPlayback.cpp", "_s_l_anim_playback_8cpp.html", null ],
     [ "SLAnimPlayback.h", "_s_l_anim_playback_8h.html", "_s_l_anim_playback_8h" ],
     [ "SLAnimSkeleton.cpp", "_s_l_anim_skeleton_8cpp.html", null ],

@@ -12,7 +12,7 @@ var class_s_l_text =
     [ "size", "class_s_l_text.html#a6d1d4de9a5273ef6d9b1d4116c49b94e", null ],
     [ "statsRec", "class_s_l_text.html#aab289ac9d4709dd7d3f90d83491d78a3", null ],
     [ "text", "class_s_l_text.html#a01a00428b587fba7b70bfb1669342530", null ],
-    [ "updateAABBRec", "class_s_l_text.html#a9676996e657e1c52fd8f847707d758bc", null ],
+    [ "updateAABBRec", "class_s_l_text.html#aedfb456aa953a2ad8c7dd29c38974b3e", null ],
     [ "_color", "class_s_l_text.html#ae6b8fa122bad59f7304e0f318f68dd58", null ],
     [ "_font", "class_s_l_text.html#ade419f0287809ace6339664fa9f8e88f", null ],
     [ "_lineH", "class_s_l_text.html#a16c0a393c9da91f0f66ed45996d6d147", null ],

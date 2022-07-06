@@ -37,6 +37,7 @@ var class_s_l_scene =
     [ "unInit", "class_s_l_scene.html#a031c54b7b8451c62112a13c9f6b0811a", null ],
     [ "updateAABBTimesMS", "class_s_l_scene.html#a9dbf219a03e1b4ba64e0fab9737933c9", null ],
     [ "updateAnimTimesMS", "class_s_l_scene.html#a8938ef84ae26968d72d75499e41a0071", null ],
+    [ "updateDODTimesMS", "class_s_l_scene.html#abdf4d24c833b39ea8f09e148699533b6", null ],
     [ "updateTimesMS", "class_s_l_scene.html#a56db390a3b4db0f17ff43756bc3e0c6b", null ],
     [ "SLNode", "class_s_l_scene.html#a6c7ead0ea3a44bdaa7d9c0be43a3f93f", null ],
     [ "_animManager", "class_s_l_scene.html#adedab0127c6f86b3bd47132ef35be027", null ],
@@ -58,6 +59,7 @@ var class_s_l_scene =
     [ "_stopAnimations", "class_s_l_scene.html#a0875845235e61c6220761ccdc23911e1", null ],
     [ "_updateAABBTimesMS", "class_s_l_scene.html#a7dbc0e510c2abaa8c5fae8126d0a3123", null ],
     [ "_updateAnimTimesMS", "class_s_l_scene.html#adbe5d8c86902714e37b597534ff00fd2", null ],
+    [ "_updateDODTimesMS", "class_s_l_scene.html#a32e85aef1b7af416bfa11ae68f507444", null ],
     [ "_updateTimesMS", "class_s_l_scene.html#aeadbcc995cf2c7cfe810639933b025ae", null ],
     [ "onLoad", "class_s_l_scene.html#ad64c907ecd28bfb20fcbfdaea8c1f0e3", null ]
 ];

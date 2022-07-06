@@ -63,11 +63,11 @@ var class_s_l_camera =
     [ "onTouch2Up", "class_s_l_camera.html#ab2a376939d81f5746fb8d434a124092e", null ],
     [ "passToUniforms", "class_s_l_camera.html#a5641983dd86bc4fdf6ad01824066b59d", null ],
     [ "preShade", "class_s_l_camera.html#a31f43d488f2b44f27fabcac02b27578c", null ],
-    [ "projection", "class_s_l_camera.html#a82772a34c2e96fb2857c1d992148eeaf", null ],
-    [ "projection", "class_s_l_camera.html#a0f29ab301fe3f2a570dff9a264668f90", null ],
-    [ "projectionStr", "class_s_l_camera.html#a81df71121f456fa8fe4eb3cd594ed98e", null ],
-    [ "projectionToStr", "class_s_l_camera.html#ae801dc2d6f2d6c2bdb801d43192bbc1e", null ],
     [ "projectWorldToNDC", "class_s_l_camera.html#a3e52c22fec5d5e9bc053fb6899680b36", null ],
+    [ "projType", "class_s_l_camera.html#ae4b36920a32b8c5aa62c0ee18bb9aec8", null ],
+    [ "projType", "class_s_l_camera.html#a6812dea4f743679f6901dae074136cb6", null ],
+    [ "projTypeStr", "class_s_l_camera.html#a45f8052f8d8c19f6858c92f3d078595a", null ],
+    [ "projTypeToStr", "class_s_l_camera.html#a7fc8dbb9b33b2fdfcdf93bd1c4460a4b", null ],
     [ "selectRect", "class_s_l_camera.html#af7eb87ca7a097e2c713035d0308c63d2", null ],
     [ "setFrustumPlanes", "class_s_l_camera.html#a9866ac380c8f97046d7eb129796aeed1", null ],
     [ "setProjection", "class_s_l_camera.html#abd2fe28b178f228450f962cc1df188aa", null ],
@@ -121,7 +121,7 @@ var class_s_l_camera =
     [ "_oldTouchPos2", "class_s_l_camera.html#a86ef81f0bea41b1cfcf462d2d6131e64", null ],
     [ "_onCamUpdateCB", "class_s_l_camera.html#aa4bc3647f2b93760ed258ef4060b2c59", null ],
     [ "_plane", "class_s_l_camera.html#a6a01b6ee32f2d04cce08669e4e2838ea", null ],
-    [ "_projection", "class_s_l_camera.html#ac17fb86ef48378582cd43b999a12fe32", null ],
+    [ "_projType", "class_s_l_camera.html#aef6a5d04c4a62657960b3c88a34fa16c", null ],
     [ "_selectRect", "class_s_l_camera.html#af3c2536ae265c6ddd0e0f22ddb61f8a6", null ],
     [ "_stereoColorFilter", "class_s_l_camera.html#abed438364d3af5b37aacf35e3a913d1f", null ],
     [ "_stereoEye", "class_s_l_camera.html#ab66a712993bd8028a449d96e247b507f", null ],
@@ -138,5 +138,5 @@ var class_s_l_camera =
     [ "currentAnimation", "class_s_l_camera.html#ad13bc3206011100a27c01e6009155585", null ],
     [ "currentDevRotation", "class_s_l_camera.html#a296621a47126758ea4f7c5b66fef64f9", null ],
     [ "currentFOV", "class_s_l_camera.html#abef4a643eb2a96eba007d8fbc8744702", null ],
-    [ "currentProjection", "class_s_l_camera.html#a482460c6eea45b3fd800ee04a8828cb7", null ]
+    [ "currentProjection", "class_s_l_camera.html#a211389411658a6f5141bec87788d60bc", null ]
 ];
