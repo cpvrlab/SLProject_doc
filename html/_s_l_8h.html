@@ -23,7 +23,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td id="projectalign">
-   <div id="projectname">SLProject<span id="projectnumber">&#160;3.3.0</span>
+   <div id="projectname">SLProject<span id="projectnumber">&#160;4.0.000</span>
    </div>
   </td>
  </tr>
@@ -71,12 +71,12 @@ $(document).ready(function(){initNavTree('_s_l_8h.html',''); initResizable(); })
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for SL.h:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="_s_l_8h__incl.svg" width="544" height="262"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="_s_l_8h__incl.svg" width="539" height="267"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="_s_l_8h__dep__incl.svg" width="2907" height="560"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="_s_l_8h__dep__incl.svg" width="3455" height="647"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
@@ -93,9 +93,9 @@ Macros</h2></td></tr>
 <tr class="separator:acca55cf359d6657a2788dad33f22a2f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31a278437103c6a0d9a58f5b07566d87"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_8h.html#a31a278437103c6a0d9a58f5b07566d87">SL_LOG</a>(...)&#160;&#160;&#160;<a class="el" href="namespace_utils.html#af1c107f9c5ec17df1821adb5ac19d10b">Utils::log</a>(&quot;SLProject&quot;, __VA_ARGS__)</td></tr>
 <tr class="separator:a31a278437103c6a0d9a58f5b07566d87"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac111864f9d7138f62bfb4f0061a26b84"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_8h.html#ac111864f9d7138f62bfb4f0061a26b84">SL_EXIT_MSG</a>(message)&#160;&#160;&#160;<a class="el" href="namespace_utils.html#a996b48a09e43056d7c699736aa6cad8a">Utils::exitMsg</a>(&quot;SLProject&quot;, (message), __LINE__, __FILE__)</td></tr>
+<tr class="memitem:ac111864f9d7138f62bfb4f0061a26b84"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_8h.html#ac111864f9d7138f62bfb4f0061a26b84">SL_EXIT_MSG</a>(message)&#160;&#160;&#160;<a class="el" href="namespace_utils.html#af1c107f9c5ec17df1821adb5ac19d10b">Utils::log</a>(&quot;SLProject Error&quot;, (message))</td></tr>
 <tr class="separator:ac111864f9d7138f62bfb4f0061a26b84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4be0c62b555f53acc999d75a99fbffb6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_8h.html#a4be0c62b555f53acc999d75a99fbffb6">SL_WARN_MSG</a>(message)&#160;&#160;&#160;<a class="el" href="namespace_utils.html#a445906a5c6c1f0b7cb484ddfee53d159">Utils::warnMsg</a>(&quot;SLProject&quot;, (message), __LINE__, __FILE__)</td></tr>
+<tr class="memitem:a4be0c62b555f53acc999d75a99fbffb6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_8h.html#a4be0c62b555f53acc999d75a99fbffb6">SL_WARN_MSG</a>(message)&#160;&#160;&#160;<a class="el" href="namespace_utils.html#a87132607d1a18b02f85298659678846c">Utils::warnMsg</a>(&quot;SLProject&quot;, (message), __LINE__, __FILE__)</td></tr>
 <tr class="separator:a4be0c62b555f53acc999d75a99fbffb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
@@ -136,6 +136,18 @@ Typedefs</h2></td></tr>
 <tr class="separator:a1412ef942f0898d78a25c391fc139f38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31dfb1452546acf97a9c0fdac755e0b2"><td class="memItemLeft" align="right" valign="top">typedef unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_8h.html#a31dfb1452546acf97a9c0fdac755e0b2">SLbitfield</a></td></tr>
 <tr class="separator:a31dfb1452546acf97a9c0fdac755e0b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44fc4b510e71b1e6a8bbd1929616ae57"><td class="memItemLeft" align="right" valign="top">typedef int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_8h.html#a44fc4b510e71b1e6a8bbd1929616ae57">SLint8</a></td></tr>
+<tr class="separator:a44fc4b510e71b1e6a8bbd1929616ae57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add98364e49d51fd76c147a94527f3e96"><td class="memItemLeft" align="right" valign="top">typedef uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_8h.html#add98364e49d51fd76c147a94527f3e96">SLuint8</a></td></tr>
+<tr class="separator:add98364e49d51fd76c147a94527f3e96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0783fd991f6fdce4868cbc45e955297"><td class="memItemLeft" align="right" valign="top">typedef int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_8h.html#ad0783fd991f6fdce4868cbc45e955297">SLint16</a></td></tr>
+<tr class="separator:ad0783fd991f6fdce4868cbc45e955297"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7938f693f2bb99c4c0136e8d473e0d4"><td class="memItemLeft" align="right" valign="top">typedef uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_8h.html#aa7938f693f2bb99c4c0136e8d473e0d4">SLuint16</a></td></tr>
+<tr class="separator:aa7938f693f2bb99c4c0136e8d473e0d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a648c061f17f5097b1653ba3a3f5315b6"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_8h.html#a648c061f17f5097b1653ba3a3f5315b6">SLint32</a></td></tr>
+<tr class="separator:a648c061f17f5097b1653ba3a3f5315b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb9b392b6ca29fd9ae9eb0028f2d2a35"><td class="memItemLeft" align="right" valign="top">typedef uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_8h.html#afb9b392b6ca29fd9ae9eb0028f2d2a35">SLuint32</a></td></tr>
+<tr class="separator:afb9b392b6ca29fd9ae9eb0028f2d2a35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d85dd6e4efcba0a020be528a5179a43"><td class="memItemLeft" align="right" valign="top">typedef int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_8h.html#a5d85dd6e4efcba0a020be528a5179a43">SLint64</a></td></tr>
 <tr class="separator:a5d85dd6e4efcba0a020be528a5179a43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a382ca0f1ee0e9a9edc65e805375eb781"><td class="memItemLeft" align="right" valign="top">typedef uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_l_8h.html#a382ca0f1ee0e9a9edc65e805375eb781">SLuint64</a></td></tr>
@@ -229,7 +241,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">message</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="namespace_utils.html#a996b48a09e43056d7c699736aa6cad8a">Utils::exitMsg</a>(&quot;SLProject&quot;, (message), __LINE__, __FILE__)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="namespace_utils.html#af1c107f9c5ec17df1821adb5ac19d10b">Utils::log</a>(&quot;SLProject Error&quot;, (message))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -353,7 +365,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">message</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="namespace_utils.html#a445906a5c6c1f0b7cb484ddfee53d159">Utils::warnMsg</a>(&quot;SLProject&quot;, (message), __LINE__, __FILE__)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="namespace_utils.html#a87132607d1a18b02f85298659678846c">Utils::warnMsg</a>(&quot;SLProject&quot;, (message), __LINE__, __FILE__)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -491,6 +503,34 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ad0783fd991f6fdce4868cbc45e955297" name="ad0783fd991f6fdce4868cbc45e955297"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0783fd991f6fdce4868cbc45e955297">&#9670;&nbsp;</a></span>SLint16</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef int16_t <a class="el" href="_s_l_8h.html#ad0783fd991f6fdce4868cbc45e955297">SLint16</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a648c061f17f5097b1653ba3a3f5315b6" name="a648c061f17f5097b1653ba3a3f5315b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a648c061f17f5097b1653ba3a3f5315b6">&#9670;&nbsp;</a></span>SLint32</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef int32_t <a class="el" href="_s_l_8h.html#a648c061f17f5097b1653ba3a3f5315b6">SLint32</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a5d85dd6e4efcba0a020be528a5179a43" name="a5d85dd6e4efcba0a020be528a5179a43"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5d85dd6e4efcba0a020be528a5179a43">&#9670;&nbsp;</a></span>SLint64</h2>
 
@@ -499,6 +539,20 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">typedef int64_t <a class="el" href="_s_l_8h.html#a5d85dd6e4efcba0a020be528a5179a43">SLint64</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a44fc4b510e71b1e6a8bbd1929616ae57" name="a44fc4b510e71b1e6a8bbd1929616ae57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44fc4b510e71b1e6a8bbd1929616ae57">&#9670;&nbsp;</a></span>SLint8</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef int8_t <a class="el" href="_s_l_8h.html#a44fc4b510e71b1e6a8bbd1929616ae57">SLint8</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -603,6 +657,34 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="aa7938f693f2bb99c4c0136e8d473e0d4" name="aa7938f693f2bb99c4c0136e8d473e0d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7938f693f2bb99c4c0136e8d473e0d4">&#9670;&nbsp;</a></span>SLuint16</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef uint16_t <a class="el" href="_s_l_8h.html#aa7938f693f2bb99c4c0136e8d473e0d4">SLuint16</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afb9b392b6ca29fd9ae9eb0028f2d2a35" name="afb9b392b6ca29fd9ae9eb0028f2d2a35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb9b392b6ca29fd9ae9eb0028f2d2a35">&#9670;&nbsp;</a></span>SLuint32</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef uint32_t <a class="el" href="_s_l_8h.html#afb9b392b6ca29fd9ae9eb0028f2d2a35">SLuint32</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a382ca0f1ee0e9a9edc65e805375eb781" name="a382ca0f1ee0e9a9edc65e805375eb781"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a382ca0f1ee0e9a9edc65e805375eb781">&#9670;&nbsp;</a></span>SLuint64</h2>
 
@@ -611,6 +693,20 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">typedef uint64_t <a class="el" href="_s_l_8h.html#a382ca0f1ee0e9a9edc65e805375eb781">SLuint64</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="add98364e49d51fd76c147a94527f3e96" name="add98364e49d51fd76c147a94527f3e96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add98364e49d51fd76c147a94527f3e96">&#9670;&nbsp;</a></span>SLuint8</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef uint8_t <a class="el" href="_s_l_8h.html#add98364e49d51fd76c147a94527f3e96">SLuint8</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -988,7 +1084,7 @@ template&lt;class T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_e05d7e2b1ecd646af5bb94391405f3b5.html">modules</a></li><li class="navelem"><a class="el" href="dir_4f7cd4b04431463e3a87733fc08c0e85.html">sl</a></li><li class="navelem"><a class="el" href="dir_c00e61a199c5267ffd288abf753b240e.html">source</a></li><li class="navelem"><a class="el" href="_s_l_8h.html">SL.h</a></li>
-    <li class="footer">Generated on Wed Jul 6 2022 09:52:49 for SLProject by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Mon Jun 5 2023 17:33:53 for SLProject by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>

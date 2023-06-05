@@ -6,6 +6,7 @@ var class_s_l_g_l_texture =
     [ "SLGLTexture", "class_s_l_g_l_texture.html#a6d4160415b0fb4b51d33d5cc81ca2ca4", null ],
     [ "SLGLTexture", "class_s_l_g_l_texture.html#ab6db90ff3bbde70ab173811bbab824ac", null ],
     [ "SLGLTexture", "class_s_l_g_l_texture.html#a18ae8666b54d838d3c089b00cb2bd2f5", null ],
+    [ "SLGLTexture", "class_s_l_g_l_texture.html#adff218acd889fe5acf86d57c02207213", null ],
     [ "SLGLTexture", "class_s_l_g_l_texture.html#a0026ab0fea0896ce074c98093d81f7d2", null ],
     [ "~SLGLTexture", "class_s_l_g_l_texture.html#a9127e21907985910d6ac7a42439c07f9", null ],
     [ "autoCalcTM3D", "class_s_l_g_l_texture.html#a1a37aa665acbc4ce9f9dbe82b9b1f161", null ],

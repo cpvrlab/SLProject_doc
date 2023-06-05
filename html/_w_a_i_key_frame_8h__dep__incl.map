@@ -1,21 +1,19 @@
 <map id="WAIKeyFrame.h" name="WAIKeyFrame.h">
-<area shape="rect" id="node1" title=" " alt="" coords="339,5,457,32"/>
-<area shape="rect" id="node2" href="$_w_a_i_key_frame_8cpp.html" title=" " alt="" coords="156,304,288,331"/>
-<area shape="rect" id="node3" href="$_w_a_i_key_frame_d_b_8h.html" title=" " alt="" coords="541,80,679,107"/>
-<area shape="rect" id="node5" href="$_w_a_i_map_8h.html" title=" " alt="" coords="461,155,543,181"/>
-<area shape="rect" id="node9" href="$_w_a_i_map_point_8cpp.html" title=" " alt="" coords="5,304,132,331"/>
-<area shape="rect" id="node10" href="$_w_a_i_slam_8h.html" title=" " alt="" coords="479,304,567,331"/>
-<area shape="rect" id="node4" href="$_w_a_i_key_frame_d_b_8cpp.html" title=" " alt="" coords="648,155,799,181"/>
-<area shape="rect" id="node14" href="$_w_a_i_mode_orb_slam2_8h.html" title=" " alt="" coords="813,229,961,256"/>
-<area shape="rect" id="node16" href="$_w_a_i_slam_tools_8h.html" title=" " alt="" coords="660,229,779,256"/>
-<area shape="rect" id="node6" href="$_w_a_i_map_8cpp.html" title=" " alt="" coords="436,229,533,256"/>
-<area shape="rect" id="node7" href="$_w_a_i_map_point_8h.html" title=" " alt="" coords="247,229,360,256"/>
-<area shape="rect" id="node8" href="$_w_a_i_frame_8cpp.html" title=" " alt="" coords="313,304,422,331"/>
-<area shape="rect" id="node11" href="$_c_v_tracked_w_a_i_8h.html" title=" " alt="" coords="324,379,448,405"/>
-<area shape="rect" id="node13" href="$_w_a_i_slam_8cpp.html" title=" " alt="" coords="472,379,575,405"/>
-<area shape="rect" id="node12" href="$_c_v_tracked_w_a_i_8cpp.html" title=" " alt="" coords="317,453,455,480"/>
-<area shape="rect" id="node15" href="$_w_a_i_mode_orb_slam2_8cpp.html" title=" " alt="" coords="926,304,1089,331"/>
-<area shape="rect" id="node17" href="$_w_a_i_slam_tools_8cpp.html" title=" " alt="" coords="769,304,902,331"/>
-<area shape="rect" id="node18" href="$_w_a_i_slam_track_pool_8h.html" title=" " alt="" coords="598,304,745,331"/>
-<area shape="rect" id="node19" href="$_w_a_i_slam_track_pool_8cpp.html" title=" " alt="" coords="599,379,760,405"/>
+<area shape="rect" id="node1" title=" " alt="" coords="337,5,454,33"/>
+<area shape="rect" id="node2" href="$_w_a_i_key_frame_8cpp.html" title=" " alt="" coords="156,309,288,337"/>
+<area shape="rect" id="node3" href="$_w_a_i_key_frame_d_b_8h.html" title=" " alt="" coords="538,81,674,109"/>
+<area shape="rect" id="node5" href="$_w_a_i_map_8h.html" title=" " alt="" coords="458,157,540,185"/>
+<area shape="rect" id="node9" href="$_w_a_i_map_point_8cpp.html" title=" " alt="" coords="5,309,132,337"/>
+<area shape="rect" id="node10" href="$_w_a_i_slam_8h.html" title=" " alt="" coords="476,309,563,337"/>
+<area shape="rect" id="node4" href="$_w_a_i_key_frame_d_b_8cpp.html" title=" " alt="" coords="643,157,793,185"/>
+<area shape="rect" id="node12" href="$_w_a_i_mode_orb_slam2_8h.html" title=" " alt="" coords="807,233,954,261"/>
+<area shape="rect" id="node14" href="$_w_a_i_slam_tools_8h.html" title=" " alt="" coords="653,233,772,261"/>
+<area shape="rect" id="node6" href="$_w_a_i_map_8cpp.html" title=" " alt="" coords="432,233,529,261"/>
+<area shape="rect" id="node7" href="$_w_a_i_map_point_8h.html" title=" " alt="" coords="246,233,358,261"/>
+<area shape="rect" id="node8" href="$_w_a_i_frame_8cpp.html" title=" " alt="" coords="312,309,420,337"/>
+<area shape="rect" id="node11" href="$_w_a_i_slam_8cpp.html" title=" " alt="" coords="465,385,566,413"/>
+<area shape="rect" id="node13" href="$_w_a_i_mode_orb_slam2_8cpp.html" title=" " alt="" coords="921,309,1083,337"/>
+<area shape="rect" id="node15" href="$_w_a_i_slam_tools_8cpp.html" title=" " alt="" coords="765,309,897,337"/>
+<area shape="rect" id="node16" href="$_w_a_i_slam_track_pool_8h.html" title=" " alt="" coords="594,309,740,337"/>
+<area shape="rect" id="node17" href="$_w_a_i_slam_track_pool_8cpp.html" title=" " alt="" coords="590,385,750,413"/>
 </map>

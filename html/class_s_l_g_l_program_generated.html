@@ -23,7 +23,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td id="projectalign">
-   <div id="projectname">SLProject<span id="projectnumber">&#160;3.3.0</span>
+   <div id="projectname">SLProject<span id="projectnumber">&#160;4.0.000</span>
    </div>
   </td>
  </tr>
@@ -78,7 +78,7 @@ $(document).ready(function(){initNavTree('class_s_l_g_l_program_generated.html',
 <div class="dynheader">
 Inheritance diagram for SLGLProgramGenerated:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_s_l_g_l_program_generated__inherit__graph.svg" width="175" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_s_l_g_l_program_generated__inherit__graph.svg" width="175" height="191"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -752,6 +752,7 @@ Additional Inherited Members</h2></td></tr>
 <p >Builds the GLSL program code for the vertex, geometry and fragment shaders (for particle system drawing). The code is only assembled but not compiled and linked. This happens within the before the first draw call from within <a class="el" href="class_s_l_mesh.html#af4d3add1aa69f6d1e46fe801a93466f4">SLMesh::draw</a>. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">mat</td><td>Parent material pointer </td></tr>
+    <tr><td class="paramname">isDrawProg</td><td>Flag if program is for drawing instead of update </td></tr>
   </table>
   </dd>
 </dl>
@@ -863,7 +864,8 @@ genCook-D00-N00-E00-O01-RM00-Sky-C4s
 <p >See the class information for more insights of the generated name. This function is used in advance of the code generation to check if the program already exists in the asset manager. See <a class="el" href="class_s_l_material.html#a7af2d150d7098a68bbd765102e5ba1d5">SLMaterial::activate</a>. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">mat</td><td>Parent material pointer </td></tr>
-    <tr><td class="paramname">programName</td><td>Reference to program name string that gets built</td></tr>
+    <tr><td class="paramname">programName</td><td>Reference to program name string that gets built </td></tr>
+    <tr><td class="paramname">isDrawProg</td><td>Flag if program is for drawing instead of updating</td></tr>
   </table>
   </dd>
 </dl>
@@ -1104,7 +1106,7 @@ genCook-D00-N00-E00-O01-RM00-Sky-C4s
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_s_l_g_l_program_generated.html">SLGLProgramGenerated</a></li>
-    <li class="footer">Generated on Wed Jul 6 2022 09:52:50 for SLProject by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Mon Jun 5 2023 17:33:53 for SLProject by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>

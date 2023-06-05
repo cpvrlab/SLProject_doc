@@ -23,7 +23,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td id="projectalign">
-   <div id="projectname">SLProject<span id="projectnumber">&#160;3.3.0</span>
+   <div id="projectname">SLProject<span id="projectnumber">&#160;4.0.000</span>
    </div>
   </td>
  </tr>
@@ -68,9 +68,10 @@ $(document).ready(function(){initNavTree('_app_demo_gui_8cpp.html',''); initResi
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="_app_demo_gui_8h.html">AppDemoGui.h</a>&gt;</code><br />
 <code>#include &lt;AppDemo.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="_s_l_8h.html">SL.h</a>&gt;</code><br />
 <code>#include &lt;CVCapture.h&gt;</code><br />
-<code>#include &lt;<a class="el" href="_c_v_image_8h.html">cv/CVImage.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_c_v_tracked_features_8h.html">cv/CVTrackedFeatures.h</a>&gt;</code><br />
+<code>#include &lt;CVImage.h&gt;</code><br />
+<code>#include &lt;CVTrackedFeatures.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="_s_l_asset_manager_8h.html">SLAssetManager.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_s_l_anim_playback_8h.html">SLAnimPlayback.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_s_l_g_l_depth_buffer_8h.html">SLGLDepthBuffer.h</a>&gt;</code><br />
@@ -93,6 +94,7 @@ $(document).ready(function(){initNavTree('_app_demo_gui_8cpp.html',''); initResi
 <code>#include &lt;<a class="el" href="_s_l_tex_color_l_u_t_8h.html">SLTexColorLUT.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_s_l_g_l_im_gui_8h.html">SLGLImGui.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_s_l_horizon_node_8h.html">SLHorizonNode.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_s_l_file_storage_8h.html">SLFileStorage.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_average_timing_8h.html">AverageTiming.h</a>&gt;</code><br />
 <code>#include &lt;imgui.h&gt;</code><br />
 <code>#include &lt;bezier.hpp&gt;</code><br />
@@ -104,7 +106,7 @@ $(document).ready(function(){initNavTree('_app_demo_gui_8cpp.html',''); initResi
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for AppDemoGui.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="_app_demo_gui_8cpp__incl.svg" width="3240" height="635"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="_app_demo_gui_8cpp__incl.svg" width="3452" height="723"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -117,12 +119,12 @@ Functions</h2></td></tr>
 <tr class="separator:a0f370c18ccdce1ad77dd963fa08623e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3060d380140ae89bd4a3ed3cfc4d2a59"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_app_demo_gui_8cpp.html#a3060d380140ae89bd4a3ed3cfc4d2a59">ftpCallbackXfer</a> (off64_t xfered, void *arg)</td></tr>
 <tr class="separator:a3060d380140ae89bd4a3ed3cfc4d2a59"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29565766a6ddd5d0462117d49a1470b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_v_calibration.html">CVCalibration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_app_demo_gui_8cpp.html#a29565766a6ddd5d0462117d49a1470b9">guessCalibration</a> (bool mirroredH, bool mirroredV, <a class="el" href="_c_v_types_8h.html#a28e55d530c4f771725cec8e1d10d74d8">CVCameraType</a> camType)</td></tr>
+<tr class="memitem:a29565766a6ddd5d0462117d49a1470b9"><td class="memItemLeft" align="right" valign="top">CVCalibration&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_app_demo_gui_8cpp.html#a29565766a6ddd5d0462117d49a1470b9">guessCalibration</a> (bool mirroredH, bool mirroredV, CVCameraType camType)</td></tr>
 <tr class="separator:a29565766a6ddd5d0462117d49a1470b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a386ca49e8a4aa42ea35ae60bf5f2e616"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_v_tracked.html">CVTracked</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_app_demo_gui_8cpp.html#a386ca49e8a4aa42ea35ae60bf5f2e616">tracker</a></td></tr>
+<tr class="memitem:a386ca49e8a4aa42ea35ae60bf5f2e616"><td class="memItemLeft" align="right" valign="top">CVTracked *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_app_demo_gui_8cpp.html#a386ca49e8a4aa42ea35ae60bf5f2e616">tracker</a></td></tr>
 <tr class="separator:a386ca49e8a4aa42ea35ae60bf5f2e616"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0725e461a4d4f4ac2e5f1e25480f8c02"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_s_l_node.html">SLNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_app_demo_gui_8cpp.html#a0725e461a4d4f4ac2e5f1e25480f8c02">trackedNode</a></td></tr>
 <tr class="separator:a0725e461a4d4f4ac2e5f1e25480f8c02"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -222,7 +224,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_c_v_calibration.html">CVCalibration</a> guessCalibration </td>
+          <td class="memname">CVCalibration guessCalibration </td>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>mirroredH</em>, </td>
@@ -236,7 +238,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="_c_v_types_8h.html#a28e55d530c4f771725cec8e1d10d74d8">CVCameraType</a>&#160;</td>
+          <td class="paramtype">CVCameraType&#160;</td>
           <td class="paramname"><em>camType</em>&#160;</td>
         </tr>
         <tr>
@@ -491,7 +493,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_c_v_tracked.html">CVTracked</a>* tracker</td>
+          <td class="memname">CVTracked* tracker</td>
         </tr>
       </table>
   </td>
@@ -554,8 +556,8 @@ Variables</h2></td></tr>
 <div class="line">    *out_text = vector.at((<a class="code hl_typedef" href="_s_l_8h.html#a44d61aad4f3be0082c963feb065af080">SLuint</a>)idx).c_str();</div>
 <div class="line">    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line">}</div>
-<div class="ttc" id="a_s_l_8h_html_a44d61aad4f3be0082c963feb065af080"><div class="ttname"><a href="_s_l_8h.html#a44d61aad4f3be0082c963feb065af080">SLuint</a></div><div class="ttdeci">unsigned int SLuint</div><div class="ttdef"><b>Definition:</b> SL.h:164</div></div>
-<div class="ttc" id="a_s_l_8h_html_aa714398b40926a0c0d9583d91968c1e2"><div class="ttname"><a href="_s_l_8h.html#aa714398b40926a0c0d9583d91968c1e2">SLVstring</a></div><div class="ttdeci">vector&lt; SLstring &gt; SLVstring</div><div class="ttdef"><b>Definition:</b> SL.h:187</div></div>
+<div class="ttc" id="a_s_l_8h_html_a44d61aad4f3be0082c963feb065af080"><div class="ttname"><a href="_s_l_8h.html#a44d61aad4f3be0082c963feb065af080">SLuint</a></div><div class="ttdeci">unsigned int SLuint</div><div class="ttdef"><b>Definition:</b> SL.h:171</div></div>
+<div class="ttc" id="a_s_l_8h_html_aa714398b40926a0c0d9583d91968c1e2"><div class="ttname"><a href="_s_l_8h.html#aa714398b40926a0c0d9583d91968c1e2">SLVstring</a></div><div class="ttdeci">vector&lt; SLstring &gt; SLVstring</div><div class="ttdef"><b>Definition:</b> SL.h:201</div></div>
 </div><!-- fragment -->
 <p>Vector getter callback for combo and listbox with std::vector&lt;std::string&gt; </p>
 
@@ -567,7 +569,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_9654b8d08f4bba4e84b362c5fd320bee.html">apps</a></li><li class="navelem"><a class="el" href="dir_1fa6a921f0f4c6e5efae469eabba5068.html">app_demo_slproject</a></li><li class="navelem"><a class="el" href="dir_0044274101439139e21f9c5b5e18dcfb.html">source</a></li><li class="navelem"><a class="el" href="_app_demo_gui_8cpp.html">AppDemoGui.cpp</a></li>
-    <li class="footer">Generated on Wed Jul 6 2022 09:52:49 for SLProject by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Mon Jun 5 2023 17:33:53 for SLProject by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>

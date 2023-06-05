@@ -1,13 +1,13 @@
 <map id="SLVec2.h" name="SLVec2.h">
-<area shape="rect" id="node1" title=" " alt="" coords="100,5,177,32"/>
-<area shape="rect" id="node2" href="$_s_l_math_8h.html" title=" " alt="" coords="14,80,92,107"/>
-<area shape="rect" id="node5" href="$_utils_8h.html" title=" " alt="" coords="234,80,294,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="24,155,82,181"/>
-<area shape="rect" id="node4" title=" " alt="" coords="275,229,330,256"/>
-<area shape="rect" id="node6" title=" " alt="" coords="107,155,162,181"/>
-<area shape="rect" id="node7" title=" " alt="" coords="498,229,568,256"/>
-<area shape="rect" id="node8" href="$_file_log_8h.html" title=" " alt="" coords="340,155,414,181"/>
-<area shape="rect" id="node10" href="$_custom_log_8h.html" title=" " alt="" coords="439,155,539,181"/>
-<area shape="rect" id="node11" title=" " alt="" coords="186,155,264,181"/>
-<area shape="rect" id="node9" title=" " alt="" coords="354,229,421,256"/>
+<area shape="rect" id="node1" title=" " alt="" coords="99,5,175,33"/>
+<area shape="rect" id="node2" href="$_s_l_math_8h.html" title=" " alt="" coords="15,81,92,109"/>
+<area shape="rect" id="node5" href="$_utils_8h.html" title=" " alt="" coords="230,81,290,109"/>
+<area shape="rect" id="node3" title=" " alt="" coords="25,157,82,185"/>
+<area shape="rect" id="node4" title=" " alt="" coords="272,233,325,261"/>
+<area shape="rect" id="node6" title=" " alt="" coords="107,157,160,185"/>
+<area shape="rect" id="node7" title=" " alt="" coords="492,233,561,261"/>
+<area shape="rect" id="node8" href="$_file_log_8h.html" title=" " alt="" coords="336,157,410,185"/>
+<area shape="rect" id="node10" href="$_custom_log_8h.html" title=" " alt="" coords="434,157,534,185"/>
+<area shape="rect" id="node11" title=" " alt="" coords="184,157,261,185"/>
+<area shape="rect" id="node9" title=" " alt="" coords="350,233,415,261"/>
 </map>

@@ -1,4 +1,4 @@
 <map id="SLAnimTrack" name="SLAnimTrack">
-<area shape="rect" id="node1" title="Abstract base class for SLAnimationTracks providing time and keyframe functions." alt="" coords="21,5,122,32"/>
-<area shape="rect" id="node2" href="$class_s_l_node_anim_track.html" title="Specialized animation track for node animations." alt="" coords="5,80,137,107"/>
+<area shape="rect" id="node1" title="Abstract base class for SLAnimationTracks providing time and keyframe functions." alt="" coords="21,5,121,33"/>
+<area shape="rect" id="node2" href="$class_s_l_node_anim_track.html" title="Specialized animation track for node animations." alt="" coords="5,81,137,109"/>
 </map>

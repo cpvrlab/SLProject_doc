@@ -23,7 +23,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td id="projectalign">
-   <div id="projectname">SLProject<span id="projectnumber">&#160;3.3.0</span>
+   <div id="projectname">SLProject<span id="projectnumber">&#160;4.0.000</span>
    </div>
   </td>
  </tr>
@@ -142,7 +142,7 @@ The <b>violet classes</b> encapsulate all OpenGL vertex array object and buffer 
 <li>
 The <b>red classes</b> build the animation framework. </li>
 <li>
-The <b>orange classes</b> encapsulate the video, image and AR tracking functionality using OpenCV. CV classes are independent from all SL classes. Only <a class="el" href="class_s_l_g_l_texture.html" title="Texture object for OpenGL texturing.">SLGLTexture</a> uses <a class="el" href="class_c_v_image.html" title="OpenCV image class with the same interface as the former SLImage class.">CVImage</a> for its texture images. </li>
+The <b>orange classes</b> encapsulate the video, image and AR tracking functionality using OpenCV. CV classes are independent from all SL classes. Only <a class="el" href="class_s_l_g_l_texture.html" title="Texture object for OpenGL texturing.">SLGLTexture</a> uses CVImage for its texture images. </li>
 <li>
 The <b>red classes</b> build the animation framework. </li>
 <li>
@@ -239,22 +239,22 @@ SLSkeleton: A skeleton is used to animate a hierarchical object like a human fig
 Image and Video Processing Classes</h1>
 <p >The orange classes provide the functionality for video and image processing using the OpenCV framework. The SLProject framework can now process the images from attached live video cameras. This works via OpenCV on desktop OS as well as on iOS and Android. The live video image is constantly fed into an OpenGL texture that can be used as a texture on an objects material or as the scenes background. With the live video in the background you can create augmented reality (AR) applications. Examples can be found in the demo application under Load Scene &gt; Using Video &gt; Track Chessboard or Track AruCo. </p><ul>
 <li>
-<a class="el" href="class_c_v_image.html" title="OpenCV image class with the same interface as the former SLImage class.">CVImage</a>: Replaces the deprecated SLImage class and provides all for loading, saving and converting images. Internally it stores the image in a cv::Mat instance. <br  />
+CVImage: Replaces the deprecated SLImage class and provides all for loading, saving and converting images. Internally it stores the image in a cv::Mat instance. <br  />
   </li>
 <li>
 CVCapture: Holds static images from the OpenCV video capture or from an external (iOS and Android) video capture service. There is an CVCapture::lastFrame and an CVCapture::lastFrameGray with the gray level version of the last capture video frame.  </li>
 <li>
-<a class="el" href="class_c_v_calibration.html" title="Live video camera calibration class with OpenCV an OpenCV calibration.">CVCalibration</a> holds all functionality to calibrate the video camera. A classic chessboard pattern is used for calibration. In the demo application a special scene is provided for the calibration (Preferences &gt; Video &gt; Calibrate Camera).  </li>
+CVCalibration holds all functionality to calibrate the video camera. A classic chessboard pattern is used for calibration. In the demo application a special scene is provided for the calibration (Preferences &gt; Video &gt; Calibrate Camera).  </li>
 <li>
-<a class="el" href="class_c_v_tracked.html" title="CVTracked is the pure virtual base class for tracking features in video.">CVTracked</a> is the base class for tracking classes. The scene can have multiple trackers. A tracker is associated with a Node. When the object to be tracked is found, it controls the nodes transform. If the associated node is the scenes active camera a classic augmented reality application can be generated. <br  />
+CVTracked is the base class for tracking classes. The scene can have multiple trackers. A tracker is associated with a Node. When the object to be tracked is found, it controls the nodes transform. If the associated node is the scenes active camera a classic augmented reality application can be generated. <br  />
   </li>
 <li>
-<a class="el" href="class_c_v_tracked_chessboard.html" title="OpenCV chessboard tracker class derived from CVTracked.">CVTrackedChessboard</a> tracks the same chessboard that is used for the camera calibration.  </li>
+CVTrackedChessboard tracks the same chessboard that is used for the camera calibration.  </li>
 <li>
-<a class="el" href="class_c_v_tracked_aruco.html" title="OpenCV ArUco marker tracker class derived from CVTracked.">CVTrackedAruco</a> tracks special markers called AruCo markers. These markers are optimal in tracking performance and stability. <br  />
+CVTrackedAruco tracks special markers called AruCo markers. These markers are optimal in tracking performance and stability. <br  />
   </li>
 <li>
-<a class="el" href="class_c_v_tracked_features.html" title="CVTrackedFeatures is the main part of the AR Christoffelturm scene.">CVTrackedFeatures</a> tracks any 2D features. Supported are any feature detectors and descriptors that are provided by OpenCV. In addition we include the enhanced ORB feature detector developed by <a href="https://github.com/raulmur/ORB_SLAM2/">Raul Mur</a>  </li>
+CVTrackedFeatures tracks any 2D features. Supported are any feature detectors and descriptors that are provided by OpenCV. In addition we include the enhanced ORB feature detector developed by <a href="https://github.com/raulmur/ORB_SLAM2/">Raul Mur</a>  </li>
 </ul>
 <p >Authors: <a href="#" onclick="location.href='mai'+'lto:'+'mar'+'cu'+'s.h'+'ud'+'rit'+'sc'+'h@b'+'fh'+'.ch'; return false;">marcu<span class="obfuscator">.nosp@m.</span>s.hu<span class="obfuscator">.nosp@m.</span>drits<span class="obfuscator">.nosp@m.</span>ch@b<span class="obfuscator">.nosp@m.</span>fh.ch</a><br  />
  Date: January 2022<br  />
@@ -265,7 +265,7 @@ CVCapture: Holds static images from the OpenCV video capture or from an external
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Jul 6 2022 09:52:49 for SLProject by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Mon Jun 5 2023 17:33:53 for SLProject by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>

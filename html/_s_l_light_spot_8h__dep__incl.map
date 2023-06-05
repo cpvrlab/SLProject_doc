@@ -1,8 +1,8 @@
 <map id="SLLightSpot.h" name="SLLightSpot.h">
-<area shape="rect" id="node1" title=" " alt="" coords="320,5,424,32"/>
-<area shape="rect" id="node2" href="$_app_demo_gui_8cpp.html" title=" " alt="" coords="5,80,131,107"/>
-<area shape="rect" id="node3" href="$_app_demo_load_8cpp.html" title=" " alt="" coords="155,80,288,107"/>
-<area shape="rect" id="node4" href="$_s_l_light_spot_8cpp.html" title=" " alt="" coords="313,80,431,107"/>
-<area shape="rect" id="node5" href="$_s_l_node_8cpp.html" title=" " alt="" coords="455,80,550,107"/>
-<area shape="rect" id="node6" href="$_s_l_shadow_map_8cpp.html" title=" " alt="" coords="574,80,709,107"/>
+<area shape="rect" id="node1" title=" " alt="" coords="317,5,421,33"/>
+<area shape="rect" id="node2" href="$_app_demo_gui_8cpp.html" title=" " alt="" coords="5,81,130,109"/>
+<area shape="rect" id="node3" href="$_app_demo_load_8cpp.html" title=" " alt="" coords="153,81,286,109"/>
+<area shape="rect" id="node4" href="$_s_l_light_spot_8cpp.html" title=" " alt="" coords="310,81,428,109"/>
+<area shape="rect" id="node5" href="$_s_l_node_8cpp.html" title=" " alt="" coords="452,81,545,109"/>
+<area shape="rect" id="node6" href="$_s_l_shadow_map_8cpp.html" title=" " alt="" coords="568,81,703,109"/>
 </map>

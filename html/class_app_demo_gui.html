@@ -23,7 +23,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td id="projectalign">
-   <div id="projectname">SLProject<span id="projectnumber">&#160;3.3.0</span>
+   <div id="projectname">SLProject<span id="projectnumber">&#160;4.0.000</span>
    </div>
   </td>
  </tr>
@@ -214,6 +214,8 @@ Static Private Member Functions</h2></td></tr>
 <tr class="memitem:ad41802e56ee884cc7b4ce7b75e1e9113"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_demo_gui.html#ad41802e56ee884cc7b4ce7b75e1e9113">hideHorizon</a> (<a class="el" href="class_s_l_scene.html">SLScene</a> *s)</td></tr>
 <tr class="memdesc:ad41802e56ee884cc7b4ce7b75e1e9113"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disables calculation and visualization of horizon line.  <a href="class_app_demo_gui.html#ad41802e56ee884cc7b4ce7b75e1e9113">More...</a><br /></td></tr>
 <tr class="separator:ad41802e56ee884cc7b4ce7b75e1e9113"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2df2097a94c076e396bd35eabeaf506d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_demo_gui.html#a2df2097a94c076e396bd35eabeaf506d">loadSceneWithLargeModel</a> (<a class="el" href="class_s_l_scene.html">SLScene</a> *s, <a class="el" href="class_s_l_scene_view.html">SLSceneView</a> *sv, string downloadFilename, string filenameToLoad, <a class="el" href="_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71">SLSceneID</a> sceneIDToLoad)</td></tr>
+<tr class="separator:a2df2097a94c076e396bd35eabeaf506d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15872418405cbb4cbff14b9cdd4b5318"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_demo_gui.html#a15872418405cbb4cbff14b9cdd4b5318">downloadModelAndLoadScene</a> (<a class="el" href="class_s_l_scene.html">SLScene</a> *s, <a class="el" href="class_s_l_scene_view.html">SLSceneView</a> *sv, string downloadFilename, string urlFolder, string dstFolder, string filenameToLoad, <a class="el" href="_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71">SLSceneID</a> sceneIDToLoad)</td></tr>
 <tr class="memdesc:a15872418405cbb4cbff14b9cdd4b5318"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parallel HTTP download, unzip and load scene job scheduling.  <a href="class_app_demo_gui.html#a15872418405cbb4cbff14b9cdd4b5318">More...</a><br /></td></tr>
 <tr class="separator:a15872418405cbb4cbff14b9cdd4b5318"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -633,6 +635,60 @@ See also the comments on <a class="el" href="class_s_l_g_l_im_gui.html" title="I
 
 </div>
 </div>
+<a id="a2df2097a94c076e396bd35eabeaf506d" name="a2df2097a94c076e396bd35eabeaf506d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2df2097a94c076e396bd35eabeaf506d">&#9670;&nbsp;</a></span>loadSceneWithLargeModel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AppDemoGui::loadSceneWithLargeModel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_s_l_scene.html">SLScene</a> *&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_s_l_scene_view.html">SLSceneView</a> *&#160;</td>
+          <td class="paramname"><em>sv</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>downloadFilename</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>filenameToLoad</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_s_l_enums_8h.html#ada61ceb8f0fc8b829d6e7916d8956b71">SLSceneID</a>&#160;</td>
+          <td class="paramname"><em>sceneIDToLoad</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a99596034ca659c65dcab599760e1bd9b" name="a99596034ca659c65dcab599760e1bd9b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a99596034ca659c65dcab599760e1bd9b">&#9670;&nbsp;</a></span>removeTransformNode()</h2>
 
@@ -986,9 +1042,11 @@ See also the comments on <a class="el" href="class_s_l_g_l_im_gui.html" title="I
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= R<span class="stringliteral">&quot;(</span></div>
 <div class="line"><span class="stringliteral">Welcome to the SLProject demo app. It is developed at the Computer Science Department of the Bern University of Applied Sciences.</span></div>
-<div class="line"><span class="stringliteral">The app shows what you can learn in two semesters about 3D computer graphics in real time rendering and ray tracing. The framework is developed in C++ with OpenGL ES so that it can run also on mobile devices.</span></div>
-<div class="line"><span class="stringliteral">Ray tracing provides in addition high quality transparencies, reflections and soft shadows. Click to close and use the menu to choose different scenes and view settings.</span></div>
-<div class="line"><span class="stringliteral">For more information please visit: https://github.com/cpvrlab/SLProject</span></div>
+<div class="line"><span class="stringliteral">The app shows what you can learn in two semesters about 3D computer graphics in real time rendering and ray tracing.</span></div>
+<div class="line"><span class="stringliteral">The framework is developed in C++ with OpenGL ES so that it can run also on mobile devices.</span></div>
+<div class="line"><span class="stringliteral">Ray tracing and path tracing provide additional high quality transparencies, reflections and soft shadows.</span></div>
+<div class="line"><span class="stringliteral">Click the X to close and use the menu File &gt; Load Demo Scenes to choose other scenes that each show-case a specific feature of SLProject.</span></div>
+<div class="line"><span class="stringliteral">For more information please visit: https://github.com/cpvrlab/SLProject/wiki</span></div>
 <div class="line"><span class="stringliteral">)&quot;</span></div>
 </div><!-- fragment -->
 <p>About info string. </p>
@@ -1054,17 +1112,20 @@ See also the comments on <a class="el" href="class_s_l_g_l_im_gui.html" title="I
 <div class="line"><span class="stringliteral">Credits for external libraries:</span></div>
 <div class="line"><span class="stringliteral">- assimp: assimp.sourceforge.net</span></div>
 <div class="line"><span class="stringliteral">- eigen: eigen.tuxfamily.org</span></div>
+<div class="line"><span class="stringliteral">- emscripten: emscripten.org</span></div>
 <div class="line"><span class="stringliteral">- imgui: github.com/ocornut/imgui</span></div>
 <div class="line"><span class="stringliteral">- gl3w: https://github.com/skaslev/gl3w</span></div>
 <div class="line"><span class="stringliteral">- glfw: glfw.org</span></div>
 <div class="line"><span class="stringliteral">- g2o: github.com/RainerKuemmerle/g2o</span></div>
 <div class="line"><span class="stringliteral">- ktx: khronos.org/ktx</span></div>
 <div class="line"><span class="stringliteral">- libigl: libigl.github.io</span></div>
+<div class="line"><span class="stringliteral">- mediapipe: developers.google.com/mediapipe</span></div>
 <div class="line"><span class="stringliteral">- ORB-SLAM2: github.com/raulmur/ORB_SLAM2</span></div>
 <div class="line"><span class="stringliteral">- OpenCV: opencv.org</span></div>
 <div class="line"><span class="stringliteral">- OpenGL: opengl.org</span></div>
 <div class="line"><span class="stringliteral">- OpenSSL: openssl.org</span></div>
 <div class="line"><span class="stringliteral">- spa: midcdmz.nrel.gov/spa</span></div>
+<div class="line"><span class="stringliteral">- stb: single file image library</span></div>
 <div class="line"><span class="stringliteral">- zlib: zlib.net</span></div>
 <div class="line"><span class="stringliteral">)&quot;</span></div>
 </div><!-- fragment -->
@@ -1597,7 +1658,7 @@ See also the comments on <a class="el" href="class_s_l_g_l_im_gui.html" title="I
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_app_demo_gui.html">AppDemoGui</a></li>
-    <li class="footer">Generated on Wed Jul 6 2022 09:52:49 for SLProject by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Mon Jun 5 2023 17:33:53 for SLProject by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>

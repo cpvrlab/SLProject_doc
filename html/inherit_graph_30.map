@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structovr_fov_port__.html" title=" " alt="" coords="5,5,99,32"/>
+<area shape="rect" id="node1" href="$class_s_l_anim_keyframe.html" title="Base class for all animation keyframes." alt="" coords="5,5,129,33"/>
+<area shape="rect" id="node2" href="$class_s_l_transform_keyframe.html" title="SLTransformKeyframe is a specialized SLKeyframe for node transformations." alt="" coords="177,5,328,33"/>
 </map>

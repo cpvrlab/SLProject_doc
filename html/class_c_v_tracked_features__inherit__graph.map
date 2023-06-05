@@ -1,4 +1,0 @@
-<map id="CVTrackedFeatures" name="CVTrackedFeatures">
-<area shape="rect" id="node1" title="CVTrackedFeatures is the main part of the AR Christoffelturm scene." alt="" coords="5,80,144,107"/>
-<area shape="rect" id="node2" href="$class_c_v_tracked.html" title="CVTracked is the pure virtual base class for tracking features in video." alt="" coords="31,5,119,32"/>
-</map>

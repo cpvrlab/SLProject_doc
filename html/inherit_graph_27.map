@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structlight_data_std140.html" title="Struct for uniform buffer with std140 layout." alt="" coords="5,5,120,32"/>
+<area shape="rect" id="node1" href="$class_s_l_accel_struct.html" title="SLAccelStruct is an abstract base class for acceleration structures." alt="" coords="5,5,111,33"/>
+<area shape="rect" id="node2" href="$class_s_l_compact_grid.html" title="Class for compact uniform grid acceleration structure." alt="" coords="159,5,273,33"/>
 </map>

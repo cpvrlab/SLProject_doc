@@ -1,5 +1,5 @@
 <map id="SLCoordAxisArrow" name="SLCoordAxisArrow">
-<area shape="rect" id="node1" title="Single arrow for coordinate axis." alt="" coords="5,155,139,181"/>
-<area shape="rect" id="node2" href="$class_s_l_mesh.html" title="An SLMesh object is a triangulated mesh that is drawn with one draw call." alt="" coords="37,80,107,107"/>
-<area shape="rect" id="node3" href="$class_s_l_object.html" title="Base class for all other classes." alt="" coords="34,5,110,32"/>
+<area shape="rect" id="node1" title="Single arrow for coordinate axis." alt="" coords="5,157,138,185"/>
+<area shape="rect" id="node2" href="$class_s_l_mesh.html" title="An SLMesh object is a triangulated mesh that is drawn with one draw call." alt="" coords="37,81,106,109"/>
+<area shape="rect" id="node3" href="$class_s_l_object.html" title="Base class for all other classes." alt="" coords="34,5,109,33"/>
 </map>

@@ -1,5 +1,5 @@
 <map id="SLRnd3f" name="SLRnd3f">
-<area shape="rect" id="node1" title="Abstract base class for random 3D point generator." alt="" coords="97,5,170,32"/>
-<area shape="rect" id="node2" href="$class_s_l_rnd3f_normal.html" title="Class for random generator for normal distributed 3D points." alt="" coords="5,80,120,107"/>
-<area shape="rect" id="node3" href="$class_s_l_rnd3f_uniform.html" title="Class for random generator for uniform distributed 3D points." alt="" coords="145,80,263,107"/>
+<area shape="rect" id="node1" title="Abstract base class for random 3D point generator." alt="" coords="96,5,168,33"/>
+<area shape="rect" id="node2" href="$class_s_l_rnd3f_normal.html" title="Class for random generator for normal distributed 3D points." alt="" coords="5,81,120,109"/>
+<area shape="rect" id="node3" href="$class_s_l_rnd3f_uniform.html" title="Class for random generator for uniform distributed 3D points." alt="" coords="143,81,262,109"/>
 </map>

@@ -1,17 +1,17 @@
 <map id="WAIImageStabilizedOrientation.h" name="WAIImageStabilizedOrientation.h">
-<area shape="rect" id="node1" title=" " alt="" coords="45,5,259,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,80,160,107"/>
-<area shape="rect" id="node3" href="$_s_l_vec3_8h.html" title=" " alt="" coords="184,80,261,107"/>
-<area shape="rect" id="node4" title=" " alt="" coords="83,155,146,181"/>
-<area shape="rect" id="node5" href="$_s_l_math_8h.html" title=" " alt="" coords="139,229,218,256"/>
-<area shape="rect" id="node8" href="$_s_l_vec2_8h.html" title=" " alt="" coords="221,155,299,181"/>
-<area shape="rect" id="node9" href="$_utils_8h.html" title=" " alt="" coords="318,229,378,256"/>
-<area shape="rect" id="node6" title=" " alt="" coords="147,304,205,331"/>
-<area shape="rect" id="node7" title=" " alt="" coords="398,379,453,405"/>
-<area shape="rect" id="node10" title=" " alt="" coords="230,304,285,331"/>
-<area shape="rect" id="node11" title=" " alt="" coords="621,379,691,405"/>
-<area shape="rect" id="node12" href="$_file_log_8h.html" title=" " alt="" coords="463,304,537,331"/>
-<area shape="rect" id="node14" href="$_custom_log_8h.html" title=" " alt="" coords="562,304,662,331"/>
-<area shape="rect" id="node15" title=" " alt="" coords="309,304,387,331"/>
-<area shape="rect" id="node13" title=" " alt="" coords="477,379,544,405"/>
+<area shape="rect" id="node1" title=" " alt="" coords="45,5,258,33"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,81,159,109"/>
+<area shape="rect" id="node3" href="$_s_l_vec3_8h.html" title=" " alt="" coords="183,81,259,109"/>
+<area shape="rect" id="node4" title=" " alt="" coords="83,157,145,185"/>
+<area shape="rect" id="node5" href="$_s_l_math_8h.html" title=" " alt="" coords="139,233,217,261"/>
+<area shape="rect" id="node8" href="$_s_l_vec2_8h.html" title=" " alt="" coords="220,157,296,185"/>
+<area shape="rect" id="node9" href="$_utils_8h.html" title=" " alt="" coords="315,233,374,261"/>
+<area shape="rect" id="node6" title=" " alt="" coords="147,309,204,337"/>
+<area shape="rect" id="node7" title=" " alt="" coords="394,385,447,413"/>
+<area shape="rect" id="node10" title=" " alt="" coords="229,309,282,337"/>
+<area shape="rect" id="node11" title=" " alt="" coords="615,385,683,413"/>
+<area shape="rect" id="node12" href="$_file_log_8h.html" title=" " alt="" coords="458,309,533,337"/>
+<area shape="rect" id="node14" href="$_custom_log_8h.html" title=" " alt="" coords="556,309,656,337"/>
+<area shape="rect" id="node15" title=" " alt="" coords="306,309,383,337"/>
+<area shape="rect" id="node13" title=" " alt="" coords="472,385,537,413"/>
 </map>

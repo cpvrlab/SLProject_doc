@@ -23,7 +23,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td id="projectalign">
-   <div id="projectname">SLProject<span id="projectnumber">&#160;3.3.0</span>
+   <div id="projectname">SLProject<span id="projectnumber">&#160;4.0.000</span>
    </div>
   </td>
  </tr>
@@ -71,6 +71,7 @@ $(document).ready(function(){initNavTree('_utils_8cpp.html',''); initResizable()
 <code>#include &lt;cstddef&gt;</code><br />
 <code>#include &lt;iostream&gt;</code><br />
 <code>#include &lt;fstream&gt;</code><br />
+<code>#include &lt;sstream&gt;</code><br />
 <code>#include &lt;iomanip&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
 <code>#include &lt;cstdarg&gt;</code><br />
@@ -78,12 +79,13 @@ $(document).ready(function(){initNavTree('_utils_8cpp.html',''); initResizable()
 <code>#include &lt;utility&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
 <code>#include &lt;algorithm&gt;</code><br />
+<code>#include &lt;thread&gt;</code><br />
 <code>#include &lt;asio.hpp&gt;</code><br />
 <code>#include &lt;asio/ip/tcp.hpp&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for Utils.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="_utils_8cpp__incl.svg" width="1463" height="262"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="_utils_8cpp__incl.svg" width="1620" height="267"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
@@ -157,9 +159,9 @@ Functions</h2></td></tr>
 <tr class="memitem:acf843a1b5c76bb71dff92983df2b4cd0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils.html#acf843a1b5c76bb71dff92983df2b4cd0">Utils::endsWithString</a> (const string &amp;container, const string &amp;endStr)</td></tr>
 <tr class="memdesc:acf843a1b5c76bb71dff92983df2b4cd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if the container string ends with the endStr.  <a href="namespace_utils.html#acf843a1b5c76bb71dff92983df2b4cd0">More...</a><br /></td></tr>
 <tr class="separator:acf843a1b5c76bb71dff92983df2b4cd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3044d1628b276c4c09c71d31ae75d6db"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils.html#a3044d1628b276c4c09c71d31ae75d6db">Utils::unifySlashes</a> (const string &amp;inputDir)</td></tr>
-<tr class="memdesc:a3044d1628b276c4c09c71d31ae75d6db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the inputDir string with unified forward slashes, e.g.: "dirA/dirB/".  <a href="namespace_utils.html#a3044d1628b276c4c09c71d31ae75d6db">More...</a><br /></td></tr>
-<tr class="separator:a3044d1628b276c4c09c71d31ae75d6db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1344f62bd96b3bb3f19969285abb484a"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils.html#a1344f62bd96b3bb3f19969285abb484a">Utils::unifySlashes</a> (const string &amp;inputDir, bool withTrailingSlash=true)</td></tr>
+<tr class="memdesc:a1344f62bd96b3bb3f19969285abb484a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the inputDir string with unified forward slashes, e.g.: "dirA/dirB/".  <a href="namespace_utils.html#a1344f62bd96b3bb3f19969285abb484a">More...</a><br /></td></tr>
+<tr class="separator:a1344f62bd96b3bb3f19969285abb484a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72fe25c5330a6cd165a427aa8b1ace80"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils.html#a72fe25c5330a6cd165a427aa8b1ace80">Utils::getPath</a> (const string &amp;pathFilename)</td></tr>
 <tr class="memdesc:a72fe25c5330a6cd165a427aa8b1ace80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the path w. '\' of path-filename string.  <a href="namespace_utils.html#a72fe25c5330a6cd165a427aa8b1ace80">More...</a><br /></td></tr>
 <tr class="separator:a72fe25c5330a6cd165a427aa8b1ace80"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -236,12 +238,20 @@ Functions</h2></td></tr>
 <tr class="memdesc:af1c107f9c5ec17df1821adb5ac19d10b"><td class="mdescLeft">&#160;</td><td class="mdescRight">logs a formatted string platform independently  <a href="namespace_utils.html#af1c107f9c5ec17df1821adb5ac19d10b">More...</a><br /></td></tr>
 <tr class="separator:af1c107f9c5ec17df1821adb5ac19d10b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a996b48a09e43056d7c699736aa6cad8a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils.html#a996b48a09e43056d7c699736aa6cad8a">Utils::exitMsg</a> (const char *tag, const char *msg, int line, const char *file)</td></tr>
-<tr class="memdesc:a996b48a09e43056d7c699736aa6cad8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Terminates the application with a message. No leak cheching.  <a href="namespace_utils.html#a996b48a09e43056d7c699736aa6cad8a">More...</a><br /></td></tr>
+<tr class="memdesc:a996b48a09e43056d7c699736aa6cad8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Terminates the application with a message. No leak checking.  <a href="namespace_utils.html#a996b48a09e43056d7c699736aa6cad8a">More...</a><br /></td></tr>
 <tr class="separator:a996b48a09e43056d7c699736aa6cad8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a445906a5c6c1f0b7cb484ddfee53d159"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils.html#a445906a5c6c1f0b7cb484ddfee53d159">Utils::warnMsg</a> (const char *tag, const char *msg, const int line, const char *file)</td></tr>
-<tr class="separator:a445906a5c6c1f0b7cb484ddfee53d159"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75c802fbe69691a74ad74ab4dde2316b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils.html#a75c802fbe69691a74ad74ab4dde2316b">Utils::errorMsg</a> (const char *tag, const char *msg, const int line, const char *file)</td></tr>
-<tr class="separator:a75c802fbe69691a74ad74ab4dde2316b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87132607d1a18b02f85298659678846c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils.html#a87132607d1a18b02f85298659678846c">Utils::warnMsg</a> (const char *tag, const char *msg, int line, const char *file)</td></tr>
+<tr class="memdesc:a87132607d1a18b02f85298659678846c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Platform independent warn message output.  <a href="namespace_utils.html#a87132607d1a18b02f85298659678846c">More...</a><br /></td></tr>
+<tr class="separator:a87132607d1a18b02f85298659678846c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4878b6dc4c034dce7d874777f1e94d94"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils.html#a4878b6dc4c034dce7d874777f1e94d94">Utils::errorMsg</a> (const char *tag, const char *msg, int line, const char *file)</td></tr>
+<tr class="memdesc:a4878b6dc4c034dce7d874777f1e94d94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Platform independent error message output.  <a href="namespace_utils.html#a4878b6dc4c034dce7d874777f1e94d94">More...</a><br /></td></tr>
+<tr class="separator:a4878b6dc4c034dce7d874777f1e94d94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d1ca7196668868596b35b241c9d7e26"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils.html#a8d1ca7196668868596b35b241c9d7e26">Utils::showSpinnerMsg</a> (string msg)</td></tr>
+<tr class="memdesc:a8d1ca7196668868596b35b241c9d7e26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows the a spinner icon message.  <a href="namespace_utils.html#a8d1ca7196668868596b35b241c9d7e26">More...</a><br /></td></tr>
+<tr class="separator:a8d1ca7196668868596b35b241c9d7e26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc46334b76b89e56fb160f3fcc11c3cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils.html#adc46334b76b89e56fb160f3fcc11c3cd">Utils::hideSpinnerMsg</a> ()</td></tr>
+<tr class="memdesc:adc46334b76b89e56fb160f3fcc11c3cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hides the previous spinner icon message.  <a href="namespace_utils.html#adc46334b76b89e56fb160f3fcc11c3cd">More...</a><br /></td></tr>
+<tr class="separator:adc46334b76b89e56fb160f3fcc11c3cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c3a65a31a3c42bca45a0fffc7054d32"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils.html#a9c3a65a31a3c42bca45a0fffc7054d32">Utils::maxThreads</a> ()</td></tr>
 <tr class="memdesc:a9c3a65a31a3c42bca45a0fffc7054d32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns in release config the max. NO. of threads otherwise 1.  <a href="namespace_utils.html#a9c3a65a31a3c42bca45a0fffc7054d32">More...</a><br /></td></tr>
 <tr class="separator:a9c3a65a31a3c42bca45a0fffc7054d32"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -269,7 +279,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_e05d7e2b1ecd646af5bb94391405f3b5.html">modules</a></li><li class="navelem"><a class="el" href="dir_2cd352c31e16031ace7077fb0dbfbf02.html">utils</a></li><li class="navelem"><a class="el" href="dir_8509e28f099ae164e0a6b1531776e143.html">source</a></li><li class="navelem"><a class="el" href="_utils_8cpp.html">Utils.cpp</a></li>
-    <li class="footer">Generated on Wed Jul 6 2022 09:52:49 for SLProject by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Mon Jun 5 2023 17:33:53 for SLProject by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>

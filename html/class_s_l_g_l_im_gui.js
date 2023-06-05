@@ -28,6 +28,7 @@ var class_s_l_g_l_im_gui =
     [ "_attribLocTex", "class_s_l_g_l_im_gui.html#aec6421df660f3677d975f9e85f945dad", null ],
     [ "_attribLocUV", "class_s_l_g_l_im_gui.html#a4da1da1dae4049ca984280a95e392a3f", null ],
     [ "_build", "class_s_l_g_l_im_gui.html#afcade65aceadf9a6b93ac6ed0ac4ff36", null ],
+    [ "_configPath", "class_s_l_g_l_im_gui.html#a9557c2252c029985bd44b5dd2cbbb79c", null ],
     [ "_elementsHandle", "class_s_l_g_l_im_gui.html#a5bdb7238929039bd0bf3ce5cb9d1dc2b", null ],
     [ "_fontDir", "class_s_l_g_l_im_gui.html#a866cf6ffd3f8abdb8ea0bbacb5d71eef", null ],
     [ "_fontFixedDots", "class_s_l_g_l_im_gui.html#a7435675d241782a4c16f4920f62ac30c", null ],

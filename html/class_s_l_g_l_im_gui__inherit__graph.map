@@ -1,4 +1,4 @@
 <map id="SLGLImGui" name="SLGLImGui">
-<area shape="rect" id="node1" title="ImGui Interface class for forwarding all events to the ImGui Handlers." alt="" coords="11,80,102,107"/>
-<area shape="rect" id="node2" href="$class_s_l_ui_interface.html" title="Interface for ui integration in SLSceneView." alt="" coords="5,5,108,32"/>
+<area shape="rect" id="node1" title="ImGui Interface class for forwarding all events to the ImGui Handlers." alt="" coords="11,81,101,109"/>
+<area shape="rect" id="node2" href="$class_s_l_ui_interface.html" title="Interface for ui integration in SLSceneView." alt="" coords="5,5,107,33"/>
 </map>

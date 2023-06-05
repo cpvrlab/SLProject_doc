@@ -1,9 +1,9 @@
 <map id="SLGLTexture" name="SLGLTexture">
-<area shape="rect" id="node1" title="Texture object for OpenGL texturing." alt="" coords="210,80,307,107"/>
-<area shape="rect" id="node3" href="$class_s_l_g_l_texture_i_b_l.html" title="Texture object generated in run time from another texture." alt="" coords="5,155,123,181"/>
-<area shape="rect" id="node4" href="$class_s_l_raytracer.html" title="SLRaytracer hold all the methods for Whitted style Ray Tracing." alt="" coords="147,155,242,181"/>
-<area shape="rect" id="node6" href="$class_s_l_tex_color_l_u_t.html" title="SLTexColorLUT defines a lookup table as an 1D texture of (256) RGBA values." alt="" coords="267,155,381,181"/>
-<area shape="rect" id="node7" href="$class_s_l_tex_font.html" title="Texture Font class inherits SLGLTexture for alpha blended font rendering." alt="" coords="406,155,490,181"/>
-<area shape="rect" id="node2" href="$class_s_l_object.html" title="Base class for all other classes." alt="" coords="221,5,297,32"/>
-<area shape="rect" id="node5" href="$class_s_l_pathtracer.html" title="Classic Monte Carlo Pathtracing algorithm for real global illumination." alt="" coords="145,229,244,256"/>
+<area shape="rect" id="node1" title="Texture object for OpenGL texturing." alt="" coords="209,81,305,109"/>
+<area shape="rect" id="node3" href="$class_s_l_g_l_texture_i_b_l.html" title="Texture object generated in run time from another texture." alt="" coords="5,157,122,185"/>
+<area shape="rect" id="node4" href="$class_s_l_raytracer.html" title="SLRaytracer hold all the methods for Whitted style Ray Tracing." alt="" coords="146,157,240,185"/>
+<area shape="rect" id="node6" href="$class_s_l_tex_color_l_u_t.html" title="SLTexColorLUT defines a lookup table as an 1D texture of (256) RGBA values." alt="" coords="264,157,378,185"/>
+<area shape="rect" id="node7" href="$class_s_l_tex_font.html" title="Texture Font class inherits SLGLTexture for alpha blended font rendering." alt="" coords="402,157,485,185"/>
+<area shape="rect" id="node2" href="$class_s_l_object.html" title="Base class for all other classes." alt="" coords="219,5,295,33"/>
+<area shape="rect" id="node5" href="$class_s_l_pathtracer.html" title="Classic Monte Carlo Pathtracing algorithm for real global illumination." alt="" coords="144,233,242,261"/>
 </map>

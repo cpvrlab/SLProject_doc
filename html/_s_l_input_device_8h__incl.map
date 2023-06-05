@@ -1,13 +1,13 @@
 <map id="SLInputDevice.h" name="SLInputDevice.h">
-<area shape="rect" id="node1" title=" " alt="" coords="90,5,209,32"/>
-<area shape="rect" id="node2" href="$_s_l_8h.html" title=" " alt="" coords="159,80,209,107"/>
-<area shape="rect" id="node5" title=" " alt="" coords="5,229,64,256"/>
-<area shape="rect" id="node3" href="$_utils_8h.html" title=" " alt="" coords="195,155,255,181"/>
-<area shape="rect" id="node4" title=" " alt="" coords="330,304,385,331"/>
-<area shape="rect" id="node6" title=" " alt="" coords="89,229,143,256"/>
-<area shape="rect" id="node7" title=" " alt="" coords="191,304,260,331"/>
-<area shape="rect" id="node8" href="$_file_log_8h.html" title=" " alt="" coords="499,229,573,256"/>
-<area shape="rect" id="node10" href="$_custom_log_8h.html" title=" " alt="" coords="219,229,319,256"/>
-<area shape="rect" id="node11" title=" " alt="" coords="395,229,474,256"/>
-<area shape="rect" id="node9" title=" " alt="" coords="503,304,569,331"/>
+<area shape="rect" id="node1" title=" " alt="" coords="87,5,205,33"/>
+<area shape="rect" id="node2" href="$_s_l_8h.html" title=" " alt="" coords="155,81,204,109"/>
+<area shape="rect" id="node5" title=" " alt="" coords="5,233,63,261"/>
+<area shape="rect" id="node3" href="$_utils_8h.html" title=" " alt="" coords="191,157,250,185"/>
+<area shape="rect" id="node4" title=" " alt="" coords="325,309,378,337"/>
+<area shape="rect" id="node6" title=" " alt="" coords="87,233,141,261"/>
+<area shape="rect" id="node7" title=" " alt="" coords="188,309,256,337"/>
+<area shape="rect" id="node8" href="$_file_log_8h.html" title=" " alt="" coords="490,233,565,261"/>
+<area shape="rect" id="node10" href="$_custom_log_8h.html" title=" " alt="" coords="215,233,314,261"/>
+<area shape="rect" id="node11" title=" " alt="" coords="389,233,466,261"/>
+<area shape="rect" id="node9" title=" " alt="" coords="495,309,560,337"/>
 </map>

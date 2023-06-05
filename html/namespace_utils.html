@@ -23,7 +23,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td id="projectalign">
-   <div id="projectname">SLProject<span id="projectnumber">&#160;3.3.0</span>
+   <div id="projectname">SLProject<span id="projectnumber">&#160;4.0.000</span>
    </div>
   </td>
  </tr>
@@ -161,9 +161,9 @@ Functions</h2></td></tr>
 <tr class="memitem:acf843a1b5c76bb71dff92983df2b4cd0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils.html#acf843a1b5c76bb71dff92983df2b4cd0">endsWithString</a> (const string &amp;container, const string &amp;endStr)</td></tr>
 <tr class="memdesc:acf843a1b5c76bb71dff92983df2b4cd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if the container string ends with the endStr.  <a href="namespace_utils.html#acf843a1b5c76bb71dff92983df2b4cd0">More...</a><br /></td></tr>
 <tr class="separator:acf843a1b5c76bb71dff92983df2b4cd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3044d1628b276c4c09c71d31ae75d6db"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils.html#a3044d1628b276c4c09c71d31ae75d6db">unifySlashes</a> (const string &amp;inputDir)</td></tr>
-<tr class="memdesc:a3044d1628b276c4c09c71d31ae75d6db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the inputDir string with unified forward slashes, e.g.: "dirA/dirB/".  <a href="namespace_utils.html#a3044d1628b276c4c09c71d31ae75d6db">More...</a><br /></td></tr>
-<tr class="separator:a3044d1628b276c4c09c71d31ae75d6db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1344f62bd96b3bb3f19969285abb484a"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils.html#a1344f62bd96b3bb3f19969285abb484a">unifySlashes</a> (const string &amp;inputDir, bool withTrailingSlash=true)</td></tr>
+<tr class="memdesc:a1344f62bd96b3bb3f19969285abb484a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the inputDir string with unified forward slashes, e.g.: "dirA/dirB/".  <a href="namespace_utils.html#a1344f62bd96b3bb3f19969285abb484a">More...</a><br /></td></tr>
+<tr class="separator:a1344f62bd96b3bb3f19969285abb484a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72fe25c5330a6cd165a427aa8b1ace80"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils.html#a72fe25c5330a6cd165a427aa8b1ace80">getPath</a> (const string &amp;pathFilename)</td></tr>
 <tr class="memdesc:a72fe25c5330a6cd165a427aa8b1ace80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the path w. '\' of path-filename string.  <a href="namespace_utils.html#a72fe25c5330a6cd165a427aa8b1ace80">More...</a><br /></td></tr>
 <tr class="separator:a72fe25c5330a6cd165a427aa8b1ace80"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -240,12 +240,20 @@ Functions</h2></td></tr>
 <tr class="memdesc:af1c107f9c5ec17df1821adb5ac19d10b"><td class="mdescLeft">&#160;</td><td class="mdescRight">logs a formatted string platform independently  <a href="namespace_utils.html#af1c107f9c5ec17df1821adb5ac19d10b">More...</a><br /></td></tr>
 <tr class="separator:af1c107f9c5ec17df1821adb5ac19d10b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a996b48a09e43056d7c699736aa6cad8a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils.html#a996b48a09e43056d7c699736aa6cad8a">exitMsg</a> (const char *tag, const char *msg, int line, const char *file)</td></tr>
-<tr class="memdesc:a996b48a09e43056d7c699736aa6cad8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Terminates the application with a message. No leak cheching.  <a href="namespace_utils.html#a996b48a09e43056d7c699736aa6cad8a">More...</a><br /></td></tr>
+<tr class="memdesc:a996b48a09e43056d7c699736aa6cad8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Terminates the application with a message. No leak checking.  <a href="namespace_utils.html#a996b48a09e43056d7c699736aa6cad8a">More...</a><br /></td></tr>
 <tr class="separator:a996b48a09e43056d7c699736aa6cad8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a445906a5c6c1f0b7cb484ddfee53d159"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils.html#a445906a5c6c1f0b7cb484ddfee53d159">warnMsg</a> (const char *tag, const char *msg, const int line, const char *file)</td></tr>
-<tr class="separator:a445906a5c6c1f0b7cb484ddfee53d159"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75c802fbe69691a74ad74ab4dde2316b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils.html#a75c802fbe69691a74ad74ab4dde2316b">errorMsg</a> (const char *tag, const char *msg, const int line, const char *file)</td></tr>
-<tr class="separator:a75c802fbe69691a74ad74ab4dde2316b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87132607d1a18b02f85298659678846c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils.html#a87132607d1a18b02f85298659678846c">warnMsg</a> (const char *tag, const char *msg, int line, const char *file)</td></tr>
+<tr class="memdesc:a87132607d1a18b02f85298659678846c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Platform independent warn message output.  <a href="namespace_utils.html#a87132607d1a18b02f85298659678846c">More...</a><br /></td></tr>
+<tr class="separator:a87132607d1a18b02f85298659678846c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4878b6dc4c034dce7d874777f1e94d94"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils.html#a4878b6dc4c034dce7d874777f1e94d94">errorMsg</a> (const char *tag, const char *msg, int line, const char *file)</td></tr>
+<tr class="memdesc:a4878b6dc4c034dce7d874777f1e94d94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Platform independent error message output.  <a href="namespace_utils.html#a4878b6dc4c034dce7d874777f1e94d94">More...</a><br /></td></tr>
+<tr class="separator:a4878b6dc4c034dce7d874777f1e94d94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d1ca7196668868596b35b241c9d7e26"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils.html#a8d1ca7196668868596b35b241c9d7e26">showSpinnerMsg</a> (string msg)</td></tr>
+<tr class="memdesc:a8d1ca7196668868596b35b241c9d7e26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows the a spinner icon message.  <a href="namespace_utils.html#a8d1ca7196668868596b35b241c9d7e26">More...</a><br /></td></tr>
+<tr class="separator:a8d1ca7196668868596b35b241c9d7e26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc46334b76b89e56fb160f3fcc11c3cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils.html#adc46334b76b89e56fb160f3fcc11c3cd">hideSpinnerMsg</a> ()</td></tr>
+<tr class="memdesc:adc46334b76b89e56fb160f3fcc11c3cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hides the previous spinner icon message.  <a href="namespace_utils.html#adc46334b76b89e56fb160f3fcc11c3cd">More...</a><br /></td></tr>
+<tr class="separator:adc46334b76b89e56fb160f3fcc11c3cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c3a65a31a3c42bca45a0fffc7054d32"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils.html#a9c3a65a31a3c42bca45a0fffc7054d32">maxThreads</a> ()</td></tr>
 <tr class="memdesc:a9c3a65a31a3c42bca45a0fffc7054d32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns in release config the max. NO. of threads otherwise 1.  <a href="namespace_utils.html#a9c3a65a31a3c42bca45a0fffc7054d32">More...</a><br /></td></tr>
 <tr class="separator:a9c3a65a31a3c42bca45a0fffc7054d32"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -636,8 +644,8 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a id="a75c802fbe69691a74ad74ab4dde2316b" name="a75c802fbe69691a74ad74ab4dde2316b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75c802fbe69691a74ad74ab4dde2316b">&#9670;&nbsp;</a></span>errorMsg()</h2>
+<a id="a4878b6dc4c034dce7d874777f1e94d94" name="a4878b6dc4c034dce7d874777f1e94d94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4878b6dc4c034dce7d874777f1e94d94">&#9670;&nbsp;</a></span>errorMsg()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -673,6 +681,8 @@ template&lt;class T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Platform independent error message output. </p>
 
 </div>
 </div>
@@ -714,7 +724,7 @@ template&lt;class T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Terminates the application with a message. No leak cheching. </p>
+<p>Terminates the application with a message. No leak checking. </p>
 
 </div>
 </div>
@@ -1274,6 +1284,25 @@ template&lt;class T &gt; </div>
 </div><div class="memdoc">
 
 <p>Returns a vector of string one per line of a multiline string. </p>
+
+</div>
+</div>
+<a id="adc46334b76b89e56fb160f3fcc11c3cd" name="adc46334b76b89e56fb160f3fcc11c3cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc46334b76b89e56fb160f3fcc11c3cd">&#9670;&nbsp;</a></span>hideSpinnerMsg()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Utils::hideSpinnerMsg </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Hides the previous spinner icon message. </p>
 
 </div>
 </div>
@@ -1948,6 +1977,26 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
+<a id="a8d1ca7196668868596b35b241c9d7e26" name="a8d1ca7196668868596b35b241c9d7e26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d1ca7196668868596b35b241c9d7e26">&#9670;&nbsp;</a></span>showSpinnerMsg()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Utils::showSpinnerMsg </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>msg</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Shows the a spinner icon message. </p>
+
+</div>
+</div>
 <a id="a21c6e0eafa5386b9d93bbcdcbb91cde2" name="a21c6e0eafa5386b9d93bbcdcbb91cde2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a21c6e0eafa5386b9d93bbcdcbb91cde2">&#9670;&nbsp;</a></span>sign()</h2>
 
@@ -2270,8 +2319,8 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a id="a3044d1628b276c4c09c71d31ae75d6db" name="a3044d1628b276c4c09c71d31ae75d6db"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3044d1628b276c4c09c71d31ae75d6db">&#9670;&nbsp;</a></span>unifySlashes()</h2>
+<a id="a1344f62bd96b3bb3f19969285abb484a" name="a1344f62bd96b3bb3f19969285abb484a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1344f62bd96b3bb3f19969285abb484a">&#9670;&nbsp;</a></span>unifySlashes()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2280,8 +2329,18 @@ template&lt;class T &gt; </div>
           <td class="memname">string Utils::unifySlashes </td>
           <td>(</td>
           <td class="paramtype">const string &amp;&#160;</td>
-          <td class="paramname"><em>inputDir</em></td><td>)</td>
+          <td class="paramname"><em>inputDir</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>withTrailingSlash</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2290,8 +2349,8 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a id="a445906a5c6c1f0b7cb484ddfee53d159" name="a445906a5c6c1f0b7cb484ddfee53d159"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a445906a5c6c1f0b7cb484ddfee53d159">&#9670;&nbsp;</a></span>warnMsg()</h2>
+<a id="a87132607d1a18b02f85298659678846c" name="a87132607d1a18b02f85298659678846c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87132607d1a18b02f85298659678846c">&#9670;&nbsp;</a></span>warnMsg()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2327,6 +2386,8 @@ template&lt;class T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Platform independent warn message output. </p>
 
 </div>
 </div>
@@ -2544,7 +2605,7 @@ template&lt;class T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_utils.html">Utils</a></li>
-    <li class="footer">Generated on Wed Jul 6 2022 09:52:50 for SLProject by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Mon Jun 5 2023 17:33:54 for SLProject by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>

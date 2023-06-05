@@ -10,6 +10,6 @@ var class_s_l_entities =
     [ "getParent", "class_s_l_entities.html#a60e20a39495f8c83021d21c534ebebee", null ],
     [ "getParentID", "class_s_l_entities.html#a9d2400f2e25354180dcbfda9ba7a4ab7", null ],
     [ "size", "class_s_l_entities.html#a38f02879450304580de7bb21e3a9d9d3", null ],
-    [ "updateWMRec", "class_s_l_entities.html#ab30b9e464997b78db7ec585c72626d71", null ],
+    [ "updateWMRec", "class_s_l_entities.html#a4425603b76f509ac4ffb851837e8c8db", null ],
     [ "_graph", "class_s_l_entities.html#a9913161b9ab08b42a752dccea9cabb24", null ]
 ];

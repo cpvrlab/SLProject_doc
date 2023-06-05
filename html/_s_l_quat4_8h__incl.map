@@ -1,26 +1,26 @@
 <map id="SLQuat4.h" name="SLQuat4.h">
-<area shape="rect" id="node1" title=" " alt="" coords="282,5,366,32"/>
-<area shape="rect" id="node2" href="$_s_l_math_8h.html" title=" " alt="" coords="569,379,647,405"/>
-<area shape="rect" id="node5" href="$_s_l_mat4_8h.html" title=" " alt="" coords="354,80,433,107"/>
-<area shape="rect" id="node7" href="$_utils_8h.html" title=" " alt="" coords="239,379,299,405"/>
-<area shape="rect" id="node20" href="$_s_l_vec4_8h.html" title=" " alt="" coords="121,155,199,181"/>
-<area shape="rect" id="node3" title=" " alt="" coords="512,453,571,480"/>
-<area shape="rect" id="node4" title=" " alt="" coords="231,528,286,555"/>
-<area shape="rect" id="node6" title=" " alt="" coords="325,155,379,181"/>
-<area shape="rect" id="node14" href="$_s_l_mat3_8h.html" title=" " alt="" coords="879,155,958,181"/>
-<area shape="rect" id="node15" href="$_s_l_vec3_8h.html" title=" " alt="" coords="375,229,452,256"/>
-<area shape="rect" id="node22" title=" " alt="" coords="403,155,469,181"/>
-<area shape="rect" id="node23" title=" " alt="" coords="493,155,662,181"/>
-<area shape="rect" id="node24" title=" " alt="" coords="686,155,855,181"/>
-<area shape="rect" id="node8" title=" " alt="" coords="155,453,210,480"/>
-<area shape="rect" id="node9" title=" " alt="" coords="396,528,465,555"/>
-<area shape="rect" id="node10" href="$_file_log_8h.html" title=" " alt="" coords="5,453,80,480"/>
-<area shape="rect" id="node12" href="$_custom_log_8h.html" title=" " alt="" coords="337,453,437,480"/>
-<area shape="rect" id="node13" title=" " alt="" coords="234,453,313,480"/>
-<area shape="rect" id="node11" title=" " alt="" coords="9,528,76,555"/>
-<area shape="rect" id="node18" title=" " alt="" coords="729,229,801,256"/>
-<area shape="rect" id="node19" title=" " alt="" coords="825,229,895,256"/>
-<area shape="rect" id="node16" title=" " alt="" coords="451,304,514,331"/>
-<area shape="rect" id="node17" href="$_s_l_vec2_8h.html" title=" " alt="" coords="299,304,376,331"/>
-<area shape="rect" id="node21" href="$_s_l_8h.html" title=" " alt="" coords="161,304,210,331"/>
+<area shape="rect" id="node1" title=" " alt="" coords="280,5,363,33"/>
+<area shape="rect" id="node2" href="$_s_l_math_8h.html" title=" " alt="" coords="564,385,641,413"/>
+<area shape="rect" id="node5" href="$_s_l_mat4_8h.html" title=" " alt="" coords="352,81,429,109"/>
+<area shape="rect" id="node7" href="$_utils_8h.html" title=" " alt="" coords="237,385,296,413"/>
+<area shape="rect" id="node20" href="$_s_l_vec4_8h.html" title=" " alt="" coords="120,157,197,185"/>
+<area shape="rect" id="node3" title=" " alt="" coords="507,461,565,489"/>
+<area shape="rect" id="node4" title=" " alt="" coords="228,537,281,565"/>
+<area shape="rect" id="node6" title=" " alt="" coords="323,157,376,185"/>
+<area shape="rect" id="node14" href="$_s_l_mat3_8h.html" title=" " alt="" coords="872,157,949,185"/>
+<area shape="rect" id="node15" href="$_s_l_vec3_8h.html" title=" " alt="" coords="374,233,450,261"/>
+<area shape="rect" id="node22" title=" " alt="" coords="400,157,464,185"/>
+<area shape="rect" id="node23" title=" " alt="" coords="488,157,656,185"/>
+<area shape="rect" id="node24" title=" " alt="" coords="680,157,848,185"/>
+<area shape="rect" id="node8" title=" " alt="" coords="155,461,208,489"/>
+<area shape="rect" id="node9" title=" " alt="" coords="391,537,459,565"/>
+<area shape="rect" id="node10" href="$_file_log_8h.html" title=" " alt="" coords="5,461,80,489"/>
+<area shape="rect" id="node12" href="$_custom_log_8h.html" title=" " alt="" coords="333,461,432,489"/>
+<area shape="rect" id="node13" title=" " alt="" coords="232,461,309,489"/>
+<area shape="rect" id="node11" title=" " alt="" coords="10,537,75,565"/>
+<area shape="rect" id="node18" title=" " alt="" coords="722,233,793,261"/>
+<area shape="rect" id="node19" title=" " alt="" coords="816,233,885,261"/>
+<area shape="rect" id="node16" title=" " alt="" coords="449,309,511,337"/>
+<area shape="rect" id="node17" href="$_s_l_vec2_8h.html" title=" " alt="" coords="298,309,374,337"/>
+<area shape="rect" id="node21" href="$_s_l_8h.html" title=" " alt="" coords="160,309,208,337"/>
 </map>

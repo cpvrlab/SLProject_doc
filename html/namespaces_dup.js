@@ -27,6 +27,15 @@ var namespaces_dup =
       [ "geoDegMinSec2Decimal", "namespace_s_l_algo.html#a12cc90698a3f2681aae05c6b16c40e1b", null ],
       [ "geoDegMinSec2Decimal", "namespace_s_l_algo.html#a91b2d9391bd7787036a90a6674aeb033", null ]
     ] ],
+    [ "SLFileStorage", "namespace_s_l_file_storage.html", [
+      [ "close", "namespace_s_l_file_storage.html#a10935141e36b2a18ec3fa4034e98220f", null ],
+      [ "deleteBuffer", "namespace_s_l_file_storage.html#a301fddd5ffa1224b9be2f1f870dca450", null ],
+      [ "exists", "namespace_s_l_file_storage.html#a962c5eefaf6adb627d77f49579bcb243", null ],
+      [ "open", "namespace_s_l_file_storage.html#ac2389f3e94258c4bce96a3dbd8c0f993", null ],
+      [ "readIntoBuffer", "namespace_s_l_file_storage.html#a818c6d10c8c49053d6a8fcc43a0927ce", null ],
+      [ "readIntoString", "namespace_s_l_file_storage.html#ae502f32bf8cb1443b3a133586fedd044", null ],
+      [ "writeString", "namespace_s_l_file_storage.html#aff4677e919168f80b8a83e6261d80943", null ]
+    ] ],
     [ "Utils", "namespace_utils.html", "namespace_utils" ],
     [ "WAI", "namespace_w_a_i.html", "namespace_w_a_i" ],
     [ "ZipUtils", "namespace_zip_utils.html", [

@@ -23,7 +23,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="SLProject.png"/></td>
   <td id="projectalign">
-   <div id="projectname">SLProject<span id="projectnumber">&#160;3.3.0</span>
+   <div id="projectname">SLProject<span id="projectnumber">&#160;4.0.000</span>
    </div>
   </td>
  </tr>
@@ -84,9 +84,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a48fe1e3d7e5dca97078d5f911116b183"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_entities.html#a48fe1e3d7e5dca97078d5f911116b183">deleteChildren</a> (<a class="el" href="_s_l_8h.html#affe860856ed283b0bac8c21583fb0ea5">SLint</a> id)</td></tr>
 <tr class="memdesc:a48fe1e3d7e5dca97078d5f911116b183"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes all children of an entity with index id.  <a href="class_s_l_entities.html#a48fe1e3d7e5dca97078d5f911116b183">More...</a><br /></td></tr>
 <tr class="separator:a48fe1e3d7e5dca97078d5f911116b183"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab30b9e464997b78db7ec585c72626d71"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#a44d61aad4f3be0082c963feb065af080">SLuint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_entities.html#ab30b9e464997b78db7ec585c72626d71">updateWMRec</a> (<a class="el" href="_s_l_8h.html#affe860856ed283b0bac8c21583fb0ea5">SLint</a> id, <a class="el" href="_s_l_mat4_8h.html#aa4e4dd2bcc8c451863ddc5f3e67b1ea9">SLMat4f</a> &amp;parentWM)</td></tr>
-<tr class="memdesc:ab30b9e464997b78db7ec585c72626d71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates all world matrices and returns no. of updated.  <a href="class_s_l_entities.html#ab30b9e464997b78db7ec585c72626d71">More...</a><br /></td></tr>
-<tr class="separator:ab30b9e464997b78db7ec585c72626d71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4425603b76f509ac4ffb851837e8c8db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_l_8h.html#affe860856ed283b0bac8c21583fb0ea5">SLint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_entities.html#a4425603b76f509ac4ffb851837e8c8db">updateWMRec</a> (<a class="el" href="_s_l_8h.html#affe860856ed283b0bac8c21583fb0ea5">SLint</a> id, <a class="el" href="_s_l_mat4_8h.html#aa4e4dd2bcc8c451863ddc5f3e67b1ea9">SLMat4f</a> &amp;parentWM)</td></tr>
+<tr class="memdesc:a4425603b76f509ac4ffb851837e8c8db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates all world matrices and returns no. of updated.  <a href="class_s_l_entities.html#a4425603b76f509ac4ffb851837e8c8db">More...</a><br /></td></tr>
+<tr class="separator:a4425603b76f509ac4ffb851837e8c8db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace55bf135447d72d5dd31f27fa7ea6a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_s_l_entity.html">SLEntity</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_l_entities.html#ace55bf135447d72d5dd31f27fa7ea6a3">getEntity</a> (<a class="el" href="_s_l_8h.html#affe860856ed283b0bac8c21583fb0ea5">SLint</a> id)</td></tr>
 <tr class="memdesc:ace55bf135447d72d5dd31f27fa7ea6a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the pointer to a node if id is valid else a nullptr.  <a href="class_s_l_entities.html#ace55bf135447d72d5dd31f27fa7ea6a3">More...</a><br /></td></tr>
 <tr class="separator:ace55bf135447d72d5dd31f27fa7ea6a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -147,9 +147,8 @@ Private Attributes</h2></td></tr>
 <p>Adds a child into the vector nodes right after its parent. </p>
 <p >addChild adds a child node by inserting an <a class="el" href="class_s_l_entities.html" title="Scenegraph in Data Oriented Design with flat std::vector of SLEntity.">SLEntities</a> into a vector in Depth First Search order. The root node gets the parent ID -1. The child is inserted right after the parent node. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">scenegraph</td><td>The scenegraph as a vector </td></tr>
     <tr><td class="paramname">myParentID</td><td>Index of the parent node </td></tr>
-    <tr><td class="paramname">node</td><td>The node to add as child of the parent </td></tr>
+    <tr><td class="paramname">entity</td><td>The entity to add as child of the parent </td></tr>
   </table>
   </dd>
 </dl>
@@ -228,7 +227,6 @@ Private Attributes</h2></td></tr>
 <p>Deletes a node at index id with all its children. </p>
 <p >Deletes a node at index id with all with all children </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">scenegraph</td><td>The scenegraph as a <a class="el" href="class_s_l_entities.html" title="Scenegraph in Data Oriented Design with flat std::vector of SLEntity.">SLEntities</a> vector </td></tr>
     <tr><td class="paramname">id</td><td>Index of node to delete </td></tr>
   </table>
   </dd>
@@ -255,7 +253,6 @@ Private Attributes</h2></td></tr>
 <p>Dump scenegraph as a flat vector or as a tree. </p>
 <p >Prints the scenegraph vector flat or as hierarchical tree as follows: </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">scenegraph</td><td>The scenegraph as a node vector </td></tr>
     <tr><td class="paramname">doTreeDump</td><td>Flag if dump as a tree or flat</td></tr>
   </table>
   </dd>
@@ -283,7 +280,6 @@ Private Attributes</h2></td></tr>
 <p>Returns the pointer to a node if id is valid else a nullptr. </p>
 <p >Returns the pointer to the node at id </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">scenegraph</td><td>The scenegraph as a <a class="el" href="class_s_l_entities.html" title="Scenegraph in Data Oriented Design with flat std::vector of SLEntity.">SLEntities</a> vector </td></tr>
     <tr><td class="paramname">id</td><td>The index of the node to return as a pointer </td></tr>
   </table>
   </dd>
@@ -332,7 +328,6 @@ Private Attributes</h2></td></tr>
 <p>Returns the pointer to the parent of a node if id is valid else a nullptr. </p>
 <p >Returns the pointer to the parent of the node at id </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">scenegraph</td><td>The scenegraph as a <a class="el" href="class_s_l_entities.html" title="Scenegraph in Data Oriented Design with flat std::vector of SLEntity.">SLEntities</a> vector </td></tr>
     <tr><td class="paramname">id</td><td>The index of the node in the scenegraph vector </td></tr>
   </table>
   </dd>
@@ -389,14 +384,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ab30b9e464997b78db7ec585c72626d71" name="ab30b9e464997b78db7ec585c72626d71"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab30b9e464997b78db7ec585c72626d71">&#9670;&nbsp;</a></span>updateWMRec()</h2>
+<a id="a4425603b76f509ac4ffb851837e8c8db" name="a4425603b76f509ac4ffb851837e8c8db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4425603b76f509ac4ffb851837e8c8db">&#9670;&nbsp;</a></span>updateWMRec()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_s_l_8h.html#a44d61aad4f3be0082c963feb065af080">SLuint</a> SLEntities::updateWMRec </td>
+          <td class="memname"><a class="el" href="_s_l_8h.html#affe860856ed283b0bac8c21583fb0ea5">SLint</a> SLEntities::updateWMRec </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="_s_l_8h.html#affe860856ed283b0bac8c21583fb0ea5">SLint</a>&#160;</td>
           <td class="paramname"><em>id</em>, </td>
@@ -462,7 +457,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_s_l_entities.html">SLEntities</a></li>
-    <li class="footer">Generated on Wed Jul 6 2022 09:52:50 for SLProject by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Mon Jun 5 2023 17:33:53 for SLProject by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>

@@ -2,6 +2,8 @@ var dir_6e45a42390aa22e1749109a5b640e5fb =
 [
     [ "SLAssimpImporter.cpp", "_s_l_assimp_importer_8cpp.html", null ],
     [ "SLAssimpImporter.h", "_s_l_assimp_importer_8h.html", null ],
+    [ "SLAssimpIOSystem.cpp", "_s_l_assimp_i_o_system_8cpp.html", null ],
+    [ "SLAssimpIOSystem.h", "_s_l_assimp_i_o_system_8h.html", "_s_l_assimp_i_o_system_8h" ],
     [ "SLAssimpProgressHandler.h", "_s_l_assimp_progress_handler_8h.html", null ],
     [ "SLDeviceLocation.cpp", "_s_l_device_location_8cpp.html", null ],
     [ "SLDeviceLocation.h", "_s_l_device_location_8h.html", "_s_l_device_location_8h" ],

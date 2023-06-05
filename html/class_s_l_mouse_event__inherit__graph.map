@@ -1,4 +1,4 @@
 <map id="SLMouseEvent" name="SLMouseEvent">
-<area shape="rect" id="node1" title="Specialized SLInput class for all mouse related input events." alt="" coords="5,80,116,107"/>
-<area shape="rect" id="node2" href="$class_s_l_input_event.html" title="Baseclass for all system input events." alt="" coords="10,5,111,32"/>
+<area shape="rect" id="node1" title="Specialized SLInput class for all mouse related input events." alt="" coords="5,81,116,109"/>
+<area shape="rect" id="node2" href="$class_s_l_input_event.html" title="Baseclass for all system input events." alt="" coords="10,5,111,33"/>
 </map>

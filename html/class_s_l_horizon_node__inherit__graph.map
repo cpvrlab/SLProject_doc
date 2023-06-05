@@ -1,6 +1,6 @@
 <map id="SLHorizonNode" name="SLHorizonNode">
-<area shape="rect" id="node1" title=" " alt="" coords="46,155,161,181"/>
-<area shape="rect" id="node2" href="$class_s_l_node.html" title="SLNode represents a node in a hierarchical scene graph." alt="" coords="69,80,138,107"/>
-<area shape="rect" id="node3" href="$class_s_l_object.html" title="Base class for all other classes." alt="" coords="5,5,81,32"/>
-<area shape="rect" id="node4" href="$class_s_l_event_handler.html" title="Virtual Eventhandler class." alt="" coords="106,5,223,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="46,157,160,185"/>
+<area shape="rect" id="node2" href="$class_s_l_node.html" title="SLNode represents a node in a hierarchical scene graph." alt="" coords="69,81,137,109"/>
+<area shape="rect" id="node3" href="$class_s_l_object.html" title="Base class for all other classes." alt="" coords="5,5,81,33"/>
+<area shape="rect" id="node4" href="$class_s_l_event_handler.html" title="Virtual Eventhandler class." alt="" coords="105,5,221,33"/>
 </map>

@@ -1,7 +1,5 @@
 var dir_553558af1d34fd1199da83a700f168c2 =
 [
-    [ "glUtils.cpp", "gl_utils_8cpp.html", "gl_utils_8cpp" ],
-    [ "glUtils.h", "gl_utils_8h.html", "gl_utils_8h" ],
     [ "SLGLDepthBuffer.cpp", "_s_l_g_l_depth_buffer_8cpp.html", null ],
     [ "SLGLDepthBuffer.h", "_s_l_g_l_depth_buffer_8h.html", "_s_l_g_l_depth_buffer_8h" ],
     [ "SLGLEnums.h", "_s_l_g_l_enums_8h.html", "_s_l_g_l_enums_8h" ],

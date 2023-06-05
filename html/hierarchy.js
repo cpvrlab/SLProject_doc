@@ -2,47 +2,28 @@ var hierarchy =
 [
     [ "AppDemoGui", "class_app_demo_gui.html", null ],
     [ "Utils::Averaged< T >", "class_utils_1_1_averaged.html", null ],
-    [ "Utils::Averaged< CVVec3f >", "class_utils_1_1_averaged.html", null ],
     [ "Utils::Averaged< float >", "class_utils_1_1_averaged.html", null ],
     [ "Utils::Averaged< SLMat3 >", "class_utils_1_1_averaged.html", null ],
-    [ "AveragedQuat4f", "class_averaged_quat4f.html", null ],
     [ "Utils::AverageTimingBlock", "struct_utils_1_1_average_timing_block.html", null ],
     [ "Utils::ComputerInfos", "class_utils_1_1_computer_infos.html", null ],
     [ "Utils::CustomLog", "class_utils_1_1_custom_log.html", null ],
-    [ "CVArucoParams", "class_c_v_aruco_params.html", null ],
-    [ "CVCalibration", "class_c_v_calibration.html", null ],
-    [ "CVCalibrationEstimator", "class_c_v_calibration_estimator.html", null ],
-    [ "CVCalibrationEstimatorParams", "class_c_v_calibration_estimator_params.html", null ],
-    [ "CVCamera", "class_c_v_camera.html", null ],
-    [ "CVFeature2D", null, [
-      [ "CVRaulMurOrb", "class_c_v_raul_mur_orb.html", null ]
-    ] ],
-    [ "CVFeatureManager", "class_c_v_feature_manager.html", null ],
-    [ "CVImage", "class_c_v_image.html", [
-      [ "CVImageGeoTiff", "class_c_v_image_geo_tiff.html", null ]
-    ] ],
-    [ "CVRaulMurExtNode", "class_c_v_raul_mur_ext_node.html", null ],
-    [ "CVTracked", "class_c_v_tracked.html", [
-      [ "CVTrackedAruco", "class_c_v_tracked_aruco.html", [
-        [ "CVTrackedArucoCube", "class_c_v_tracked_aruco_cube.html", null ]
-      ] ],
-      [ "CVTrackedChessboard", "class_c_v_tracked_chessboard.html", null ],
-      [ "CVTrackedFaces", "class_c_v_tracked_faces.html", null ],
-      [ "CVTrackedFeatures", "class_c_v_tracked_features.html", null ],
-      [ "CVTrackedWAI", "class_c_v_tracked_w_a_i.html", null ]
-    ] ],
     [ "DistortionMeshVertexData", "struct_distortion_mesh_vertex_data.html", null ],
     [ "DistortionRenderDesc", "struct_distortion_render_desc.html", null ],
     [ "HmdRenderInfo::EyeConfig", "struct_hmd_render_info_1_1_eye_config.html", null ],
     [ "F2FTransform", "class_f2_f_transform.html", null ],
     [ "Utils::FileLog", "class_utils_1_1_file_log.html", null ],
     [ "GlobalTimer", "class_global_timer.html", null ],
-    [ "glUtils", "classgl_utils.html", null ],
     [ "HighResTimer", "class_high_res_timer.html", null ],
     [ "HmdRenderInfo", "struct_hmd_render_info.html", null ],
     [ "InstrumentationSession", "struct_instrumentation_session.html", null ],
     [ "InstrumentationTimer", "class_instrumentation_timer.html", null ],
     [ "Instrumentor", "class_instrumentor.html", null ],
+    [ "Assimp::IOStream", null, [
+      [ "SLAssimpIOStream", "class_s_l_assimp_i_o_stream.html", null ]
+    ] ],
+    [ "Assimp::IOSystem", null, [
+      [ "SLAssimpIOSystem", "class_s_l_assimp_i_o_system.html", null ]
+    ] ],
     [ "LensConfig", "struct_lens_config.html", null ],
     [ "lightDataStd140", "structlight_data_std140.html", null ],
     [ "WAI::M3x3", "struct_w_a_i_1_1_m3x3.html", null ],
@@ -63,9 +44,6 @@ var hierarchy =
     [ "ProfileResult", "struct_profile_result.html", null ],
     [ "ProfilerTimer", "class_profiler_timer.html", null ],
     [ "ProfilingResult", "struct_profiling_result.html", null ],
-    [ "std::runtime_error", null, [
-      [ "CVCalibrationEstimatorException", "class_c_v_calibration_estimator_exception.html", null ]
-    ] ],
     [ "ScaleAndOffset2D", "struct_scale_and_offset2_d.html", null ],
     [ "HmdRenderInfo::ShutterInfo", "struct_hmd_render_info_1_1_shutter_info.html", null ],
     [ "SLAABBox", "class_s_l_a_a_b_box.html", null ],
@@ -114,8 +92,6 @@ var hierarchy =
       ] ],
       [ "SLTexColorLUT", "class_s_l_tex_color_l_u_t.html", null ]
     ] ],
-    [ "CVTrackedFeatures::SLFeatureMarker2D", "struct_c_v_tracked_features_1_1_s_l_feature_marker2_d.html", null ],
-    [ "CVTrackedFeatures::SLFrameData", "struct_c_v_tracked_features_1_1_s_l_frame_data.html", null ],
     [ "SLFrustum", "class_s_l_frustum.html", null ],
     [ "SLGLAttribute", "struct_s_l_g_l_attribute.html", null ],
     [ "SLGLFbo", "class_s_l_g_l_fbo.html", null ],
@@ -141,6 +117,8 @@ var hierarchy =
     ] ],
     [ "SLInputEventInterface", "class_s_l_input_event_interface.html", null ],
     [ "SLInputManager", "class_s_l_input_manager.html", null ],
+    [ "SLIOBuffer", "struct_s_l_i_o_buffer.html", null ],
+    [ "SLIOStream", "class_s_l_i_o_stream.html", null ],
     [ "SLLight", "class_s_l_light.html", [
       [ "SLLightDirect", "class_s_l_light_direct.html", null ],
       [ "SLLightRect", "class_s_l_light_rect.html", null ],

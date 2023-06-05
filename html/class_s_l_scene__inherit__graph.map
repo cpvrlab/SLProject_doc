@@ -1,4 +1,4 @@
 <map id="SLScene" name="SLScene">
-<area shape="rect" id="node1" title="The SLScene class represents the top level instance holding the scene structure." alt="" coords="6,80,81,107"/>
-<area shape="rect" id="node2" href="$class_s_l_object.html" title="Base class for all other classes." alt="" coords="5,5,81,32"/>
+<area shape="rect" id="node1" title="The SLScene class represents the top level instance holding the scene structure." alt="" coords="6,81,80,109"/>
+<area shape="rect" id="node2" href="$class_s_l_object.html" title="Base class for all other classes." alt="" coords="5,5,81,33"/>
 </map>

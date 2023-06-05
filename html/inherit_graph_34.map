@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$struct_profile_result.html" title=" " alt="" coords="5,5,103,32"/>
+<area shape="rect" id="node1" href="$class_s_l_anim_track.html" title="Abstract base class for SLAnimationTracks providing time and keyframe functions." alt="" coords="5,5,106,33"/>
+<area shape="rect" id="node2" href="$class_s_l_node_anim_track.html" title="Specialized animation track for node animations." alt="" coords="154,5,285,33"/>
 </map>

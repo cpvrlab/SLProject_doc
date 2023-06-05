@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$struct_scale_and_offset2_d.html" title=" " alt="" coords="5,5,136,32"/>
+<area shape="rect" id="node1" href="$class_s_l_curve.html" title="Base class for curves defined by multiple 3D points." alt="" coords="5,5,78,33"/>
+<area shape="rect" id="node2" href="$class_s_l_curve_bezier.html" title="The SLCurveBezier class implements a Bezier curve interpolation." alt="" coords="126,5,235,33"/>
 </map>

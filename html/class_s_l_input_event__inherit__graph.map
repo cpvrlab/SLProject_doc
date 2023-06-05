@@ -1,10 +1,10 @@
 <map id="SLInputEvent" name="SLInputEvent">
-<area shape="rect" id="node1" title="Baseclass for all system input events." alt="" coords="5,157,107,184"/>
-<area shape="rect" id="node2" href="$class_s_l_char_input_event.html" title="Specialized SLInput class for unicode character input." alt="" coords="183,5,313,32"/>
-<area shape="rect" id="node3" href="$class_s_l_key_event.html" title="Specialized SLInput class for all keypress related input events." alt="" coords="201,56,295,83"/>
-<area shape="rect" id="node4" href="$class_s_l_mouse_event.html" title="Specialized SLInput class for all mouse related input events." alt="" coords="193,107,303,133"/>
-<area shape="rect" id="node5" href="$class_s_l_resize_event.html" title="Specialized SLInput class for window resize events." alt="" coords="191,157,305,184"/>
-<area shape="rect" id="node6" href="$class_s_l_rotation_event.html" title="Specialized SLInput class for all device rotation related input events." alt="" coords="187,208,309,235"/>
-<area shape="rect" id="node7" href="$class_s_l_scr_capture_request_event.html" title="Specialized SLInput class to trigger a screen capture." alt="" coords="155,259,341,285"/>
-<area shape="rect" id="node8" href="$class_s_l_touch_event.html" title="Specialized SLInput class for touch related input events." alt="" coords="195,309,301,336"/>
+<area shape="rect" id="node1" title="Baseclass for all system input events." alt="" coords="5,161,106,189"/>
+<area shape="rect" id="node2" href="$class_s_l_char_input_event.html" title="Specialized SLInput class for unicode character input." alt="" coords="183,5,311,33"/>
+<area shape="rect" id="node3" href="$class_s_l_key_event.html" title="Specialized SLInput class for all keypress related input events." alt="" coords="200,57,294,85"/>
+<area shape="rect" id="node4" href="$class_s_l_mouse_event.html" title="Specialized SLInput class for all mouse related input events." alt="" coords="192,109,302,137"/>
+<area shape="rect" id="node5" href="$class_s_l_resize_event.html" title="Specialized SLInput class for window resize events." alt="" coords="191,161,303,189"/>
+<area shape="rect" id="node6" href="$class_s_l_rotation_event.html" title="Specialized SLInput class for all device rotation related input events." alt="" coords="187,213,307,241"/>
+<area shape="rect" id="node7" href="$class_s_l_scr_capture_request_event.html" title="Specialized SLInput class to trigger a screen capture." alt="" coords="154,265,340,293"/>
+<area shape="rect" id="node8" href="$class_s_l_touch_event.html" title="Specialized SLInput class for touch related input events." alt="" coords="194,317,300,345"/>
 </map>

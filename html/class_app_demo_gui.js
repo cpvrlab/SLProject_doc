@@ -11,6 +11,7 @@ var class_app_demo_gui =
     [ "downloadModelAndLoadScene", "class_app_demo_gui.html#a15872418405cbb4cbff14b9cdd4b5318", null ],
     [ "hideHorizon", "class_app_demo_gui.html#ad41802e56ee884cc7b4ce7b75e1e9113", null ],
     [ "loadConfig", "class_app_demo_gui.html#a03ee0055db16be7aca475f80797d83c7", null ],
+    [ "loadSceneWithLargeModel", "class_app_demo_gui.html#a2df2097a94c076e396bd35eabeaf506d", null ],
     [ "removeTransformNode", "class_app_demo_gui.html#a99596034ca659c65dcab599760e1bd9b", null ],
     [ "saveConfig", "class_app_demo_gui.html#a24d47341d0a9ce6d9032e68ba9f6bc45", null ],
     [ "setActiveNamedLocation", "class_app_demo_gui.html#a907cc7f1289211b5abeec056fa79e2e4", null ],
